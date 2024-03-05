@@ -1,0 +1,919 @@
+<testset>
+<test>
+<data>
+INSPIRON
+INSTALLATIONSHANDBOK
+
+™
+
+INSPIRON
+INSTALLATIONSHANDBOK
+
+™
+
+Regelmodell: D03U-serien
+
+Regeltyp: D03U001
+
+Obs, viktigt och varningar
+OBS! Den här symbolen indikerar viktig information som kan hjälpa dig att få ut mer av din dator. VIKTIGT! Den här symbolen indikerar risk för skada på maskinvaran eller förlust av data, samt ger information om hur du undviker problemet. VARNING! Den här symbolen indikerar risk för skada på egendom eller person, eller livsfara.
+Om du har köpt en Dell™ n Series-dator gäller inte den information i detta dokument som rör operativsystemet Microsoft® Windows®. __________________ Informationen i detta dokument kan ändras utan föregående meddelande. © 2010 Dell Inc. Med ensamrätt. Återgivning i någon form utan skriftligt tillstånd från Dell Inc. är strängt förbjuden. Varumärken som används i den här texten: Dell, DELL-logotypen, YOURS IS HERE, Solution Station, Inspiron och DellConnect är varumärken som tillhör Dell Inc.; AMD, AMD Athlon, AMD Turion, AMD Phenom och ATI Mobility Radeon är varumärken som tillhör Advanced Micro Devices, Inc.; Microsoft, Windows och startknappslogotypen i Windows är antingen varumärken eller registrerade varumärken som tillhör Microsoft Corporation i USA och/eller andra länder; Blu-ray Disc är ett varumärke som tillhör Blu-ray Disc Association; Ubuntu är ett registrerat varumärke som tillhör Canonical Ltd. Övriga varumärken kan användas i dokumentet och hänvisar då antingen till de enheter som gör anspråk på varumärkena eller till deras produkter. Dell Inc. frånsäger sig allt ägarintresse av andra varumärken än sina egna.
+
+Maj 2010
+
+Artikelnummer KJKYG
+
+Rev. A00
+
+Innehåll
+Konfigurera din Inspiron-dator. . . . . . . . . . 5
+Innan du konfigurerar datorn . . . . . . . . . . . .5 Ansluta bildskärmen . . . . . . . . . . . . . . . . . . . .6 Konfigurera hemmabion (tillval) . . . . . . . . . . .8 Ansluta tangentbordet och musen. . . . . . . . 13 Ansluta nätverkskabeln (valfritt) . . . . . . . . . 14 Ansluta nätadaptern . . . . . . . . . . . . . . . . . . . 15 Tryck på strömbrytaren . . . . . . . . . . . . . . . . . 16 Konfigurera operativsystemet . . . . . . . . . . . 17 Skapa systemåterställningsmedia (rekommenderas). . . . . . . . . . . . . . . . . . . . . . 18 Ansluta till Internet (valfritt) . . . . . . . . . . . . . 19 Dell Dock . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 Dell DataSafe Online Backup . . . . . . . . . . . . 31
+
+Lösa problem . . . . . . . . . . . . . . . . . . . . . . . 32
+Signalkoder . . . . . . . . . . . . . . . . . . . . . . . . . . 32 Problem med nätverk. . . . . . . . . . . . . . . . . . . 33 Problem med strömförsörjningen. . . . . . . . . 34 Problem med minne . . . . . . . . . . . . . . . . . . . 35 Problem med att datorn eller programvara hänger sig . . . . . . . . . . . . . . . . 36
+
+Använda supportverktyg . . . . . . . . . . . . . . 39
+Dells supportcenter . . . . . . . . . . . . . . . . . . . . 39 My Dell Downloads . . . . . . . . . . . . . . . . . . . . 40 Systemmeddelanden . . . . . . . . . . . . . . . . . . . 40 Felsökaren för maskinvara . . . . . . . . . . . . . . 43 Dell Diagnostics . . . . . . . . . . . . . . . . . . . . . . 43
+
+Använda din Inspiron-dator . . . . . . . . . . . 22
+Framsida . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 Ovansida . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24 Baksida . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26 Programfunktioner. . . . . . . . . . . . . . . . . . . . . 29
+
+3
+
+Innehåll
+
+Återställa operativsystemet . . . . . . . . . . . 47
+Systemåterställning. . . . . . . . . . . . . . . . . . . . 48 Dell DataSafe Local Backup . . . . . . . . . . . . . 49 Systemåterställningsmedia . . . . . . . . . . . . . 52 Dell Factory Image Restore . . . . . . . . . . . . . 53
+
+Mer information och resurser. . . . . . . . . . 64 Specifikationer. . . . . . . . . . . . . . . . . . . . . . 66 Bilaga . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71
+Om Macrovision-produkter. . . . . . . . . . . . . . 71 Information för NOM, eller officiell mexikansk standard (endast för Mexiko) . . . 72
+
+Få hjälp . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55
+Teknisk support och kundtjänst . . . . . . . . . . 56 DellConnect . . . . . . . . . . . . . . . . . . . . . . . . . . 56 Online-tjänster . . . . . . . . . . . . . . . . . . . . . . . . 57 Automatisk orderuppföljningstjänst. . . . . . . 58 Produktinformation . . . . . . . . . . . . . . . . . . . . 58 Returnera produkter för garantireparation eller för att få pengarna tillbaka . . . . . . . . . . . . . . . . . . . . . . 59 Innan du ringer. . . . . . . . . . . . . . . . . . . . . . . . 61 Kontakta Dell . . . . . . . . . . . . . . . . . . . . . . . . . 63
+
+Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
+
+4
+
+INSPIRON
+
+Konfigurera din Inspiron-dator
+I det här avsnittet får du information om hur du konfigurerar din stationära Dell™ Inspiron™dator. VARNING! Innan du utför någon av åtgärderna i det här avsnittet ska du läsa igenom och följa säkerhetsinstruktionerna som medföljde datorn. Mer säkerhetsinformation finns på hemsidan för regelefterlevnad på www.dell.com/regulatory_compliance.
+
+Innan du konfigurerar datorn
+Se till att det finns ett strömuttag lättillgängligt och tillräcklig ventilation på den plats där du placerar datorn. Den bör placeras på en plan yta. Om luftcirkulationen runt datorn hindras kan det leda till att datorn överhettas. Förhindra att datorn överhettas genom att lämna ett mellanrum på minst 10 cm bakom datorn och minst 5 cm på sidorna. Förvara aldrig datorn i ett tillslutet utrymme, till exempel ett skåp eller en låda, när den är påslagen.
+
+5
+
+Konfigurera din Inspiron-dator
+
+Ansluta bildskärmen
+OBS! Du kan även ansluta datorn till TV:n. Mer information finns i "Konfigurera hemmabion (tillval)" på sidan 8.
+Anslut bildskärmen med den integrerade VGA-kontakten eller HDMI-kontakten. För bästa resultat rekommenderas att du ansluter bildskärmen med HDMI-kontakten. Du kan köpa en HDMI-till-DVI-adapter och extra HDMI-kablar på www.dell.com.
+
+Använd en kabel som passar för kontakterna på din dator och bildskärm. Använd följande tabell för att identifiera kontakterna på din dator och bildskärm. OBS! Om du ansluter en enda bildskärm ska du endast ansluta bildskärmen till en av kontakterna på din dator.
+
+6
+
+Konfigurera din Inspiron-dator
+
+Anslutningstyp VGA-till-VGA (VGA-kabel) HDMI-till-HDMI (HDMI-kabel) HDMI-till-DVI (HDMI-till-DVIadapter + DVI-kabel)
+
+Dator
+
+Kabel
+
+Bildskärm
+
+7
+
+Konfigurera din Inspiron-dator
+
+Konfigurera hemmabion (tillval)
+Du kan konfigurera hemmabion genom att ansluta datorn till en plattskärm direkt eller genom en ljud-/bildmottagare med hjälp av HDMI-kablar.
+
+OBS! HDMI-kablarna medföljer inte datorn och måste köpas separat. Du kan köpa HDMIkablarna på www.dell.com.
+
+Ansluta direkt till plattskärmen
+1. Anslut tangentbordet och musen (se "Ansluta tangentbordet och musen" på sidan 13) 2. För ljud- och bildutmatning: Anslut ena änden av HDMI-kabeln till HDMI-kontakten på datorn och den andra änden till en ledig HDMI-kontakt på plattskärmen. 3. För ytterligare ljudutmatning (tillval): Anslut den analoga 2.1-ljudkabeln till linjeutgången på datorn och till 2.1-kanalshögtalarna.
+
+8
+
+Konfigurera din Inspiron-dator
+
+Ljud/bild Plattskärm Linjeutgång Analogt 2.1-ljud Tillval
+
+2.1-kanalshögtalare
+
+9
+
+Konfigurera din Inspiron-dator
+
+Ansluta till plattskärmen genom ljud-/bildmottagaren
+1. Anslut tangentbordet och musen (se "Ansluta tangentbordet och musen" på sidan 13) 2. För ljud- och bildutmatning: a. Anslut ena änden av HDMI-kabeln till HDMI-kontakten på datorn och den andra änden till en ledig HDMI-kontakt på ljud-/bildmottagaren. b. Anslut ena änden av HDMI-kabeln till HDMI-kontakten på ljud-/bildmottagaren och den andra änden till en ledig HDMI-kontakt på plattskärmen. 3. För ytterligare ljudutmatning (tillval): – Analogt 2.1-ljud: Anslut den analoga 2.1-ljudkabeln till linjeutgången på datorn och till 2.1-kanalshögtalarna. – Digitalt 7.1-ljud: a. Anslut ena änden av den optiska S/PDIF-kabeln till den optiska S/PDIF-kontakten på datorn och den andra änden till en ledig optisk S/PDIF-kontakt på ljud-/bildmottagaren. b. Anslut 7.1-ljudkanalkablarna från ljud-/bildmottagaren till 7.1-kanalshögtalarna.
+
+10
+
+Konfigurera din Inspiron-dator
+
+Ljud/bild Optisk S/PDIF, digitalt 7.1-ljud Linjeutgång, analogt 2.1-ljud A/V-mottagare
+
+Ljud/bild Plattskärm
+
+Tillval
+
+7.1-kanalshögtalare 2.1-kanalshögtalare
+
+Tillval
+
+11
+
+Konfigurera din Inspiron-dator
+
+Anpassa skalningsinställningen för bildskärmen
+Med skalningsinställningen kan du passa in bilden på bildskärmen. Så här anpassar du skalningsinställningen: 1. Kontrollera att datorn är påslagen. 2. Klicka på Start → Alla program→ Catalyst Control Center→ CCC. 3. I fönstret Catalyst™ Control Center klickar du på Grafik→ Skrivbord och bildskärmar. 4. I fönstret Skrivbord och bildskärmar högerklickar du på den bildskärm som du vill konfigurera. 5. Välj Konfigurera.... 6. I fönstret som visas väljer du fliken Skalningsalternativ. 7. Anpassa skalningen så att bilden passar in på bildskärmen. 8. Klicka på OK.
+
+12
+
+Konfigurera din Inspiron-dator
+
+Ansluta tangentbordet och musen
+Anslut USB-tangentbordet och USB-musen till USB-kontakterna på datorns baksida.
+
+OBS! Om du har köpt ett Dell Wireless Trackball Keyboard hittar du information om hur du konfigurerar det trådlösa tangentbordet i den medföljande dokumentationen.
+
+13
+
+Konfigurera din Inspiron-dator
+
+Ansluta nätverkskabeln (valfritt)
+Det krävs ingen nätverksanslutning för att slutföra konfigurationen, men om du har ett befintligt nätverk eller en Internetuppkoppling som ansluts med nätverkskabeln (till exempel en bredbandsenhet eller ett Ethernet-uttag) kan du ansluta kabeln nu. OBS! Använd endast en Ethernet-kabel för att ansluta till nätverkskontakten (RJ45-kontakt). Anslut inte en telefonkabel (RJ11-kontakt) till nätverkskontakten. Du ansluter datorn till ett nätverk eller en bredbandsenhet genom att ansluta ena änden av nätverkskabeln till nätverksporten eller till bredbandsenheten. Anslut den andra änden av nätverkskabeln till nätverkskontakten (RJ45-kontakt) på datorns baksida. När nätverkskabeln klickar till sitter den ordentligt.
+
+14
+
+Konfigurera din Inspiron-dator
+
+Ansluta nätadaptern
+
+15
+
+Konfigurera din Inspiron-dator
+
+Tryck på strömbrytaren
+
+16
+
+Konfigurera din Inspiron-dator
+
+Konfigurera operativsystemet
+Din dator är förkonfigurerad med det operativsystem som du valde vid inköpstillfället.
+
+VIKTIGT! Avbryt inte operativsystemets installationsprocess. Det kan leda till att datorn slutar att fungera och att du måste installera om operativsystemet. OBS! Det rekommenderas att du hämtar och installerar den senaste BIOS-versionen och de senaste drivrutinerna för din dator. De finns att hämta på support.dell.com. OBS! Mer information om operativsystemet och dess funktioner finns på support.dell.com/MyNewDell.
+
+Konfigurera Microsoft Windows
+Följ anvisningarna på skärmen för att installera Microsoft® Windows®. Dessa steg är obligatoriska och kan ta en stund att slutföra. Du godkänner till exempel licensavtal, gör andra inställningar och skapar en Internetanslutning.
+
+Konfigurera Ubuntu Linux
+Konfigurera Ubuntu Linux genom att följa anvisningarna på skärmen.
+
+17
+
+Konfigurera din Inspiron-dator
+
+Skapa systemåterställningsmedia (rekommenderas)
+OBS! Vi rekommenderar att du skapar systemåterställningsmedia omedelbart efter det att du har installerat Microsoft Windows. Systemåterställningsmedia kan användas för att återställa datorn till det driftläge den befann sig i då datorn köptes samtidigt som datafiler bevaras (utan behov av skivan med operativsystemet). Du kan använda systemåterställningsmedia om ändringar av maskinvara, programvara, drivrutiner eller andra systeminställningar försätter datorn i ett oönskat driftläge. Du behöver följande för att skapa systemåterställningsmedia: •	Dell DataSafe Local Backup
+
+•	USB-minne med en kapacitet på minst 8 GB eller DVD-R/DVD+R/Blu-ray Disc™ OBS! Dell DataSafe Local Backup har inte stöd för omskrivbara skivor. Så här skapar du systemåterställningsmedia: 1. Kontrollera att datorn är påslagen. 2. Mata in skivan eller USB-minnet i datorn. → Program→ Dell 3. Klicka på Start DataSafe Local Backup. 4. Klicka på Create Recovery Media (Skapa återställningsmedia). 5. Följ anvisningarna på skärmen. OBS! Se "Systemåterställningsmedia" på sidan 52 för mer information om hur du använder systemåterställningsmedia.
+
+18
+
+Konfigurera din Inspiron-dator
+
+Ansluta till Internet (valfritt)
+Innan du kan ansluta till Internet måste du ha ett modem eller en nätverksanslutning och ett avtal med en Internetleverantör. Om du inte valde att få med ett externt USB-modem eller en WLAN-adapter i din första beställning kan du beställa det nu på www.dell.com.
+
+Slutför konfigurationen av den fasta Internetanslutningen genom att följa anvisningarna i "Konfigurera Internetanslutningen" på sidan 20.
+
+Konfigurera en trådlös Internetanslutning
+OBS! Se dokumentationen som levererades tillsammans med routern för information om hur du konfigurerar den trådlösa routern. Innan du kan använda en trådlös Internetanslutning måste du ansluta datorn till den trådlösa nätverksroutern. Så här ansluter du till en router för trådlöst nätverk:
+
+Konfigurera en fast anslutning
+•	Om du använder en uppringd anslutning ansluter du telefonkabeln till det externa USB-modemet (tillval) och till telefonjacket innan du skapar Internetanslutningen på datorn. •	Om du använder en DSL- eller kabel-/ satellitmodemanslutning kontaktar du Internetleverantören eller mobiltelefontjänsteleverantören för närmare konfigurationsanvisningar.
+
+Windows® 7
+1. Spara och stäng alla öppna filer och avsluta alla öppna program. 2. Klicka på Start → Kontrollpanelen.
+
+19
+
+Konfigurera din Inspiron-dator
+
+3. Skriv nätverk i sökrutan och klicka sedan på Nätverks- och delningscenter→ Anslut till ett nätverk. 4. Slutför konfigurationen genom att följa anvisningarna på skärmen.
+
+Konfigurera Internetanslutningen
+Internetleverantörer och Internettjänster kan variera för olika länder. Kontakta din Internetleverantör för erbjudanden i ditt land. Om du inte kan ansluta till Internet och det har gått att göra det tidigare kan Internetleverantören ha problem med sin tjänst. Kontakta Internetleverantören för information om tjänstens tillgänglighet eller försök igen senare. Ha informationen från Internetleverantören nära till hands. Om du inte har en Internetleverantör hjälper guiden Anslut till Internet dig att hitta en.
+
+Windows Vista®
+1. Spara och stäng alla öppna filer och avsluta alla öppna program. 2. Klicka på Start →Anslut till. 3. Slutför konfigurationen genom att följa anvisningarna på skärmen.
+
+20
+
+Konfigurera din Inspiron-dator
+
+Så här konfigurerar du Internetanslutningen:
+
+Windows Vista
+1. Spara och stäng alla öppna filer och avsluta alla öppna program. 2. Klicka på Start → Kontrollpanelen. 3. Skriv nätverk i sökrutan och klicka sedan på Nätverks- och delningscenter→ Skapa en anslutning eller ett nätverk→ Anslut till Internet. Fönstret Anslut till Internet visas. OBS! Om du inte vet vilken typ av anslutning du ska välja klickar du på Hjälp mig välja eller kontaktar din Internetleverantör. 4. Följ anvisningarna på skärmen och använd konfigurationsinformationen från din Internetleverantör för att slutföra konfigurationen.
+
+Windows 7
+1. Spara och stäng alla öppna filer och avsluta alla öppna program. 2. Klicka på Start → Kontrollpanelen. 3. Skriv nätverk i sökrutan och klicka sedan på Nätverks- och delningscenter→ Skapa en ny anslutning eller ett nytt nätverk→ Anslut till Internet. Fönstret Anslut till Internet visas. OBS! Om du inte vet vilken typ av anslutning du ska välja klickar du på Hjälp mig välja eller kontaktar din Internetleverantör. 4. Följ anvisningarna på skärmen och använd konfigurationsinformationen från din Internetleverantör för att slutföra konfigurationen.
+
+21
+
+INSPIRON
+
+Använda din Inspiron-dator
+I det här avsnittet hittar du information om funktionerna på din Inspiron™-dator.
+
+Framsida
+1 2
+
+6
+
+5
+
+4
+
+3
+
+22
+
+Använda din Inspiron-dator
+
+1 Optisk enhet (tillval) – Spelar upp eller spelar in CD- och DVD-skivor av standardformat (12 cm) och Blu-ray-skivor. Om du vill sätta i eller ta ut en skiva trycker du på utmatningsknappen för den optiska enheten och drar sedan ut den optiska enhetens släde. 2 Utmatningsknapp för optisk enhet – Knapp för att öppna den optiska enhetens släde. 3 IR-sensor (tillval) – Identifierar enheter (till exempel fjärrkontroller) som använder infraröda signaler. 4 4-i-1-minneskortläsare – Ett snabbt och enkelt sätt att visa och dela digitala foton, musik, filmer och dokument lagrade på minneskort. OBS! Datorn levereras med ett tomt plastkort på kortplatsen. Tomma kort skyddar lediga kortplatser mot damm och smuts. Spara plastkortet så att du kan använda det när inget minneskort sitter i. Plastkort från andra datorer kanske inte passar din dator. 5 USB 2.0-kontakter (2) – Anslutning för USB-enheter, till exempel USB-minnen, digitalkameror och MP3-spelare. Hörlurskontakt – Anslutning för hörlurar. OBS! Om du vill ansluta externa högtalare eller en ljudanläggning använder du ljud- eller S/ PDIF-kontakten på datorns baksida.
+
+6
+
+23
+
+Använda din Inspiron-dator
+
+Ovansida
+
+1
+
+24
+
+Använda din Inspiron-dator
+
+1
+
+Strömknapp och strömlampa – Tryck på knappen för att slå på och stänga av datorn. Lampan på knappen indikerar datorns strömstatus enligt följande: •	Av – datorn är antingen avstängd eller i viloläge, eller får ingen ström. •	Vitt ljus – datorn är på. •	Gult ljus – datorn är i viloläge eller det är fel på moderkortet eller strömförsörjningen. •	Blinkande gult ljus – det kan vara fel på moderkortet eller strömförsörjningen. OBS! Mer information om strömförsörjningsproblem finns i "Problem med strömförsörjningen" på sidan 34.
+
+25
+
+Använda din Inspiron-dator
+
+Baksida
+
+1 2 3 4
+
+5
+
+6 7
+
+11
+
+10 9
+
+8
+
+26
+
+Använda din Inspiron-dator
+
+1 2
+
+Frigöringsknapp för topphöljet – Tryck på knappen för att öppna datorkåpan. eSATA-kontakter (2) – Anslutning för SATA- eller eSATA-kompatibla lagringsenheter (till exempel externa hårddiskar eller optiska enheter) eller USB-enheter (till exempel mus, tangentbord, skrivare, extern hårddisk eller MP3-spelare). VGA-kontakt – Anslutning till videoenheter, till exempel en bildskärm eller projektor. Nätverkskontakt – Ansluter datorn till ett nätverk eller en bredbandsenhet. Linjeutgångskontakt – Anslutning för hörlurar och högtalare med inbyggda förstärkare. Mikrofonkontakt – Anslutning för en mikrofon för röst- eller ljudöverföring till ett ljudeller telefonprogram.
+
+3 4 5 6
+
+7 Optisk S/PDIF-kontakt – Anslutning till förstärkare, högtalare eller TV-apparater för digital ljudutmatning via optiska digitala kablar. Det här formatet skickar en ljudsignal utan att konvertera till analogt ljud. 8 USB 2.0-kontakter (2) – Anslutning för USB-enheter, till exempel mus, tangentbord, skrivare, extern hårddisk eller MP3-spelare.
+
+27
+
+Använda din Inspiron-dator
+
+9 10
+
+Nätadapterkontakt – Anslutning för nätadapter som ger datorn ström. HDMI-kontakt – Anslutning till en TV för både 2.1-ljud och videosignaler. OBS! Om både HDMI- och linjeutgångskontakterna är anslutna går ljudet via linjeutgångskontakterna (analoga) och inte via HDMI-kontakten.
+
+11
+
+Hårddisklampa – Lyser när datorn läser eller skriver data. Ett vitt ljus indikerar att hårddisken arbetar. VIKTIGT! Stäng aldrig av datorn när hårddisklampan blinkar. Det kan leda till förlust av data.
+
+28
+
+Använda din Inspiron-dator
+
+Programfunktioner
+OBS! Mer information om de funktioner som beskrivs i det här avsnittet finns i Dells teknikhandbok på support.dell.com/manuals eller på följande plats:
+
+Underhållning och multimedia
+Du kan använda datorn för att se på film, spela spel, skapa egna CD-skivor, lyssna på musik och radiostationer. Den optiska diskenheten stöder flera olika skivformat, till exempel CD, DVD och Blu-ray (om det tillvalet har valts vid inköpstillfället). Du kan hämta eller kopiera bilder och videofiler från bärbara enheter som digitalkameror och mobiltelefoner. Med hjälp av andra program som finns som tillval kan du organisera och skapa musik- och videofiler som kan spelas in på en skiva eller sparas på bärbara enheter, till exempel MP3-spelare och andra handhållna enheter, eller spelas upp och visas direkt på en ansluten TV, projektor eller storbildsskärm.
+
+Windows® 7: Start → Alla program→ Dell Help Documentation (hjälpdokumentation från Dell) Windows Vista : Start support→ Dell EDocs
+®
+
+→ Hjälp och
+
+Produktivitet och kommunikation
+Du kan använda datorn för att skapa presentationer, broschyrer, gratulationskort, flygblad och kalkylblad. Du kan också redigera och visa digitala foton och bilder. Kontrollera i specifikationen på inköpskvittot vilka program som är installerade på datorn. När du anslutit datorn till Internet kan du besöka webbsidor, skapa ett e-postkonto och ladda upp eller hämta filer.
+
+29
+
+Använda din Inspiron-dator
+
+Dell Dock
+Dell Dock är en grupp ikoner som ger enkel tillgång till program, filer och mappar som du använder ofta. Du kan anpassa Dock genom att: •	Ändra färg och plats på Dell Dock •	Lägga till eller ta bort ikoner •	Gruppera relaterade ikoner i kategorier •	Ändra ikonernas beteende
+
+Lägga till en kategori
+1. Högerklicka på Dell Dock och klicka på Add → Category (Lägg till kategori). Fönstret Add/Edit Category (Lägg till/ redigera kategori) visas. 2. Ange en titel för kategorin i fältet Title (Titel). 3. Välj en ikon för kategorin i rutan Select an image (Välj en bild). 4. Klicka på Save (Spara).
+
+Ta bort en kategori eller ikon
+1. Högerklicka på kategorin eller ikonen på Dell Dock och klicka sedan på Delete shortcut (Ta bort genväg) eller Delete category (Ta bort kategori). 2. Följ anvisningarna på skärmen.
+
+Anpassa Dock
+1. Högerklicka på Dell Dock och klicka sedan på Advanced Setting... (Avancerad inställning). 2. Välj önskade alternativ för hur du vill anpassa Dell Dock.
+
+Lägga till en ikon
+Dra och släpp ikonen i Dell Dock eller i en kategori.
+
+30
+
+Använda din Inspiron-dator
+
+Dell DataSafe Online Backup
+OBS! Dell DataSafe Online är kanske inte tillgängligt i alla regioner. OBS! För snabbare överföring och hämtning rekommenderas att du har en bredbandsanslutning. Dell DataSafe Online är en tjänst för automatisk säkerhetskopiering och återställning som hjälper till att skydda dina data och andra viktiga filer vid oförutsägbara händelser, till exempel stöld, brand eller naturkatastrofer. Du kan få åtkomst till tjänsten på din dator genom att använda ett lösenordsskyddat konto. Mer information finns på delldatasafe.com. Så här schemalägger du säkerhetskopieringen: 1. Dubbelklicka på ikonen Online i aktivitetsfältet. för Dell DataSafe
+
+2. Följ anvisningarna som visas på skärmen.
+
+31
+
+INSPIRON
+
+Lösa problem
+Här hittar du information om vad du ska göra om något fel på datorn skulle inträffa. Om du inte kan lösa problemet med hjälp av anvisningarna här, går du till "Använda supportverktyg" på sidan 39 eller till "Kontakta Dell" på sidan 63. VARNING! Endast kvalificerade tekniker får ta bort höljet från datorn. Se Servicehandboken på support.dell.com/manuals för mer avancerade serviceinstruktioner. Pipkod Ett Möjligt problem Möjligt fel på moderkortet – Felaktig kontrollsumma för BIOS-ROM Inget RAM har identifierats OBS! Om du har installerat eller bytt ut minnesmodulen kontrollerar du att den är ansluten ordentligt. Tre Fyra Fem Sex Möjligt fel på moderkortet – Kretsuppsättningsfel Fel vid läsning från/skrivning till RAM-minne Fel på realtidsklockan Fel på grafikkortet eller grafikkretsen
+
+Två
+
+Signalkoder
+Datorn kan avge ett antal signaler (pip) under starten om fel eller problem uppstår. Ljudsignalerna, som kallas pipkoder, indikerar ett problem. Skriv ned pipkoden och kontakta Dell (se "Kontakta Dell" på sidan 63). OBS! Om du behöver byta ut delar finns information i Servicehandboken på support.dell.com/manuals.
+
+32
+
+Lösa problem
+
+Problem med nätverk
+Trådlösa anslutningar
+Om nätverksanslutningen försvinner – Den trådlösa routern är offline eller så har det trådlösa nätverket inaktiverats på datorn. •	Kontrollera att routern är påslagen och ansluten till datakällan (kabelmodem eller nätverkshubb). •	Återupprätta anslutningen till den trådlösa routern (se "Konfigurera en trådlös anslutning" på sidan 19).
+
+Fasta nätverksanslutningar
+Om nätverksanslutningen försvinner – •	Kontrollera att kontakten sitter i ordentligt och inte är skadad. •	Kontrollera statusindikatorn för länkintegritet. Indikatorlamporna för länkintegritet vid den inbyggda nätverkskontakten visar om anslutningen fungerar och ger information om dess status: •	Släckt – Datorn har ingen fysisk anslutning till nätverket. •	Grön – Anslutningen mellan datorn och ett 10/100 Mbit/s-nätverk är god. •	Gult – Anslutningen mellan datorn och ett 1000 Mbit/s-nätverk fungerar. OBS! Länkintegritetslampan på nätverksporten anger endast status för fasta nätverk. Den anger inte status för trådlösa anslutningar.
+
+33
+
+Lösa problem
+
+Problem med strömförsörjningen
+Om strömindikatorn är släckt – Datorn är antingen avstängd, i viloläge eller får ingen ström. •	Tryck på strömknappen. Datorn återgår till vanlig användning om den är avstängd eller i viloläge. •	Sätt i nätadapterkabeln igen i nätkontakten på datorn och i eluttaget. •	Om nätadaptern är ansluten till en förgreningsdosa kontrollerar du att förgreningsdosan är ansluten till ett eluttag och att den inte är avstängd. •	Ta bort alla eventuella strömskydd, förgreningsdosor och förlängningssladdar och kontrollera att datorn startar som den ska.
+
+•	Kontrollera att eluttaget fungerar genom att ansluta något annat till det, exempelvis en lampa. •	Kontakta Dell om problemet kvarstår (se "Kontakta Dell" på sidan 63). Om strömlampan lyser vitt och datorn inte svarar – Bildskärmen är kanske inte ansluten eller påslagen. •	Kontrollera att bildskärmen är ordentligt ansluten och slå sedan av och på den igen. •	Kontakta Dell om problemet kvarstår (se "Kontakta Dell" på sidan 63). Om strömlampan lyser gult – •	Datorn är i viloläge eller vänteläge. Tryck på någon av tangenterna på tangentbordet, flytta på den anslutna musen eller tryck på strömknappen för att återgå till normalläge. •	Det kan vara fel på moderkortet eller strömförsörjningen. Kontakta Dell om du behöver hjälp (se "Kontakta Dell" på sidan 63).
+
+34
+
+Lösa problem
+
+Om strömlampan blinkar gult – Det kan vara problem med moderkortet eller strömförsörjningen. Kontakta Dell om du behöver hjälp (se "Kontakta Dell" på sidan 63). Om du drabbas av störningar som gör att datorn inte tar emot signaler – En oönskad signal skapar störningar genom att avbryta eller blockera andra signaler. Några möjliga störningskällor är: •	Förlängningssladdar för el, tangentbord och mus. •	För många enheter anslutna till samma grenuttag. •	Flera förgreningsdosor anslutna till samma eluttag.
+
+Problem med minne
+Om du får ett meddelande om otillräckligt minne – •	Spara och stäng alla öppna filer och avsluta alla öppna program som du inte använder för att se om detta löser problemet. •	 I dokumentationen för programvaran finns minimikraven för minne angivet. Installera mer minne om det behövs (se Servicehandboken på support.dell.com/manuals). •	Sätt tillbaka minnesmodulerna (se Servicehandboken på support.dell.com/manuals) för att säkerställa att datorn kommunicerar med minnet. •	Kontakta Dell om problemet kvarstår (se "Kontakta Dell" på sidan 63).
+
+35
+
+Lösa problem
+
+Om andra problem med minnet uppstår – •	Kontrollera att du har följt anvisningarna för installation av minne (se Servicehandboken på support.dell.com/manuals) •	Kontrollera att minnesmodulen är kompatibel med datorn. Datorn har funktioner för DDR3-minne. Mer information om vilken typ av minne som stöds av datorn finns i "Specifikationer" på sidan 66. •	Kör verktyget Dell Diagnostics (se "Dell Diagnostics" på sidan 43). •	Sätt tillbaka minnesmodulerna (se Servicehandboken på support.dell.com/manuals) för att säkerställa att datorn kommunicerar med minnet. •	Kontakta Dell om problemet kvarstår (se "Kontakta Dell" på sidan 63).
+
+Problem med att datorn eller programvara hänger sig
+Om datorn inte startar – Kontrollera att nätadaptern är ordentligt ansluten till datorn och till eluttaget. Om ett program slutar svara – Avsluta programmet: 1. Tryck ner &lt;Ctrl&gt;&lt;Skift&gt;&lt;Esc&gt; samtidigt. 2. Klicka på Program. 3. Klicka på det program som inte längre svarar. 4. Klicka på Avsluta aktivitet. Om ett program ofta slutar att fungera – Läs i dokumentationen till programmet. Avinstallera och installera om programmet om det behövs. OBS! Det finns ofta installationsanvisningar på en CD-skiva eller i dokumentationen till ett program.
+
+36
+
+Lösa problem
+
+Om datorn slutar svara eller om skärmen blir blå – VIKTIGT! Du kan förlora data om du inte kan stänga av datorn på det vanliga sättet via operativsystemet. Om datorn varken svarar på tangenter som trycks ned eller när musen rörs håller du strömbrytaren intryckt i minst 8-10 sekunder tills datorn stängs av. Starta sedan om datorn. Om programmet är avsett för en tidigare version av Microsoft Windows – Kör guiden Programkompatibilitet. Guiden Programkompatibilitet konfigurerar ett program så att det körs i en miljö som liknar en tidigare version av operativsystemet Microsoft® Windows®.
+
+Windows® 7:
+→ Kontrollpanelen→ 1. Klicka på Start Program→ Kör program för tidigare versioner av Windows. 2. Klicka på Nästa när välkomstsidan visas. 3. Följ anvisningarna på skärmen.
+
+Windows Vista®:
+→ Kontrollpanelen→ 1. Klicka på Start Program→ Använd ett äldre program i den här versionen av Windows. 2. Klicka på Nästa när välkomstsidan visas. 3. Följ anvisningarna på skärmen
+
+37
+
+Lösa problem
+
+Om du har andra problem med programvara – •	Säkerhetskopiera filerna omedelbart. •	Använd ett antivirusprogram för att kontrollera att det inte finns virus på hårddisken eller CD-skivorna. •	Spara och stäng alla öppna filer och program och stäng av datorn via Startmenyn . •	Kontrollera dokumentationen till programvaran eller kontakta tillverkaren av programvaran om du behöver mer information: – Kontrollera att programmet är kompatibelt med det operativsystem som är installerat på datorn. – Kontrollera att datorn uppfyller de minimikrav för maskinvara som krävs för att köra programmet. Se dokumentationen för programvaran för mer information.
+
+– Kontrollera att programmet är rätt installerat och konfigurerat. – Kontrollera att drivrutinerna inte står i konflikt med programmet. – Avinstallera och installera om programmet om det behövs.
+
+38
+
+INSPIRON
+
+Använda supportverktyg
+Dells supportcenter
+På Dells supportcenter hittar du den service, support och systemspecifika information som du behöver. Starta programmet genom att klicka på ikonen i aktivitetsfältet. På startsidan för Dells supportcenter visas datorns modellnummer, dess servicenummer, expresskod och servicekontaktinformation. Startsidan innehåller länkar till: Självhjälp (felsökning, säkerhet, systemprestanda, nätverk/Internet, säkerhetskopiering/ återställning och Windows operativsystem) Varningar (tekniska supportvarningar som gäller datorn) Hjälp från Dell (teknisk support med DellConnect™, kundtjänst, utbildning och självstudier, detaljerade anvisningar med Solution Station™ och online-genomsökning med PC CheckUp) Om datorn (systemdokumentation, garantiinformation, systeminformation, uppgraderingar och tillbehör) Mer information om Dells supportcenter och de supportverktyg som finns tillgängliga får du om du klickar på fliken Services (tjänster) på support.dell.com.
+
+39
+
+Använda supportverktyg
+
+My Dell Downloads
+OBS! My Dell Downloads är kanske inte tillgängligt i alla regioner. För vissa förinstallerade program på din nya dator medföljer ingen säkerhetskopia på CD eller DVD. Sådan programvara finns tillgänglig på My Dell Downloads. Från den här webbplatsen kan du hämta tillgänglig programvara för ominstallation eller skapa dina egna säkerhetskopieringsmedia. Så här registrerar du dig och använder My Dell Downloads: 1. Gå till downloadstore.dell.com/media. 2. Följ anvisningarna på skärmen för att registrera dig och hämta programmet. 3. Installera om programmet eller skapa en säkerhetskopia för framtida bruk.
+
+Systemmeddelanden
+Om ett problem eller fel uppstår i datorn visas kanske ett systemmeddelande med information som kan hjälpa dig att identifiera orsaken och åtgärda problemet. OBS! Om meddelandet som visas inte finns med bland följande exempel kan du läsa i dokumentationen för antingen operativsystemet eller för det program som kördes när meddelandet visades. Se även Dells teknikhandbok på hårddisken eller på support.dell.com/manuals eller avsnittet "Kontakta Dell" på sidan 63 om du behöver hjälp.
+
+40
+
+Använda supportverktyg
+
+Alert! Previous attempts at booting this system have failed at checkpoint [nnnn]. For help in resolving this problem, please note this checkpoint and contact Dell Technical Support (Varning! Tidigare försök att starta systemet har misslyckats vid kontrollpunkten [nnnn]. Notera kontrollpunkten och kontakta Dells tekniska support för hjälp) – Datorn har inte gått att starta tre gånger i följd på grund av samma fel (se "Kontakta Dell" på sidan 63 om du behöver hjälp). CMOS checksum error (CMOS-kontrollsummefel) – Möjligt fel på moderkortet eller för låg RTCbatterinivå. Batteriet behöver bytas ut. Se Servicehandboken på support.dell.com/manuals eller se "Kontakta Dell" på sidan 63 om du behöver hjälp. CPU fan failure (Processorfläktfel) – Fel på processorfläkten. CPU-fläkten behöver bytas ut. Se Servicehandboken på support.dell.com/manuals.
+
+Hard-disk drive failure (Fel på hårddisk) – Eventuellt hårddiskfel under HDD POST. Se "Kontakta Dell" på sidan 63 för mer hjälp. Hard-disk drive read failure (Fel vid läsning från hårddisk) – Möjligt fel på hårddisken vid HDD-starttest. Se "Kontakta Dell" på sidan 63 för mer hjälp. Keyboard failure (Tangentbordfel) – Byt ut tangentbordet eller kontrollera att kabeln sitter ordentligt. No boot device available (Ingen tillgänglig startenhet) – Ingen startbar partition på hårddisken, hårddiskkabeln är lös eller så saknas en startbar enhet. •	Om hårddisken är konfigurerad som startenhet kontrollerar du att kablarna är ordentligt anslutna och att enheten är korrekt installerad och partitionerad som startenhet.
+
+41
+
+Använda supportverktyg
+
+•	Starta systeminställningsprogrammet och kontrollera att startordningen är korrekt. Se Servicehandboken på support.dell.com/manuals. No timer tick interrupt (Ingen signal från timer) – En krets på moderkortet kanske inte fungerar eller det kan vara fel på moderkortet. Se Servicehandboken på support.dell.com/manuals eller se "Kontakta Dell" på sidan 63 om du behöver hjälp. USB over current error (Fel på USBöverströmstyrka) – Koppla från USB-enheten. USB-enheten behöver mer ström för att kunna fungera. Anslut enheten till en extern strömkälla, eller anslut båda kablarna om enheten har två kablar.
+
+NOTICE - Hard Drive SELF MONITORING SYSTEM has reported that a parameter has exceeded its normal operating range. Dell recommends that you back up your data regularly. A parameter out of range may or may not indicate a potential hard drive problem (Hårddiskens självövervakningssystem rapporterade att en parameter har överskridit det normala driftintervallet. Dell rekommenderar att du säkerhetskopierar dina data regelbundet. En parameter som hamnat utanför det normala intervallet kan påvisa att det är problem med hårddisken) – S.M.A.R.T-fel, eventuellt fel på hårddisken. Se "Kontakta Dell" på sidan 63 för mer hjälp.
+
+42
+
+Använda supportverktyg
+
+Felsökaren för maskinvara
+Om en enhet inte identifieras av operativsystemet eller identifieras men är felaktigt konfigurerad, kan du använda Felsökaren för maskinvara för att lösa problemet. Så här startar du Felsökaren för maskinvara: 1. Klicka på Start → Hjälp och support. 2. Skriv felsökaren för maskinvara i sökfältet och tryck på &lt;Retur&gt; för att starta sökningen. 3. I sökresultaten väljer du det alternativ som bäst beskriver problemet och följer sedan felsökningsinstruktionerna.
+
+Dell Diagnostics
+Om du har problem med datorn utför du kontrollerna i "Problem med att datorn eller programvara hänger sig" på sidan 36 och kör Dell Diagnostics innan du kontaktar Dell för att få hjälp. Skriv gärna ut instruktionerna innan du börjar. OBS! Dell Diagnostics fungerar endast på Dell-datorer. OBS! Skivan Drivers and Utilities medföljer eventuellt inte alla datorer. Se avsnittet Systeminställningar i Servicehandboken för att kontrollera datorns konfigurationsinformation, och kontrollera att enheten som du vill testa visas i systeminställningsprogrammet och är aktiv. Starta Dell Diagnostics från hårddisken eller från skivan Drivers and Utilities.
+
+43
+
+Använda supportverktyg
+
+Starta Dell Diagnostics från hårddisken
+Dell Diagnostics finns på en dold diagnostikpartition på hårddisken. OBS! Om ingen bild visas på datorns bildskärm kontaktar du Dell (se "Kontakta Dell" på sidan 63). 1. Kontrollera att datorn är ansluten till ett eluttag som du vet fungerar ordentligt. 2. Starta (eller starta om) datorn. 3. När DELL™-logotypen visas trycker du omedelbart på &lt;F12&gt;. Markera Diagnostics på startmenyn och tryck på &lt;Retur&gt;. Detta anropar PSA (Pre-Boot System Assessment) på vissa datorer. OBS! Om du väntar för länge och operativsystemets logotyp visas fortsätter du att vänta tills Microsoft® Windows® har startats. Stäng sedan av datorn och försök igen.
+
+OBS! Om du får ett meddelande om att ingen partition för diagnostikverktyget hittades kör du Dell Diagnostics från skivan Drivers and Utilities.
+
+Om PSA anropas:
+a. PSA börjar köra tester. b. Om PSA slutförs visas följande meddelande: "No problems have been found with this system so far. Do you want to run the remaining memory tests? This will take about 30 minutes or more. Do you want to continue? (Recommended)." ("Ännu har inga problem hittats i systemet. Vill du köra de återstående minnestesterna? Det tar 30 minuter eller mer. Vill du fortsätta? (Rekommenderas).")
+
+44
+
+Använda supportverktyg
+
+c. Om du har problem med minnet trycker du &lt;y&gt;, annars trycker du &lt;n&gt;. Följande meddelande visas: "Booting Dell Diagnostic Utility Partition. Press any key to continue." (Startar Dell Diagnostic-verktyget. Tryck på valfri tangent för att fortsätta.) d. Tryck på valfri tangent för att öppna fönstret Choose An Option (Välj ett alternativ).
+
+5. Om du stöter på ett problem under ett test visas ett meddelande med en felkod och en beskrivning av problemet. Anteckna felkoden och problembeskrivningen och kontakta Dell (se "Kontakta Dell" på sidan 63). OBS! Servicenumret för datorn visas högst upp på alla testskärmar. Servicenumret hjälper dig identifiera datorn när du kontaktar Dell. 6. När testerna är slutförda stänger du testfönstret och går tillbaka till fönstret Choose An Option (Välj ett alternativ). 7. Avsluta Dell Diagnostics och starta om datorn genom att klicka på Exit (Avsluta).
+
+Om PSA inte anropas:
+Tryck på valfri tangent för att starta Dell Diagnostics från diagnostikverktygets partition på hårddisken och gå till fönstret Choose An Option (Välj ett alternativ). 4. Välj det test du vill köra.
+
+45
+
+Använda supportverktyg
+
+Starta Dell Diagnostics från skivan Drivers and Utilities
+OBS! Skivan Drivers and Utilities medföljer eventuellt inte alla datorer. 1. Sätt i skivan Drivers and Utilities. 2. Stäng av och starta om datorn. När DELL™-logotypen visas trycker du omedelbart på &lt;F12&gt;. OBS! Om du väntar för länge och operativsystemets logotyp visas fortsätter du att vänta tills Microsoft® Windows® har startats. Stäng sedan av datorn och försök igen. OBS! Följande steg ändrar endast startsekvensen tillfälligt. Nästa gång startas datorn enligt vad som har angetts för enheterna i systeminställningsprogrammet. 3. När listan med startenheter visas markerar du CD/DVD/CD-RW och trycker på &lt;Retur&gt;. 4. Välj Boot from CD-ROM (Starta från CD-skiva) på menyn och tryck på &lt;Retur&gt;.
+
+5. Tryck 1 för att öppna CD-menyn och sedan på &lt;Retur&gt; för att fortsätta. 6. Välj Run the 32 Bit Dell Diagnostics (Kör 32-bitarsversionen av Dell Diagnostics) i den numrerade listan. Om det finns flera versioner väljer du den som gäller din dator. 7. Välj det test du vill köra. 8. Om du stöter på ett problem under ett test visas ett meddelande med en felkod och en beskrivning av problemet. Anteckna felkoden och problembeskrivningen och kontakta Dell (se "Kontakta Dell" på sidan 63). OBS! Servicenumret för datorn visas högst upp på alla testskärmar. Servicenumret hjälper dig identifiera datorn när du kontaktar Dell. 9. När testerna är slutförda stänger du testfönstret och går tillbaka till fönstret Choose An Option (Välj ett alternativ). 10. Avsluta Dell Diagnostics och starta om datorn genom att klicka på Exit (Avsluta). 11. Ta ut skivan Drivers and Utilities.
+
+46
+
+INSPIRON
+
+Återställa operativsystemet
+Du kan återställa operativsystemet på datorn med någon av följande metoder: VIKTIGT! Med Dell Factory Image Restore eller skivan Operating System tas alla filer bort permanent från datorn. Säkerhetskopiera dina datafiler innan du genomför denna åtgärd om du har möjlighet. Alternativ Systemåterställning Dell DataSafe Local Backup Systemåterställningsmedia Använd som primär lösning när systemåterställning inte löser problemet när operativsystemfel förhindrar användning av systemåterställning och DataSafe Local Backup när du installerar fabriksinställningar på en nyligen installerad hårddisk Dell Factory Image Restore vid återställning av datorn till det driftläge den befann sig i när du fick den vid återinstallation av endast operativsystem på datorn
+
+Operating System-skivan
+
+OBS! Skivan Operating System medföljer eventuellt inte alla datorer.
+
+47
+
+Återställa operativsystemet
+
+Systemåterställning
+I operativsystemet Windows finns ett systemåterställningsalternativ som du kan använda om du vill återställa datorn till ett tidigare drifttillstånd (utan att påverka datafiler), om ändringar av maskinvara, programvara eller andra systeminställningar har orsakat ett oönskat drifttillstånd. Alla ändringar som systemåterställningen gör med datorn kan ångras. VIKTIGT! Säkerhetskopiera dina datafiler regelbundet. Systemåterställning övervakar inte datafiler och kan inte återställa dem. OBS! Metoderna i det här dokumentet gäller för standardvyn i Windows, så de kanske inte stämmer om du ställt in Klassisk vy i Windows på Dell™-datorn.
+
+Starta systemåterställning
+1. Klicka på Start . 2. I sökrutan skriver du Systemåterställning och trycker sedan på &lt;Retur&gt;. OBS! Fönstret Kontroll av användarkonto kanske visas. Om du är administratör för datorn klickar du på Fortsätt. I annat fall kontaktar du administratören för att kunna fortsätta. 3. Klicka på Nästa och följ anvisningarna som visas på skärmen. Om problemet inte åtgärdas med systemåterställningen kan du ångra den senaste systemåterställningen.
+
+48
+
+Återställa operativsystemet
+
+Ångra den senaste systemåterställningen
+OBS! Innan du ångrar den senaste systemåterställningen, bör du spara och stänga alla öppna filer och avsluta alla program. Du ska varken ändra, öppna eller radera filer eller program förrän systemåterställningen är klar. 1. Klicka på Start . 2. I sökrutan skriver du Systemåterställning och trycker sedan på &lt;Retur&gt;. 3. Klicka på Ångra den senaste återställningen och klicka på Nästa.
+
+Dell DataSafe Local Backup
+VIKTIGT! Med Dell DataSafe Local Backup tar du permanent bort alla program eller drivrutiner som installerats sedan du mottog datorn. Skapa säkerhetskopior av program som du behöver installera på din dator innan du använder Dell DataSafe Local Backup. Använd Dell DataSafe Local Backup endast om en systemåterställning av operativsystemet inte löser problemet. VIKTIGT! Fastän DataSafe Local Backup har utformats för att bevara datafiler på datorn rekommenderar vi att du säkerhetskopierar dina datafiler innan du använder DataSafe Local Backup. OBS! Dell DataSafe Local Backup är kanske inte tillgängligt i alla regioner. OBS! Om Dell DataSafe Local Backup inte finns på din dator kan du återställa systemet med Dell Factory Image Restore (se "Dell Factory Image Restore" på sidan 53).
+
+49
+
+Återställa operativsystemet
+
+Du kan använda Dell DataSafe Local Backup för att återställa hårddisken till det läge den var i när du köpte datorn, utan att några datafiler tas bort. Med Dell DataSafe Local Backup kan du: •	Säkerhetskopiera och återställa datorn till ett tidigare drifttillstånd •	Skapa systemåterställningsmedia
+
+Dell DataSafe Local Backup Basic
+Gör så här om du vill återställa fabriksinställningar och bevara datafiler: 1. Stäng av datorn. 2. Koppla bort alla enheter (USB-enheter, skrivare och så vidare) som är anslutna till datorn och ta bort all eventuell intern maskinvara som nyligen har installerats. OBS! Koppla inte bort bildskärmen, tangentbordet, musen eller nätadaptern. 3. Starta datorn. 4. När Dell™-logotypen visas trycker du på &lt;F8&gt; flera gånger för att öppna fönstret Advanced Boot Options (Avancerade startalternativ). OBS! Om du väntar för länge och operativsystemets logotyp visas fortsätter du att vänta tills Microsoft® Windows® har startats. Stäng sedan av datorn och försök igen.
+
+50
+
+Återställa operativsystemet
+
+5. Välj Repair Your Computer (Reparera datorn). 6. Välj Dell DataSafe Restore and Emergency Backup (Dell DataSafe-återställning och akut säkerhetskopiering) från menyn System Recovery Options (Systemåterställningsalternativ) och följ anvisningarna på skärmen. OBS! Återställningsprocessen kan ta en timme eller mer beroende på hur mycket data som ska återställas. OBS! Mer information finns i artikel 353560 i kunskapsbasen på support.dell.com.
+
+Uppgradera till Dell DataSafe Local Backup Professional
+OBS! Dell DataSafe Local Backup Professional kan vara installerat på datorn om du beställde programmet vid inköpstillfället. Dell DataSafe Local Backup Professional innehåller ytterligare funktioner med vilka du kan: •	Säkerhetskopiera och återställa datorn utifrån filtyperna •	Säkerhetskopiera filer till en lokal lagringsplats •	Schemalägga automatisk säkerhetskopiering Gör så här om du vill uppgradera till Dell DataSafe Local Backup Professional: 1. Dubbelklicka på ikonen Dell DataSafe Local Backup i aktivitetsfältet. 2. Klicka på UPGRADE NOW! (Uppgradera nu). 3. Slutför uppgraderingen genom att följa anvisningarna på skärmen.
+
+51
+
+Återställa operativsystemet
+
+Systemåterställningsmedia
+VIKTIGT! Systemåterställningsmedia har utformats för att bevara datafiler på datorn, men vi rekommenderar att du säkerhetskopierar dina datafiler innan du använder systemåterställningsmedia. Du kan använda systemåterställningsmedia, som skapats med Dell DataSafe Local Backup, för att återställa hårddisken till det läge den var i när du köpte datorn, utan att några datafiler tas bort. Använd systemåterställningsmedia om: •	Felet på operativsystemet förhindrar användningen av de återställningsalternativ som är installerade på datorn. •	Felet på hårddisken förhindrar att data återställs.
+
+Så här återställer du datorns fabriksinställningar med hjälp av systemåterställningsmedia: 1. Sätt i systemåterställningsskivan eller USB-minnet och starta om datorn. 2. När DELL™-logotypen visas trycker du omedelbart på &lt;F12&gt;. OBS! Om du väntar för länge och operativsystemets logotyp visas fortsätter du att vänta tills Microsoft® Windows® har startats. Stäng sedan av datorn och försök igen. 3. Välj lämplig startenhet från listan och tryck på &lt;Retur&gt;. 4. Slutför återställningsprocessen genom att följa anvisningarna på skärmen.
+
+52
+
+Återställa operativsystemet
+
+Dell Factory Image Restore
+VIKTIGT! Dell Factory Image Restore tar permanent bort alla data på hårddisken tillsammans med alla program eller drivrutiner som har installerats sedan du köpte datorn. Om möjligt bör du säkerhetskopiera alla data innan du använder det här alternativet. Använd Dells fabriksåterställning endast om systemåterställning inte åtgärdar problemet med operativsystemet. OBS! Dell Factory Image Restore är inte tillgängligt för alla länder och för alla datorer. OBS! Om Dell Factory Image Restore inte finns på din dator kan du använda Dell DataSafe Local Backup (se "Dell DataSafe Local Backup" på sidan 49) för att återställa operativsystemet.
+
+Använd Dell Factory Image Restore som sista utväg att återställa operativsystemet. Det här alternativet återställer hårddisken till det läge den var i när du köpte datorn. Eventuella program eller filer som lagts till sedan du tog emot datorn, inklusive datafiler, tas permanent bort från hårddisken. Datafiler omfattar dokument, kalkylblad, e-postmeddelanden, digitala fotografier, musikfiler och så vidare. Säkerhetskopiera om möjligt alla data innan du använder Factory Image Restore.
+
+Använda Dell Factory Image Restore
+1. Starta datorn. 2. När DELL™-logotypen visas trycker du på &lt;F8&gt; flera gånger för att öppna fönstret Advanced Boot Options (Avancerade startalternativ). OBS! Om du väntar för länge och operativsystemets logotyp visas fortsätter du att vänta tills Microsoft® Windows® har startats. Stäng sedan av datorn och försök igen.
+
+53
+
+Återställa operativsystemet
+
+3. Välj Repair Your Computer (Reparera datorn). Fönstret System Recovery Options (Alternativ för systemåterställning) visas. 4. Välj en tangentbordslayout och klicka på Next (Nästa). 5. Om du vill få åtkomst till återställningsalternativen loggar du in som lokal användare. Om du vill öppna kommandotolken skriver du administrator (administratör) i fältet User name (Användarnamn) och klickar på OK. 6. Klicka på Dell Factory Image Restore. Välkomstskärmen för Dell Factory Image Restore visas. OBS! Beroende på konfigurationen måste du kanske välja Dell Factory Tools och sedan Dell Factory Image Restore. 7. Klicka på Next (Nästa). Skärmen Confirm Data Deletion (Bekräfta borttagning av data) visas.
+
+OBS! Om du inte vill fortsätta med fabriksåterställningen klickar du på Cancel (Avbryt). 8. Klicka på kryssrutan för att bekräfta att du vill fortsätta att formatera om hårddisken och återställa systemprogramvaran till fabriksinställningar och klicka sedan på Next (Nästa). Återställningsprocessen påbörjas och kan ta fem minuter eller mer att slutföra. Ett meddelande visas när operativsystemet och fabriksinstallerade program har återställts till fabriksinställningar. 9. Klicka på Finish (Slutför) för att starta om datorn.
+
+54
+
+INSPIRON
+
+Få hjälp
+Om du får problem med datorn genomför du följande steg för att felsöka och diagnostisera problemet: 1. Se "Lösa problem" på sidan 32 för information och anvisningar om hur du åtgärdar problem på datorn. 2. Se "Dell Diagnostics" på sidan 43 för anvisningar om hur du kör Dell Diagnostics. 3. Fyll i "Diagnostikchecklista" på sidan 62. 4. Utnyttja Dells stora utbud av online-tjänster på webbplatsen för Dells support (support.dell.com) om du behöver hjälp med frågor som rör installation och felsökning. Se "Online-tjänster" på sidan 57 för mer information om Dells online-support. 5. Om ovanstående förslag inte löser problemet, går du till "Kontakta Dell" på sidan 63. OBS! Ring Dells support från en telefon vid eller i närheten av datorn, så att supportpersonalen lättare kan hjälpa dig med de åtgärder som krävs. OBS! Dells expresskodsystem kanske inte är tillgängligt i alla länder. Ange din expresskod när du blir uppmanad att göra detta, så kopplas du direkt till rätt supportpersonal. Om du inte har någon expresskod öppnar du mappen Dell Accessories (Dell-tillbehör), dubbelklickar på ikonen Express Service Code (Expresskod) och följer anvisningarna. OBS! Vissa av följande tjänster erbjuds inte alltid på platser utanför USA. Ring din lokala Dell-representant för mer information om tillgängliga tjänster.
+
+55
+
+Få hjälp
+
+Teknisk support och kundtjänst
+Dells supporttjänst kan hjälpa dig med frågor om Dell-maskinvara. Vår supportpersonal använder datorbaserade diagnostikmetoder för att snabbt kunna ge rätt svar på dina frågor. Innan du kontaktar Dells supporttjänst, går du till "Innan du ringer" på sidan 61 och söker sedan upp kontaktinformationen för din region eller går till support.dell.com.
+
+DellConnect
+DellConnect™ är ett enkelt online-verktyg som gör att en servicetekniker från Dell kan komma åt din dator via en bredbandsanslutning och diagnostisera och åtgärda problemet under ditt överinseende. Mer information finns på support.dell.com/dellconnect.
+
+56
+
+Få hjälp
+
+Online-tjänster
+Du kan lära dig om Dells produkter och tjänster på följande webbplatser: •	www.dell.com •	www.dell.com/ap (endast Asien och Stillahavsområdet) •	www.dell.com/jp (endast Japan) •	www.euro.dell.com (endast Europa) •	www.dell.com/la (länder i Latinamerika och de karibiska länderna) •	www.dell.ca (endast Kanada) Du kan komma åt Dell Support via följande webbplatser och e-postadresser:
+
+E-postadresser till Dell Support
+•	mobile_support@us.dell.com •	support@us.dell.com •	la-techsupport@dell.com (endast Latinamerika och de karibiska länderna) •	apsupport@dell.com (endast Asien och Stillahavsområdet)
+
+E-postadresser till Dells marknadsföring och försäljning
+•	apmarketing@dell.com (endast Asien och Stillahavsområdet) •	sales_canada@dell.com (endast Kanada)
+
+Dell Support-webbplatser
+•	support.dell.com •	support.jp.dell.com (endast Japan) •	support.euro.dell.com (endast Europa)
+
+FTP (anonymt filöverföringsprotokoll)
+•	ftp.dell.com Logga in som användare: anonymous och använd din e-postadress som lösenord.
+
+57
+
+Få hjälp
+
+Automatisk orderuppföljningstjänst
+Om du vill kontrollera hur långt dina beställningar av Dell™-produkter har kommit kan du besöka support.dell.com eller ringa den automatiska orderuppföljningstjänsten. En inspelad röst frågar efter den information som behövs för att hitta och ge information om din order. Information om telefonnummer för din region finns under "Kontakta Dell" på sidan 63. Om det uppstår problem med beställningen, som att det saknas delar, att du har fått fel delar eller att det finns felaktigheter på fakturan, kan du kontakta Dell för att få hjälp. Ha följesedeln eller fakturan till hands när du ringer. Information om telefonnummer för din region finns under "Kontakta Dell" på sidan 63.
+
+Produktinformation
+Om du behöver information om ytterligare produkter från Dell eller om du vill beställa något kan du besöka Dells webbplats. Adressen är www.dell.com. För telefonnummer i din region eller om du vill tala med en försäljare där, se "Kontakta Dell" på sidan 63.
+
+58
+
+Få hjälp
+
+Returnera produkter för garantireparation eller för att få pengarna tillbaka
+Förbered alla artiklar som ska returneras, för reparation eller för att få pengarna tillbaka, på följande sätt: OBS! Innan du returnerar produkten till Dell bör du säkerhetskopiera eventuella data på hårddisken och på eventuella andra lagringsenheter i produkten. Ta bort all konfidentiell, skyddad och personlig information samt löstagbara medier, till exempel CD-skivor och minneskort. Dell ansvarar inte för din konfidentiella, skyddade och personliga information, förlorade eller förstörda data eller skadade eller förlorade löstagbara medier som skickas med din retur.
+
+1. Kontakta Dell för att få ett auktoriseringsnummer för returvaror och skriv numret tydligt och väl synligt på förpackningen. Information om telefonnummer för din region finns under "Kontakta Dell" på sidan 63. 2. Skicka med en kopia på fakturan och ett brev som beskriver varför artikeln returnerats. 3. Inkludera en kopia av diagnostikchecklistan (se "Diagnostikchecklista" på sidan 62), som anger vilka tester du kört och vilka felmeddelanden som visats i Dell Diagnostics (se "Dell Diagnostics" på sidan 43). 4. Inkludera alla tillbehör som hör ihop med de delar du returnerar (nätadapter, programvara, handböcker och så vidare) om du skickar tillbaka utrustningen för att få pengarna tillbaka.
+
+59
+
+Få hjälp
+
+5. Paketera utrustningen som sänds tillbaka i originalförpackningen (eller likvärdigt förpackningsmaterial). OBS! Du ansvarar för alla fraktkostnader. Du ansvarar även för försäkringen av alla returprodukter samt för risken att produkterna går förlorade under frakten till Dell. Postförskottspaket tas inte emot. OBS! Produktreturer som inte uppfyller alla ovanstående villkor tas inte emot av Dell och returneras till dig.
+
+60
+
+Få hjälp
+
+Innan du ringer
+OBS! Se till att ha din expresskod till hands när du ringer. Tack vare den koden kan Dells automatiska supportsystem snabbare koppla ditt samtal. Du uppmanas eventuellt att även uppge ditt servicenummer.
+
+Hitta servicenumret
+Datorns servicenummer finns på en etikett på datorns undersida.
+
+1
+
+1
+
+Servicenummer/expresskod
+
+61
+
+Få hjälp
+
+Glöm inte att fylla i diagnostikchecklistan. Starta datorn (om det går) innan du ringer till Dell för att få hjälp. Ring från en telefon vid eller i närheten av datorn. Det kan hända att du ombeds ange kommandon, uppge detaljerad information under olika åtgärder eller prova andra felsökningsprocedurer som endast kan utföras vid själva datorn. Se till att du har systemdokumentationen till hands.
+
+Diagnostikchecklista •	Namn: •	Datum: •	Adress: •	Telefonnummer: •	Servicenummer och expresskod (finns på en etikett på datorns undersida): •	Returauktoriseringsnummer (om du fått ett sådant från Dells supporttekniker): •	Operativsystem och version: •	Enheter: •	Expansionskort: •	Är datorn ansluten till ett nätverk? Ja/Nej •	Nätverk, version och nätverkskort: •	Program och versioner:
+
+62
+
+Få hjälp
+
+I operativsystemets dokumentation finns information om innehållet i systemets startfiler. Om datorn är ansluten till en skrivare skriver du ut alla filer. Annars antecknar du innehållet i alla filer innan du ringer till Dell. •	Felmeddelande, pipkod eller diagnostikkod: •	Beskrivning av problemet och felsökningsåtgärder som du utfört:
+
+Kontakta Dell
+För kunder i USA, ring 800-WWW-DELL (800-999-3355). OBS! Om du inte har en aktiv Internetanslutning kan du hitta kontaktinformationen på fakturan, packsedeln, räkningen eller i Dells produktkatalog. Dell tillhandahåller fler online- och telefonbaserade support- och servicealternativ. Tillgänglighet varierar efter land och produkt och en del tjänster kanske inte finns tillgängliga i ditt område. Om du vill kontakta Dell för försäljning, teknisk support eller kundtjänstfrågor: 1. Besök www.dell.com/contactdell. 2. Välj ditt land eller region. 3. Välj lämplig service- eller supportlänk utifrån dina behov. 4. Välj den metod att kontakta Dell som är bekväm för dig.
+
+63
+
+INSPIRON
+
+Mer information och resurser
+Om du behöver:
+installera om operativsystemet köra ett diagnostikverktyg för datorn installera om systemprogramvara hitta mer information om Microsoft Windows operativsystem och funktioner
+® ®
+
+Se:
+"Systemåterställningsmedia" på sidan 52 "Dell Diagnostics" på sidan 43 "My Dell Downloads" på sidan 40 support.dell.com Servicehandboken på support.dell.com/manuals OBS! I vissa länder upphör garantin att gälla om du öppnar datorn och ersätter delar i den. Kontrollera garanti- och returvillkoren innan du öppnar datorn. säkerhetsanvisningarna som medföljde datorn samt hemsidan för regelefterlevnad på www.dell.com/regulatory_compliance.
+
+uppgradera datorn med nytt eller kompletterande minne eller en ny hårddisk installera om eller ersätta en utsliten eller defekt del få råd om hur du hanterar datorn på det säkraste sättet läsa garantiinformation, villkor (endast USA), säkerhetsinstruktioner, myndighetsinformation, ergonomiinformation och slutanvändaravtal
+
+64
+
+Mer information och resurser
+
+Om du behöver:
+hitta ditt servicenummer/expresskod – Du måste ange servicenumret för att identifiera datorn på support.dell.com och när du kontaktar teknisk support
+
+Se:
+datorns undersida Dells supportcenter. Om du vill starta Dells supportcenter klickar du på ikonen i aktivitetsfältet.
+
+hitta drivrutiner och hämtningsbara filer; viktigt- support.dell.com filer få teknisk support och produkthjälp kontrollera orderstatus för nya inköp hitta lösningar och svar på vanliga frågor hitta uppdaterad information om de senaste tekniska ändringarna av datorn eller avancerad teknisk information för tekniker och datorkunniga användare
+
+65
+
+INSPIRON
+
+Specifikationer
+Här hittar du information som du kan behöva när du installerar eller uppdaterar drivrutiner eller uppgraderar datorn. OBS! Utbudet kan variera mellan olika regioner. Mer information om datorns konfiguration finns i datorns dokumentation på följande plats:
+
+Windows® 7: Start
+®
+
+→ Alla program→ Dell Help Documentation (hjälpdokumentation från Dell). → Hjälp och support→ Dell EDocs.
+
+Windows Vista : Start
+
+Datormodell
+Inspiron 410
+™
+
+Datorinformation
+Systemkretsuppsättning RS880M+SB820M
+
+Datorinformation
+Processor typer AMD Athlon II Dual Core AMD Turion™ II Dual Core AMD Phenom™ II Triple Core AMD Phenom II Quad Core AMD V Series Single Core
+™ ™
+
+Minne
+Kontakter två internt åtkomliga SODIMM-kontakter 1066-MHz DDR3 SODIMM; endast icke felkorrigerande minne
+
+Minnestyp
+
+66
+
+Specifikationer
+
+Minne
+Minnesmodulernas kapacitet Möjliga konfigurationer 1 GB, 2 GB och 4 GB 1 GB, 2 GB, 3 GB, 4 GB, 6 GB och 8 GB
+
+Ljud
+Typ inbyggt 2.1-kanalsljud, High Definition Audio upp till 7.1-kanals digitalt ljud från S/PDIF (optisk)
+
+OBS! Information om hur du uppgraderar minnet finns i Servicehandboken på support.dell.com/manuals.
+
+Kommunikation
+Trådlöst nätverk (tillval) Nätverkskort 802.11 a/b/g/n; b/g/n 10/100/1000 Ethernet LAN på moderkortet
+
+Diskenheter
+Externt åtkomliga (tillval) ett 5,25-tums fack för en SATA DVD+/-RW Super Multi Drive- eller Blu-ray Disc™kombinationsenhet med 12,7 mm släde (tillval) ett 3,5-tums fack för SATA-hårddisk
+
+Grafik
+Inbyggt Separat (tillval) ATI Mobility Radeon™ HD 4250 ATI Mobility Radeon™ HD 5450, 1 GB
+
+Internt åtkomliga
+
+67
+
+Specifikationer
+
+Minneskortläsare
+Kort som stöds SD-kort (Secure Digital) MicroSD-kort MiniSD-kort SDHC-kort (Secure Digital High Capacity) MultiMedia Card (MMC) xD-Picture-kort Memory Stick PRO/ Duo-kort
+
+Externa kontakter
+Minneskortläsare en 4-i-1-kortplats IR-sensor (tillval) Nätverkskort USB Ljud S/PDIF eSATA VGA HDMI en en RJ45-kontakt två USB 2.0-kompatibla kontakter en mikrofon- och en linjeutgångskontakt en digital S/PDIFkontakt (optisk) två 7-stiftskontakter en kontakt med 15 hål en 19-stiftskontakt Kontakter på baksidan:
+
+Externa kontakter
+Kontakter på framsidan: USB Ljud två USB 2.0-kompatibla kontakter en hörlurskontakt
+
+68
+
+Specifikationer
+
+Nätadapter
+90 W (E-serien): OBS! Stöds på modeller med ett separat grafikkort (tillval). Inspänning Inström Infrekvens Uteffekt Utström Uppskattad utspänning 65 W (E-serien): Inspänning Inström Infrekvens 100-240 V växelström 1,5/1,6/1,7 A 50-60 Hz 100-240 V växelström 1,5 A 50-60 Hz 90 W 4,62 A 19,5 V likström
+
+Nätadapter
+Uteffekt Utström Uppskattad utspänning 65 W 3,34 A 19,5 V likström
+
+Batteri
+Knappcellsbatteri 3 V CR2032litiumcellbatteri
+
+Fysiska mått
+Höjd Bredd Djup Vikt 197,6 mm 197,6 mm 89 mm 2,0 kg
+
+69
+
+Specifikationer
+
+Datormiljö
+Temperaturintervall: Drift Förvaring Relativ luftfuktighet (maximal) 10°C till 35°C –40°C till 65°C 20 % till 80 % (ickekondenserande)
+
+Datormiljö
+Maximal stöt (för drift – mätt med Dell Diagnostics igång på hårddisken och en 2 ms halvsinuspuls. För ej i drift – mätt med hårddisken med parkerade huvuden och en 26 ms halvsinuspuls): Drift 40 G vid 2 ms med en hastighetsförändring på 51 cm/s 45 G vid 26 ms med en hastighetsförändring på 732 cm/s –15,2 till 3 048 m –15,2 till 10 668 m G2 eller lägre enligt ISA-S71.04-1985
+
+Maximal vibration (vid användning av ett slumpmässigt vibrationsspektrum som simulerar användarmiljön): Drift Förvaring 0,26 GRMS 2,2 GRMS
+
+Ej i drift
+
+Höjd över havet (maximal): Drift Förvaring Luftburen föroreningsnivå
+
+70
+
+INSPIRON
+
+Bilaga
+Om Macrovision-produkter
+I den här produkten finns upphovsrättsskyddad teknik som skyddas genom metodanspråk i vissa patent i USA och andra immateriella rättigheter som tillhör Macrovision Corporation och andra rättighetsinnehavare. Användning av den upphovsrättsligt skyddade tekniken måste godkännas av Macrovision Corporation och endast vara för hemmabruk och annan begränsad användning, såvida inte Macrovision Corporation uttryckligen ger sitt medgivande till annan användning. Bakåtkompilering och nedmontering förbjudes.
+
+71
+
+Bilaga
+
+Information för NOM, eller officiell mexikansk standard (endast för Mexiko)
+Följande information tillhandahålls i den/de enhet/enheter som beskrivs i detta dokument i enlighet med kraven för den officiella mexikanska standarden (NOM): Importör: Dell México S.A. de C.V. Paseo de la Reforma 2620 – Flat 11° Col. Lomas Altas 11950 México, D.F.
+
+Regelmodellnummer D03U
+
+Inspänning 100-240 V
+
+Infrekvens 50-60 Hz
+
+Uppskattad utström 3,34/4,62 A
+
+Mer information finns i säkerhetsinformationen som medföljde datorn. Mer information om säker hantering finns på hemsidan för regelefterlevnad på www.dell.com/regulatory_compliance.
+
+72
+
+INSPIRON
+
+Index
+A
+ansluta nätverkskabel, tillval 14
+
+E
+e-postadresser till teknisk support 57 eSATA-kontakt 27 expresskod 55
+
+C
+CD-skivor, spela upp och skapa 29
+
+D
+DataSafe Local Backup 49 datorns kapacitet 29 DellConnect 56 Dell Diagnostics 43 diagnostikchecklista 62 drivrutiner och hämtningsbara filer 65 DVD-skivor, spela upp och skapa 29
+
+F
+Felsökaren för maskinvara 43 framsida 22 FTP-inloggning, anonym 57
+
+G
+garantireturer 59
+
+H
+hårddisk typ 67
+
+73
+
+Index
+
+HDMI-kontakt 28 hitta servicenumret 61
+
+mata ut skivan 23 minneskortläsare 23 minnesproblem lösa 35 minnesstöd 66
+
+I
+indikator för hårddiskaktivitet 28 Internetanslutning 19 ISP Internetleverantör 19
+
+N
+nätverksanslutning åtgärda 33 nätverkskontakt plats 27
+
+K
+kontakta Dell 63 kretsuppsättning 66 kundtjänst 56
+
+O
+optisk ljudkontakt S/PDIF 27 orderstatus 58
+
+L
+lösa problem 32
+
+M
+maskinvaruproblem diagnostisering 43
+
+P
+problem, lösa 32
+
+74
+
+Index
+
+problem med programvara 36 problem med strömförsörjning, lösa 34 processor 66 produkter information och inköp 58 programfunktioner 29
+
+T
+teknisk support 56 trådlös nätverksanslutning 33
+
+U
+USB 2.0 kontakter på baksidan 27 kontakter på framsidan 23 utmatningsknapp 23
+
+R
+ringa Dell 61
+
+S
+servicenummer 61 skicka produkter vid retur eller reparation 59 strömknapp och lampa 25 support, e-postadresser till 57 supportwebbplatser världen över 57 systemmeddelanden 40
+
+W
+Windows Guiden Programkompatibilitet 37 Windows, installera om 47
+
+Å
+återställa fabriksinställningar 53
+
+75
+
+Tryckt i Irland
+
+www.dell.com | support.dell.com
+
+</data>
+<stemmer>depluralize+delanguage+swedish</stemmer>
+<kb>swedish</kb>
+<basis>Yes></basis>
+<expected>swedish</expected>
+</test>
+</testset>
+

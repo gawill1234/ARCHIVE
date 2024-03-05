@@ -1,0 +1,6 @@
+<vce>
+              <document url="http://vivisimo.com?math">
+                <content name="text">123456789.0 +-=&lt;&gt;/*</content>
+                <content name="type">odd characters</content>
+              </document>
+</vce>

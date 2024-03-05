@@ -1,0 +1,99 @@
+#!/bin/bash
+#
+#  Pyed
+#
+
+
+#############################################################
+
+   VUSER=""
+   VPW=""
+   FILENAME=""
+   TARGDIR=""
+   TARGETFILE=""
+   VWWWUSER=""
+   SHOST=""
+   TARGETOS="$VIVTARGETOS"
+
+   VCMD="gronk"
+   if [ "$TARGETOS" == "windows" ]; then
+      VCMD="gronk.exe"
+   fi
+
+   VACTION="send-file"
+   export PATH=$PATH:$TEST_ROOT/utils/bin:$TEST_ROOT/bin
+
+#############################################################
+
+getsetopts()
+{
+   OPTERR=0
+   OPTIND=1
+   while getopts "H:F:U:P:D:" flag; do
+     case "$flag" in
+        F) FULLPATH=$OPTARG;;
+        H) SHOST=$OPTARG;;
+        U) VUSER=$OPTARG;;
+        P) VPW=$OPTARG;;
+        D) TARGDIR=$OPTARG;;
+        *) echo "Usage: copy_file -F <file> -D <target dir>"
+           exit 1;;
+     esac
+   done
+
+   if [ "$FULLPATH" == "" ]; then
+      echo "File name must be specified"
+      echo "Use the -C <collection> option"
+      exit 1
+   fi
+
+   if [ "$TARGDIR" == "" ]; then
+      echo "Directory name must be specified"
+      echo "Use the -D <directory> option"
+      exit 1
+   fi
+
+   if [ "$VUSER" == "" ]; then
+      VUSER=$VIVUSER
+      if [ "$VUSER" == "" ]; then
+         echo "Vivisimo username is needed"
+         echo "Either set VIVUSER environment variable or"
+         echo "use the -U <vivuser> options"
+         exit 1
+      fi
+   fi
+
+   if [ "$VPW" == "" ]; then
+      VPW=$VIVPW
+      if [ "$VPW" == "" ]; then
+         echo "Vivisimo password is needed"
+         echo "Either set VIVPW environment variable or"
+         echo "use the -P <vivpassword> options"
+         exit 1
+      fi
+   fi
+
+   if [ "$SHOST" == "" ]; then
+      SHOST=$VIVHOST
+   fi
+
+}
+
+usewget()
+{
+   rstring="wget --post-file $FULLPATH 'http://$SHOST/vivisimo/cgi-bin/$VCMD?file=$TARGETFILE&action=$VACTION' -o $FILENAME.createlog -O $FILENAME.create"
+}
+
+getsetopts $*
+
+FILENAME=`basename $FULLPATH`
+
+TARGETFILE=$TARGDIR/$FILENAME
+
+usewget
+
+eval $rstring 2>/dev/null
+
+rm -f $FILENAME.createlog $FILENAME.create
+exit 0
+

@@ -1,0 +1,821 @@
+3d2
+< <attribute name="query-xml-supported">query-xml-supported</attribute>
+7c6
+<   value="http://testbed6-8.test.vivisimo.com/vivisimo/cgi-bin/admin"
+---
+>   value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+12,13c11,12
+< <attribute name="search-ms" value="4" />
+< <attribute name="retrieval-ms" value="3" />
+---
+> <attribute name="search-ms" value="62" />
+> <attribute name="retrieval-ms" value="7" />
+15c14
+< <document filetypes="text " vse-base-score="2"
+---
+> <document filetypes="text " vse-base-score="1"
+17c16
+<   creation-time-sec="1371904807" ct="text/plain" vertex="5" ip="9.75.200.59"
+---
+>   graph-id-high-water="11" ct="text/plain" vertex="16" priority="0"
+22,23c21,22
+<     <solution rank="0" score="2">
+<       <pre u="627882" v="627901">about them: and they were sore afraid. 
+---
+>     <solution rank="0" score="1">
+>       <pre u="627880" v="627899">about them: and they were sore afraid. 
+25,27c24,26
+<       <content type="TEXT" name="snippet" u="29" v="767884" />
+<       <match u="627902" v="627906">good tidings of great joy, </match>
+<       <post u="627907" v="627926">which shall be to all people. 
+---
+>       <content type="TEXT" name="snippet" u="27" v="767882" />
+>       <match u="627900" v="627904">good tidings of great joy, </match>
+>       <post u="627905" v="627924">which shall be to all people. 
+31c30
+<   <content name="snippet" action="cluster"> ... them, Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. 
+---
+>   <content name="snippet" action="cluster" output-action="bold"> ... them, Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. 
+34c33
+< <document filetypes="text " vse-base-score="0.00684369"
+---
+> <document filetypes="text " vse-base-score="0.00504332"
+36c35
+<   creation-time-sec="1371904805" vertex="36" ip="9.75.200.59" ct="text/plain"
+---
+>   graph-id-high-water="2" priority="0" vertex="7" ct="text/plain"
+41,42c40,41
+<     <solution rank="0" score="0.00478684">
+<       <pre u="79901" v="79920">wonderous gifts endue 
+---
+>     <solution rank="0" score="0.00361878">
+>       <pre u="79897" v="79916">wonderous gifts endue 
+46,47c45,46
+<       <content type="TEXT" name="snippet" u="29" v="81038" />
+<       <match u="79921" v="79931">Great numbers of each nation to receive 
+---
+>       <content type="TEXT" name="snippet" u="27" v="81034" />
+>       <match u="79917" v="79927">Great numbers of each nation to receive 
+49c48
+<       <post u="79932" v="79951">brought from Heaven:  At length 
+---
+>       <post u="79928" v="79947">brought from Heaven:  At length 
+54,55c53,54
+<     <solution rank="1" score="0.00234513">
+<       <pre u="79626" v="79645">this of Eden, and far happier days. 
+---
+>     <solution rank="1" score="0.00177468">
+>       <pre u="79622" v="79641">this of Eden, and far happier days. 
+58,59c57,58
+<       <content type="TEXT" name="snippet" u="29" v="81038" />
+<       <match u="79646" v="79667">great period; and our sire, 
+---
+>       <content type="TEXT" name="snippet" u="27" v="81034" />
+>       <match u="79642" v="79663">great period; and our sire, 
+63c62
+<       <post u="79668" v="79687">evil shall produce, 
+---
+>       <post u="79664" v="79683">evil shall produce, 
+68,69c67,68
+<     <solution rank="2" score="0.00210543">
+<       <pre u="63335" v="63354">discourse, and various plaint, 
+---
+>     <solution rank="2" score="0.00120626">
+>       <pre u="63331" v="63350">discourse, and various plaint, 
+73,74c72,73
+<       <content type="TEXT" name="snippet" u="29" v="81038" />
+<       <match u="63355" v="63387">tidings fraught, to Hell he now returned; 
+---
+>       <content type="TEXT" name="snippet" u="27" v="81034" />
+>       <match u="63351" v="63383">tidings fraught, to Hell he now returned; 
+79c78
+<       <post u="63388" v="63407">was at their meeting, and at sight 
+---
+>       <post u="63384" v="63403">was at their meeting, and at sight 
+83,84c82,83
+<     <solution rank="3" score="0.00177897">
+<       <pre u="63333" v="63352">their sad discourse, and various plaint, 
+---
+>     <solution rank="3" score="0.00117078">
+>       <pre u="63329" v="63348">their sad discourse, and various plaint, 
+87,88c86,87
+<       <content type="TEXT" name="snippet" u="29" v="81038" />
+<       <match u="63353" v="63386">joy 
+---
+>       <content type="TEXT" name="snippet" u="27" v="81034" />
+>       <match u="63349" v="63382">joy 
+94c93
+<       <post u="63387" v="63406">joy was at their meeting, and at sight 
+---
+>       <post u="63383" v="63402">joy was at their meeting, and at sight 
+98,99c97,98
+<     <solution rank="4" score="0.00148161">
+<       <pre u="79607" v="79626">into bliss, 
+---
+>     <solution rank="4" score="0.000976076">
+>       <pre u="79603" v="79622">into bliss, 
+103,104c102,103
+<       <content type="TEXT" name="snippet" u="29" v="81038" />
+<       <match u="79627" v="79666">of Eden, and far happier days. 
+---
+>       <content type="TEXT" name="snippet" u="27" v="81034" />
+>       <match u="79623" v="79662">of Eden, and far happier days. 
+110c109
+<       <post u="79667" v="79686">of evil shall produce, 
+---
+>       <post u="79663" v="79682">of evil shall produce, 
+115,116c114,115
+<     <solution rank="5" score="0.00137466">
+<       <pre u="78860" v="78879">and bound his reign 
+---
+>     <solution rank="5" score="0.000904696">
+>       <pre u="78856" v="78875">and bound his reign 
+119,120c118,119
+<       <content type="TEXT" name="snippet" u="29" v="81038" />
+<       <match u="78880" v="78923">joy 
+---
+>       <content type="TEXT" name="snippet" u="27" v="81034" />
+>       <match u="78876" v="78919">joy 
+127c126
+<       <post u="78924" v="78943">Expectation should be called 
+---
+>       <post u="78920" v="78939">Expectation should be called 
+132c131
+<   <content name="snippet" action="cluster"> ... did their Lord before them.  Thus they win 
+---
+>   <content name="snippet" action="cluster" output-action="bold"> ... did their Lord before them.  Thus they win 
+137c136
+< <document filetypes="text " vse-base-score="5.23984e-05"
+---
+> <document filetypes="text " vse-base-score="4.22535e-05"
+139c138
+<   creation-time-sec="1371904805" ip="9.75.200.59" vertex="10" ct="text/plain"
+---
+>   graph-id-high-water="6" vertex="11" priority="0" ct="text/plain"
+144,145c143,144
+<     <solution rank="0" score="2.94484e-05">
+<       <pre u="10277" v="10296">and content is without three good friends;
+---
+>     <solution rank="0" score="2.55328e-05">
+>       <pre u="10275" v="10294">and content is without three good friends;
+148,149c147,148
+<       <content type="TEXT" name="snippet" u="29" v="23421" />
+<       <match u="10297" v="10307">good pasture makes fat sheep, and that a
+---
+>       <content type="TEXT" name="snippet" u="27" v="23419" />
+>       <match u="10295" v="10305">good pasture makes fat sheep, and that a
+151c150
+<       <post u="10308" v="10327">the night is lack of the sun; that
+---
+>       <post u="10306" v="10325">the night is lack of the sun; that
+155,156c154,155
+<     <solution rank="1" score="2.93092e-05">
+<       <pre u="22775" v="22794">me have audience for a word or two:
+---
+>     <solution rank="1" score="1.92331e-05">
+>       <pre u="22773" v="22792">me have audience for a word or two:
+159,160c158,159
+<       <content type="TEXT" name="snippet" u="29" v="23421" />
+<       <match u="22795" v="22809">tidings to this fair assembly.
+---
+>       <content type="TEXT" name="snippet" u="27" v="23419" />
+>       <match u="22793" v="22807">tidings to this fair assembly.
+163c162
+<       <post u="22810" v="22829">worth resorted to this forest,
+---
+>       <post u="22808" v="22827">worth resorted to this forest,
+167,168c166,167
+<     <solution rank="2" score="1.79963e-05">
+<       <pre u="2214" v="2233">his honour the
+---
+>     <solution rank="2" score="1.56034e-05">
+>       <pre u="2212" v="2231">his honour the
+171,172c170,171
+<       <content type="TEXT" name="snippet" u="29" v="23421" />
+<       <match u="2234" v="2251">good, and
+---
+>       <content type="TEXT" name="snippet" u="27" v="23419" />
+>       <match u="2232" v="2249">good, and
+176c175
+<       <post u="2252" v="2271">your
+---
+>       <post u="2250" v="2269">your
+184,185c183,184
+<     <solution rank="3" score="1.70491e-05">
+<       <pre u="10267" v="10286">ease he is; and that he that wants money,
+---
+>     <solution rank="3" score="1.47822e-05">
+>       <pre u="10265" v="10284">ease he is; and that he that wants money,
+188,189c187,188
+<       <content type="TEXT" name="snippet" u="29" v="23421" />
+<       <match u="10287" v="10305">of rain is to wet and fire to
+---
+>       <content type="TEXT" name="snippet" u="27" v="23419" />
+>       <match u="10285" v="10303">of rain is to wet and fire to
+192c191
+<       <post u="10306" v="10325">cause of the night is lack of the sun; that
+---
+>       <post u="10304" v="10323">cause of the night is lack of the sun; that
+195,212c194,195
+<     <solution rank="4" score="1.4739e-05">
+<       <pre u="21760" v="21779">My lord, the first time that I ever saw him
+< 	Methought he was a brother to your daughter:
+< 	But, my </pre>
+<       <content type="TEXT" name="snippet" u="29" v="23421" />
+<       <match u="21780" v="21808">good lord, this boy is forest-born,
+< 	And hath been tutor'd in the rudiments
+< 	Of many desperate studies by his uncle,
+< 	Whom he reports to be a great </match>
+<       <post u="21809" v="21828">magician,
+< 	Obscured in the circle of this forest.
+< 
+< 	[Enter TOUCHSTONE and AUDREY]
+< 
+< JAQUES	There is, sure, another flood toward, and </post>
+<     </solution>
+<     <solution rank="5" score="1.4084e-05">
+<       <pre u="19439" v="19458">I pray you, tell
+---
+>     <solution rank="4" score="1.22114e-05">
+>       <pre u="19437" v="19456">I pray you, tell
+216,217c199,200
+<       <content type="TEXT" name="snippet" u="29" v="23421" />
+<       <match u="19459" v="19481">great
+---
+>       <content type="TEXT" name="snippet" u="27" v="23419" />
+>       <match u="19457" v="19479">great
+224c207
+<       <post u="19482" v="19501">heart and counterfeit to be a man.
+---
+>       <post u="19480" v="19499">heart and counterfeit to be a man.
+228,229c211,212
+<     <solution rank="6" score="1.128e-05">
+<       <pre u="10285" v="10304">the property of rain is to wet and fire to
+---
+>     <solution rank="5" score="1.12344e-05">
+>       <pre u="10283" v="10302">the property of rain is to wet and fire to
+232,233c215,216
+<       <content type="TEXT" name="snippet" u="29" v="23421" />
+<       <match u="10305" v="10329">great cause of the night is lack of the sun; that
+---
+>       <content type="TEXT" name="snippet" u="27" v="23419" />
+>       <match u="10303" v="10327">great cause of the night is lack of the sun; that
+236c219
+<       <post u="10330" v="10349">breeding or comes of a very dull kindred.
+---
+>       <post u="10328" v="10347">breeding or comes of a very dull kindred.
+241,242c224,241
+<     <solution rank="7" score="1.09598e-05">
+<       <pre u="22948" v="22967">begot:
+---
+>     <solution rank="6" score="9.68487e-06">
+>       <pre u="21758" v="21777">My lord, the first time that I ever saw him
+> 	Methought he was a brother to your daughter:
+> 	But, my </pre>
+>       <content type="TEXT" name="snippet" u="27" v="23419" />
+>       <match u="21778" v="21806">good lord, this boy is forest-born,
+> 	And hath been tutor'd in the rudiments
+> 	Of many desperate studies by his uncle,
+> 	Whom he reports to be a great </match>
+>       <post u="21807" v="21826">magician,
+> 	Obscured in the circle of this forest.
+> 
+> 	[Enter TOUCHSTONE and AUDREY]
+> 
+> JAQUES	There is, sure, another flood toward, and </post>
+>     </solution>
+>     <solution rank="7" score="7.39735e-06">
+>       <pre u="22946" v="22965">begot:
+246,247c245,246
+<       <content type="TEXT" name="snippet" u="29" v="23421" />
+<       <match u="22968" v="23006">good of our returned fortune,
+---
+>       <content type="TEXT" name="snippet" u="27" v="23419" />
+>       <match u="22966" v="23004">good of our returned fortune,
+253c252
+<       <post u="23007" v="23026">to the measures fall.
+---
+>       <post u="23005" v="23024">to the measures fall.
+258,259c257,258
+<     <solution rank="8" score="7.2961e-06">
+<       <pre u="19389" v="19408">at home.
+---
+>     <solution rank="8" score="5.50708e-06">
+>       <pre u="19387" v="19406">at home.
+265,266c264,265
+<       <content type="TEXT" name="snippet" u="29" v="23421" />
+<       <match u="19409" v="19459">of good cheer, youth: you a man! you lack a
+---
+>       <content type="TEXT" name="snippet" u="27" v="23419" />
+>       <match u="19407" v="19457">of good cheer, youth: you a man! you lack a
+275c274
+<       <post u="19460" v="19479">testimony in your complexion that it was a passion
+---
+>       <post u="19458" v="19477">testimony in your complexion that it was a passion
+282,283c281,282
+<     <solution rank="9" score="6.89076e-06">
+<       <pre u="13820" v="13839">the forest and to couple us.
+---
+>     <solution rank="9" score="5.40118e-06">
+>       <pre u="2176" v="2195">No, by mine honour, but I was bid to come for you.
+285c284,292
+< JAQUES	[Aside]  I would fain see this meeting.
+---
+> ROSALIND	Where learned you that oath, fool?
+> 
+> TOUCHSTONE	</pre>
+>       <content type="TEXT" name="snippet" u="27" v="23419" />
+>       <match u="2196" v="2247">Of a certain knight that swore by his honour they
+> 	were good pancakes and swore by his honour the
+> 	mustard was naught: now I'll stand to it, the
+> 	pancakes were naught and the mustard was good, and
+> 	yet was not the knight forsworn.
+287,299c294,300
+< AUDREY	Well, the gods give us </pre>
+<       <content type="TEXT" name="snippet" u="29" v="23421" />
+<       <match u="13840" v="13893">joy!
+< 
+< TOUCHSTONE	Amen. A man may, if he were of a fearful heart,
+< 	stagger in this attempt; for here we have no temple
+< 	but the wood, no assembly but horn-beasts. But what
+< 	though? Courage! As horns are odious, they are
+< 	necessary. It is said, 'many a man knows no end of
+< 	his goods:' </match>
+<       <post u="13894" v="13913">right; many a man has good horns, and
+< 	knows no end of them. Well, that is the dowry of
+< 	his </post>
+---
+> CELIA	How prove you that, in the great </match>
+>       <post u="2248" v="2267">heap of your
+> 	knowledge?
+> 
+> ROSALIND	Ay, marry, now unmuzzle your wisdom.
+> 
+> TOUCHSTONE	Stand you both forth now: stroke your chins, </post>
+302c303
+<   <content name="snippet" action="cluster"> ... is to wet and fire to
+---
+>   <content name="snippet" action="cluster" output-action="bold"> ... is to wet and fire to
+311c312
+< <document filetypes="text " vse-base-score="4.68002e-05"
+---
+> <document filetypes="text " vse-base-score="3.16915e-05"
+313c314
+<   creation-time-sec="1371904804" vertex="13" ip="9.75.200.59" ct="text/plain"
+---
+>   graph-id-high-water="20" priority="0" vertex="25" ct="text/plain"
+318,319c319,320
+<     <solution rank="0" score="2.67145e-05">
+<       <pre u="20808" v="20827">damn allowed; no,
+---
+>     <solution rank="0" score="1.75538e-05">
+>       <pre u="20806" v="20825">damn allowed; no,
+322,323c323,324
+<       <content type="TEXT" name="snippet" u="28" v="141251" />
+<       <match u="20828" v="20843">good old word of
+---
+>       <content type="TEXT" name="snippet" u="26" v="141243" />
+>       <match u="20826" v="20841">good old word of
+326c327
+<       <post u="20844" v="20863">relief to a merry soul.'
+---
+>       <post u="20842" v="20861">relief to a merry soul.'
+330,345c331,332
+<     <solution rank="1" score="2.24964e-05">
+<       <pre u="137313" v="137332">Bathsheba went home, her mind occupied with a
+< new trouble, which being rather harassing than deadly
+< was calculated to do </pre>
+<       <content type="TEXT" name="snippet" u="28" v="141251" />
+<       <match u="137333" v="137351"><![CDATA[good by diverting her from the
+< chronic gloom of 
+< &lt;P 454>
+< her life. She was set thinking a great
+< ]]></match>
+<       <post u="137352" v="137371">deal about Oak and of his wich to shun her; and there
+< occurred to Bathsheba several incidents of latter in+
+< </post>
+<     </solution>
+<     <solution rank="2" score="2.01435e-05">
+<       <pre u="139564" v="139583"><![CDATA[thing 
+---
+>     <solution rank="1" score="1.5184e-05">
+>       <pre u="139556" v="139575"><![CDATA[thing 
+349,350c336,337
+<       <content type="TEXT" name="snippet" u="28" v="141251" />
+<       <match u="139584" v="139602">of
+---
+>       <content type="TEXT" name="snippet" u="26" v="141243" />
+>       <match u="139576" v="139594">of
+354c341
+<       <post u="139603" v="139622">hush is not what I wished for at all, or what
+---
+>       <post u="139595" v="139614">hush is not what I wished for at all, or what
+357,367c344,356
+<     <solution rank="3" score="1.70973e-05">
+<       <pre u="76764" v="76783">280>
+< "Our poor Parson Thirdly can't get no money to
+< buy such rings,' said  Matthew Moon, thoughtfully.
+< "And as </pre>
+<       <content type="TEXT" name="snippet" u="28" v="141251" />
+<       <match u="76784" v="76808">good a man as ever walked. I don't believe
+< poor Thirdly have a single one, even of humblest tin or
+< copper. Such a great </match>
+<       <post u="76809" v="76828">ornament as they'd be to him on
+< a dull a'ternoon, when he's up in the pulpit lighted </post>
+---
+>     <solution rank="2" score="1.47822e-05">
+>       <pre u="137305" v="137324">Bathsheba went home, her mind occupied with a
+> new trouble, which being rather harassing than deadly
+> was calculated to do </pre>
+>       <content type="TEXT" name="snippet" u="26" v="141243" />
+>       <match u="137325" v="137343"><![CDATA[good by diverting her from the
+> chronic gloom of 
+> &lt;P 454>
+> her life. She was set thinking a great
+> ]]></match>
+>       <post u="137344" v="137363">deal about Oak and of his wich to shun her; and there
+> occurred to Bathsheba several incidents of latter in+
+> </post>
+369,370c358,359
+<     <solution rank="4" score="1.4084e-05">
+<       <pre u="48155" v="48174"><![CDATA[to be another smile soon.
+---
+>     <solution rank="3" score="1.22114e-05">
+>       <pre u="48151" v="48170"><![CDATA[to be another smile soon.
+376,377c365,366
+<       <content type="TEXT" name="snippet" u="28" v="141251" />
+<       <match u="48175" v="48197">GREAT BARN AnD THE SHEEP-SHEARERS
+---
+>       <content type="TEXT" name="snippet" u="26" v="141243" />
+>       <match u="48171" v="48193">GREAT BARN AnD THE SHEEP-SHEARERS
+380c369
+<       <post u="48198" v="48217">spirits when they
+---
+>       <post u="48194" v="48213">spirits when they
+384,399c373,383
+<     <solution rank="5" score="1.37881e-05">
+<       <pre u="56309" v="56328">blood will shine out even
+< in the ranks and files. And is he really come home,
+< miss ?"
+< ' I believe so. </pre>
+<       <content type="TEXT" name="snippet" u="28" v="141251" />
+<       <match u="56329" v="56359">Good-night, Liddy.'
+< After all, how could a cheerful wearer of skirts
+< be permanently offended with the man ? There are
+< occasions when girls like Bathsheba will put up with
+< a great </match>
+<       <post u="56360" v="56379"><![CDATA[deal of
+< &lt;P 218>
+< unconventional behaviour. When they
+< want to be praised, which is often, when they want to
+< be ]]></post>
+---
+>     <solution rank="4" score="1.12344e-05">
+>       <pre u="76759" v="76778">280>
+> "Our poor Parson Thirdly can't get no money to
+> buy such rings,' said  Matthew Moon, thoughtfully.
+> "And as </pre>
+>       <content type="TEXT" name="snippet" u="26" v="141243" />
+>       <match u="76779" v="76803">good a man as ever walked. I don't believe
+> poor Thirdly have a single one, even of humblest tin or
+> copper. Such a great </match>
+>       <post u="76804" v="76823">ornament as they'd be to him on
+> a dull a'ternoon, when he's up in the pulpit lighted </post>
+401,402c385,386
+<     <solution rank="6" score="1.28147e-05">
+<       <pre u="139570" v="139589">time; true, I have. But
+---
+>     <solution rank="5" score="1.1096e-05">
+>       <pre u="139562" v="139581">time; true, I have. But
+405,406c389,390
+<       <content type="TEXT" name="snippet" u="28" v="141251" />
+<       <match u="139590" v="139615">joy o' her.'
+---
+>       <content type="TEXT" name="snippet" u="26" v="141243" />
+>       <match u="139582" v="139607">joy o' her.'
+410c394
+<       <post u="139616" v="139635">us would have wished if it hadn't been for
+---
+>       <post u="139608" v="139627">us would have wished if it hadn't been for
+414,415c398,399
+<     <solution rank="7" score="1.1569e-05">
+<       <pre u="15434" v="15453">the hedge, and saw that he was
+---
+>     <solution rank="6" score="1.00308e-05">
+>       <pre u="15432" v="15451">the hedge, and saw that he was
+418,419c402,403
+<       <content type="TEXT" name="snippet" u="28" v="141251" />
+<       <match u="15454" v="15481">great hurry, as if his thoughts were several
+---
+>       <content type="TEXT" name="snippet" u="26" v="141243" />
+>       <match u="15452" v="15479">great hurry, as if his thoughts were several
+423c407
+<       <post u="15482" v="15501">master and a. bad
+---
+>       <post u="15480" v="15499">master and a. bad
+427,428c411,429
+<     <solution rank="8" score="1.12758e-05">
+<       <pre u="35381" v="35400">maltster. 'Liddy saith she've a new one.'
+---
+>     <solution rank="7" score="9.06004e-06">
+>       <pre u="56304" v="56323">blood will shine out even
+> in the ranks and files. And is he really come home,
+> miss ?"
+> ' I believe so. </pre>
+>       <content type="TEXT" name="snippet" u="26" v="141243" />
+>       <match u="56324" v="56354">Good-night, Liddy.'
+> After all, how could a cheerful wearer of skirts
+> be permanently offended with the man ? There are
+> occasions when girls like Bathsheba will put up with
+> a great </match>
+>       <post u="56355" v="56374"><![CDATA[deal of
+> &lt;P 218>
+> unconventional behaviour. When they
+> want to be praised, which is often, when they want to
+> be ]]></post>
+>     </solution>
+>     <solution rank="8" score="8.51094e-06">
+>       <pre u="35379" v="35398">maltster. 'Liddy saith she've a new one.'
+431,432c432,433
+<       <content type="TEXT" name="snippet" u="28" v="141251" />
+<       <match u="35401" v="35433">good
+---
+>       <content type="TEXT" name="snippet" u="26" v="141243" />
+>       <match u="35399" v="35431">good
+437c438
+<       <post u="35434" v="35453">clocks, to stand upon the chimbley-piece.'
+---
+>       <post u="35432" v="35451">clocks, to stand upon the chimbley-piece.'
+441,442c442,443
+<     <solution rank="9" score="9.54105e-06">
+<       <pre u="36410" v="36429">Now, don't ye take on so, shepherd, and sit down!'
+---
+>     <solution rank="9" score="7.20157e-06">
+>       <pre u="36408" v="36427">Now, don't ye take on so, shepherd, and sit down!'
+445,446c446,447
+<       <content type="TEXT" name="snippet" u="28" v="141251" />
+<       <match u="36430" v="36468">of the kind in Christianity.
+---
+>       <content type="TEXT" name="snippet" u="26" v="141243" />
+>       <match u="36428" v="36466">of the kind in Christianity.
+452c453
+<       <post u="36469" v="36488">thing to be clever, I'm sure,' he added, making move+
+---
+>       <post u="36467" v="36486">thing to be clever, I'm sure,' he added, making move+
+457c458
+<   <content name="snippet" action="cluster"> ... cheerful moment
+---
+>   <content name="snippet" action="cluster" output-action="bold"> ... cheerful moment
+463,465c464,465
+< <retrieval-performance n-tau="40" n-rho="39" n-uat="0" n-ohr="0"
+<   occr-reads="54101" block-reads="109" seeks="8" cache-hits="109" cache-misses="0"
+<   n-blocks="43728"
+---
+> <retrieval-performance n-tau="20" n-rho="14" n-uat="0" n-ohr="0"
+>   occr-reads="44208" block-reads="113" seeks="12" cache-hits="113" cache-misses="0"
+467,470c467,482
+<   <query-performance what="doc-text" n-tau="16" n-rho="4" n-uat="0" n-ohr="0"
+<     occr-reads="48" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+<     n-blocks="2"
+<   />
+---
+>   <query-performance what="doc-text" n-tau="8" n-rho="0" n-uat="0" n-ohr="0"
+>     occr-reads="45" block-reads="6" seeks="3" cache-hits="6" cache-misses="0"
+>   >
+>     <query-performance what="not-within" n-tau="8" n-rho="0" n-uat="0" n-ohr="0"
+>       occr-reads="45" block-reads="6" seeks="3" cache-hits="6" cache-misses="0"
+>     >
+>       <query-performance what="0:doc#" n-blocks="1" n-tau="8" n-rho="0" n-uat="0"
+>         n-ohr="0" occr-reads="45" block-reads="3" seeks="3" cache-hits="3"
+>         cache-misses="0"
+>       />
+>       <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="3" n-uat="0"
+>         n-ohr="0" occr-reads="0" block-reads="3" seeks="0" cache-hits="3"
+>         cache-misses="0"
+>       />
+>     </query-performance>
+>   </query-performance>
+473,474c485,490
+<     n-blocks="2"
+<   />
+---
+>   >
+>     <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="0" n-uat="0"
+>       n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+>       cache-misses="0"
+>     />
+>   </query-performance>
+476,486c492,531
+<     occr-reads="53685" block-reads="94" seeks="0" cache-hits="94" cache-misses="0"
+<     n-blocks="43716"
+<   />
+<   <query-performance what="output" n-tau="8" n-rho="1" n-uat="0" n-ohr="0"
+<     occr-reads="5" block-reads="3" seeks="2" cache-hits="3" cache-misses="0"
+<     n-blocks="4"
+<   />
+<   <query-performance what="summarize" n-tau="8" n-rho="12" n-uat="0" n-ohr="0"
+<     occr-reads="50" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+<     n-blocks="2"
+<   />
+---
+>     occr-reads="43795" block-reads="90" seeks="0" cache-hits="90" cache-misses="0"
+>   >
+>     <query-performance what="3:" n-blocks="8627" n-tau="0" n-rho="0" n-uat="0"
+>       n-ohr="0" occr-reads="43795" block-reads="90" seeks="0" cache-hits="90"
+>       cache-misses="0"
+>     />
+>   </query-performance>
+>   <query-performance what="output" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+>     occr-reads="5" block-reads="5" seeks="3" cache-hits="5" cache-misses="0"
+>   >
+>     <query-performance what="not-within" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+>       occr-reads="5" block-reads="5" seeks="3" cache-hits="5" cache-misses="0"
+>     >
+>       <query-performance what="0:title" n-blocks="1" n-tau="4" n-rho="0"
+>         n-uat="0" n-ohr="0" occr-reads="5" block-reads="3" seeks="3" cache-hits="3"
+>         cache-misses="0"
+>       />
+>       <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="2" n-uat="0"
+>         n-ohr="0" occr-reads="0" block-reads="2" seeks="0" cache-hits="2"
+>         cache-misses="0"
+>       />
+>     </query-performance>
+>   </query-performance>
+>   <query-performance what="summarize" n-tau="4" n-rho="4" n-uat="0" n-ohr="0"
+>     occr-reads="44" block-reads="6" seeks="3" cache-hits="6" cache-misses="0"
+>   >
+>     <query-performance what="not-within" n-tau="4" n-rho="4" n-uat="0" n-ohr="0"
+>       occr-reads="44" block-reads="6" seeks="3" cache-hits="6" cache-misses="0"
+>     >
+>       <query-performance what="0:snippet" n-blocks="1" n-tau="4" n-rho="4"
+>         n-uat="0" n-ohr="0" occr-reads="44" block-reads="3" seeks="3" cache-hits="3"
+>         cache-misses="0"
+>       />
+>       <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="3" n-uat="0"
+>         n-ohr="0" occr-reads="0" block-reads="3" seeks="0" cache-hits="3"
+>         cache-misses="0"
+>       />
+>     </query-performance>
+>   </query-performance>
+>   <query-performance what="def-search" />
+489,498c534,555
+<     n-blocks="0"
+<   />
+<   <query-performance what="really-content" n-tau="0" n-rho="0" n-uat="0"
+<     n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+<     cache-misses="0" n-blocks="0"
+<   />
+<   <query-performance what="rights-query" n-tau="8" n-rho="22" n-uat="0" n-ohr="0"
+<     occr-reads="313" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+<     n-blocks="2"
+<   />
+---
+>   >
+>     <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+>       occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+>     />
+>   </query-performance>
+>   <query-performance what="really-content" n-tau="4" n-rho="10" n-uat="0"
+>     n-ohr="0" occr-reads="319" block-reads="6" seeks="3" cache-hits="6"
+>     cache-misses="0"
+>   >
+>     <query-performance what="not-within" n-tau="4" n-rho="10" n-uat="0" n-ohr="0"
+>       occr-reads="319" block-reads="6" seeks="3" cache-hits="6" cache-misses="0"
+>     >
+>       <query-performance what="0:" n-blocks="1" n-tau="4" n-rho="10" n-uat="0"
+>         n-ohr="0" occr-reads="319" block-reads="3" seeks="3" cache-hits="3"
+>         cache-misses="0"
+>       />
+>       <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="3" n-uat="0"
+>         n-ohr="0" occr-reads="0" block-reads="3" seeks="0" cache-hits="3"
+>         cache-misses="0"
+>       />
+>     </query-performance>
+>   </query-performance>
+500,502c557,558
+< <query-performance flags="hard extent r:need" what="and" n-tau="0" n-rho="0"
+<   n-uat="0" n-ohr="0" occr-reads="88706" block-reads="27" seeks="22"
+<   cache-hits="13" cache-misses="14" n-blocks="15"
+---
+> <query-performance what="and" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+>   occr-reads="100824" block-reads="20" seeks="15" cache-hits="7" cache-misses="13"
+504,506c560,561
+<   <query-performance flags="hard point r:apply" what="not-within" n-tau="60"
+<     n-rho="0" n-uat="322" n-ohr="0" occr-reads="745" block-reads="2" seeks="1"
+<     cache-hits="1" cache-misses="1" n-blocks="1"
+---
+>   <query-performance what="not-within" n-tau="60" n-rho="0" n-uat="74" n-ohr="0"
+>     occr-reads="261" block-reads="2" seeks="1" cache-hits="1" cache-misses="1"
+508,510c563,565
+<     <query-performance flags="hard point r:apply/need" what="1:0:tiding"
+<       n-tau="60" n-rho="0" n-uat="317" n-ohr="0" occr-reads="745" block-reads="1"
+<       seeks="1" cache-hits="0" cache-misses="1" n-blocks="1"
+---
+>     <query-performance what="1:tiding" n-blocks="1" n-tau="60" n-rho="0"
+>       n-uat="74" n-ohr="0" occr-reads="261" block-reads="1" seeks="1" cache-hits="0"
+>       cache-misses="1"
+512,514c567,569
+<     <query-performance flags="hard extent r:apply/need" what="0:0:del#" n-tau="1"
+<       n-rho="1" n-uat="0" n-ohr="1" occr-reads="0" block-reads="1" seeks="0"
+<       cache-hits="1" cache-misses="0" n-blocks="0"
+---
+>     <query-performance what="0:del#" n-blocks="0" n-tau="1" n-rho="1" n-uat="0"
+>       n-ohr="1" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+>       cache-misses="0"
+517,519c572,573
+<   <query-performance flags="hard point r:apply" what="not-within" n-tau="195"
+<     n-rho="0" n-uat="253" n-ohr="0" occr-reads="3221" block-reads="2" seeks="1"
+<     cache-hits="1" cache-misses="1" n-blocks="1"
+---
+>   <query-performance what="not-within" n-tau="93" n-rho="0" n-uat="122" n-ohr="0"
+>     occr-reads="720" block-reads="2" seeks="1" cache-hits="1" cache-misses="1"
+521,523c575,577
+<     <query-performance flags="hard point r:apply/need" what="1:0:great"
+<       n-tau="195" n-rho="0" n-uat="253" n-ohr="0" occr-reads="3221" block-reads="1"
+<       seeks="1" cache-hits="0" cache-misses="1" n-blocks="1"
+---
+>     <query-performance what="1:joy" n-blocks="1" n-tau="93" n-rho="0" n-uat="122"
+>       n-ohr="0" occr-reads="720" block-reads="1" seeks="1" cache-hits="0"
+>       cache-misses="1"
+525,527c579,581
+<     <query-performance flags="hard extent r:apply/need" what="0:0:del#" n-tau="1"
+<       n-rho="1" n-uat="0" n-ohr="1" occr-reads="0" block-reads="1" seeks="0"
+<       cache-hits="1" cache-misses="0" n-blocks="0"
+---
+>     <query-performance what="0:del#" n-blocks="0" n-tau="1" n-rho="1" n-uat="0"
+>       n-ohr="1" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+>       cache-misses="0"
+530,532c584,586
+<   <query-performance flags="hard point r:apply" what="not-within" n-tau="93"
+<     n-rho="0" n-uat="303" n-ohr="0" occr-reads="1067" block-reads="2" seeks="1"
+<     cache-hits="1" cache-misses="1" n-blocks="1"
+---
+>   <query-performance what="not-within" n-tau="196" n-rho="0" n-uat="230"
+>     n-ohr="0" occr-reads="4249" block-reads="3" seeks="2" cache-hits="1"
+>     cache-misses="2"
+534,536c588,590
+<     <query-performance flags="hard point r:apply/need" what="1:0:joy" n-tau="93"
+<       n-rho="0" n-uat="303" n-ohr="0" occr-reads="1067" block-reads="1" seeks="1"
+<       cache-hits="0" cache-misses="1" n-blocks="1"
+---
+>     <query-performance what="1:great" n-blocks="2" n-tau="196" n-rho="0"
+>       n-uat="230" n-ohr="0" occr-reads="4249" block-reads="2" seeks="2" cache-hits="0"
+>       cache-misses="2"
+538,540c592,594
+<     <query-performance flags="hard extent r:apply/need" what="0:0:del#" n-tau="1"
+<       n-rho="1" n-uat="0" n-ohr="1" occr-reads="0" block-reads="1" seeks="0"
+<       cache-hits="1" cache-misses="0" n-blocks="0"
+---
+>     <query-performance what="0:del#" n-blocks="0" n-tau="1" n-rho="1" n-uat="0"
+>       n-ohr="1" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+>       cache-misses="0"
+543,545c597,599
+<   <query-performance flags="hard point r:apply" what="not-within" n-tau="203"
+<     n-rho="0" n-uat="251" n-ohr="0" occr-reads="4118" block-reads="3" seeks="2"
+<     cache-hits="1" cache-misses="2" n-blocks="2"
+---
+>   <query-performance what="not-within" n-tau="204" n-rho="0" n-uat="230"
+>     n-ohr="0" occr-reads="4278" block-reads="3" seeks="2" cache-hits="1"
+>     cache-misses="2"
+547,549c601,603
+<     <query-performance flags="hard point r:apply/need" what="1:0:good"
+<       n-tau="203" n-rho="0" n-uat="251" n-ohr="0" occr-reads="4118" block-reads="2"
+<       seeks="2" cache-hits="0" cache-misses="2" n-blocks="2"
+---
+>     <query-performance what="1:good" n-blocks="2" n-tau="204" n-rho="0"
+>       n-uat="230" n-ohr="0" occr-reads="4278" block-reads="2" seeks="2" cache-hits="0"
+>       cache-misses="2"
+551,553c605,607
+<     <query-performance flags="hard extent r:apply/need" what="0:0:del#" n-tau="1"
+<       n-rho="1" n-uat="0" n-ohr="1" occr-reads="0" block-reads="1" seeks="0"
+<       cache-hits="1" cache-misses="0" n-blocks="0"
+---
+>     <query-performance what="0:del#" n-blocks="0" n-tau="1" n-rho="1" n-uat="0"
+>       n-ohr="1" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+>       cache-misses="0"
+556,558c610,612
+<   <query-performance flags="hard point r:apply" what="not-within" n-tau="339"
+<     n-rho="0" n-uat="355" n-ohr="0" occr-reads="79555" block-reads="18" seeks="17"
+<     cache-hits="9" cache-misses="9" n-blocks="10"
+---
+>   <query-performance what="not-within" n-tau="339" n-rho="0" n-uat="355"
+>     n-ohr="0" occr-reads="91316" block-reads="10" seeks="9" cache-hits="3"
+>     cache-misses="7"
+560,562c614,616
+<     <query-performance flags="hard point r:apply/need" what="1:0:of" n-tau="339"
+<       n-rho="0" n-uat="355" n-ohr="0" occr-reads="79555" block-reads="17" seeks="17"
+<       cache-hits="8" cache-misses="9" n-blocks="10"
+---
+>     <query-performance what="1:of" n-blocks="9" n-tau="339" n-rho="0" n-uat="355"
+>       n-ohr="0" occr-reads="91316" block-reads="9" seeks="9" cache-hits="2"
+>       cache-misses="7"
+564,566c618,620
+<     <query-performance flags="hard extent r:apply/need" what="0:0:del#" n-tau="1"
+<       n-rho="1" n-uat="0" n-ohr="1" occr-reads="0" block-reads="1" seeks="0"
+<       cache-hits="1" cache-misses="0" n-blocks="0"
+---
+>     <query-performance what="0:del#" n-blocks="0" n-tau="1" n-rho="1" n-uat="0"
+>       n-ohr="1" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+>       cache-misses="0"
+570d623
+< <xpath-performances />

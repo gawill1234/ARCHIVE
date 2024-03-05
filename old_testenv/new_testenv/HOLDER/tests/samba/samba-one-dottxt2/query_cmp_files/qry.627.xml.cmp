@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/document/TXT/number_file"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/document/TXT/number_file/"
+  input-at="1191258864" vertex="0" ct="text/plain"
+  md5="b5027cf857a1b49d54a7dfee0815b8d5" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="8" v="22">123 456 789 101 112 131 415 161 718 192 021 222 324 252 627 </pre>
+      <content type="text" name="snippet" u="7" v="24" />
+      <match u="22" v="23">627 282 </match>
+      <post u="22" v="24">627 282 930
+</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... 415 161 718 192 021 222 324 252 627 282 930
+</content>
+</document>
+</scope>

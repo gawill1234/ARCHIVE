@@ -1,0 +1,2 @@
+# Turn on four indexer options for the 8.0 "mini-features" for Symantec.
+export INDEX_OPTIONS='fast-docs-load=true,fast-reconstructor-startup=true,preload-database=true,term-expand-use-new-mode=true'

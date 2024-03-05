@@ -1,0 +1,28 @@
+#!/bin/bash
+
+if ! [ "$2" ]; then
+    echo "usage:  new-vtd  test-list-file-name  xml-results-file-name"
+    exit 2
+fi
+
+myid=$$
+testlist=$(cd $(dirname $1); echo $(/bin/pwd)/$(basename $1))
+xmlresults=$2
+
+mkdir vtd_$myid || exit
+cd vtd_$myid
+if [ ! -r $testlist ]; then
+    cd ..
+    rmdir vtd_$myid
+    echo Cannot read $testlist
+    exit 2
+fi
+
+$TEST_ROOT/bin/test-server.rb --runid $myid \
+                              --input $testlist \
+                              --xmlout $xmlresults &
+sleep 2				# Let the server get started.
+$TEST_ROOT/bin/test-runner.rb $myid &
+
+# Do we want to wait?
+# wait

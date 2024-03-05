@@ -1,0 +1,67 @@
+<testset>
+   <test>
+      <name>
+         vivIfElse05
+      </name>
+      <description>
+         vivIfElse():  Test of equal double comparison condition
+      </description>
+      <funcname argcnt="3" codetemplate="match" tbltemplate="1">
+         viv:if-else
+      </funcname>
+      <variable>
+         <name>
+            myint
+         </name>
+         <value>
+            100.0
+         </value>
+         <type>
+            double
+         </type>
+      </variable>
+      <variable>
+         <name>
+            myint2
+         </name>
+         <value>
+            100.00
+         </value>
+         <type>
+            double
+         </type>
+      </variable>
+      <argument>
+         <value>
+            $myint = $myint2
+         </value>
+         <type>
+            vivtest
+         </type>
+      </argument>
+      <argument>
+         <value>
+            TRUE
+         </value>
+         <type>
+            string
+         </type>
+      </argument>
+      <argument>
+         <value>
+            TRUE
+         </value>
+         <type>
+            string
+         </type>
+      </argument>
+      <result>
+         <value>
+            TRUE
+         </value>
+         <type>
+            string
+         </type>
+      </result>
+   </test>
+</testset>

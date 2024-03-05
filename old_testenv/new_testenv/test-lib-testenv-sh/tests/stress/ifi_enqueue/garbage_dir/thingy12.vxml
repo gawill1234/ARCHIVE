@@ -1,0 +1,9 @@
+<vce>
+              <document url="http://vivisimo.com?atomset">
+                <content name="title">string</content>
+                <content name="type">atom</content>
+                <content name="type">set</content>
+                <content name="pseudo">look alike</content>
+                <content name="text">9([^0-9a-z][A-Z])$</content>
+              </document>
+</vce>

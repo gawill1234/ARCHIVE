@@ -1,0 +1,111 @@
+#!/bin/bash
+#
+#   Pyed
+#
+
+
+#############################################################
+
+   VUSER=""
+   VPW=""
+   VCOLLECTION=""
+   VWWWUSER=""
+   SHOST=""
+   TARGETOS="$VIVTARGETOS"
+
+   VCMD="gronk"
+   if [ "$TARGETOS" == "windows" ]; then
+      VCMD="gronk.exe"
+   fi
+
+   VACTION="get-collection"
+   export PATH=$PATH:$TEST_ROOT/utils/bin:$TEST_ROOT/bin
+
+#############################################################
+
+getsetopts()
+{
+   OPTERR=0
+   OPTIND=1
+   while getopts "H:C:U:P:" flag; do
+     case "$flag" in
+        C) VCOLLECTION=$OPTARG;;
+        H) SHOST=$OPTARG;;
+        U) VUSER=$OPTARG;;
+        P) VPW=$OPTARG;;
+        *) echo "Usage: collection_exists -C <collection> -U <user> -P <password>"
+           exit 1;;
+     esac
+   done
+
+   if [ "$VCOLLECTION" == "" ]; then
+      echo "Collection name must be specified"
+      echo "Use the -C <collection> option"
+      exit 1
+   fi
+
+   if [ "$VUSER" == "" ]; then
+      VUSER=$VIVUSER
+      if [ "$VUSER" == "" ]; then
+         echo "Vivisimo username is needed"
+         echo "Either set VIVUSER environment variable or"
+         echo "use the -U <vivuser> options"
+         exit 1
+      fi
+   fi
+
+   if [ "$VPW" == "" ]; then
+      VPW=$VIVPW
+      if [ "$VPW" == "" ]; then
+         echo "Vivisimo password is needed"
+         echo "Either set VIVPW environment variable or"
+         echo "use the -P <vivpassword> options"
+         exit 1
+      fi
+   fi
+
+   if [ "$SHOST" == "" ]; then
+      SHOST=$VIVHOST
+   fi
+
+}
+
+usewget()
+{
+   rstring="wget 'http://$SHOST/vivisimo/cgi-bin/$VCMD?collection=$VCOLLECTION&action=$VACTION&type=binary' -o $VCOLLECTION.getlog -O $VCOLLECTION.xml.run"
+}
+
+getsetopts $*
+
+retry=0
+
+usewget
+ 
+#
+#   Allow 2 attempts to get the file.
+#
+while [ $retry -lt 2 ];do
+   fail=0
+   eval $rstring 2>/dev/null
+
+   if [ -f $VCOLLECTION.getlog ]; then
+      rm $VCOLLECTION.getlog
+   fi
+
+   if [ -f $VCOLLECTION.xml.run ]; then
+      xyz=`stat -c %s $VCOLLECTION.xml.run`
+   else
+      fail=1
+   fi
+
+   if [ $xyz -le 0 ]; then
+      fail=1
+   fi
+   if [ $fail -eq 0 ]; then
+      retry=99
+   else
+      retry=`expr $retry + 1`
+   fi
+done
+
+exit $fail

@@ -1,0 +1,131 @@
+#!/bin/bash
+
+###########################################################
+
+   VUSER="$VIVUSER"
+   VPW="$VIVPW"
+   VCOLLECTION=""
+   VWORKINGDIR=$TESTWORKINGDIR
+   VWWWUSER=""
+   SHOST="$VIVHOST"
+   TARGETOS="$VIVTARGETOS"
+   BINLIST=""
+   SHOWME=1000
+   PROJECT=$VIVPROJECT
+   if [ "$PROJECT" == "" ];then
+      PROJECT="query-meta"
+   fi
+
+   QMCMD="query-meta"
+   if [ "$TARGETOS" == "windows" ]; then
+      QMCMD="query-meta.exe"
+   fi
+   QWORK="querywork"
+   QCMP="query_cmp_files"
+
+   export PATH=$PATH:$TEST_ROOT/utils/bin:$TEST_ROOT/bin
+
+###########################################################
+
+getsetopts()
+{
+   OPTERR=0
+   OPTIND=1
+   while getopts "H:C:U:P:W:p:B:b:s:" flag; do
+     case "$flag" in
+        C) VCOLLECTION=$OPTARG;;
+        H) SHOST=$OPTARG;;
+        U) VUSER=$OPTARG;;
+        P) VPW=$OPTARG;;
+        p) PROJECT=$OPTARG;;
+        B) BINLIST=$OPTARG;;
+        s) SHOWME=$OPTARG;;
+        W) VWORKINGDIR=$OPTARG;;
+        *) echo "Usage: start_crawl -C <collection> -U <user> -P <password>"
+           exit 1;;
+     esac
+   done
+
+   if [ "$VWORKINGDIR" == "" ]; then
+      VWORKINGDIR="/tmp"
+   fi
+
+   if [ "$BINLIST" == "" ]; then
+      echo "No bin value.  Required.  Exiting."
+      exit 1
+   fi
+
+   if [ "$VCOLLECTION" == "" ]; then
+      echo "Collection name must be specified"
+      echo "Use the -C <collection> option"
+      exit 1
+   fi
+
+   if [ "$VUSER" == "" ]; then
+         echo "Vivisimo username is needed"
+         echo "Either set VIVUSER environment variable or"
+         echo "use the -U <vivuser> options"
+         exit 1
+   fi
+
+   if [ "$VPW" == "" ]; then
+         echo "Vivisimo password is needed"
+         echo "Either set VIVPW environment variable or"
+         echo "use the -P <vivpassword> options"
+         exit 1
+   fi
+
+   if [ "$SHOST" == "" ]; then
+      echo "Target host not specified.  Required.  Exiting."
+      echo "Either set VIVHOST environment variable or"
+      echo "use the -H <hostname> options"
+      exit 1
+   fi
+}
+
+getsetopts $*
+
+binfname=`genbinfname $BINLIST`
+
+FILENAME=$VCOLLECTION.$binfname.bin
+cmpFILENAME=$VCOLLECTION.$binfname.bin.cmp
+rsltFILENAME=$VCOLLECTION.$binfname.bin.rslt
+logfile=$VCOLLECTION.$binfname.binlog
+
+echo "################  $VCOLLECTION start  ##################"
+
+get_bin -B $BINLIST -C $VCOLLECTION -p $PROJECT -s $SHOWME -U $VUSER -P $VPW -H $SHOST
+
+mkdir -p $QWORK
+
+mv $logfile $QWORK/$logfile
+mv $FILENAME $QWORK/$rsltFILENAME
+
+xsltproc --html --novalid $TEST_ROOT/utils/xsl/bin_url.xsl $QWORK/$rsltFILENAME > $QWORK/bjnk 2>/dev/null
+
+xyz=`stat -c %s $QWORK/bjnk`
+
+if [ $xyz -gt 0 ]; then
+   grep http $QWORK/bjnk > $QWORK/$binfname.uri.rslt
+   rm  $QWORK/bjnk
+fi
+
+if [ "$NEWTESTSAVE" != "Yes" ]; then
+   diff $QCMP/$binfname.uri.cmp $QWORK/$binfname.uri.rslt > $QWORK/$binfname.uri.diff
+   res1=$?
+else
+   if [ ! -f $QCMP/$binfname.uri.cmp ]; then
+      cp $QWORK/$binfname.uri.rslt $QCMP/$binfname.uri.cmp
+   fi
+   res1=0
+fi
+
+if [ $res1 -eq 0 ]; then
+   echo "$VCOLLECTION:  $BINLIST bin URI compare passed"
+   echo "################  $VCOLLECTION end    ##################"
+   exit 0
+fi
+
+echo "$VCOLLECTION:  $BINLIST bin URI compare failed, see $QWORK/$binfname.uri.diff"
+echo "################  $VCOLLECTION end    ##################"
+exit 1

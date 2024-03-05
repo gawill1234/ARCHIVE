@@ -1,0 +1,17 @@
+<test name="samba-16">
+   <collection name="samba-16" file="samba-16.xml">
+      <statuscheck name="a-name" from="xpath">
+         <status-item eValue="3" vAttr="n-errors">//crawler-status</status-item>
+         <status-item eValue="2159" vAttr="n-output">//crawler-status</status-item>
+         <status-item eValue="0" vAttr="n-duplicates">//crawler-status</status-item>
+         <status-item eValue="2152" vAttr="n-docs">//vse-index-status</status-item>
+      </statuscheck>
+      <queries eDir="query_cmp_files">
+         <query eValue="757" cFile="qry.Hamilton.xml.cmp">Hamilton</query>
+         <query eValue="443" cFile="qry.Hamilton+Madison.xml.cmp">Hamilton AND Madison</query>
+         <query eValue="826" cFile="qry.Linux.xml.cmp">Linux</query>
+         <query eValue="0" cFile="qry.Stinkybottom.xml.cmp">Stinkybottom</query>
+         <query eValue="1238" cFile="qry.We+the+people.xml.cmp">We AND the AND people</query>
+      </queries>
+   </collection>
+</test>

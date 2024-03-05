@@ -1,0 +1,4 @@
+
+<scope><attribute name="status"><![CDATA[
+
+error (1 ms) - vivisimo_query_convert	: Invalid operator [words] in query: [cannot specify a number of words larger than 4 billion] (ID: SEARCH_ENGINE_QUERY)]]></attribute></scope>

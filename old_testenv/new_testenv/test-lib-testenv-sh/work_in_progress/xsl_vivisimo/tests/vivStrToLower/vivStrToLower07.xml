@@ -1,0 +1,40 @@
+<testset>
+   <test>
+      <name>
+         vivStrToLower07
+      </name>
+      <description>
+         mixed case, mixed char alpha string variable alpha to lower case
+      </description>
+      <funcname argcnt="3" codetemplate="match" tbltemplate="1">
+         viv:str-to-lower
+      </funcname>
+      <variable>
+         <name>
+            string1
+         </name>
+         <value>
+            aAaA;bBbB
+         </value>
+         <type>
+            string
+         </type>
+      </variable>
+      <argument>
+         <value>
+            string1
+         </value>
+         <type>
+            variable
+         </type>
+      </argument>
+      <result>
+         <value>
+            aaaa;bbbb
+         </value>
+         <type>
+            string
+         </type>
+      </result>
+   </test>
+</testset>

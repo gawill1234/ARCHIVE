@@ -1,0 +1,37 @@
+<testset>
+   <test>
+      <name>
+         vivMatch03
+      </name>
+      <description>
+         vivMatch():  string matches identical string
+      </description>
+      <funcname argcnt="3" codetemplate="match" tbltemplate="1">
+         viv:match
+      </funcname>
+      <argument>
+         <value>
+            abc
+         </value>
+         <type>
+            string
+         </type>
+      </argument>
+      <argument>
+         <value>
+            abc
+         </value>
+         <type>
+            string
+         </type>
+      </argument>
+      <result>
+         <value>
+            abc
+         </value>
+         <type>
+            string
+         </type>
+      </result>
+   </test>
+</testset>

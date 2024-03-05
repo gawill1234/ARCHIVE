@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="4" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="1" />
+<attribute name="cache-hits-content-retrieval" value="9" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="16" />
+<attribute name="cache-misses-text" value="21" />
+<attribute name="total-results-with-duplicates" value="4" />
+<document
+  url="file://///testbed2.test.vivisimo.com/restricted_users/samba_test_data/samba-1/doc/fedpaper.txt"
+  vse-key="smb://testbed2.test.vivisimo.com:80/restricted_users/samba_test_data/samba-1/doc/fedpaper.txt/"
+  vse-base-score="1.99805" la-score="3.27714"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="1873" v="1892">This is the Project Gutenberg 1.5 release of
+                    The Federalist Papers
+
+
+
+
+
+
+FEDERALIST. No. 1
+
+General Introduction
+For the Independent Journal.
+
+</pre>
+      <match u="1893" v="1893">HAMILTON
+
+</match>
+      <post u="1894" v="1913">To the People of the State of New York:
+AFTER an unequivocal experience of the inefficiency of the
+ subsisting federal </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="9700" v="9719">improper interference of foreign
+ nations.
+PUBLIUS.
+
+
+FEDERALIST No. 6
+
+Concerning Dangers from Dissensions Between the States
+For the Independent Journal.
+
+</pre>
+      <match u="9720" v="9720">HAMILTON
+
+</match>
+      <post u="9721" v="9740">To the People of the State of New York:
+THE three last numbers of this paper have been dedicated to </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="11776" v="11795">de Mably.
+
+
+FEDERALIST. No. 7
+
+The Same Subject Continued
+(Concerning Dangers from Dissensions Between the States)
+For the Independent Journal.
+
+</pre>
+      <match u="11796" v="11796">HAMILTON
+
+</match>
+      <post u="11797" v="11816">To the People of the State of New York:
+IT IS sometimes asked, with an air of seeming triumph, what
+ </post>
+    </solution>
+    <solution rank="3" score="1">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="14110" v="14129">Advertiser.
+
+
+FEDERALIST No. 8
+
+The Consequences of Hostilities Between the States
+From the New York Packet.
+Tuesday, November 20, 1787.
+
+</pre>
+      <match u="14130" v="14130">HAMILTON
+
+</match>
+      <post u="14131" v="14150">To the People of the State of New York:
+ASSUMING it therefore as an established truth that the several
+ States, </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="16191" v="16210">on this
+ subject.
+
+
+FEDERALIST No. 9
+
+The Union as a Safeguard Against Domestic Faction and Insurrection
+For the Independent Journal.
+
+</pre>
+      <match u="16211" v="16211">HAMILTON
+
+</match>
+      <post u="16212" v="16231">To the People of the State of New York:
+A FIRM Union will be of the utmost moment to the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... No. 1
+
+General Introduction
+For the Independent Journal.
+
+HAMILTON
+
+To the People of the State of New  ... Dissensions Between the States
+For the Independent Journal.
+
+HAMILTON
+
+To the People of the State of New  ... </content>
+</document>
+<document
+  url="file://///testbed2.test.vivisimo.com/restricted_users/samba_test_data/samba-1/doc/arizona.txt"
+  vse-key="smb://testbed2.test.vivisimo.com:80/restricted_users/samba_test_data/samba-1/doc/arizona.txt/"
+  vse-base-score="1.5" la-score="3.27714"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="8728" />
+      <pre u="4499" v="4518">NEW HAMPSHIRE 
+
+John Langdon 
+Nicholas Gilman
+
+
+MASSACHUSETTS 
+
+Nathaniel Gorham
+Rufus King
+
+
+CONNECTICUT 
+
+Wm. Saml. Johnson
+Roger Sherman 
+
+
+NEW YORK 
+
+Alexander </pre>
+      <match u="4519" v="4519">Hamilton 
+
+</match>
+      <post u="4520" v="4539">NEW JERSEY 
+
+Wil: Livingston
+David Brearley
+Wm. Paterson
+Jona: Dayton 
+
+
+PENNSYLVANIA 
+
+B Franklin
+Thomas Mifflin
+Robt Morris
+Geo. Clymer
+Thos. </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="8728" />
+      <pre u="4604" v="4623">Baldwin 
+
+
+Attest William Jackson Secretary 
+
+In Convention Monday 
+September 17th, 1787. 
+Present 
+The States of 
+New Hampshire, Massachusetts, Connecticut, Mr. </pre>
+      <match u="4624" v="4624">Hamilton </match>
+      <post u="4625" v="4644">from New York, New Jersey, Pennsylvania, Delaware, 
+Maryland, Virginia, North Carolina, South Carolina and 
+Georgia. 
+
+Resolved, 
+That the preceeding Constitution </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Wm. Saml. Johnson
+Roger Sherman 
+
+
+NEW YORK 
+
+Alexander Hamilton 
+
+NEW JERSEY 
+
+Wil: Livingston
+David Brearley
+Wm. Paterson
+ ... The States of 
+New Hampshire, Massachusetts, Connecticut, Mr. Hamilton from New York, New Jersey, Pennsylvania, Delaware, 
+Maryland,  ... </content>
+</document>
+<document
+  url="file://///testbed2.test.vivisimo.com/restricted_users/samba_test_data/samba-1/doc/constitution.txt"
+  vse-key="smb://testbed2.test.vivisimo.com:80/restricted_users/samba_test_data/samba-1/doc/constitution.txt/"
+  vse-base-score="1.5" la-score="3.27714"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="8728" />
+      <pre u="4499" v="4518">NEW HAMPSHIRE 
+
+John Langdon 
+Nicholas Gilman
+
+
+MASSACHUSETTS 
+
+Nathaniel Gorham
+Rufus King
+
+
+CONNECTICUT 
+
+Wm. Saml. Johnson
+Roger Sherman 
+
+
+NEW YORK 
+
+Alexander </pre>
+      <match u="4519" v="4519">Hamilton 
+
+</match>
+      <post u="4520" v="4539">NEW JERSEY 
+
+Wil: Livingston
+David Brearley
+Wm. Paterson
+Jona: Dayton 
+
+
+PENNSYLVANIA 
+
+B Franklin
+Thomas Mifflin
+Robt Morris
+Geo. Clymer
+Thos. </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="8728" />
+      <pre u="4604" v="4623">Baldwin 
+
+
+Attest William Jackson Secretary 
+
+In Convention Monday 
+September 17th, 1787. 
+Present 
+The States of 
+New Hampshire, Massachusetts, Connecticut, Mr. </pre>
+      <match u="4624" v="4624">Hamilton </match>
+      <post u="4625" v="4644">from New York, New Jersey, Pennsylvania, Delaware, 
+Maryland, Virginia, North Carolina, South Carolina and 
+Georgia. 
+
+Resolved, 
+That the preceeding Constitution </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Wm. Saml. Johnson
+Roger Sherman 
+
+
+NEW YORK 
+
+Alexander Hamilton 
+
+NEW JERSEY 
+
+Wil: Livingston
+David Brearley
+Wm. Paterson
+ ... The States of 
+New Hampshire, Massachusetts, Connecticut, Mr. Hamilton from New York, New Jersey, Pennsylvania, Delaware, 
+Maryland,  ... </content>
+</document>
+<document
+  url="file://///testbed2.test.vivisimo.com/restricted_users/samba_test_data/samba-1/doc/federa00.htm"
+  vse-key="smb://testbed2.test.vivisimo.com:80/restricted_users/samba_test_data/samba-1/doc/federa00.htm/"
+  vse-base-score="1.5" la-score="3.27714"
+>
+  <content name="title" output-action="bold" weight="3" u="7">The Federalist - Contents</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="1583"
+      />
+      <pre u="12" v="12"><![CDATA[       <td>  </td><td>  </td><td>  </td>  <td>Alexander ]]></pre>
+      <match u="13" v="13"><![CDATA[Hamilton</td><td> ]]></match>
+      <post u="14" v="33">James Madison&lt;/td>&lt;td>John Jay&lt;/td>   &lt;br/>&lt;h1>The Federalist&lt;/h1> &lt;p>The text of this version is primarily taken from the first collected
+		1788 "McLean </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="1583"
+      />
+      <pre u="228" v="247">consensus of
+		scholars on attribution of each paper to its primary author, James Madison
+		[&lt;b>M&lt;/b>], John Jay [&lt;b>J&lt;/b>], or Alexander </pre>
+      <match u="248" v="248"><![CDATA[Hamilton [<b>]]></match>
+      <post u="249" v="268"><![CDATA[H</b>], which is
+		shown following the date. Please email comments or corrections to
+		<a>jon.roland@constitution.org</a>.
+		</p><hr/><h2>Contents</h2>   <td><a>1</a></td><td>J</td><td>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[       <td>  </td><td>  </td><td>  </td>  <td>Alexander Hamilton</td><td> James Madison</td><td>John Jay</td>   <br/><h1>The Federalist</h1> <p>The text of this version is primarily taken from the first  ... James Madison
+		[<b>M</b>], John Jay [<b>J</b>], or Alexander Hamilton [<b>H</b>], which is
+		shown following the date. Please  ... ]]></content>
+</document>
+</scope>

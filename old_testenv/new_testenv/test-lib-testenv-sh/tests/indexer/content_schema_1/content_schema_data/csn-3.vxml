@@ -1,0 +1,12 @@
+<vce>
+  <document url="http://vivisimo.com?q_nc_3">
+    <content name="query-3" action="none" indexed="true">
+        german I have box 3
+        deutsch ich habe Kasten drei
+    </content>
+    <content name="no-cluster-3" action="none" indexed="true">
+        french this is number three
+        francais cest le numero trois
+    </content>
+  </document>
+</vce>

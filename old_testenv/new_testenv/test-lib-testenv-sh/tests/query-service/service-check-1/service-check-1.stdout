@@ -1,0 +1,298 @@
+TEST:  service-check-1
+TEST DESCRIPTION:  check running service for single document crawl
+PING testbed4.test.vivisimo.com (192.168.0.45) 56(84) bytes of data.
+64 bytes from testbed4.test.vivisimo.com (192.168.0.45): icmp_seq=1 ttl=64 time=0.156 ms
+
+--- testbed4.test.vivisimo.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.156/0.156/0.156/0.000 ms
+Test begins ...
+Query service is OK
+COPY: /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/service-check-1/6-0.service-check-1.xml
+TO  : /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/service-check-1/service-check-1.xml
+COPY: /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/service-check-1/query_cmp_files/6-0.qry.ODBC.xml.cmp
+TO  : /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/service-check-1/query_cmp_files/qry.ODBC.xml.cmp
+COPY: /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/service-check-1/query_cmp_files/6-0.qry.main.xml.cmp
+TO  : /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/service-check-1/query_cmp_files/qry.main.xml.cmp
+execute-worker count:               0
+indexer count:                      0
+crawler count:                      0
+query-service count:                2
+collection-service count:           0
+collection-service-dispatch count:  0
+Stop indexing (admin) for  service-check-1
+Starting crawl for  service-check-1
+INTERIM SERVICE CHECK:  1 of 30
+execute-worker count:               4
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  2 of 30
+execute-worker count:               4
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  3 of 30
+execute-worker count:               4
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  4 of 30
+execute-worker count:               4
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  5 of 30
+execute-worker count:               4
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  6 of 30
+execute-worker count:               4
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  7 of 30
+execute-worker count:               4
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  8 of 30
+execute-worker count:               4
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  9 of 30
+execute-worker count:               4
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  10 of 30
+execute-worker count:               4
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  11 of 30
+execute-worker count:               4
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  12 of 30
+execute-worker count:               4
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  13 of 30
+execute-worker count:               5
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  14 of 30
+execute-worker count:               5
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  15 of 30
+execute-worker count:               5
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  16 of 30
+execute-worker count:               5
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  17 of 30
+execute-worker count:               5
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  18 of 30
+execute-worker count:               5
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  19 of 30
+execute-worker count:               5
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  20 of 30
+execute-worker count:               5
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  21 of 30
+execute-worker count:               5
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  22 of 30
+execute-worker count:               0
+indexer count:                      1
+crawler count:                      0
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  23 of 30
+execute-worker count:               0
+indexer count:                      1
+crawler count:                      0
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  24 of 30
+execute-worker count:               0
+indexer count:                      1
+crawler count:                      0
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  25 of 30
+execute-worker count:               0
+indexer count:                      1
+crawler count:                      0
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  26 of 30
+execute-worker count:               0
+indexer count:                      1
+crawler count:                      0
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  27 of 30
+execute-worker count:               0
+indexer count:                      1
+crawler count:                      0
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  28 of 30
+execute-worker count:               0
+indexer count:                      1
+crawler count:                      0
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  29 of 30
+execute-worker count:               0
+indexer count:                      1
+crawler count:                      0
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+INTERIM SERVICE CHECK:  30 of 30
+execute-worker count:               0
+indexer count:                      1
+crawler count:                      0
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+0 : Checking status ...
+Crawler and indexer are idle.
+
+TOTAL USER TIME: 14.8221650124
+
+THERE ARE 1 INDEX FILES.  INDEX SIZE IS
+THE COMBINED TOTAL OF ALL INDEX FILE SIZES.
+
+CRAWL TIME: 22
+INDEX TIME: 47
+
+CRAWLED BYTES: 4505600.000000
+INDEX SIZE   : 7427584
+
+INDEX AS A PERCENT OF BYTES CRAWLED: 164
+
+index check:  valid index documents disagree,  207 -ne 204
+crawl check:  index documents disagree,  207 -ne 204
+crawl check:  crawl errors OK
+crawl check:  crawl duplicates OK
+crawl check:  crawl outputs OK
+WARNING: crawl check:  index counts disagree, 1655 -ne  1224
+test 1: Begin
+################  service-check-1 start  ##################
+service-check-1:  query = ODBC
+service-check-1 :   QUERY TIME = 0.140595912933
+service-check-1:  WARNING
+service-check-1:      Search on query ODBC returned a result file
+service-check-1:      that is different than that which is stored for comparison
+service-check-1:  Test Failed
+################  service-check-1 end    ##################
+test 1: Case Failed
+test 2: Begin
+################  service-check-1 start  ##################
+service-check-1:  query = main
+service-check-1 :   QUERY TIME = 0.0742728710175
+service-check-1:  WARNING
+service-check-1:      Search on query main returned a result file
+service-check-1:      that is different than that which is stored for comparison
+service-check-1:  Test Passed
+################  service-check-1 end    ##################
+test 2: Case Passed
+
+RUNNING SERVICES MAXIMUMS
+execute-worker count:               5
+indexer count:                      1
+crawler count:                      1
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+
+FINAL SERVICES CHECK
+execute-worker count:               0
+indexer count:                      1
+crawler count:                      0
+query-service count:                2
+collection-service count:           1
+collection-service-dispatch count:  1
+CORE check ...
+Query service check ...
+TEST RESULT FOR service-check-1:  Test Failed
+service-check-1:  3 of 13 cases failed
+Stopping crawl for  service-check-1  at  admin force
+Stop indexing (admin) for  service-check-1

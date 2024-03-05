@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><vse-collection id="RdJoKAF2uQ88">
+
+<vse-meta name="samba-4" creator="gary_testing" create-time="1171493262" elt-id="2" max-elt-id="2">
+  
+<vse-meta-info name="maintainers" elt-id="1"><![CDATA[gary_testing]]></vse-meta-info></vse-meta>
+<vse-config elt-id="2025" max-elt-id="2116">
+
+<crawler elt-id="2026"><crawl-options elt-id="2116"><curl-option name="filter-exact-duplicates" elt-id="2115"><![CDATA[false]]></curl-option><curl-option name="converter-max-memory" elt-id="2117">512</curl-option></crawl-options><call-function elt-id="2110" name="vse-crawler-seed-smb"><with name="host" elt-id="2111"><![CDATA[testbed5.test.vivisimo.com]]></with><with name="shares" elt-id="2112"><![CDATA[/testfiles/samba_test_data/samba-4/doc]]></with><with name="username" elt-id="2113"><![CDATA[gaw]]></with><with name="password" elt-id="2114"><![CDATA[{vcrypt}TMWiymi8UsQ9QvtqWkxuhw==]]></with></call-function>
+  <call-function name="vse-crawler-apache-directory-browsing" elt-id="2027" />
+  <call-function name="vse-crawler-binary-file-extensions" elt-id="2028" />
+  <call-function name="vse-crawler-bugzilla" elt-id="2029" />
+  <call-function name="vse-crawler-calendars-forums" elt-id="2030" />
+  <call-function name="vse-crawler-no-delay-for-files" elt-id="2031" />
+  <call-function name="vse-crawler-lotus-domino-site" elt-id="2032" />
+  <call-function name="vse-crawler-session-ids" elt-id="2033" />
+  <call-function name="vse-crawler-verity-query-service" elt-id="2034" />
+  <call-function name="vse-crawler-wiki" elt-id="2035" />
+</crawler>
+
+<vse-index elt-id="2036">
+  
+  <vse-index-option name="summarize-contents" elt-id="2038"><![CDATA[snippet]]></vse-index-option>
+  <vse-index-option name="fast-index" elt-id="2039"><![CDATA[last-modified|date]]></vse-index-option>
+  <vse-url-equivs name="vse-url-equivs" elt-id="2040">
+    <vse-url-equiv old-prefix="smb://" new-prefix="file://///" elt-id="2041" />
+  </vse-url-equivs>
+</vse-index>
+
+<converters elt-id="2042">
+  <converter type-in="unknown" type-out="dead" elt-id="2043">
+    <call-function name="vse-converter-binary-files-in-archives" elt-id="2044" />
+  </converter>
+  <converter type-in="unknown" program="guess-content %source_file" timing-name="Guess content" elt-id="2045" />
+  <converter type-in="application/ms-office" program="ms-guess %source_file" timing-name="Guess MS Office" elt-id="2046" />
+  <converter type-in="unknown" type-out="text/plain" elt-id="2047">
+    <converter-test how="wc-set" what="path" elt-id="2048"><![CDATA[*.txt]]></converter-test>
+  </converter>
+  <call-function name="vse-converter-filetypes" elt-id="2049" />
+  <call-function name="vse-converter-type-normalization" elt-id="2050" />
+  <call-function name="vse-converter-database" elt-id="2051" />
+  <call-function name="vse-converter-powerpoint" elt-id="2052" />
+  <call-function name="vse-converter-1-2-3" elt-id="2053" />
+  <converter type-in="outlook/mail" type-out="text/mailbox" elt-id="2054">
+    <call-function name="vse-converter-pst-to-mailbox" elt-id="2055" />
+  </converter>
+  <converter type-in="text/mailbox" type-out="text/mail" elt-id="2056">
+    <call-function name="vse-converter-split-mailbox" elt-id="2057" />
+  </converter>
+  <converter type-in="text/mail" type-out="vivisimo/crawl-data" elt-id="2058">
+    <call-function name="vse-converter-mail-message" elt-id="2059"><with name="cache-parser" elt-id="2060"><![CDATA[vse-cache-parser-email]]></with></call-function>
+  </converter>
+  <converter type-in="application/documentum" type-out="application/vxml-unnormalized" elt-id="2061">
+    <call-function name="vse-converter-documentum-to-xml" elt-id="2062" />
+  </converter>
+  <converter type-out="application/vxml-unnormalized" type-in="application/lotus" elt-id="2063">
+    <call-function name="vse-converter-lotus-to-xml" elt-id="2064" />
+  </converter>
+  <converter type-in="application/sharepoint" type-out="application/vxml-unnormalized" elt-id="2065">
+    <call-function name="vse-converter-sharepoint-to-xml" elt-id="2066" />
+  </converter>
+  <converter type-in="application/word" type-out="text/html" elt-id="2067">
+    <call-function name="vse-converter-msword" elt-id="2068" />
+  </converter>
+  <converter type-in="application/excel" type-out="text/html" elt-id="2069">
+    <call-function name="vse-converter-excel" elt-id="2070" />
+  </converter>
+  <converter type-in="application/wordperfect" type-out="text/html" elt-id="2071">
+    <call-function name="vse-converter-wordperfect" elt-id="2072" />
+  </converter>
+  <converter type-in="application/openoffice" type-out="text/html" elt-id="2073">
+    <call-function name="vse-converter-openoffice" elt-id="2074" />
+  </converter>
+  <converter type-in="application/vnd.ms-project" type-out="application/vxml-unnormalized" elt-id="2075">
+    <call-function name="vse-converter-ms-project" elt-id="2076" />
+  </converter>
+  <converter type-in="application/ps" type-out="text/plain" elt-id="2077">
+    <call-function name="vse-converter-postscript" elt-id="2078" />
+  </converter>
+  <converter type-in="application/pdf" type-out="text/html" elt-id="2079">
+    <call-function name="vse-converter-pdf" elt-id="2080" />
+  </converter>
+  <converter type-in="application/rtf" type-out="text/html" elt-id="2081">
+    <call-function name="vse-converter-rtf" elt-id="2082" />
+  </converter>
+  <converter type-in="application/outlook-msg" type-out="vivisimo/crawl-data" elt-id="2083">
+    <call-function name="vse-converter-outlook-msg" elt-id="2084" />
+  </converter>
+  <converter type-in="application/flash" type-out="text/html" elt-id="2085">
+    <call-function name="vse-converter-flash" elt-id="2086" />
+  </converter>
+  <converter type-out="application/vxml-unnormalized" type-in="image/jpeg">
+    <call-function name="vse-converter-jpg-metadata" />
+  </converter>
+  <converter timing-name="MP3 to metadata" type-in="audio/mpeg" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-mp3-metadata" />
+  </converter>
+  <converter type-in="application/tar" type-out="unknown" elt-id="2087">
+    <call-function name="vse-converter-tar" elt-id="2088" />
+  </converter>
+  <converter type-in="application/x-gzip" type-out="unknown" elt-id="2089">
+    <call-function name="vse-converter-gunzip" elt-id="2090" />
+  </converter>
+  <converter type-in="application/zip" type-out="unknown" elt-id="2091">
+    <call-function name="vse-converter-unzip" elt-id="2092" />
+  </converter>
+  <converter type-in="application/x-compress" type-out="unknown" elt-id="2093">
+    <call-function name="vse-converter-uncompress" elt-id="2094" />
+  </converter>
+  <converter type-in="text/html" type-out="application/vxml-unnormalized" elt-id="2095">
+    <call-function name="vse-converter-html" elt-id="2096" />
+  </converter>
+  <converter type-in="text/plain" type-out="application/vxml-unnormalized" elt-id="2097">
+    <call-function name="vse-converter-text" elt-id="2098" />
+  </converter>
+  <converter type-in="unknown" type-out="application/dbf" elt-id="2099">
+    <converter-test how="wc-set" what="path" elt-id="2100"><![CDATA[*.dbf]]></converter-test>
+  </converter>
+  <converter type-in="application/dbf" type-out="text/csv" elt-id="2101">
+    <call-function name="vse-converter-dbf-to-csv" elt-id="2102" />
+  </converter>
+  <converter type-in="text/csv" type-out="application/vxml-unnormalized" elt-id="2103">
+    <call-function name="vse-converter-csv-to-vxml" elt-id="2104" />
+  </converter>
+  <converter type-in="text/xml" type-out="application/vxml-unnormalized" elt-id="2105">
+    <call-function name="vse-converter-xml-to-vxml" elt-id="2106" />
+  </converter>
+  <converter type-in="application/vxml-unnormalized" type-out="application/vxml-unnormalized" elt-id="2107">
+    <call-function name="vse-converter-normalize" elt-id="2108" />
+  </converter>
+  <converter type-in="application/vxml-unnormalized" type-out="application/vxml" elt-id="2109" />
+</converters>
+</vse-config><vse-run><vse-remote-service /><crawler /><vse-index /></vse-run></vse-collection>

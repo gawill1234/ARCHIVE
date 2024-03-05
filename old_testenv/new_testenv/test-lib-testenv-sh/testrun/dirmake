@@ -1,0 +1,19 @@
+#!/bin/bash
+
+mkdir linux_64
+mkdir linux_32
+mkdir solaris_32
+mkdir solaris_64
+mkdir windows_64_2008
+mkdir windows_32_2008
+mkdir windows_64_2003
+mkdir windows_32_2003
+
+cp testlist.vtd linux_64
+cp testlist.vtd linux_32
+cp testlist.vtd solaris_32
+cp testlist.vtd solaris_64
+cp winlist.vtd windows_64_2008
+cp winlist.vtd windows_32_2008
+cp winlist.vtd windows_64_2003
+cp winlist.vtd windows_32_2003

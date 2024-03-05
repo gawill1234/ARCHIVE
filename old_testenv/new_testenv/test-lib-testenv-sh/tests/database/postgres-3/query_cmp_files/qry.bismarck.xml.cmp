@@ -1,0 +1,11 @@
+
+
+<scope><attribute name="status"><![CDATA[
+
+error (16 ms) - The index is empty, it is not searchable.  (ID: SEARCH_ENGINE_EMPTY_INDEX)
+
+error (16 ms) - Error in SQL operation [no sql]: [unable to open database file].  (ID: LIBSQLITE_GENERIC)
+
+error (16 ms) - Error in SQL operation [no sql]: [unable to open database file].  (ID: LIBSQLITE_GENERIC)
+
+error (16 ms) - Error in SQL operation [no sql]: [unable to open database file].  (ID: LIBSQLITE_GENERIC)]]></attribute></scope>

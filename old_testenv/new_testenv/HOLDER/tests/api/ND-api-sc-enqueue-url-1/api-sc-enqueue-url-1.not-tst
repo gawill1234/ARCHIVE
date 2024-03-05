@@ -1,0 +1,123 @@
+#!/usr/bin/python
+
+#
+#   Test of the api
+#   This test is for search-collection-create and
+#   search-collection-delete.  It creates and deletes
+#   a number of collections using different variations
+#   of characters.
+#
+
+import sys, time, cgi_interface 
+
+def test_function2(xx=None, collection=None, vfunc=None):
+
+   if ( collection == None ):
+      return
+
+   if ( vfunc == None ):
+      return
+
+   if ( xx.TENV.targetos == "windows" ):
+      httpcmd = "/vivisimo/cgi-bin/velocity.exe"
+   else:
+      httpcmd = "/vivisimo/cgi-bin/velocity"
+
+   dumpit = ''.join(['querywork/', vfunc, '.wazzat'])
+
+   appname = 'api-rest'
+   vtype = 'public-api'
+
+   httpstring = ''.join(['v.app=', appname,
+                         '&v.type=', vtype,
+                         '&v.function=', vfunc,
+                         '&collection=', collection])
+
+
+   err = xx.HTTP.doget(tocmd=httpcmd, argstring=httpstring, dumpfile=dumpit)
+
+   return
+
+
+
+def test_function(xx=None, collection=None, vfunc=None, url=None):
+
+   if ( collection == None ):
+      return
+
+   if ( url == None ):
+      return
+
+   if ( vfunc == None ):
+      return
+
+   if ( xx.TENV.targetos == "windows" ):
+      httpcmd = "/vivisimo/cgi-bin/velocity.exe"
+   else:
+      httpcmd = "/vivisimo/cgi-bin/velocity"
+
+   dumpit = ''.join(['querywork/', vfunc, '.wazzat'])
+
+   appname = 'api-rest'
+   synchro = 'enqueued'
+   enq_type = 'forced'
+   subc = 'live'
+
+   httpstring = ''.join(['v.app=', appname,
+                         '&v.function=', vfunc,
+                         '&collection=', collection,
+                         '&subcollection=', subc,
+                         '&url=', url,
+                         '&synchronization=', synchro,
+                         '&enqueue-type=', enq_type])
+
+   print httpstring
+
+   err = xx.HTTP.doget(tocmd=httpcmd, argstring=httpstring, dumpfile=dumpit)
+
+   return
+
+
+if __name__ == "__main__":
+
+   collection_name = "ascequ-1"
+   enqueue_url = "http%3A%2F%2Ftestbed4.test.vivisimo.com%2F"
+   colfile = ''.join([collection_name, '.xml'])
+   maxcount = 10
+   i = 0
+   cs_start = cs_stop = 0
+
+   ##############################################################
+   print "api-sc-enqueue-url-1:  ##################"
+   print "api-sc-enqueue-url-1:  INITIALIZE"
+   print "api-sc-enqueue-url-1:  search-collection-indexer-start/stop"
+   xx = cgi_interface.CGIINTERFACE()
+
+   xx.create_collection(collection=collection_name, usedefcon=1)
+
+   thebeginning = time.time()
+   xx.start_crawl(collection=collection_name)
+   xx.wait_for_idle(collection=collection_name)
+   test_function(xx=xx, collection=collection_name,
+                 vfunc='search-collection-enqueue-url', url=enqueue_url)
+   xx.refresh_crawl(collection=collection_name)
+
+
+      ##############################################################
+
+   xx.get_collection(collection=collection_name)
+
+   errcnt = xx.get_collection_system_errors(collection=collection_name,
+                                            starttime=thebeginning)
+
+   #xx.stop_crawl(collection=collection_name, force=1)
+   #xx.stop_indexing(collection=collection_name, force=1)
+   #test_function2(xx=xx, collection=collection_name,
+   #               vfunc='search-collection-delete')
+
+   #if ( cs_start == 10 and cs_stop == 10 and errcnt == 0 ):
+   #   print "api-sc-enqueue-url-1:  Test Passed"
+   #   sys.exit(0)
+
+   print "api-sc-enqueue-url-1:  Test Failed"
+   sys.exit(1)

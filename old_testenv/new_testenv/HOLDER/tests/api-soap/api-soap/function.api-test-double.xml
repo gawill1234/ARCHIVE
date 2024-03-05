@@ -1,0 +1,8 @@
+<function name="api-test-double" type="public-api">
+  <prototype>
+    <declare name="value" type="double" required="required" />
+    <returns type="double" />
+  </prototype>
+
+  <value-of-var name="value" />
+</function>

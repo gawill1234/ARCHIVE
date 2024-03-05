@@ -1,0 +1,146 @@
+#!/usr/bin/python
+
+#
+# http://www.devarticles.com/c/a/XML/Parsing-XML-with-SAX-and-Python/1/
+#
+import os, sys, string, getopt
+import velocity_xml_parse, generic
+from xml.sax import make_parser
+from xml.sax.handler import ContentHandler
+
+
+#
+#   Return the an actual count of the document urls
+#   returned by a query
+#
+def count_urls(filename=None):
+
+   done = None
+
+   if ( filename == None ):
+      print "args:  -F <file_path>"
+      return
+
+   parser = make_parser()
+   curHandler = velocity_xml_parse.DocumentHandler(searchTerm="document-count")
+   parser.setContentHandler(curHandler)
+   try:
+      parser.parse(open(filename))
+   except:
+      done = curHandler.returnResultString()
+
+   return 0
+
+#
+#   Return the "total-results" attribute of a query
+#
+def url_count(filename=None):
+
+   done = None
+
+   if ( filename == None ):
+      print "args:  -F <file_path>"
+      return
+
+   parser = make_parser()
+   curHandler = velocity_xml_parse.DocumentHandler(searchTerm="url-count")
+   parser.setContentHandler(curHandler)
+   try:
+      parser.parse(open(filename))
+   except:
+      done = curHandler.returnResultString()
+
+   return 0
+
+def url_by_la_score(resultfile=None, score="9.0"):
+
+   if ( resultfile == None ):
+      print "args:  -R <result_file_path> -s <minimum_la_score>"
+      return
+
+   parser = make_parser()
+   curHandler = velocity_xml_parse.DocumentHandler(searchTerm="lascore-minimum", termValue=score)
+   parser.setContentHandler(curHandler)
+   parser.parse(open(resultfile))
+
+   return 0
+
+def check_url(url=None):
+
+   done = None
+
+   if ( url == None ):
+      return
+
+   parser = make_parser()
+   curHandler = velocity_xml_parse.DocumentHandler(searchTerm="match-url", termValue=url, outputlist=['url', 'no-stdout'])
+   parser.setContentHandler(curHandler)
+   try:
+      parser.parse(open(resultfile))
+   except:
+      done = curHandler.returnResultString()
+
+   if ( done == None ):
+      print url, " -- NOT found"
+      print "url string match failure -- Test Failed (this portion)"
+      sys.exit(1)
+   else:
+      print done, " -- found"
+
+   return 0
+
+def url_existence_check(filename=None, url=None,
+                        resultfile=None, filetype="url"):
+
+   if ( ( filename == None and url == None ) or resultfile == None ):
+      print "args:  -F <file_path> -T <file_type> -R <result_file_path> -U <url>"
+
+   if ( url == None ):
+      xxx = generic.RABOS( filename=filename, filetype=filetype )
+
+      zzz = xxx.doTheRead()
+      while ( ( zzz != None ) and ( zzz != '' ) ):
+         check_url(url=zzz)
+
+         zzz = xxx.doTheRead()
+   else:
+      check_url(url=url)
+
+   print "url string matching succeeded -- Test Passed (this portion)"
+   sys.exit(0)
+
+if __name__ == "__main__":
+
+   filetype = "url"
+   filename = None
+   resultfile = None
+   url = None
+   score = 0
+
+   opts, args = getopt.getopt(sys.argv[1:], "F:T:R:U:s:", ["filename=", "filetype=", "resultfile=", "url=", "score="])
+
+   for o, a in opts:
+      if o in ("-F", "--filename"):
+         filename = a
+      if o in ("-R", "--resultfile"):
+         resultfile = a
+      if o in ("-T", "--filetype"):
+         filetype = a
+      if o in ("-U", "--url"):
+         url = a
+      if o in ("-s", "--score"):
+         score = a
+
+   mycommand = os.path.basename(sys.argv[0])
+
+   if ( mycommand == "url_existence_check" ):
+      url_existence_check(filename=filename, url=url,
+                          resultfile=resultfile, filetype=filetype)
+   elif ( mycommand == "url_by_la_score" ):
+      url_by_la_score(resultfile=resultfile, score=score)
+   elif ( mycommand == "count_urlsP" ):
+      count_urls(filename=filename)
+   elif ( mycommand == "url_countP" ):
+      url_count(filename=filename)
+
+   sys.exit(0)

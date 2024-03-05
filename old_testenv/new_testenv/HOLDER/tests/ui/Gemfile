@@ -1,0 +1,6 @@
+source "http://rubygems.org"
+
+gem "selenium-client", "~> 1.2.18"
+gem "rspec", "~> 2.4.0"
+gem "nokogiri", "~> 1.4.4"
+gem "cucumber", "~> 0.10.0"

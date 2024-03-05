@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="1" />
+<attribute name="cache-hits-content-retrieval" value="4" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="10" />
+<attribute name="cache-misses-text" value="9" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dottxt/fedpaper.txt"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dottxt/fedpaper.txt/"
+  la-score="1.66916" vse-base-score="1.9375"
+>
+  <content name="crawled-date" action="none" weight="-1" u="1">May 2,
+  2007 07:57:25</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:40:01Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dottxt/fedpaper.txt</content>
+  <content action="none" name="host" weight="1" u="25">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" u="31">Jan 31,
+  2007 08:40:01</content>
+  <content name="crawled-date" action="none" weight="-1" u="33">May 2,
+  2007 07:57:29</content>
+  <content name="language" weight="0" action="none" u="35">english</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="37" v="165979" />
+      <pre u="3540" v="3559">late publications against the new
+ Constitution.
+
+
+
+FEDERALIST No. 2
+
+Concerning Dangers from Foreign Force and Influence
+For the Independent Journal.
+
+</pre>
+      <match u="3560" v="3560">JAY
+
+</match>
+      <post u="3561" v="3580">To the People of the State of New York:
+WHEN the people of America reflect that they are now called </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="37" v="165979" />
+      <pre u="5233" v="5252">GREATNESS.''
+PUBLIUS.
+
+
+FEDERALIST No. 3
+
+The Same Subject Continued
+(Concerning Dangers From Foreign Force and Influence)
+For the Independent Journal.
+
+</pre>
+      <match u="5253" v="5253">JAY
+
+</match>
+      <post u="5254" v="5273">To the People of the State of New York:
+IT IS not a new observation that the people of any </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="37" v="165979" />
+      <pre u="6702" v="6721">nation?
+PUBLIUS.
+
+
+FEDERALIST No. 4
+
+The Same Subject Continued
+(Concerning Dangers From Foreign Force and Influence)
+For the Independent Journal.
+
+</pre>
+      <match u="6722" v="6722">JAY
+
+</match>
+      <post u="6723" v="6742">To the People of the State of New York:
+MY LAST paper assigned several reasons why the safety of the
+ </post>
+    </solution>
+    <solution rank="3" score="1">
+      <content type="text" name="snippet" u="37" v="165979" />
+      <pre u="8367" v="8386">themselves.
+PUBLIUS.
+
+
+FEDERALIST No. 5
+
+The Same Subject Continued
+(Concerning Dangers From Foreign Force and Influence)
+For the Independent Journal.
+
+</pre>
+      <match u="8387" v="8387">JAY
+
+</match>
+      <post u="8388" v="8407">To the People of the State of New York:
+QUEEN ANNE, in her letter of the 1st July, 1706, to </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content type="text" name="snippet" u="37" v="165979" />
+      <pre u="139539" v="139558">people themselves.
+PUBLIUS.
+
+
+FEDERALIST No. 64
+
+The Powers of the Senate
+From the New York Packet.
+Friday, March 7, 1788.
+
+</pre>
+      <match u="139559" v="139559">JAY
+
+</match>
+      <post u="139560" v="139579">To the People of the State of New York:
+IT IS a just and not a new observation, that enemies </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Foreign Force and Influence
+For the Independent Journal.
+
+JAY
+
+To the People of the State of New  ... Foreign Force and Influence)
+For the Independent Journal.
+
+JAY
+
+To the People of the State of New  ... </content>
+</document>
+</scope>

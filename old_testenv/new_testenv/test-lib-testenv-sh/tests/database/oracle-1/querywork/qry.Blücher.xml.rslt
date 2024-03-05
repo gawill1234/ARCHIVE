@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="query-xml-supported">query-xml-supported</attribute>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="admin-url"
+  value="http://testbed6-8.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="0" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document url="http://en.wikipedia.org/wiki/German_cruiser_Bl%C3%BCcher"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_Bl%c3%bccher/"
+  vertex="66" ct="application/vxml-unnormalized" la-score="0.1" vse-base-score="1"
+>
+  <content type="text" name="title" u="16">Bl¿¿cher</content>
+  <content name="NATION" type="text" u="19">Germany</content>
+  <content name="ALIGNED" type="text" u="21">axis</content>
+  <content name="SHIP_TYPE" type="text" u="23">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="10">http://en.wikipedia.org/wiki/German_cruiser_</pre>
+      <content name="url" type="TEXT" action="none" u="3" v="11" />
+      <match u="11" v="11">Blücher</match>
+      <post u="13" v="15">en.wikipedia.org</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"></content>
+</document>
+<retrieval-performance n-tau="38" n-rho="4" n-uat="2" n-ohr="0" occr-reads="1311"
+  block-reads="3" seeks="0" cache-hits="3" cache-misses="0" n-blocks="38"
+>
+  <query-performance what="doc-text" n-tau="6" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="32" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="2"
+  />
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="895" block-reads="3" seeks="0" cache-hits="3" cache-misses="0"
+    n-blocks="26"
+  />
+  <query-performance what="output" n-tau="26" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="128" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="8"
+  />
+  <query-performance what="summarize" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="really-content" n-tau="0" n-rho="0" n-uat="0"
+    n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0" n-blocks="0"
+  />
+  <query-performance what="rights-query" n-tau="6" n-rho="4" n-uat="2" n-ohr="0"
+    occr-reads="256" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="2"
+  />
+</retrieval-performance>
+<query-performance flags="hard extent r:apply" what="not-within" n-tau="2"
+  n-rho="0" n-uat="0" n-ohr="0" occr-reads="3" block-reads="2" seeks="1"
+  cache-hits="2" cache-misses="0" n-blocks="1"
+>
+  <query-performance flags="hard extent r:apply/need" what="EXTENTS(1)" n-tau="2"
+    n-rho="0" n-uat="0" n-ohr="0" occr-reads="3" block-reads="2" seeks="1"
+    cache-hits="2" cache-misses="0" n-blocks="1"
+  />
+  <query-performance flags="hard extent r:need" what="never" n-tau="0" n-rho="1"
+    n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0" n-blocks="0"
+  />
+</query-performance>
+<xpath-performances />
+</scope>

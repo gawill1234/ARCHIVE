@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="16" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="15" />
+<attribute name="retrieval-ms" value="11" />
+<attribute name="total-results-with-duplicates" value="16" />
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dottxt/fedpaper.txt"
+  md5="49f2587bc35de663b634d03e32c3fe21"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dottxt/fedpaper.txt/"
+  vertex="40" input-at="1190747218" ct="application/vxml-unnormalized"
+  la-score="0.1" vse-base-score="1.70788"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747220"
+    u="1"
+  >Sep 25,
+  2007 19:07:00 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:40:01Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dottxt/fedpaper.txt</content>
+  <content action="none" name="host" weight="1" u="25">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170218401"
+    u="32"
+  >Jan 31,
+  2007 04:40:01 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747230"
+    u="34"
+  >Sep 25,
+  2007 19:07:10 GMT</content>
+  <content name="language" weight="0" action="none" u="36">english</content>
+  <content action="none" name="url" weight="1" u="165981">http://testbed3-2.test.vivisimo.com/Shared Documents/dottxt/fedpaper.txt</content>
+  <content action="none" name="host" weight="1" u="165993">testbed3-2.test.vivisimo.com</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="159450" v="159471">their
+ displeasure.
+But however inclined we might be to insist upon an unbounded
+ complaisance in the Executive to the inclinations of the </pre>
+      <content type="text" name="snippet" u="38" v="165980" />
+      <match u="159471" v="159474">the people, we
+ can </match>
+      <post u="159473" v="159494">we
+ can with no propriety contend for a like complaisance to the humors
+ of the legislature. The latter may sometimes stand in </post>
+    </solution>
+    <solution rank="1" score="0.75">
+      <pre u="55794" v="55815">or inexplicitness of the distinction between internal and
+ external, let us inquire what ground there is to presuppose that
+ disinclination in the </pre>
+      <content type="text" name="snippet" u="38" v="165980" />
+      <match u="55815" v="55819">the people. Unless we presume </match>
+      <post u="55818" v="55839">we presume at the same time
+ that the powers of the general government will be worse administered
+ than those of the State </post>
+    </solution>
+    <solution rank="2" score="0.75">
+      <pre u="124338" v="124359">wealth, of birth, of religious faith, or of civil profession is
+permitted to fetter the judgement or disappoint the inclination
+of the </pre>
+      <content type="text" name="snippet" u="38" v="165980" />
+      <match u="124359" v="124363">the people. If we consider </match>
+      <post u="124362" v="124383">we consider the situation of the men on whom
+the free suffrages of their fellow-citizens may confer the
+representative trust, we </post>
+    </solution>
+    <solution rank="3" score="0.6">
+      <pre u="24370" v="24391">influence will appear more immediate
+ and decisive. It is evident from the state of the country, from the
+ habits of the people, </pre>
+      <content type="text" name="snippet" u="38" v="165980" />
+      <match u="24391" v="24396">people, from the experience we have </match>
+      <post u="24395" v="24416">we have had on the point
+ itself, that it is impracticable to raise any very considerable sums
+ by direct taxation. Tax laws </post>
+    </solution>
+    <solution rank="4" score="0.6">
+      <pre u="124339" v="124360">of birth, of religious faith, or of civil profession is
+permitted to fetter the judgement or disappoint the inclination
+of the people. </pre>
+      <content type="text" name="snippet" u="38" v="165980" />
+      <match u="124360" v="124365">people. If we consider the situation </match>
+      <post u="124364" v="124385">the situation of the men on whom
+the free suffrages of their fellow-citizens may confer the
+representative trust, we shall find </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... fetter the judgement or disappoint the inclination
+of the people. If we consider the situation of the men on whom
+ ... complaisance in the Executive to the inclinations of the people, we
+ can with no propriety contend for a like  ... </content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dotdoc/constitution.doc"
+  md5="26aedbf2986b435af06bd99b02754e89"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dotdoc/constitution.doc/"
+  vertex="20" input-at="1190747218" ct="application/vxml-unnormalized"
+  filetype="rtf" la-score="0.1" vse-base-score="1"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747219"
+    u="1"
+  >Sep 25,
+  2007 19:06:59 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:27:26Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dotdoc/constitution.doc</content>
+  <content action="none" name="host" weight="1" u="25">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170217646"
+    u="32"
+  >Jan 31,
+  2007 04:27:26 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747221"
+    u="34"
+  >Sep 25,
+  2007 19:07:01 GMT</content>
+  <content name="language" weight="0" action="none" u="36">english</content>
+  <content action="none" name="url" weight="1" u="7653">http://testbed3-2.test.vivisimo.com/Shared Documents/dotdoc/constitution.doc</content>
+  <content action="none" name="host" weight="1" u="7665">testbed3-2.test.vivisimo.com</content>
+  <content name="filetype" action="none" u="7671">doc</content>
+  <content name="filetype" action="none" u="7673">rtf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="39" v="46">  
+[Constitution for the United States of America]&lt;p/>&lt;p>
+We </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="7652"
+      />
+      <match u="46" v="49">We the People of </match>
+      <post u="48" v="69">People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">  
+[Constitution for the United States of America]&lt;p/>&lt;p>
+We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote  ... </content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dotpdf/constitution.pdf"
+  md5="a46d00a5572df6f421cecc4a202d3d3e"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dotpdf/constitution.pdf/"
+  vertex="27" input-at="1190747218" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="0.1" vse-base-score="1"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747220"
+    u="1"
+  >Sep 25,
+  2007 19:07:00 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:30:28Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/constitution.pdf</content>
+  <content action="none" name="host" weight="1" u="25">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170217828"
+    u="32"
+  >Jan 31,
+  2007 04:30:28 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747222"
+    u="34"
+  >Sep 25,
+  2007 19:07:02 GMT</content>
+  <content name="language" weight="0" action="none" u="36">english</content>
+  <content name="title" output-action="bold" weight="3" u="38">CONSTITUTION</content>
+  <content action="none" name="url" weight="1" u="8931">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/constitution.pdf</content>
+  <content action="none" name="host" weight="1" u="8943">testbed3-2.test.vivisimo.com</content>
+  <content name="filetype" action="none" u="8949">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="41" v="55"><![CDATA[   <a/><div> <div> <span>THE</span> </div><div> <span>CONSTITUTION</span> </div><div> <span>oftheUnitedStates</span> </div><div> <span>NATIONAL CONSTITUTION CENTER</span> </div></div><a/><div> <div> <span>CONSTITUTION OF THE UNITED STATES</span> </div><div> <span>We ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="8930"
+      />
+      <match u="55" v="58">We the People of </match>
+      <post u="57" v="78">People of the United States, in Order to form a&lt;br/>more perfect Union, establish Justice, insure domestic&lt;br/>Tranquility, provide for the common </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... NATIONAL CONSTITUTION CENTER</span> </div></div><a/><div> <div> <span>CONSTITUTION OF THE UNITED STATES</span> </div><div> <span>We the People of the United States, in Order to form  ... ]]></content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dotpdf/Preambe_and_Bill_of_Rights.pdf"
+  md5="d293699e834dbee9e18e40e540b0a0bc"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dotpdf/Preambe_and_Bill_of_Rights.pdf/"
+  vertex="33" input-at="1190747218" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="0.1" vse-base-score="1"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747220"
+    u="1"
+  >Sep 25,
+  2007 19:07:00 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:34:59Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/Preambe_and_Bill_of_Rights.pdf</content>
+  <content action="none" name="host" weight="1" u="29">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170218100"
+    u="36"
+  >Jan 31,
+  2007 04:35:00 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747225"
+    u="38"
+  >Sep 25,
+  2007 19:07:05 GMT</content>
+  <content name="language" weight="0" action="none" u="40">english</content>
+  <content name="title" output-action="bold" weight="3" u="42">Preamble &amp; Bill of Rights.pdf</content>
+  <content action="none" name="url" weight="1" u="977">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/Preambe_and_Bill_of_Rights.pdf</content>
+  <content action="none" name="host" weight="1" u="993">testbed3-2.test.vivisimo.com</content>
+  <content name="filetype" action="none" u="999">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="49" v="57"><![CDATA[   <a/><div> <div> <span><b>Preamble of the Constitution &amp; Bill of Rights</b></span> </div><div> <span><b>Preamble:</b><br/>We ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="48" v="976" />
+      <match u="57" v="60">We the People of </match>
+      <post u="59" v="80">People of the United States, in order to form a more perfect Union, establish justice,&lt;br/>ensure domestic tranquility [peace], provide for the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span><b>Preamble of the Constitution &amp; Bill of Rights</b></span> </div><div> <span><b>Preamble:</b><br/>We the People of the United States, in order to form  ... ]]></content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dottxt/arizona.txt"
+  md5="75bffbc9fe4242ab6cabe2499a8a637a"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dottxt/arizona.txt/"
+  vertex="37" input-at="1190747218" ct="application/vxml-unnormalized"
+  la-score="0.1" vse-base-score="1"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747220"
+    u="1"
+  >Sep 25,
+  2007 19:07:00 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:39:24Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dottxt/arizona.txt</content>
+  <content action="none" name="host" weight="1" u="25">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170218364"
+    u="32"
+  >Jan 31,
+  2007 04:39:24 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747229"
+    u="34"
+  >Sep 25,
+  2007 19:07:09 GMT</content>
+  <content name="language" weight="0" action="none" u="36">english</content>
+  <content action="none" name="url" weight="1" u="8760">http://testbed3-2.test.vivisimo.com/Shared Documents/dottxt/arizona.txt</content>
+  <content action="none" name="host" weight="1" u="8772">testbed3-2.test.vivisimo.com</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="39" v="48">THE
+
+
+CONSTITUTION
+
+
+oftheUnitedStates
+
+
+
+NATIONAL CONSTITUTION CENTER 
+ 
+We </pre>
+      <content type="text" name="snippet" u="38" v="8759" />
+      <match u="48" v="51">We the People of </match>
+      <post u="50" v="71">People of the United States, in Order to form a 
+more perfect Union, establish Justice, insure domestic 
+Tranquility, provide for the common </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... CONSTITUTION
+
+
+oftheUnitedStates
+
+
+
+NATIONAL CONSTITUTION CENTER 
+ 
+We the People of the United States, in Order to form  ... </content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dottxt/constitution.txt"
+  md5="1d02a9f89aec706c23058d288133d784"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dottxt/constitution.txt/"
+  vertex="38" input-at="1190747218" ct="application/vxml-unnormalized"
+  la-score="0.1" vse-base-score="1"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747220"
+    u="1"
+  >Sep 25,
+  2007 19:07:00 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:39:36Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dottxt/constitution.txt</content>
+  <content action="none" name="host" weight="1" u="25">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170218377"
+    u="32"
+  >Jan 31,
+  2007 04:39:37 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747230"
+    u="34"
+  >Sep 25,
+  2007 19:07:10 GMT</content>
+  <content name="language" weight="0" action="none" u="36">english</content>
+  <content action="none" name="url" weight="1" u="8760">http://testbed3-2.test.vivisimo.com/Shared Documents/dottxt/constitution.txt</content>
+  <content action="none" name="host" weight="1" u="8772">testbed3-2.test.vivisimo.com</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="39" v="48">THE
+
+
+CONSTITUTION
+
+
+oftheUnitedStates
+
+
+
+NATIONAL CONSTITUTION CENTER 
+ 
+We </pre>
+      <content type="text" name="snippet" u="38" v="8759" />
+      <match u="48" v="51">We the People of </match>
+      <post u="50" v="71">People of the United States, in Order to form a 
+more perfect Union, establish Justice, insure domestic 
+Tranquility, provide for the common </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... CONSTITUTION
+
+
+oftheUnitedStates
+
+
+
+NATIONAL CONSTITUTION CENTER 
+ 
+We the People of the United States, in Order to form  ... </content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dottxt/iroquois.txt"
+  md5="52385bec3d98255707ac1ce9da2e01fd"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dottxt/iroquois.txt/"
+  vertex="41" input-at="1190747218" ct="application/vxml-unnormalized"
+  la-score="0.1" vse-base-score="0.921235"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747220"
+    u="1"
+  >Sep 25,
+  2007 19:07:00 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:40:16Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dottxt/iroquois.txt</content>
+  <content action="none" name="host" weight="1" u="25">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170218417"
+    u="32"
+  >Jan 31,
+  2007 04:40:17 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747230"
+    u="34"
+  >Sep 25,
+  2007 19:07:10 GMT</content>
+  <content name="language" weight="0" action="none" u="36">english</content>
+  <content action="none" name="url" weight="1" u="12648">http://testbed3-2.test.vivisimo.com/Shared Documents/dottxt/iroquois.txt</content>
+  <content action="none" name="host" weight="1" u="12660">testbed3-2.test.vivisimo.com</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.6">
+      <pre u="12068" v="12089">remainder is 
+the same as the address at the funeral of a Lord).
+
+113.  At the funeral of a woman of the </pre>
+      <content type="text" name="snippet" u="38" v="12647" />
+      <match u="12089" v="12094">the people, say:
+      "Now we become </match>
+      <post u="12093" v="12114">we become reconciled as you start away.  You were 
+once a woman in the flower of life and the bloom is now 
+</post>
+    </solution>
+    <solution rank="1" score="0.428571">
+      <pre u="11489" v="11510">Confederacy, say:  Now we 
+become reconciled as you start away.  You were once a Lord of 
+the Five Nations' Confederacy and the </pre>
+      <content type="text" name="snippet" u="38" v="12647" />
+      <match u="11510" v="11517">the United People trusted 
+you. Now we release </match>
+      <post u="11516" v="11537">we release you for it is true that it is no longer 
+possible for us to walk about together on the earth.  </post>
+    </solution>
+    <solution rank="2" score="0.272727">
+      <pre u="2192" v="2213">and discharged you so you are now 
+no longer Lord.  You shall now go your way alone, the rest of 
+the people </pre>
+      <content type="text" name="snippet" u="38" v="12647" />
+      <match u="2213" v="2224">people of the Confederacy will not go with you, for we know 
+</match>
+      <post u="2223" v="2244">we know 
+not the kind of mind that possesses you.  As the Creator has 
+nothing to do with wrong so he will </post>
+    </solution>
+    <solution rank="3" score="0.176471">
+      <pre u="12069" v="12090">is 
+the same as the address at the funeral of a Lord).
+
+113.  At the funeral of a woman of the people, </pre>
+      <content type="text" name="snippet" u="38" v="12647" />
+      <match u="12090" v="12107">people, say:
+      "Now we become reconciled as you start away.  You were 
+once a woman in the flower </match>
+      <post u="12106" v="12127">the flower of life and the bloom is now 
+withered away.  You once held a sacred position as a mother 
+of the </post>
+    </solution>
+    <solution rank="4" score="0.142857">
+      <pre u="11471" v="11492">far away as his business will 
+permit.
+
+
+                      Funeral Addresses
+
+108.  At the funeral of a Lord of the Confederacy, say:  Now we 
+</pre>
+      <content type="text" name="snippet" u="38" v="12647" />
+      <match u="11492" v="11513">we 
+become reconciled as you start away.  You were once a Lord of 
+the Five Nations' Confederacy and the United People trusted 
+</match>
+      <post u="11512" v="11533">People trusted 
+you. Now we release you for it is true that it is no longer 
+possible for us to walk about </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... 113.  At the funeral of a woman of the people, say:
+      "Now we become reconciled as you start away.  You were 
+ ... At the funeral of a woman of the people, say:
+      "Now we become reconciled as you start away.  You were 
+once a woman in the flower of life and the bloom is now 
+ ... </content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dotpdf/us_doi.pdf"
+  md5="96a91aa0fbd81572bf0905f9a5c0ae03"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dotpdf/us_doi.pdf/"
+  vertex="35" input-at="1190747218" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="0.1" vse-base-score="0.403445"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747220"
+    u="1"
+  >Sep 25,
+  2007 19:07:00 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:35:49Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/us_doi.pdf</content>
+  <content action="none" name="host" weight="1" u="26">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170218149"
+    u="33"
+  >Jan 31,
+  2007 04:35:49 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747229"
+    u="35"
+  >Sep 25,
+  2007 19:07:09 GMT</content>
+  <content name="language" weight="0" action="none" u="37">english</content>
+  <content name="title" output-action="bold" weight="3" u="39">Declaration of Independence</content>
+  <content action="none" name="url" weight="1" u="1551">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/us_doi.pdf</content>
+  <content action="none" name="host" weight="1" u="1564">testbed3-2.test.vivisimo.com</content>
+  <content name="filetype" action="none" u="1570">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.333333">
+      <pre u="1084" v="1105">repeated injury. A Prince whose character is&lt;br/>thus marked by every act which may define a Tyrant, is unfit to be the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="43"
+        v="1550"
+      />
+      <match u="1105" v="1114">the ruler of a free people.&lt;br/>Nor have We been </match>
+      <post u="1113" v="1134">We been wanting in attentions to our Brittish brethren. We have warned them from&lt;br/>time to time of attempts by their legislature </post>
+    </solution>
+    <solution rank="1" score="0.0789474">
+      <pre u="1089" v="1110">character is&lt;br/>thus marked by every act which may define a Tyrant, is unfit to be the ruler of a free people.&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="43"
+        v="1550"
+      />
+      <match u="1110" v="1148">people.&lt;br/>Nor have We been wanting in attentions to our Brittish brethren. We have warned them from&lt;br/>time to time of attempts by their legislature to extend an unwarrantable jurisdiction over us. We&lt;br/>have reminded them of the circumstances </match>
+      <post u="1147" v="1168">the circumstances of our emigration and settlement here. We have&lt;br/>appealed to their native justice and magnanimity, and we have conjured them </post>
+    </solution>
+    <solution rank="2" score="0.0769231">
+      <pre u="1207" v="1228">necessity, which denounces our Separation,&lt;br/>and hold them, as we hold the rest of mankind, Enemies in War, in Peace Friends.&lt;/span> &lt;/div>&lt;div> &lt;span>We, </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="43"
+        v="1550"
+      />
+      <match u="1228" v="1267">We, therefore, the Representatives of the united States of America, in General Congress,&lt;br/>Assembled, appealing to the Supreme Judge of the world for the rectitude of our intentions, do,&lt;br/>in the Name, and by Authority of the good People of </match>
+      <post u="1266" v="1287">People of these Colonies, solemnly publish and&lt;br/>declare, That these United Colonies are, and of Right ought to be Free and Independent </post>
+    </solution>
+    <solution rank="3" score="0.0666667">
+      <pre u="1045" v="1066">whose known&lt;br/>rule of warfare, is an undistinguished destruction of all ages, sexes and conditions.&lt;/span> &lt;/div>&lt;div> &lt;span>In every stage of these Oppressions We </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="43"
+        v="1550"
+      />
+      <match u="1066" v="1111">We have Petitioned for Redress in the most humble terms:&lt;br/>Our repeated Petitions have been answered only by repeated injury. A Prince whose character is&lt;br/>thus marked by every act which may define a Tyrant, is unfit to be the ruler of a free people.&lt;br/>Nor </match>
+      <post u="1110" v="1131">people.&lt;br/>Nor have We been wanting in attentions to our Brittish brethren. We have warned them from&lt;br/>time to time of attempts </post>
+    </solution>
+    <solution rank="4" score="0.0491803">
+      <pre u="53" v="74">unanimous Declaration of the thirteen united States of America,&lt;/b>&lt;/span> &lt;/div>&lt;div> &lt;span>When in the Course of human events, it becomes necessary for one people </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="43"
+        v="1550"
+      />
+      <match u="74" v="135">people to dissolve the&lt;br/>political bands which have connected them with another, and to assume among the powers of the&lt;br/>earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle&lt;br/>them, a decent respect to the opinions of mankind requires that they should declare the causes&lt;br/>which impel them to the separation.&lt;/span> &lt;/div>&lt;div> &lt;span>We hold </match>
+      <post u="134" v="155">We hold these truths to be self-evident, that all men are created equal, that they are endowed by&lt;br/>their Creator with </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... may define a Tyrant, is unfit to be the ruler of a free people.&lt;br/>Nor have We been wanting in attentions to our Brittish brethren.  ... We have warned them from&lt;br/>time to time of attempts by their legislature to ...  reminded them of the circumstances of our emigration and settlement here. We  ... </content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dotpdf/Magic_Quadrant_for_Information_Access_Technology2005_Gartner_.pdf"
+  md5="a1ad3abad985ca2f36d07708886399c2"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dotpdf/Magic_Quadrant_for_Information_Access_Technology2005_Gartner_.pdf/"
+  vertex="30" input-at="1190747218" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="0.1" vse-base-score="0.0681818"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747220"
+    u="1"
+  >Sep 25,
+  2007 19:07:00 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:31:11Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/Magic_Quadrant_for_Information_Access_Technology2005_Gartner_.pdf</content>
+  <content action="none" name="host" weight="1" u="31">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170217871"
+    u="38"
+  >Jan 31,
+  2007 04:31:11 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747223"
+    u="40"
+  >Sep 25,
+  2007 19:07:03 GMT</content>
+  <content name="language" weight="0" action="none" u="42">english</content>
+  <content name="title" output-action="bold" weight="3" u="44">Magic Quadrant for Information Access Technology, 2005</content>
+  <content action="none" name="url" weight="1" u="4657">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/Magic_Quadrant_for_Information_Access_Technology2005_Gartner_.pdf</content>
+  <content action="none" name="host" weight="1" u="4675">testbed3-2.test.vivisimo.com</content>
+  <content name="filetype" action="none" u="4681">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0681818">
+      <pre u="715" v="736">of the vendors offer personal (desktop) search applications as well, that is not a&lt;br/>primary focus or requirement for the vendors we'</pre>
+      <content name="snippet" weight="1" output-action="summarize" u="52"
+        v="4656"
+      />
+      <match u="736" v="780">we've included. Vendors will not have different&lt;br/>emphasis because this is now the "information access" market. Rather, the Magic Quadrant&lt;br/>describes how vendors excel in search-related functions, as well as emphasizes that other&lt;br/>functionality is required to get to the information people are </match>
+      <post u="779" v="800">people are after and deliver it in a form that&lt;br/>supports their companies' business goals.&lt;/span> &lt;/div>&lt;div> &lt;span>The enterprise information access market, as with </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... a&lt;br/>primary focus or requirement for the vendors we've included. Vendors ...  required to get to the information people are after and deliver it in a form  ... </content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dottxt/const_quotes.txt"
+  md5="470a4a93507bec74cac82ef99dfb75bd"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dottxt/const_quotes.txt/"
+  vertex="39" input-at="1190747218" ct="application/vxml-unnormalized"
+  la-score="0.1" vse-base-score="0.0517241"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747220"
+    u="1"
+  >Sep 25,
+  2007 19:07:00 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:39:48Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dottxt/const_quotes.txt</content>
+  <content action="none" name="host" weight="1" u="26">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170218389"
+    u="33"
+  >Jan 31,
+  2007 04:39:49 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747230"
+    u="35"
+  >Sep 25,
+  2007 19:07:10 GMT</content>
+  <content name="language" weight="0" action="none" u="37">english</content>
+  <content action="none" name="url" weight="1" u="1692">http://testbed3-2.test.vivisimo.com/Shared Documents/dottxt/const_quotes.txt</content>
+  <content action="none" name="host" weight="1" u="1705">testbed3-2.test.vivisimo.com</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0517241">
+      <pre u="867" v="888">stealthy encroachments thereon. -- Boyd v. 
+
+U.S., 116 U.S. 635.
+
+
+
+It cannot be assumed that the framers of the constitution and the people </pre>
+      <content type="text" name="snippet" u="39" v="1691" />
+      <match u="888" v="946">people who 
+
+adopted it, did not intend that which is the plain import of the language 
+
+used. When the language of the constitution is positive and free of all 
+
+ambiguity, all courts are not at liberty, by a resort to the refinements of 
+
+legal learning, to restrict its obvious meaning to avoid the hardships of 
+
+particular cases. We must </match>
+      <post u="945" v="966">We must accept the constitution as it reads when its 
+
+language is unambiguous, for it is the mandate of the sovereign power. -- 
+
+</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... that the framers of the constitution and the people who 
+
+adopted it, did not ...  of 
+
+particular cases. We must accept the constitution as it reads when  ... </content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dotpdf/edaoob.pdf"
+  md5="b05386663f038f9d48e4fb6a1f029c6d"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dotpdf/edaoob.pdf/"
+  vertex="28" input-at="1190747218" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="0.1" vse-base-score="0.0100627"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747220"
+    u="1"
+  >Sep 25,
+  2007 19:07:00 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:30:42Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/edaoob.pdf</content>
+  <content action="none" name="host" weight="1" u="25">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170217843"
+    u="32"
+  >Jan 31,
+  2007 04:30:43 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747223"
+    u="34"
+  >Sep 25,
+  2007 19:07:03 GMT</content>
+  <content name="language" weight="0" action="none" u="36">english</content>
+  <content name="title" output-action="bold" weight="3" u="38">Easysoft Data Access</content>
+  <content action="none" name="url" weight="1" u="50540">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/edaoob.pdf</content>
+  <content action="none" name="host" weight="1" u="50552">testbed3-2.test.vivisimo.com</content>
+  <content name="filetype" action="none" u="50558">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0061117">
+      <pre u="10620" v="10641"><![CDATA[ODBC Administrator anyway.</span> </div><div> <span>•</span> </div><div> <span>--enable-readline=no</span> </div><div> <span>This disablesreadline</span> </div><div> <span>support inisql</span> </div><div> <span>. We disabled this</span> </div><div> <span>because it tiesisql</span> </div><div> <span>to the version oflibreadline</span> </div><div> <span>on the</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="42"
+        v="50539"
+      />
+      <match u="10641" v="10644"><![CDATA[the</span> </div><div> <span>machine we build ]]></match>
+      <post u="10643" v="10664">we build on. We build on as old a version of the&lt;/span> &lt;/div>&lt;div> &lt;span>Operating System as we can for upwards compatibility. Many&lt;/span> &lt;/div>&lt;div> &lt;span>newer </post>
+    </solution>
+    <solution rank="1" score="0.00458378">
+      <pre u="12717" v="12738"><![CDATA[license/licenses</span> </div><div> <span>.</span> </div><div> <span>If during this process any warnings or errors are output, please mail<br/>the output to</span> </div><div> <span><b>support@easysoft.com</b></span> </div><div> <span>and we ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="42"
+        v="50539"
+      />
+      <match u="12738" v="12742"><![CDATA[we will rectify the</span> </div><div> <span>problem.</span> </div><div> <span>]]></match>
+      <post u="12741" v="12762">the&lt;/span> &lt;/div>&lt;div> &lt;span>problem.&lt;/span> &lt;/div>&lt;div> &lt;span>If you ran the License Client, the install script will detect whether any&lt;br/>licenses were automatically obtained and ask you </post>
+    </solution>
+    <solution rank="2" score="0.00366702">
+      <pre u="10633" v="10654"><![CDATA[because it tiesisql</span> </div><div> <span>to the version oflibreadline</span> </div><div> <span>on the</span> </div><div> <span>machine we build on. We build on as old a version of the</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="42"
+        v="50539"
+      />
+      <match u="10654" v="10659"><![CDATA[the</span> </div><div> <span>Operating System as we can ]]></match>
+      <post u="10658" v="10679"><![CDATA[we can for upwards compatibility. Many</span> </div><div> <span>newer Linux machines no longer come with the olderreadline</span> </div><div> <span>libraries and so enabling</span> </div><div> <span>readline</span> </div><div> <span>support rendersisql</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="3" score="0.00306888">
+      <pre u="9921" v="9942"><![CDATA[installer</b></span> </div><div> <span>Before you run the installer, make sure you have read the"Before</span> </div><div> <span><b>You Install"section. If you are considering running the ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="42"
+        v="50539"
+      />
+      <match u="9942" v="9949"><![CDATA[the installation</b></span> </div><div> <span>as a nonroot</span> </div><div> <span>user, we suggest ]]></match>
+      <post u="9948" v="9969"><![CDATA[we suggest you review this carefully as you will</span> </div><div> <span>have to get aroot</span> </div><div> <span>user to manually complete some parts of the</span> </div><div> <span>installation ]]></post>
+    </solution>
+    <solution rank="4" score="0.00305585">
+      <pre u="12227" v="12248">Client will then run a program that was installed for that&lt;br/>product which generates a key which is used to identify the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="42"
+        v="50539"
+      />
+      <match u="12248" v="12254">the product&lt;br/>and operating system (we need </match>
+      <post u="12253" v="12274">we need this key to license you).&lt;/span> &lt;/div>&lt;div> &lt;span>Assuming you have picked a product which is installed (or in the&lt;br/>process of being </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... because it tiesisql</span> </div><div> <span>to the version oflibreadline</span> </div><div> <span>on the</span> </div><div> <span>machine we build on. We build on as old a  ... mail<br/>the output to</span> </div><div> <span><b>support@easysoft.com</b></span> </div><div> <span>and we will rectify the</span> </div><div> <span>problem.</span> </div><div> <span>If you ran the License Client, the  ... ]]></content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dotpdf/03-AccessB.pdf"
+  md5="f392fc6c5a775cb93265cacd7c6724d4"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dotpdf/03-AccessB.pdf/"
+  vertex="23" input-at="1190747218" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="0.1" vse-base-score="0.00989357"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747219"
+    u="1"
+  >Sep 25,
+  2007 19:06:59 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:29:34Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/03-AccessB.pdf</content>
+  <content action="none" name="host" weight="1" u="26">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170217774"
+    u="33"
+  >Jan 31,
+  2007 04:29:34 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747221"
+    u="35"
+  >Sep 25,
+  2007 19:07:01 GMT</content>
+  <content name="language" weight="0" action="none" u="37">english</content>
+  <content name="title" output-action="bold" weight="3" u="39">Data Structures, Algorithms and Implementation Issues Overview</content>
+  <content action="none" name="url" weight="1" u="3431">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/03-AccessB.pdf</content>
+  <content action="none" name="host" weight="1" u="3444">testbed3-2.test.vivisimo.com</content>
+  <content name="filetype" action="none" u="3450">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.00673464">
+      <pre u="1369" v="1390"><![CDATA[set</span> </div><div> <span>•</span> </div><div> <span><b>Title, author, id, creation date, …</b></span> </div><div> <span>– Good idea, but none of these support content-based retrieval</span> </div><div> <span>•</span> </div><div> <span><b>IR Problem:Can’t predict the ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="47"
+        v="3430"
+      />
+      <match u="1390" v="1394">the keys that people will </match>
+      <post u="1393" v="1414"><![CDATA[people will use in queries</b></span> </div><div> <span>– Every word in a document is a potential search term</span> </div><div> <span>•</span> </div><div> <span><b>IR Solution:Index by </b></span> </div><div> <span>– “full text indexing”</span> </div></div><a/><div> <div> <span>© ]]></post>
+    </solution>
+    <solution rank="1" score="0.00448976">
+      <pre u="947" v="968">grammar rules that define the document format&lt;/span> &lt;/div>&lt;div> &lt;span>– You write C code that does something when a rule is matched&lt;/span> &lt;/div>&lt;div> &lt;span>– yacc generates the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="47"
+        v="3430"
+      />
+      <match u="968" v="972"><![CDATA[the parser</span> </div><div> <span>– Few people can ]]></match>
+      <post u="971" v="992"><![CDATA[people can write a parser that is faster than a yacc parser</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>13</span> </div><div> <span><b>Stopword Recognition</b></span> </div><div> <span>•</span> </div><div> <span><b>There are usually fewer ]]></post>
+    </solution>
+    <solution rank="2" score="0.00299317">
+      <pre u="852" v="873">You write grammar rules that identify tokens&lt;/span> &lt;/div>&lt;div> &lt;span>– You write C code that does something when a token is found&lt;/span> &lt;/div>&lt;div> &lt;span>– lex generates the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="47"
+        v="3430"
+      />
+      <match u="873" v="879"><![CDATA[the finite state automata</span> </div><div> <span>– Few people can ]]></match>
+      <post u="878" v="899"><![CDATA[people can write a scanner that is faster than a lex scanner</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>12</span> </div><div> <span><b>Document Parsing:</b></span> </div><div> <span><b>Document Grammar</b></span> </div><div> <span>•</span> </div><div> <span><b>Finite state ]]></post>
+    </solution>
+    <solution rank="3" score="0.000962091">
+      <pre u="1372" v="1393"><![CDATA[id, creation date, …</b></span> </div><div> <span>– Good idea, but none of these support content-based retrieval</span> </div><div> <span>•</span> </div><div> <span><b>IR Problem:Can’t predict the keys that people ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="47"
+        v="3430"
+      />
+      <match u="1393" v="1421"><![CDATA[people will use in queries</b></span> </div><div> <span>– Every word in a document is a potential search term</span> </div><div> <span>•</span> </div><div> <span><b>IR Solution:Index by </b></span> </div><div> <span>– “full text indexing”</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>18</span> </div><div> <span><b>Indexes</b></span> </div><div> <span><b>The index ]]></match>
+      <post u="1420" v="1441"><![CDATA[The index is accessed by the atoms of a query language</b></span> </div><div> <span>•</span> </div><div> <span><b>The atoms are called “features” or “keys” or “terms”</b></span> </div><div> <span>•</span> </div><div> <span><b>Most common ]]></post>
+    </solution>
+    <solution rank="4" score="0.000570436">
+      <pre u="950" v="971"><![CDATA[define the document format</span> </div><div> <span>– You write C code that does something when a rule is matched</span> </div><div> <span>– yacc generates the parser</span> </div><div> <span>– Few people ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="47"
+        v="3430"
+      />
+      <match u="971" v="1008"><![CDATA[people can write a parser that is faster than a yacc parser</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>13</span> </div><div> <span><b>Stopword Recognition</b></span> </div><div> <span>•</span> </div><div> <span><b>There are usually fewer than 500 stopwords</b></span> </div><div> <span>– Some systems have very few</span> </div><div> <span>•</span> </div><div> <span><b>Every word token is checked, so the test ]]></match>
+      <post u="1007" v="1028"><![CDATA[the test must be very fast</b></span> </div><div> <span>•</span> </div><div> <span><b>Store the stopword list in a hash table</b></span> </div><div> <span>– Since stopword lists evolve slowly, calculate a perfect ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... content-based retrieval</span> </div><div> <span>•</span> </div><div> <span><b>IR Problem:Can’t predict the keys that people will use in queries</b></span> </div><div> <span>– Every word in a IR Problem:Can’t predict the keys that people will use in queries</b></span> </div><div> <span>– Every word in a document is a potential search term</span> ...  2006, Jamie Callan</span> </div><div> <span>18</span> </div><div> <span><b>Indexes</b></span> </div><div> <span><b>The index is accessed by the atoms of a  ... ]]></content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dotpdf/SuSE-Linux-Userguide-9.2.pdf"
+  md5="8e7e4b3ce33d8c618c98d1c70300b94f"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dotpdf/SuSE-Linux-Userguide-9.2.pdf/"
+  vertex="34" input-at="1190747218" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="0.1" vse-base-score="0.00809024"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747220"
+    u="1"
+  >Sep 25,
+  2007 19:07:00 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:35:32Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/SuSE-Linux-Userguide-9.2.pdf</content>
+  <content action="none" name="host" weight="1" u="28">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170218132"
+    u="35"
+  >Jan 31,
+  2007 04:35:32 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747229"
+    u="37"
+  >Sep 25,
+  2007 19:07:09 GMT</content>
+  <content name="language" weight="0" action="none" u="39">english</content>
+  <content name="title" output-action="bold" weight="3" u="41">SUSE LINUX</content>
+  <content action="none" name="url" weight="1" u="77066">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/SuSE-Linux-Userguide-9.2.pdf</content>
+  <content action="none" name="host" weight="1" u="77081">testbed3-2.test.vivisimo.com</content>
+  <content name="filetype" action="none" u="77087">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.00448976">
+      <pre u="72021" v="72042">the mouse driver.&lt;/span> &lt;/div>&lt;div> &lt;span>Make sure you adjust the acceleration and double-click adjustment of the&lt;br/>mouse to your own preferences. Some people </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="77065"
+      />
+      <match u="72042" v="72046">people work with the mouse </match>
+      <post u="72045" v="72066">the mouse from&lt;br/>the hand joint. Others prefer moving their complete forearm.&lt;/span> &lt;/div>&lt;div> &lt;span>An alternative to the mouse is a trackball. Here, you </post>
+    </solution>
+    <solution rank="1" score="0.00366702">
+      <pre u="2408" v="2429"><![CDATA[a key to press</span> </div><div> <span>‘File’: menu items, buttons</span> </div><div> <span>Acknowledgements</span> </div><div> <span>With a lot of personal commitment, the Linux developers continue to promote the<br/>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="77065"
+      />
+      <match u="2429" v="2434">the&lt;br/>development of Linux. We would </match>
+      <post u="2433" v="2454">We would like to express our sincere gratitude for their&lt;br/>efforts. Without them, this distribution would not exist. Additional thanks go to&lt;br/></post>
+    </solution>
+    <solution rank="2" score="0.00359181">
+      <pre u="31029" v="31050">purpose, export your public key to one of&lt;br/>these server. Similarly, KGpg enables you to search one of these servers for the&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="77065"
+      />
+      <match u="31050" v="31055">the&lt;br/>keys of certain people and </match>
+      <post u="31054" v="31075"><![CDATA[people and import their public keys from the server.</span> </div><div> <span>11.2.1</span> </div><div> <span>Importing a Key from a Key Server</span> </div><div> <span>By means of the ‘Import’ ]]></post>
+    </solution>
+    <solution rank="3" score="0.00359181">
+      <pre u="69699" v="69720">white or neutral white is&lt;br/>recommended.&lt;/span> &lt;/div>&lt;div> &lt;span>The light requirement depends not only on the working task, but also on&lt;br/>age: older people </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="77065"
+      />
+      <match u="69720" v="69725">people need more light. The fact </match>
+      <post u="69724" v="69745">The fact that older people often have&lt;br/>only a small lamp in their homes has nothing to do with their light requirement,&lt;br/> </post>
+    </solution>
+    <solution rank="4" score="0.00359181">
+      <pre u="69703" v="69724">is&lt;br/>recommended.&lt;/span> &lt;/div>&lt;div> &lt;span>The light requirement depends not only on the working task, but also on&lt;br/>age: older people need more light. The </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="77065"
+      />
+      <match u="69724" v="69729">The fact that older people often </match>
+      <post u="69728" v="69749">people often have&lt;br/>only a small lamp in their homes has nothing to do with their light requirement,&lt;br/> but rather with the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... you to search one of these servers for the&lt;br/>keys of certain people and import their public keys from the server.&lt;/span> &lt;/div>&lt;div> &lt;span> ... of the&lt;br/>mouse to your own preferences. Some people work with the mouse from&lt;br/>the hand joint. Others prefer moving  ... </content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dotpdf/SuSE-Linux-Adminguide-9.2.pdf"
+  md5="012f1bd25a389e2a8aee4e2a7b834de8"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dotpdf/SuSE-Linux-Adminguide-9.2.pdf/"
+  vertex="32" input-at="1190747218" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="0.1" vse-base-score="0.00615756"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747220"
+    u="1"
+  >Sep 25,
+  2007 19:07:00 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:32:46Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/SuSE-Linux-Adminguide-9.2.pdf</content>
+  <content action="none" name="host" weight="1" u="28">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170217967"
+    u="35"
+  >Jan 31,
+  2007 04:32:47 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747225"
+    u="37"
+  >Sep 25,
+  2007 19:07:05 GMT</content>
+  <content name="language" weight="0" action="none" u="39">english</content>
+  <content name="title" output-action="bold" weight="3" u="41">SUSE LINUX</content>
+  <content action="none" name="url" weight="1" u="100971">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/SuSE-Linux-Adminguide-9.2.pdf</content>
+  <content action="none" name="host" weight="1" u="100986">testbed3-2.test.vivisimo.com</content>
+  <content name="filetype" action="none" u="100992">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.00366702">
+      <pre u="4203" v="4224">the text block.&lt;/span> &lt;/div>&lt;div> &lt;span>Acknowledgment&lt;/span> &lt;/div>&lt;div> &lt;span>With a lot of voluntary commitment, the developers of Linux cooperate on a&lt;br/>global scale to promote the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="100970"
+      />
+      <match u="4224" v="4229">the development of Linux. We thank </match>
+      <post u="4228" v="4249">We thank them for their efforts&lt;br/> — this distribution would not exist without them. Furthermore, we thank&lt;br/>Frank Zappa and Pawar. Special thanks, </post>
+    </solution>
+    <solution rank="1" score="0.00305585">
+      <pre u="3706" v="3727">code printed on the CD case.&lt;/span> &lt;/div>&lt;div> &lt;span>To make sure your system is always in a secure and up-to-date state, we </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="100970"
+      />
+      <match u="3727" v="3733">we recommend&lt;br/> regular updates with the comfortable </match>
+      <post u="3732" v="3753">the comfortable YaST Online Update. Moreover, we&lt;br/>offer a free e-newsletter featuring security-relevant information and tips and&lt;br/>tricks for SUSE </post>
+    </solution>
+    <solution rank="2" score="0.0026193">
+      <pre u="3711" v="3732">case.&lt;/span> &lt;/div>&lt;div> &lt;span>To make sure your system is always in a secure and up-to-date state, we recommend&lt;br/> regular updates with the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="100970"
+      />
+      <match u="3732" v="3739">the comfortable YaST Online Update. Moreover, we&lt;br/>offer </match>
+      <post u="3738" v="3759">we&lt;br/>offer a free e-newsletter featuring security-relevant information and tips and&lt;br/>tricks for SUSE LINUX. Simply subscribe by entering your </post>
+    </solution>
+    <solution rank="3" score="0.00149659">
+      <pre u="76111" v="76132"><![CDATA[the chapter.</span> </div><div> <span>13.1</span> </div><div> <span>Laptops . . . . . . . . . . . . . . . . . . . . . . . . . . . . 286</span> </div><div> <span>13.2</span> </div><div> <span>Mobile Hardware . . . . . . . . . . . . . . . . . . . . . . 292</span> </div><div> <span>13.3</span> </div><div> <span>Cellular Phones and PDAs . . . . . . . . . . . . . . . . . 293</span> </div><div> <span>13.4</span> </div><div> <span>For More Information . . . . . . . . . . . . . . . . . . . . 293</span> </div></div><a/><div> <div> <span>Most people ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="100970"
+      />
+      <match u="76132" v="76144">people associate mobile computing with laptops, PDAs, and cellular&lt;br/>phones and the data </match>
+      <post u="76143" v="76164">the data exchange between them. This chapter extends the focus to&lt;br/>mobile hardware components, such as external hard disks, ﬂash drives, or </post>
+    </solution>
+    <solution rank="4" score="0.00112244">
+      <pre u="33431" v="33452">system. You should be familiar with mount points and physical,&lt;br/>extended, and logical partitions.&lt;/span> &lt;/div>&lt;div> &lt;span>First, consider the following questions:&lt;/span> &lt;/div>&lt;div> &lt;span>How will the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="100970"
+      />
+      <match u="33452" v="33468">the machine be used (ﬁle server, application server, compute&lt;br/>server, stand-alone machine)?&lt;/span> &lt;/div>&lt;div> &lt;span>How many people will </match>
+      <post u="33467" v="33488">people will work with this machine (concurrent logins)?&lt;/span> &lt;/div>&lt;div> &lt;span>How many hard disks are installed? What are their sizes and types (EIDE,&lt;br/>SCSI, </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... free e-newsletter featuring security-relevant  ... Linux cooperate on a&lt;br/>global scale to promote the development of Linux. We thank them for their efforts&lt;br/> — this distribution would  ... </content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dotdoc/SharePointTips.doc"
+  md5="04a47cb4318c9738f257c2a4344eaade"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dotdoc/SharePointTips.doc/"
+  vertex="22" input-at="1190747218" ct="application/vxml-unnormalized"
+  filetype="doc" la-score="0.1" vse-base-score="0.00589282"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747219"
+    u="1"
+  >Sep 25,
+  2007 19:06:59 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:28:27Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dotdoc/SharePointTips.doc</content>
+  <content action="none" name="host" weight="1" u="25">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170217708"
+    u="32"
+  >Jan 31,
+  2007 04:28:28 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747221"
+    u="34"
+  >Sep 25,
+  2007 19:07:01 GMT</content>
+  <content name="language" weight="0" action="none" u="36">english</content>
+  <content name="title" output-action="bold" weight="3" u="38">Tips and Tricks for Using Microsoft Office SharePoint Portal Server 2003</content>
+  <content action="none" name="url" weight="1" u="11835">http://testbed3-2.test.vivisimo.com/Shared Documents/dotdoc/SharePointTips.doc</content>
+  <content action="none" name="host" weight="1" u="11847">testbed3-2.test.vivisimo.com</content>
+  <content name="filetype" action="none" u="11853">doc</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.00305585">
+      <pre u="3562" v="3583">of columns containing information. For example, a list of links will typically contain columns for the name, URL, and description of the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="50"
+        v="11834"
+      />
+      <match u="3583" v="3589">the links. In this exercise, we create </match>
+      <post u="3588" v="3609"><![CDATA[we create a new column.</p> <li><p>To add a column to the list, in the <b>Columns</b>section, click <b>Add a new column</b>.</p></li> <p><b></b><b></b></p><p><b>Columns ]]></post>
+    </solution>
+    <solution rank="1" score="0.00299317">
+      <pre u="880" v="901">common organizational term such as a category, product, business unit, etc.&lt;/p>&lt;/li>&lt;li>&lt;p>If you want your site included in search results when people </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="50"
+        v="11834"
+      />
+      <match u="901" v="907">people search for information through the portal </match>
+      <post u="906" v="927"><![CDATA[the portal site, select the <b>Include in search </b><b>results</b> check box in the <b>Search Results </b>section.</p></li><li><p>If you want to specify a ]]></post>
+    </solution>
+    <solution rank="2" score="0.00299317">
+      <pre u="5505" v="5526"><![CDATA[a new SharePoint list.</p></li> <p></p><p><b></b><b></b></p><p><b>Importing a spreadsheet</b></p> <li><p>In the <b>Name and Description</b> section, in the <b>Name</b>, type a simple name for the ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="50"
+        v="11834"
+      />
+      <match u="5526" v="5532">the new list that helps people understand </match>
+      <post u="5531" v="5552"><![CDATA[people understand what information it contains.</p></li><li><p>In the <b>Description </b>box, type a longer description of your list.</p></li><li><p>In the <b>Import from Spreadsheet</b> ]]></post>
+    </solution>
+    <solution rank="3" score="0.00256558">
+      <pre u="742" v="763">name in the &lt;b>Owner&lt;/b> box. If you are not the site owner, type the site owner's name. This field tells people </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="50"
+        v="11834"
+      />
+      <match u="763" v="770"><![CDATA[people who is in charge of the site. </p></li><li><p>]]></match>
+      <post u="769" v="790">the site. &lt;/p>&lt;/li>&lt;li>&lt;p>If you want to categorize your site by specific criteria, such as company division or region, click the appropriate list. </post>
+    </solution>
+    <solution rank="4" score="0.00224488">
+      <pre u="369" v="390">others to find your site.&lt;/p>&lt;/li>&lt;li>&lt;p>In the &lt;b>Description&lt;/b> box, type a brief description of your site. It should explain who uses the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="50"
+        v="11834"
+      />
+      <match u="390" v="398">the site, and what kind of content people can </match>
+      <post u="397" v="418"><![CDATA[people can expect to find there.</p></li><li><p>In the <b>Web Site </b><b>Address </b>section, in the<b> URL name</b> section, of the area, type your ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... columns for the name, URL, and description of the links. In this exercise, we create a new column.</p> <li><p>To add a column  ... in the <b>Name</b>, type a simple name for the new list that helps people understand what information it contains.</p></li><li><p>In the <b>Description </b> ... ]]></content>
+</document>
+<document
+  url="http://testbed3-2.test.vivisimo.com/Shared%20Documents/dotpdf/04-AccessB.pdf"
+  md5="5c50522558882dd2157f707728da8186"
+  vse-key="http://testbed3-2.test.vivisimo.com:80/Shared Documents/dotpdf/04-AccessB.pdf/"
+  vertex="24" input-at="1190747218" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="0.1" vse-base-score="0.00155147"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747219"
+    u="1"
+  >Sep 25,
+  2007 19:06:59 GMT</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="5">Administrator</content>
+  <content name="last-modified" action="none" weight="1" u="7">2007-01-31T04:29:44Z</content>
+  <content action="none" name="url" weight="1" u="13">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/04-AccessB.pdf</content>
+  <content action="none" name="host" weight="1" u="26">testbed3-2.test.vivisimo.com</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1170217785"
+    u="33"
+  >Jan 31,
+  2007 04:29:45 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1190747221"
+    u="35"
+  >Sep 25,
+  2007 19:07:01 GMT</content>
+  <content name="language" weight="0" action="none" u="37">english</content>
+  <content name="title" output-action="bold" weight="3" u="39">Data Structures, Algorithms and Implementation Issues Inverted List Indexes: Access Methods</content>
+  <content action="none" name="url" weight="1" u="2402">http://testbed3-2.test.vivisimo.com/Shared Documents/dotpdf/04-AccessB.pdf</content>
+  <content action="none" name="host" weight="1" u="2415">testbed3-2.test.vivisimo.com</content>
+  <content name="filetype" action="none" u="2421">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.000879421">
+      <pre u="1338" v="1359"><![CDATA[structure</b></span> </div><div> <span>– Title, date, author, …<br/>– Chapter, section, subsection, paragraph, sentence, references, …</span> </div><div> <span>•</span> </div><div> <span><b>Research systems have tended to ignore structure</b></span> </div><div> <span>– Some studies suggest that people ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="51"
+        v="2401"
+      />
+      <match u="1359" v="1383"><![CDATA[people don’t use it much</span> </div><div> <span>•</span> </div><div> <span><b>Commercial systems have tended to support some structure</b></span> </div><div> <span>– Especially title, date, author, sentence</span> </div><div> <span>•</span> </div><div> <span><b>Some current trends suggest the document ]]></match>
+      <post u="1382" v="1403">the document structure will be&lt;/b>&lt;br/>&lt;b>increasingly important in the future&lt;/b>&lt;/span> &lt;/div>&lt;div> &lt;span>– XML&lt;br/>– Use of IR systems as “back-ends” for other language processing </post>
+    </solution>
+    <solution rank="1" score="0.000844245">
+      <pre u="1871" v="1892"><![CDATA[to provide effective retrieval</b></span> </div><div> <span>•</span> </div><div> <span><b>How to make it easy for people to use</b></span> </div><div> <span>– Or, maybe not primarily intended for use by people</span> </div><div> <span>•</span> </div><div> <span><b>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="51"
+        v="2401"
+      />
+      <match u="1892" v="1917"><![CDATA[people</span> </div><div> <span>•</span> </div><div> <span><b>What is necessary/useful to support other language tasks?</b></span> </div><div> <span>•</span> </div><div> <span><b>How to support complex user models</b></span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>26</span> </div><div> <span><b>Document Term Lists</b></span> </div><div> <span>•</span> </div><div> <span><b>Sometimes the IR ]]></match>
+      <post u="1916" v="1937"><![CDATA[the IR system needs to know what terms are in the</b><br/><b>document</b></span> </div><div> <span>– E.g., for query expansion, relevance feedback, …</span> </div><div> <span>•</span> </div><div> <span><b>How does it ]]></post>
+    </solution>
+    <solution rank="2" score="0.000833414">
+      <pre u="729" v="750"><![CDATA[4<br/>» “pot” returns 2<br/>» “OR” returns 2</span> </div><div> <span>– Now ask the tree to:</span> </div><div> <span>» Evaluate the query only for document 2, and<br/>» Return the ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="51"
+        v="2401"
+      />
+      <match u="750" v="772"><![CDATA[the next document id</span> </div><div> <span>•</span> </div><div> <span><b>This probably looks foolish, but</b></span> </div><div> <span>– It’s faster than you think (because it allows some optimizations)<br/>– Now we don’]]></match>
+      <post u="771" v="792"><![CDATA[we don’t need to keep entire inverted lists in memory</span> </div><div> <span><b>OR</b></span> </div><div> <span><b>AND</b></span> </div><div> <span>4<br/>5</span> </div><div> <span>1<br/>4</span> </div><div> <span>2<br/>5</span> </div><div> <span>pot</span> </div><div> <span><b>Inverted List ]]></post>
+    </solution>
+    <solution rank="3" score="0.000332575">
+      <pre u="1285" v="1306"><![CDATA[Weaknesses:</b></span> </div><div> <span>•</span> </div><div> <span><b>It’s not necessarily easy to update a document</b></span> </div><div> <span>– Many lists affected<br/>– Changes in the middle of lists means rewriting the ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="51"
+        v="2401"
+      />
+      <match u="1306" v="1360"><![CDATA[the entire list</span> </div><div> <span>•</span> </div><div> <span><b>Nearly impossible to find adjacent terms in a document</b></span> </div><div> <span>– “apple” is a location 12…what’s at location 13?</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>18</span> </div><div> <span><b>Storing Structure</b></span> </div><div> <span>•</span> </div><div> <span><b>Many documents have internal structure</b></span> </div><div> <span>– Title, date, author, …<br/>– Chapter, section, subsection, paragraph, sentence, references, …</span> </div><div> <span>•</span> </div><div> <span><b>Research systems have tended to ignore structure</b></span> </div><div> <span>– Some studies suggest that people don’]]></match>
+      <post u="1359" v="1380"><![CDATA[people don’t use it much</span> </div><div> <span>•</span> </div><div> <span><b>Commercial systems have tended to support some structure</b></span> </div><div> <span>– Especially title, date, author, sentence</span> </div><div> <span>•</span> </div><div> <span><b>Some current trends ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... tended to ignore structure</b></span> </div><div> <span>– Some studies suggest that people don’t use it much</span> </div><div> <span>•</span> </div><div> <span><b>Commercial systems have tended to support some structure</b></span> </div><div> <span>– Especially title, date, author, sentence</span> </div><div> <span>•</span> </div><div> <span><b>Some current trends suggest the document structure will be</b><br/><b>increasingly important in the  ... ]]></content>
+</document>
+</scope>

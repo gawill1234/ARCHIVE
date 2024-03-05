@@ -1,0 +1,60 @@
+<vce>
+              <document url="http://vivisimo.com?Mustang">
+                <content name="title">Mustang</content>
+                <content name="convertible">true</content>
+                <content name="coupe">true</content>
+                <content name="manufacturer" fast-index="set">Ford</content>
+                <content name="type">automobile</content>
+                <content name="car_comment_size">178</content>
+                <content name="car_comment" fast-index="set">This car would be pretty cool to me.  Particularly the Super Snake Shelby Cobra.  But, that would cost about $80,000.00 and I don't happen to have that lying around at the moment</content>
+              </document>
+              <document url="http://vivisimo.com?Challeger">
+                <content name="title">Challenger</content>
+                <content name="coupe">true</content>
+                <content name="manufacturer" fast-index="set">Dodge</content>
+                <content name="type">automobile</content>
+              </document>
+              <document url="http://vivisimo.com?Camaro">
+                <content name="title">Camaro</content>
+                <content name="coupe">true</content>
+                <content name="manufacturer" fast-index="set">Chevrolette</content>
+                <content name="type">automobile</content>
+                <content name="car_comment_size">299</content>
+                <content name="car_comment" fast-index="set">This car was a bit of a surprise.  I didn't expect it to look as good as it does.  If I could only afford one of these cars, I'm not sure if I'd get this or the Mustang.  SS/RS vs Shelby?  That would be a tough decision; well, at least as tough as deciding on two different fast gas guzzlers can be.</content>
+              </document>
+              <document url="http://vivisimo.com?Corvette">
+                <content name="title">Corvette</content>
+                <content name="coupe">true</content>
+                <content name="manufacturer" fast-index="set">Chevrolette</content>
+                <content name="type">automobile</content>
+                <content name="car_comment_size">499</content>
+                <content name="car_comment" fast-index="set">Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Chevy Corvette Cor</content>
+              </document>
+              <document url="http://vivisimo.com?Comet">
+                <content name="title">Comet</content>
+                <content name="coupe">true</content>
+                <content name="sedan">true</content>
+                <content name="wagon">true</content>
+                <content name="convertible">true</content>
+                <content name="manufacturer" fast-index="set">Mercury</content>
+                <content name="type">automobile</content>
+                <content name="car_comment_size">500</content>
+                <content name="car_comment" fast-index="set">Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury Comet Mercury C</content>
+              </document>
+              <document url="http://vivisimo.com?Galaxy">
+                <content name="title">Galaxy</content>
+                <content name="coupe">true</content>
+                <content name="convertible">true</content>
+                <content name="manufacturer">Ford</content>
+                <content name="type">automobile</content>
+                <content name="car_comment_size">501</content>
+                <content name="car_comment" fast-index="set">Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Galaxy Ford Gala</content>
+              </document>
+              <document url="http://vivisimo.com?Viper">
+                <content name="title">Viper</content>
+                <content name="coupe">true</content>
+                <content name="convertible">true</content>
+                <content name="manufacturer" fast-index="set">Dodge</content>
+                <content name="type">automobile</content>
+              </document>
+</vce>

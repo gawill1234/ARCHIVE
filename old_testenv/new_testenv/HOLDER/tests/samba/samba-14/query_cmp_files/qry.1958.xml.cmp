@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="17" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="7" />
+<attribute name="total-results-with-duplicates" value="17" />
+<document filetypes="xml " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.240.674.753.html/"
+  graph-id-high-water="20" vertex="21" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.240.674.753.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">13298</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="28"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="30">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="291" v="310">us. 357 U.S. at pages 466—467, 78 S.Ct. at pages 1173—1174. Our mandate, issued on August 1, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="1842"
+      />
+      <match u="311" v="311">1958, </match>
+      <post u="312" v="331"><![CDATA[accordingly remanded the case to the Supreme Court of Alabama 'for proceedings not inconsistent with' our opinion.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1245" v="1264"><![CDATA[of this case.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;div >
+        &lt;a >1&lt;/a>
+        &lt;p > Petitioner's motion was first made on November 5, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="1842"
+      />
+      <match u="1265" v="1265">1958, </match>
+      <post u="1266" v="1285">and was renewed, on November 19, 1958, and on December 1, 1958, by mailing to the Attorney General and filing </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1252" v="1271"><![CDATA[a >1&lt;/a>
+        &lt;p > Petitioner's motion was first made on November 5, 1958, and was renewed, on November 19, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="1842"
+      />
+      <match u="1272" v="1272">1958, </match>
+      <post u="1273" v="1292">and on December 1, 1958, by mailing to the Attorney General and filing with the Alabama Supreme Court copies of </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1257" v="1276">s motion was first made on November 5, 1958, and was renewed, on November 19, 1958, and on December 1, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="1842"
+      />
+      <match u="1277" v="1277">1958, </match>
+      <post u="1278" v="1297"><![CDATA[by mailing to the Attorney General and filing with the Alabama Supreme Court copies of the original.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... 1173—1174. Our mandate, issued on August 1, 1958, accordingly remanded the case to the Supreme Court  ... s motion was first made on November 5, 1958, and was renewed, on November 19, 1958, and  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.287.378.html/"
+  graph-id-high-water="33" vertex="34" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.287.378.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">31221</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1366" v="1385"><![CDATA[10 of the State Judiciary Law, quoted in the margin,&lt;a >6&lt;/a> and by the Legislature's refusal in ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="1386" v="1386">1958 </match>
+      <post u="1387" v="1406">to amend the State Civil Rights Law, 8 N.Y.Laws Ann. § 1—242 (McKinney 1948), so as to require </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="2936" v="2955"><![CDATA[the administration of justice.'&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >2&lt;/a>
+        &lt;p > Upon Mr. Justice Arkwright's retirement on December 31, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="2956" v="2956">1958, </match>
+      <post u="2957" v="2976"><![CDATA[the Appellate Division designated Mr. Justice Edward G. Baker of the New York Supreme Court as his successor.&lt;/p>
+      &lt;/div>
+      &lt;]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="3130" v="3149">of which was authorized by the Appellate Division, Mr. Justice Arkwright stated that from March of 1957 to June of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="3150" v="3150">1958 </match>
+      <post u="3151" v="3170">the Inquiry issued 4,875 'request' subpoenas, 2,150 witness and duces tecum subpoenas, and examined the records of approximately 5,000 insurance </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="3173" v="3192">the same period the Inquiry's staff examined informally about 2,500 persons, and from May of 1957 to June of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="3193" v="3193">1958 </match>
+      <post u="3194" v="3213"><![CDATA[some 726 witnesses were interrogated before the Special Term itself.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >6&lt;/a>
+        &lt;p > 'Any statute or ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... a> and by the Legislature's refusal in 1958 to amend the State Civil Rights Law, 8  ... Mr. Justice Arkwright's retirement on December 31, 1958, the Appellate Division designated Mr. Justice Edward G.  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.72.34.html/"
+  graph-id-high-water="26" vertex="27" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.72.34.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">81757</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="70" v="89"><![CDATA[br />Louis C. WYMAN, Attorney General, State of New Hampshire.&lt;/p>
+    &lt;p >No. 34.&lt;/p>
+    &lt;p >Argued Nov. 17, 18, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="90" v="90"><![CDATA[1958.&lt;/]]></match>
+      <post u="91" v="110"><![CDATA[p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1616" v="1635">guests whose identity the committee seeks to determine. See National Association for Advancement of Colored People v. State of Alabama, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="1636" v="1636">1958, </match>
+      <post u="1637" v="1656">357 U.S. 449, 78 S.Ct. 1163, 2 L.Ed.2d 1488. The interest of the guests at World Fellowship </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="2610" v="2629">of appellant's unjustified refusal we think the order a proper one. As was said in Green v. United States, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="2630" v="2630">1958, </match>
+      <post u="2631" v="2650"><![CDATA[356 U.S. 165, 197, 78 S.Ct. 632, 650, 2 L.Ed.2d 672 (dissenting opinion):&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="12297" v="12316">T. Gossett, Vice-President and General Counsel of Ford Motor Company at the Annual Brotherhood Dinner, Detroit, Michigan, November 20, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="12317" v="12317">1958, </match>
+      <post u="12318" v="12337"><![CDATA[in which he said:&lt;/p>
+        &lt;p >'We must urge upon our law-makers a scrupulous exactness, particularly in the exercise ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... No. 34.&lt;/p>
+    &lt;p >Argued Nov. 17, 18, 1958.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p > ... Advancement of Colored People v. State of Alabama, 1958, 357 U.S. 449, 78 S.Ct. 1163, 2  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.203.329.html/"
+  graph-id-high-water="6" vertex="7" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.203.329.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">37821</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1696" v="1715">did not understand or intend those terms to be synonymous. When the original print of the 1935 Wagner bill (S.</pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="1716" v="1716">1958) </match>
+      <post u="1717" v="1736">was being considered in the Senate, the then Secretary of Labor proposed an amendment to § 2(5) which, if adopted, </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="4450" v="4469"><![CDATA[Hist. (1935) 2306.)&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >8&lt;/a>
+        &lt;p > Hearings before Senate Committee on Education and Labor on S.]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="4470" v="4470">1958, </match>
+      <post u="4471" v="4490"><![CDATA[74th Cong., 1st Sess. 66—67, reprinted in 1 Leg.Hist. (1935) 1442—1443.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >9&lt;/a>
+        &lt;]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="4473" v="4492"><![CDATA[1st Sess. 66—67, reprinted in 1 Leg.Hist. (1935) 1442—1443.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >9&lt;/a>
+        &lt;p > S.]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="4493" v="4493">1958 (</match>
+      <post u="4494" v="4513"><![CDATA[2d print), 74th Cong., 1st Sess. 4, reprinted in 2 Leg.Hist. (1935) 2287.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >10&lt;/a>
+        &lt;]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="4504" v="4523"><![CDATA[Leg.Hist. (1935) 2287.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >10&lt;/a>
+        &lt;p > See comparison of S. 2926 (73d Cong.) and S. ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="4524" v="4524">1958 (</match>
+      <post u="4525" v="4544"><![CDATA[74th Cong.), pp. 1, 22—23, reprinted in 1 Leg.Hist. (1935) 1320, 1347.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >11&lt;/a>
+        &lt;]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... original print of the 1935 Wagner bill (S.1958) was being considered in the Senate, the then  ... Senate Committee on Education and Labor on S.1958, 74th Cong., 1st Sess. 66—67, reprinted in  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.684.394.html/"
+  graph-id-high-water="30" vertex="31" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.684.394.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">60701</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2508" v="2527"><![CDATA[regarding the extensive dissemination of pornographic materials.&lt;a >1&lt;/a> See 597 Parliamentary Debates, H.C., No. 36 (Tuesday, December 16, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="2528" v="2528">1958), </match>
+      <post u="2529" v="2548">cols. 992 et seq., and 216 Parliamentary Debates H.L., No. 77 (Tuesday, June 2, 1959), cols. 489 et seq. Nor </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="5595" v="5614">New York Education Law, 16 N.Y.Laws Ann. § 122 (McKinney 1953), 16 N.Y. Laws Ann. § 122—a (McKinney Supp. </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="5615" v="5615">1958), </match>
+      <post u="5616" v="5635">here particularly involved are unconstitutional on their face, I believe that in their application to this film constitutional bounds were </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="7968" v="7987">and lucrative trade in pornography * * *.' Report of the Select Committee on Obscene Publications to the House of Commons, March 20, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="7988" v="7988">1958, </match>
+      <post u="7989" v="8008"><![CDATA[p. IV.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >2&lt;/a>
+        &lt;p > 'The objection has also been made that the principle as to ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Parliamentary Debates, H.C., No. 36 (Tuesday, December 16, 1958), cols. 992 et seq., and 216 Parliamentary Debates  ... 16 N.Y. Laws Ann. § 122—a (McKinney Supp. 1958), here particularly involved are unconstitutional on their face,  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.378.518.536.html/"
+  graph-id-high-water="31" vertex="32" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.378.518.536.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">35875</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="28"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="30">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5082" v="5101">day (14.73 p.s.i.a.), it is estimated that the weighted average cost of all gas to Tennessee in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5334"
+      />
+      <match u="5102" v="5102">1958 </match>
+      <post u="5103" v="5122">will be some 13.70 cents per M.c.f., as compared with 12.73 cents if the gas here proposed to </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="5128" v="5147">F.P.C. 563, 570. Thus is the .97-cent figure derived. It is, however, a misleading figure, for the estimate for </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5334"
+      />
+      <match u="5148" v="5148">1958 </match>
+      <post u="5149" v="5168">includes the 22.4-cent gas for only two months of 1958, November and December. There is no indication in the </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="5139" v="5158">is, however, a misleading figure, for the estimate for 1958 includes the 22.4-cent gas for only two months of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5334"
+      />
+      <match u="5159" v="5159">1958, </match>
+      <post u="5160" v="5179">November and December. There is no indication in the record as to what the cost increase would be if the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... average cost of all gas to Tennessee in 1958 will be some 13.70 cents per M.c. ... however, a misleading figure, for the estimate for 1958 includes the 22.4-cent gas for only two  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.709.504.html/"
+  graph-id-high-water="1" vertex="2" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.709.504.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">7097</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="305" v="324">restraining respondents from enforcing the decision denying clearance. Respondents prevailed on a motion for summary judgment and, on December 15, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="870"
+      />
+      <match u="325" v="325">1958, </match>
+      <post u="326" v="345">we granted certiorari to the Court of Appeals before argument was had in that court because of the pendency here </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="353" v="372"><![CDATA[918, 79 S.Ct. 291, 3 L.Ed.2d 238.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >3&lt;/span>
+      &lt;p >On December 31, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="870"
+      />
+      <match u="373" v="373">1958, </match>
+      <post u="374" v="393">the Department of Defense notified all interested parties, including petitioner, his counsel, and his ex-employer, that the Secretary of </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="575" v="594"><![CDATA[have any vitality or effect.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >7&lt;/span>
+      &lt;p >3. Petitioner was afforded clearance on December 31, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="870"
+      />
+      <match u="595" v="595">1958, </match>
+      <post u="596" v="615"><![CDATA[after having been denied clearanc for over two years, because of a change in applicable Department of Defense regulations.&lt;/p>
+    &lt;/]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... motion for summary judgment and, on December 15, 1958, we granted certiorari to the Court of Appeals  ... div >
+      &lt;span >3&lt;/span>
+      &lt;p >On December 31, 1958, the Department of Defense notified all interested parties,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.395.489.491.html/"
+  graph-id-high-water="9" vertex="10" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.395.489.491.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">35591</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="28"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="30">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="872" v="891">to exclude those minutes from the operation of the so-called Jencks Act, 71 Stat. 595, 18 U.S.C. (Supp. V, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5430"
+      />
+      <match u="892" v="892">1958) § </match>
+      <post u="893" v="912"><![CDATA[3500, 18 U.S.C.A. § 3500.&lt;a >3&lt;/a>&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >5&lt;/span>
+      &lt;p >Petitioners concede, as they must, that ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1022" v="1041"><![CDATA[instances of 'particularized need where the secrecy of the proceedings is lifted discretely and limitedly.' United States v. Procter &amp; Gamble, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5430"
+      />
+      <match u="1042" v="1042">1958, </match>
+      <post u="1043" v="1062"><![CDATA[356 U.S. 677, 683, 78 S.Ct. 983, 987, 2 L.Ed.2d 1077.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >6&lt;/span>
+      &lt;]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="4985" v="5004"><![CDATA[1940, 310 U.S. 150, 60 S.Ct. 811, 84 L.Ed. 1129. And see United States v. Procter &amp; Gamble Co., ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5430"
+      />
+      <match u="5005" v="5005">1958, </match>
+      <post u="5006" v="5025">356 U.S. 677, 78 S.Ct. 983, 2 L.Ed.2d 1077; United States v. Johnson, 1943, 319 U.S. 503, </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Act, 71 Stat. 595, 18 U.S.C. (Supp. V, 1958) § 3500, 18 U.S.C.A. § 3500.&lt;a >3&lt;/a>&lt;/p>
+    &lt;/ ... discretely and limitedly.' United States v. Procter &amp; Gamble, 1958, 356 U.S. 677, 683, 78 S.Ct. 983,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.109.35.html/"
+  graph-id-high-water="39" vertex="40" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.109.35.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">141619</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="64" v="83"><![CDATA[p >Lloyd BARENBLATT, Petitioner,&lt;br />v.&lt;br />UNITED STATES of America.&lt;/p>
+    &lt;p >No. 35.&lt;/p>
+    &lt;p >Argued Nov. 18, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="84" v="84"><![CDATA[1958.&lt;/]]></match>
+      <post u="85" v="104"><![CDATA[p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="16345" v="16364">Reference Service of the Library of Congress), Committee on Un-American Activities, House of Representatives, 85th Cong., 2d Sess., June </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="16365" v="16365"><![CDATA[1958.&lt;/]]></match>
+      <post u="16366" v="16385"><![CDATA[p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >28&lt;/a>
+        &lt;p > See, Subversive Activities Control Act of 1950, Title I of the Internal Security ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 35.&lt;/p>
+    &lt;p >Argued Nov. 18, 1958.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p > ... House of Representatives, 85th Cong., 2d Sess., June 1958.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >28&lt;/a>
+        &lt;p > See,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.167.127.html/"
+  graph-id-high-water="8" vertex="9" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.167.127.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">39598</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="504" v="523">Chapters 31, 32, 33, 35 and 36 of the Acts of the Virginia Assembly, passed in 1956. 4 Va.Code, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5885"
+      />
+      <match u="524" v="524">1958 </match>
+      <post u="525" v="544">Supp., §§ 18 349.9 to 18—349.37; 7 Va.Code, 1958, §§ 54—74, 54—78, 54—79. The complaint, alleging irreparable </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="514" v="533">of the Virginia Assembly, passed in 1956. 4 Va.Code, 1958 Supp., §§ 18 349.9 to 18—349.37; 7 Va.Code, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5885"
+      />
+      <match u="534" v="534">1958, §§ </match>
+      <post u="535" v="554">54—74, 54—78, 54—79. The complaint, alleging irreparable injury on account of these enactments, sought a declaration that </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Virginia Assembly, passed in 1956. 4 Va.Code, 1958 Supp., §§ 18 349.9 to 18—349.37; 7 Va.Code, 1958, §§ 54—74, 54—78, 54—79. The complaint,  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.474.180.html/"
+  graph-id-high-water="10" vertex="11" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.474.180.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">120277</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="14578" v="14597">May 4, 1953, note 13, supra; 'The Industrial Personnel Security Review Regulation,' 20 Fed.Reg. 1553, 32 CFR Part 67 (</pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17493"
+      />
+      <match u="14598" v="14598">1958 </match>
+      <post u="14599" v="14618"><![CDATA[Supp.); Industrial Security Manual for Safeguarding Classified Information, 20 Fed.Reg. 6213, 21 Fed.Reg. 2814.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="16286" v="16305">approximately three million persons having access to classified information are covered by the industrial security program. Brown, Loyalty and Security (</pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17493"
+      />
+      <match u="16306" v="16306">1958), </match>
+      <post u="16307" v="16326">179—180; Association of the Bar of the City of New York. Report of the Special Committee on the Federal </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... 20 Fed.Reg. 1553, 32 CFR Part 67 (1958 Supp.); Industrial Security Manual for Safeguarding Classified Information,  ... the industrial security program. Brown, Loyalty and Security (1958), 179—180; Association of the Bar of the  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.525.248.html/"
+  graph-id-high-water="5" vertex="6" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.525.248.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">53541</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="3187" v="3206"><![CDATA[censoring material broadcast under the provisions of §      315.'&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >22&lt;/span>
+      &lt;p >In a regulation issued in ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7642"
+      />
+      <match u="3207" v="3207">1958 </match>
+      <post u="3208" v="3227">the Commission answered the question 'If a legally qualified candidate broadcasts libelous or slanderous remarks, is the station liable therefor?' </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6672" v="6691">s Port Huron decision. 7 Pike and Fischer Radio Reg. 769. See also 24 F.C.C.Ann.Rep. 123 (</pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7642"
+      />
+      <match u="6692" v="6692">1958); </match>
+      <post u="6693" v="6712">Lamb v. Sutton, supra, note 3, 164 F.Supp. at pages 932—933; Daniell v. Voice of New Hampshire, Inc., </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 22&lt;/span>
+      &lt;p >In a regulation issued in 1958 the Commission answered the question 'If a legally  ... also 24 F.C.C.Ann.Rep. 123 (1958); Lamb v. Sutton, supra, note 3, 164 F. ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.328.573.html/"
+  graph-id-high-water="38" vertex="39" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.328.573.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">12906</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1799" v="1818">U.S.C.A. § 2663(a), or its subsequent repeal, retroactive to the time of re-enactment, by the Act of September 2, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1842"
+      />
+      <match u="1819" v="1819">1958. </match>
+      <post u="1820" v="1839"><![CDATA[72 Stat. 1565, 1568.&lt;/p>
+      &lt;/div>
+    &lt;/div>
+    &lt;div >
+      &lt;p >&lt;a >CC∅&lt;/a> | Transformed by &lt;a >Public.Resource.Org&lt;/a>&lt;/p>
+    &lt;/]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... re-enactment, by the Act of September 2, 1958. 72 Stat. 1565, 1568.&lt;/p>
+      &lt;/div>
+    &lt;/div>
+    &lt;div >
+      &lt; ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.601.414.html/"
+  graph-id-high-water="18" vertex="19" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.601.414.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">48869</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6145" v="6164"><![CDATA[upon which the decision was reached.'&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >5&lt;/a>
+        &lt;p > In an interpretation announced on November 26, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="6165" v="6165">1958, </match>
+      <post u="6166" v="6185">sought by the railroad under § 3 First (m) of the Railway Labor Act, the Board declared that its award reflected </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... p > In an interpretation announced on November 26, 1958, sought by the railroad under § 3 First (m)  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.55.406.447.html/"
+  graph-id-high-water="13" vertex="14" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.55.406.447.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">41314</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432913"
+    u="28"
+  >Jun 25,
+  2008 22:28:33 GMT</content>
+  <content name="language" weight="0" action="none" u="30">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5209" v="5228"><![CDATA[8127, 8132, 8135, 8137, 8226.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >13&lt;/a>
+        &lt;p > Compare Northern Pacific R. Co. v. United States, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="5229" v="5229">1958, </match>
+      <post u="5230" v="5249">356 U.S. 1, 78 S.Ct. 514, 2 L.Ed.2d 545; United States v. Socony-Vacuum Oil Co., 1940, </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Compare Northern Pacific R. Co. v. United States, 1958, 356 U.S. 1, 78 S.Ct. 514, 2  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.367.451.html/"
+  graph-id-high-water="24" vertex="25" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.367.451.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">24158</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432913"
+    u="27"
+  >Jun 25,
+  2008 22:28:33 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2209" v="2228">examination, though I have here my statement with which to refresh my memory. It will be 3 years in January </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3380"
+      />
+      <match u="2229" v="2229">1958 </match>
+      <post u="2230" v="2249">since the above swindle took place; therefore, I could not be accurate as to day to day occurrences after such </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... memory. It will be 3 years in January 1958 since the above swindle took place; therefore, I  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.273.439.html/"
+  graph-id-high-water="2" vertex="3" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.273.439.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">32129</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="242" v="261">L.Ed.2d 301, on the question whether, in the light of Byrd v. Blue Ridge Rural Electric Cooperative, Inc., </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4872"
+      />
+      <match u="262" v="262">1958, </match>
+      <post u="263" v="282">356 U.S. 525, 78 S.Ct. 893, 2 L.Ed.2d 953 (decided after this case was argued in the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Byrd v. Blue Ridge Rural Electric Cooperative, Inc., 1958, 356 U.S. 525, 78 S.Ct. 893, 2  ... </content>
+</document>
+<retrieval-performance n-tau="153" n-rho="34" n-uat="0" n-ohr="0"
+  occr-reads="86565" block-reads="151" seeks="0" cache-hits="151" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="34" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="351" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="34" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="351" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-tau="34" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="351" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="79928" block-reads="151" seeks="0" cache-hits="151" cache-misses="0"
+  >
+    <query-performance what="3:" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="79928" block-reads="151" seeks="0" cache-hits="151" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="85" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="3574" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="85" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="3574" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="85" n-rho="85" n-uat="0"
+        n-ohr="0" occr-reads="3574" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-tau="85" n-rho="136" n-uat="0" n-ohr="0"
+          occr-reads="2473" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+        />
+        <query-performance what="or" n-tau="68" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="1101" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+        >
+          <query-performance what="0:url" n-tau="34" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="367" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:host" n-tau="34" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="367" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-tau="0" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-tau="34" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="367" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="17" n-rho="17" n-uat="0" n-ohr="0"
+    occr-reads="351" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="17" n-rho="17" n-uat="0"
+      n-ohr="0" occr-reads="351" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-tau="17" n-rho="17" n-uat="0"
+        n-ohr="0" occr-reads="351" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="17" n-rho="17" n-uat="0"
+    n-ohr="0" occr-reads="2361" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="17" n-rho="17" n-uat="0"
+      n-ohr="0" occr-reads="2361" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    >
+      <query-performance what="0:" n-tau="17" n-rho="17" n-uat="0" n-ohr="0"
+        occr-reads="2361" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="42" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="43" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+>
+  <query-performance what="1:1958" n-tau="42" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="43" block-reads="1" seeks="1" cache-hits="1" cache-misses="0"
+  />
+  <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+  />
+</query-performance>
+</scope>

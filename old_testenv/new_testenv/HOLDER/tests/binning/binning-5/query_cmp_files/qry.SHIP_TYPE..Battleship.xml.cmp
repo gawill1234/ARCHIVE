@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="62" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="14" />
+<attribute name="cache-hits-content-search" value="2" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="1" />
+<attribute name="cache-hits-content-retrieval" value="21" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="81" />
+<attribute name="cache-misses-text" value="113" />
+<attribute name="total-results-with-duplicates" value="62" />
+<document url="http://en.wikipedia.org/wiki/Andrea_Doria"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#20"
+  status="complete" conversion-time="618" position="20" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="20" u="0"
+  />
+  <content name="title" type="text" u="5">Andrea Doria</content>
+  <content name="NATION" type="text" u="10">Italy</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="14" v="15" />
+      <pre u="15" v="14"></pre>
+      <match u="15" v="15">Battleship</match>
+      <post u="16" v="15"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Anson_%2879%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#21"
+  status="complete" conversion-time="618" position="21" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="21" u="0"
+  />
+  <content name="title" type="text" u="5">Anson</content>
+  <content name="NATION" type="text" u="9">UK</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/USS_Arizona_%28BB-39%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#31"
+  status="complete" conversion-time="618" position="31" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="31" u="0"
+  />
+  <content name="title" type="text" u="5">Arizona</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://www.history.navy.mil/photos/sh-usn/usnsh-a/bb39.htm"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#32"
+  status="complete" conversion-time="618" position="32" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="32" u="0"
+  />
+  <content name="title" type="text" u="5">Arizona</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://www.nps.gov/usar/"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#33"
+  status="complete" conversion-time="618" position="33" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="33" u="0"
+  />
+  <content name="title" type="text" u="5">Arizona</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/USS_Arkansas_%28BB-33%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#35"
+  status="complete" conversion-time="618" position="35" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="35" u="0"
+  />
+  <content name="title" type="text" u="5">Arkansas</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Barham_%281914%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#51"
+  status="complete" conversion-time="618" position="51" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="51" u="0"
+  />
+  <content name="title" type="text" u="5">Barham</content>
+  <content name="NATION" type="text" u="9">UK</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_battleship_Bismarck"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#60"
+  status="complete" conversion-time="618" position="60" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="60" u="0"
+  />
+  <content name="title" type="text" u="5">Bismarck</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://www.battleshipbismarck.com/"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#61"
+  status="complete" conversion-time="618" position="61" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="61" u="0"
+  />
+  <content name="title" type="text" u="5">Bismarck</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document
+  url="http://en.wikipedia.org/w/index.php?title=French_battleship_Bretagne&amp;amp;action=edit"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#71"
+  status="complete" conversion-time="618" position="71" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="71" u="0"
+  />
+  <content name="title" type="text" u="5">Bretagne</content>
+  <content name="NATION" type="text" u="9">France</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/USS_California_%28BB-44%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#78"
+  status="complete" conversion-time="618" position="78" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="78" u="0"
+  />
+  <content name="title" type="text" u="5">California</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Italian_battleship_Conte_di_Cavour"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#95"
+  status="complete" conversion-time="618" position="95" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="95" u="0"
+  />
+  <content name="title" type="text" u="5">Conte di Cavour</content>
+  <content name="NATION" type="text" u="11">Italy</content>
+  <content name="ALIGNED" type="text" u="13">axis</content>
+  <content name="SHIP_TYPE" type="text" u="15">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="15" v="16" />
+      <pre u="16" v="15"></pre>
+      <match u="16" v="16">Battleship</match>
+      <post u="17" v="16"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Duke_of_York_%2817%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#104"
+  status="complete" conversion-time="618" position="104" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="104" u="0"
+  />
+  <content name="title" type="text" u="5">Duke of York</content>
+  <content name="NATION" type="text" u="11">UK</content>
+  <content name="ALIGNED" type="text" u="13">allied</content>
+  <content name="SHIP_TYPE" type="text" u="15">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="15" v="16" />
+      <pre u="16" v="15"></pre>
+      <match u="16" v="16">Battleship</match>
+      <post u="17" v="16"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Japanese_battleship_Fuso"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#133"
+  status="complete" conversion-time="618" position="133" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="133" u="0"
+  />
+  <content name="title" type="text" u="5">Fuso</content>
+  <content name="NATION" type="text" u="9">Japan</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Italian_battleship_Giulio_Cesare"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#136"
+  status="complete" conversion-time="618" position="136" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="136" u="0"
+  />
+  <content name="title" type="text" u="5">Giulio Cesare</content>
+  <content name="NATION" type="text" u="10">Italy</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="14" v="15" />
+      <pre u="15" v="14"></pre>
+      <match u="15" v="15">Battleship</match>
+      <post u="16" v="15"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Japanese_battleship_Hiei"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#155"
+  status="complete" conversion-time="618" position="155" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="155" u="0"
+  />
+  <content name="title" type="text" u="5">Hiei</content>
+  <content name="NATION" type="text" u="9">Japan</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Howe_%281940%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#162"
+  status="complete" conversion-time="618" position="162" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="162" u="0"
+  />
+  <content name="title" type="text" u="5">Howe</content>
+  <content name="NATION" type="text" u="9">UK</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Japanese_battleship_Hyuga"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#164"
+  status="complete" conversion-time="618" position="164" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="164" u="0"
+  />
+  <content name="title" type="text" u="5">Hyuga</content>
+  <content name="NATION" type="text" u="9">Japan</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/USS_Iowa_%28BB-61%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#170"
+  status="complete" conversion-time="618" position="170" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="170" u="0"
+  />
+  <content name="title" type="text" u="5">Iowa</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Japanese_battleship_Ise"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#172"
+  status="complete" conversion-time="618" position="172" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="172" u="0"
+  />
+  <content name="title" type="text" u="5">Ise</content>
+  <content name="NATION" type="text" u="9">Japan</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_King_George_V_%2841%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#187"
+  status="complete" conversion-time="618" position="187" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="187" u="0"
+  />
+  <content name="title" type="text" u="5">King George V</content>
+  <content name="NATION" type="text" u="11">UK</content>
+  <content name="ALIGNED" type="text" u="13">allied</content>
+  <content name="SHIP_TYPE" type="text" u="15">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="15" v="16" />
+      <pre u="16" v="15"></pre>
+      <match u="16" v="16">Battleship</match>
+      <post u="17" v="16"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Japanese_battleship_Kirishima"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#188"
+  status="complete" conversion-time="618" position="188" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="188" u="0"
+  />
+  <content name="title" type="text" u="5">Kirishima</content>
+  <content name="NATION" type="text" u="9">Japan</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Japanese_battleship_Kongo"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#190"
+  status="complete" conversion-time="618" position="190" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="190" u="0"
+  />
+  <content name="title" type="text" u="5">Kongo</content>
+  <content name="NATION" type="text" u="9">Japan</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Italian_battleship_Littorio"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#201"
+  status="complete" conversion-time="618" position="201" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="201" u="0"
+  />
+  <content name="title" type="text" u="5">Littorio</content>
+  <content name="NATION" type="text" u="9">Italy</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/French_battleship_Lorraine"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#204"
+  status="complete" conversion-time="618" position="204" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="204" u="0"
+  />
+  <content name="title" type="text" u="5">Lorraine</content>
+  <content name="NATION" type="text" u="9">France</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Malaya_%281915%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#207"
+  status="complete" conversion-time="618" position="207" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="207" u="0"
+  />
+  <content name="title" type="text" u="5">Malaya</content>
+  <content name="NATION" type="text" u="9">UK</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/USS_Maryland_%28BB-46%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#212"
+  status="complete" conversion-time="618" position="212" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="212" u="0"
+  />
+  <content name="title" type="text" u="5">Maryland</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/USS_Massachusetts_%28BB-59%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#214"
+  status="complete" conversion-time="618" position="214" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="214" u="0"
+  />
+  <content name="title" type="text" u="5">Massachusetts</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/USS_Missouri_%28BB-63%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#221"
+  status="complete" conversion-time="618" position="221" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="221" u="0"
+  />
+  <content name="title" type="text" u="5">Missouri</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://www.ussmissouri.com/"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#222"
+  status="complete" conversion-time="618" position="222" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="222" u="0"
+  />
+  <content name="title" type="text" u="5">Missouri</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Japanese_battleship_Musashi"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#229"
+  status="complete" conversion-time="618" position="229" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="229" u="0"
+  />
+  <content name="title" type="text" u="5">Musashi</content>
+  <content name="NATION" type="text" u="9">Japan</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Japanese_battleship_Mutsu"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#230"
+  status="complete" conversion-time="618" position="230" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="230" u="0"
+  />
+  <content name="title" type="text" u="5">Mutsu</content>
+  <content name="NATION" type="text" u="9">Japan</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Japanese_battleship_Nagato"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#235"
+  status="complete" conversion-time="618" position="235" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="235" u="0"
+  />
+  <content name="title" type="text" u="5">Nagato</content>
+  <content name="NATION" type="text" u="9">Japan</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Nelson_%281925%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#237"
+  status="complete" conversion-time="618" position="237" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="237" u="0"
+  />
+  <content name="title" type="text" u="5">Nelson</content>
+  <content name="NATION" type="text" u="9">UK</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Nevada"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#239"
+  status="complete" conversion-time="618" position="239" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="239" u="0"
+  />
+  <content name="title" type="text" u="5">Nevada</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/New_Mexico"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#240"
+  status="complete" conversion-time="618" position="240" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="240" u="0"
+  />
+  <content name="title" type="text" u="5">New Mexico</content>
+  <content name="NATION" type="text" u="10">USA</content>
+  <content name="ALIGNED" type="text" u="12">allied</content>
+  <content name="SHIP_TYPE" type="text" u="14">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="14" v="15" />
+      <pre u="15" v="14"></pre>
+      <match u="15" v="15">Battleship</match>
+      <post u="16" v="15"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/USS_New_York_%28BB-34%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#241"
+  status="complete" conversion-time="618" position="241" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="241" u="0"
+  />
+  <content name="title" type="text" u="5">New York</content>
+  <content name="NATION" type="text" u="10">USA</content>
+  <content name="ALIGNED" type="text" u="12">allied</content>
+  <content name="SHIP_TYPE" type="text" u="14">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="14" v="15" />
+      <pre u="15" v="14"></pre>
+      <match u="15" v="15">Battleship</match>
+      <post u="16" v="15"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/North_Carolina"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#248"
+  status="complete" conversion-time="618" position="248" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="248" u="0"
+  />
+  <content name="title" type="text" u="5">North Carolina</content>
+  <content name="NATION" type="text" u="10">USA</content>
+  <content name="ALIGNED" type="text" u="12">allied</content>
+  <content name="SHIP_TYPE" type="text" u="14">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="14" v="15" />
+      <pre u="15" v="14"></pre>
+      <match u="15" v="15">Battleship</match>
+      <post u="16" v="15"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/USS_Oklahoma_%28BB-37%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#252"
+  status="complete" conversion-time="618" position="252" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="252" u="0"
+  />
+  <content name="title" type="text" u="5">Oklahoma</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/USS_Pennsylvania_%28BB-38%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#257"
+  status="complete" conversion-time="618" position="257" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="257" u="0"
+  />
+  <content name="title" type="text" u="5">Pennsylvania</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Poltava"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#262"
+  status="complete" conversion-time="618" position="262" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="262" u="0"
+  />
+  <content name="title" type="text" u="5">Poltava</content>
+  <content name="NATION" type="text" u="9">USSR</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Prince_of_Wales_%281939%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#265"
+  status="complete" conversion-time="618" position="265" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="265" u="0"
+  />
+  <content name="title" type="text" u="5">Prince of Wales</content>
+  <content name="NATION" type="text" u="11">UK</content>
+  <content name="ALIGNED" type="text" u="13">allied</content>
+  <content name="SHIP_TYPE" type="text" u="15">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="15" v="16" />
+      <pre u="16" v="15"></pre>
+      <match u="16" v="16">Battleship</match>
+      <post u="17" v="16"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Queen_Elizabeth_%281913%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#271"
+  status="complete" conversion-time="618" position="271" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="271" u="0"
+  />
+  <content name="title" type="text" u="5">Queen Elizabeth</content>
+  <content name="NATION" type="text" u="10">UK</content>
+  <content name="ALIGNED" type="text" u="12">allied</content>
+  <content name="SHIP_TYPE" type="text" u="14">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="14" v="15" />
+      <pre u="15" v="14"></pre>
+      <match u="15" v="15">Battleship</match>
+      <post u="16" v="15"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Resolution_%281915%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#278"
+  status="complete" conversion-time="618" position="278" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="278" u="0"
+  />
+  <content name="title" type="text" u="5">Resolution</content>
+  <content name="NATION" type="text" u="9">UK</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Revenge_%2806%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#279"
+  status="complete" conversion-time="618" position="279" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="279" u="0"
+  />
+  <content name="title" type="text" u="5">Revenge</content>
+  <content name="NATION" type="text" u="9">UK</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document
+  url="http://en.wikipedia.org/wiki/French_battleship_Richelieu_%281939%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#280"
+  status="complete" conversion-time="618" position="280" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="280" u="0"
+  />
+  <content name="title" type="text" u="5">Richelieu</content>
+  <content name="NATION" type="text" u="9">France</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Rodney_%281925%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#283"
+  status="complete" conversion-time="618" position="283" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="283" u="0"
+  />
+  <content name="title" type="text" u="5">Rodney</content>
+  <content name="NATION" type="text" u="9">UK</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Italian_battleship_Roma_%281940%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#284"
+  status="complete" conversion-time="618" position="284" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="284" u="0"
+  />
+  <content name="title" type="text" u="5">Roma</content>
+  <content name="NATION" type="text" u="9">Italy</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Royal_Oak_%2808%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#285"
+  status="complete" conversion-time="618" position="285" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="285" u="0"
+  />
+  <content name="title" type="text" u="5">Royal Oak</content>
+  <content name="NATION" type="text" u="10">UK</content>
+  <content name="ALIGNED" type="text" u="12">allied</content>
+  <content name="SHIP_TYPE" type="text" u="14">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="14" v="15" />
+      <pre u="15" v="14"></pre>
+      <match u="15" v="15">Battleship</match>
+      <post u="16" v="15"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Royal_Sovereign_%2805%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#286"
+  status="complete" conversion-time="618" position="286" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="286" u="0"
+  />
+  <content name="title" type="text" u="5">Royal Sovereign</content>
+  <content name="NATION" type="text" u="10">UK</content>
+  <content name="ALIGNED" type="text" u="12">allied</content>
+  <content name="SHIP_TYPE" type="text" u="14">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="14" v="15" />
+      <pre u="15" v="14"></pre>
+      <match u="15" v="15">Battleship</match>
+      <post u="16" v="15"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_battlecruiser_Scharnhorst"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#294"
+  status="complete" conversion-time="618" position="294" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="294" u="0"
+  />
+  <content name="title" type="text" u="5">Scharnhorst</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/USS_South_Dakota_%28BB-57%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#307"
+  status="complete" conversion-time="618" position="307" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="307" u="0"
+  />
+  <content name="title" type="text" u="5">South Dakota</content>
+  <content name="NATION" type="text" u="10">USA</content>
+  <content name="ALIGNED" type="text" u="12">allied</content>
+  <content name="SHIP_TYPE" type="text" u="14">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="14" v="15" />
+      <pre u="15" v="14"></pre>
+      <match u="15" v="15">Battleship</match>
+      <post u="16" v="15"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/USS_Texas_%28BB-35%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#317"
+  status="complete" conversion-time="618" position="317" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="317" u="0"
+  />
+  <content name="title" type="text" u="5">Texas</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Tirpitz"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#320"
+  status="complete" conversion-time="618" position="320" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="320" u="0"
+  />
+  <content name="title" type="text" u="5">Tirpitz</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Valiant_%281914%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#332"
+  status="complete" conversion-time="618" position="332" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="332" u="0"
+  />
+  <content name="title" type="text" u="5">Valiant</content>
+  <content name="NATION" type="text" u="9">UK</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Italian_battleship_Vittorio_Veneto"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#340"
+  status="complete" conversion-time="618" position="340" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="340" u="0"
+  />
+  <content name="title" type="text" u="5">Vittorio Veneto</content>
+  <content name="NATION" type="text" u="10">Italy</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="14" v="15" />
+      <pre u="15" v="14"></pre>
+      <match u="15" v="15">Battleship</match>
+      <post u="16" v="15"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/HMS_Warspite_%281913%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#344"
+  status="complete" conversion-time="618" position="344" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="344" u="0"
+  />
+  <content name="title" type="text" u="5">Warspite</content>
+  <content name="NATION" type="text" u="9">UK</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/West_Virginia"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#346"
+  status="complete" conversion-time="618" position="346" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="346" u="0"
+  />
+  <content name="title" type="text" u="5">West Virginia</content>
+  <content name="NATION" type="text" u="10">USA</content>
+  <content name="ALIGNED" type="text" u="12">allied</content>
+  <content name="SHIP_TYPE" type="text" u="14">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="14" v="15" />
+      <pre u="15" v="14"></pre>
+      <match u="15" v="15">Battleship</match>
+      <post u="16" v="15"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/USS_Wisconsin_%28BB-64%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#349"
+  status="complete" conversion-time="618" position="349" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="349" u="0"
+  />
+  <content name="title" type="text" u="5">Wisconsin</content>
+  <content name="NATION" type="text" u="9">USA</content>
+  <content name="ALIGNED" type="text" u="11">allied</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Japanese_battleship_Yamashiro"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#351"
+  status="complete" conversion-time="618" position="351" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="351" u="0"
+  />
+  <content name="title" type="text" u="5">Yamashiro</content>
+  <content name="NATION" type="text" u="9">Japan</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Japanese_battleship_Yamato"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#352"
+  status="complete" conversion-time="618" position="352" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="352" u="0"
+  />
+  <content name="title" type="text" u="5">Yamato</content>
+  <content name="NATION" type="text" u="9">Japan</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<document
+  url="http://www.history.navy.mil/photos/sh-fornv/japan/japsh-xz/yamato.htm"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#353"
+  status="complete" conversion-time="618" position="353" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="353" u="0"
+  />
+  <content name="title" type="text" u="5">Yamato</content>
+  <content name="NATION" type="text" u="9">Japan</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="SHIP_TYPE" type="text" u="13" v="14" />
+      <pre u="14" v="13"></pre>
+      <match u="14" v="14">Battleship</match>
+      <post u="15" v="14"></post>
+    </solution>
+  </content>
+</document>
+<binning id="binning-2" mode="normal">
+  <binning-set bs-id="shit" select="$SHIP_TYPE" label="myshit" elt-id="2206"
+    other-ndocs="0" n-output-bins="1" n-total-bins="1" ndocs-not-output="0"
+  >
+    <bin label="Battleship" ndocs="62" token="shit==Battleship" cndocs="62">
+      <binning-set bs-id="nations" select="$NATION" label="mynations"
+        elt-id="2205" other-ndocs="0" n-output-bins="7" n-total-bins="7"
+        ndocs-not-output="0"
+      >
+        <bin label="USA" ndocs="20" token="nations==USA" cndocs="20" />
+        <bin label="UK" ndocs="16" token="nations==UK" cndocs="36" />
+        <bin label="Japan" ndocs="12" token="nations==Japan" cndocs="48" />
+        <bin label="Italy" ndocs="6" token="nations==Italy" cndocs="54" />
+        <bin label="Germany" ndocs="4" token="nations==Germany" cndocs="58" />
+        <bin label="France" ndocs="3" token="nations==France" cndocs="61" />
+        <bin label="USSR" ndocs="1" token="nations==USSR" cndocs="62" />
+      </binning-set>
+    </bin>
+  </binning-set>
+  <binning-state />
+</binning>
+</scope>

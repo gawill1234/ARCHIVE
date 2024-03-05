@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testset>
+    <test>
+        <data>A rebel statement sent to Lisbon from Jamba said 86 government soldiers and 13 guerrillas were killed in the fighting that ended Jan. 3. It said the rebel forces sill held Mavinga.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>Authorities last week issued a vacate order for a club in Manhattan and closed another in the Bronx.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>At the first Pan Am bankruptcy hearing, for example, at least five airlines were represented.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>Mr. Neigum, poker-faced during the difficult task, manages a 46-second showing.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>This, combined with the container division talks, suggests the group's bankers might be considering an orderly disposal of all assets.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>She told the Post in an interview published Sunday that some of the money may have become "mingled" into improvements on her home that included a swimming pool, a $2,500 wide-screen television and renovations to her basement.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>According to a study by the Marshall Institute, the average NASA employee's age in 1963 was 30; now most of its senior and middle-managers will be eligible to retire in five years.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>Preston Tisch, 62, is president and co-chief executive officer of Loews Corp. and is a former postmaster general.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>"We're dealing with an owner who couldn't give a rip. They cut off her mail and she got a post office box." Starting Friday, an animal-control officer is accompanying Finster on his route.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>Asked if he might bring the world leaders to Texas, possibly to San Antonio, the president remarked, "That's a distinct possibility.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>He said Muscovites, who gave him 89 percent of the vote in a two-way race in March, would be "partially satisfied." On the march to Pushkin Square, a city bus stopped, and dozens of passengers got off to join in.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>Changes to the VAT rules mean a Pounds 900m tax payment in the second half.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>"He came up to me and said, `You tell Mickey Roache,' our police commissioner, `he's doing a wonderful job in that Stuart case and we're with him all the way,"' Flynn said.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>The government tried to forestall any criticism from African countries that have accused it of being too cooperative with South Africa.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>But the official left open the possibility of such trials for Saddam Hussein, his clique and other officers accused of committing atrocities in Kuwait.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>"My husband says he's not sure he'll be employed next month." Some retailers insist all the promotional sales, savings coupons and other marketing efforts are drawing customers.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>We look forward to providing a unique and exciting shopping experience to the region." Macy's operates 149 department stores in the United States under the names Macy's, Bullock's and I. Magnin.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>But other major banks left their rates unchanged, and after Black Monday those three banks quickly lowered their rates back to 9 1/2%.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>So he joined Hyatt's frequent-guest program; so far, he has cashed in on discounted and upgraded rooms.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>De Klerk said Wednesday's balloting ratified his reforms.</data>
+        <expected>english</expected>
+    </test>
+</testset>

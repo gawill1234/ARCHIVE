@@ -1,0 +1,12 @@
+<vce>
+  <document url="http://vivisimo.com?nq_nc_4">
+    <content name="no-query-4" action="indexed-only" indexed="false">
+        spanish I have four dogs
+        espanol Tengo cuatro perros
+    </content>
+    <content name="no-cluster-4" action="indexed-only" indexed="false">
+        french this is number four
+        francais cest le numero quatre
+    </content>
+  </document>
+</vce>

@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="/home/gaw/tryjunk/vivToUpper.xsl"?>
+<testset>
+   <test>
+      <data>
+      abcdefghijklmnopqrstuvwxyz
+      </data>
+      <expected>
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      </expected>
+   </test>
+   <test>
+      <data>
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      </data>
+      <expected>
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      </expected>
+   </test>
+   <test>
+      <data>
+      !@# $%^&amp;*()_+=-[]{};':",.&lt;>/?\|
+      </data>
+      <expected>
+      !@# $%^&amp;*()_+=-[]{};':",.&lt;>/?\|
+      </expected>
+   </test>
+   <test>
+      <data>
+      1234567890
+      </data>
+      <expected>
+      1234567890
+      </expected>
+   </test>
+   <test>
+      <data>
+      abcd1234
+      </data>
+      <expected>
+      ABCD1234
+      </expected>
+   </test>
+   <test>
+      <data>
+      AbCd 1234
+      </data>
+      <expected>
+      ABCD 1234
+      </expected>
+   </test>
+   <test>
+      <data>
+      aAaA;bBbB
+      </data>
+      <expected>
+      AAAA;BBBB
+      </expected>
+   </test>
+   <test>
+      <data>
+      ;haliBUT-
+      </data>
+      <expected>
+      ;HALIBUT-
+      </expected>
+   </test>
+   <test>
+      <data>
+      November 21, 1994
+      </data>
+      <expected>
+      NOVEMBER 21, 1994
+      </expected>
+   </test>
+   <test>
+      <data>
+      11/21/1994
+      </data>
+      <expected>
+      11/21/1994
+      </expected>
+   </test>
+   <test>
+      <data>
+      21-Nov-1994
+      </data>
+      <expected>
+      21-NOV-1994
+      </expected>
+   </test>
+   <test>
+      <data>
+      '    '
+      </data>
+      <expected>
+      '    '
+      </expected>
+   </test>
+</testset>

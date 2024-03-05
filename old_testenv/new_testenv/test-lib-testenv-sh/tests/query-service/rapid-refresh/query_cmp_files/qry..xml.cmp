@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="query-xml-supported">query-xml-supported</attribute>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="14" />
+<attribute name="admin-url"
+  value="http://testbed14.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="17" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="total-results-with-duplicates" value="14" />
+<document filetypes="html "
+  vse-key="http://testbed4.test.vivisimo.com:80/pages/utf8.html/"
+  ip="172.16.10.90" vertex="9" ct="text/html"
+  url="http://testbed4.test.vivisimo.com/pages/utf8.html" vse-base-score="1"
+  la-score="2.70805"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="23">UTF-8 Sampler</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[   <h1> UTF-8 SAMPLER </h1>  ]]>&#160;<![CDATA[]]>&#160;<![CDATA[¥]]>&#160;<![CDATA[·]]>&#160;<![CDATA[£]]>&#160;<![CDATA[·]]>&#160;<![CDATA[€]]>&#160;<![CDATA[·]]>&#160;<![CDATA[$]]>&#160;<![CDATA[·]]>&#160;<![CDATA[¢]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₡]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₢]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₣]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₤]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₥]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₦]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₧]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₨]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₩]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₪]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₫]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₭]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₮]]>&#160;<![CDATA[·]]>&#160;<![CDATA[₯  <p/> 
+Frank da Cruz<br/><a>The Kermit Project - Columbia University</a><br/>
+New York City<br/><a>fdc@columbia.edu</a><p> Last update: 
+Mon Feb 12 09:10:45 2007
+</p> <p/><hr/>
+[]]>&#160;<![CDATA[<a>PEACE</a>]]>&#160;<![CDATA[]
+[]]>&#160;<![CDATA[<a>Poetry</a>]]>&#160;<![CDATA[]
+[]]>&#160;<![CDATA[<a>I Can  ... ]]></content>
+</document>
+<document filetypes="html "
+  vse-key="http://testbed4.test.vivisimo.com:80/pages/PEACE.html/"
+  ip="172.16.10.90" vertex="11" ct="text/html"
+  url="http://testbed4.test.vivisimo.com/pages/PEACE.html" vse-base-score="1"
+  la-score="2.0149"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="23">Say PEACE in all languages!</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[   <h1><a>Stop War!</a></h1><p>  <br/>  An image of pain and brutality depicts the fascist bombing of the
+town Guernica in Spain: Pablo Picasso, 1937.  </p><p>
+
+[ <a>Flag</a> ]
+[ <a>Table</a> ]
+[ <a>Credits</a> ]
+[ <a>Disclaimer</a> ]
+[ <a>Links</a> ]
+</p><hr/><p>  <b>
+
+ ... ]]></content>
+</document>
+<document filetypes="html "
+  vse-key="http://testbed4.test.vivisimo.com:80/pages/utf8_files/utf8-t1.html/"
+  ct="text/html" ip="172.16.10.90" vertex="12"
+  url="http://testbed4.test.vivisimo.com/pages/utf8_files/utf8-t1.html"
+  vse-base-score="1" la-score="2.0149"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="26">Unicode 4.0 / ISO 10646 Plane 0</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[   <h1> Unicode 4.0 / ISO 10646 Plane 0 </h1>
+
+
+This page contains a table of the Unicode Base Multilingual Plane (BMP, Plane
+0), characters U+0020 through U+2B0D, U+3040-312F,  ... ]]></content>
+</document>
+<document filetypes="xml "
+  vse-key="http://testbed4.test.vivisimo.com:80/docs/Current_Resume_files/filelist.xml/"
+  ct="text/xml" ip="172.16.10.90" vertex="13"
+  url="http://testbed4.test.vivisimo.com/docs/Current_Resume_files/filelist.xml"
+  vse-base-score="1" la-score="1.32176"
+>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[&lt;xml >&lt;o:MainFile />&lt;o:File />&lt;o:File />&lt;/xml>]]></content>
+</document>
+<document filetypes="html "
+  vse-key="http://testbed4.test.vivisimo.com:80/pages/would_again.htm/"
+  ct="text/html" ip="172.16.10.90" vertex="6"
+  url="http://testbed4.test.vivisimo.com/pages/would_again.htm" vse-base-score="1"
+  la-score="1.09861"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="24">Companies That Will Never See My</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[   <div><div><b> <a>Lehman Volvo</a> </b> <p>A car dealership out near Mechanicsburg, PA.]]>&#160;<![CDATA[ Bought a 1999 
+			V70XC from them.]]>&#160;<![CDATA[ It was new (yes this was awhile ago).]]>&#160;<![CDATA[ 
+			They gave me every discount  ... ]]></content>
+</document>
+<document filetypes="html "
+  vse-key="http://testbed4.test.vivisimo.com:80/pages/like_products.htm/"
+  ct="text/html" ip="172.16.10.90" vertex="7"
+  url="http://testbed4.test.vivisimo.com/pages/like_products.htm"
+  vse-base-score="1" la-score="1.09861"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="24">Companies That Will Never See My</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[   <div><div><b> <a>Volvo Cars</a> </b> <p> I have had 4 Volvos now.]]>&#160;<![CDATA[ A 1999 V70XC, a 1995 GLT Sedan, 
+			a 1995 GLT wagon, and a 1998 S70 GLT.]]>&#160;<![CDATA[ I sold the '98 to my 
+			daughter.]]>&#160;<![CDATA[ The '95 sedan was  ... ]]></content>
+</document>
+<document filetypes="html "
+  vse-key="http://testbed4.test.vivisimo.com:80/pages/never_again.htm/"
+  ct="text/html" ip="172.16.10.90" vertex="5"
+  url="http://testbed4.test.vivisimo.com/pages/never_again.htm" vse-base-score="1"
+  la-score="1.09861"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="24">Companies That Will Never See My</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[   <div><div><b> Greenwood Hummer </b> <p>A car dealership in Ohio.]]>&#160;<![CDATA[ I purchased a 2003 Honda Civic Si 
+			from them.]]>&#160;<![CDATA[ It looked great.]]>&#160;<![CDATA[ Ran good too and low miles.]]>&#160;<![CDATA[ 
+			I got what should have  ... ]]></content>
+</document>
+<document filetypes="html "
+  vse-key="http://testbed4.test.vivisimo.com:80/pages/hate_products.htm/"
+  ct="text/html" ip="172.16.10.90" vertex="8"
+  url="http://testbed4.test.vivisimo.com/pages/hate_products.htm"
+  vse-base-score="1" la-score="1.09861"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="24">Companies That Will Never See My</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[   <div><p>]]>&#160;<![CDATA[</p><p><b> <font>
+	Products I Have Used and Disliked</font> </b></p><p><b> <font>I do not dignify these 
+	products with a link.</font> </b></p><p>
+	]]>&#160;<![CDATA[</p></div><div> <b>Sony Digital Cameras</b>  <p>It wasn't that it was bad.]]>&#160;<![CDATA[ It was just a bad match for me.]]>&#160;<![CDATA[ 
+		 ... ]]></content>
+</document>
+<document filetypes="html "
+  vse-key="http://testbed4.test.vivisimo.com:80/docs/Current_Resume.htm/"
+  ct="text/html" ip="172.16.10.90" vertex="10"
+  url="http://testbed4.test.vivisimo.com/docs/Current_Resume.htm"
+  vse-base-score="1" la-score="1.09861"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="24">Gary A</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[   <div><p><b><span>Gary</span></b><span> </span><b><span>Allen Williams<p/></span></b></p><p>  <span>1219
+  Lakevue Dr.</span> <span>,  Butler ,  PA  16002 </span> <span><span>]]>&#160;<![CDATA[ </span>/ Tel# (724)586-9022, Email:  gaw@zoominternet.net <p/></span></p><p><span><p>]]>&#160;<![CDATA[</p></span></p><p><b><span>SUMMARY<p/></span></b></p><p><span><span>]]>&#160;<![CDATA[</span><p/></span></p><p><span>Extensive
+experience in software engineering,  ... ]]></content>
+</document>
+<document filetypes="html "
+  vse-key="http://testbed4.test.vivisimo.com:80/myindex.htm/" ct="text/html"
+  ip="172.16.10.90" vertex="1" url="http://testbed4.test.vivisimo.com/myindex.htm"
+  vse-base-score="1" la-score="0.405465"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="22">Messy Garage</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[   <p> <b><font>Messy Garage</font></b> </p><p><font> <b>Nothing neat.]]>&#160;<![CDATA[ A big mess of 
+stuff.</b> </font></p><div>  </div>  ]]></content>
+</document>
+<document filetypes="html "
+  vse-key="http://testbed4.test.vivisimo.com:80/things_i_hate____things_i_like.htm/"
+  ct="text/html" ip="172.16.10.90" vertex="2"
+  url="http://testbed4.test.vivisimo.com/things_i_hate____things_i_like.htm"
+  vse-base-score="1" la-score="0.405465"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="27">Things I Hate&#160;&#160;&#160; Things I Like</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[   <p> <b><font>Things I Hate]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[ 
+Things I Like</font></b> </p><p><font><a>Companies I will never do 
+business with again</a></font></p><p><font><a>Companies I like</a></font></p><p><font><a>Products I like</a></font></p><p><font><a>Products I hate</a></font></p><p><font>Test Page 1</font></p><p><font>Test Page 2</font></p><p><font>Test Page  ... ]]></content>
+</document>
+<document filetypes="html "
+  vse-key="http://testbed4.test.vivisimo.com:80/textandinfo.htm/" ct="text/html"
+  ip="172.16.10.90" vertex="3"
+  url="http://testbed4.test.vivisimo.com/textandinfo.htm" vse-base-score="1"
+  la-score="0.405465"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="22">This is a test page for Vivisimo</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[   <p>]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[ This is a test page for Vivisimo.]]>&#160;<![CDATA[ The links to the 
+left actually work.]]>&#160;<![CDATA[ They were put here so I could run tests on the 
+Vivisimo Velocity software.]]>&#160;<![CDATA[ Within  ... ]]></content>
+</document>
+<document filetypes="html "
+  vse-key="http://testbed4.test.vivisimo.com:80/footer.htm/" ct="text/html"
+  ip="172.16.10.90" vertex="4" url="http://testbed4.test.vivisimo.com/footer.htm"
+  vse-base-score="1" la-score="0.405465"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="22">Me at home&#160;&#160;&#160;&#160;&#160;&#160;&#160; Me at work</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[   <p><b> <font><a>Me at home</a>]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[
+<a>Me at work </a>]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[ 
+<a>What I do</a></font> </b></p>  ]]></content>
+</document>
+<document filetypes="html " vse-key="http://testbed4.test.vivisimo.com:80/"
+  ct="text/html" ip="172.16.10.90" vertex="0"
+  url="http://testbed4.test.vivisimo.com/" vse-base-score="1" la-score="0.0689929"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="20">New Page 1</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster"><![CDATA[               <p>This page uses frames, but your browser doesn't support them.</p>    ]]></content>
+</document>
+<retrieval-performance n-tau="146" n-rho="36" n-uat="0" n-ohr="0"
+  occr-reads="5239" block-reads="40" seeks="12" cache-hits="40" cache-misses="0"
+  n-blocks="1566"
+>
+  <query-performance what="doc-text" n-tau="56" n-rho="12" n-uat="0" n-ohr="0"
+    occr-reads="73" block-reads="8" seeks="4" cache-hits="8" cache-misses="0"
+    n-blocks="10"
+  />
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="10"
+  />
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="4992" block-reads="16" seeks="0" cache-hits="16" cache-misses="0"
+    n-blocks="1526"
+  />
+  <query-performance what="output" n-tau="54" n-rho="12" n-uat="0" n-ohr="0"
+    occr-reads="91" block-reads="8" seeks="4" cache-hits="8" cache-misses="0"
+    n-blocks="10"
+  />
+  <query-performance what="summarize" n-tau="36" n-rho="12" n-uat="0" n-ohr="0"
+    occr-reads="83" block-reads="8" seeks="4" cache-hits="8" cache-misses="0"
+    n-blocks="10"
+  />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="really-content" n-tau="0" n-rho="0" n-uat="0"
+    n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0" n-blocks="0"
+  />
+  <query-performance what="rights-query" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+</retrieval-performance>
+<query-performance flags="hard extent r:need" what="containing" n-tau="14"
+  n-rho="14" n-uat="0" n-ohr="0" occr-reads="105" block-reads="2" seeks="1"
+  cache-hits="2" cache-misses="0" n-blocks="1"
+>
+  <query-performance flags="simple extent " what="document" n-tau="14" n-rho="14"
+    n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0" n-blocks="0"
+  />
+  <query-performance flags="hard extent r:apply" what="not-within" n-tau="14"
+    n-rho="0" n-uat="0" n-ohr="0" occr-reads="105" block-reads="2" seeks="1"
+    cache-hits="2" cache-misses="0" n-blocks="1"
+  >
+    <query-performance flags="hard extent r:apply/need" what="0:0:" n-tau="14"
+      n-rho="0" n-uat="0" n-ohr="0" occr-reads="105" block-reads="1" seeks="1"
+      cache-hits="1" cache-misses="0" n-blocks="1"
+    />
+    <query-performance flags="hard extent r:apply/need" what="0:0:del#" n-tau="0"
+      n-rho="1" n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0"
+      cache-hits="1" cache-misses="0" n-blocks="0"
+    />
+  </query-performance>
+</query-performance>
+</scope>

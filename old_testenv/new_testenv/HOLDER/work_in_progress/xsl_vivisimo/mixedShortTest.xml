@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<testset>
+   <test>
+      <data>
+      the Quick Brown Fox Jumps Over The Lazy Dog
+      </data>
+      <expected>
+      The quick brown fox jumps over the lazy dog
+      </expected>
+   </test>
+   <test>
+      <data>
+      the quick brown fox jumps over the lazy dog
+      </data>
+      <expected>
+      The quick brown fox jumps over the lazy dog
+      </expected>
+   </test>
+</testset>

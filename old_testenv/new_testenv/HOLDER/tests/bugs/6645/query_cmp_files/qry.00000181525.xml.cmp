@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="1" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="3" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="14" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/document/TXT/installment.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/document/TXT/installment.txt/"
+  vse-base-score="1.99805" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="94247" />
+      <pre u="8" v="26">PL1 257425 9711 00000133525 
+ PL1 257425 9802 00000133525 
+ PL1 257425 9805 00000133525 
+ PL1 257425 9808 00000133525 
+ PL1 257426 9708 </pre>
+      <match u="27" v="27">00000181525 
+ </match>
+      <post u="28" v="47">PL1 257426 9711 00000181525 
+ PL1 257426 9802 00000181525 
+ PL1 257426 9805 00000181525 
+ PL1 257427 9708 00000154950 
+ PL1 257427 9711 00000154950 
+ </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="94247" />
+      <pre u="11" v="30">00000133525 
+ PL1 257425 9802 00000133525 
+ PL1 257425 9805 00000133525 
+ PL1 257425 9808 00000133525 
+ PL1 257426 9708 00000181525 
+ PL1 257426 9711 </pre>
+      <match u="31" v="31">00000181525 
+ </match>
+      <post u="32" v="51">PL1 257426 9802 00000181525 
+ PL1 257426 9805 00000181525 
+ PL1 257427 9708 00000154950 
+ PL1 257427 9711 00000154950 
+ PL1 257427 9802 00000154950 
+ </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="7" v="94247" />
+      <pre u="15" v="34">00000133525 
+ PL1 257425 9805 00000133525 
+ PL1 257425 9808 00000133525 
+ PL1 257426 9708 00000181525 
+ PL1 257426 9711 00000181525 
+ PL1 257426 9802 </pre>
+      <match u="35" v="35">00000181525 
+ </match>
+      <post u="36" v="55">PL1 257426 9805 00000181525 
+ PL1 257427 9708 00000154950 
+ PL1 257427 9711 00000154950 
+ PL1 257427 9802 00000154950 
+ PL1 257427 9805 00000154950 
+ </post>
+    </solution>
+    <solution rank="3" score="1">
+      <content type="text" name="snippet" u="7" v="94247" />
+      <pre u="19" v="38">00000133525 
+ PL1 257425 9808 00000133525 
+ PL1 257426 9708 00000181525 
+ PL1 257426 9711 00000181525 
+ PL1 257426 9802 00000181525 
+ PL1 257426 9805 </pre>
+      <match u="39" v="39">00000181525 
+ </match>
+      <post u="40" v="59">PL1 257427 9708 00000154950 
+ PL1 257427 9711 00000154950 
+ PL1 257427 9802 00000154950 
+ PL1 257427 9805 00000154950 
+ PL2 257428 9807 00000143800 
+ </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content type="text" name="snippet" u="7" v="94247" />
+      <pre u="1063" v="1082">00000061125 
+ PL1 257505 9708 00000047400 
+ PL1 257505 9711 00000047400 
+ PL1 257505 9802 00000047400 
+ PL1 257505 9805 00000047400 
+ PL1 257507 9708 </pre>
+      <match u="1083" v="1083">00000181525 
+ </match>
+      <post u="1084" v="1103">PL1 257507 9711 00000181525 
+ PL1 257507 9802 00000181525 
+ PL1 257507 9805 00000181525 
+ PL1 257508 9708 00000063925 
+ PL1 257508 9711 00000063925 
+ </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... 00000133525 
+ PL1 257425 9808 00000133525 
+ PL1 257426 9708 00000181525 
+ PL1 257426 9711 00000181525 
+ PL1 257426 9802 00000181525 
+  ... PL1 257426 9805 00000181525 
+  ... </content>
+</document>
+</scope>

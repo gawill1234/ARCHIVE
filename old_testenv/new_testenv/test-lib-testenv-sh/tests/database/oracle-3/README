@@ -1,0 +1,3 @@
+The goal of this test was:
+1.) To make sure the same data comes out, which is proven
+2.) To make sure the sql query parameter was removed from the enqueued URLs.  I visually verified this, but I wasn't sure how to automate that part of the test.

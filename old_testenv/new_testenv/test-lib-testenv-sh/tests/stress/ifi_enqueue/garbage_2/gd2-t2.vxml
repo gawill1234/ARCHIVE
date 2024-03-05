@@ -1,0 +1,32 @@
+<vce>
+              <document url="http://vivisimo.com?Luna">
+                <content name="title" fast-index="set">Luna</content>
+                <content name="color" fast-index="set">light green</content>
+                <content name="size_class" fast-index="set">large</content>
+                <content name="type" fast-index="set">moth</content>
+              </document>
+              <document url="http://vivisimo.com?Monarch">
+                <content name="title" fast-index="set">Monarch</content>
+                <content name="color" fast-index="set">orange</content>
+                <content name="size_class" fast-index="set">medium</content>
+                <content name="type" fast-index="set">butterfly</content>
+              </document>
+              <document url="http://vivisimo.com?LargeBlue">
+                <content name="title" fast-index="set">LargeBlue</content>
+                <content name="color" fast-index="set">blue</content>
+                <content name="size_class" fast-index="set">medium</content>
+                <content name="type" fast-index="set">butterfly</content>
+              </document>
+              <document url="http://vivisimo.com?4oclock">
+                <content name="title" fast-index="set">4oclock</content>
+                <content name="color" fast-index="set">blue</content>
+                <content name="size_class" fast-index="set">medium</content>
+                <content name="type" fast-index="set">moth</content>
+              </document>
+              <document url="http://vivisimo.com?Cecropia">
+                <content name="title" fast-index="set">Cecropia</content>
+                <content name="color" fast-index="set">red brown</content>
+                <content name="size_class" fast-index="set">large</content>
+                <content name="type" fast-index="set">moth</content>
+              </document>
+</vce>

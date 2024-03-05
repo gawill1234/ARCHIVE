@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="3" />
+<attribute name="admin-url"
+  value="http://oberman.vivisimo.com/vivisimo-oberman/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="60" />
+<attribute name="retrieval-ms" value="4" />
+<attribute name="total-results-with-duplicates" value="3" />
+<document url="http://192.168.0.27/Shared%20Documents/sharepointtest.txt"
+  ct="application/vxml-unnormalized"
+  vse-key="http://192.168.0.27:80/Shared Documents/sharepointtest.txt/" vertex="62"
+  graph-id-high-water="61" priority="0" i="1" filetypes="text " la-score="5.18178"
+  vse-base-score="1"
+>
+  <content name="size" weight="-1" u="1">439</content>
+  <content name="language" weight="0" action="none" u="12">unknown</content>
+  <content name="author" action="none" weight="1" output-action="bold" u="14">VIVISIMO2003\administrator</content>
+  <content name="last-modified" action="none" weight="1" u="17">2008-03-27T15:27:43Z</content>
+  <content name="size" weight="-1" u="24">439</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1206631663"
+    u="35"
+  >Mar 27,
+  2008 15:27:43 GMT</content>
+  <content name="language" weight="0" action="none" u="37">unknown</content>
+  <content name="filetype" action="none" u="40">text</content>
+  <content name="size" weight="-1" u="42">1433</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1206631663"
+    u="53"
+  >Mar 27,
+  2008 15:27:43 GMT</content>
+  <content name="language" weight="0" action="none" u="55">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="58" v="57"></pre>
+      <content type="TEXT" name="snippet" u="57" v="60" />
+      <match u="58" v="58">oberman123
+</match>
+      <post u="59" v="60">smurf
+bizarre</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">oberman123
+smurf
+bizarre</content>
+</document>
+<document
+  url="http://192.168.0.27/_vti_history/1/Shared Documents/sharepointtest.txt"
+  ct="application/vxml-unnormalized"
+  vse-key="http://192.168.0.27:80/_vti_history/1/Shared Documents/sharepointtest.txt/"
+  vertex="133" graph-id-high-water="132" priority="0" filetypes="text "
+  la-score="4.48864" vse-base-score="1"
+>
+  <content name="language" weight="0" action="none" u="13">unknown</content>
+  <content name="filetype" action="none" u="16">text</content>
+  <content name="size" weight="-1" u="18">1301</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1206631597"
+    u="32"
+  >Mar 27,
+  2008 15:26:37 GMT</content>
+  <content name="language" weight="0" action="none" u="34">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="37" v="36"></pre>
+      <content type="TEXT" name="snippet" u="36" v="37" />
+      <match u="37" v="37">oberman123</match>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">oberman123</content>
+</document>
+<document
+  url="http://192.168.0.27/_vti_history/2/Shared Documents/sharepointtest.txt"
+  ct="application/vxml-unnormalized"
+  vse-key="http://192.168.0.27:80/_vti_history/2/Shared Documents/sharepointtest.txt/"
+  vertex="134" graph-id-high-water="133" priority="0" filetypes="text "
+  la-score="4.48864" vse-base-score="1"
+>
+  <content name="language" weight="0" action="none" u="13">unknown</content>
+  <content name="filetype" action="none" u="16">text</content>
+  <content name="size" weight="-1" u="18">1308</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1206631625"
+    u="32"
+  >Mar 27,
+  2008 15:27:05 GMT</content>
+  <content name="language" weight="0" action="none" u="34">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="37" v="36"></pre>
+      <content type="TEXT" name="snippet" u="36" v="38" />
+      <match u="37" v="37">oberman123
+</match>
+      <post u="38" v="38">smurf</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">oberman123
+smurf</content>
+</document>
+<retrieval-performance n-tau="41" n-rho="7" n-uat="0" n-ohr="0" occr-reads="4836"
+  block-reads="84" seeks="42" cache-hits="84" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="10" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="165" block-reads="12" seeks="6" cache-hits="12" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="10" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="165" block-reads="12" seeks="6" cache-hits="12" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-tau="10" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="165" block-reads="6" seeks="6" cache-hits="6" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="3" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="6" seeks="0" cache-hits="6" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="2012" block-reads="12" seeks="0" cache-hits="12" cache-misses="0"
+  >
+    <query-performance what="3:" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="2012" block-reads="12" seeks="0" cache-hits="12" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="24" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="1588" block-reads="36" seeks="24" cache-hits="36" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="24" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="1588" block-reads="36" seeks="24" cache-hits="36" cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="24" n-rho="24" n-uat="0"
+        n-ohr="0" occr-reads="1588" block-reads="30" seeks="24" cache-hits="30"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-tau="24" n-rho="47" n-uat="0" n-ohr="0"
+          occr-reads="1179" block-reads="6" seeks="6" cache-hits="6" cache-misses="0"
+        />
+        <query-performance what="or" n-tau="26" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="409" block-reads="24" seeks="18" cache-hits="24" cache-misses="0"
+        >
+          <query-performance what="0:url" n-tau="13" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="174" block-reads="6" seeks="6" cache-hits="6"
+            cache-misses="0"
+          />
+          <query-performance what="0:host" n-tau="13" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="178" block-reads="6" seeks="6" cache-hits="6"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-tau="3" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="6" seeks="0" cache-hits="6"
+            cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-tau="6" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="57" block-reads="6" seeks="6" cache-hits="6"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-tau="0" n-rho="3" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="6" seeks="0" cache-hits="6" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="3" n-rho="3" n-uat="0" n-ohr="0"
+    occr-reads="52" block-reads="12" seeks="6" cache-hits="12" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="3" n-rho="3" n-uat="0" n-ohr="0"
+      occr-reads="52" block-reads="12" seeks="6" cache-hits="12" cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-tau="3" n-rho="3" n-uat="0" n-ohr="0"
+        occr-reads="52" block-reads="6" seeks="6" cache-hits="6" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="3" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="6" seeks="0" cache-hits="6" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="4" n-rho="4" n-uat="0"
+    n-ohr="0" occr-reads="1019" block-reads="12" seeks="6" cache-hits="12"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="4" n-rho="4" n-uat="0" n-ohr="0"
+      occr-reads="1019" block-reads="12" seeks="6" cache-hits="12" cache-misses="0"
+    >
+      <query-performance what="0:" n-tau="4" n-rho="4" n-uat="0" n-ohr="0"
+        occr-reads="1019" block-reads="6" seeks="6" cache-hits="6" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="3" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="6" seeks="0" cache-hits="6" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="5" block-reads="4" seeks="1" cache-hits="2" cache-misses="2"
+>
+  <query-performance what="1:oberman123" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="5" block-reads="2" seeks="1" cache-hits="0" cache-misses="2"
+  />
+  <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="2" seeks="0" cache-hits="2" cache-misses="0"
+  />
+</query-performance>
+</scope>

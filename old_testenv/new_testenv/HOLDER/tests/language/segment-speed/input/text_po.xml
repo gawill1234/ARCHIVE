@@ -1,0 +1,1085 @@
+<testset>
+<test>
+<data>
+INSPIRON
+INSTRUKCJA KONFIGURACJI
+
+™
+
+INSPIRON
+INSTRUKCJA KONFIGURACJI
+
+™
+
+Model: seria D03U
+
+Typ: D03U001
+
+Uwagi, przestrogi i ostrzeżenia
+
+UWAGA: UWAGA oznacza ważną informację, która pozwala lepiej wykorzystać posiadany komputer. PRZESTROGA: PRZESTROGA oznacza możliwość uszkodzenia sprzętu lub utraty danych, a także przedstawia sposób uniknięcia problemu. OSTRZEŻENIE: OSTRZEŻENIE informuje o sytuacjach, w których występuje ryzyko uszkodzenia mienia, obrażeń ciała lub śmierci.
+
+Jeżeli zakupiono komputer firmy Dell™ z serii n, żadne odniesienia do systemu operacyjnego Microsoft® Windows® zawarte w tym dokumencie nie mają zastosowania. __________________ Informacje zawarte w tym dokumencie mogą ulec zmianie bez uprzedzenia. © 2010 Dell Inc. Wszelkie prawa zastrzeżone. Powielanie dokumentu w jakikolwiek sposób bez pisemnej zgody firmy Dell Inc. jest surowo zabronione. Występujące w tekście znaki towarowe: Dell, logo DELLYOURS IS HERE, Solution Station, Inspiron, i DellConnect są znakami towarowymi firmy Dell Inc.; AMD, AMD Athlon, AMD Turion, AMD Phenom, i ATI Mobility Radeon są znakami towarowymi firmy Advanced Micro Devices, Inc.; Microsoft, Windows, i logo przycisku Start systemu Windows są znakami towarowymi lub zastrzeżonymi znakami towarowymi firmy Microsoft Corporation w Stanach Zjednoczonych i/lub innych krajach; Blu-ray Disc jest znakiem towarowym firmy Blu-ray Disc Association; Ubuntu jest zastrzeżonym znakiem towarowym firmy Canonical Ltd. Tekst może zawierać także inne znaki towarowe i nazwy towarowe, odnoszące się do podmiotów posiadających prawa do tych znaków i nazw lub do ich produktów. Firma Dell Inc. nie rości sobie żadnych praw do znaków i nazw towarowych innych niż jej własne.
+
+Maj 2010
+
+Nr ref. RM87Y
+
+Wersja A00
+
+Spis treści
+Konfigurowanie komputera stacjonarnego Inspiron . . . . . . . . . . . . 5
+Przed konfiguracją komputera . . . . . . . . 5 Podłączanie wyświetlacza . . . . . . . . . . . . 6 Konfiguracja kina domowego (opcjonalnie). . . . . . . . . . . . . . . . . . . . . . . 8 Podłączanie klawiatury i myszy . . . . . . . 13 Podłączanie kabla sieciowego (opcjonalne) . . . . . . . . . . . . . . . . . . . . . . 14 Podłączanie zasilacza prądu zmiennego . . . . . . . . . . . . . . . . . . . . . . . 15 Naciskanie przycisku zasilania. . . . . . . . 16 Konfiguracja systemu operacyjnego . . . 17 Tworzenie nośnika przywracania systemu (zalecane) . . . . . . . . . . . . . . . . 18 Nawiązywanie połączenia z Internetem (opcjonalne) . . . . . . . . . . . . . . . . . . . . . . 19
+
+Korzystanie z komputera stacjonarnego Inspiron . . . . . . . . . . . 22
+Elementy widoczne z przodu . . . . . . . . . 22 Elementy widoczne z góry . . . . . . . . . . 24 Elementy widoczne z tyłu. . . . . . . . . . . . 26 Funkcje oprogramowania. . . . . . . . . . . . 29 Dok firmy Dell. . . . . . . . . . . . . . . . . . . . . 31 Dell DataSafe Online Backup. . . . . . . . . 33
+
+Rozwiązywanie problemów . . . . . . . . 34
+Kody dźwiękowe . . . . . . . . . . . . . . . . . . 34 Problemy z siecią . . . . . . . . . . . . . . . . . . 35 Problemy z zasilaniem . . . . . . . . . . . . . . 36 Problemy z pamięcią . . . . . . . . . . . . . . . 38 Blokowanie się komputera i problemy z oprogramowaniem . . . . . . . . . . . . . . . 40
+
+3
+
+Spis treści
+
+Korzystanie z narzędzi serwisowych . . . . . . . . . . . . . . . . . . . . 43
+Dell Support Center . . . . . . . . . . . . . . . . 43 My Dell Downloads . . . . . . . . . . . . . . . . 44 Komunikaty systemowe . . . . . . . . . . . . . 45 Narzędzie do rozwiązywania problemów ze sprzętem . . . . . . . . . . . . . 48 Dell Diagnostics . . . . . . . . . . . . . . . . . . 49
+
+Automatyczna obsługa stanu zamówienia . . . . . . . . . . . . . . . . . . . . . . 68 Informacje o produkcie. . . . . . . . . . . . . . 68 Zwroty produktów w celu dokonania naprawy gwarancyjnej lub uzyskania zwrotu pieniędzy . . . . . . . . . . . . . . . . . . 69 Zanim zadzwonisz . . . . . . . . . . . . . . . . . 71 Kontakt z firmą Dell . . . . . . . . . . . . . . . . 73
+
+Przywracanie systemu operacyjnego . . . . . . . . . . . . . . . . . . . 54
+Przywracanie systemu . . . . . . . . . . . . . . 56 Aplikacja Dell DataSafe Local Backup . . . . . . . . . . . . . . . . . . . . . . . . . . 57 Nośnik przywracania systemu . . . . . . . . 60 Program Dell Factory Image Restore. . . 61
+
+Gdzie szukać dodatkowych informacji i materiałów. . . . . . . . . . . . 76 Dane techniczne . . . . . . . . . . . . . . . . . 79 Dodatek . . . . . . . . . . . . . . . . . . . . . . . . 85
+Uwaga dotycząca produktów firmy Macrovision . . . . . . . . . . . . . . . . . . . . . . 85 Informacje dotyczące spełnienia norm NOM lub Official Mexican Standard (oficjalnej normy meksykańskiej) (dotyczy Meksyku) . . . . . . . . . . . . . . . . . 86
+
+Uzyskiwanie pomocy . . . . . . . . . . . . . 64
+Pomoc techniczna i obsługa klienta . . . . 65 DellConnect . . . . . . . . . . . . . . . . . . . . . . 66 Usługi online. . . . . . . . . . . . . . . . . . . . . . 66
+
+Indeks . . . . . . . . . . . . . . . . . . . . . . . . . 87
+
+4
+
+INSPIRON
+
+Konfigurowanie komputera stacjonarnego Inspiron
+W tej sekcji podano informacje na temat konfigurowania komputera Dell™ Inspiron™. OSTRZEŻENIE: Przed rozpoczęciem procedur opisanych w tej sekcji należy zapoznać się z instrukcjami dotyczącymi bezpieczeństwa dostarczonymi z komputerem. Więcej informacji na temat postępowania zgodnego z zasadami bezpieczeństwa znajduje się na stronie dotyczącej przestrzegania przepisów, pod adresem www.dell.com/regulatory_compliance.
+
+Przed konfiguracją komputera
+
+Podczas ustawiania komputera należy zapewnić łatwy dostęp do źródła zasilania i odpowiednią wentylację oraz ustawić komputer na płaskiej powierzchni. Ponadto ograniczony przepływ powietrza może spowodować przegrzanie komputera. Aby zapobiec przegrzaniu, należy zostawić co najmniej 10,2 cm wolnej przestrzeni z tyłu komputera i co najmniej 5,1 cm z pozostałych stron. Pod żadnym pozorem nie wolno umieszczać włączonego komputera w zamkniętej przestrzeni, takiej jak szafa lub szuflada.
+
+5
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Podłączanie wyświetlacza
+
+UWAGA: Komputer można również podłączyć do telewizora. Aby dowiedzieć się więcej, patrz rozdział „Konfiguracja kina domowego (opcjonalnie)” na stronie 8.
+
+Podłącz wyświetlacz za pomocą zintegrowanego złącza VGA lub złącza HDMI. Aby podnieść wydajność komputera, zaleca się podłączenie wyświetlacza za pomocą złącza HDMI. Adapter HDMI-DVI i dodatkowe kable HDMI można zakupić w witrynie firmy Dell pod adresem www.dell.com.
+
+Należy użyć właściwego kabla pasującego do złącza dostępnego w komputerze i wyświetlaczu. Aby zidentyfikować złącza w komputerze i wyświetlaczu, należy skorzystać z poniższej tabeli. UWAGA: Podczas podłączania jednego wyświetlacza, należy skorzystać TYLKO Z JEDNEGO ze złączy w komputerze.
+
+6
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Typ połączenia VGA-VGA (kabel VGA) HDMI-HDMI (kabel HDMI) HDMI-DVI (adapter HDMIDVI + kabel DVI)
+
+Komputer
+
+Kabel
+
+Wyświetlacz
+
+7
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Konfiguracja kina domowego (opcjonalnie)
+
+Można uzyskać własny zestaw kina domowego, podłączając komputer bezpośrednio do płaskiego wyświetlacza lub do odbiornika audio/video za pomocą kabla(-i) HDMI.
+
+UWAGA: Kable HDMI nie są dostarczane z komputerem i należy je kupić osobno. Kable HDMI można kupić w witrynie www.dell.com.
+
+Podłączanie komputera bezpośrednio do płaskiego wyświetlacza
+1. Podłącz klawiaturę i mysz (patrz rozdział „Podłączanie klawiatury i myszy” na stronie 13). 2. Wyjście audio i wideo: Podłącz jedną końcówkę kabla HDMI do złącza HDMI w komputerze, a drugą do złącza HDMI w płaskim wyświetlaczu. 3. Dodatkowe wyjście audio (opcjonalne): Podłącz analogowy kabel audio 2.1 do złącza wyjścia w komputerze i podłącz odpowiednio głośniki 2.1-kanałowe.
+
+8
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Audio/Video Wyświetlacz płaski Wyjście liniowe Dźwięk analogowy 2.1 Opcjonalnie 2.1-kanałowe głośniki
+
+9
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Podłączanie komputera do wyświetlacza płaskiego przez odbiornik audio/video
+1. Podłącz klawiaturę i mysz (patrz rozdział „Podłączanie klawiatury i myszy” na stronie 13). 2. Wyjście audio i wideo: a. Podłącz jedną końcówkę kabla HDMI do złącza HDMI w komputerze, a drugą do złącza wyjściowego HDMI w odbiorniku audio/video. b. Podłącz jedną końcówkę kabla HDMI do złącza HDMI wejściowego w odbiorniku audio/video, a drugą do złącza HDMI w płaskim wyświetlaczu. 3. Dodatkowe wyjście audio (opcjonalnie): – dźwięk analogowy 2.1-kanałowy: Podłącz analogowy kabel audio 2.1 do złącza wyjścia w komputerze i podłącz odpowiednio głośniki 2.1-kanałowe. – Dźwięk cyfrowy 7.1-kanałowy: a. Podłącz jedną końcówkę kabla optycznego S/PDIF do złącza optycznego w komputerze, a drugą do złącza optycznego S/PDIF w odbiorniku audio/video. b. Podłącz kable audio 7.1 odbiornika audio/video do 7.1-kanałowych głośników.
+
+10
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Audio/Video Optyczny S/PDIF cyfrowy dźwięk 7.1 Odbiornik A/V
+
+Audio/Video Płaski wyświetlacz
+
+Wyjście liniowe Dźwięk analogowy 2.1
+
+Opcjonalnie
+
+7.1-kanałowe głośniki 2.1-kanałowe głośniki
+
+Opcjonalnie
+
+11
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Zmiana ustawień funkcji skalowania wyświetlacza
+Funkcja skalowania wyświetlacza umożliwia dopasowanie wielkości obrazu do rozmiaru ekranu. Zmiana ustawień funkcji skalowania wyświetlacza: 1. Sprawdź, czy komputer jest włączony. 2. Kliknij kolejno Start → Wszystkie programy → Catalyst Control Center → CCC. 3. W oknie Catalyst™ Control Center kliknij kolejno Graphics (Grafika) → Desktops & Displays (Komputery stacjonarne i wyświetlacze). 4. W oknie Desktops & Displays (Komputery stacjonarne i wyświetlacze) kliknij prawym przyciskiem myszy wyświetlacz, który chcesz skonfigurować. 5. Wybierz opcję Configure... (Konfiguruj...). 6. W wyświetlonym oknie kliknij zakładkę Scaling Options (Opcje skalowania). 7. Dostosuj funkcję skalowania w taki sposób, aby rozmiar obrazu był dopasowany do rozmiaru ekranu. 8. Kliknij przycisk OK.
+
+12
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Podłączanie klawiatury i myszy
+
+Podłącz klawiaturę i mysz USB do złączy USB z tyłu komputera.
+
+UWAGA: Jeśli została zakupiona bezprzewodowa klawiatura z manipulatorem kulkowym firmy Dell, należy zapoznać się z dostarczoną z nią dokumentacją w celu skonfigurowania produktu.
+
+13
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Podłączanie kabla sieciowego (opcjonalne)
+
+Połączenie sieciowe nie jest wymagane do instalacji komputera, ale jeśli jest dostępne kablowe połączenie sieciowe lub internetowe (na przykład urządzenie szerokopasmowe czy gniazdo Ethernet), można je podłączyć na tym etapie. UWAGA: Do gniazda sieciowego należy podłączać jedynie kabel Ethernet (ze złączem RJ45). Należy uważać, aby do gniazda sieciowego nie podłączyć kabla telefonicznego (ze złączem RJ11). Aby podłączyć komputer do sieci lub urządzenia dostępu szerokopasmowego, podłącz jeden koniec kabla sieciowego do gniazda sieciowego bądź urządzenia dostępu szerokopasmowego. Podłącz drugi koniec kabla sieciowego do gniazda sieciowego (RJ45) z tyłu komputera. Kliknięcie oznacza, że kabel sieciowy został właściwie zamocowany.
+
+14
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Podłączanie zasilacza prądu zmiennego
+
+15
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Naciskanie przycisku zasilania
+
+16
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Konfiguracja systemu operacyjnego
+Konfigurowanie systemu Microsoft Windows
+
+Ten komputer został skonfigurowany fabrycznie do pracy z systemem wybranym przez klienta przy zakupie.
+
+PRZESTROGA: Nie należy przerywać procesu konfigurowania systemu operacyjnego. Przerwanie procesu konfigurowania grozi zablokowaniem komputera oraz koniecznością ponownej instalacji systemu operacyjnego. UWAGA: Zaleca się pobranie i zainstalowanie najnowszej wersji systemu BIOS oraz sterowników dostępnych w witrynie support.dell.com. UWAGA: Dodatkowe informacje na temat systemu operacyjnego i funkcji, patrz support.dell.com/MyNewDell.
+
+Aby skonfigurować system Microsoft® Windows® po raz pierwszy, postępuj zgodnie z instrukcjami wyświetlanymi na ekranie. Wykonanie omawianych czynności jest wymagane i może potrwać trochę czasu. Na kolejnych ekranach konfiguracyjnych systemu Windows zostanie przedstawionych kilka procedur, w tym akceptacja umów licencyjnych, ustawianie preferencji i konfigurowanie połączenia z Internetem.
+
+Konfiguracja systemu operacyjnego Linux
+Aby po raz pierwszy skonfigurować system Ubuntu Linux, należy postępować zgodnie z instrukcjami wyświetlanymi na ekranie.
+
+17
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Tworzenie nośnika przywracania systemu (zalecane)
+UWAGA: Zaleca się utworzenie nośnika przywracania systemu natychmiast po skonfigurowaniu systemu Microsoft Windows.
+
+•	Program Dell DataSafe Local Backup •	Napęd USB o minimalnej pojemności 8 GB lub dysk DVD-R/DVD+R/Blu-ray™ UWAGA: Aplikacja Dell DataSafe Local Backup nie obsługuje dysków wielokrotnego zapisu. Aby utworzyć nośnik przywracania systemu: 1. Sprawdź, czy komputer jest włączony. 2. Włóż do komputera dysk lub napęd USB. 3. Kliknij kolejno Start → Programy → Dell DataSafe Local Backup. 4. Kliknij opcję Create Recovery Media (Utwórz nośnik przywracania). 5. Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie. UWAGA: Aby uzyskać informacje na temat korzystania z nośnika przywracania systemu, patrz „Nośnik przywracania systemu” na stronie 60.
+
+Nośnika przywracania systemu można używać w celu przywrócenia stanu, w jakim znajdował się komputer po dokonaniu zakupu, przy zachowaniu plików z danymi (bez konieczności użycia dysku Operating System (System operacyjny)). Nośnika przywracania systemu można użyć w przypadku, gdy zmiany sprzętowe związane z oprogramowaniem lub konfiguracją systemu spowodowały niepożądaną pracę komputera. W celu otworzenia nośnika przywracania systemu są wymagane następujące elementy:
+
+18
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Nawiązywanie połączenia z Internetem (opcjonalne)
+Do nawiązania połączenia z Internetem niezbędny jest modem lub połączenie sieciowe oraz dostępność odpowiedniej usługi u dostawcy usług internetowych (ISP).
+
+•	W przypadku korzystania z modemu DSL lub modemu kablowego/ satelitarnego należy uzyskać informacje dotyczące konfiguracji od swojego dostawcy usług internetowych lub telefonii komórkowej. Aby zakończyć konfigurowanie przewodowego połączenia z Internetem, należy wykonać instrukcje przedstawione w części „Konfigurowanie połączenia z Internetem” na stronie 20.
+
+Jeśli zewnętrzny modem USB lub karta sieci bezprzewodowej nie zostały zamówione wraz z komputerem, można je kupić w witrynie www.dell.com.
+
+Konfigurowanie połączenia bezprzewodowego
+UWAGA: Aby skonfigurować router bezprzewodowy, należy zapoznać się z dostarczoną do niego dokumentacją. Aby było możliwe korzystanie z bezprzewodowego połączenia z Internetem, należy nawiązać połączenie między komputerem a routerem bezprzewodowym.
+
+Konfigurowanie przewodowego połączenia z Internetem
+•	Jeśli używane jest połączenie telefoniczne, przed przystąpieniem do konfigurowania połączenia z Internetem podłącz zewnętrzny modem USB (opcjonalny) do linii telefonicznej.
+
+19
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Aby skonfigurować połączenie z routerem bezprzewodowym:
+
+Windows® 7
+1. Zapisz i zamknij wszystkie otwarte pliki, a następnie zamknij wszystkie uruchomione programy. 2. Kliknij kolejno Start sterowania. → Panel
+
+3. Aby przeprowadzić konfigurację, postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
+
+Konfigurowanie połączenia z Internetem
+Dostawcy usług internetowych oraz ich oferty mogą się różnić w zależności od kraju. Skontaktuj się z dostawcą usług internetowych, aby uzyskać informacje o ofertach dostępnych w Twoim kraju. Jeśli nie możesz teraz nawiązać połączenia z Internetem, a w przeszłości było to możliwe, być może problem występuje po stronie dostawcy usług internetowych. Skontaktuj się z dostawcą usług internetowych, aby sprawdzić stan usługi lub spróbuj połączyć się później. Przygotuj informacje o dostawcy usług internetowych. Jeśli nie korzystasz z usług dostawcy usług internetowych, możesz wybrać dostawcę za pomocą kreatora połączeń internetowych.
+
+3. W polu wyszukiwania wpisz sieć, a następnie kliknij kolejno polecenia Centrum sieci i udostępniania→ Połącz z siecią. 4. Aby przeprowadzić konfigurację, postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
+
+Windows Vista®
+1. Zapisz i zamknij wszystkie otwarte pliki, a następnie zamknij wszystkie uruchomione programy. 2. Kliknij kolejno Start → Połącz z.
+
+20
+
+Konfigurowanie komputera stacjonarnego Inspiron
+
+Aby skonfigurować połączenie z Internetem:
+
+Windows Vista
+1. Zapisz i zamknij wszystkie otwarte pliki, a następnie zamknij wszystkie uruchomione programy. 2. Kliknij kolejno Start sterowania. → Panel
+
+Windows 7 1. Zapisz i zamknij wszystkie otwarte pliki, a następnie zamknij wszystkie uruchomione programy. 2. Kliknij kolejno przycisk Start → Panel sterowania. 3. W polu wyszukiwania wpisz sieć, a następnie kliknij kolejno polecenia Centrum sieci i udostępniania→ Skonfiguruj nowe połączenie lub nową sieć→ Połącz z Internetem. Pojawi się okno Połącz z Internetem.
+UWAGA: Jeśli nie wiesz, jaki typ połączenia wybrać, kliknij opcję Pomóż mi wybrać lub skontaktuj się ze swoim dostawcą usług internetowych. 4. Wykonuj instrukcje wyświetlane na ekranie oraz użyj informacji konfiguracyjnych dostarczonych przez dostawcę usług internetowych, aby ukończyć konfigurowanie.
+
+3. W polu wyszukiwania wpisz sieć, a następnie kliknij kolejno polecenia Centrum sieci i udostępniania→ Skonfiguruj połączenie lub sieć→ Połącz z Internetem. Zostanie wyświetlone okno Połącz z Internetem. UWAGA: Jeśli nie wiesz, jaki typ połączenia wybrać, kliknij opcję Pomóż mi wybrać lub skontaktuj się ze swoim dostawcą usług internetowych. 4. Wykonuj instrukcje wyświetlane na ekranie oraz użyj informacji konfiguracyjnych dostarczonych przez dostawcę usług internetowych, aby ukończyć konfigurowanie.
+
+21
+
+INSPIRON
+
+Korzystanie z komputera stacjonarnego Inspiron
+Ta część zawiera informacje na temat funkcji, w jakie jest wyposażony komputer stacjonarny Inspiron™ .
+
+Elementy widoczne z przodu
+1
+
+2
+
+6
+
+5
+
+4
+
+3
+
+22
+
+Korzystanie z komputera stacjonarnego Inspiron
+
+1 Stacja dysków optycznych (opcjonalna) — odtwarza i nagrywa tylko dyski CD o standardowym rozmiarze (12 cm) oraz dyski DVD i Blu-ray. Aby włożyć lub wyjąć dysk, należy nacisnąć przycisk usuwania napędu optycznego i wyjąć tacę napędu dysków optycznych. 2 Przycisk wysuwania napędu optycznego — służy do wysuwania tacy napędu optycznego. 3 Czujnik podczerwieni (opcjonalnie) — wykrywa urządzenia (takie jak pilot), które wykorzystują podczerwień. 4 Czytnik kart pamięci 4 w 1 — stanowi szybki i wygodny środek do wyświetlania i udostępniania zdjęć cyfrowych, muzyki, filmów wideo oraz dokumentów zapisanych na kartach pamięci UWAGA: Komputer jest dostarczany z plastikową zaślepką w gnieździe kart pamięci. Zaślepka chroni nieużywane gniazda przed kurzem i innymi drobnymi elementami. Zaślepkę należy zachować i wkładać do gniazda, gdy nie ma w nim karty pamięci. Zaślepki z innych komputerów mogą nie pasować do tego komputera. Złącza USB 2.0 (2) — umożliwiają podłączenie dodatkowych urządzeń USB, takich jak klucze pamięci, aparaty cyfrowe czy odtwarzacze MP3. Złącze słuchawek — umożliwia podłączenie słuchawek. UWAGA: W celu podłączenia zasilanych głośników lub sprzętu audio należy użyć wyjścia audio lub złącza S/PDIF z tyłu komputera.
+
+5 6
+
+23
+
+Korzystanie z komputera stacjonarnego Inspiron
+
+Elementy widoczne z góry
+
+1
+
+24
+
+Korzystanie z komputera stacjonarnego Inspiron
+
+1
+
+Przycisk i lampka zasilania — po naciśnięciu powoduje włączenie lub wyłączenie komputera. Lampka na środku tego przycisku wskazuje następujące tryby zasilania: •	Nie świeci — komputer jest wyłączony, w trybie hibernacji lub nie jest zasilany. •	Stałe światło białe — komputer jest włączony. •	Świeci światłem bursztynowym — komputer jest w trybie uśpienia lub gotowości lub wystąpił problem z płytą systemową albo zasilaczem. •	Miga w kolorze bursztynowym — wystąpił problem z płytą systemową lub zasilaczem. UWAGA: Aby uzyskać informacje dotyczące problemów z zasilaniem, patrz część „Problemy z zasilaniem” na stronie 36.
+
+25
+
+Korzystanie z komputera stacjonarnego Inspiron
+
+Elementy widoczne z tyłu
+
+1 2 3 4
+
+5
+
+6 7
+
+11
+
+10 9
+
+8
+
+26
+
+Korzystanie z komputera stacjonarnego Inspiron
+
+1 2
+
+Przycisk zwalniający pokrywę górną — otwiera pokrywę górną komputera. Złącza (2) eSATA — umożliwia podłączenie zgodnych urządzeń pamięci masowej (na przykład zewnętrznych dysków twardych lub napędów optycznych) albo urządzeń USB (na przykład myszy, klawiatury, drukarki, napędu zewnętrznego lub odtwarzacza MP3).). Złącze VGA — służy do podłączania urządzeń wideo, np. monitora lub projektora. Złącze sieciowe — umożliwia podłączenie komputera do sieci lub urządzenia dostępu szerokopasmowego. Złącze wyjścia liniowego — umożliwia podłączenie słuchawek i głośników z wbudowanym wzmacniaczem. Złącze mikrofonu — umożliwia podłączenie mikrofonu przekazującego sygnał audio do wykorzystania przez program dźwiękowy lub telefoniczny.
+
+3 4 5 6
+
+7 Złącze optyczne S/PDIF — umożliwia podłączenie wzmacniaczy, głośników, telewizorów, w celu przesyłania cyfrowego sygnału audio przez cyfrowe kable optyczne. Format ten umożliwia przesyłanie sygnału audio bez anologowej konwersji danych.
+
+27
+
+Korzystanie z komputera stacjonarnego Inspiron
+
+8 9 10
+
+Gniazda USB 2.0 (2) — umożliwiają podłączenie urządzeń USB, na przykład myszy, klawiatury, drukarki, napędu zewnętrznego lub odtwarzacza MP3. Gniazdo zasilacza — umożliwia podłączenie zasilacza prądu zmiennego do komputera. Złącze HDMI — umożliwia przekazywanie do telewizora zarówno sygnału wideo, jak i audio w konfiguracji 2.1. UWAGA: Podłączenie zarówno złącza HDMI, jak i złącza wyjścia liniowego powoduje, że sygnał audio jest kierowany przez złącze wyjścia liniowego (analogowego), a nie przez złącze HDMI.
+
+11
+
+Lampka aktywności dysku twardego — świeci, gdy komputer odczytuje lub zapisuje dane. Białe światło sygnalizuje pracę dysku twardego. PRZESTROGA: Aby uniknąć utraty danych, nigdy nie należy wyłączać komputera, gdy lampka aktywności dysku twardego miga.
+
+28
+
+Korzystanie z komputera stacjonarnego Inspiron
+
+Funkcje oprogramowania
+UWAGA: Aby uzyskać dodatkowe informacje na temat funkcji opisanych w tej sekcji, zobacz Przewodnik po technologiach firmy Dell pod adresem support.dell.com/manuals lub w następującym miejscu:
+
+Aplikacje biurowe i komunikacja
+Na komputerze można tworzyć prezentacje, broszury, kartki z życzeniami, ulotki i arkusze kalkulacyjne. Można też przeglądać i edytować fotografie cyfrowe i obrazy. Informacje o oprogramowaniu zainstalowanym na komputerze podano na zamówieniu. Po nawiązaniu połączenia z Internetem można uzyskać dostęp do witryn internetowych, skonfigurować konto e-mail oraz przesyłać i pobierać pliki.
+
+Windows® 7: Start → Wszystkie programy→ Dokumentacja pomocy firmy Dell. Windows Vista®: Start → Pomoc i obsługa techniczna→ Dell EDocs (Dokumenty elektroniczne firmy Dell).
+
+Rozrywka i multimedia
+Na komputerze można oglądać filmy, grać w gry, nagrywać własne dyski CD oraz słuchać muzyki i stacji radiowych. Napęd dysków optycznych może obsługiwać wiele formatów nośników optycznych, w tym dyski CD, DVD i Blu-ray (jeśli taka opcja zostanie wybrana przy zakupie).
+
+29
+
+Korzystanie z komputera stacjonarnego Inspiron
+
+Można pobierać lub kopiować obrazy i pliki wideo z urządzeń przenośnych, takich jak cyfrowe aparaty fotograficzne i kamery oraz telefony komórkowe. Opcjonalne aplikacje umożliwiają organizowanie i tworzenie plików muzycznych oraz wideo, które można nagrywać na dysku, zapisywać na urządzeniach przenośnych (na przykład odtwarzaczach MP3 i naręcznych urządzeniach rozrywkowych) bądź odtwarzać i wyświetlać bezpośrednio na podłączonym do komputera telewizorze, projektorze lub systemie kina domowego.
+
+30
+
+Korzystanie z komputera stacjonarnego Inspiron
+
+Dok firmy Dell
+
+Dok firmy Dell to grupa ikon zapewniająca łatwy dostęp do często używanych aplikacji, plików i folderów. Istnieje możliwość dostosowania doku do potrzeb użytkownika poprzez: •	dodawanie lub usuwanie ikon •	zmianę koloru i położenia doku •	grupowanie pokrewnych ikon w kategorie •	zmianę zachowania ikon.
+
+31
+
+Korzystanie z komputera stacjonarnego Inspiron
+
+Dodawanie kategorii
+1. Kliknij prawym przyciskiem myszy dok, kliknij kolejno Add (Dodaj) → Category (Kategoria). Zostanie wyświetlone okno Add/Edit Category (Dodaj/Edytuj kategorię). 2. Wprowadź nazwę kategorii w polu Title (Nazwa). 3. W polu Select an image: (Wybierz obraz:) wybierz ikonę kategorii. 4. Kliknij Save (Zapisz).
+
+Usuwanie kategorii lub ikony
+1. Kliknij prawym przyciskiem myszy kategorię lub ikonę w Doku, a następnie kliknij polecenie Delete shortcut (Usuń skrót) lub Delete category (Usuń kategorię). 2. Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
+
+Dostosowanie doku
+1. Kliknij dok prawym przyciskiem myszy, a następnie kliknij polecenie Advanced Setting... (Ustawienia zaawansowane...). 2. Wybierz żądaną opcję w celu dostosowania doku.
+
+Dodawanie ikony
+Przeciągnij i upuść ikonę do doku lub do kategorii.
+
+32
+
+Korzystanie z komputera stacjonarnego Inspiron
+
+Dell DataSafe Online Backup
+
+Aby skonfigurować tworzenie kopii zapasowych: 1. Kliknij dwukrotnie ikonę usługi Dell DataSafe Online na pasku zadań. 2. Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
+
+UWAGA: Usługa Dell DataSafe Online może nie być dostępna w niektórych krajach. UWAGA: Aby uzyskać dużą szybkość przesyłania lub pobierania, konieczne jest korzystanie z połączenia szerokopasmowego.
+
+Dell DataSafe Online to zautomatyzowana usługa umożliwiająca wykonywanie kopii zapasowych i odzyskiwanie danych, która pomaga chronić dane i inne ważne pliki przed takimi zdarzeniami, jak kradzież, pożar czy klęska żywiołowa. Dostęp do usługi można uzyskać, korzystając z konta -chronionego hasłem. Aby uzyskać więcej informacji, przejdź do witryny internetowej delldatasafe.com.
+
+33
+
+INSPIRON
+
+Rozwiązywanie problemów
+W tej sekcji podano informacje na temat rozwiązywania problemów z komputerem. Jeśli nie można rozwiązać problemu, postępując zgodnie z poniższymi wskazówkami, zapoznaj się z częścią „Korzystanie z narzędzi serwisowych” na stronie 43 lub „Kontakt z firmą Dell” na stronie 73. OSTRZEŻENIE: Obudowę komputera może zdejmować wyłącznie wykwalifikowany personel serwisu. Zaawansowane instrukcje serwisowe można znaleźć w Instrukcji serwisowej w witrynie support.dell.com/manuals.
+
+Kody dźwiękowe
+
+Podczas procedury startowej komputer może emitować szereg sygnałów dźwiękowych informujących o błędach lub występujących problemach. Sygnały te, nazywane kodami dźwiękowymi, identyfikują problem. Zapisz kod dźwiękowy i skontaktuj się z firmą Dell (patrz „Kontakt z firmą Dell” na stronie 73). UWAGA: Przed wymianą części komputera zapoznaj się z instrukcją serwisową w witrynie support.dell.com/manuals.
+
+34
+
+Rozwiązywanie problemów
+
+Kod dźwiękowy Jeden
+
+Możliwy problem Możliwa awaria płyty systemowej — błąd sumy kontrolnej BIOS ROM Nie wykryto pamięci RAM UWAGA: Jeżeli zainstalowano lub wymieniono moduł pamięci, należy upewnić się, że jest on ułożony prawidłowo.
+
+Problemy z siecią
+Połączenia bezprzewodowe
+Brak połączenia sieciowego — router bezprzewodowy nie ma połączenia z siecią lub w komputerze wyłączono łączność bezprzewodową. •	Sprawdź router bezprzewodowy i upewnij się, że jest on włączony i podłączony do używanego źródła danych (modemu kablowego lub koncentratora sieciowego). •	Ponownie nawiąż połączenie z routerem bezprzewodowym (patrz „Konfigurowanie połączenia bezprzewodowego” na stronie 19).
+
+Dwa
+
+Trzy Cztery Pięć Sześć
+
+Możliwa usterka płyty systemowej — błąd chipsetu Błąd zapisu/odczytu pamięci RAM Błąd zegara czasu rzeczywistego Awaria karty lub układu wideo
+
+35
+
+Rozwiązywanie problemów
+
+Połączenia przewodowe
+Brak połączenia sieciowego — •	Sprawdź kabel i upewnij się, że jest dokładnie podłączony i nieuszkodzony. •	Sprawdź stan lampki sprawności łącza. Lampka sprawności łącza przy gnieździe kabla sieciowego pozwala się upewnić, że połączenie działa, a dodatkowo informuje o jego stanie: •	Wyłączona — komputer nie wykrywa fizycznego połączenia z siecią. •	Zielona — połączenie pomiędzy siecią o przepustowości 10/100 Mb/s a komputerem jest dobre. •	Pomarańczowa — między komputerem a siecią istnieje dobre połączenie o przepustowości 1000 Mb/s. UWAGA: Lampka integralności łącza dotyczy wyłącznie połączenia przewodowego. Lampka sprawności łącza nie informuje o stanie połączeń bezprzewodowych.
+
+Problemy z zasilaniem
+
+Lampka zasilania nie świeci — komputer jest wyłączony, jest w trybie hibernacji lub nie jest zasilany. •	Naciśnij przycisk zasilania. Komputer wznawia normalną pracę, jeżeli był wyłączony lub przełączony do stanu hibernacji. •	Upewnij się, że kabel zasilacza jest prawidłowo podłączony do gniazda zasilania komputera i do gniazdka elektrycznego. •	Jeśli zasilacz jest podłączony do listwy zasilającej, upewnij się, że listwa jest podłączona do gniazdka elektrycznego i włączona. •	Sprawdź, czy można włączyć komputer bez pośrednictwa urządzeń zabezpieczających, listew zasilania i przedłużaczy.
+
+36
+
+Rozwiązywanie problemów
+
+•	Upewnij się, że gniazdko elektryczne jest sprawne, podłączając do niego inne urządzenie, na przykład lampę. •	Jeśli problem nie zostanie rozwiązany, skontaktuj się z firmą Dell (patrz część „Kontakt z firmą Dell” na stronie 73). Lampka zasilania świeci na biało, ale komputer nie reaguje — być może wyświetlacz jest niepodłączony lub wyłączony. •	Upewnij się, że wyświetlacz jest właściwie podłączony, wyłącz go, a następnie włącz ponownie. •	Jeśli problem nie zostanie rozwiązany, skontaktuj się z firmą Dell (patrz część „Kontakt z firmą Dell” na stronie 73).
+
+Jeśli lampka zasilania świeci na bursztynowo — •	komputer znajduje się w trybie uśpienia lub oczekiwania. Aby przywrócić normalne działanie, naciśnij dowolny klawisz na klawiaturze, porusz podłączoną myszą lub naciśnij przycisk zasilania. •	Mógł wystąpić problem z płytą systemową lub z zasilaniem. Aby uzyskać pomoc, skontaktuj się z firmą Dell (patrz część „Kontakt z firmą Dell” na stronie 73). Jeśli lampka zasilania miga na bursztynowo — mógł wystąpić problem z płytą systemową lub zasilaczem. Aby uzyskać pomoc, skontaktuj się z firmą Dell (patrz część „Kontakt z firmą Dell” na stronie 73).
+
+37
+
+Rozwiązywanie problemów
+
+W razie stwierdzenia zakłóceń, które pogarszają sygnał docierający do komputera — niepożądany sygnał zakłóca lub blokuje inne sygnały. Przyczynami zakłóceń mogą być: •	Przedłużacze zasilania, klawiatury i myszy. •	Zbyt wiele urządzeń podłączonych do jednej listwy zasilającej. •	Kilka listew zasilających podłączonych do tego samego gniazdka elektrycznego.
+
+Problemy z pamięcią
+
+Wyświetlany jest komunikat o niewystarczającej ilości pamięci — •	Zapisz i zamknij wszystkie otwarte pliki i zakończ działanie wszystkich otwartych programów, które nie są używane, aby sprawdzić, czy spowoduje to rozwiązanie problemu. •	Informacje na temat minimalnych wymagań dotyczących pamięci można znaleźć w dokumentacji dostarczonej z oprogramowaniem. W razie potrzeby zainstaluj dodatkowe moduły pamięci (patrz Instrukcja serwisowa w witrynie support.dell.com/manuals). •	Wymontuj moduły pamięci i zainstaluj je ponownie (zobacz Instrukcja serwisowa w witrynie support.dell.com/manuals), aby mieć pewność, że komputer prawidłowo komunikuje się z pamięcią.
+
+38
+
+Rozwiązywanie problemów
+
+•	Jeśli problem nie zostanie rozwiązany, skontaktuj się z firmą Dell (patrz część „Kontakt z firmą Dell” na stronie 73). Jeśli występują inne problemy z pamięcią — •	sprawdź, czy moduły pamięci zostały zainstalowane zgodnie z instrukcjami montażu (patrz Instrukcja serwisowa w witrynie support.dell.com/manuals). •	Sprawdź, czy używany moduł pamięci jest zgodny z komputerem. Komputer obsługuje moduły pamięci DDR3. Więcej informacji o typach pamięci obsługiwanych przez komputer można znaleźć w sekcji „Dane techniczne” na stronie 79. •	Uruchom program Dell Diagnostics (patrz „Program Dell Diagnostics” na stronie 49).
+
+•	Wymontuj moduły pamięci i zainstaluj je ponownie (zobacz Instrukcja serwisowa w witrynie support.dell.com/manuals), aby mieć pewność, że komputer prawidłowo komunikuje się z pamięcią. •	Jeśli problem nie zostanie rozwiązany, skontaktuj się z firmą Dell (patrz część „Kontakt z firmą Dell” na stronie 73).
+
+39
+
+Rozwiązywanie problemów
+
+Blokowanie się komputera i problemy z oprogramowaniem
+
+Komputer nie włącza się — upewnij się, że kabel zasilacza jest dokładnie podłączony do komputera i do gniazdka elektrycznego. Program przestał odpowiadać — zakończ pracę programu: 1. Naciśnij jednocześnie klawisze &lt;Ctrl&gt; &lt;Shift&gt;&lt;Esc&gt;. 2. Kliknij kartę Applications (Aplikacje). 3. Kliknij nazwę programu, który nie odpowiada. 4. Kliknij przycisk End Task (Zakończ zadanie).
+
+Powtarzające się awarie programu — zapoznaj się z dokumentacją oprogramowania. W razie potrzeby odinstaluj, a następnie ponownie zainstaluj program. UWAGA: Instrukcje dotyczące instalowania oprogramowania są zazwyczaj zamieszczane w jego dokumentacji lub na dysku instalacyjnym. Komputer przestał reagować lub został wyświetlony niebieski ekran: PRZESTROGA: Jeśli nie można zamknąć systemu operacyjnego, może nastąpić utrata danych. Jeżeli komputer nie reaguje na naciśnięcie klawisza klawiatury lub ruch myszy, naciśnij i przytrzymaj przez co najmniej 8 do 10 sekund przycisk zasilania, aż komputer wyłączy się. Następnie ponownie uruchom komputer.
+
+40
+
+Rozwiązywanie problemów
+
+Jeśli używany jest program zaprojektowany dla wcześniejszej wersji systemu operacyjnego Microsoft Windows — należy uruchomić Kreatora zgodności programów. Kreator zgodności programów skonfiguruje program w taki sposób, aby był on uruchamiany w środowisku podobnym do wcześniejszej wersji systemu operacyjnego Microsoft® Windows®.
+
+Windows Vista®:
+→ Panel 1. Kliknij kolejno Start sterowania→ Programy→ Użyj starszego programu z tą wersją systemu Windows. 2. Na ekranie powitalnym kliknij Dalej. 3. Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie. Jeśli występują inne problemy z oprogramowaniem: •	Natychmiast utwórz kopie zapasowe plików. •	Sprawdź dysk twardy lub dyski CD programem antywirusowym. •	Zapisz i zamknij otwarte pliki lub programy i wyłącz komputer, korzystając z menu Start .
+
+Windows 7:
+®
+
+→ Panel 1. Kliknij kolejno Start sterowania→ Programy→ Uruchom programy napisane dla starszych wersji systemu Windows . 2. Na ekranie powitalnym kliknij Dalej. 3. Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
+
+41
+
+Rozwiązywanie problemów
+
+•	Sprawdź dokumentację dostarczoną z oprogramowaniem lub skontaktuj się z producentem oprogramowania w celu uzyskania informacji na temat rozwiązywania problemów: – Sprawdź, czy program jest zgodny z systemem operacyjnym zainstalowanym w komputerze. – Sprawdź, czy komputer spełnia minimalne wymagania sprzętowe potrzebne do uruchomienia programu. Zapoznaj się z dokumentacją oprogramowania. – Sprawdź, czy program został poprawnie zainstalowany i skonfigurowany. – Sprawdź, czy sterowniki urządzeń nie powodują konfliktów z niektórymi programami. – W razie potrzeby odinstaluj program, a następnie zainstaluj go ponownie.
+
+42
+
+INSPIRON
+
+Korzystanie z narzędzi serwisowych
+Dell Support Center
+Program narzędziowy Dell Support Center pomaga znaleźć informacje serwisowe oraz uzyskać dostęp do pomocy technicznej i niezbędnych informacji specyficznych dla zakupionego modelu komputera. Aby uruchomić tę aplikację, kliknij ikonę umieszczoną na pasku zadań. Na stronie głównej aplikacji Dell Support Center wyświetlane są: numer modelu komputera, kod Service Tag, kod usług ekspresowych oraz dane kontaktowe serwisu. Na stronie głównej są także dostępne łącza do następujących funkcji: Self Help (Samodzielne rozwiązywanie problemów): rozwiązywanie problemów, bezpieczeństwo, wydajność systemu, sieć/Internet, wykonywanie/odtwarzanie kopii zapasowych, system Windows Alerts (Alerty): alerty pomocy technicznej dla posiadanego komputera
+
+43
+
+Korzystanie z narzędzi serwisowych
+
+Assistance from Dell (Wsparcie firmy Dell): pomoc techniczna za pośrednictwem usługi DellConnect™, obsługa klienta, szkolenia i podręczniki, pomoc praktyczna z wykorzystaniem narzędzia Solution Station™, skanowanie komputera w trybie online za pomocą programu PC CheckUp. About Your System (Informacje o systemie): dokumentacja systemu, informacje o gwarancji, informacje o systemie, uaktualnienia i akcesoria Aby uzyskać więcej informacji o programie Dell Support Center (Centrum pomocy technicznej firmy Dell) i dostępnych narzędziach pomocy technicznej, kliknij kartę Services (Usługi) w witrynie support.dell.com.
+
+My Dell Downloads
+
+UWAGA: Witryna My Dell Downloads może nie być dostępna w niektórych krajach.
+
+Część oprogramowania wstępnie zainstalowanego na komputerze nie obejmuje zapasowego dysku CD lub DVD. Oprogramowanie jest dostępne w witrynie My Dell Downloads. W tej witrynie można pobrać dostępne oprogramowanie w celu reinstalacji lub utworzenia własnego nośnika zapasowego. Aby zarejestrować się i używać witryny My Dell Downloads: 1. Przejdź pod adres downloadstore.dell.com/media. 2. Wykonaj wyświetlane na ekranie instrukcje w celu zarejestrowania się i pobrania oprogramowania. 3. Ponownie zainstaluj oprogramowanie lub utwórz nośnik zapasowy w celu wykorzystania w przyszłości.
+
+44
+
+Korzystanie z narzędzi serwisowych
+
+Komunikaty systemowe
+
+Jeśli w komputerze wystąpi problem lub błąd, może zostać wyświetlony komunikat systemowy, który pomoże w zidentyfikowaniu przyczyny i określeniu niezbędnych działań. UWAGA: Jeśli wyświetlonego komunikatu nie ma wśród poniższych przykładów, zapoznaj się z dokumentacją systemu operacyjnego lub programu, który był uruchomiony w chwili pojawienia się komunikatu. Dodatkową pomoc można znaleźć w zainstalowanym na dysku twardym Przewodniku po technologiach firmy Dell, w witrynie support.dell.com/manuals lub uzyskać bezpośrednio od firmy Dell (zobacz część „Kontakt z firmą Dell” na stronie 73).
+
+Alert! Previous attempts at booting this system have failed at checkpoint [nnnn]. For help in resolving this problem, please note this checkpoint and contact Dell Technical Support (Poprzednie próby uruchomienia systemu zakończyły się niepowodzeniem w punkcie kontrolnym [nnnn]. Aby ułatwić rozwiązanie problemu, zanotuj ten punkt kontrolny i zwróć się do Pomocy technicznej firmy Dell) — komputer trzykrotnie nie wykonał procedury startowej z tego samego powodu. Skontaktuj się z pomocą techniczną (informacje w sekcji „Kontakt z firmą Dell” na stronie 73). CMOS checksum error (Błąd sumy kontrolnej systemu CMOS) — możliwa awaria płyty głównej lub wyczerpanie akumulatora zegara czasu rzeczywistego. Bateria wymaga wymiany. Skorzystaj z Instrukcji serwisowej w witrynie support.dell.com/manuals lub zapoznaj się z częścią „Kontakt z firmą Dell” na stronie 73.
+
+45
+
+Korzystanie z narzędzi serwisowych
+
+CPU fan failure (Awaria wentylatora procesora) — awaria wentylatora procesora. Wentylator procesora wymaga wymiany. Zapoznaj się z Instrukcją serwisową w witrynie support.dell.com/manuals. Hard-disk drive failure (Awaria dysku twardego) — możliwa awaria dysku twardego podczas testów startowych. Aby uzyskać pomoc, zapoznaj się z częścią „Kontakt z firmą Dell” na stronie 73. Hard-disk drive read failure (Błąd odczytu dysku twardego) — Możliwa awaria dysku twardego podczas testu rozruchu. Aby uzyskać pomoc, zapoznaj się z częścią „Kontakt z firmą Dell” na stronie 73. Keyboard failure (Awaria klawiatury) — wymień klawiaturę lub sprawdź, czy połączenia kabli nie są poluzowane.
+
+No boot device available (Brak dostępnego urządzenia startowego) — brak partycji startowej na dysku twardym, poluzowany kabel dysku twardego lub nie znaleziono żadnego urządzenia startowego. •	Jeśli urządzeniem startowym jest dysk twardy, sprawdź, czy kable są podłączone, a napęd jest właściwie zamontowany i podzielony na partycje jako urządzenie startowe. •	Uruchom program konfiguracji systemu i upewnij się, że informacje dotyczące sekwencji rozruchowej są prawidłowe. Zapoznaj się z Instrukcją serwisową w witrynie support.dell.com/manuals.
+
+46
+
+Korzystanie z narzędzi serwisowych
+
+No timer tick interrupt (Brak przerwania taktu zegara) — chip na płycie systemowej może działać nieprawidłowo lub wystąpiła awaria płyty systemowej. Skorzystaj z Instrukcji serwisowej w witrynie support.dell.com/manuals lub zapoznaj się z częścią „Kontakt z firmą Dell” na stronie 73. USB over current error (Błąd zasilania urządzenia USB) — odłącz urządzenie USB. Urządzenie USB wymaga więcej energii do poprawnej pracy. Podłącz urządzenie USB do zewnętrznego zasilacza lub podłącz drugi kabel USB, jeśli urządzenie posiada dwa kable USB.
+
+NOTICE — Hard Drive SELF MONITORING SYSTEM has reported that a parameter has exceeded its normal operating range. Dell recommends that you back up your data regularly. A parameter out of range may or may not indicate a potential hard drive problem (OSTRZEŻENIE — system monitorowania dysku twardego zgłasza, że jeden z parametrów przekroczył normalny zakres operacyjny. Firma Dell zaleca regularne wykonywanie kopii zapasowych danych. Przekroczenie normalnego zakresu operacyjnego parametru może niekiedy oznaczać potencjalny problem z dyskiem twardym) — błąd funkcji S.M.A.R.T., możliwa awaria dysku twardego. Aby uzyskać pomoc, zapoznaj się z częścią „Kontakt z firmą Dell” na stronie 73.
+
+47
+
+Korzystanie z narzędzi serwisowych
+
+Narzędzie do rozwiązywania problemów ze sprzętem
+
+3. Z listy wyników wyszukiwania wybierz opcję, która najlepiej pasuje do problemu, i wykonaj pozostałe czynności rozwiązywania problemu.
+
+Jeśli urządzenie nie zostało wykryte podczas instalacji systemu operacyjnego lub zostało wykryte, ale jest nieprawidłowo skonfigurowane, do wyeliminowania niezgodności można użyć narzędzia do rozwiązywania problemów ze sprzętem (programu Hardware Troubleshooter). Aby uruchomić narzędzie do rozwiązywania problemów ze sprzętem: 1. Kliknij kolejno Start → Pomoc i obsługa techniczna. 2. W polu wyszukiwania wpisz wyrażenie hardware troubleshooter (narzędzie do rozwiązywania problemów ze sprzętem) i naciśnij klawisz &lt;Enter&gt;, aby wyszukać informacje.
+
+48
+
+Korzystanie z narzędzi serwisowych
+
+Dell Diagnostics
+
+Jeśli wystąpią problemy z komputerem, przed zasięgnięciem pomocy w firmie Dell wykonaj testy opisane w części „Blokowanie się komputera i problemy z oprogramowaniem” na stronie 40 i uruchom program Dell Diagnostics. Przed przystąpieniem do wykonywania opisanych niżej czynności zalecane jest wydrukowanie tych procedur. UWAGA: Program Dell Diagnostics działa wyłącznie na komputerach firmy Dell. UWAGA: Dysk Drivers and Utilities (Sterowniki i programy narzędziowe) może nie być dostarczany z komputerem.
+
+Zapoznaj się z sekcją Konfiguracja systemu w Instrukcji serwisowej, w której zamieszczono informacje na temat konfiguracji komputera, aby upewnić się, że urządzenie, które chcesz przetestować, jest wyświetlane w programie konfiguracji systemu i jest aktywne. Uruchom program Dell Diagnostics z dysku twardego lub z dysku Drivers and Utilities (Sterowniki i programy narzędziowe).
+
+Uruchamianie programu Dell Diagnostics z dysku twardego
+Program Dell Diagnostics znajduje się na ukrytej partycji narzędzi diagnostycznych na dysku twardym komputera. UWAGA: Jeśli na wyświetlaczu nie jest widoczny żaden obraz, skontaktuj się z firmą Dell (korzystając z informacji w części „Kontakt z firmą Dell” na stronie 73).
+
+49
+
+Korzystanie z narzędzi serwisowych
+
+1. Upewnij się, że komputer jest podłączony do prawidłowo działającego gniazdka elektrycznego. 2. Włącz lub uruchom ponownie komputer. 3. Po wyświetleniu logo DELL™ naciśnij niezwłocznie klawisz &lt;F12&gt;. Wybierz opcję Diagnostics (Diagnostyka) z menu uruchamiania i naciśnij klawisz &lt;Enter&gt;. Może to spowodować uruchomienie serii testów Pre-Boot System Assessment (PSA). UWAGA: W przypadku zbyt długiego oczekiwania i pojawienia się logo systemu operacyjnego należy zaczekać na wyświetlenie pulpitu systemu Microsoft® Windows®, a następnie wyłączyć komputer i spróbować ponownie.
+
+UWAGA: Jeśli zostanie wyświetlony komunikat informujący, że nie znaleziono partycji narzędzi diagnostycznych, uruchom program Dell Diagnostics z dysku Drivers and Utilities (Sterowniki i programy narzędziowe).
+
+Jeśli testy PSA zostaną zainicjowane:
+a. Rozpocznie się sesja testów PSA. b. Jeśli sesja testów PSA zakończy się powodzeniem, zostanie wyświetlony poniższy komunikat: „No problems have been found with this system so far. Do you want to run the remaining memory tests? This will take about 30 minutes or more. Do you want to continue? (Recommended)”. (Nie wykryto żadnych problemów z systemem. Czy chcesz przeprowadzić
+
+50
+
+Korzystanie z narzędzi serwisowych
+
+c. Jeżeli występują problemy z pamięcią, naciśnij klawisz &lt;y&gt;. W przeciwnym przypadku naciśnij klawisz &lt;n&gt;. Zostanie wyświetlony następujący komunikat: „Booting Dell Diagnostic Utility Partition. Press any key to continue”. (Rozruch z partycji narzędzi diagnostycznych Dell. Naciśnij dowolny klawisz, aby kontynuować).
+
+pozostałe testy pamięci? Proces ten może zająć 30 lub więcej minut. Czy chcesz kontynuować? (Zalecane)).
+
+Jeśli testy PSA nie zostaną zainicjowane:
+Naciśnij dowolny klawisz, aby uruchomić program Dell Diagnostics (Narzędzie diagnostyczne firmy Dell) z partycji narzędzi diagnostycznych na dysku twardym i wykonuj instrukcje wyświetlane w oknie Choose An Option (Wybierz opcję). 4. Wybierz test, który chcesz uruchomić. 5. Jeśli w trakcie testu wystąpił problem, wyświetlany jest komunikat zawierający kod błędu i opis problemu. Zanotuj kod błędu wraz z opisem problemu i skontaktuj się z firmą Dell (patrz „Kontakt z firmą Dell” na stronie 73). UWAGA: W górnej części każdego z ekranów testowych umieszczony jest kod Service Tag. Kod Service Tag umożliwia identyfikację komputera w przypadku kontaktowania się z firmą Dell.
+
+d. Naciśnij dowolny klawisz, aby przejść do okna Choose An Option (Wybierz opcję).
+
+51
+
+Korzystanie z narzędzi serwisowych
+
+6. Po zakończeniu testów zamknij ekran testu, aby powrócić do okna Choose An Option (Wybierz opcję). 7. Aby zamknąć program Dell Diagnostics i ponownie uruchomić komputer, kliknij polecenie Exit (Zamknij).
+
+Uruchamianie programu Dell Diagnostics z dysku Drivers and Utilities (Sterowniki i programy narzędziowe)
+UWAGA: Dysk Drivers and Utilities (Sterowniki i programy narzędziowe) może nie być dostarczany z komputerem. 1. Włóż dysk Drivers and Utilities (Sterowniki i programy narzędziowe). 2. Wyłącz i ponownie uruchom komputer. Natychmiast po pojawieniu się logo firmy DELL™ naciśnij klawisz &lt;F12&gt;.
+
+UWAGA: W przypadku zbyt długiego oczekiwania i pojawienia się logo systemu operacyjnego należy zaczekać na wyświetlenie pulpitu systemu Microsoft® Windows®, a następnie wyłączyć komputer i spróbować ponownie. UWAGA: Kolejne kroki procedury zmieniają sekwencję rozruchową tylko jednorazowo. Przy następnym uruchomieniu komputer wykorzysta sekwencję startową zgodnie z urządzeniami podanymi w programie konfiguracji systemu. 3. Po wyświetleniu listy urządzeń startowych zaznacz opcję CD/DVD/CDRW i naciśnij klawisz &lt;Enter&gt;. 4. Z kolejnego menu wybierz opcję Boot from CD-ROM (Uruchom z dysku CD) i naciśnij klawisz &lt;Enter&gt;.
+
+52
+
+Korzystanie z narzędzi serwisowych
+
+5. Wpisz 1, aby włączyć menu dysku CD i naciśnij klawisz &lt;Enter&gt;, aby kontynuować. 6. Wybierz opcję Run the 32 Bit Dell Diagnostics (Uruchom 32-bitową wersję programu Dell Diagnostics) z listy numerowanej. Jeśli pojawi się wiele wersji, wybierz wersję odpowiadającą danemu komputerowi. 7. Wybierz test, który chcesz uruchomić. 8. Jeśli w trakcie testu wystąpił problem, wyświetlany jest komunikat zawierający kod błędu i opis problemu. Zanotuj kod błędu wraz z opisem problemu i skontaktuj się z firmą Dell (patrz „Kontakt z firmą Dell” na stronie 73). UWAGA: W górnej części każdego z ekranów testowych umieszczony jest kod Service Tag. Kod Service Tag umożliwia identyfikację komputera w przypadku kontaktowania się z firmą Dell.
+
+9. Po zakończeniu testów zamknij ekran testu, aby powrócić do okna Choose An Option (Wybierz opcję). 10. Aby zamknąć program Dell Diagnostics i ponownie uruchomić komputer, kliknij polecenie Exit (Zamknij). 11. Wyjmij dysk Drivers and Utilities (Sterowniki i programy narzędziowe).
+
+53
+
+INSPIRON
+
+Przywracanie systemu operacyjnego
+System operacyjny komputera można przywrócić, korzystając z jednej z następujących opcji: PRZESTROGA: Użycie programu Dell Factory Image Restore lub dysku systemu operacyjnego powoduje trwałe usunięcie wszystkich plików z danymi na komputerze. O ile to możliwe, przed użyciem tych programów należy wykonać kopię zapasową danych. Opcja Przywracanie systemu Program Dell DataSafe Local Backup Nośnik przywracania systemu Użyj jako pierwsze rozwiązanie jeżeli przywracanie systemu nie powoduje rozwiązania problemu gdy usterka systemu operacyjnego uniemożliwia użycie odzyskiwania systemu i aplikacji DataSafe Local Backup w przypadku instalacji obrazu fabrycznego na nowo zainstalowanym dysku twardym Dell Factory Image Restore w celu przywrócenia komputera do stanu, w którym był po zakupie
+
+54
+
+Przywracanie systemu operacyjnego
+
+Opcja
+
+Użyj w celu ponownego zainstalowania na komputerze samego systemu operacyjnego
+
+Dysk Operating System (System operacyjny)
+
+UWAGA: Dysk Operating System (System operacyjny) może nie być dostarczany z komputerem.
+
+55
+
+Przywracanie systemu operacyjnego
+
+Przywracanie systemu
+
+System operacyjny Windows posiada funkcję Przywracanie systemu umożliwiającą przywrócenie systemu do wcześniejszego stanu działania (bez wpływu na dane), w przypadku, gdy zmiany sprzętowe, związane z oprogramowaniem lub konfiguracją systemu spowodowały niepożądaną, niestabilną pracę komputera. Wszystkie zmiany wykonane przez funkcję Przywracanie systemu można wycofać. PRZESTROGA: Należy regularnie wykonywać kopie zapasowe plików danych. Narzędzie Przywracanie systemu nie monitoruje plików danych ani nie umożliwia ich odzyskania. UWAGA: Poniższe kroki dotyczą widoku domyślnego w systemie operacyjnym Windows, dlatego mogą nie mieć odniesienia po zmianie ustawień w komputerze Dell™ na klasyczny widok systemu Windows.
+
+Uruchamianie funkcji Przywracanie systemu
+1. Kliknij Start . 2. W polu wyszukiwania wpisz Przywracanie systemu i naciśnij klawisz &lt;Enter&gt;. UWAGA: Może zostać wyświetlone okno Kontrola konta użytkownika. Jeśli jesteś administratorem komputera, kliknij opcję Kontynuuj; jeśli nim nie jesteś, zwróć się do administratora, aby wykonał żądaną czynność. 3. Kliknij przycisk Dalej i postępuj zgodnie z pozostałymi monitami wyświetlanymi na ekranie. Jeśli nie udało się rozwiązać problemu przy użyciu funkcji Przywracanie systemu, możliwe jest cofnięcie ostatniej operacji przywracania systemu.
+
+56
+
+Przywracanie systemu operacyjnego
+
+Cofnięcie ostatniej operacji przywracania systemu
+UWAGA: Przed cofnięciem ostatniego przywrócenia należy zapisać i zamknąć wszystkie otwarte pliki oraz zamknąć wszystkie otwarte programy. Dopóki przywracanie systemu nie zostanie zakończone, nie należy modyfikować, otwierać ani usuwać plików bądź programów. 1. Kliknij Start . 2. W polu wyszukiwania wpisz Przywracanie systemu i naciśnij klawisz &lt;Enter&gt;. 3. Kliknij Cofnij moje ostatnie przywracanie i kliknij przycisk Dalej.
+
+Aplikacja Dell DataSafe Local Backup
+
+PRZESTROGA: Użycie aplikacji Dell DataSafe Local Backup powoduje trwałe usunięcie wszystkich danych z dysku twardego oraz wszystkich aplikacji i sterowników zainstalowanych po otrzymaniu komputera. Przed użyciem Dell DataSafe Local Backup należy przygotować nośnik zapasowy z aplikacjami, które mają zostać zainstalowane na komputerze. Aplikacji Dell DataSafe Local Backup należy użyć tylko wtedy, gdy po użyciu funkcji Przywracanie systemu nadal występują problemy.
+
+57
+
+Przywracanie systemu operacyjnego
+
+PRZESTROGA: Aplikacja Dell Datasafe Local Backup została zaprojektowana tak, aby zachowywała pliki danych na komputerze, zaleca się jednak wykonanie przed jej użyciem kopii zapasowej plików danych. UWAGA: Aplikacja Dell DataSafe Local Backup może nie być dostępna w niektórych krajach. UWAGA: Jeśli aplikacja Dell DataSafe Local Backup nie jest dostępna na komputerze, w celu przywrócenia systemu operacyjnego należy użyć programu Dell Factory Image Restore (patrz „Dell Factory Image Restore” na stronie 61). Program Dell DataSafe Local Backup umożliwia przywrócenie dysku twardego do stanu, w którym znajdował się w momencie zakupu komputera, z zachowaniem plików danych.
+
+Program Dell DataSafe Local Backup umożliwia: •	wykonanie kopii zapasowej i przywrócenie wcześniejszego stanu komputera •	utworzenie nośnika przywracania systemu.
+
+Dell DataSafe Local Backup Basic
+W celu przywrócenia obrazu fabrycznego z zachowaniem plików z danymi: 1. Wyłącz komputer. 2. Odłącz wszystkie urządzenia podłączone do komputera (dysk USB, drukarka) i wymontuj nowo dodany sprzęt wewnętrzny. UWAGA: Nie odłączaj monitora, klawiatury, myszy ani zasilacza. 3. Włącz komputer.
+
+58
+
+Przywracanie systemu operacyjnego
+
+4. Gdy pojawia się logo firmy DELL™, naciśnij kilkakrotnie klawisz &lt;F8&gt;, aby uzyskać dostęp do okna Advanced Boot Options (Zaawansowane opcje rozruchu). UWAGA: W przypadku zbyt długiego oczekiwania i pojawienia się logo systemu operacyjnego należy zaczekać na wyświetlenie pulpitu systemu Microsoft® Windows®, a następnie wyłączyć komputer i spróbować ponownie. 5. Wybierz opcję Repair Your Computer (Napraw komputer). 6. Wybierz opcję Dell DataSafe Restore and Emergency Backup (Dell DataSafe — odzyskiwanie i tworzenie awaryjnej kopii zapasowej) z menu System Recovery Options (Opcje odzyskiwania systemu) i postępuj zgodnie ze wskazówkami wyświetlanymi na ekranie.
+
+UWAGA: Proces przywracania może trwać godzinę lub dłużej, zależnie od ilości danych, które mają być przywrócone. UWAGA: Więcej informacji można znaleźć w artykule 353560 bazy wiedzy dostępnej pod adresem support.dell.com.
+
+Aktualizacja do wersji Dell DataSafe Local Backup Professional
+UWAGA: Aplikację Dell DataSafe Local Backup Professional można zainstalować na komputerze, jeśli zostanie zamówiona podczas zakupu. Aplikacja Dell DataSafe Local Backup Professional udostępnia dodatkowe funkcje umożliwiające: •	tworzenie kopii zapasowej i przywracanie komputera na podstawie typów plików
+
+59
+
+Przywracanie systemu operacyjnego
+
+•	tworzenie kopii zapasowych na lokalnym urządzeniu pamięci masowej •	planowanie automatyzacji tworzenia kopii zapasowych. Aby dokonać aktualizacji do wersji Dell DataSafe Local Backup Professional 1. Kliknij dwukrotnie ikonę aplikacji Dell DataSafe Local Backup na pasku zadań. 2. Kliknij przycisk UPGRADE NOW! (Aktualizuj teraz). 3. Aby przeprowadzić aktualizację, postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
+
+Nośnik przywracania systemu
+
+PRZESTROGA: Nośnik przywracania systemu został zaprojektowany tak, aby zachowywał pliki danych na komputerze, zaleca się jednak wykonanie przed jego użyciem kopii zapasowej plików danych.
+
+Nośnik przywracania systemu utworzony za pomocą programu Dell DataSafe Local Backup umożliwia przywrócenie dysku twardego do stanu, w którym znajdował się w momencie zakupu komputera, z zachowaniem plików danych na komputerze. Nośnika przywracania systemu należy użyć w następujących przypadkach: •	Usterka systemu operacyjnego uniemożliwiająca użycie opcji odzyskiwania zainstalowanych na komputerze.
+
+60
+
+Przywracanie systemu operacyjnego
+
+•	Usterka dysku twardego uniemożliwiająca przywrócenie danych. Aby przywrócić za pomocą nośnika przywracania systemu obraz fabryczny komputera: 1. Włóż dysk lub napęd USB przywracania systemu i uruchom ponownie komputer. 2. Po wyświetleniu logo DELL™ naciśnij niezwłocznie klawisz &lt;F12&gt;. UWAGA: W przypadku zbyt długiego oczekiwania i pojawienia się logo systemu operacyjnego należy zaczekać na wyświetlenie pulpitu systemu Microsoft® Windows®, a następnie wyłączyć komputer i spróbować ponownie. 3. Wybierz na liście odpowiednie urządzenie rozruchowe i naciśnij klawisz &lt;Enter&gt;. 4. Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, aby dokończyć proces odzyskiwania.
+
+Program Dell Factory Image Restore
+
+PRZESTROGA: Użycie programu Dell Factory Image Restore (Narzędzie do przywracania obrazu fabrycznego firmy Dell) powoduje trwałe usunięcie wszystkich danych z dysku twardego oraz wszystkich aplikacji i sterowników zainstalowanych po otrzymaniu komputera. O ile to możliwe, przed użyciem tych narzędzi należy wykonać kopie zapasowe danych. Programu Dell Factory Image Restore należy użyć tylko wtedy, gdy po użyciu funkcji Przywracanie systemu nadal występują problemy. UWAGA: Program Dell Factory Image Restore może nie być dostępny w pewnych krajach lub w niektórych komputerach.
+
+61
+
+Przywracanie systemu operacyjnego
+
+UWAGA: Jeśli aplikacja Dell Factory Image Restore nie jest dostępna na komputerze, w celu przywrócenia systemu operacyjnego należy użyć programu Dell DataSafe Local Backup (patrz „Dell DataSafe Local Backup” na stronie 57). Programu Dell Factory Image Restore należy używać do przywracania systemu tylko w ostateczności. Użycie tego programu powoduje przywrócenie dysku twardego do stanu, w jakim znajdował się w momencie zakupu komputera. Wszystkie programy lub pliki dodane od tego czasu — w tym pliki danych — są trwale usuwane z twardego dysku. Do plików danych należą dokumenty, arkusze kalkulacyjne, wiadomości e-mail, zdjęcia cyfrowe, pliki muzyczne itd. O ile to możliwe, przed użyciem programu Factory Image Restore należy utworzyć kopię zapasową danych.
+
+Uruchamianie programu Dell Factory Image Restore
+1. Włącz komputer. 2. Gdy pojawia się logo firmy DELL™, naciśnij kilkakrotnie klawisz &lt;F8&gt;, aby uzyskać dostęp do okna Advanced Boot Options (Zaawansowane opcje rozruchu). UWAGA: W przypadku zbyt długiego oczekiwania i pojawienia się logo systemu operacyjnego należy zaczekać na wyświetlenie pulpitu systemu Microsoft® Windows®, a następnie wyłączyć komputer i spróbować ponownie. 3. Wybierz opcję Repair Your Computer (Napraw komputer). Zostanie wyświetlone okno System Recovery Options (Opcje odzyskiwania systemu).
+
+62
+
+Przywracanie systemu operacyjnego
+
+4. Wybierz układ klawiatury i kliknij przycisk Next (Dalej). 5. Aby uzyskać dostęp do opcji odzyskiwania systemu, zaloguj się jako użytkownik lokalny. Aby uzyskać dostęp do wiersza poleceń, wpisz słowo administrator w polu User name (Nazwa użytkownika), a następnie kliknij przycisk OK. 6. Kliknij opcję Dell Factory Image Restore. Zostanie wyświetlony ekran powitalny programu Dell Factory Image Restore. UWAGA: W zależności od konfiguracji komputera może być konieczne wybranie opcji Dell Factory Tools (narzędzia fabryczne firmy Dell), a następnie opcji Dell Factory Image Restore.
+
+7. Kliknij przycisk Next (Dalej). Zostanie wyświetlony ekran Confirm Data Deletion (Potwierdzanie usunięcia danych). UWAGA: Jeśli nie chcesz kontynuować działania programu Factory Image Restore, kliknij przycisk Cancel (Anuluj). 8. Zaznacz kliknięciem pole wyboru, aby zatwierdzić czynność formatowania dysku twardego i przywrócenia ustawień fabrycznych systemu, a następnie kliknij przycisk Next (Dalej). Rozpocznie się proces przywracania i może potrwać 5 minut lub dłużej. Po przywróceniu systemu operacyjnego i aplikacji do stanu fabrycznego zostanie wyświetlony odpowiedni komunikat. 9. Kliknij przycisk Finish (Zakończ), aby ponownie uruchomić komputer.
+
+63
+
+INSPIRON
+
+Uzyskiwanie pomocy
+W razie wystąpienia problemu z komputerem można wykonać poniższe czynności w celu ustalenia przyczyny problemu i jego rozwiązania: 1. Informacje i procedury dotyczące problemów z komputerem znajdują się w części „Rozwiązywanie problemów” na stronie 34. 2. Procedury uruchamiania programu Dell Diagnostics opisano w części „Dell Diagnostics” na stronie 49. 3. Wypełnij „Diagnostyczną listę kontrolną” na stronie 72. 4. W celu uzyskania pomocy dotyczącej procedur instalacji i rozwiązywania problemów należy skorzystać z obszernego zestawu usług dostępnych w witrynie pomocy technicznej firmy Dell (support.dell.com). Szczegółowy wykaz dostępnych usług firmy Dell można znaleźć w części „Usługi online” na stronie 66. 5. Jeśli problemu nie udało się rozwiązać za pomocą powyższych kroków, skontaktuj się z firmą Dell, korzystając z informacji w sekcji „Kontakt z firmą Dell” na stronie 73. UWAGA: Do działu pomocy technicznej należy dzwonić z aparatu telefonicznego znajdującego się niedaleko komputera lub bezpośrednio przy nim, aby pracownik pomocy technicznej mógł pomagać użytkownikowi podczas wykonywania wszystkich niezbędnych procedur. UWAGA: System kodów usług ekspresowych (Express Service Code) firmy Dell może nie być dostępny w niektórych krajach.
+
+64
+
+Uzyskiwanie pomocy
+
+Po usłyszeniu monitu z automatycznego systemu telefonicznego firmy Dell należy wprowadzić swój kod usług ekspresowych, aby połączenie zostało skierowane bezpośrednio do właściwego działu pomocy technicznej. Jeśli nie posiadasz kodu usług ekspresowych, otwórz folder Dell Accessories (Akcesoria firmy Dell), kliknij dwukrotnie ikonę Express Service Code (Kod usług ekspresowych) i postępuj zgodnie ze wskazówkami. UWAGA: Niektóre z niżej wymienionych usług są dostępne tylko na kontynentalnym obszarze USA. Informacje o ich dostępności można uzyskać u lokalnego przedstawiciela firmy Dell.
+
+Pomoc techniczna i obsługa klienta
+
+Dział pomocy technicznej firmy Dell odpowiada na pytania użytkowników dotyczące sprzętu Dell. Personel pomocy technicznej stara się udzielać szybkich i dokładnych odpowiedzi, korzystając z komputerowych rozwiązań diagnostycznych. Aby skontaktować się z działem pomocy technicznej firmy Dell, zapoznaj się z tematem „Zanim zadzwonisz” na stronie 71, a następnie sprawdź informacje kontaktowe dla swojego regionu lub otwórz witrynę support.dell.com.
+
+65
+
+Uzyskiwanie pomocy
+
+Usługa DellConnect™ jest prostym narzędziem internetowym, które umożliwia pracownikowi działu obsługi i pomocy technicznej firmy Dell uzyskanie dostępu do komputera przez połączenie szerokopasmowe, przeprowadzenie diagnostyki problemu i wykonanie naprawy pod nadzorem użytkownika. Aby uzyskać więcej informacji, przejdź do witryny support.dell.comdellconnect.
+
+DellConnect
+
+Usługi online
+•	www.dell.com
+
+Z informacjami o produktach i usługach firmy Dell można zapoznać się w następujących witrynach: •	www.dell.com/ap (tylko w krajach Azji i Pacyfiku) •	www.dell.com/jp (tylko w Japonii) •	www.euro.dell.com (tylko w Europie) •	www.dell.com/la (w krajach Ameryki Łacińskiej i na Karaibach) •	www.dell.ca (tylko w Kanadzie) Aby uzyskać dostęp do pomocy technicznej firmy Dell, można odwiedzić następujące witryny internetowe lub wysłać wiadomość e-mail na jeden z następujących adresów:
+
+66
+
+Uzyskiwanie pomocy
+
+Witryny Pomocy technicznej firmy Dell
+•	support.euro.dell.com •	support.jp.dell.com (tylko w Japonii) •	support.euro.dell.com (tylko w Europie)
+
+Adresy e-mail działów marketingu i sprzedaży firmy Dell
+•	apmarketing@dell.com (tylko w krajach Azji i Pacyfiku) •	sales_canada@dell.com (tylko w Kanadzie)
+
+Adresy e-mail Pomocy technicznej firmy Dell:
+•	mobile_support@us.dell.com •	support@us.dell.com •	la-techsupport@dell.com (tylko w krajach Ameryki Południowej i Karaibów) •	apsupport@dell.com (tylko w krajach Azji i Pacyfiku)
+
+Anonimowy serwer FTP (file transfer protocol)
+•	ftp.dell.com Zaloguj się jako użytkownik: anonymous, a jako hasło podaj swój adres e-mail.
+
+67
+
+Uzyskiwanie pomocy
+
+Automatyczna obsługa stanu zamówienia
+
+Informacje o produkcie
+
+Stan realizacji zamówienia dowolnego produktu firmy Dell można sprawdzić w witrynie support.dell.com lub w automatycznym serwisie informacji o stanie zamówienia. Automat zgłoszeniowy prosi użytkownika o podanie informacji potrzebnych do zlokalizowania zamówienia i dostarczenia sprawozdania na jego temat. Aby określić właściwy numer telefonu dla swojego regionu, zapoznaj się z informacjami zawartymi w części „Kontakt z firmą Dell” na stronie 73. Jeżeli występują problemy z zamówieniem, takie jak brak części, niewłaściwe części lub błędy na fakturze, należy skontaktować się z firmą Dell w celu uzyskania pomocy. Przed wybraniem numeru należy przygotować fakturę lub kwit opakowania. Aby określić właściwy numer telefonu dla swojego regionu, należy zapoznać się z sekcją „Kontakt z firmą Dell” na stronie 73.
+
+Aby znaleźć informacje dotyczące dodatkowych produktów firmy Dell lub złożyć zamówienie, należy przejść do witryny www.dell.com. Aby uzyskać numer telefonu dla swojego regionu lub skontaktować się z pracownikiem działu sprzedaży, zapoznaj się z sekcją „Kontakt z firmą Dell” na stronie 73.
+
+68
+
+Uzyskiwanie pomocy
+
+Zwroty produktów w celu dokonania naprawy gwarancyjnej lub uzyskania zwrotu pieniędzy
+
+poufnym, autorskim lub prywatnym, utracone lub uszkodzone dane bądź też uszkodzone lub utracone wymienne nośniki danych, które zostaną oddane wraz z produktem. 1. Zadzwoń do firmy Dell, aby uzyskać numer autoryzacji zwrotu materiału (RMA — Return Material Authorization), a następnie napisz go wyraźnie w widocznym miejscu na zewnętrznej stronie pudełka. Aby określić właściwy numer telefonu dla swojego regionu, należy zapoznać się z sekcją „Kontakt z firmą Dell” na stronie 73. 2. Załącz kopię faktury i list opisujący powód odesłania produktu. 3. Dołącz diagnostyczną listę kontrolną (patrz „Diagnostyczna lista kontrolna” na stronie 72) z wyszczególnieniem wykonanych testów oraz opisem wszelkich komunikatów o błędach wyświetlanych w programie Dell Diagnostics (patrz „Dell Diagnostics” na stronie 49).
+
+Wszystkie elementy, które mają być oddane zarówno do naprawy, jak i do zwrotu, przygotuj zgodnie z poniższymi wskazówkami: UWAGA: Przed odesłaniem produktu do firmy Dell, należy utworzyć kopie zapasowe wszelkich danych zapisanych na dysku twardym i innych urządzeniach pamięci masowej w komputerze. Należy usunąć z komputera wszelkie informacje o charakterze poufnym, autorskim lub prywatnym oraz wyjąć nośniki danych, takie jak dyski CD lub karty pamięci. Firma Dell nie ponosi odpowiedzialności za jakiekolwiek informacje o charakterze
+
+69
+
+Uzyskiwanie pomocy
+
+4. W przypadku zwrotu w celu uzyskania pieniędzy dołącz wszystkie oryginalne akcesoria zwracanego urządzenia (zasilacz, dyski z oprogramowaniem, przewodniki itd.). 5. Zapakuj sprzęt przeznaczony do zwrotu w opakowanie oryginalne lub odpowiadające oryginalnemu. UWAGA: Koszty wysyłki pokrywa użytkownik. Użytkownik jest również odpowiedzialny za ubezpieczenie każdego zwracanego produktu i bierze na siebie ryzyko jego ewentualnej utraty podczas wysyłki do firmy Dell. Paczki przesyłane na zasadzie pobrania przy doręczeniu (Collect On Delivery) nie są akceptowane. UWAGA: Zwroty niespełniające któregokolwiek z powyższych warunków będą odrzucane przez firmę Dell i odsyłane użytkownikowi.
+
+70
+
+Uzyskiwanie pomocy
+
+Zanim zadzwonisz
+
+UWAGA: Przed wybraniem numeru należy przygotować swój kod usług ekspresowych (ESC). Dzięki niemu automatyczny system telefoniczny firmy Dell może sprawniej obsługiwać odbierane połączenia. Może być również konieczne podanie kodu Service Tag.
+
+Znajdowanie kodu Service Tag
+Kod Service Tag znajduje się na etykiecie umieszczonej na spodzie komputera.
+
+1
+
+1
+
+Kod Service Tag/Kod usług ekspresowych
+
+71
+
+Uzyskiwanie pomocy
+
+Pamiętaj o wypełnieniu poniższej diagnostycznej listy kontrolnej. Jeżeli jest to możliwe, przed wykonaniem telefonu do firmy Dell należy włączyć komputer i dzwonić z aparatu telefonicznego znajdującego się przy komputerze lub w jego pobliżu. Personel obsługi może poprosić użytkownika o wpisanie pewnych poleceń na klawiaturze, przekazywanie szczegółowych informacji podczas wykonywania operacji lub wykonanie innych czynności związanych z rozwiązywaniem problemów, które można przeprowadzić tylko na komputerze. Należy też mieć pod ręką dokumentację komputera.
+
+Diagnostyczna lista kontrolna •	Nazwisko i imię: •	Data: •	Adres: •	Numer telefonu: •	Kod Service Tag oraz kod usług ekspresowych (umieszczone na etykiecie na spodzie komputera): •	Numer autoryzacji zwrotu materiałów (jeśli został podany przez pomoc techniczną firmy Dell): •	System operacyjny i jego wersja: •	Urządzenia: •	Karty rozszerzeń: •	Czy komputer użytkownika jest podłączony do sieci? Tak/Nie •	Sieć, wersja i karta sieciowa: •	Programy i ich wersje:
+
+72
+
+Uzyskiwanie pomocy
+
+Korzystając z instrukcji zamieszczonych w dokumentacji systemu operacyjnego, ustal zawartość plików startowych komputera. Jeśli do komputera podłączona jest drukarka, należy wydrukować poszczególne pliki. Jeśli nie ma drukarki, przed skontaktowaniem się z firmą Dell należy przepisać zawartość poszczególnych plików. •	Komunikat o błędzie, kod dźwiękowy lub kod diagnostyczny: •	Opis problemu oraz procedur wykonywanych przez użytkownika w celu rozwiązania problemu:
+
+Kontakt z firmą Dell
+
+Klienci w Stanach Zjednoczonych mogą dzwonić pod numer telefonu 800-WWWDELL (800-999-3355). UWAGA: W przypadku braku aktywnego połączenia z Internetem informacje kontaktowe można znaleźć na fakturze, w dokumencie dostawy, na rachunku lub w katalogu produktów firmy Dell. Firma Dell oferuje kilka różnych form obsługi technicznej i serwisu, usług elektronicznych oraz telefonicznych. Ich dostępność różni się w zależności od produktu i kraju, a niektóre z nich mogą być niedostępne w regionie użytkownika.
+
+73
+
+Uzyskiwanie pomocy
+
+Aby skontaktować z firmą Dell w sprawie sprzedaży, pomocy technicznej lub obsługi klienta: 1. Odwiedź witrynę www.dell.com/contactdell. 2. Wybierz swój kraj lub region. 3. Wybierz odpowiednie łącze do działu obsługi lub pomocy technicznej w zależności od potrzeb. 4. Wybierz dogodną metodę kontaktu z firmą Dell.
+
+74
+
+Uzyskiwanie pomocy
+
+75
+
+INSPIRON
+
+Gdzie szukać dodatkowych informacji i materiałów
+Jeśli chcesz: Patrz:
+ponownie zainstalować system operacyjny uruchomić program diagnostyczny do komputera ponownie zainstalować oprogramowanie systemowe „nośnik przywracania systemu” na stronie 60 „Program Dell Diagnostics” na stronie 49 „My Dell Downloads” na stronie 44
+
+znaleźć więcej informacji na temat systemu support.euro.dell.com operacyjnego Microsoft® Windows® i jego funkcji
+
+76
+
+Gdzie szukać dodatkowych informacji i materiałów
+
+Jeśli chcesz:
+Zmodernizować komputer poprzez wymianę lub rozbudowę pamięci lub zamontowanie nowego dysku twardego. ponownie zainstalować lub wymienić zużytą lub wadliwą część
+
+Patrz:
+Instrukcja serwisowa dostępna pod adresem support.dell.com/manuals UWAGA: W niektórych krajach samodzielne otwieranie obudowy komputera i wymiana części może spowodować unieważnienie gwarancji. Przed przystąpieniem do prac wewnątrz komputera zapoznaj się z warunkami gwarancji i zwrotów. Dostarczone z komputerem dokumenty dotyczące bezpieczeństwa i zgodności z przepisami oraz dodatkowe informacje w witrynie zgodności z przepisami pod adresem www.dell.com/regulatory_compliance.
+
+znaleźć informacje na temat sprawdzonych procedur obsługi komputera zapoznać się z warunkami gwarancji, warunkami użytkowania (tylko USA), instrukcjami dotyczącymi bezpieczeństwa, informacjami o przepisach, informacjami o ergonomii i umową licencyjną użytkownika
+
+77
+
+Gdzie szukać dodatkowych informacji i materiałów
+
+Jeśli chcesz:
+Odnaleźć kod Service Tag lub kod usług ekspresowych — kod Service Tag jest niezbędny w celu zidentyfikowania komputera w witrynie support.dell.com i podczas kontaktów z pomocą techniczną. znaleźć sterowniki i pliki do pobrania; pliki readme uzyskać dostęp do pomocy technicznej i pomocy dotyczącej produktów sprawdzić status zamówienia nowo zakupionych produktów znaleźć rozwiązania i odpowiedzi na częste pytania znaleźć najnowsze informacje o zmianach technicznych, które zostały wprowadzone w komputerze, lub zaawansowane materiały techniczne, przeznaczone dla techników i doświadczonych użytkowników
+
+Patrz:
+dolna część komputera program Dell Support Center. Aby uruchomić program Dell Support Center, kliknij ikonę na pasku zadań. support.euro.dell.com
+
+78
+
+INSPIRON
+
+Dane techniczne
+W tej sekcji podano informacje, które mogą być potrzebne podczas konfigurowania i modernizacji komputera lub aktualizowania sterowników. UWAGA: Oferowane opcje mogą być różne w różnych krajach. Aby uzyskać więcej informacji dotyczących konfiguracji komputera, zapoznaj się z dokumentacją komputera w następującym miejscu:
+
+Windows® 7: Start
+
+→ Wszystkie programy→ Dokumentacja pomocy firmy Dell.
+
+Windows Vista®: Start → Pomoc i obsługa techniczna→ Dell EDocs (Dokumenty elektroniczne firmy Dell).
+
+Model komputera
+Inspiron 410
+™
+
+Informacje o komputerze
+Chipset systemowy RS880M+SB820M
+
+Informacje o komputerze
+Typy procesorów AMD™ Athlon™ II Dual Core AMD Turion™ II Dual Core AMD Phenom™ II Triple Core AMD Phenom II Quad Core AMD V Series Single Core
+
+Pamięć
+Złącza Typ pamięci dwa złącza SODIMM dostępne od wewnątrz pamięci 1066 MHz DDR3 SODIMM; tylko pamięć bez funkcji ECC
+
+79
+
+Dane techniczne
+
+Pamięć
+Pojemność modułów pamięci Możliwe konfiguracje 1 GB, 2 GB i 4 GB
+
+Dźwięk
+Typ zintegrowana karta dźwiękowa o wysokiej rozdzielczości w konfiguracji 2.1 do cyfrowego sygnału audio 7.1 S/PDIF (optyczny)
+
+1 GB, 2 GB, 3 GB, 4 GB, 6 GB i 8 GB
+
+UWAGA: Instrukcje dotyczące rozbudowy pamięci można znaleźć w Instrukcji serwisowej pod adresem support.dell.com/manuals.
+
+Komunikacja
+Bezprzewodowa 802.11 a/b/g/n; b/g/n (opcjonalnie)
+Karta sieciowa
+
+Napędy
+Dostępne z zewnątrz (opcjonalnie) jedna wnęka 5,25 cala na 12,7-milimetrowy napęd z szufladą SATA DVD+/ -RW Super Multi Drive lub napęd hybrydowy Blu-ray Disc™ jedna wnęka 3,5 cala na dyski twarde SATA
+
+10/100/1000 Ethernet LAN na płycie systemowej
+
+Grafika
+Zintegrowana Autonomiczna (opcjonalnie) ATI Mobility Radeon™ HD 4250 ATI Mobility Radeon™ HD 5450, 1 GB
+
+Dostępne od wewnątrz:
+
+80
+
+Dane techniczne
+
+Czytnik kart pamięci
+Obsługiwane karty karta Secure Digital (SD) karta MicroSD karta MiniSD karta Secure Digital High Capacity (SDHC) MultiMedia Card (MMC) karta xD-Picture karta Memory Stick PRO/Duo
+
+Złącza zewnętrzne:
+Czytnik kart pamięci czujnik podczerwieni (opcjonalny) Karta sieciowa USB Dźwięk S/PDIF eSATA VGA HDMI gniazdo czytnika kart 4w1 jeden
+
+Złącza na panelu tylnym: jedno złącze RJ45 dwa złącza zgodne ze standardem USB 2.0 mikrofon i złącze wyjścia liniowego cyfrowe złącze S/PDIF (optyczne) dwa złącza 7-stykowe złącze 15-otworowe jedno złącze 19-stykowe
+
+Złącza zewnętrzne:
+złącza panelu przedniego: USB Dźwięk dwa złącza zgodne ze standardem USB 2.0 jedno złącze słuchawek
+
+81
+
+Dane techniczne
+
+Zasilacz
+90 W (seria E): UWAGA: W modelach z autonomiczną kartą graficzną (opcjonalnie). Napięcie wejściowe Prąd wejściowy Częstotliwość prądu wejściowego Prąd wyjściowy Prąd wyjściowy Nominalne napięcie wyjściowe 100–240 V – prąd przemienny 1,5 A 50-60 Hz
+
+Zasilacz
+65 W (seria E): Napięcie wejściowe Prąd wejściowy Częstotliwość prądu wejściowego Prąd wyjściowy Prąd wyjściowy Nominalne napięcie wyjściowe 100–240 V – prąd przemienny 1,5/1,6/1,7 A 50-60 Hz
+
+65 W 3,34 A prąd stały 19,5 V
+
+90 W 4,62 A prąd stały 19,5 V
+
+82
+
+Dane techniczne
+
+Akumulator
+Bateria pastylkowa bateria litowa 3 V CR2032
+
+Warunki otoczenia
+Maksymalne wibracje (z wykorzystaniem spektrum losowych wibracji, które symulują środowisko użytkownika): Podczas pracy Podczas przechowywania 0,26 Grms 2,2 Grms
+
+Dane fizyczne
+Wysokość Szerokość Głębokość Masa 197,6 mm 197,6 mm 89 mm 2,0 kg
+
+Warunki otoczenia
+Zakres temperatur: Podczas pracy Podczas przechowywania Wilgotność względna (maksymalna) od 10°C do 35°C od –40°C do 65°C od 20% do 80% (bez kondensacji)
+
+Maksymalny wstrząs (w trakcie pracy — mierzony przy uruchomionym programie Dell Diagnostics dla dysku twardego z zaparkowanymi głowicami i impulsu pół-sinusoidalnego o długości 2 ms; poza czasem pracy — mierzony dla dysku twardego z zaparkowanymi głowicami i impulsu pół-sinusoidalnego o długości 26 ms): Podczas pracy 40 G dla 2 ms ze zmianą prędkości na poziomie 51 cm/s
+
+83
+
+Dane techniczne
+
+Warunki otoczenia
+Poza czasem pracy 45 G dla 26 ms ze zmianą prędkości na poziomie 732 cm/s
+
+Wysokość nad poziomem morza (maksymalna): Podczas pracy Podczas przechowywania Poziom zanieczyszczenia powietrza od –15,2 do 3048 m od –15,2 do 10 668 m G2 lub niższy, wg definicji w ISA-S71.04-1985
+
+84
+
+INSPIRON
+
+Dodatek
+Uwaga dotycząca produktów firmy Macrovision
+Ten produkt zawiera technologię ochrony praw autorskich, która jest chroniona przez metody zastrzeżone niektórymi patentami w Stanach Zjednoczonych oraz przez inne prawa własności intelektualnej będące własnością firmy Macrovision Corporation i innych właścicieli praw. Korzystanie z niniejszej technologii ochrony praw autorskich musi być autoryzowane przez firmę Macrovision Corporation. Ponadto jest ona przeznaczona jedynie do użytku domowego i innych ograniczonych zastosowań, chyba że autoryzacja firmy Macrovision Corporation stanowi inaczej. Przetwarzanie wsteczne i dezasemblacja są zabronione.
+
+85
+
+Dodatek
+
+Informacje dotyczące spełnienia norm NOM lub Official Mexican Standard (oficjalnej normy meksykańskiej) (dotyczy Meksyku)
+Importer: Dell México S.A. de C.V. Paseo de la Reforma 2620 – Flat 11° Col. Lomas Altas 11950 México, D.F. Napięcie wejściowe 100-240 V Częstotliwość prądu wejściowego 50-60 Hz
+
+Poniższa informacja znajduje się na urządzeniu opisanym w niniejszym dokumencie zgodnie z oficjalną normą meksykańską (Official Mexican Standard, NOM):
+
+Numer modelu D03U
+
+Nominalny prąd wyjściowy 3,34/4,62 A
+
+Szczegółowe informacje zamieszczono w dokumentach dotyczących bezpieczeństwa, które zostały dostarczone z komputerem. Więcej informacji o zasadach bezpieczeństwa znajduje się na stronie dotyczącej przestrzegania przepisów pod adresem www.dell.com/regulatory_compliance.
+
+86
+
+INSPIRON
+
+Indeks
+A
+dyski CD, odtwarzanie i tworzenie 29 dyski DVD, odtwarzanie i tworzenie 30 adresy e-mail pomoc techniczna 67 adresy e-mail pomocy technicznej 67
+
+E F
+
+B C D
+
+elementy widoczne z przodu 22
+
+bezprzewodowe połączenie sieciowe 35
+
+funkcje oprogramowania 29
+
+chipset 79
+
+G I
+
+gniazdo sieciowe położenie 27
+
+DataSafe Local Backup 57 DellConnect 66 Dell Diagnostics 49 diagnostyczna lista kontrolna 72
+
+ISP dostawca usług internetowych 19
+
+87
+
+Indeks
+
+K
+
+karta pamięci: czytnik 23 kod Service Tag 71 kod usług ekspresowych (ESC) 64 komunikaty systemowe 45 kontakt telefoniczny z firmą Dell 71 kontakt z firmą Dell 73
+
+narzędzie do rozwiązywania problemów ze sprzętem 48
+
+O
+
+obsługa klienta 65 obsługa pamięci 79 optyczne złącze audio S/PDIF 27
+
+L
+
+lampka aktywności dysku twardego 28 logowanie FTP, anonimowe 67
+
+P
+
+podłączanie opcjonalny kabel sieciowy 14 połączenie sieciowe naprawianie 36 połączenie z Internetem 19 pomoc techniczna 65 problemy, rozwiązywanie 34 problemy ze sprzętem diagnozowanie 48
+
+M N
+
+możliwości komputera 29
+
+napęd dysku twardego typ 80
+
+88
+
+Indeks
+
+problemy z oprogramowaniem 40 problemy z pamięcią rozwiązywanie 38 problemy z zasilaniem, rozwiązywanie 36 procesor 79 produkty informacje i kupowanie 68 przycisk i kontrolka zasilania 25 przycisk wysuwania 23 przywracanie obrazu fabrycznego 61
+
+U
+
+USB 2.0 złącza przednie 23 złącza tylne 28
+
+W
+
+Windows Kreator zgodności programów 41 Windows, ponowna instalacja 55 witryny pomocy technicznej na całym świecie 66 wysunięcie dysku 23 wysyłanie produktów do zwrotu lub naprawy 69
+
+R S
+
+rozwiązywanie problemów 34
+
+stan zamówienia 68 sterowniki i pliki do pobrania 78
+
+89
+
+Indeks
+
+Z
+
+złącze eSATA 27 złącze HDMI 28 znajdowanie kodu Service Tag 71 zwroty gwarancyjne 69
+
+90
+
+Wydrukowano w Irlandii
+
+www.dell.com | support.euro.dell.com
+
+</data>
+<stemmer>depluralize</stemmer>
+<kb>polish</kb>
+<expected>polish</expected>
+<basis>Yes</basis>
+</test>
+</testset>
+

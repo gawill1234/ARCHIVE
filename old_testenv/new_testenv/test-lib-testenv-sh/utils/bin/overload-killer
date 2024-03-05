@@ -1,0 +1,74 @@
+#!/usr/bin/python
+
+import os
+import re
+import signal
+import stat
+import sys
+import time
+
+def meminfo():
+    """Return a dictionary of the contents of /proc/meminfo.
+    The values are returned as integers. Any units (usually kB) are ignored.
+
+    example:
+    print 'Free swap space is:', meminfo()['SwapFree']"""
+    ret = {}
+    f = open('/proc/meminfo')
+    for line in f:
+        name, value = line.split(':')
+        ret[name] = int(value.strip().split(' ')[0])
+    f.close()
+    return ret
+
+
+if os.uname()[1] == 'testbed6':
+    velocity_path = '/srv/www/htdocs/vivisimo/'
+elif os.uname()[1] == 'testbed10.test.vivisimo.com':
+    velocity_path = '/var/www/html/vivisimo'
+else:
+    print 'Unknown host:', os.uname()[1]
+    sys.exit(1)
+
+if os.getuid() == 0:
+    print 'Must run as the Velocity runtime user (not "root").'
+    sys.exit(1)
+
+loadavglimit = 256             # Default load average limit.
+swaplimit = 1048576            # Minimum swap default it one gigabyte.
+
+if len(sys.argv) > 1:
+    loadavglimit = int(sys.argv[1]) # Allow user specified limit.
+
+if len(sys.argv) > 2:
+    swaplimit = int(sys.argv[2]) # Allow user specified limit.
+
+digitsRE = re.compile('[0-9]+')
+
+while True:                     # run forever
+    while os.getloadavg()[0] < loadavglimit \
+            and meminfo()['SwapFree'] > swaplimit:
+        time.sleep(10)
+
+    # If we get here, we need to fire...
+    print '****************************************************************'
+    print sys.argv[0], 'beginning kill', time.ctime()
+
+    # Loop through the processes on the system
+    for pid in [e for e in os.listdir('/proc') if digitsRE.match(e)]:
+        try:
+            # Don't kill myself!
+            # only consider processes running as me,
+            # and running under our expected location.
+            if int(pid) != os.getpid() and \
+                    os.stat('/proc/'+pid)[stat.ST_UID] == os.getuid() and \
+                    os.readlink('/proc/'+pid+'/exe').startswith(velocity_path):
+                os.kill(int(pid), signal.SIGKILL)
+        except:
+            print 'Ignoring pid', pid, 'due to', sys.exc_info()[1]
+
+    print sys.argv[0], 'kill completed', time.ctime()
+    print '----------------------------------------------------------------'
+
+    # Give the system some time to settle down before we start checking again.
+    time.sleep(60)

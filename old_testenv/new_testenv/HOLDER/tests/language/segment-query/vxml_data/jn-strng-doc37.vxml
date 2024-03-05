@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vce>
+        <document vse-key="document://JN1/doc37">
+           <vse-index-stream segmenter="japanese" stem="depluralize" kb="japanese-indexing"/>
+           <content name="title">お茶でも飲もう</content>
+           <content name="qid-list">ALL</content>
+        </document>
+</vce>

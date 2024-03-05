@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="query-xml-supported">query-xml-supported</attribute>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="2" />
+<attribute name="admin-url"
+  value="http://testbed6-8.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="total-results-with-duplicates" value="2" />
+<document url="http://en.wikipedia.org/wiki/German_battleship_Bismarck"
+  vse-key="http://en.wikipedia.org:80/wiki/German_battleship_Bismarck/" vertex="61"
+  ct="application/vxml-unnormalized" la-score="0.1" vse-base-score="1.75"
+>
+  <content type="text" name="title" u="16">Bismarck</content>
+  <content name="NATION" type="text" u="18">Germany</content>
+  <content name="ALIGNED" type="text" u="20">axis</content>
+  <content name="SHIP_TYPE" type="text" u="22">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="10">http://en.wikipedia.org/wiki/German_battleship_</pre>
+      <content name="url" type="TEXT" action="none" u="3" v="11" />
+      <match u="11" v="11">Bismarck</match>
+      <post u="13" v="15">en.wikipedia.org</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="17" v="16"></pre>
+      <content type="TEXT" name="title" u="16" v="17" />
+      <match u="17" v="17">Bismarck</match>
+      <post u="19" v="19">Germany</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="25" v="31">http://en.wikipedia.org/wiki/German_battleship_</pre>
+      <content name="URL_LOCATER" type="TEXT" u="24" v="32" />
+      <match u="32" v="32">Bismarck</match>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"></content>
+</document>
+<document url="http://www.battleshipbismarck.com/"
+  vse-key="http://www.battleshipbismarck.com:80/" vertex="62"
+  ct="application/vxml-unnormalized" la-score="0.1" vse-base-score="1"
+>
+  <content type="text" name="title" u="12">Bismarck</content>
+  <content name="NATION" type="text" u="14">Germany</content>
+  <content name="ALIGNED" type="text" u="16">axis</content>
+  <content name="SHIP_TYPE" type="text" u="18">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="13" v="12"></pre>
+      <content type="TEXT" name="title" u="12" v="13" />
+      <match u="13" v="13">Bismarck</match>
+      <post u="15" v="15">Germany</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"></content>
+</document>
+<retrieval-performance n-tau="75" n-rho="16" n-uat="6" n-ohr="0"
+  occr-reads="1065" block-reads="5" seeks="0" cache-hits="4" cache-misses="1"
+  n-blocks="76"
+>
+  <query-performance what="doc-text" n-tau="9" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="28" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="4"
+  />
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="700" block-reads="5" seeks="0" cache-hits="4" cache-misses="1"
+    n-blocks="52"
+  />
+  <query-performance what="output" n-tau="42" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="112" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="16"
+  />
+  <query-performance what="summarize" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="really-content" n-tau="0" n-rho="0" n-uat="0"
+    n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0" n-blocks="0"
+  />
+  <query-performance what="rights-query" n-tau="24" n-rho="16" n-uat="6"
+    n-ohr="0" occr-reads="225" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0" n-blocks="4"
+  />
+</retrieval-performance>
+<query-performance flags="hard extent r:apply" what="not-within" n-tau="5"
+  n-rho="0" n-uat="0" n-ohr="0" occr-reads="6" block-reads="2" seeks="1"
+  cache-hits="2" cache-misses="0" n-blocks="1"
+>
+  <query-performance flags="hard extent r:apply/need" what="EXTENTS(4)" n-tau="5"
+    n-rho="0" n-uat="0" n-ohr="0" occr-reads="6" block-reads="2" seeks="1"
+    cache-hits="2" cache-misses="0" n-blocks="1"
+  />
+  <query-performance flags="hard extent r:need" what="never" n-tau="0" n-rho="1"
+    n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0" n-blocks="0"
+  />
+</query-performance>
+<xpath-performances />
+</scope>

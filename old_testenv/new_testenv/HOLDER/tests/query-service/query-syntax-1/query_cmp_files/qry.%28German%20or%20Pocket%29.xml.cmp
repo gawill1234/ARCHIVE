@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="16" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="5" />
+<attribute name="total-results-with-duplicates" value="16" />
+<document
+  url="http://en.wikipedia.org/wiki/German_pocket_battleship_Admiral_Graf_Spee"
+  vse-key="http://en.wikipedia.org:80/wiki/German_pocket_battleship_Admiral_Graf_Spee/"
+  graph-id-high-water="7" priority="0" ct="application/vxml-unnormalized"
+  vertex="8" la-score="5.88888" vse-base-score="1.99219"
+>
+  <content type="text" name="title" u="19">Admiral Graf Spee</content>
+  <content name="NATION" type="text" u="23">Germany</content>
+  <content name="ALIGNED" type="text" u="25">axis</content>
+  <content name="SHIP_TYPE" type="text" u="27">Heavy Cruiser</content>
+  <content type="text" name="title" u="61">Graf Spee</content>
+  <content name="NATION" type="text" u="64">Germany</content>
+  <content name="ALIGNED" type="text" u="66">axis</content>
+  <content name="SHIP_TYPE" type="text" u="68">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="14" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="14">pocket_battleship_Admiral_Graf_Spee</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="4" v="9">http://en.wikipedia.org/wiki/German_</pre>
+      <content name="url" action="none" u="3" v="14" />
+      <match u="10" v="10">pocket_</match>
+      <post u="11" v="14">battleship_Admiral_Graf_Spee</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="31" v="35">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="30" v="41" />
+      <match u="36" v="36">German_</match>
+      <post u="37" v="41">pocket_battleship_Admiral_Graf_Spee</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="31" v="36">http://en.wikipedia.org/wiki/German_</pre>
+      <content name="URL_LOCATER" type="TEXT" u="30" v="41" />
+      <match u="37" v="37">pocket_</match>
+      <post u="38" v="41">battleship_Admiral_Graf_Spee</post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="46" v="50">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="45" v="56" />
+      <match u="51" v="51">German_</match>
+      <post u="52" v="56">pocket_battleship_Admiral_Graf_Spee</post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="46" v="51">http://en.wikipedia.org/wiki/German_</pre>
+      <content name="url" action="none" u="45" v="56" />
+      <match u="52" v="52">pocket_</match>
+      <post u="53" v="56">battleship_Admiral_Graf_Spee</post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="72" v="76">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="71" v="82" />
+      <match u="77" v="77">German_</match>
+      <post u="78" v="82">pocket_battleship_Admiral_Graf_Spee</post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="72" v="77">http://en.wikipedia.org/wiki/German_</pre>
+      <content name="URL_LOCATER" type="TEXT" u="71" v="82" />
+      <match u="78" v="78">pocket_</match>
+      <post u="79" v="82">battleship_Admiral_Graf_Spee</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_pocket_battleship_Deutschland"
+  vse-key="http://en.wikipedia.org:80/wiki/German_pocket_battleship_Deutschland/"
+  graph-id-high-water="102" priority="0" ct="application/vxml-unnormalized"
+  vertex="103" la-score="5.88888" vse-base-score="1.99219"
+>
+  <content type="text" name="title" u="17">Deutschland</content>
+  <content name="NATION" type="text" u="19">Germany</content>
+  <content name="ALIGNED" type="text" u="21">axis</content>
+  <content name="SHIP_TYPE" type="text" u="23">Heavy Cruiser</content>
+  <content type="text" name="title" u="53">L¿¿tzow</content>
+  <content name="NATION" type="text" u="56">Germany</content>
+  <content name="ALIGNED" type="text" u="58">axis</content>
+  <content name="SHIP_TYPE" type="text" u="60">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="12" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="12">pocket_battleship_Deutschland</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="4" v="9">http://en.wikipedia.org/wiki/German_</pre>
+      <content name="url" action="none" u="3" v="12" />
+      <match u="10" v="10">pocket_</match>
+      <post u="11" v="12">battleship_Deutschland</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="27" v="31">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="26" v="35" />
+      <match u="32" v="32">German_</match>
+      <post u="33" v="35">pocket_battleship_Deutschland</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="27" v="32">http://en.wikipedia.org/wiki/German_</pre>
+      <content name="URL_LOCATER" type="TEXT" u="26" v="35" />
+      <match u="33" v="33">pocket_</match>
+      <post u="34" v="35">battleship_Deutschland</post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="40" v="44">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="39" v="48" />
+      <match u="45" v="45">German_</match>
+      <post u="46" v="48">pocket_battleship_Deutschland</post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="40" v="45">http://en.wikipedia.org/wiki/German_</pre>
+      <content name="url" action="none" u="39" v="48" />
+      <match u="46" v="46">pocket_</match>
+      <post u="47" v="48">battleship_Deutschland</post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="64" v="68">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="63" v="72" />
+      <match u="69" v="69">German_</match>
+      <post u="70" v="72">pocket_battleship_Deutschland</post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="64" v="69">http://en.wikipedia.org/wiki/German_</pre>
+      <content name="URL_LOCATER" type="TEXT" u="63" v="72" />
+      <match u="70" v="70">pocket_</match>
+      <post u="71" v="72">battleship_Deutschland</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  url="http://en.wikipedia.org/wiki/German_pocket_battleship_Admiral_Scheer"
+  vse-key="http://en.wikipedia.org:80/wiki/German_pocket_battleship_Admiral_Scheer/"
+  graph-id-high-water="9" priority="0" ct="application/vxml-unnormalized"
+  vertex="10" la-score="5.88888" vse-base-score="1.875"
+>
+  <content type="text" name="title" u="18">Admiral Scheer</content>
+  <content name="NATION" type="text" u="21">Germany</content>
+  <content name="ALIGNED" type="text" u="23">axis</content>
+  <content name="SHIP_TYPE" type="text" u="25">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="13" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="13">pocket_battleship_Admiral_Scheer</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="4" v="9">http://en.wikipedia.org/wiki/German_</pre>
+      <content name="url" action="none" u="3" v="13" />
+      <match u="10" v="10">pocket_</match>
+      <post u="11" v="13">battleship_Admiral_Scheer</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="29" v="33">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="28" v="38" />
+      <match u="34" v="34">German_</match>
+      <post u="35" v="38">pocket_battleship_Admiral_Scheer</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="29" v="34">http://en.wikipedia.org/wiki/German_</pre>
+      <content name="URL_LOCATER" type="TEXT" u="28" v="38" />
+      <match u="35" v="35">pocket_</match>
+      <post u="36" v="38">battleship_Admiral_Scheer</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_Admiral_Hipper"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_Admiral_Hipper/"
+  graph-id-high-water="8" priority="0" ct="application/vxml-unnormalized"
+  vertex="9" la-score="5.88888" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="17">Admiral Hipper</content>
+  <content name="NATION" type="text" u="20">Germany</content>
+  <content name="ALIGNED" type="text" u="22">axis</content>
+  <content name="SHIP_TYPE" type="text" u="24">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="12" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="12">cruiser_Admiral_Hipper</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="28" v="32">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="27" v="36" />
+      <match u="33" v="33">German_</match>
+      <post u="34" v="36">cruiser_Admiral_Hipper</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_auxiliary_cruiser_Atlantis"
+  vse-key="http://en.wikipedia.org:80/wiki/German_auxiliary_cruiser_Atlantis/"
+  graph-id-high-water="43" priority="0" ct="application/vxml-unnormalized"
+  vertex="44" la-score="5.88888" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="17">Atlantis</content>
+  <content name="NATION" type="text" u="19">Germany</content>
+  <content name="ALIGNED" type="text" u="21">axis</content>
+  <content name="SHIP_TYPE" type="text" u="23">Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="12" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="12">auxiliary_cruiser_Atlantis</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="26" v="30">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="25" v="34" />
+      <match u="31" v="31">German_</match>
+      <post u="32" v="34">auxiliary_cruiser_Atlantis</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_battleship_Bismarck"
+  vse-key="http://en.wikipedia.org:80/wiki/German_battleship_Bismarck/"
+  graph-id-high-water="60" priority="0" ct="application/vxml-unnormalized"
+  vertex="61" la-score="5.88888" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="16">Bismarck</content>
+  <content name="NATION" type="text" u="18">Germany</content>
+  <content name="ALIGNED" type="text" u="20">axis</content>
+  <content name="SHIP_TYPE" type="text" u="22">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="11" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="11">battleship_Bismarck</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="25" v="29">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="24" v="32" />
+      <match u="30" v="30">German_</match>
+      <post u="31" v="32">battleship_Bismarck</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_Bl%C3%BCcher"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_Bl%c3%bccher/"
+  graph-id-high-water="65" priority="0" ct="application/vxml-unnormalized"
+  vertex="66" la-score="5.88888" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="16">Bl¿¿cher</content>
+  <content name="NATION" type="text" u="19">Germany</content>
+  <content name="ALIGNED" type="text" u="21">axis</content>
+  <content name="SHIP_TYPE" type="text" u="23">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="11" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="11">cruiser_Blücher</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="27" v="31">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="26" v="36" />
+      <match u="32" v="32">German_</match>
+      <post u="33" v="36">cruiser_Bl%C3%BCcher</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_battlecruiser_Gneisenau"
+  vse-key="http://en.wikipedia.org:80/wiki/German_battlecruiser_Gneisenau/"
+  graph-id-high-water="140" priority="0" ct="application/vxml-unnormalized"
+  vertex="141" la-score="5.88888" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="16">Gneisenau</content>
+  <content name="NATION" type="text" u="18">Germany</content>
+  <content name="ALIGNED" type="text" u="20">axis</content>
+  <content name="SHIP_TYPE" type="text" u="22">Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="11" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="11">battlecruiser_Gneisenau</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="25" v="29">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="24" v="32" />
+      <match u="30" v="30">German_</match>
+      <post u="31" v="32">battlecruiser_Gneisenau</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_Karlsruhe"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_Karlsruhe/"
+  graph-id-high-water="182" priority="0" ct="application/vxml-unnormalized"
+  vertex="183" la-score="5.88888" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="16">Karlsruhe</content>
+  <content name="NATION" type="text" u="18">Germany</content>
+  <content name="ALIGNED" type="text" u="20">axis</content>
+  <content name="SHIP_TYPE" type="text" u="22">Light Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="11" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="11">cruiser_Karlsruhe</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="26" v="30">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="25" v="33" />
+      <match u="31" v="31">German_</match>
+      <post u="32" v="33">cruiser_Karlsruhe</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_auxiliary_cruiser_Kormoran"
+  vse-key="http://en.wikipedia.org:80/wiki/German_auxiliary_cruiser_Kormoran/"
+  graph-id-high-water="191" priority="0" ct="application/vxml-unnormalized"
+  vertex="192" la-score="5.88888" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="17">Kormoran</content>
+  <content name="NATION" type="text" u="19">Germany</content>
+  <content name="ALIGNED" type="text" u="21">axis</content>
+  <content name="SHIP_TYPE" type="text" u="23">Light Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="12" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="12">auxiliary_cruiser_Kormoran</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="27" v="31">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="26" v="35" />
+      <match u="32" v="32">German_</match>
+      <post u="33" v="35">auxiliary_cruiser_Kormoran</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_K%C3%B6nigsberg"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_K%c3%b6nigsberg/"
+  graph-id-high-water="194" priority="0" ct="application/vxml-unnormalized"
+  vertex="195" la-score="5.88888" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="16">K¿¿nigsberg</content>
+  <content name="NATION" type="text" u="19">Germany</content>
+  <content name="ALIGNED" type="text" u="21">axis</content>
+  <content name="SHIP_TYPE" type="text" u="23">Light Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="11" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="11">cruiser_Königsberg</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="27" v="31">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="26" v="36" />
+      <match u="32" v="32">German_</match>
+      <post u="33" v="36">cruiser_K%C3%B6nigsberg</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_K%C3%B6ln"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_K%c3%b6ln/"
+  graph-id-high-water="193" priority="0" ct="application/vxml-unnormalized"
+  vertex="194" la-score="5.88888" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="16">K¿¿ln</content>
+  <content name="NATION" type="text" u="19">Germany</content>
+  <content name="ALIGNED" type="text" u="21">axis</content>
+  <content name="SHIP_TYPE" type="text" u="23">Light Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="11" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="11">cruiser_Köln</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="27" v="31">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="26" v="36" />
+      <match u="32" v="32">German_</match>
+      <post u="33" v="36">cruiser_K%C3%B6ln</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  url="http://en.wikipedia.org/w/index.php?title=German_ship_Lorelei&amp;amp;action=edit"
+  vse-key="http://en.wikipedia.org:80/w/index.php/?title=German_ship_Lorelei&amp;amp;action=edit"
+  graph-id-high-water="203" priority="0" ct="application/vxml-unnormalized"
+  vertex="204" la-score="5.88888" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="21">Lorelei</content>
+  <content name="NATION" type="text" u="23">Germany</content>
+  <content name="ALIGNED" type="text" u="25">axis</content>
+  <content name="SHIP_TYPE" type="text" u="27">Coastal Patrol Craft</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="11">http://en.wikipedia.org/w/index.php?title=</pre>
+      <content name="url" action="none" u="3" v="16" />
+      <match u="12" v="12">German_</match>
+      <post u="13" v="16"><![CDATA[ship_Lorelei&amp;action=edit]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="32" v="39">http://en.wikipedia.org/w/index.php?title=</pre>
+      <content name="URL_LOCATER" type="TEXT" u="31" v="45" />
+      <match u="40" v="40">German_</match>
+      <post u="41" v="45"><![CDATA[ship_Lorelei&amp;amp;action=edit]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  url="http://en.wikipedia.org/wiki/German_cruiser_L%C3%BCtzow_%28Hipper_class%29"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_L%c3%bctzow_(Hipper_class)/"
+  graph-id-high-water="205" priority="0" ct="application/vxml-unnormalized"
+  vertex="206" la-score="5.88888" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="18">L¿¿tzow</content>
+  <content name="NATION" type="text" u="21">Germany</content>
+  <content name="ALIGNED" type="text" u="23">axis</content>
+  <content name="SHIP_TYPE" type="text" u="25">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="13" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="13">cruiser_Lützow_(Hipper_class)</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="29" v="33">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="28" v="41" />
+      <match u="34" v="34">German_</match>
+      <post u="35" v="41">cruiser_L%C3%BCtzow_%28Hipper_class%29</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_Prinz_Eugen"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_Prinz_Eugen/"
+  graph-id-high-water="266" priority="0" ct="application/vxml-unnormalized"
+  vertex="267" la-score="5.88888" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="17">Prinz Eugen</content>
+  <content name="NATION" type="text" u="20">Germany</content>
+  <content name="ALIGNED" type="text" u="22">axis</content>
+  <content name="SHIP_TYPE" type="text" u="24">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="12" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="12">cruiser_Prinz_Eugen</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="28" v="32">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="27" v="36" />
+      <match u="33" v="33">German_</match>
+      <post u="34" v="36">cruiser_Prinz_Eugen</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_battlecruiser_Scharnhorst"
+  vse-key="http://en.wikipedia.org:80/wiki/German_battlecruiser_Scharnhorst/"
+  graph-id-high-water="294" priority="0" ct="application/vxml-unnormalized"
+  vertex="295" la-score="5.88888" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="16">Scharnhorst</content>
+  <content name="NATION" type="text" u="18">Germany</content>
+  <content name="ALIGNED" type="text" u="20">axis</content>
+  <content name="SHIP_TYPE" type="text" u="22">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="8">http://en.wikipedia.org/wiki/</pre>
+      <content name="url" action="none" u="3" v="11" />
+      <match u="9" v="9">German_</match>
+      <post u="10" v="11">battlecruiser_Scharnhorst</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="25" v="29">http://en.wikipedia.org/wiki/</pre>
+      <content name="URL_LOCATER" type="TEXT" u="24" v="32" />
+      <match u="30" v="30">German_</match>
+      <post u="31" v="32">battlecruiser_Scharnhorst</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<retrieval-performance n-tau="158" n-rho="36" n-uat="0" n-ohr="0"
+  occr-reads="41849" block-reads="91" seeks="0" cache-hits="91" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="34" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="1449" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="34" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="1449" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-blocks="2" n-tau="34" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="1449" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-blocks="2" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="23000" block-reads="91" seeks="0" cache-hits="91" cache-misses="0"
+  >
+    <query-performance what="3:" n-blocks="28" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="23000" block-reads="91" seeks="0" cache-hits="91"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="88" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="5844" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="88" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="5844" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="or" n-tau="88" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="5844" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      >
+        <query-performance what="0:title" n-blocks="2" n-tau="34" n-rho="0"
+          n-uat="0" n-ohr="0" occr-reads="1461" block-reads="0" seeks="0" cache-hits="0"
+          cache-misses="0"
+        />
+        <query-performance what="0:SHIP_TYPE" n-blocks="2" n-tau="34" n-rho="0"
+          n-uat="0" n-ohr="0" occr-reads="1461" block-reads="0" seeks="0" cache-hits="0"
+          cache-misses="0"
+        />
+        <query-performance what="0:NATION" n-blocks="2" n-tau="34" n-rho="0"
+          n-uat="0" n-ohr="0" occr-reads="1461" block-reads="0" seeks="0" cache-hits="0"
+          cache-misses="0"
+        />
+        <query-performance what="0:ALIGNED" n-blocks="2" n-tau="34" n-rho="0"
+          n-uat="0" n-ohr="0" occr-reads="1461" block-reads="0" seeks="0" cache-hits="0"
+          cache-misses="0"
+        />
+      </query-performance>
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-blocks="0" n-tau="0" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="2" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="36" n-rho="36" n-uat="0"
+    n-ohr="0" occr-reads="11556" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="36" n-rho="36" n-uat="0"
+      n-ohr="0" occr-reads="11556" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    >
+      <query-performance what="0:" n-blocks="2" n-tau="36" n-rho="36" n-uat="0"
+        n-ohr="0" occr-reads="11556" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="or" n-tau="47" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="50" block-reads="8" seeks="2" cache-hits="8" cache-misses="0"
+>
+  <query-performance what="not-within" n-tau="37" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="38" block-reads="4" seeks="1" cache-hits="4" cache-misses="0"
+  >
+    <query-performance what="1:german" n-blocks="1" n-tau="37" n-rho="0"
+      n-uat="0" n-ohr="0" occr-reads="38" block-reads="2" seeks="1" cache-hits="2"
+      cache-misses="0"
+    />
+    <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="1" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="2" seeks="0" cache-hits="2"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="not-within" n-tau="11" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="12" block-reads="4" seeks="1" cache-hits="4" cache-misses="0"
+  >
+    <query-performance what="1:pocket" n-blocks="1" n-tau="11" n-rho="0"
+      n-uat="0" n-ohr="0" occr-reads="12" block-reads="2" seeks="1" cache-hits="2"
+      cache-misses="0"
+    />
+    <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="1" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="2" seeks="0" cache-hits="2"
+      cache-misses="0"
+    />
+  </query-performance>
+</query-performance>
+</scope>

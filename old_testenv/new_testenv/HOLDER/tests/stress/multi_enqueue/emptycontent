@@ -1,0 +1,12 @@
+#!/bin/bash
+
+i=0
+echo "<vce>"
+echo "   <document url=\"file:////bogusfile\" >"
+while [ $i -lt 10000 ]; do
+   #echo "      <content name=\"ZZZZZ-$i\" >ZZZZZ:  $i different line not empty</content>"
+   echo "      <content name=\"...\" />"
+   i=`expr $i + 1`
+done
+echo "   </document>"
+echo "</vce>"

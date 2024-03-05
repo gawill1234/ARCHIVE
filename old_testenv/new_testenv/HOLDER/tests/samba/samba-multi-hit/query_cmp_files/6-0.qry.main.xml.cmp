@@ -1,0 +1,3462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="52" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="5" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="2" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="19" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="423" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="52" />
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/configure/"
+  position="140" vse-base-score="1.99805" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="121064" />
+      <pre u="12252" v="12271">ext &lt;&lt;_ACEOF
+/* confdefs.h.  */
+_ACEOF
+cat confdefs.h >>conftest.$ac_ext
+cat >>conftest.$ac_ext &lt;&lt;_ACEOF
+/* end confdefs.h.  */
+
+int
+</pre>
+      <match u="12272" v="12272">main ()
+{
+
+  ;
+  </match>
+      <post u="12273" v="12292">return 0;
+}
+_ACEOF
+ac_clean_files_save=$ac_clean_files
+ac_clean_files="$ac_clean_files a.out a.exe </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="121064" />
+      <pre u="13128" v="13147">ext &lt;&lt;_ACEOF
+/* confdefs.h.  */
+_ACEOF
+cat confdefs.h >>conftest.$ac_ext
+cat >>conftest.$ac_ext &lt;&lt;_ACEOF
+/* end confdefs.h.  */
+
+int
+</pre>
+      <match u="13148" v="13148">main ()
+{
+
+  ;
+  </match>
+      <post u="13149" v="13168">return 0;
+}
+_ACEOF
+rm -f conftest.o conftest.obj
+if { (eval echo "$as_me:$LINENO: \"$ac_compile\"") >&amp;5
+  (eval $ac_</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="7" v="121064" />
+      <pre u="13363" v="13382">ext &lt;&lt;_ACEOF
+/* confdefs.h.  */
+_ACEOF
+cat confdefs.h >>conftest.$ac_ext
+cat >>conftest.$ac_ext &lt;&lt;_ACEOF
+/* end confdefs.h.  */
+
+int
+</pre>
+      <match u="13383" v="13383">main ()
+{
+#</match>
+      <post u="13384" v="13403">ifndef __GNUC__
+       choke me
+#endif
+
+  ;
+  return 0;
+}
+_ACEOF
+rm -f conftest.$ac_objext
+if { (eval echo "$as_me:$LINENO: \"$ac_</post>
+    </solution>
+    <solution rank="3" score="1">
+      <content type="text" name="snippet" u="7" v="121064" />
+      <pre u="13631" v="13650">ext &lt;&lt;_ACEOF
+/* confdefs.h.  */
+_ACEOF
+cat confdefs.h >>conftest.$ac_ext
+cat >>conftest.$ac_ext &lt;&lt;_ACEOF
+/* end confdefs.h.  */
+
+int
+</pre>
+      <match u="13651" v="13651">main ()
+{
+
+  ;
+  </match>
+      <post u="13652" v="13671">return 0;
+}
+_ACEOF
+rm -f conftest.$ac_objext
+if { (eval echo "$as_me:$LINENO: \"$ac_compile\"") >&amp;5
+  (eval $ac_compile) </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content type="text" name="snippet" u="7" v="121064" />
+      <pre u="14134" v="14153">f) (double a);};
+int pairnames (int, char **, FILE *(*)(struct buf *, struct stat *, int), int, int);
+int argc;
+char **argv;
+int
+</pre>
+      <match u="14154" v="14154">main ()
+{
+</match>
+      <post u="14155" v="14174">return f (e, argv, 0) != argv[0]  ||  f (e, argv, 1) != argv[1];
+  ;
+  return 0;
+}
+_ACEOF
+# Don't try gcc -</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... conftest.$ac_ext &lt;&lt;_ACEOF
+/* end confdefs.h.  */
+
+int
+main ()
+{
+
+  ;
+  return 0;
+}
+_ACEOF
+ac_clean_files_save=$ac_ ... conftest.$ac_ext &lt;&lt;_ACEOF
+/* end confdefs.h.  */
+
+int
+main ()
+{
+
+  ;
+  return 0;
+}
+_ACEOF
+rm -f conftest.o conftest. ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/ltconfig/"
+  position="152" vse-base-score="1.99805" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="15482" />
+      <pre u="2843" v="2862">exeext'+set}'`\" = set"; then
+  echo $ac_n "(cached) $ac_c" 1>&amp;6
+else
+  ac_cv_exeext="no"
+  $rm conftest*
+  echo '</pre>
+      <match u="2863" v="2863">main () { </match>
+      <post u="2864" v="2883">return 0; }' > conftest.c
+  echo "$progname:629: checking for executable suffix" >&amp; 5
+  if { (eval echo $progname:630: \"$ac_link\") 1>&amp;</post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="15482" />
+      <pre u="4361" v="4380">fi
+
+echo $ac_n "checking if $compiler static flag $link_static_flag works... $ac_c" 1>&amp;6
+$rm conftest*
+echo '</pre>
+      <match u="4381" v="4381">main(){</match>
+      <post u="4382" v="4401">return(0);}' > conftest.c
+save_LDFLAGS="$LDFLAGS"
+LDFLAGS="$LDFLAGS $link_static_flag"
+echo "$progname:958: checking if $compiler static flag $</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="7" v="15482" />
+      <pre u="8452" v="8471">cat > conftest.c &lt;&lt;EOF
+#ifdef __cplusplus
+extern "C" {
+#endif
+char nm_test_var;
+void nm_test_func(){}
+#ifdef __cplusplus
+}
+#endif
+</pre>
+      <match u="8472" v="8472">main(){</match>
+      <post u="8473" v="8492">nm_test_var='a';nm_test_func();return(0);}
+EOF
+
+  echo "$progname:1653: checking if global_symbol_pipe works" >&amp;5
+  </post>
+    </solution>
+    <solution rank="3" score="1">
+      <content type="text" name="snippet" u="7" v="15482" />
+      <pre u="11465" v="11484">of a gcc2
+    builtin and then its argument prototype would still apply.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+char dlopen();
+
+int </pre>
+      <match u="11485" v="11485">main() {
+</match>
+      <post u="11486" v="11505">dlopen()
+; return 0; }
+EOF
+if { (eval echo $progname:2269: \"$ac_link\") 1>&amp;5; (eval $ac_link) 2>&amp;5; } &amp;&amp; test -s </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content type="text" name="snippet" u="7" v="15482" />
+      <pre u="11671" v="11690">of a gcc2
+    builtin and then its argument prototype would still apply.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+char dlopen();
+
+int </pre>
+      <match u="11691" v="11691">main() {
+
+/* </match>
+      <post u="11692" v="11711">The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... else
+  ac_cv_exeext="no"
+  $rm conftest*
+  echo 'main () { return 0; }' > conftest.c
+  echo "$progname:629: checking  ... works... $ac_c" 1>&amp;6
+$rm conftest*
+echo 'main(){return(0);}' > conftest.c
+save_LDFLAGS="$LDFLAGS"
+LDFLAGS="$ ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/aclocal.m4/"
+  position="63" vse-base-score="1.99219" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="37385" />
+      <pre u="3533" v="3552">0
+#        endif
+#      endif
+#    endif
+#  endif
+#endif
+
+#ifdef __cplusplus
+extern "C" void exit (int);
+#endif
+
+void fnord() { int i=42;}
+int </pre>
+      <match u="3553" v="3553">main ()
+{
+  </match>
+      <post u="3554" v="3573">void *self = dlopen (0, LT_DLGLOBAL|LT_DLLAZY_OR_NOW);
+  int status = $lt_dlunknown;
+
+  if (self)
+    {
+      if (dlsym (self,"fnord"))       </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="37385" />
+      <pre u="11742" v="11761">code="int some_variable = 0;\n"
+
+# Code to be used in simple link tests
+lt_simple_link_test_code='int </pre>
+      <match u="11762" v="11762">main(){</match>
+      <post u="11763" v="11782">return(0);}\n'
+
+_LT_AC_SYS_COMPILER
+
+#
+# Check for any special shared library compilation flags.
+#
+_LT_AC_TAGVAR(lt_prog_</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="7" v="37385" />
+      <pre u="12725" v="12744">code="int some_variable = 0;\n"
+
+# Code to be used in simple link tests
+lt_simple_link_test_code='int </pre>
+      <match u="12745" v="12745">main(</match>
+      <post u="12746" v="12765">int, char *[]) { return(0); }\n'
+
+# ltmain only uses $CC for tagged configurations so make sure $CC is set.
+_LT_AC_</post>
+    </solution>
+    <solution rank="3" score="1">
+      <content type="text" name="snippet" u="7" v="37385" />
+      <pre u="19631" v="19650">n"
+
+# Code to be used in simple link tests
+lt_simple_link_test_code='public class conftest { public static void </pre>
+      <match u="19651" v="19651">main(</match>
+      <post u="19652" v="19671">String[] argv) {}; }\n'
+
+# ltmain only uses $CC for tagged configurations so make sure $CC is set.
+_LT_AC_SYS_COMPILER
+
+# </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content type="text" name="snippet" u="7" v="37385" />
+      <pre u="23180" v="23199">ac_ext &lt;&lt;EOF
+#ifdef __cplusplus
+extern "C" {
+#endif
+char nm_test_var;
+void nm_test_func(){}
+#ifdef __cplusplus
+}
+#endif
+int </pre>
+      <match u="23200" v="23200">main(){</match>
+      <post u="23201" v="23220">nm_test_var='a';nm_test_func();return(0);}
+EOF
+
+  if AC_TRY_EVAL(ac_compile); then
+    # Now try to </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... int);
+#endif
+
+void fnord() { int i=42;}
+int main ()
+{
+  void *self = dlopen (0, LT_DLGLOBAL|LT_DLLAZY_ ... link tests
+lt_simple_link_test_code='int main(){return(0);}\n'
+
+_LT_AC_SYS_COMPILER
+
+#
+# Check  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/config.guess/"
+  position="148" vse-base-score="1.96875" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="6458" />
+      <pre u="2184" v="2203">RISCos)
+	eval $set_cc_for_build
+	sed 's/^	//' &lt;&lt; EOF >$dummy.c
+#ifdef __cplusplus
+#include &lt;stdio.h>  /* for printf() prototype */
+	int </pre>
+      <match u="2204" v="2204">main (</match>
+      <post u="2205" v="2224">int argc, char *argv[]) {
+#else
+	int main (argc, argv) int argc; char *argv[]; {
+#endif
+	#if defined (host_mips) &amp;&amp; defined (MIPSEB)
+	#</post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="6458" />
+      <pre u="2191" v="2210">s/^	//' &lt;&lt; EOF >$dummy.c
+#ifdef __cplusplus
+#include &lt;stdio.h>  /* for printf() prototype */
+	int main (int argc, char *argv[]) {
+#else
+	int </pre>
+      <match u="2211" v="2211">main (</match>
+      <post u="2212" v="2231">argc, argv) int argc; char *argv[]; {
+#endif
+	#if defined (host_mips) &amp;&amp; defined (MIPSEB)
+	#if defined (SYSTYPE_SYSV)
+	  printf ("mips-mips-</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="7" v="6458" />
+      <pre u="2584" v="2603">h >/dev/null 2>&amp;1; then
+		eval $set_cc_for_build
+		sed 's/^		//' &lt;&lt; EOF >$dummy.c
+		#include &lt;sys/systemcfg.h>
+
+		</pre>
+      <match u="2604" v="2604">main()
+			{
+			</match>
+      <post u="2605" v="2624">if (!__power_pc())
+				exit(1);
+			puts("powerpc-ibm-aix3.2.5");
+			exit(0);
+			}
+EOF
+		$CC_FOR_BUILD -o $dummy $dummy.</post>
+    </solution>
+    <solution rank="3" score="1">
+      <content type="text" name="snippet" u="7" v="6458" />
+      <pre u="2942" v="2961">eval $set_cc_for_build
+		    sed 's/^              //' &lt;&lt; EOF >$dummy.c
+
+              #define _HPUX_SOURCE
+              #include &lt;stdlib.h>
+              #include &lt;unistd.h>
+
+              int </pre>
+      <match u="2962" v="2962">main ()
+              {
+              #</match>
+      <post u="2963" v="2982">if defined(_SC_KERNEL_BITS)
+                  long bits = sysconf(_SC_KERNEL_BITS);
+              #endif
+                  long cpu  = sysconf (_SC_CPU_VERSION);
+
+                  switch (cpu)
+              	{
+              	</post>
+    </solution>
+    <solution rank="4" score="1">
+      <content type="text" name="snippet" u="7" v="6458" />
+      <pre u="3145" v="3164">REV}
+	exit 0 ;;
+    3050*:HI-UX:*:*)
+	eval $set_cc_for_build
+	sed 's/^	//' &lt;&lt; EOF >$dummy.c
+	#include &lt;unistd.h>
+	int
+	</pre>
+      <match u="3165" v="3165">main ()
+	{
+	  </match>
+      <post u="3166" v="3185">long cpu = sysconf (_SC_CPU_VERSION);
+	  /* The order matters, because CPU_IS_HP_MC68K erroneously returns
+	     true for CPU_PA_</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... cplusplus
+#include &lt;stdio.h>  /* for printf() prototype */
+	int main (int argc, char *argv[]) {
+#else
+	int main (argc,  ... argv) int argc; char *argv[]; {
+#endif
+	#if  ... s/^		//' &lt;&lt; EOF >$dummy.c
+		#include &lt;sys/systemcfg.h>
+
+		main()
+			{
+			if (!__power_pc())
+				exit(1);
+			puts("powerpc-ibm- ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_position.c/"
+  position="5" vse-base-score="1.75" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="375" />
+      <pre u="146" v="165">MySQL AB')",SQL_NTS);
+    mystmt(hstmt,rc);
+
+    rc = SQLExecDirect(hstmt,"INSERT INTO t_chunk VALUES(2,'monty','Michael Monty Widenius - </pre>
+      <match u="166" v="166">main </match>
+      <post u="167" v="186">MySQL developer')",SQL_NTS);
+    mystmt(hstmt,rc);
+
+    rc = SQLExecDirect(hstmt,"INSERT INTO t_chunk VALUES(3,'mysql','MySQL AB- Speed, </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="375" />
+      <pre u="246" v="265">rc);
+    myprintf("\ntxt:%s(%d)",txt,len);
+    
+    SQLFreeStmt(hstmt,SQL_RESET_PARAMS);
+    SQLFreeStmt(hstmt,SQL_UNBIND);    
+    SQLFreeStmt(hstmt,SQL_CLOSE);
+}
+
+/**
+</pre>
+      <match u="266" v="266">MAIN </match>
+      <post u="267" v="286">ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="7" v="375" />
+      <pre u="249" v="268">s(%d)",txt,len);
+    
+    SQLFreeStmt(hstmt,SQL_RESET_PARAMS);
+    SQLFreeStmt(hstmt,SQL_UNBIND);    
+    SQLFreeStmt(hstmt,SQL_CLOSE);
+}
+
+/**
+MAIN ROUTINE...
+*/
+int </pre>
+      <match u="269" v="269">main(</match>
+      <post u="270" v="289">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... t_chunk VALUES(2,'monty','Michael Monty Widenius - main MySQL developer')",SQL_NTS);
+    mystmt(hstmt,rc);
+
+    rc =  ... SQLFreeStmt(hstmt,SQL_UNBIND);    
+    SQLFreeStmt(hstmt,SQL_CLOSE);
+}
+
+/**
+MAIN ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV    ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_error.c/"
+  position="16" vse-base-score="1.75" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="788" />
+      <pre u="659" v="678">SQLFreeHandle(SQL_HANDLE_DBC,hdbc);
+    mycon(hdbc,rc);
+
+    rc = SQLFreeHandle(SQL_HANDLE_ENV,henv);
+    myenv(henv,rc);
+}
+/*---------------------------------------------------------------------
+@ type       : MyODBC3 test </pre>
+      <match u="679" v="679">main </match>
+      <post u="680" v="699">function
+@ name       : main
+@ purpose    : to control all tests
+@ limitation : none
+*---------------------------------------------------------------------*/
+int main(int argc, char *argv[])
+{  
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="788" />
+      <pre u="662" v="681">DBC,hdbc);
+    mycon(hdbc,rc);
+
+    rc = SQLFreeHandle(SQL_HANDLE_ENV,henv);
+    myenv(henv,rc);
+}
+/*---------------------------------------------------------------------
+@ type       : MyODBC3 test main function
+@ name       : </pre>
+      <match u="682" v="682">main
+@ </match>
+      <post u="683" v="702">purpose    : to control all tests
+@ limitation : none
+*---------------------------------------------------------------------*/
+int main(int argc, char *argv[])
+{  
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="7" v="788" />
+      <pre u="671" v="690">ENV,henv);
+    myenv(henv,rc);
+}
+/*---------------------------------------------------------------------
+@ type       : MyODBC3 test main function
+@ name       : main
+@ purpose    : to control all tests
+@ limitation : none
+*---------------------------------------------------------------------*/
+int </pre>
+      <match u="691" v="691">main(</match>
+      <post u="692" v="711">int argc, char *argv[])
+{  
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when the user asks for this
+    */    
+      myprintf("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n");
+      myprintf("usage: </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... ENV,henv);
+    myenv(henv,rc);
+}
+/*---------------------------------------------------------------------
+@ type       : MyODBC3 test main function
+@ name       : main
+@ purpose    : to control all tests
+@  ... limitation : none
+*---------------------------------------------------------------------*/
+int  ... main(int argc, char *argv[])
+{  
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_unixodbc.c/"
+  position="26" vse-base-score="1.75" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="633" />
+      <pre u="505" v="524">SQLDisconnect(hdbc);
+      mycon(hdbc,rc);
+    }
+
+    rc = SQLFreeConnect(hdbc);
+    mycon(hdbc,rc);
+    
+    rc = SQLFreeEnv(henv);
+    myenv(henv,rc);
+}
+/*---------------------------------------------------------------------
+@ type       : MyODBC3 test </pre>
+      <match u="525" v="525">main </match>
+      <post u="526" v="545">function
+@ name       : main
+@ purpose    : to control all tests
+@ limitation : none
+*---------------------------------------------------------------------*/
+int main(int argc, char *argv[])
+{  
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="633" />
+      <pre u="508" v="527">hdbc,rc);
+    }
+
+    rc = SQLFreeConnect(hdbc);
+    mycon(hdbc,rc);
+    
+    rc = SQLFreeEnv(henv);
+    myenv(henv,rc);
+}
+/*---------------------------------------------------------------------
+@ type       : MyODBC3 test main function
+@ name       : </pre>
+      <match u="528" v="528">main
+@ </match>
+      <post u="529" v="548">purpose    : to control all tests
+@ limitation : none
+*---------------------------------------------------------------------*/
+int main(int argc, char *argv[])
+{  
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="7" v="633" />
+      <pre u="517" v="536">SQLFreeEnv(henv);
+    myenv(henv,rc);
+}
+/*---------------------------------------------------------------------
+@ type       : MyODBC3 test main function
+@ name       : main
+@ purpose    : to control all tests
+@ limitation : none
+*---------------------------------------------------------------------*/
+int </pre>
+      <match u="537" v="537">main(</match>
+      <post u="538" v="557">int argc, char *argv[])
+{  
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when the user asks for this
+    */    
+      myprintf("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n");
+      myprintf("usage: </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... SQLFreeEnv(henv);
+    myenv(henv,rc);
+}
+/*---------------------------------------------------------------------
+@ type       : MyODBC3 test main function
+@ name       : main
+@ purpose    : to control all tests
+@  ... limitation : none
+*---------------------------------------------------------------------*/
+int  ... main(int argc, char *argv[])
+{  
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_param.c/"
+  vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="987" />
+      <pre u="839" v="858">rc);
+
+    rc = SQLEndTran(SQL_HANDLE_DBC, hdbc, SQL_COMMIT); 
+    mycon(hdbc,rc);
+
+    rc = SQLFreeStmt(hstmt,SQL_CLOSE);
+    mystmt(hstmt,rc);  
+}
+
+/********************************************************
+* </pre>
+      <match u="859" v="859">main </match>
+      <post u="860" v="879">routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc; 
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="987" />
+      <pre u="842" v="861">SQL_HANDLE_DBC, hdbc, SQL_COMMIT); 
+    mycon(hdbc,rc);
+
+    rc = SQLFreeStmt(hstmt,SQL_CLOSE);
+    mystmt(hstmt,rc);  
+}
+
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int </pre>
+      <match u="862" v="862">main(</match>
+      <post u="863" v="882">int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc; 
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+  
+    /*
+     *  show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... rc = SQLFreeStmt(hstmt,SQL_CLOSE);
+    mystmt(hstmt,rc);  
+}
+
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV     ... henv;
+  SQLHDBC    hdbc; 
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_catalog.c/"
+  position="1" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="2918" />
+      <pre u="2727" v="2746">NULL,SQL_NTS) ;
+    mystmt(hstmt,rc);
+
+		my_print_non_format_result(hstmt);
+    rc = SQLFreeStmt(hstmt, SQL_CLOSE);
+    mystmt(hstmt,rc);
+}
+
+/**
+</pre>
+      <match u="2747" v="2747">MAIN </match>
+      <post u="2748" v="2767">ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;
+  SQLCHAR    conn[255];
+
+
+    /*
+     *  show the </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="2918" />
+      <pre u="2730" v="2749">mystmt(hstmt,rc);
+
+		my_print_non_format_result(hstmt);
+    rc = SQLFreeStmt(hstmt, SQL_CLOSE);
+    mystmt(hstmt,rc);
+}
+
+/**
+MAIN ROUTINE...
+*/
+int </pre>
+      <match u="2750" v="2750">main(</match>
+      <post u="2751" v="2770">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;
+  SQLCHAR    conn[255];
+
+
+    /*
+     *  show the usage string when </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... rc = SQLFreeStmt(hstmt, SQL_CLOSE);
+    mystmt(hstmt,rc);
+}
+
+/**
+MAIN ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV    ... henv;
+  SQLHDBC   hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_cursor.c/"
+  position="3" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="1084" />
+      <pre u="936" v="955">rc);
+
+    rc = SQLEndTran(SQL_HANDLE_DBC, hdbc, SQL_COMMIT); 
+    mycon(hdbc,rc);
+
+    rc = SQLFreeStmt(hstmt,SQL_CLOSE);
+    mystmt(hstmt,rc);  
+}
+
+/********************************************************
+* </pre>
+      <match u="956" v="956">main </match>
+      <post u="957" v="976">routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc; 
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="1084" />
+      <pre u="939" v="958">SQL_HANDLE_DBC, hdbc, SQL_COMMIT); 
+    mycon(hdbc,rc);
+
+    rc = SQLFreeStmt(hstmt,SQL_CLOSE);
+    mystmt(hstmt,rc);  
+}
+
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int </pre>
+      <match u="959" v="959">main(</match>
+      <post u="960" v="979">int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc; 
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+  
+    /*
+     *  show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... rc = SQLFreeStmt(hstmt,SQL_CLOSE);
+    mystmt(hstmt,rc);  
+}
+
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV     ... henv;
+  SQLHDBC    hdbc; 
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_scroll.c/"
+  position="4" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="5167" />
+      <pre u="4983" v="5002">hstmt,SQL_UNBIND);    
+    SQLFreeStmt(hstmt,SQL_CLOSE); 
+
+    rc = SQLSetStmtAttr(hstmt,SQL_ATTR_ROW_ARRAY_SIZE,(SQLPOINTER)1,0);
+    mystmt(hstmt,rc);
+}
+/**
+</pre>
+      <match u="5003" v="5003">MAIN </match>
+      <post u="5004" v="5023">ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="5167" />
+      <pre u="4986" v="5005">SQLFreeStmt(hstmt,SQL_CLOSE); 
+
+    rc = SQLSetStmtAttr(hstmt,SQL_ATTR_ROW_ARRAY_SIZE,(SQLPOINTER)1,0);
+    mystmt(hstmt,rc);
+}
+/**
+MAIN ROUTINE...
+*/
+int </pre>
+      <match u="5006" v="5006">main(</match>
+      <post u="5007" v="5026">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... ROW_ARRAY_SIZE,(SQLPOINTER)1,0);
+    mystmt(hstmt,rc);
+}
+/**
+MAIN ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV    ... henv;
+  SQLHDBC   hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/mytest32.c/"
+  position="8" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="3658" />
+      <pre u="3504" v="3523">NTS);
+    mystmt(hstmt,rc);
+    
+    rc = SQLExecDirect(hstmt,"drop table t_tabsp",SQL_NTS);
+    mystmt(hstmt,rc);
+    SQLFreeStmt(hstmt, SQL_CLOSE);
+}
+
+/*
+  </pre>
+      <match u="3524" v="3524">Main </match>
+      <post u="3525" v="3544">routine ..
+*/
+
+int main(int argc, char *argv[])
+{
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when the user asks for this
+    */    
+      myprintf("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\</post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="3658" />
+      <pre u="3507" v="3526">rc);
+    
+    rc = SQLExecDirect(hstmt,"drop table t_tabsp",SQL_NTS);
+    mystmt(hstmt,rc);
+    SQLFreeStmt(hstmt, SQL_CLOSE);
+}
+
+/*
+  Main routine ..
+*/
+
+int </pre>
+      <match u="3527" v="3527">main(</match>
+      <post u="3528" v="3547">int argc, char *argv[])
+{
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when the user asks for this
+    */    
+      myprintf("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n");
+      myprintf("usage: </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... NTS);
+    mystmt(hstmt,rc);
+    SQLFreeStmt(hstmt, SQL_CLOSE);
+}
+
+/*
+  Main routine ..
+*/
+
+int main(int argc, char *argv[])
+{
+  SQLINTEGER  ... narg;      
+  
+    /*
+     *  show the  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_dyn_cursor.c/"
+  position="9" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="4448" />
+      <pre u="4245" v="4264">my_dynamic_cursor",SQL_NTS);
+    mystmt(hstmt,rc);  
+
+    myassert(6 == myresult(hstmt));
+
+    rc = SQLFreeStmt(hstmt,SQL_CLOSE);
+    mystmt(hstmt,rc);
+}
+
+
+/**
+</pre>
+      <match u="4265" v="4265">MAIN </match>
+      <post u="4266" v="4285">ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;
+  SQLCHAR   conn[255];
+
+  
+    /*
+     *  show the </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="4448" />
+      <pre u="4248" v="4267">SQL_NTS);
+    mystmt(hstmt,rc);  
+
+    myassert(6 == myresult(hstmt));
+
+    rc = SQLFreeStmt(hstmt,SQL_CLOSE);
+    mystmt(hstmt,rc);
+}
+
+
+/**
+MAIN ROUTINE...
+*/
+int </pre>
+      <match u="4268" v="4268">main(</match>
+      <post u="4269" v="4288">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;
+  SQLCHAR   conn[255];
+
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... rc = SQLFreeStmt(hstmt,SQL_CLOSE);
+    mystmt(hstmt,rc);
+}
+
+
+/**
+MAIN ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV    ... henv;
+  SQLHDBC   hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_relative.c/"
+  position="12" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="3132" />
+      <pre u="2991" v="3010">hstmt,SQL_UNBIND);    
+    SQLFreeStmt(hstmt,SQL_CLOSE);          
+
+    rc = SQLSetStmtAttr(hstmt,SQL_ATTR_ROW_ARRAY_SIZE,(SQLPOINTER)1,0);
+    mystmt(hstmt,rc);
+}
+/**
+</pre>
+      <match u="3011" v="3011">MAIN </match>
+      <post u="3012" v="3031">ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="3132" />
+      <pre u="2994" v="3013">SQLFreeStmt(hstmt,SQL_CLOSE);          
+
+    rc = SQLSetStmtAttr(hstmt,SQL_ATTR_ROW_ARRAY_SIZE,(SQLPOINTER)1,0);
+    mystmt(hstmt,rc);
+}
+/**
+MAIN ROUTINE...
+*/
+int </pre>
+      <match u="3014" v="3014">main(</match>
+      <post u="3015" v="3034">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... ROW_ARRAY_SIZE,(SQLPOINTER)1,0);
+    mystmt(hstmt,rc);
+}
+/**
+MAIN ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV    ... henv;
+  SQLHDBC   hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_tran_ext.c/"
+  position="13" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="372" />
+      <pre u="225" v="244">conn,255,
+                          NULL,0,NULL,SQL_DRIVER_COMPLETE);
+    mycon(hdbc,rc);
+
+    rc = SQLDisconnect(hdbc);
+    mycon(hdbc,rc);    
+
+    printf(" success!!\n");
+}
+/********************************************************
+* </pre>
+      <match u="245" v="245">main </match>
+      <post u="246" v="265">routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLINTEGER narg;      
+  SQLRETURN  rc;
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="372" />
+      <pre u="228" v="247">0,NULL,SQL_DRIVER_COMPLETE);
+    mycon(hdbc,rc);
+
+    rc = SQLDisconnect(hdbc);
+    mycon(hdbc,rc);    
+
+    printf(" success!!\n");
+}
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int </pre>
+      <match u="248" v="248">main(</match>
+      <post u="249" v="268">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLINTEGER narg;      
+  SQLRETURN  rc;
+  
+    /*
+     *  show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... SQLDisconnect(hdbc);
+    mycon(hdbc,rc);    
+
+    printf(" success!!\n");
+}
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV    ... henv;
+  SQLHDBC   hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_col_length.c/"
+  position="14" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="838" />
+      <pre u="702" v="721">SQLFreeStmt(hstmt,SQL_UNBIND);    
+    SQLFreeStmt(hstmt,SQL_CLOSE);
+
+    rc = SQLDisconnect(hdbc);
+    mycon(hdbc,rc);
+
+    rc = SQLFreeConnect(hdbc);
+    mycon(hdbc,rc);
+}
+/**
+</pre>
+      <match u="722" v="722">MAIN </match>
+      <post u="723" v="742">ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLINTEGER narg;
+  SQLRETURN rc;      
+  
+  
+    /*
+     *  show the usage string when the user </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="838" />
+      <pre u="705" v="724">UNBIND);    
+    SQLFreeStmt(hstmt,SQL_CLOSE);
+
+    rc = SQLDisconnect(hdbc);
+    mycon(hdbc,rc);
+
+    rc = SQLFreeConnect(hdbc);
+    mycon(hdbc,rc);
+}
+/**
+MAIN ROUTINE...
+*/
+int </pre>
+      <match u="725" v="725">main(</match>
+      <post u="726" v="745">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLINTEGER narg;
+  SQLRETURN rc;      
+  
+  
+    /*
+     *  show the usage string when the user asks for this
+    */    
+      </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... hdbc,rc);
+
+    rc = SQLFreeConnect(hdbc);
+    mycon(hdbc,rc);
+}
+/**
+MAIN ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV    ... henv;
+  SQLINTEGER narg;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_basics.c/"
+  position="15" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="600" />
+      <pre u="476" v="495">SQL_COMMIT); 
+    mycon(hdbc,rc);
+
+    /* free the statement cursor */
+    rc = SQLFreeStmt(hstmt, SQL_CLOSE);
+    mystmt(hstmt,rc);
+
+    printf(" success!!\n");
+}
+/********************************************************
+* </pre>
+      <match u="496" v="496">main </match>
+      <post u="497" v="516">routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc; 
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="600" />
+      <pre u="479" v="498">hdbc,rc);
+
+    /* free the statement cursor */
+    rc = SQLFreeStmt(hstmt, SQL_CLOSE);
+    mystmt(hstmt,rc);
+
+    printf(" success!!\n");
+}
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int </pre>
+      <match u="499" v="499">main(</match>
+      <post u="500" v="519">int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc; 
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+  
+    /*
+     *  show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... SQL_CLOSE);
+    mystmt(hstmt,rc);
+
+    printf(" success!!\n");
+}
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV     ... henv;
+  SQLHDBC    hdbc; 
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_connect.c/"
+  position="18" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="313" />
+      <pre u="79" v="98">demonstrate how to connect to MySQL server   *
+ *  using MySQL ODBC 3.51 driver                                           *
+ *                                                                         *
+ ***************************************************************************/
+
+#include "mytest3.h" /* MyODBC 3.51 sample utility header */
+
+/********************************************************
+* </pre>
+      <match u="99" v="99">main </match>
+      <post u="100" v="119">routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc; 
+  SQLCHAR    server_name[30];  
+  SQLRETURN  rc;
+  SQLINTEGER narg;
+  
+    /*
+     *  show </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="313" />
+      <pre u="82" v="101">connect to MySQL server   *
+ *  using MySQL ODBC 3.51 driver                                           *
+ *                                                                         *
+ ***************************************************************************/
+
+#include "mytest3.h" /* MyODBC 3.51 sample utility header */
+
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int </pre>
+      <match u="102" v="102">main(</match>
+      <post u="103" v="122">int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc; 
+  SQLCHAR    server_name[30];  
+  SQLRETURN  rc;
+  SQLINTEGER narg;
+  
+    /*
+     *  show the usage string </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... include "mytest3.h" /* MyODBC 3.51 sample utility header */
+
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV     ... henv;
+  SQLHDBC    hdbc; 
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_blob.c/"
+  position="19" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="839" />
+      <pre u="698" v="717">a'));
+        }
+        rc = SQLFreeStmt(hstmt, SQL_CLOSE);
+        mystmt(hstmt,rc);
+        rc = SQLTransact(NULL, hdbc, SQL_COMMIT);
+        mycon(hdbc,rc);
+        free(blobbuf);
+}
+/**
+</pre>
+      <match u="718" v="718">MAIN </match>
+      <post u="719" v="738">ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc;
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+  SQLUINTEGER blob_size = 1 * 1024L * </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="839" />
+      <pre u="701" v="720">hstmt, SQL_CLOSE);
+        mystmt(hstmt,rc);
+        rc = SQLTransact(NULL, hdbc, SQL_COMMIT);
+        mycon(hdbc,rc);
+        free(blobbuf);
+}
+/**
+MAIN ROUTINE...
+*/
+int </pre>
+      <match u="721" v="721">main(</match>
+      <post u="722" v="741">int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc;
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+  SQLUINTEGER blob_size = 1 * 1024L * 5L;  
+  
+    /*
+     *  show the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... hdbc, SQL_COMMIT);
+        mycon(hdbc,rc);
+        free(blobbuf);
+}
+/**
+MAIN ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV     ... henv;
+  SQLHDBC    hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_bulk.c/"
+  position="20" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="777" />
+      <pre u="621" v="640">SEC;
+    fprintf(stdout, " (in '%lf' secs)\n", duration);
+
+    SQLExecDirect(hstmt, "DROP TABLE my_bulk", SQL_NTS);
+    SQLFreeStmt(hstmt, SQL_CLOSE);
+}
+
+/**
+</pre>
+      <match u="641" v="641">MAIN </match>
+      <post u="642" v="661">ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="777" />
+      <pre u="624" v="643">in '%lf' secs)\n", duration);
+
+    SQLExecDirect(hstmt, "DROP TABLE my_bulk", SQL_NTS);
+    SQLFreeStmt(hstmt, SQL_CLOSE);
+}
+
+/**
+MAIN ROUTINE...
+*/
+int </pre>
+      <match u="644" v="644">main(</match>
+      <post u="645" v="664">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... my_bulk", SQL_NTS);
+    SQLFreeStmt(hstmt, SQL_CLOSE);
+}
+
+/**
+MAIN ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV    ... henv;
+  SQLHDBC   hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_result.c/"
+  position="21" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="584" />
+      <pre u="462" v="481">CLOSE);
+     mystmt(hstmt,rc);
+
+     rc = SQLExecDirect(hstmt, "DROP TABLE myodbc3_demo_result", SQL_NTS);
+     mystmt(hstmt,rc);
+     
+     printf(" success!!\n");
+}
+
+/********************************************************
+* </pre>
+      <match u="482" v="482">main </match>
+      <post u="483" v="502">routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc; 
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="584" />
+      <pre u="465" v="484">rc);
+
+     rc = SQLExecDirect(hstmt, "DROP TABLE myodbc3_demo_result", SQL_NTS);
+     mystmt(hstmt,rc);
+     
+     printf(" success!!\n");
+}
+
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int </pre>
+      <match u="485" v="485">main(</match>
+      <post u="486" v="505">int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc; 
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+  
+    /*
+     *  show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... SQL_NTS);
+     mystmt(hstmt,rc);
+     
+     printf(" success!!\n");
+}
+
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV     ... henv;
+  SQLHDBC    hdbc; 
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_keys.c/"
+  position="22" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="5124" />
+      <pre u="4951" v="4970">tables_test_db",SQL_NTS);
+    SQLEndTran(SQL_HANDLE_DBC,hdbc1,SQL_COMMIT);
+
+	  SQLFreeStmt(hstmt1,SQL_CLOSE);
+    SQLDisconnect(hdbc1);
+    SQLFreeConnect(hdbc1);
+}
+
+/**
+</pre>
+      <match u="4971" v="4971">MAIN </match>
+      <post u="4972" v="4991">ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="5124" />
+      <pre u="4954" v="4973">SQL_NTS);
+    SQLEndTran(SQL_HANDLE_DBC,hdbc1,SQL_COMMIT);
+
+	  SQLFreeStmt(hstmt1,SQL_CLOSE);
+    SQLDisconnect(hdbc1);
+    SQLFreeConnect(hdbc1);
+}
+
+/**
+MAIN ROUTINE...
+*/
+int </pre>
+      <match u="4974" v="4974">main(</match>
+      <post u="4975" v="4994">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;
+  
+    /*
+     *  show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... SQLFreeStmt(hstmt1,SQL_CLOSE);
+    SQLDisconnect(hdbc1);
+    SQLFreeConnect(hdbc1);
+}
+
+/**
+MAIN ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV    ... henv;
+  SQLHDBC   hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/mytest2.c/"
+  position="23" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="15264" />
+      <pre u="15025" v="15044">hstmt);
+  } 
+  if( tno == 13 || tno == -1)   /* sql stuff */
+  {     
+    t_nativesql(hdbc,hstmt);
+  } 
+  if( tno == 14)   /* misc */
+  { 
+    t_contest(hdbc,hstmt);
+  } 
+}
+
+/**
+  </pre>
+      <match u="15045" v="15045">main </match>
+      <post u="15046" v="15065">routine to control all tests
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg, tno = </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="15264" />
+      <pre u="15032" v="15051">stuff */
+  {     
+    t_nativesql(hdbc,hstmt);
+  } 
+  if( tno == 14)   /* misc */
+  { 
+    t_contest(hdbc,hstmt);
+  } 
+}
+
+/**
+  main routine to control all tests
+*/
+int </pre>
+      <match u="15052" v="15052">main(</match>
+      <post u="15053" v="15072">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg, tno = -1;      
+  
+    /*
+     *  show the usage string when the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... if( tno == 14)   /* misc */
+  { 
+    t_contest(hdbc,hstmt);
+  } 
+}
+
+/**
+  main routine to control all tests
+*/
+int main(int  ... argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/mytest3.c/"
+  position="24" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="26947" />
+      <pre u="26685" v="26704">current_catalog(hdbc, hstmt);
+  } 
+  if( tno == 11 || tno == -1)   /* limit tests */
+  {     
+    t_max_select(hdbc,hstmt);
+    t_max_con(hstmt);
+  } 
+}
+
+
+/**
+  </pre>
+      <match u="26705" v="26705">main </match>
+      <post u="26706" v="26725">routine to control all tests
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg, tno = </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="26947" />
+      <pre u="26692" v="26711">tno == -1)   /* limit tests */
+  {     
+    t_max_select(hdbc,hstmt);
+    t_max_con(hstmt);
+  } 
+}
+
+
+/**
+  main routine to control all tests
+*/
+int </pre>
+      <match u="26712" v="26712">main(</match>
+      <post u="26713" v="26732">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg, tno = -1;      
+  
+    /*
+     *  show the usage string when the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... max_select(hdbc,hstmt);
+    t_max_con(hstmt);
+  } 
+}
+
+
+/**
+  main routine to control all tests
+*/
+int main(int  ... argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_use_result.c/"
+  position="27" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="762" />
+      <pre u="619" v="638">option);
+    mydrvconnect(&amp;henv1,&amp;hdbc1,&amp;hstmt1,conn);
+    my_assert(t_fetch_data(hdbc1,hstmt1) == my_max_rows); 
+    mydisconnect(&amp;henv1,&amp;hdbc1,&amp;hstmt1);
+}
+
+/**
+</pre>
+      <match u="639" v="639">MAIN </match>
+      <post u="640" v="659">ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when the user asks for this
+    */    
+      myprintf("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\</post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="762" />
+      <pre u="622" v="641">hdbc1,&amp;hstmt1,conn);
+    my_assert(t_fetch_data(hdbc1,hstmt1) == my_max_rows); 
+    mydisconnect(&amp;henv1,&amp;hdbc1,&amp;hstmt1);
+}
+
+/**
+MAIN ROUTINE...
+*/
+int </pre>
+      <match u="642" v="642">main(</match>
+      <post u="643" v="662">int argc, char *argv[])
+{
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when the user asks for this
+    */    
+      myprintf("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n");
+      myprintf("usage: </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... hstmt1) == my_max_rows); 
+    mydisconnect(&amp;henv1,&amp;hdbc1,&amp;hstmt1);
+}
+
+/**
+MAIN ROUTINE...
+*/
+int main(int argc, char *argv[])
+{
+  SQLINTEGER  ... narg;      
+  
+    /*
+     *  show the  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/my_tran.c/"
+  position="29" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="496" />
+      <pre u="374" v="393">rc = SQLTransact(NULL,hdbc,SQL_ROLLBACK);
+    mycon(hdbc,rc);
+
+    rc = SQLFreeStmt(hstmt,SQL_CLOSE);
+    mystmt(hstmt,rc);  
+
+    printf(" success!!\n");
+}
+
+/********************************************************
+* </pre>
+      <match u="394" v="394">main </match>
+      <post u="395" v="414">routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="496" />
+      <pre u="377" v="396">hdbc,SQL_ROLLBACK);
+    mycon(hdbc,rc);
+
+    rc = SQLFreeStmt(hstmt,SQL_CLOSE);
+    mystmt(hstmt,rc);  
+
+    printf(" success!!\n");
+}
+
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int </pre>
+      <match u="397" v="397">main(</match>
+      <post u="398" v="417">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;      
+  
+    /*
+     *  show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... SQL_CLOSE);
+    mystmt(hstmt,rc);  
+
+    printf(" success!!\n");
+}
+
+/********************************************************
+* main routine                                          *
+*********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV    ... henv;
+  SQLHDBC   hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/mytest.c/"
+  position="30" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="15197" />
+      <pre u="14953" v="14972">hstmt);
+  } 
+  if( tno == 13 || tno == -1)   /* sql stuff */
+  {     
+    t_nativesql(hdbc,hstmt);
+  } 
+  if( tno == 14)   /* misc */
+  { 
+    t_contest(hdbc,hstmt);
+  } 
+}
+
+/**
+  </pre>
+      <match u="14973" v="14973">main </match>
+      <post u="14974" v="14993">routine to control all tests
+*/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg, tno = </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="15197" />
+      <pre u="14960" v="14979">stuff */
+  {     
+    t_nativesql(hdbc,hstmt);
+  } 
+  if( tno == 14)   /* misc */
+  { 
+    t_contest(hdbc,hstmt);
+  } 
+}
+
+/**
+  main routine to control all tests
+*/
+int </pre>
+      <match u="14980" v="14980">main(</match>
+      <post u="14981" v="15000">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg, tno = -1;      
+  
+    /*
+     *  show the usage string when the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... if( tno == 14)   /* misc */
+  { 
+    t_contest(hdbc,hstmt);
+  } 
+}
+
+/**
+  main routine to control all tests
+*/
+int main(int  ... argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/MYODBCConfig/Makefile.am/"
+  position="60" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="61" />
+      <pre u="30" v="49">the myodbc 
+#       GNU auto-build yet.
+#
+###################################################################
+
+if QT
+
+bin_MYODBCCONFIG = 
+
+endif
+
+###################################################################
+#                                                                 #
+# More files to include in source distro.                         #
+#                                                                 #
+###################################################################
+
+EXTRA_DIST = \
+	</pre>
+      <match u="50" v="50">main.</match>
+      <post u="51" v="61">cpp \
+	main.cpp.alternative \
+	MYODBCConfig.icns \
+	MYODBCConfig.pro \
+	MYODBCConfig.pro.alternative
+
+</post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="61" />
+      <pre u="32" v="51">GNU auto-build yet.
+#
+###################################################################
+
+if QT
+
+bin_MYODBCCONFIG = 
+
+endif
+
+###################################################################
+#                                                                 #
+# More files to include in source distro.                         #
+#                                                                 #
+###################################################################
+
+EXTRA_DIST = \
+	main.cpp \
+	</pre>
+      <match u="52" v="52">main.</match>
+      <post u="53" v="61">cpp.alternative \
+	MYODBCConfig.icns \
+	MYODBCConfig.pro \
+	MYODBCConfig.pro.alternative
+
+</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... files to include in source distro.                         #
+#                                                                 #
+###################################################################
+
+EXTRA_DIST = \
+	main.cpp \
+	main.cpp.alternative \
+	MYODBCConfig.icns \
+	MYODBCConfig.pro \
+	 ... MYODBCConfig.pro. ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/MYODBCConfig/Makefile.in/"
+  position="61" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="1379" />
+      <pre u="757" v="776">includes = @x_includes@
+x_libraries = @x_libraries@
+@QT_TRUE@bin_MYODBCCONFIG = 
+
+###################################################################
+#                                                                 #
+# More files to include in source distro.                         #
+#                                                                 #
+###################################################################
+EXTRA_DIST = \
+	</pre>
+      <match u="777" v="777">main.</match>
+      <post u="778" v="797">cpp \
+	main.cpp.alternative \
+	MYODBCConfig.icns \
+	MYODBCConfig.pro \
+	MYODBCConfig.pro.alternative
+
+all: all-am
+
+.SUFFIXES:
+$(srcdir)/Makefile.in:  $(srcdir)/Makefile.</post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="1379" />
+      <pre u="759" v="778">includes@
+x_libraries = @x_libraries@
+@QT_TRUE@bin_MYODBCCONFIG = 
+
+###################################################################
+#                                                                 #
+# More files to include in source distro.                         #
+#                                                                 #
+###################################################################
+EXTRA_DIST = \
+	main.cpp \
+	</pre>
+      <match u="779" v="779">main.</match>
+      <post u="780" v="799">cpp.alternative \
+	MYODBCConfig.icns \
+	MYODBCConfig.pro \
+	MYODBCConfig.pro.alternative
+
+all: all-am
+
+.SUFFIXES:
+$(srcdir)/Makefile.in:  $(srcdir)/Makefile.am  $(am__</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... files to include in source distro.                         #
+#                                                                 #
+###################################################################
+EXTRA_DIST = \
+	main.cpp \
+	main.cpp.alternative \
+	MYODBCConfig.icns \
+	MYODBCConfig.pro \
+	 ... MYODBCConfig.pro. ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/MYODBCConfig/MYODBCConfig.pro.alternative/"
+  position="62" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="245" />
+      <pre u="23" v="42">application.
+#
+#       The build here is done without using the setup code
+#       directly (except for MYODBCSetup.h). In this case
+#       the </pre>
+      <match u="43" v="43">main.</match>
+      <post u="44" v="63">cpp will explicitly find, load, and call
+#       into a setup library.
+#
+# NOTE:
+#       This is the preferred way to provide MYODBCConfig
+#       </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="245" />
+      <pre u="224" v="243">lz -framework OpenGL -framework AGL -lz
+mac:RC_FILE             = MYODBCConfig.icns
+
+# #########################################################
+# FILES
+# #########################################################
+
+# HEADERS                 += \
+#                         ../setup/MYODBCSetup.h \
+# 			../setup/MYODBCSetupDataSourceDialog.h
+
+SOURCES                 += \
+                        </pre>
+      <match u="244" v="244">main.</match>
+      <post u="245" v="245">cpp
+
+
+</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... except for MYODBCSetup.h). In this case
+#       the main.cpp will explicitly find, load, and call
+#       into  ... HEADERS                 += \
+#                         ../setup/MYODBCSetup.h \
+# 			../setup/MYODBCSetupDataSourceDialog.h
+
+SOURCES                 += \
+                        main.cpp
+
+
+</content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/samples/my_param.c/"
+  position="128" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="1198" />
+      <pre u="1053" v="1072">rc = SQLExecDirect(hstmt, (SQLCHAR*) "SELECT * FROM my_demo_param",
+		     SQL_NTS);
+  mystmt(hstmt,rc);
+
+  assert(8 == my_print_resultset(hstmt));
+}
+
+/********************************************************
+ * </pre>
+      <match u="1073" v="1073">main </match>
+      <post u="1074" v="1093">routine						*
+ *********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc;
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+
+  /*
+   *	show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="1198" />
+      <pre u="1056" v="1075">SQLCHAR*) "SELECT * FROM my_demo_param",
+		     SQL_NTS);
+  mystmt(hstmt,rc);
+
+  assert(8 == my_print_resultset(hstmt));
+}
+
+/********************************************************
+ * main routine						*
+ *********************************************************/
+int </pre>
+      <match u="1076" v="1076">main(</match>
+      <post u="1077" v="1096">int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc;
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+
+  /*
+   *	show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... hstmt,rc);
+
+  assert(8 == my_print_resultset(hstmt));
+}
+
+/********************************************************
+ * main routine						*
+ *********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV     ... henv;
+  SQLHDBC    hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/samples/my_cursor.c/"
+  position="129" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="1322" />
+      <pre u="1180" v="1199">rc = SQLExecDirect(hstmt, (SQLCHAR*) "SELECT * FROM my_demo_cursor",
+		     SQL_NTS);
+  mystmt(hstmt,rc);
+
+  assert(3 == my_print_resultset(hstmt));
+}
+
+/********************************************************
+ * </pre>
+      <match u="1200" v="1200">main </match>
+      <post u="1201" v="1220">routine						*
+ *********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc;
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+
+  /*
+   *	show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="1322" />
+      <pre u="1183" v="1202">SQLCHAR*) "SELECT * FROM my_demo_cursor",
+		     SQL_NTS);
+  mystmt(hstmt,rc);
+
+  assert(3 == my_print_resultset(hstmt));
+}
+
+/********************************************************
+ * main routine						*
+ *********************************************************/
+int </pre>
+      <match u="1203" v="1203">main(</match>
+      <post u="1204" v="1223">int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc;
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+
+  /*
+   *	show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... hstmt,rc);
+
+  assert(3 == my_print_resultset(hstmt));
+}
+
+/********************************************************
+ * main routine						*
+ *********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV     ... henv;
+  SQLHDBC    hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/samples/my_basics.c/"
+  position="134" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="702" />
+      <pre u="578" v="597">SQL_COMMIT);
+  mycon(hdbc,rc);
+
+  /* free the statement cursor */
+  rc = SQLFreeStmt(hstmt, SQL_CLOSE);
+  mystmt(hstmt,rc);
+
+  printf(" success!!\n");
+}
+
+
+/********************************************************
+ * </pre>
+      <match u="598" v="598">main </match>
+      <post u="599" v="618">routine						 *
+ *********************************************************/
+
+int main(int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc;
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+
+  /*
+   *  show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="702" />
+      <pre u="581" v="600">hdbc,rc);
+
+  /* free the statement cursor */
+  rc = SQLFreeStmt(hstmt, SQL_CLOSE);
+  mystmt(hstmt,rc);
+
+  printf(" success!!\n");
+}
+
+
+/********************************************************
+ * main routine						 *
+ *********************************************************/
+
+int </pre>
+      <match u="601" v="601">main(</match>
+      <post u="602" v="621">int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc;
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+
+  /*
+   *  show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... SQL_CLOSE);
+  mystmt(hstmt,rc);
+
+  printf(" success!!\n");
+}
+
+
+/********************************************************
+ * main routine						 *
+ *********************************************************/
+
+int main(int argc, char *argv[])
+{
+  SQLHENV     ... henv;
+  SQLHDBC    hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/samples/my_connect.c/"
+  position="135" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="414" />
+      <pre u="159" v="178">how to connect to MySQL server   *
+ *  using MySQL ODBC 3.51 driver					   *
+ *									   *
+ ***************************************************************************/
+
+#include "my_utility.h" /* MyODBC 3.51 sample utility header */
+
+/********************************************************
+ * </pre>
+      <match u="179" v="179">main </match>
+      <post u="180" v="199">routine						*
+ *********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc;
+  SQLCHAR    server_name[30];
+  SQLRETURN  rc;
+  SQLINTEGER narg;
+
+  /*
+   *	show </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="414" />
+      <pre u="162" v="181">to MySQL server   *
+ *  using MySQL ODBC 3.51 driver					   *
+ *									   *
+ ***************************************************************************/
+
+#include "my_utility.h" /* MyODBC 3.51 sample utility header */
+
+/********************************************************
+ * main routine						*
+ *********************************************************/
+int </pre>
+      <match u="182" v="182">main(</match>
+      <post u="183" v="202">int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc;
+  SQLCHAR    server_name[30];
+  SQLRETURN  rc;
+  SQLINTEGER narg;
+
+  /*
+   *	show the usage string </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... my_utility.h" /* MyODBC 3.51 sample utility header */
+
+/********************************************************
+ * main routine						*
+ *********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV     ... henv;
+  SQLHDBC    hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/samples/my_result.c/"
+  position="136" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="663" />
+      <pre u="541" v="560">SQL_UNBIND);
+  mystmt(hstmt,rc);
+
+  /* free the statement cursor */
+  rc = SQLFreeStmt(hstmt, SQL_CLOSE);
+  mystmt(hstmt,rc);
+  printf(" success!!\n");
+}
+
+/********************************************************
+ * </pre>
+      <match u="561" v="561">main </match>
+      <post u="562" v="581">routine						*
+ *********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc;
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+
+  /*
+   *	show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="663" />
+      <pre u="544" v="563">hstmt,rc);
+
+  /* free the statement cursor */
+  rc = SQLFreeStmt(hstmt, SQL_CLOSE);
+  mystmt(hstmt,rc);
+  printf(" success!!\n");
+}
+
+/********************************************************
+ * main routine						*
+ *********************************************************/
+int </pre>
+      <match u="564" v="564">main(</match>
+      <post u="565" v="584">int argc, char *argv[])
+{
+  SQLHENV    henv;
+  SQLHDBC    hdbc;
+  SQLHSTMT   hstmt;
+  SQLINTEGER narg;
+
+  /*
+   *	show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... SQL_CLOSE);
+  mystmt(hstmt,rc);
+  printf(" success!!\n");
+}
+
+/********************************************************
+ * main routine						*
+ *********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV     ... henv;
+  SQLHDBC    hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/samples/my_tran.c/"
+  position="138" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="543" />
+      <pre u="421" v="440">mystmt_err(hstmt,rc == SQL_NO_DATA_FOUND,rc);
+
+  rc = SQLFreeStmt(hstmt,SQL_CLOSE);
+  mystmt(hstmt,rc);
+
+  printf(" success!!\n");
+}
+
+/********************************************************
+ * </pre>
+      <match u="441" v="441">main </match>
+      <post u="442" v="461">routine						*
+ *********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;
+
+  /*
+   *	show the usage string when </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="543" />
+      <pre u="424" v="443">rc == SQL_NO_DATA_FOUND,rc);
+
+  rc = SQLFreeStmt(hstmt,SQL_CLOSE);
+  mystmt(hstmt,rc);
+
+  printf(" success!!\n");
+}
+
+/********************************************************
+ * main routine						*
+ *********************************************************/
+int </pre>
+      <match u="444" v="444">main(</match>
+      <post u="445" v="464">int argc, char *argv[])
+{
+  SQLHENV   henv;
+  SQLHDBC   hdbc;
+  SQLHSTMT  hstmt;
+  SQLINTEGER narg;
+
+  /*
+   *	show the usage string when the user asks </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... SQL_CLOSE);
+  mystmt(hstmt,rc);
+
+  printf(" success!!\n");
+}
+
+/********************************************************
+ * main routine						*
+ *********************************************************/
+int main(int argc, char *argv[])
+{
+  SQLHENV    ... henv;
+  SQLHDBC   hdbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/ltmain.sh/"
+  position="139" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="25024" />
+      <pre u="11851" v="11870">we can check
+	  # whether they linked in statically or dynamically with ldd.
+	  $rm conftest.c
+	  cat > conftest.c &lt;&lt;EOF
+	  int </pre>
+      <match u="11871" v="11871">main() { </match>
+      <post u="11872" v="11891">return 0; }
+EOF
+	  $rm conftest
+	  $LTCC -o conftest conftest.c $deplibs
+	  if test "$?" -eq 0 ; then
+	    ldd_output=`ldd conftest`
+	    </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="25024" />
+      <pre u="18087" v="18106">name);
+char * fnqualify(const char *path);
+char * strendzap(char *str, const char *pat);
+void lt_fatal (const char *message, ...);
+
+int
+</pre>
+      <match u="18107" v="18107">main (</match>
+      <post u="18108" v="18127">int argc, char *argv[])
+{
+  char **newargz;
+  int i;
+  
+  program_name = (char *) xstrdup ((char *) basename (argv[0]));
+  newargz = XMALLOC(char *, argc+</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... rm conftest.c
+	  cat > conftest.c &lt;&lt;EOF
+	  int main() { return 0; }
+EOF
+	  $rm conftest
+	  $LTCC -o conftest  ... pat);
+void lt_fatal (const char *message, ...);
+
+int
+main (int argc, char *argv[])
+{
+  char **newargz;
+  int i;
+  
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/missing/"
+  position="151" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="1343" />
+      <pre u="796" v="815">esac
+    fi
+    if [ ! -f y.tab.h ]; then
+	echo >y.tab.h
+    fi
+    if [ ! -f y.tab.c ]; then
+	echo '</pre>
+      <match u="816" v="816">main() { </match>
+      <post u="817" v="836">return 0; }' >y.tab.c
+    fi
+    ;;
+
+  lex|flex)
+    echo 1>&amp;2 "\
+WARNING: \`$1' is missing on your system.  You should </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="1343" />
+      <pre u="890" v="909">c/'`
+	    if [ -f "$SRCFILE" ]; then
+	         cp "$SRCFILE" lex.yy.c
+	    fi
+	  ;;
+	esac
+    fi
+    if [ ! -f lex.yy.c ]; then
+	echo '</pre>
+      <match u="910" v="910">main() { </match>
+      <post u="911" v="930">return 0; }' >lex.yy.c
+    fi
+    ;;
+
+  help2man)
+    echo 1>&amp;2 "\
+WARNING: \`$1' is missing on your system.  You should only </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... fi
+    if [ ! -f y.tab.c ]; then
+	echo 'main() { return 0; }' >y.tab.c
+    fi
+    ;;
+
+  lex|flex)
+     ... fi
+    if [ ! -f lex.yy.c ]; then
+	echo 'main() { return 0; }' >lex.yy.c
+    fi
+    ;;
+
+  help2man)
+    echo  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/acinclude.m4/"
+  position="186" vse-base-score="1.5" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="1962" />
+      <pre u="113" v="132">cv_odbc_$1,
+[
+echo > conftest.c
+
+for i in $odbc_headers
+do
+	echo "#include &lt;$i>" >> conftest.c
+done
+
+echo "int </pre>
+      <match u="133" v="133">main(</match>
+      <post u="134" v="153">void) { $1 x; return 0; }" >> conftest.c
+
+if $CC -c $CFLAGS $CPPFLAGS conftest.c > /dev/null 2> /dev/null
+then
+	</post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="1962" />
+      <pre u="736" v="755">config options.
+dnl
+dnl ---------------------------------------------------------
+
+AC_DEFUN(QT_PROGRAM,
+[
+cat > conftest.$ac_ext &lt;&lt;EOF
+#include &lt;qapplication.h>
+#include &lt;qstringlist.h>
+
+int </pre>
+      <match u="756" v="756">main() 
+{
+    </match>
+      <post u="757" v="776">QStringList *t = new QStringList();
+    return 0;
+}
+EOF
+])
+
+dnl ---------------------------------------------------------
+dnl 
+dnl Macro: 
+dnl     AC_PATH_QT_WITHOUT_X
+dnl
+dnl Arguments:
+</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... echo "#include &lt;$i>" >> conftest.c
+done
+
+echo "int main(void) { $1 x; return 0; }" >> conftest.c
+
+if $ ... EOF
+#include &lt;qapplication.h>
+#include &lt;qstringlist.h>
+
+int main() 
+{
+    QStringList *t = new QStringList();
+    return 0;
+}
+EOF
+])
+
+dnl ---------------------------------------------------------
+ ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/test/db_test.c/"
+  position="2" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="781" />
+      <pre u="43" v="62">sql_stmt ( SQLHDBC hdbc, SQLCHAR *stmtStr);
+void db_odbc_error(SQLHENV henv, SQLHDBC hdbc, SQLHSTMT hstmt, const SQLCHAR* stmt);
+
+int 
+</pre>
+      <match u="63" v="63">main(</match>
+      <post u="64" v="83">int argc, char **argv)
+{
+  SQLCHAR    *szDsn= (SQLCHAR *)"myodbc3";
+  SQLCHAR    *szUser= (SQLCHAR *)"venu";
+  SQLCHAR    *szPassword= (SQLCHAR *)"venu";
+	SQLRETURN  nArg, iResult = SQL_</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... SQLHDBC hdbc, SQLHSTMT hstmt, const SQLCHAR* stmt);
+
+int 
+main(int argc, char **argv)
+{
+  SQLCHAR    *szDsn= (SQLCHAR *)"myodbc3";
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/MYODBCConfig/main.cpp.alternative/"
+  position="57" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="521" />
+      <pre u="244" v="263">library.
+*/
+
+/*!
+    Default args (in case missing on command-line).
+*/
+char *pszDriver         = "MySQL ODBC 3.51 Driver";
+char *pszAttributes     = "DSN=myodbc";
+
+int </pre>
+      <match u="264" v="264">main( </match>
+      <post u="265" v="284">int argc, char **argv )
+{
+#ifdef WIN32
+        HMODULE hModule = NULL;
+#else
+        void *hModule  = NULL;
+#endif
+        BOOL (*pFunc)( HWND, WORD, LPCSTR, LPCSTR );
+        </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... ODBC 3.51 Driver";
+char *pszAttributes     = "DSN=myodbc";
+
+int main( int argc, char **argv )
+{
+#ifdef WIN32
+        HMODULE hModule =  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/MYODBCConfig/MYODBCConfig.pro/"
+  position="58" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="302" />
+      <pre u="224" v="243">h \
+                        ../setup/MYODBCSetupDataSourceTab3.h \
+                        ../setup/MYODBCSetupDataSourceTab3a.h \
+                        ../setup/MYODBCSetupDataSourceTab3b.h \
+                        ../setup/MYODBCSetupDataSourceTab3c.h \
+                        ../setup/MYODBCSetupDataSourceTab3d.h \
+                        ../setup/MYODBCSetupLineEdit.h
+
+SOURCES                 += \
+                        </pre>
+      <match u="244" v="244">main.</match>
+      <post u="245" v="264">cpp \
+                        ../setup/MYODBCSetupCheckBox.cpp \
+                        ../setup/MYODBCSetupComboBox.cpp \
+                        ../setup/MYODBCSetupComboBoxDatabases.cpp \
+                        ../setup/MYODBCSetupConfigDSNAdd.c \
+                        ../setup/MYODBCSetupConfigDSNEdit.c \
+                        ../setup/MYODBCSetupConfigDSNRemove.c \
+                        ../setup/</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... h \
+                        ../setup/MYODBCSetupDataSourceTab3d.h \
+                        ../setup/MYODBCSetupLineEdit.h
+
+SOURCES                 += \
+                        main.cpp \
+                        ../setup/MYODBCSetupCheckBox.cpp \
+                        ../setup/MYODBCSetupComboBox.cpp \
+                        ../setup/ ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/MYODBCConfig/main.cpp/"
+  position="59" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="275" />
+      <pre u="169" v="188">MYODBCSetupDataSourceDialog.h>
+
+#include &lt;qapplication.h>
+#include &lt;qstring.h>
+
+/*!
+    Default args (in case missing on command-line).
+*/
+char *pszDataSourceName = "myodbc";
+
+int </pre>
+      <match u="189" v="189">main( </match>
+      <post u="190" v="209">int argc, char **argv )
+{
+    QApplication                    app( argc, argv  );
+    int                             nResult;
+    MYODBCUTIL_DATASOURCE *         pDataSource = MYODBCUtilAllocDataSource( MYODBCUTIL_DATASOURCE_MODE_DSN_EDIT );
+    MYODBCSetupDataSourceDialog *   </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... missing on command-line).
+*/
+char *pszDataSourceName = "myodbc";
+
+int main( int argc, char **argv )
+{
+    QApplication                    app( argc, argv  );
+     ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/configure.in/"
+  position="147" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="2972" />
+      <pre u="882" v="901">CHECKING($1)
+  OLD_CFLAGS="[$]CFLAGS"
+  AC_CACHE_VAL(mysql_cv_option_$2,
+  [
+    CFLAGS="[$]OLD_CFLAGS $1"
+    AC_TRY_RUN([int </pre>
+      <match u="902" v="902">main(){</match>
+      <post u="903" v="922">exit(0);}],mysql_cv_option_$2=yes,mysql_cv_option_$2=no,mysql_cv_option_$2=no)
+  ])
+  CFLAGS="[$]OLD_CFLAGS"
+  </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... CFLAGS="[$]OLD_CFLAGS $1"
+    AC_TRY_RUN([int main(){exit(0);}],mysql_cv_option_$2=yes,mysql_ ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/dltest/dltest.c/"
+  position="156" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="259" />
+      <pre u="115" v="134">n" \
+"*      better test.                          *\n" \
+"*                                            *\n" \
+"*                                            *\n" \
+"* Examples                                   *\n" \
+"*                                            *\n" \
+"*      dltest /usr/lib/libMy.so MyFunc       *\n" \
+"*                                            *\n" \
+"**********************************************\n\n";
+
+int </pre>
+      <match u="135" v="135">main( </match>
+      <post u="136" v="155">int argc, char *argv[] )
+{
+	void	*hDLL;
+	void	(*pFunc)();
+	const char	*pError;
+
+	if ( argc &lt; 2  )
+	{
+		printf( szSyntax );
+		exit( 1 );
+	}
+
+    /*
+     * initialize libtool
+     */
+
+    </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... libMy.so MyFunc       *\n" \
+"*                                            *\n" \
+"**********************************************\n\n";
+
+int main( int argc, char *argv[] )
+{
+	void	*hDLL;
+	void	(*pFunc)();
+	 ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/driver/myodbc3.h/"
+  position="162" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="1460" />
+      <pre u="1235" v="1254">ard;
+  LIST	   list;
+} DESC;
+
+
+/* Implementation descriptors */
+typedef struct tagSTMT MY_STMT;
+typedef struct impDESC
+{
+  MY_STMT *stmt;
+  DESC	  *desc;
+} IMPDESC;
+
+
+/* </pre>
+      <match u="1255" v="1255">Main </match>
+      <post u="1256" v="1275">statement handler */
+
+typedef struct tagSTMT
+{
+  DBC FAR	*dbc;
+  MYSQL_RES	*result;
+  MYSQL_ROW	array,result_array,current_values;
+  MYSQL_ROW	(*</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... struct impDESC
+{
+  MY_STMT *stmt;
+  DESC	  *desc;
+} IMPDESC;
+
+
+/* Main statement handler */
+
+typedef struct tagSTMT
+{
+  DBC FAR	*dbc;
+   ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/driver/dll.c/"
+  position="163" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="705" />
+      <pre u="446" v="465">free(thousands_sep,MYF(0));
+#ifdef NOT_YET_USED
+   mysql_server_end();
+#endif
+   my_end(0);
+ }
+}
+
+/*
+  @type    : myodbc3 internal
+  @purpose : </pre>
+      <match u="466" v="466">main </match>
+      <post u="467" v="486">entry point
+*/
+
+#ifdef _WIN32
+static int inited=0,threads=0;
+HINSTANCE NEAR s_hModule; /* Saved module handle */
+int APIENTRY LibMain(</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... endif
+   my_end(0);
+ }
+}
+
+/*
+  @type    : myodbc3 internal
+  @purpose : main entry point
+*/
+
+#ifdef _WIN32
+static int inited=0, ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/README.win/"
+  position="185" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="679" />
+      <pre u="86" v="105">or MS
+Visual C/C++ v7 (.NET). Other compilers may work as well.
+
+Source Code
+-----------
+
+The source code is the </pre>
+      <match u="106" v="106">main </match>
+      <post u="107" v="126">thing. You can get it from the bk
+source repository if you want the 'bleeding edge' code but most
+people </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... well.
+
+Source Code
+-----------
+
+The source code is the main thing. You can get it from the bk
+ ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/README.unix/"
+  position="187" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="406" />
+      <pre u="212" v="231">example. But a common compiler across all platforms
+is the GNU tool set.
+
+Source Code
+-----------
+
+The source code is the </pre>
+      <match u="232" v="232">main </match>
+      <post u="233" v="252">thing. You can get it from the bk
+source repository if you want the 'bleeding edge' code but most
+people </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... set.
+
+Source Code
+-----------
+
+The source code is the main thing. You can get it from the bk
+ ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/ChangeLog/"
+  position="188" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="2169" />
+      <pre u="1605" v="1624">of 3.51.02 with the following bug fixes or 
+improvements:
+
+-- Fix to SQLDriverConnect to return  correct output 
+   string. This is the </pre>
+      <match u="1625" v="1625">main </match>
+      <post u="1626" v="1645">fix for 'Reserved error 
+   (-7778)' from all Windows ODBC applications. 
+   
+-- Fix to hang from unixODBC when there is a exception. 
+   </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... to return  correct output 
+   string. This is the main fix for 'Reserved error 
+   (-7778)' from all Windows  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/myodbcinst/myodbcinst.c/"
+  position="192" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="3104" />
+      <pre u="966" v="985">This is the entry point to this program.
+            
+    \note   More features/args will probably be added in the future.
+*/
+int </pre>
+      <match u="986" v="986">main( </match>
+      <post u="987" v="1006">int argc, char *argv[] )
+{
+    int nArg;
+    int nReturn;
+
+    /*
+        help; possible newbie
+    */
+    if ( argc &lt;= 1 )
+    {
+        printf( szSyntax );
+        exit( 1 );
+    }
+
+    /* 
+        parse args 
+    */
+    </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... will probably be added in the future.
+*/
+int main( int argc, char *argv[] )
+{
+    int nArg;
+    int nReturn;
+
+    /*
+         ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/TAR/MyODBC-3.51.11.tar#MyODBC-3.51.11/imyodbc/imyodbc.c/"
+  position="195" vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="2221" />
+      <pre u="198" v="217">locale.h>
+    #endif 
+#endif
+
+int     bDriverConnect = 0;
+int     bVerbose       = 0;
+int     nUserWidth     = 0;
+SQLHENV hEnv           = 0;
+SQLHDBC hDbc           = 0;
+
+int </pre>
+      <match u="218" v="218">main( </match>
+      <post u="219" v="238">int argc, char *argv[] )
+{
+    int     nArg, count;
+    int     bHTMLTable                  = 0;
+    int     bBatch                      = 0;
+    int     cDelimiter                  = 0;
+    int     bColumnNames                = 0;
+    char    </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... 0;
+SQLHENV hEnv           = 0;
+SQLHDBC hDbc           = 0;
+
+int main( int argc, char *argv[] )
+{
+    int     nArg, count;
+    int      ... </content>
+</document>
+</scope>

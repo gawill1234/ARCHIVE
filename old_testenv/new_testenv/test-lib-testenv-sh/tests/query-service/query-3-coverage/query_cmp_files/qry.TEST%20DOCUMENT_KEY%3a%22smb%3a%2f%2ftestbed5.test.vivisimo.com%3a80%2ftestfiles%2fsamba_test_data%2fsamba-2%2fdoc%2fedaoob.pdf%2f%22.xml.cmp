@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="case" />
+<attribute name="stem2" value="english+depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="245" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="868" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="2" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="19" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/edaoob.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/edaoob.pdf/"
+  filetype="pdf" vse-base-score="0.00801656" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Easysoft Data Access</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0040122">
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="232446"
+      />
+      <pre u="566" v="585">ames,&lt;br/>trademarks or regi</pre>
+      <match u="586" v="587">st</match>
+      <post u="588" v="607">ered trademarks of thei</post>
+    </solution>
+    <solution rank="1" score="0.0040122">
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="232446"
+      />
+      <pre u="638" v="657">e Easysoft logo are regi</pre>
+      <match u="658" v="659">st</match>
+      <post u="660" v="679">ered trademarks of&lt;br/>Easy</post>
+    </solution>
+    <solution rank="2" score="0.0040122">
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="232446"
+      />
+      <pre u="1452" v="1471">12&lt;br/>Unix server setup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120&lt;br/></pre>
+      <match u="1472" v="1473">Te</match>
+      <post u="1474" v="1493">sting the OOB Server . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127&lt;br/></post>
+    </solution>
+    <solution rank="3" score="0.0040122">
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="232446"
+      />
+      <pre u="1453" v="1472">2&lt;br/>Unix server setup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120&lt;br/>T</pre>
+      <match u="1473" v="1474">es</match>
+      <post u="1475" v="1494">ting the OOB Server . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127&lt;br/>S</post>
+    </solution>
+    <solution rank="4" score="0.0040122">
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="232446"
+      />
+      <pre u="1796" v="1815">Applixware . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 250&lt;br/>Lotus No</pre>
+      <match u="1816" v="1817">te</match>
+      <post u="1818" v="1837">s / Domino . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 251&lt;br/>mnoGoSearc</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... hardware and software may be trade names,<br/>trademarks or registered trademarks of their respective owners.</span> </div><div> <span>Easysoft and th ... e Easysoft logo are registered trademarks of<br/>Easysoft Limited.</span> </div><div> <span>The software describe ... OB Server. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 111<br/>Windows server setup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 112<br/>Unix server setup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120<br/>Testing the OOB Server . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127<br/>Setting up the OOB Client . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 142<br/>Windows  ... ple OOB Client in C . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 247<br/>Apache/PHP . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 249<br/>Applixware . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 250<br/>Lotus Notes / Domino . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 251<br/>mnoGoSearch (formerly UDMSearch) . . . . . . . . . . . . . . . . . . . . 252<br/>mxODBC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 253</span> </div></div><a/><div> <div> <span><b> ... ]]></content>
+</document>
+</scope>

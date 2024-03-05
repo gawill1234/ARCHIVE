@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testset>
+    <test>
+        <data>A rebel statement sent to Lisbon from Jamba said 86 government soldiers and 13 guerrillas were killed in the fighting that ended Jan. 3. It said the rebel forces sill held Mavinga.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>Biologia d espècies i poblacions marines Un dels objectius fonamentals de la investigació biològica marina és la comprensió de l'estructura i la fisiologia dels organismes marins, des d'éssers unicel-lulars a vertebrats, en relació amb el medi en què habiten.</data>
+        <expected>catalan</expected>
+    </test>
+    <test>
+        <data>１ 人 当たり の 時間 は ３ − ５ 分 。</data>
+        <expected>japanese</expected>
+    </test>
+    <test>
+        <data>約 １ ２ ０ ０ 人 の 乗客 は 車内 に 缶詰め 状態 と なっ た 。</data>
+        <expected>japanese</expected>
+    </test>
+    <test>
+        <data>Authorities last week issued a vacate order for a club in Manhattan and closed another in the Bronx.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>Madeira har et behageligt klima med en gennemsnitstemperatur på 19 grader celsius målt på hele året.</data>
+        <expected>danish</expected>
+    </test>
+    <test>
+        <data>散発 的 な 銃声 も 響い た 。</data>
+        <expected>japanese</expected>
+    </test>
+    <test>
+        <data>정부·기업 할것 없이 새로운 상황에 적응하지 않으면 살아남을 수 없다 .</data>
+        <expected>korean</expected>
+    </test>
+    <test>
+        <data>At the first Pan Am bankruptcy hearing, for example, at least five airlines were represented.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>▼미국에서 대기중에 배출되는 오염물질은 매년 1억3천만t에 이른다 .</data>
+        <expected>korean</expected>
+    </test>
+    <test>
+        <data>Sembra che davanti agli investigatori, padre e figlia abbiano quasi fatto a gara tra di loro per prendersi le maggiori responsabilità, nel tentativo di scagionarsi reciprocamente e di spiegare il loro gesto.</data>
+        <expected>italian</expected>
+    </test>
+    <test>
+        <data>의사 1인당 인구는 80년 1천6백90명에서 93년 8백55명으로 크게 감소했으나, 프랑스(3백32명), 캐나다(4백46명), 일본(5백83명)에 비해서는 아직도 많았다 .</data>
+        <expected>korean</expected>
+    </test>
+    <test>
+        <data>Mr. Neigum, poker-faced during the difficult task, manages a 46-second showing.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>This, combined with the container division talks, suggests the group's bankers might be considering an orderly disposal of all assets.</data>
+        <expected>english</expected>
+    </test>
+    <test>
+        <data>무인경비시스템은 무선으로 작동된다는 점과 자동으로 경찰서-파출소 등에 전화를 걸어주는 것이 사용상 가장 큰 특징이다 .</data>
+        <expected>korean</expected>
+    </test>
+    <test>
+        <data>També es recomana dur sabates tancades i no sandàlies.</data>
+        <expected>catalan</expected>
+    </test>
+    <test>
+        <data>Dette unaturlige liv af gentagen fødsel, død, sygdom og alderdom kan bringes til ophør, når hans bevidsthed forbindes og kommer i harmoni med Guds højeste bevidsthed.</data>
+        <expected>danish</expected>
+    </test>
+    <test>
+        <data>American Psychological Association - Conté una interessant recopilació de recursos organitzats per temes.</data>
+        <expected>catalan</expected>
+    </test>
+    <test>
+        <data>Richieste ufficiali, formulate all'amministrazione, a tutela del parcheggio dell'utenza delle farmacie, sono cadute vuoto.</data>
+        <expected>italian</expected>
+    </test>
+    <test>
+        <data>Es va parlar també de perspectives de professorat: Ha sortit ja el Decret d'Habilitacions previst per la LOU.</data>
+        <expected>catalan</expected>
+    </test>
+</testset>

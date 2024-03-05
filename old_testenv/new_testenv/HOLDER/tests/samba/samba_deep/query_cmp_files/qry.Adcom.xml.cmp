@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="8" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="3" />
+<attribute name="total-results-with-duplicates" value="8" />
+<document filetypes="pdf " vse-base-score="4.24805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba_deep/6/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_676.pdf/"
+  vertex="283"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba_deep/6/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_676.pdf"
+  ct="text/html" la-score="5.89164"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">79377</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380578"
+    u="51"
+  >Jan 3,
+  2008 17:16:18 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">Adcom GTP-830 Controller/Tuner</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <pre u="56" v="55"></pre>
+      <content name="title" output-action="bold" weight="3" u="55" v="60" />
+      <match u="56" v="56">Adcom </match>
+      <post u="57" v="60">GTP-830 Controller/Tuner</post>
+    </solution>
+    <solution rank="1" score="1.5">
+      <pre u="2090" v="2109"><![CDATA[Adcom’s</span> </div><div> <span>reputation of delivering solid performance<br/> at a modest price, and has earned<br/>an enthusiastic recommendation.</span> </div><div> <span>A</span> </div><div> <span>/</span> </div><div> <span>V REVIEW</span> </div><div> <span><b>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2286"
+      />
+      <match u="2110" v="2110"><![CDATA[ADCOM</b></span> </div><div> <span>]]></match>
+      <post u="2111" v="2130"><![CDATA[10 Timber Lane</span> </div><div> <span>Marlboro, New Jersey 07746</span> </div><div> <span>(732) 683-2356</span> </div><div> <span>www.adcom.com</span> </div><div> <span>Price: $1195</span> </div><div> <span>MANUFACTURER INFORMATION</span> </div><div> <span>SPECIFICATIONS</span> </div><div> <span>Number of ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="69" v="88"><![CDATA[delivering</span> </div><div> <span>audiophile-</span> </div><div> <span>grade performance at realworld<br/> prices. By eschewing<br/>thick  metal  front  panels,</span> </div><div> <span>machined-aluminum  volume<br/>controls, and lavish cosmetics,<br/>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2286"
+      />
+      <match u="89" v="89">Adcom </match>
+      <post u="90" v="109">has developed a reputation&lt;br/> among the cognoscenti of&lt;br/>offering bang for the buck. In&lt;br/>fact, when I was an audiophile&lt;br/></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="99" v="118">bang for the buck. In&lt;br/>fact, when I was an audiophile&lt;br/>on a budget in the mid-80s, I&lt;br/>owned  </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2286"
+      />
+      <match u="119" v="119">Adcom’</match>
+      <post u="120" v="139"><![CDATA[s  famous  GFA - 5 5 5<br/>power amplifier.</span> </div><div> <span>The  GTP-830  digital  contro l l e r /</span> </div><div> <span>tuner reviewed here ]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="121" v="140"><![CDATA[famous  GFA - 5 5 5<br/>power amplifier.</span> </div><div> <span>The  GTP-830  digital  contro l l e r /</span> </div><div> <span>tuner reviewed here is ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2286"
+      />
+      <match u="141" v="141">Adcom’</match>
+      <post u="142" v="161">s first&lt;br/>7.1-channel  product.  Their  previous&lt;br/>5.1-channel controllers have been well&lt;br/>reviewed  (see  Tony  Cord e s m </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="160" v="179">s m a n ’s&lt;br/>review of the GTP-760 in Issue 35).&lt;br/>The GTP-830, priced at $1195, follows&lt;br/>  </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2286"
+      />
+      <match u="180" v="180">Adcom’</match>
+      <post u="181" v="200"><![CDATA[s  tradition  of  using<br/>audiophile-quality  parts  and  design<br/>techniques in a modest chassis.</span> </div><div> <span>Features</span> </div><div> <span>The  GTP-830  offers  a  ]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="286" v="305">are provided on the front panel, which&lt;br/>is a welcome departure from tone controls&lt;br/> buried beneath layers of menus.&lt;br/>Wisely, </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2286"
+      />
+      <match u="306" v="306">Adcom </match>
+      <post u="307" v="326">omits the often-absurd&lt;br/>a rray  of  surround  modes  (Club,&lt;br/>Stadium,  Church,  ad  nauseum)  in&lt;br/>favor  of  straight  stereo,  Dolby-&lt;/span> &lt;/div>&lt;div> &lt;span></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="552" v="571">two speakers behind&lt;br/>you). Although the Surround EX and&lt;br/>DTS-ES  formats  derive  a  monaural&lt;br/>s u rround-back channel, </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2286"
+      />
+      <match u="572" v="572">Adcom </match>
+      <post u="573" v="592">claims&lt;br/>that  its  pro p r i e t a ry  decoding,  which&lt;br/>c reates  two  surround-back  signals,&lt;br/>p </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="758" v="777"><![CDATA[your video<br/>display. Another benefit of this feature</span> </div><div> <span>A</span> </div><div> <span>/</span> </div><div> <span>V REVIEW</span> </div><div> <span></span> </div><div> <span>Robert Harley</span> </div><div> <span>January/February 2002  www.theperfectvision.com</span> </div><div> <span>61</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2286"
+      />
+      <match u="778" v="778">Adcom </match>
+      <post u="779" v="798"><![CDATA[GTP-830 Controller/Tuner</span> </div><div> <span>Adcom delivers</span> </div><div> <span>audiophile</span> </div><div> <span>performance at</span> </div><div> <span>real-world prices.</span> </div></div><a/><div> <div> <span>62 The Perfect Vision  January/February 2002</span> </div><div> <span>is ]]></post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="763" v="782"><![CDATA[of this feature</span> </div><div> <span>A</span> </div><div> <span>/</span> </div><div> <span>V REVIEW</span> </div><div> <span></span> </div><div> <span>Robert Harley</span> </div><div> <span>January/February 2002  www.theperfectvision.com</span> </div><div> <span>61</span> </div><div> <span>Adcom GTP-830 Controller/Tuner</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2286"
+      />
+      <match u="783" v="783">Adcom </match>
+      <post u="784" v="803"><![CDATA[delivers</span> </div><div> <span>audiophile</span> </div><div> <span>performance at</span> </div><div> <span>real-world prices.</span> </div></div><a/><div> <div> <span>62 The Perfect Vision  January/February 2002</span> </div><div> <span>is that you won’t get ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... a budget in the mid-80s, I<br/>owned  Adcom’s  famous  GFA - 5 5 5<br/>power amplifier.</span> </div><div> <span> ... has earned<br/>an enthusiastic recommendation.</span> </div><div> <span>A</span> </div><div> <span>/</span> </div><div> <span>V REVIEW</span> </div><div> <span><b>ADCOM</b></span> </div><div> <span>10 Timber Lane</span> </div><div> <span>Marlboro, New Jersey 07746</span> </div><div> <span>(732)  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba_deep/0/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_057.pdf/"
+  vertex="278"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba_deep/0/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_057.pdf"
+  ct="text/html" la-score="5.89164"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">79957</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380577"
+    u="51"
+  >Jan 3,
+  2008 17:16:17 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">Top Performance Today—and Tomorrow</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2227" v="2246"><![CDATA[A/CD, and</span> </div><div> <span>Pioneer CD/DVD transports; Sony SCD-777ES SACD</span> </div><div> <span>Player; Theta Casablanca II, Meridian 861, Lexicon</span> </div><div> <span>MC-1,</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2755"
+      />
+      <match u="2247" v="2247"><![CDATA[Adcom </span> </div><div> <span>]]></match>
+      <post u="2248" v="2267"><![CDATA[GTP-760 </span> </div><div> <span>controllers; </span> </div><div> <span>Theta</span> </div><div> <span>Dreadnaught (seven channel), Adcom GFA-7500, Krell</span> </div><div> <span>MDA300, Pass  X600  power  amplifiers;  Polk  SRT</span> </div><div> <span>Reference, Thiel ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="2235" v="2254"><![CDATA[SCD-777ES SACD</span> </div><div> <span>Player; Theta Casablanca II, Meridian 861, Lexicon</span> </div><div> <span>MC-1,</span> </div><div> <span>Adcom </span> </div><div> <span>GTP-760 </span> </div><div> <span>controllers; </span> </div><div> <span>Theta</span> </div><div> <span>Dreadnaught (seven channel), ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2755"
+      />
+      <match u="2255" v="2255">Adcom </match>
+      <post u="2256" v="2275"><![CDATA[GFA-7500, Krell</span> </div><div> <span>MDA300, Pass  X600  power  amplifiers;  Polk  SRT</span> </div><div> <span>Reference, Thiel CS 7.2, Revel Salon loudspeakers;</span> </div><div> <span>McIntosh MR-71 ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Theta Casablanca II, Meridian 861, Lexicon</span> </div><div> <span>MC-1,</span> </div><div> <span>Adcom </span> </div><div> <span>GTP-760 </span> </div><div> <span>controllers; </span> </div><div> <span>Theta</span> </div><div> <span>Dreadnaught (seven channel), Adcom GFA-7500, Krell</span> </div><div> <span>MDA300, Pass  X600  power  amplifiers;   ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba_deep/6/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_616.pdf/"
+  vertex="281"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba_deep/6/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_616.pdf"
+  ct="text/html" la-score="5.89164"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">50604</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380578"
+    u="51"
+  >Jan 3,
+  2008 17:16:18 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">McIntosh MC602 Amplifier: Innovation &amp; Tradition</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="359" v="378">It’s one of the four product lines I re commend&lt;br/> to people whose budgets are limited. The&lt;br/>others are </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2449"
+      />
+      <match u="379" v="379">Adcom, </match>
+      <post u="380" v="399">NAD, and Onkyo. Aside fro m&lt;br/>some of its SACD players, however, Marantz is not a&lt;br/>top-of-the-line </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... people whose budgets are limited. The&lt;br/>others are Adcom, NAD, and Onkyo. Aside fro m&lt;br/>some of  ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="4.24805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_1396.pdf/"
+  vertex="344"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_1396.pdf"
+  ct="text/html" la-score="0.158303"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">339050</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380577"
+    u="51"
+  >Jan 3,
+  2008 17:16:17 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">Adcom GTP-880 A/V Controller</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <pre u="56" v="55"></pre>
+      <content name="title" output-action="bold" weight="3" u="55" v="61" />
+      <match u="56" v="56">Adcom </match>
+      <post u="57" v="61">GTP-880 A/V Controller</post>
+    </solution>
+    <solution rank="1" score="1.5">
+      <pre u="1770" v="1789"><![CDATA[unhesitatingly  to  anyone  seeking  a<br/>quality controller for under $2500.</span> </div><div> <span>March/April 2004  www.theperfectvision.com 67</span> </div><div> <span>A/V REVIEW</span> </div><div> <span><b>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="62"
+        v="1882"
+      />
+      <match u="1790" v="1790"><![CDATA[ADCOM</b></span> </div><div> <span>]]></match>
+      <post u="1791" v="1810"><![CDATA[8551 East Anderson Drive, Suite 105</span> </div><div> <span>Scottsdale, Arizona 85225</span> </div><div> <span>(480) 607-2277</span> </div><div> <span>www.adcom.com</span> </div><div> <span>Price: $2400</span> </div><div> <span>MANUFACTURER INFORMATION</span> </div><div> <span>SPECIFICATIONS</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="63" v="75"><![CDATA[   <a/><div> <div> <span><b>E</b></span> </div><div> <span>very  day,  for  the  past  two<br/>months,  I’ve  looked  at  the<br/>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="62"
+        v="1882"
+      />
+      <match u="76" v="76">Adcom </match>
+      <post u="77" v="96">GTP-880 controller in&lt;br/>my  equipment  rack  and&lt;br/>thought, “No way that thing&lt;/span> &lt;/div>&lt;div> &lt;span>costs $2400.” That was my visceral&lt;br/>response </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="141" v="160">but the illusion is so well executed&lt;br/> that the GTP-880 fits right in with&lt;br/>far more expensive equipment.&lt;/span> &lt;/div>&lt;div> &lt;span>The </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="62"
+        v="1882"
+      />
+      <match u="161" v="161">Adcom’</match>
+      <post u="162" v="181">s appearance is only&lt;/span> &lt;/div>&lt;div> &lt;span>the first of many felicitous surprises&lt;br/>that it holds in store for its owner.&lt;br/>Uncommon ease </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="270" v="289">set mirrors my response to its aes-&lt;/span> &lt;/div>&lt;div> &lt;span>thetic  and  operational  attributes:&lt;br/>“How are they doing this for $2400?”&lt;br/>Naturally, the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="62"
+        v="1882"
+      />
+      <match u="290" v="290">Adcom </match>
+      <post u="291" v="310">includes all the&lt;br/>bells and whistles one expects in this&lt;br/>price range, including support for virtually&lt;br/> every 5.1- and 7.1-</post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="438" v="457"><![CDATA[challenged in one format or<br/>the other, this provision is thoughtful,<br/> indeed.</span> </div><div> <span>In  addition  to  nicely  executed</span> </div><div> <span>commonplace  features,  the  ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="62"
+        v="1882"
+      />
+      <match u="458" v="458"><![CDATA[Adcom<br/>]]></match>
+      <post u="459" v="478">possesses several capabilities that are&lt;br/>rarely, if ever, found in controllers at&lt;br/>this price point. It’s surprising enough,&lt;br/>for </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="466" v="485">ever, found in controllers at&lt;br/>this price point. It’s surprising enough,&lt;br/>for instance, to find any componentvideo&lt;br/>  inputs.  The  </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="62"
+        v="1882"
+      />
+      <match u="486" v="486">Adcom  </match>
+      <post u="487" v="506">has  three&lt;br/>sets, all rated at a healthy 100MHz&lt;/span> &lt;/div>&lt;div> &lt;span>bandwidth in order to support highdefinition&lt;br/> sources. There’s also a </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="567" v="586">of  price—can&lt;br/>do: It permits bass management for&lt;br/>high-resolution, multichannel sources&lt;br/>without signal-degrading digital con-&lt;/span> &lt;/div>&lt;div> &lt;span>versions.  In  </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="62"
+        v="1882"
+      />
+      <match u="587" v="587">Adcom’</match>
+      <post u="588" v="607"><![CDATA[s  execution,  the<br/>switch has three positions. When set to<br/>B</span> </div><div> <span>YPASS</span> </div><div> <span>,  the  subwoofer  plays  only</span> </div><div> <span>material from the .1 ]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="635" v="654"><![CDATA[subwoofer  also<br/>receives  a  duplicate  of  all  content</span> </div><div> <span>March/April 2004  www.theperfectvision.com 65</span> </div><div> <span>A/V REVIEW</span> </div><div> <span></span> </div><div> <span>Alan Taffel</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="62"
+        v="1882"
+      />
+      <match u="655" v="655">Adcom </match>
+      <post u="656" v="675">GTP-880 A/V Controller&lt;/span> &lt;/div>&lt;div> &lt;span>The Adcom GTP-880 is packed&lt;br/> with a plethora of&lt;br/>advanced, thoughtful features,&lt;br/>many of </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="642" v="661"><![CDATA[content</span> </div><div> <span>March/April 2004  www.theperfectvision.com 65</span> </div><div> <span>A/V REVIEW</span> </div><div> <span></span> </div><div> <span>Alan Taffel</span> </div><div> <span>Adcom GTP-880 A/V Controller</span> </div><div> <span>The ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="62"
+        v="1882"
+      />
+      <match u="662" v="662">Adcom </match>
+      <post u="663" v="682">GTP-880 is packed&lt;br/> with a plethora of&lt;br/>advanced, thoughtful features,&lt;br/>many of which cannot be&lt;br/>found in controllers anywhere&lt;br/> </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... right in with<br/>far more expensive equipment.</span> </div><div> <span>The Adcom’s appearance is only</span> </div><div> <span>the first of many  ... 2004  www.theperfectvision.com 67</span> </div><div> <span>A/V REVIEW</span> </div><div> <span><b>ADCOM</b></span> </div><div> <span>8551 East Anderson Drive, Suite 105</span> </div><div> <span>Scottsdale, Arizona  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="2.74609"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_1193.pdf/"
+  vertex="325"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_1193.pdf"
+  ct="text/html" la-score="0.158303"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">791601</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380577"
+    u="51"
+  >Jan 3,
+  2008 17:16:17 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">Toshiba 50HP82 Cary Cinema 5</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.5">
+      <pre u="2308" v="2327"><![CDATA[system<br/>around a reference-quality</span> </div><div> <span>music rig. The Ayre V-6x simply lets<br/>you have it all.</span> </div><div> <span>—SB</span> </div><div> <span>AMP SURVEY</span> </div><div> <span><b>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2508"
+      />
+      <match u="2328" v="2328"><![CDATA[ADCOM</b></span> </div><div> <span>]]></match>
+      <post u="2329" v="2348"><![CDATA[8541 East Anderson Drive</span> </div><div> <span>Scottsdale, Arizona 85255</span> </div><div> <span>(480) 607-2277</span> </div><div> <span>www.adcom.com</span> </div><div> <span>Price: $2400</span> </div><div> <span><b>CARY AUDIO DESIGN</b></span> </div><div> <span>1020 Goodworth ]]></post>
+    </solution>
+    <solution rank="1" score="1.5">
+      <pre u="2370" v="2389"><![CDATA[Colorado 80301</span> </div><div> <span>(303) 442-7300</span> </div><div> <span>www.ayre.com</span> </div><div> <span>Price: $3000 for chassis plus $1250 per</span> </div><div> <span>installed channel</span> </div><div> <span>MANUFACTURER INFORMATION</span> </div><div> <span>SPECIFICATIONS</span> </div><div> <span><b>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2508"
+      />
+      <match u="2390" v="2390">Adcom </match>
+      <post u="2391" v="2410"><![CDATA[GFA-7805</b></span> </div><div> <span>Number of channels: Five</span> </div><div> <span>Power output: 300Wpc into 8 ohms; 450Wpc into 4</span> </div><div> <span>ohms (all channels driven)</span> </div><div> <span>Dimensions: ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="494" v="513"><![CDATA[THUMBS UP</span> </div><div> <span>Massive output power</span> </div><div> <span>Low price<br/>Can drive any loudspeaker system</span> </div><div> <span>THUMBS DOWN</span> </div><div> <span>Not the last word in transparency</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2508"
+      />
+      <match u="514" v="514">Adcom </match>
+      <post u="515" v="534"><![CDATA[GFA-7805: $2400</span> </div><div> <span>A</span> </div><div> <span>dcom  shook  up  the  high-end<br/>audio world back in 1979 with<br/>its  GFA-1  two-]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="534" v="553">two-channel  power&lt;/span> &lt;/div>&lt;div> &lt;span>amplifier. Seven years later, the company’s&lt;br/>  GFA-555  offered  so  much  performance&lt;br/>  for  the  price  that  </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2508"
+      />
+      <match u="554" v="554"><![CDATA[Adcom<br/>]]></match>
+      <post u="555" v="574">quickly came to dominate the market&lt;br/>for  high-powered,  great-sounding&lt;br/>budget amplifiers. I was an audio consumer&lt;br/> back then (</post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="583" v="602">1989),  and,  after&lt;br/>auditioning a GFA-555 on a trial basis&lt;br/>at home, bought one.&lt;/span> &lt;/div>&lt;div> &lt;span>Fast forward to 2003, and </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2508"
+      />
+      <match u="603" v="603"><![CDATA[Adcom</span> </div><div> <span>]]></match>
+      <post u="604" v="623">is still in the business of delivering highpower&lt;br/> and solid build quality in a nofrills&lt;br/> chassis—and at affordable prices.&lt;br/></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="673" v="692">audio bandwidth.&lt;br/>  What’s  more,  the  GFA-7805&lt;br/>increases its power to 450Wpc into 4&lt;br/>ohms.  The  amplifier  also  features&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2508"
+      />
+      <match u="693" v="693">Adcom’</match>
+      <post u="694" v="713"><![CDATA[s Fast Analog Transform (FAT)</span> </div><div> <span>circuitry (with bandwidth of 100kHz)<br/>that  the  company  claims  delivers<br/>improved transient response.</span> </div><div> <span>Other models ]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="760" v="779">amplifier had a neutral tonal balance,&lt;br/> with a smoother (but somewhat&lt;br/>less airy) treble than I’ve heard from&lt;br/>previous </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2508"
+      />
+      <match u="780" v="780">Adcom </match>
+      <post u="781" v="800">amps. Bass extension&lt;br/>was deep and powerful, and the midbass&lt;br/> tended to be full, warm, and a bit&lt;br/>wooly.  The  </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="1102" v="1121"><![CDATA[2003  www.theperfectvision.com</span> </div><div> <span>S U R V E Y</span> </div><div> <span></span> </div><div> <span>Robert Harley, Wayne Garcia, Shane Buettner</span> </div><div> <span>Multichannel Power Amps from<br/>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2508"
+      />
+      <match u="1122" v="1122">Adcom, </match>
+      <post u="1123" v="1142"><![CDATA[Cary, and Ayre </span> </div></div><a/><div> <div> <span>The Perfect Vision  September/October 2003</span> </div><div> <span>a two-hundred pound, $10,000, noholds-barred<br/>  effort—Balanced  Audio<br/>Technology’]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="2320" v="2339"><![CDATA[lets<br/>you have it all.</span> </div><div> <span>—SB</span> </div><div> <span>AMP SURVEY</span> </div><div> <span><b>ADCOM</b></span> </div><div> <span>8541 East Anderson Drive</span> </div><div> <span>Scottsdale, Arizona 85255</span> </div><div> <span>(480) 607-2277</span> </div><div> <span>www.]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2508"
+      />
+      <match u="2340" v="2340">adcom.</match>
+      <post u="2341" v="2360"><![CDATA[com</span> </div><div> <span>Price: $2400</span> </div><div> <span><b>CARY AUDIO DESIGN</b></span> </div><div> <span>1020 Goodworth Drive</span> </div><div> <span>Apex, North Carolina 27539</span> </div><div> <span>(919) 355-0010</span> </div><div> <span>www.caryaudio.com</span> </div><div> <span>Price: $</span> </div><div> <span>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... lets<br/>you have it all.</span> </div><div> <span>—SB</span> </div><div> <span>AMP SURVEY</span> </div><div> <span><b>ADCOM</b></span> </div><div> <span>8541 East Anderson Drive</span> </div><div> <span>Scottsdale, Arizona 85255</span> </div><div> <span>(480)  ... plus $1250 per</span> </div><div> <span>installed channel</span> </div><div> <span>MANUFACTURER INFORMATION</span> </div><div> <span>SPECIFICATIONS</span> </div><div> <span><b>Adcom GFA-7805</b></span> </div><div> <span>Number of channels: Five</span> </div><div> <span>Power output:  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="2.49805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_138.pdf/"
+  vertex="306"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_138.pdf"
+  ct="text/html" la-score="0.158303"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">102127</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380577"
+    u="51"
+  >Jan 3,
+  2008 17:16:17 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">AUDIO REVIEW Alan Taffel</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.5">
+      <pre u="1648" v="1667"><![CDATA[for a multi-channel amplifier in<br/>this price range, listening to it is exactly<br/> what you should do.</span> </div><div> <span>AUDIO REVIEW</span> </div><div> <span><b>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="1787"
+      />
+      <match u="1668" v="1668"><![CDATA[ADCOM</b></span> </div><div> <span>]]></match>
+      <post u="1669" v="1688"><![CDATA[10 Timber Lane</span> </div><div> <span>Marlboro, New Jersey 07746</span> </div><div> <span>Phone: (732) 683-2356; fax: (732) 683-9792</span> </div><div> <span>info@adcom.com</span> </div><div> <span>www.adcom.]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="125" v="144"><![CDATA[there was precious<br/>little between these polar extremes.</span> </div><div> <span>It was at this stage in hi-fi’s evolu-</span> </div><div> <span>tion  that  ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="1787"
+      />
+      <match u="145" v="145">Adcom  </match>
+      <post u="146" v="165">entered  the  scene&lt;br/>with considerable fanfare. Here was a&lt;br/>company  that  envisioned  affordable&lt;br/>components  that  could  nonetheless&lt;br/>claim the high-</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="157" v="176">envisioned  affordable&lt;br/>components  that  could  nonetheless&lt;br/>claim the high-end mantle. Not everyone&lt;br/> could afford an Audio Research&lt;br/>amplifier, but </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="1787"
+      />
+      <match u="177" v="177">Adcom </match>
+      <post u="178" v="197">promised something&lt;br/> with the same sonic priorities, at&lt;br/>a fraction of the price. It was a revolut&lt;br/> i o n </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="211" v="230">been much copied over the years. To&lt;br/>my ears—yes, I was on this obsessivecompulsive&lt;br/> trip even then—those early&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="1787"
+      />
+      <match u="231" v="231">Adcom </match>
+      <post u="232" v="251">products did not quite live up&lt;br/>to their promise. But the concept did,&lt;/span> &lt;/div>&lt;div> &lt;span>and has been the guiding force for </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="237" v="256"><![CDATA[up<br/>to their promise. But the concept did,</span> </div><div> <span>and has been the guiding force for the<br/>company ever since.</span> </div><div> <span>Today, ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="1787"
+      />
+      <match u="257" v="257">Adcom </match>
+      <post u="258" v="277">remains a healthy&lt;/span> &lt;/div>&lt;div> &lt;span>and  well-respected  manufacturer  of&lt;br/>audio  electronics.  The  GFA - 7 4 0 0 ,&lt;br/>which retails for $1,000, </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="351" v="370">7400 should have enough oomph&lt;br/>to meet most home-theater needs. If&lt;br/>y o u ’ re  driving  particularly  thirsty&lt;br/>speakers,  </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="1787"
+      />
+      <match u="371" v="371">Adcom  </match>
+      <post u="372" v="391">offers  the  GFA -&lt;br/>7500, which is rated at 150 and 225&lt;br/>watts-per-channel into 8 and 4 ohms,&lt;br/>respectively.&lt;/span> &lt;/div>&lt;div> &lt;span></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="616" v="635">to work with&lt;/span> &lt;/div>&lt;div> &lt;span>on the subject of features, let me turn&lt;br/>straightaway  to  what  counts:  the&lt;br/>sound. This is where </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="1787"
+      />
+      <match u="636" v="636">Adcom’</match>
+      <post u="637" v="656">s singlemindedness&lt;br/>  pays  off,  for  the  GFA7400&lt;br/> sounds very good indeed. I was&lt;br/>astonished  at  the  sound  I  obtained&lt;br/>from </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="870" v="889">when things get complicated, it’s easy&lt;br/>to lose the delineation of individual&lt;br/>lines.  This  didn’t  happen  with  the&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="1787"
+      />
+      <match u="890" v="890">Adcom; </match>
+      <post u="891" v="910"><![CDATA[it never once fumbled, jumbled,<br/>  or  muddled  even  the  most<br/>demanding material.</span> </div><div> <span>At the same time, when  not  being</span> </div><div> <span>called ]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="937" v="956">embedded,  contrasting  moments&lt;br/>of boundless cosmic silence. In order&lt;br/>to be effective, these moments must be&lt;br/>truly quiet. With the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="1787"
+      />
+      <match u="957" v="957">Adcom, </match>
+      <post u="958" v="977">they are.&lt;br/>Thus, the Adcom’s silence is as clean&lt;br/>and pure as its sound.&lt;/span> &lt;/div>&lt;div> &lt;span>As you might imagine, then, </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="942" v="961">cosmic silence. In order&lt;br/>to be effective, these moments must be&lt;br/>truly quiet. With the Adcom, they are.&lt;br/>Thus, the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="1787"
+      />
+      <match u="962" v="962">Adcom’</match>
+      <post u="963" v="982"><![CDATA[s silence is as clean<br/>and pure as its sound.</span> </div><div> <span>As you might imagine, then, this</span> </div><div> <span>amp  is  extremely  easy  ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... everyone<br/> could afford an Audio Research<br/>amplifier, but Adcom promised something<br/> with the same sonic priorities, at<br/> ... is exactly<br/> what you should do.</span> </div><div> <span>AUDIO REVIEW</span> </div><div> <span><b>ADCOM</b></span> </div><div> <span>10 Timber Lane</span> </div><div> <span>Marlboro, New Jersey 07746</span> </div><div> <span>Phone: ( ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="2.49805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_139.pdf/"
+  vertex="307"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_139.pdf"
+  ct="text/html" la-score="0.158303"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">51706</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380577"
+    u="51"
+  >Jan 3,
+  2008 17:16:17 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">A True High-End A/V Processor for $1,800</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.5">
+      <pre u="1924" v="1943"><![CDATA[having a properly priced product that<br/>really delivers with today’s media is<br/>better than waiting for Godot.</span> </div><div> <span>AUDIO REVIEW</span> </div><div> <span><b>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="65"
+        v="1978"
+      />
+      <match u="1944" v="1944"><![CDATA[ADCOM</b></span> </div><div> <span>]]></match>
+      <post u="1945" v="1964"><![CDATA[10 Timber Lane</span> </div><div> <span>Marlboro, New Jersey  07746</span> </div><div> <span>Phone: (732) 683-2356; fax: (732) 683-9792</span> </div><div> <span>info@adcom.com</span> </div><div> <span>Source: Manufacturer ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="66" v="66"><![CDATA[   <a/><div> <div> <span>he  ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="65"
+        v="1978"
+      />
+      <match u="67" v="67">Adcom  </match>
+      <post u="68" v="87">GTP-760  Digital&lt;br/>Processor/ Tuner/ Preamplifier&lt;br/>(what we call a “controller”) is&lt;br/>moderately  priced  at  $1,800.&lt;br/>Behind its front panel, </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="138" v="157">simply pass it through to the final&lt;br/>output stage without degradation of&lt;br/>sensitive signal information. It is the&lt;br/>result of </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="65"
+        v="1978"
+      />
+      <match u="158" v="158">Adcom’</match>
+      <post u="159" v="178">s experience in developing&lt;br/> its GDA-700 and GDA-600 digital-to-analog&lt;br/> converters and its GCD750&lt;br/> CD player. The </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="189" v="208">can be&lt;br/>used as an outboard DAC with any&lt;br/>CD player that has a digital output.&lt;/span> &lt;/div>&lt;div> &lt;span>The core of the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="65"
+        v="1978"
+      />
+      <match u="209" v="209">Adcom </match>
+      <post u="210" v="229">GTP-760’s&lt;/span> &lt;/div>&lt;div> &lt;span>d i g i t a l - p rocessing  capability  consists&lt;br/>of three Motorola DSP devices working&lt;br/>  </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="303" v="322">several times the 760’s&lt;br/>price. The analog audio circuits are all&lt;br/>Class-A, and are similar to those in&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="65"
+        v="1978"
+      />
+      <match u="323" v="323">Adcom’</match>
+      <post u="324" v="343"><![CDATA[s GFP-565 preamp.</span> </div><div> <span>Like most of today’s audio-video</span> </div><div> <span>controllers, the GTP-760 can be used<br/>as a ]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="348" v="367">well&lt;br/>as such. It may not be as transparent&lt;br/>or lifelike as the better stereo analog&lt;br/>preamps—such  as  the  </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="65"
+        v="1978"
+      />
+      <match u="368" v="368">Adcom  </match>
+      <post u="369" v="388">GFP750—but&lt;br/>  it  is  quite  good.  It  has&lt;br/>warmth,  depth,  and  good  harmonic&lt;br/>integrity. Unlike most of its competition,&lt;br/> it </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="493" v="512"><![CDATA[pleased.</span> </div><div> <span>The  GTP-760  incorporates  thre e</span> </div><div> <span>Dolby surround modes: Dolby Digital,<br/>Dolby  Pro  Logic,  and  Cinema  Pro<br/>Logic. The ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="65"
+        v="1978"
+      />
+      <match u="513" v="513">Adcom </match>
+      <post u="514" v="533">GTP-760 does not&lt;br/>o ffer THX Surround EX decoding. The&lt;br/>Dolby Digital mode is the same as that&lt;br/>used  </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="742" v="761">You can get cute or you can get clever&lt;/b>. Some manufacturers&lt;br/>go for the weird in features and sound processing. </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="65"
+        v="1978"
+      />
+      <match u="762" v="762">Adcom </match>
+      <post u="763" v="782">has&lt;br/>taken kept the same basic layout and features for its audiovideo&lt;br/> processor and preamp and has steadily made its </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="772" v="791">for its audiovideo&lt;br/> processor and preamp and has steadily made its design&lt;br/>better  in  technology,  sound,  and  ergonomics.  Like  most&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="65"
+        v="1978"
+      />
+      <match u="792" v="792">Adcom </match>
+      <post u="793" v="812"><![CDATA[products, the end result is not cutting-edge sound at<br/>cruel prices, but high-quality sound for real people.</span> </div></div><a/><div> <div> <span>The  ]]></post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="1296" v="1315">Dolby Digital (and Pro Logic for&lt;br/>that matter) and with DTS. I used it in&lt;br/>my reference system with three </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="65"
+        v="1978"
+      />
+      <match u="1316" v="1316"><![CDATA[Adcom<br/>]]></match>
+      <post u="1317" v="1336">5500  amplifiers  and  a  Theta&lt;br/>D readnaught  amplifier,  Polk  SRT&lt;br/>speakers, Kimber Kable wires, and a&lt;br/>Theta Voyager DVD/laserdisc </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... sensitive signal information. It is the<br/>result of Adcom’s experience in developing<br/> its GDA-700 and  ... is<br/>better than waiting for Godot.</span> </div><div> <span>AUDIO REVIEW</span> </div><div> <span><b>ADCOM</b></span> </div><div> <span>10 Timber Lane</span> </div><div> <span>Marlboro, New Jersey  07746</span> </div><div> <span>Phone: ( ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_1662.pdf/"
+  vertex="301"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_1662.pdf"
+  ct="text/html" la-score="0.158303"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">423634</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380578"
+    u="51"
+  >Jan 3,
+  2008 17:16:18 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">Conrad-Johnson Premier 18LS Preamp and Premier 350 Stereo Power Amplifier</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="626" v="645">of the game. It also&lt;br/>means that the law of diminishing returns&lt;br/>cuts  in  very  early.  Mid-priced  electronics&lt;br/>from </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="67"
+        v="2419"
+      />
+      <match u="646" v="646">Adcom, </match>
+      <post u="647" v="666">Parasound, and a host of other&lt;br/>manufacturers  provide  excellent  sound&lt;br/>quality. Going for the limits of high-end&lt;br/>sound means </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... cuts  in  very  early.  Mid-priced  electronics&lt;br/>from Adcom, Parasound, and a host of other&lt;br/>manufacturers  provide   ... </content>
+</document>
+</scope>

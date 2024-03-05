@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<vse-collection name="6394" modified="1184100815" modified-by="palmer@Vivisimo" max-elt-id="2233">
+  <vse-config max-elt-id="2232">
+    <crawler>
+      <crawl-urls>
+        <crawl-url url="fake://fake" status="complete">
+          <crawl-data content-type="in">this_is_a_test</crawl-data>
+        </crawl-url>
+      </crawl-urls>
+      <crawl-options>
+        <curl-option name="default-allow">allow</curl-option>
+      </crawl-options>
+    </crawler>
+    <vse-index>
+      <vse-index-option name="host-weight">-1</vse-index-option>
+      <vse-index-option name="url-weight">-1</vse-index-option>
+    </vse-index>
+    <converters>
+      <converter type-in="in" type-out="application/vxml">
+        <parser type="regex">
+          <match token="^" goto="1">
+            <add-document />
+          </match>
+          <state name="1">
+            <match token="." goto="2">
+              <add-content name="name" action="cluster" />
+            </match>
+          </state>
+          <state name="2">
+            <match token="." goto="3">
+              <add-content name="name" action="cluster" weight="1" />
+            </match>
+          </state>
+          <state name="3">
+            <match token="." goto="4">
+              <add-content name="name" action="bold" />
+            </match>
+          </state>
+          <state name="4">
+            <match token="." goto="1">
+              <add-content name="name" action="bold" />
+            </match>
+          </state>
+        </parser>
+      </converter>
+    </converters>
+    <vse-index />
+  </vse-config>
+  <vse-meta name="6394" creator="palmer" create-time="1184073183" max-elt-id="1" />
+</vse-collection>

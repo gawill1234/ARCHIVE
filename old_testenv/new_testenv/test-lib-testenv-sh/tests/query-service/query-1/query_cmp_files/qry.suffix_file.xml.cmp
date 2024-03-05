@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="8" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="2" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="15" />
+<attribute name="cache-hits-content-retrieval" value="0" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="16" />
+<attribute name="cache-misses-text" value="17" />
+<attribute name="total-results-with-duplicates" value="8" />
+<document
+  vse-key="file://:80/testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_odd_chars/"
+  url="file:///testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_odd_chars"
+  vse-base-score="0.5" la-score="4.18965"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="5498" v="5511" />
+      <pre u="5499" v="5507">file:///testenv/test_data/spec_tests/smoke_test/searchdocs/</pre>
+      <match u="5508" v="5509">suffix_file_</match>
+      <post u="5510" v="5511">odd_chars</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">
+.0, Compressed harddisk data file (DoubleSpace)
+.0, Javasoft JRE 1.3 lib file
+.0, Microsoft Flight Simulator Texture file
+.0, (0-99) Hacha Split File (Dr. Software)
+.0, Inno  ... </content>
+</document>
+<document
+  vse-key="file://:80/testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_a-d/"
+  url="file:///testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_a-d"
+  vse-base-score="0.5" la-score="4.18965"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="11240" v="11253" />
+      <pre u="11241" v="11249">file:///testenv/test_data/spec_tests/smoke_test/searchdocs/</pre>
+      <match u="11250" v="11251">suffix_file_</match>
+      <post u="11252" v="11253">a-d</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">
+.a, Alpha channel image data (Spaceward Graphics)
+.a, Ada language source code file
+.a, Assembly source code (Macintosh)
+.a, Object library (Unix)
+.a01, Compressed  ... </content>
+</document>
+<document
+  vse-key="file://:80/testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file/"
+  url="file:///testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file"
+  vse-base-score="0.5" la-score="4.18965"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="68211" v="68222" />
+      <pre u="68212" v="68220">file:///testenv/test_data/spec_tests/smoke_test/searchdocs/</pre>
+      <match u="68221" v="68222">suffix_file</match>
+      <post u="68223" v="68222"></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">
+.a, Alpha channel image data (Spaceward Graphics)
+.a, Ada language source code file
+.a, Assembly source code (Macintosh)
+.a, Object library (Unix)
+.a01, Compressed  ... </content>
+</document>
+<document
+  vse-key="file://:80/testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_d-i/"
+  url="file:///testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_d-i"
+  vse-base-score="0.5" la-score="4.18965"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="11181" v="11194" />
+      <pre u="11182" v="11190">file:///testenv/test_data/spec_tests/smoke_test/searchdocs/</pre>
+      <match u="11191" v="11192">suffix_file_</match>
+      <post u="11193" v="11194">d-i</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">
+.dem, USGS US Geological Survey National Mapping Division Topo30 3d-file
+.demo, Demo
+.dep, generally dependancy file
+.dep, Visual Basic Setup Wizard : Dependency  ... </content>
+</document>
+<document
+  vse-key="file://:80/testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_i-m/"
+  url="file:///testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_i-m"
+  vse-base-score="0.5" la-score="4.18965"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="10971" v="10984" />
+      <pre u="10972" v="10980">file:///testenv/test_data/spec_tests/smoke_test/searchdocs/</pre>
+      <match u="10981" v="10982">suffix_file_</match>
+      <post u="10983" v="10984">i-m</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">
+.iba, MDE InfoHandler Infobase File
+.ibd, PDS Picture
+.ibg, PDS format : Bitmap graphics - planetary images by NASA
+.ibk, Sound Blaster Instrument Bank
+.ibm, ARCHDOS :  ... </content>
+</document>
+<document
+  vse-key="file://:80/testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_m-r/"
+  url="file:///testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_m-r"
+  vse-base-score="0.5" la-score="4.18965"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="11501" v="11514" />
+      <pre u="11502" v="11510">file:///testenv/test_data/spec_tests/smoke_test/searchdocs/</pre>
+      <match u="11511" v="11512">suffix_file_</match>
+      <post u="11513" v="11514">m-r</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">
+.mur, Atari image format
+.mus, Mime: application/vnd.musician
+.mus, Music file format
+.mus, Sound file (MusicTime/Doom)
+.mus10, Audio (Mus10)
+.muz, MIDI (used by Windows'  ... </content>
+</document>
+<document
+  vse-key="file://:80/testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_r-u/"
+  url="file:///testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_r-u"
+  vse-base-score="0.5" la-score="4.18965"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="11109" v="11122" />
+      <pre u="11110" v="11118">file:///testenv/test_data/spec_tests/smoke_test/searchdocs/</pre>
+      <match u="11119" v="11120">suffix_file_</match>
+      <post u="11121" v="11122">r-u</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">
+.raw, PCM Signed Raw Sound File
+.raw, Raw File Format (bitmap)
+.raw, RAW grayscale/24-bit RGB bitmap image
+.raw, RAW sound file
+.raw, RealAudio sound; see RA
+.rax,  ... </content>
+</document>
+<document
+  vse-key="file://:80/testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_u-z/"
+  url="file:///testenv/test_data/spec_tests/smoke_test/searchdocs/suffix_file_u-z"
+  vse-base-score="0.5" la-score="4.18965"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="6723" v="6736" />
+      <pre u="6724" v="6732">file:///testenv/test_data/spec_tests/smoke_test/searchdocs/</pre>
+      <match u="6733" v="6734">suffix_file_</match>
+      <post u="6735" v="6736">u-z</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">
+.uvr, Ulead Cool 360 Viewer File
+.uvv, Listlabl file
+.uw, unsigned word Music file
+.uwf, UltraTracker WaveSample music file
+.uwl, WordPerfect User Word List
+.ux,  ... </content>
+</document>
+</scope>

@@ -1,0 +1,4 @@
+./wcc-continuous-1.tst
+./ucm-updates-1.tst -v WCC
+./wcc-continuous-2.tst
+./ucm-basic-1.tst -v WCC

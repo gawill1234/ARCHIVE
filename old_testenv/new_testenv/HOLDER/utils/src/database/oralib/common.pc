@@ -1,0 +1,87 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+
+#ifndef SQLCA_ORACLE
+#include <sqlca.h>
+#endif
+
+#ifndef OCI_ORACLE
+#include <oci.h>
+#endif
+
+int notfound = 0;
+int errorval = 0;
+
+void quitnow(char *errormystring)
+{
+
+   printf("%s\n", errormystring);
+   exit(1);
+
+}
+
+void runaway(char *errormystring)
+{
+
+   errorval = 0;
+   printf("%s\n", errormystring);
+   EXEC SQL ROLLBACK RELEASE;
+   exit(1);
+
+}
+
+////////////////////////////////////////////////////////////
+//
+//   Database access routines
+//
+void mysql_error()
+{
+
+   printf("SQL error occurred...\n");
+   printf("%.*s\n", (int)sqlca.sqlerrm.sqlerrml,
+         (CONST char *)sqlca.sqlerrm.sqlerrmc);
+   errorval = 1;
+
+   return;
+}
+
+void nullreturn()
+{
+
+   errorval = 1;
+
+   return;
+}
+
+void notfoundfunc()
+{
+   notfound = 1;
+
+   return;
+}
+
+//////////////////////////////////////////////////////////////
+//
+//   Open a connection to the database.
+//
+int opendb(char *user, char *psswd)
+{
+EXEC SQL BEGIN DECLARE SECTION;
+char *ur, *pd;
+EXEC SQL END DECLARE SECTION;
+
+   ur = user;
+   pd = psswd;
+
+   EXEC SQL WHENEVER SQLERROR DO mysql_error();
+
+   EXEC SQL CONNECT :ur IDENTIFIED BY :pd;
+
+   if (errorval == 1) {
+      quitnow("DB open failed, exiting");
+   }
+
+   return(0);
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<vse-collection name="8159">
+<vse-meta/>
+<vse-config>
+<crawler>
+  <crawl-options>
+    <curl-option name="default-allow">allow</curl-option>
+    <curl-option name="uncrawled-expires">-1</curl-option>
+  </crawl-options>
+  <crawl-urls>
+    <choose>
+      <when test="$live-crawl-date > 0">
+        <!-- **** DO THE DELETES ***** -->
+        <crawl-url url="http://vivisimo.com/refresh" status="complete">
+          <crawl-data content-type="application/vxml" encoding="xml">
+            <crawl-delete url="http://vivisimo.com/3" />
+            <crawl-delete vse-key="http://vivisimo.com/vse-key1" />
+	    <!-- this would be a good test....
+              <crawl-delete url="http://vivisimo.com/refresh" />
+	    -->
+          </crawl-data>
+        </crawl-url>
+        <crawl-delete vse-key="bogus" />
+        <crawl-delete vse-key="http://vivisimo.com/4" />
+        <crawl-delete vse-key="http://vivisimo.com/vse-key2" />
+        <crawl-delete vse-key="http://vivisimo.com/vse-key3?" vse-key-normalized="vse-key-normalized" />
+        <crawl-delete vse-key="http://vivisimo.com/multidoc1-1" />
+	<crawl-delete vse-key="http://vivisimo.com/add-to"/>
+      </when>
+      <otherwise>
+        <!-- **** DO THE ORIGINAL CRAWL WITH DELETES **** -->
+        <process-xsl><![CDATA[
+          <xsl:for-each select="str:tokenize(str:padding(50), '')">
+            <xsl:variable name="i" select="position()"/>
+            <crawl-url url="http://vivisimo.com/{$i}" status="complete">
+              <crawl-data content-type="application/vxml" encoding="xml">
+                <document>
+                  <content name="title"><xsl:value-of select="$i"/></content>
+                </document>
+              </crawl-data>
+            </crawl-url>
+          </xsl:for-each>
+        ]]></process-xsl>
+        <!-- delete something in current buffers, would be a good test...
+          <crawl-delete url="http://vivisimo.com/1" />
+        -->
+        <process-xsl><![CDATA[
+          <xsl:for-each select="str:tokenize(str:padding(3), '')">
+            <xsl:variable name="i" select="position()"/>
+            <xsl:for-each select="str:tokenize(str:padding($i + 1), '')">
+              <xsl:variable name="j" select="position()"/>
+              <crawl-url url="http://vivisimo.com/vse-key-{$i}-{$j}"  status="complete">
+                <crawl-data content-type="application/vxml" encoding="xml">
+                  <document url="http://vivisimo.com/vse-key-{$i}" vse-key="vse-key{$i}">
+                    <content name="title"><xsl:value-of select="concat('vse-key', $i, $j)"/></content>
+                  </document>
+                </crawl-data>
+              </crawl-url>
+            </xsl:for-each>
+          </xsl:for-each>
+        ]]></process-xsl>
+
+        <!-- multiple documents added, one of the documents deleted by vse-key will delete both -->
+
+        <crawl-url url="http://vivisimo.com/multi-doc-1" status="complete">
+          <crawl-data content-type="application/vxml" encoding="xml">
+	    <document vse-key="/multidoc1-1">
+	      <content name="title">multidoc11</content>
+	    </document>
+	    <document vse-key="/multidoc1-2">
+	      <content name="title">multidoc12</content>
+	    </document>
+          </crawl-data>
+        </crawl-url>
+
+        <!-- document that we add to and delete the vse-key -->
+
+        <crawl-url url="http://vivisimo.com/add-to-1" status="complete">
+          <crawl-data content-type="application/vxml" encoding="xml">
+	    <document vse-key="add-to">
+	      <content name="title">addto-main</content>
+	    </document>
+          </crawl-data>
+        </crawl-url>
+        <crawl-url url="http://vivisimo.com/add-to-2" status="complete">
+          <crawl-data content-type="application/vxml" encoding="xml">
+	    <content name="title" add-to="add-to">addto-added</content>
+          </crawl-data>
+        </crawl-url>
+      </otherwise>
+    </choose>
+  </crawl-urls>
+</crawler>
+<vse-index>
+  <vse-index-option name="duplicate-elimination">false</vse-index-option>
+</vse-index>
+<converters />
+</vse-config>
+</vse-collection>

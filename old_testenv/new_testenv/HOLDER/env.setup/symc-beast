@@ -1,0 +1,8 @@
+# This needs to be invoked from the root of the /testenv/ checkout, like this:
+#    source env.setup/symc-beast
+
+source env.setup/common
+export VIVHOST=symc-beast.vivisimo.com
+export VIVTARGETARCH=windows64
+export VIVTARGETOS=windows
+export OSSTRING="Windows Server 2008 Enterprise Edition"

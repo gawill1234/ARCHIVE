@@ -1,0 +1,21 @@
+#query::collection::number_of_urls::compare_file::new_file
+#
+#   special codes in strings: (yes, I know it is screwy but it greatly
+#                              simplifies processing ...)
+#      <2eq> will become '=='
+#      <eq> will become '='
+#      <empty> will become ''
+#      <cr> will become '\n' (newline)
+#      <sp> will become ' '
+#
+#   To add more changes go in:
+#      $TEST_ROOT/lib/queryObj.py in set_other_opts()
+#
+##############################################
+#
+#   Basic queries
+#
+::qs-acls::1000::acls..pos1::num=2000&authorization-rights=pos1&profile=true&output-score=true
+15::qs-acls::9::15..acls..pos2::num=2000&authorization-rights=pos2&profile=true&output-score=true
+::qs-acls::1000::acls..pos2::num=2000&authorization-rights=pos2&profile=true&output-score=true
+::qs-acls::0::acls..neg1::num=2000&authorization-rights=neg1&profile=true&output-score=true

@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="26" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="8" />
+<attribute name="total-results-with-duplicates" value="26" />
+<document filetypes="openoffice " vse-base-score="2.9375"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/quick_tests.odt/"
+  graph-id-high-water="11" priority="0" vertex="12" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/quick_tests.odt"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">24057</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640280"
+    u="25"
+  >Jun 16,
+  2008 18:18:00 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="29">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2">
+      <pre u="505" v="524"><![CDATA[of 1000 should not display on the UI that the default is -1.  That would be both confusing and misleading.</p><h1>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="1812"
+      />
+      <match u="525" v="525">Test </match>
+      <post u="526" v="545"><![CDATA[Data by Field Type</h1><h1>URI Fields</h1><p>These are the fields that are usually highlighted in blue and point to some ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="19" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="19">vivisimo.com/testfiles/samba_test_data/11601/doc/quick_tests.odt</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="19" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="19">data/11601/doc/quick_tests.odt</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="6" v="17">smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/quick_</pre>
+      <content name="url" action="none" u="5" v="19" />
+      <match u="18" v="18">tests.</match>
+      <post u="19" v="19">odt</post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="21" v="21">testbed5.</pre>
+      <content name="host" action="none" u="20" v="24" />
+      <match u="22" v="22">test.</match>
+      <post u="23" v="24">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... -1.  That would be both confusing and misleading.</p><h1>Test Data by Field Type</h1><h1>URI Fields</h1><p>These are  ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.9375"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/3.dbf/"
+  graph-id-high-water="2" priority="0" vertex="3" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/3.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">34252</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/3.dbf</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/3.dbf</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="232" v="251"><![CDATA[P</td><td>E</td><td>CIT</td><td>1</td><td>ENGE</td><td>MONTH</td><td>1.50</td><td>7056.00</td><td>10.584</td><td>19950401</td><td>19961130</td><td/><td/><td>0</td><td>8</td><td>4</td><td>4</td><td>4</td><td>3.387</td><td>0</td><td/><td/><td>D</td>  <td>1.7.6.1.1.1.1.2</td><td>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="3195"
+      />
+      <match u="252" v="252"><![CDATA[Test</td><td>]]></match>
+      <post u="253" v="272"><![CDATA[40</td><td/><td>19950101</td><td>MM</td><td>IN2P3</td><td>P</td><td>E</td><td>CIT</td><td>1</td><td>TEKE</td><td>MONTH</td><td>1.00</td><td>5712.00</td><td>5.712</td><td>19950401</td><td>19961130</td><td/><td/><td>0</td><td>8</td><td>4</td><td>4</td><td>4</td><td>]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="315" v="334"><![CDATA[MM</td><td>INFN</td><td>P</td><td>E</td><td>PADOVA</td><td>1</td><td>ENGE</td><td>MONTH</td><td>3.00</td><td>7408.80</td><td>22.226</td><td>19950401</td><td>19961130</td><td/><td/><td/><td>8</td><td>4</td><td>4</td><td>4</td><td>7.112</td><td/><td/><td/><td>D</td>  <td>1.7.6.1.1.1.2.2</td><td>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="3195"
+      />
+      <match u="335" v="335"><![CDATA[Test</td><td>]]></match>
+      <post u="336" v="355"><![CDATA[62</td><td/><td>19950101</td><td>MM</td><td>INFN</td><td>P</td><td>E</td><td>PADOVA</td><td>1</td><td>TEKE</td><td>MONTH</td><td>1.50</td><td>5997.60</td><td>8.996</td><td>19950401</td><td>19961130</td><td/><td/><td/><td>8</td><td>4</td><td>4</td><td>4</td><td>2.879</td><td/><td/><td/><td>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 8</td><td>4</td><td>4</td><td>4</td><td>3.387</td><td>0</td><td/><td/><td>D</td>  <td>1.7.6.1.1.1.1.2</td><td>Test</td><td>40</td><td/><td>19950101</td><td>MM</td><td>IN2P3</td><td>P</td><td>E</td><td>CIT</td><td>1</td><td> ... 19961130</td><td/><td/><td/><td>8</td><td>4</td><td>4</td><td>4</td><td>7.112</td><td/><td/><td/><td>D</td>  <td>1.7.6.1.1.1.2.2</td><td>Test</td><td>62</td><td/><td>19950101</td><td>MM</td><td>INFN</td><td>P</td><td>E</td><td>PADOVA</td><td>1</td><td> ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.9375"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/1.dbf/"
+  graph-id-high-water="0" priority="0" vertex="1" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/1.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">21628</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/1.dbf</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/1.dbf</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="123" v="142">virus and you can give it to someone else even though you may feel well and have a negative AIDS </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="1037"
+      />
+      <match u="143" v="143"><![CDATA[test?</td>  <td>]]></match>
+      <post u="144" v="163"><![CDATA[25.00000</td><td>20030113</td><td>H</td><td/><td/><td>Is your reason for donating blood to obtain an AIDS test?</td>  <td>26.00000</td><td>20030113</td><td>H</td><td/><td/><td>Have you ever ]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="137" v="156"><![CDATA[well and have a negative AIDS test?</td>  <td>25.00000</td><td>20030113</td><td>H</td><td/><td/><td>Is your reason for donating blood to obtain an AIDS ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="1037"
+      />
+      <match u="157" v="157"><![CDATA[test?</td>  <td>]]></match>
+      <post u="158" v="177"><![CDATA[26.00000</td><td>20030113</td><td>H</td><td/><td/><td>Have you ever given blood under another name or Social Security Number?</td>  <td>27.00000</td><td>20030113</td><td>H</td><td/><td/><td>In the ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... may feel well and have a negative AIDS test?</td>  <td>25.00000</td><td>20030113</td><td>H</td><td/><td/><td>Is your reason for donating blood to obtain an AIDS test?</td>  <td>26.00000</td><td>20030113</td><td>H</td><td/><td/><td>Have you ever given blood  ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.9375"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/4.dbf/"
+  graph-id-high-water="3" priority="0" vertex="4" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/4.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">34252</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/4.dbf</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/4.dbf</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="232" v="251"><![CDATA[P</td><td>E</td><td>CIT</td><td>1</td><td>ENGE</td><td>MONTH</td><td>1.50</td><td>7056.00</td><td>10.584</td><td>19950401</td><td>19961130</td><td/><td/><td>0</td><td>8</td><td>4</td><td>4</td><td>4</td><td>3.387</td><td>0</td><td/><td/><td>D</td>  <td>1.7.6.1.1.1.1.2</td><td>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="3195"
+      />
+      <match u="252" v="252"><![CDATA[Test</td><td>]]></match>
+      <post u="253" v="272"><![CDATA[40</td><td/><td>19950101</td><td>MM</td><td>IN2P3</td><td>P</td><td>E</td><td>CIT</td><td>1</td><td>TEKE</td><td>MONTH</td><td>1.00</td><td>5712.00</td><td>5.712</td><td>19950401</td><td>19961130</td><td/><td/><td>0</td><td>8</td><td>4</td><td>4</td><td>4</td><td>]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="315" v="334"><![CDATA[MM</td><td>INFN</td><td>P</td><td>E</td><td>PADOVA</td><td>1</td><td>ENGE</td><td>MONTH</td><td>3.00</td><td>7408.80</td><td>22.226</td><td>19950401</td><td>19961130</td><td/><td/><td/><td>8</td><td>4</td><td>4</td><td>4</td><td>7.112</td><td/><td/><td/><td>D</td>  <td>1.7.6.1.1.1.2.2</td><td>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="3195"
+      />
+      <match u="335" v="335"><![CDATA[Test</td><td>]]></match>
+      <post u="336" v="355"><![CDATA[62</td><td/><td>19950101</td><td>MM</td><td>INFN</td><td>P</td><td>E</td><td>PADOVA</td><td>1</td><td>TEKE</td><td>MONTH</td><td>1.50</td><td>5997.60</td><td>8.996</td><td>19950401</td><td>19961130</td><td/><td/><td/><td>8</td><td>4</td><td>4</td><td>4</td><td>2.879</td><td/><td/><td/><td>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 8</td><td>4</td><td>4</td><td>4</td><td>3.387</td><td>0</td><td/><td/><td>D</td>  <td>1.7.6.1.1.1.1.2</td><td>Test</td><td>40</td><td/><td>19950101</td><td>MM</td><td>IN2P3</td><td>P</td><td>E</td><td>CIT</td><td>1</td><td> ... 19961130</td><td/><td/><td/><td>8</td><td>4</td><td>4</td><td>4</td><td>7.112</td><td/><td/><td/><td>D</td>  <td>1.7.6.1.1.1.2.2</td><td>Test</td><td>62</td><td/><td>19950101</td><td>MM</td><td>INFN</td><td>P</td><td>E</td><td>PADOVA</td><td>1</td><td> ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.9375"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/ooxml1.docx/"
+  graph-id-high-water="9" priority="0" vertex="10" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/ooxml1.docx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">396219</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640098"
+    u="24"
+  >Jun 16,
+  2008 18:14:58 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Office Open XML</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/ooxml1.docx</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/ooxml1.docx</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1167" v="1186">that verify conformance of specific Office Open XML applications to this Standard. (Note that this Standard does not include a </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="37986"
+      />
+      <match u="1187" v="1187">test </match>
+      <post u="1188" v="1207"><![CDATA[suite.)</li><li>Educators and authors who teach about Office Open XML applications.</li> <p><br/></p> <li>Issues</li> <p>To achieve the above goal, the following issues ]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="11651" v="11670"><![CDATA[w:hdr xmlns:w="…"&gt;<br/>  &lt;w:p&gt;<br/>    &lt;w:pPr&gt;<br/>      &lt;w:pStyle w:val="Header"/&gt;<br/>    &lt;/w:pPr&gt;<br/>    &lt;w:r&gt;<br/>      &lt;w:t&gt;My ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="37986"
+      />
+      <match u="11671" v="11671">Test </match>
+      <post u="11672" v="11691"><![CDATA[Document&lt;/w:t&gt;<br/>    &lt;/w:r&gt;<br/>  &lt;/w:p&gt;<br/>&lt;/w:hdr&gt;</p><p>Here is the odd header corresponding to the examples above:</p><p>&lt;w:]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Note that this Standard does not include a test suite.)</li><li>Educators and authors who teach about Office  ... Header"/&gt;<br/>    &lt;/w:pPr&gt;<br/>    &lt;w:r&gt;<br/>      &lt;w:t&gt;My Test Document&lt;/w:t&gt;<br/>    &lt;/w:r&gt;<br/>  &lt;/w:p&gt;<br/>&lt;/w: ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.9375"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/6.dbf/"
+  graph-id-high-water="5" vertex="6" priority="0" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/6.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">1059020</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/6.dbf</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/6.dbf</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="2088" v="2107"><![CDATA[Everett Chamber of Commerce</td><td>building</td><td>53061</td>  <td>Everett Public Library</td><td>building</td><td>53061</td>  <td>F H Morgan Childrens Center</td><td>building</td><td>53035</td>  <td>Fast Flux ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="80916"
+      />
+      <match u="2108" v="2108">Test </match>
+      <post u="2109" v="2128"><![CDATA[Facility</td><td>building</td><td>53005</td>  <td>Ferguson Cottage</td><td>building</td><td>53061</td>  <td>Fernwell Building</td><td>building</td><td>53063</td>  <td>Fifth Avenue Theater</td><td>building</td><td>53033</td>  <td>Fotheringham House</td><td>building</td><td>53063</td>  <td>]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="25016" v="25035"><![CDATA[building</td><td>39049</td>  <td>Upper Sandusky City Hall</td><td>building</td><td>39175</td>  <td>Upper Sandusky Community Library</td><td>building</td><td>39175</td>  <td>Urbana City Hall</td><td>building</td><td>39021</td>  <td>Usce ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="80916"
+      />
+      <match u="25036" v="25036">Test </match>
+      <post u="25037" v="25056"><![CDATA[Laboratory</td><td>building</td><td>39061</td>  <td>Valley Branch Public Library</td><td>building</td><td>39061</td>  <td>Valley View Town Hall</td><td>building</td><td>39035</td>  <td>Van Wert County Courthouse</td><td>building</td><td>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... H Morgan Childrens Center</td><td>building</td><td>53035</td>  <td>Fast Flux Test Facility</td><td>building</td><td>53005</td>  <td>Ferguson Cottage</td><td>building</td><td>53061</td>  <td>Fernwell  ... building</td><td>39175</td>  <td>Urbana City Hall</td><td>building</td><td>39021</td>  <td>Usce Test Laboratory</td><td>building</td><td>39061</td>  <td>Valley Branch Public Library</td><td>building</td><td> ... ]]></content>
+</document>
+<document filetypes="openoffice " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.odp/"
+  graph-id-high-water="23" priority="0" vertex="24" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.odp"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">10525</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/simple.odp</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/simple.odp</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="32" v="31"></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="31" v="34" />
+      <match u="32" v="32"><![CDATA[   <p>test</p><li><p>]]></match>
+      <post u="33" v="34"><![CDATA[outline</p></li><li><p>efadfjla</p></li><li><p/></li>  ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p>test</p><li><p>outline</p></li><li><p>efadfjla</p></li><li><p/></li>  ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/test.docx/"
+  graph-id-high-water="21" priority="0" vertex="22" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/test.docx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">14513</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640098"
+    u="24"
+  >Jun 16,
+  2008 18:14:58 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">This is 48-point text.</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/test.docx</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/test.docx</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="6" v="16">smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="17" v="17">test.</match>
+      <post u="18" v="18">docx</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p>This is a table.</p>  <td><p>Row 1 column 1</p></td><td><p>Row 1 column 2</p></td><td><p>Row 1 column 3</p></td><td><p>Row 1 column 4</p></td><td><p>Row 1 column 5</p></td>  <td><p/></td><td><p/></td><td><p/></td><td><p/></td><td><p/></td>  <td><p/></td><td><p/></td><td><p>Row 3 column 3</p></td><td><p/></td><td><p/></td>  <td><p>Row 5 column 1</p></td><td><p/></td><td><p/></td><td><p>Row 5 column 4</p></td><td><p/></td>  <p/><p>This is a bulleted  ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.pptx/"
+  graph-id-high-water="18" priority="0" vertex="19" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.pptx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">34170</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/simple.pptx</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/simple.pptx</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="30" v="31"><![CDATA[   <p/>  <td><p>Slide 1</p><p/><p>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="29" v="38" />
+      <match u="32" v="32">Test </match>
+      <post u="33" v="38"><![CDATA[text 1</p><p/></td>  <p/>  <td><p/><p/><p>a</p><p/><p/><p/><p>b</p><p/><p/><p/></td>  <p/>  <td><p>title</p><p/><p>subtitle</p><p/></td>    ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/>  <td><p>Slide 1</p><p/><p>Test text 1</p><p/></td>  <p/>  <td><p/><p/><p>a</p><p/><p/><p/><p>b</p><p/><p/><p/></td>  <p/>  <td><p>title</p><p/><p>subtitle</p><p/></td>    ]]></content>
+</document>
+<document filetypes="openoffice " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/testbed_plans.ods/"
+  graph-id-high-water="13" priority="0" vertex="14" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/testbed_plans.ods"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">15538</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640271"
+    u="25"
+  >Jun 16,
+  2008 18:17:51 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="29">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="19" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="19">vivisimo.com/testfiles/samba_test_data/11601/doc/testbed_plans.ods</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="19" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="19">data/11601/doc/testbed_plans.ods</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="21" v="21">testbed5.</pre>
+      <content name="host" action="none" u="20" v="24" />
+      <match u="22" v="22">test.</match>
+      <post u="23" v="24">vivisimo.com</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="753" v="772"><![CDATA[run against in order</p></td><td/>  <td/><td><p>many 1 char lines</p></td><td><p>of X-large files</p></td><td><p>access (whatever it is).</p></td><td><p>to prevent the problem</p></td><td/>  <td><p>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="32" v="882" />
+      <match u="773" v="773">Test </match>
+      <post u="774" v="793"><![CDATA[files by size,</p></td><td><p>1 many k line</p></td><td><p>of huge files</p></td><td><p>At least one file for</p></td><td><p>from reoccurring in the</p></td><td/>  <td><p>by ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... access (whatever it is).</p></td><td><p>to prevent the problem</p></td><td/>  <td><p>Test files by size,</p></td><td><p>1 many k line</p></td><td><p>of  ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/2.dbf/"
+  graph-id-high-water="1" priority="0" vertex="2" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/2.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">184</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/2.dbf</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/2.dbf</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="29" v="36"><![CDATA[     <td>
+ID,N,15,0</td><td>NAME,C,70</td>  <td>612</td><td>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28" v="37" />
+      <match u="37" v="37"><![CDATA[Test</td>  <td/>    ]]></match>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+ID,N,15,0</td><td>NAME,C,70</td>  <td>612</td><td>Test</td>  <td/>    ]]></content>
+</document>
+<document filetypes="openoffice " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/db_crawl_times.ods/"
+  graph-id-high-water="10" priority="0" vertex="11" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/db_crawl_times.ods"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">10344</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640271"
+    u="26"
+  >Jun 16,
+  2008 18:17:51 GMT</content>
+  <content name="language" weight="0" action="none" u="28">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="30">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="20" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="20">vivisimo.com/testfiles/samba_test_data/11601/doc/db_crawl_times.ods</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="20" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="20">data/11601/doc/db_crawl_times.ods</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="22" v="22">testbed5.</pre>
+      <content name="host" action="none" u="21" v="25" />
+      <match u="23" v="23">test.</match>
+      <post u="24" v="25">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <h1>Sheet1</h1>  <td><p>DB</p></td><td><p>Page Size</p></td><td><p>Error %</p></td><td><p>Run Time</p></td><td><p>Record Count</p></td><td/>  <td><p>Postgres</p></td><td><p>53</p></td><td><p>63</p></td><td><p>17:16:48</p></td><td><p>327523</p></td><td/>  <td><p>Postgres</p></td><td><p>1000</p></td><td><p>70</p></td><td><p>1:03:54</p></td><td><p>327523</p></td><td/>  <td><p>mysql</p></td><td><p>10</p></td><td><p>0</p></td><td><p>37:40:02</p></td><td><p>327523</p></td><td/>  <td><p>mysql</p></td><td><p>1000</p></td><td><p>0</p></td><td><p>35:15</p></td><td><p> ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.docx/"
+  graph-id-high-water="17" priority="0" vertex="18" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.docx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">9975</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Vivisimo!</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/simple.docx</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/simple.docx</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p>Microsoft word is so fun.</p><p/><p>2007 is here baby.</p><p/><p/><p>Vivisimo!</p>  ]]></content>
+</document>
+<document filetypes="openoffice " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.ods/"
+  graph-id-high-water="24" priority="0" vertex="25" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.ods"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">6121</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/simple.ods</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/simple.ods</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <h1>Sheet1</h1>  <td><p>a</p></td><td><p>1</p></td>  <td><p>b</p></td><td><p>2</p></td>  <h1>Sheet2</h1>  <td/>  <h1>Sheet3</h1>  <td/>    ]]></content>
+</document>
+<document filetypes="openoffice " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.odt/"
+  graph-id-high-water="25" priority="0" vertex="26" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.odt"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">6647</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/simple.odt</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/simple.odt</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p>The quick brown fox jumped over the lazy something dog.</p>  ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.xlsx/"
+  graph-id-high-water="19" priority="0" vertex="20" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.xlsx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">8241</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640016"
+    u="24"
+  >Jun 16,
+  2008 18:13:36 GMT</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/simple.xlsx</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/simple.xlsx</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">     </content>
+</document>
+<document filetypes="html " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.dbf/"
+  graph-id-high-water="22" priority="0" vertex="23" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">13796</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640014"
+    u="24"
+  >Jun 16,
+  2008 18:13:34 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/simple.dbf</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/simple.dbf</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+CODE,C,4</td><td>EMPLS,N,5,0</td><td>FCTRY,N,5,0</td><td>DOMEST,N,8,3</td><td>XPORTS,N,8,3</td><td>PRODUCTS,C,10</td><td>ORD,N,3,0</td><td>STK,N,3,0</td><td>PLN,N,3,0</td><td>UTL,N,3,0</td><td>EQPMT,N,8,3</td><td>TRN,N,3,0</td><td>POSIT,C,5</td><td>FUNCT,C,5</td><td> ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/small.xlsx/"
+  graph-id-high-water="15" priority="0" vertex="16" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/small.xlsx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">8910</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640350"
+    u="24"
+  >Jun 16,
+  2008 18:19:10 GMT</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/small.xlsx</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/small.xlsx</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">     </content>
+</document>
+<document filetypes="html " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/8.dbf/"
+  graph-id-high-water="7" priority="0" vertex="8" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/8.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">788</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/8.dbf</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/8.dbf</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+AKTENZEICH,C,12</td><td>FIRMA1,C,7</td><td>FIRMA2,C,7</td><td>NACHNAME1,C,12</td><td>VORNAME1,C,11</td><td>NACHNAME2,C,12</td><td>VORNAME2,C,11</td><td>ANREDE,C,8</td><td>TITEL,C,5</td><td>ZUSATZ/NAM,C,12</td><td>GEBURTSDAT,C,13</td><td>STRASSE,C,9</td><td> ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/10.dbf/"
+  graph-id-high-water="20" priority="0" vertex="21" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/10.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">47278</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/10.dbf</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/10.dbf</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+PFX,C,10</td><td>STM,C,40</td><td>LEX,C,80</td><td>ALT,C,80</td><td>POS,C,15</td><td>CLS,C,10</td><td>GLS,C,200</td><td>GFN,C,15</td><td>AFX,C,20</td><td>C1,C,2</td><td>V11,C,1</td><td>T11,C,2</td><td>V12,C,1</td><td>T12,C,2</td><td>C2,C,2</td><td>V21,C,1</td><td>T2,C,2</td><td>V22,C,1</td><td>C3, ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/table.docx/"
+  graph-id-high-water="14" priority="0" vertex="15" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/table.docx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">11699</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640098"
+    u="24"
+  >Jun 16,
+  2008 18:14:58 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/table.docx</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/table.docx</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p>This is a document with a table.</p><p/>  <td><p>Row 1 column 1</p></td><td><p>Row 1 column 2</p></td><td><p>Row 1 column 3</p></td><td><p>Row 1 column 4</p></td><td><p>Row 1 column 5</p></td>  <td><p/></td><td><p/></td><td><p/></td><td><p/></td><td><p/></td>  <td><p/></td><td><p/></td><td><p>Row 3 column 3</p></td><td><p/></td><td><p/></td>  <td><p>Row 5 column 1</p></td><td><p/></td><td><p/></td><td><p>Row 5 column 4</p></td><td><p/></td>  <p/><p>This  ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/Interwoven.pptx/"
+  graph-id-high-water="16" priority="0" vertex="17" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/Interwoven.pptx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">617487</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640321"
+    u="24"
+  >Jun 16,
+  2008 18:18:41 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Interwoven – PSIS Business Unit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/Interwoven.pptx</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/Interwoven.pptx</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/>  <td><p><span>The Interwoven and Vivisimo Partnership</span></p><p/> <li><span>Interwoven – PSIS Business Unit</span></li><li><span>Phase I – Professional Services Industry (Legal and Accounting) – served by IWOV Sales and  ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/9.dbf/"
+  graph-id-high-water="8" priority="0" vertex="9" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/9.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">2894</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/9.dbf</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/9.dbf</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+ID,N,20,5</td><td>ORE_NAME,C,50</td><td>ORE_ADDR1,C,50</td><td>ORE_CITY,C,30</td><td>ORE_STATE,C,2</td><td>ORE_ZIP,C,10</td><td>SALES_AO,C,25</td><td>MKT_PRICE,N,20,5</td><td>PROP_TYPE,C,3</td><td>BRKR_NAME,C,50</td><td>BRKR_PHON,C, ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/7.dbf/"
+  graph-id-high-water="6" priority="0" vertex="7" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/7.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">10050</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/7.dbf</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/7.dbf</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+DESC,C,80</td><td>NAME,C,23</td><td>LEN,N,20,5</td>  <td>File Identification</td><td>FILEID</td><td>6.00000</td>  <td>State/US-Abbreviation (USPS)</td><td>STUSAB</td><td>2.00000</td>  <td>Summary Level</td><td>SUMLEV</td><td>3.00000</td>  <td>Geographic Component</td><td> ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/ptcm.xlsx/"
+  graph-id-high-water="12" priority="0" vertex="13" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/ptcm.xlsx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">628191</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640350"
+    u="24"
+  >Jun 16,
+  2008 18:19:10 GMT</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="7">smb://testbed5.</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="8" v="8">test.</match>
+      <post u="9" v="18">vivisimo.com/testfiles/samba_test_data/11601/doc/ptcm.xlsx</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6" v="12">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="13" v="13">test_</match>
+      <post u="14" v="18">data/11601/doc/ptcm.xlsx</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20" v="20">testbed5.</pre>
+      <content name="host" action="none" u="19" v="23" />
+      <match u="21" v="21">test.</match>
+      <post u="22" v="23">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">     </content>
+</document>
+<document filetypes="html " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/5.dbf/"
+  graph-id-high-water="4" vertex="5" priority="0" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/5.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="22"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="5">smb://testbed5.</pre>
+      <content name="url" action="none" u="3" v="16" />
+      <match u="6" v="6">test.</match>
+      <post u="7" v="16">vivisimo.com/testfiles/samba_test_data/11601/doc/5.dbf</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="4" v="10">smb://testbed5.test.vivisimo.com/testfiles/samba_</pre>
+      <content name="url" action="none" u="3" v="16" />
+      <match u="11" v="11">test_</match>
+      <post u="12" v="16">data/11601/doc/5.dbf</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="18" v="18">testbed5.</pre>
+      <content name="host" action="none" u="17" v="21" />
+      <match u="19" v="19">test.</match>
+      <post u="20" v="21">vivisimo.com</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td/>    ]]></content>
+</document>
+<retrieval-performance n-tau="296" n-rho="90" n-uat="0" n-ohr="0"
+  occr-reads="60029" block-reads="199" seeks="0" cache-hits="199" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="51" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="208" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="51" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="208" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-blocks="1" n-tau="51" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="208" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="1" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="55937" block-reads="199" seeks="0" cache-hits="199" cache-misses="0"
+  >
+    <query-performance what="3:" n-blocks="220" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="55937" block-reads="199" seeks="0" cache-hits="199"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="135" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="2145" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="135" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="2145" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="135" n-rho="135" n-uat="0"
+        n-ohr="0" occr-reads="2145" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-blocks="1" n-tau="135" n-rho="213"
+          n-uat="0" n-ohr="0" occr-reads="1499" block-reads="0" seeks="0" cache-hits="0"
+          cache-misses="0"
+        />
+        <query-performance what="or" n-tau="102" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="646" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+        >
+          <query-performance what="0:url" n-blocks="1" n-tau="51" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="216" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:host" n-blocks="1" n-tau="51" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="216" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-blocks="0" n-tau="1"
+            n-rho="0" n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0"
+            cache-hits="0" cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-blocks="1" n-tau="50" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="214" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="1" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="47" n-rho="27" n-uat="0" n-ohr="0"
+    occr-reads="239" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="47" n-rho="27" n-uat="0"
+      n-ohr="0" occr-reads="239" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-blocks="1" n-tau="47" n-rho="27"
+        n-uat="0" n-ohr="0" occr-reads="239" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="1" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="63" n-rho="63" n-uat="0"
+    n-ohr="0" occr-reads="1500" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="63" n-rho="63" n-uat="0"
+      n-ohr="0" occr-reads="1500" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    >
+      <query-performance what="0:" n-blocks="1" n-tau="63" n-rho="63" n-uat="0"
+        n-ohr="0" occr-reads="1500" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="3" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="143" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="144" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+>
+  <query-performance what="1:test" n-blocks="1" n-tau="143" n-rho="0" n-uat="0"
+    n-ohr="0" occr-reads="144" block-reads="1" seeks="1" cache-hits="1"
+    cache-misses="0"
+  />
+  <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="1" n-uat="0"
+    n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+    cache-misses="0"
+  />
+</query-performance>
+</scope>

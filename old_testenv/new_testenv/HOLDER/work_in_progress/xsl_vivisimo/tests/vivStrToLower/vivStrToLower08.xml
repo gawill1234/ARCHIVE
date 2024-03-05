@@ -1,0 +1,29 @@
+<testset>
+   <test>
+      <name>
+         vivStrToLower08
+      </name>
+      <description>
+         alpha string, mixed case
+      </description>
+      <funcname argcnt="3" codetemplate="match" tbltemplate="1">
+         viv:str-to-lower
+      </funcname>
+      <argument>
+         <value>
+            THE QUICK browN Fox
+         </value>
+         <type>
+            string
+         </type>
+      </argument>
+      <result>
+         <value>
+            the quick brown fox
+         </value>
+         <type>
+            string
+         </type>
+      </result>
+   </test>
+</testset>

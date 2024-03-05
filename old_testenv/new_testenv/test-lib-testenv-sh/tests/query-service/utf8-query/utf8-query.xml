@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><vse-collection id="RN0ASwZO1QQM" elt-id="2185" max-elt-id="2185" name="utf8-query">
+<vse-meta/>
+<vse-config>
+<crawler>
+  <crawl-urls>
+    <crawl-url url="http://vivisimo.com/ελληνική" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="http://vivisimo.com/ελληνική">
+           <content name="title" action="discard">document99</content>
+           <content name="title">document1</content>
+           <content name="snippet">Greek in the url.</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://1" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://1">
+           <content name="title" action="discard">document99</content>
+           <content name="title">Ek get etið gler án þess að verða sár</content>
+           <content name="snippet">Norse, I can eat glass in title</content>
+        </document>
+
+        <document vse-key="document://2">
+           <content name="title" add-to="document://1">document2</content>
+           <content name="title">Я могу есть стекло, оно мне не вредит</content>
+           <content name="snippet">Russian, I can eat glass in title</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://3" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://3">
+           <content name="title" action="discard">document99</content>
+           <content name="title">Можам да јадам стакло, а не ме штета</content>
+           <content name="snippet">Macedonian, I can eat glass in title</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://4" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://4">
+           <content name="title" action="discard">document99</content>
+           <content name="title">Norse, I can eat glass in snippet</content>
+           <content name="snippet">Ek get etið gler án þess að verða sár</content>
+        </document>
+
+        <document vse-key="document://5">
+           <content name="title" add-to="document://4">document2</content>
+           <content name="title">Russian, I can eat glass in snippet</content>
+           <content name="snippet">Я могу есть стекло, оно мне не вредит</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://6" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://6">
+           <content name="title">Macedonian, I can eat glass in snippet</content>
+           <content name="snippet">Можам да јадам стакло, а не ме штета</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://7" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://7">
+           <content name="title">Ottoman, I can eat glass in snippet</content>
+           <content name="snippet">جام ييه بلورم بڭا ضررى طوقونمز</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://8" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://8">
+           <content name="title">جام ييه بلورم بڭا ضررى طوقونمز</content>
+           <content name="snippet">Ottoman, I can eat glass in title</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://9" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://9">
+           <content name="title">Serbian, I can eat glass in snippet</content>
+           <content name="snippet">Могу јести стакло а да ми не шкоди</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://10" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://10">
+           <content name="title">Могу јести стакло а да ми не шкоди</content>
+           <content name="snippet">Serbian, I can eat glass in title</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://11" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://11">
+           <content name="title">Belarusian, I can eat glass in snippet</content>
+           <content name="snippet">Ja mahu jeści škło, jano mne ne škodzić</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://12" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://12">
+           <content name="title">Ja mahu jeści škło, jano mne ne škodzić</content>
+           <content name="snippet">Belarusian, I can eat glass in title</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://13" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://13">
+           <content name="title">Armenian, I can eat glass in snippet</content>
+           <content name="snippet">Կրնամ ապակի ուտել և ինծի անհանգիստ չըներ</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://14" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://14">
+           <content name="title">Կրնամ ապակի ուտել և ինծի անհանգիստ չըներ</content>
+           <content name="snippet">Armenian, I can eat glass in title</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://15" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://15">
+           <content name="title">Hindi, I can eat glass in snippet</content>
+           <content name="snippet">मैं काँच खा सकता हूँ, मुझे उस से कोई पीडा नहीं होती</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://16" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://16">
+           <content name="title">मैं काँच खा सकता हूँ, मुझे उस से कोई पीडा नहीं होती</content>
+           <content name="snippet">Hindi, I can eat glass in title</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://17" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://17">
+           <content name="title">Hebrew, I can eat glass in snippet</content>
+           <content name="snippet">אני יכול לאכול זכוכית וזה לא מזיק לי.</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://18" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://18">
+           <content name="title">אני יכול לאכול זכוכית וזה לא מזיק לי.</content>
+           <content name="snippet">Hebrew, I can eat glass in title</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://19" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://19">
+           <content name="title">Chinese, I can eat glass in snippet</content>
+           <content name="snippet">我能吞下玻璃而不傷身體。</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="document://20" status="complete">
+      <crawl-data encoding="xml" content-type="application/vxml">
+        <document vse-key="document://20">
+           <content name="title">我能吞下玻璃而不傷身體。</content>
+           <content name="snippet">Chinese, I can eat glass in title</content>
+        </document>
+      </crawl-data>
+    </crawl-url>
+  </crawl-urls>
+  <crawl-options>
+    <curl-option name="default-allow">allow</curl-option>
+  </crawl-options>
+</crawler>
+</vse-config>
+</vse-collection>
+

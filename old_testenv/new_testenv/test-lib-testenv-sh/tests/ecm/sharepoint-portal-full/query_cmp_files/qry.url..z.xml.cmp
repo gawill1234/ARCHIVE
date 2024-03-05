@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="0" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="cache-hits-content-search" value="2" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="2" />
+<attribute name="cache-hits-content-retrieval" value="0" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="0" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="0" />
+</scope>

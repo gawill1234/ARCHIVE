@@ -1,0 +1,11 @@
+samba-16 is a basic samba crawl of an exported windows
+samba/cifs share.
+
+samba-2 is a basic samba crawl of an exported linux
+samba/cifs share.
+
+There are a couple of thousand documents
+being crawled followed by a series of queries.  The queries
+and the expected results are in the TEST_QUERIES file.
+
+samba-16 and samba-2 should have identical results.

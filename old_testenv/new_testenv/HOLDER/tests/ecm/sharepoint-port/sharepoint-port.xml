@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<vse-collection name="sharepoint-port" modified="1190040239">
+  <vse-config elt-id="2025" max-elt-id="3554">
+    <crawler elt-id="3455">
+      <crawl-condition-when field="protocol" elt-id="3429">
+        <crawl-pattern elt-id="3422">http</crawl-pattern>
+        <crawl-condition-when field="host" how="wc-set" elt-id="3428">
+          <crawl-pattern elt-id="3423">192.168.0.27</crawl-pattern>
+          <crawl-condition-when field="path" elt-id="3427">
+            <crawl-pattern elt-id="3424">/sites/aas/*</crawl-pattern>
+            <curl-options elt-id="3426">
+              <curl-option name="user-password" elt-id="3425">VIVISIMO2003\Administrator:Baseball123</curl-option>
+            </curl-options>
+          </crawl-condition-when>
+        </crawl-condition-when>
+      </crawl-condition-when>
+      <crawl-condition-when field="protocol" elt-id="3441">
+        <crawl-pattern elt-id="3430">sharepoint</crawl-pattern>
+        <crawl-condition-when field="host" how="wc-set" elt-id="3440">
+          <crawl-pattern elt-id="3431">192.168.0.27</crawl-pattern>
+          <crawl-condition-when field="user" how="wc-set" elt-id="3439">
+            <crawl-pattern elt-id="3432">*</crawl-pattern>
+            <crawl-condition-when field="path" elt-id="3438">
+              <crawl-pattern elt-id="3433">/sites/aas/*</crawl-pattern>
+              <curl-options elt-id="3437">
+                <curl-option name="default-allow" elt-id="3434">allow</curl-option>
+                <curl-option name="user-password" elt-id="3435">VIVISIMO2003\Administrator:Baseball123</curl-option>
+                <crawl-extender-option name="sharepoint-version" elt-id="3436">2003</crawl-extender-option>
+              </curl-options>
+            </crawl-condition-when>
+          </crawl-condition-when>
+        </crawl-condition-when>
+      </crawl-condition-when>
+      <call-function name="vse-crawler-seed-sharepoint" elt-id="3445">
+        <with name="site-urls" elt-id="3442">http://192.168.0.27:9000/sites/aas/</with>
+        <with name="username" elt-id="3443">Administrator</with>
+        <with name="password" elt-id="3444">{vcrypt}Dc9TQ1nYURBkDl+YZmvRKA==</with>
+      </call-function>
+      <call-function name="vse-crawler-apache-directory-browsing" elt-id="3446"/>
+      <call-function name="vse-crawler-binary-file-extensions" elt-id="3447"/>
+      <call-function name="vse-crawler-bugzilla" elt-id="3448"/>
+      <call-function name="vse-crawler-calendars-forums" elt-id="3449"/>
+      <call-function name="vse-crawler-no-delay-for-files" elt-id="3450"/>
+      <call-function name="vse-crawler-lotus-domino-site" elt-id="3451"/>
+      <call-function name="vse-crawler-session-ids" elt-id="3452"/>
+      <call-function name="vse-crawler-verity-query-service" elt-id="3453"/>
+      <call-function name="vse-crawler-wiki" elt-id="3454"/>
+    </crawler>
+    <vse-index elt-id="3486">
+      <vse-index-option name="output-contents" elt-id="3456">title</vse-index-option>
+      <vse-index-option name="summarize-contents" elt-id="3457">snippet</vse-index-option>
+      <vse-index-option name="fast-index" elt-id="3458">last-modified|date
+author
+filetype</vse-index-option>
+      <vse-url-equivs name="vse-url-equivs" elt-id="3460">
+        <vse-url-equiv old-prefix="smb://" new-prefix="file://///" elt-id="3459"/>
+      </vse-url-equivs>
+      <binning-sets elt-id="3485">
+        <binning-set elt-id="3465">
+          <call-function name="binning-set" elt-id="3464">
+            <with name="select" elt-id="3461">$author</with>
+            <with name="label" elt-id="3462">Author</with>
+            <with name="bs-id" elt-id="3463">author</with>
+          </call-function>
+        </binning-set>
+        <binning-set elt-id="3470">
+          <call-function name="binning-set" elt-id="3469">
+            <with name="select" elt-id="3466">$filetype</with>
+            <with name="label" elt-id="3467">Filetype</with>
+            <with name="bs-id" elt-id="3468">filetype</with>
+          </call-function>
+        </binning-set>
+        <binning-set elt-id="3479">
+          <call-function name="binning-set" elt-id="3474">
+            <with name="select" elt-id="3471">$last-modified</with>
+            <with name="label" elt-id="3472">Last Modified Date</with>
+            <with name="bs-id" elt-id="3473">last-modified</with>
+          </call-function>
+          <binning-range elt-id="3478">
+            <call-function name="binning-range" elt-id="3477">
+              <with name="label-xpath" elt-id="3475">viv:if-else($high - $low &gt; 86400, concat(date:month-in-year(viv:seconds-to-local-date-time(floor($low))), '/', date:day-in-month(viv:seconds-to-local-date-time(floor($low))), '/', date:year(viv:seconds-to-local-date-time(floor($low))), ' to ', date:month-in-year(viv:seconds-to-local-date-time(floor($high))), '/', date:day-in-month(viv:seconds-to-local-date-time(floor($high))), '/', date:year(viv:seconds-to-local-date-time(floor($high)))), concat(date:month-in-year(viv:seconds-to-local-date-time(floor($low))), '/', date:day-in-month(viv:seconds-to-local-date-time(floor($low))), '/', date:year(viv:seconds-to-local-date-time(floor($low)))))</with>
+              <with name="interval" elt-id="3476">86400</with>
+            </call-function>
+          </binning-range>
+        </binning-set>
+        <binning-sets last-modified="1177008884" elt-id="3484">
+          <binning-set bs-id="author" select="$author" label="Author" elt-id="3480"/>
+          <binning-set bs-id="filetype" select="$filetype" label="Filetype" elt-id="3481"/>
+          <binning-set bs-id="last-modified" select="$last-modified" label="Last Modified Date" elt-id="3483">
+            <binning-range interval="86400" label-xpath="viv:if-else($high - $low &gt; 86400, concat(date:month-in-year(viv:seconds-to-local-date-time(floor($low))), '/', date:day-in-month(viv:seconds-to-local-date-time(floor($low))), '/', date:year(viv:seconds-to-local-date-time(floor($low))), ' to ', date:month-in-year(viv:seconds-to-local-date-time(floor($high))), '/', date:day-in-month(viv:seconds-to-local-date-time(floor($high))), '/', date:year(viv:seconds-to-local-date-time(floor($high)))), concat(date:month-in-year(viv:seconds-to-local-date-time(floor($low))), '/', date:day-in-month(viv:seconds-to-local-date-time(floor($low))), '/', date:year(viv:seconds-to-local-date-time(floor($low)))))" elt-id="3482"/>
+          </binning-set>
+        </binning-sets>
+      </binning-sets>
+    </vse-index>
+    <converters elt-id="3554">
+      <converter type-in="unknown" type-out="dead" elt-id="3488">
+        <call-function name="vse-converter-binary-files-in-archives" elt-id="3487"/>
+      </converter>
+      <converter type-in="unknown" program="guess-content %source_file" timing-name="Guess content" elt-id="3489"/>
+      <converter type-in="application/ms-office" program="ms-guess %source_file" timing-name="Guess MS Office" elt-id="3490"/>
+      <converter type-in="unknown" type-out="text/plain" elt-id="3492">
+        <converter-test how="wc-set" what="path" elt-id="3491">*.txt</converter-test>
+      </converter>
+      <call-function name="vse-converter-filetypes" elt-id="3493"/>
+      <call-function name="vse-converter-type-normalization" elt-id="3494"/>
+      <call-function name="vse-converter-database" elt-id="3495"/>
+      <call-function name="vse-converter-powerpoint" elt-id="3496"/>
+      <call-function name="vse-converter-1-2-3" elt-id="3497"/>
+      <converter type-in="outlook/mail" type-out="text/mailbox" elt-id="3499">
+        <call-function name="vse-converter-pst-to-mailbox" elt-id="3498"/>
+      </converter>
+      <converter type-in="text/mailbox" type-out="text/mail" elt-id="3501">
+        <call-function name="vse-converter-split-mailbox" elt-id="3500"/>
+      </converter>
+      <converter type-in="text/mail" type-out="vivisimo/crawl-data" elt-id="3504">
+        <call-function name="vse-converter-mail-message" elt-id="3503">
+          <with name="cache-parser" elt-id="3502">vse-cache-parser-email</with>
+        </call-function>
+      </converter>
+      <converter type-in="application/documentum" type-out="application/vxml-unnormalized" elt-id="3506">
+        <call-function name="vse-converter-documentum-to-xml" elt-id="3505"/>
+      </converter>
+      <converter type-out="application/vxml-unnormalized" type-in="application/lotus" elt-id="3508">
+        <call-function name="vse-converter-lotus-to-xml" elt-id="3507"/>
+      </converter>
+      <converter type-in="application/sharepoint" type-out="application/vxml-unnormalized" elt-id="3510">
+        <call-function name="vse-converter-sharepoint-to-xml" elt-id="3509"/>
+      </converter>
+      <converter type-in="application/word" type-out="text/html" elt-id="3512">
+        <call-function name="vse-converter-msword" elt-id="3511"/>
+      </converter>
+      <converter type-in="application/excel" type-out="text/html" elt-id="3514">
+        <call-function name="vse-converter-excel" elt-id="3513"/>
+      </converter>
+      <converter type-in="application/wordperfect" type-out="text/html" elt-id="3516">
+        <call-function name="vse-converter-wordperfect" elt-id="3515"/>
+      </converter>
+      <converter type-in="application/openoffice" type-out="text/html" elt-id="3518">
+        <call-function name="vse-converter-openoffice" elt-id="3517"/>
+      </converter>
+      <converter type-in="application/vnd.ms-project" type-out="application/vxml-unnormalized" elt-id="3520">
+        <call-function name="vse-converter-ms-project" elt-id="3519"/>
+      </converter>
+      <converter type-in="application/ps" type-out="text/plain" elt-id="3522">
+        <call-function name="vse-converter-postscript" elt-id="3521"/>
+      </converter>
+      <converter type-in="application/pdf" type-out="text/html" elt-id="3524">
+        <call-function name="vse-converter-pdf" elt-id="3523"/>
+      </converter>
+      <converter type-in="application/rtf" type-out="text/html" elt-id="3526">
+        <call-function name="vse-converter-rtf" elt-id="3525"/>
+      </converter>
+      <converter type-in="application/outlook-msg" type-out="vivisimo/crawl-data" elt-id="3528">
+        <call-function name="vse-converter-outlook-msg" elt-id="3527"/>
+      </converter>
+      <converter type-in="application/flash" type-out="text/html" elt-id="3530">
+        <call-function name="vse-converter-flash" elt-id="3529"/>
+      </converter>
+      <converter type-in="application/tar" type-out="unknown" elt-id="3532">
+        <call-function name="vse-converter-tar" elt-id="3531"/>
+      </converter>
+      <converter type-in="application/x-gzip" type-out="unknown" elt-id="3534">
+        <call-function name="vse-converter-gunzip" elt-id="3533"/>
+      </converter>
+      <converter type-in="application/zip" type-out="unknown" elt-id="3536">
+        <call-function name="vse-converter-unzip" elt-id="3535"/>
+      </converter>
+      <converter type-in="application/x-compress" type-out="unknown" elt-id="3538">
+        <call-function name="vse-converter-uncompress" elt-id="3537"/>
+      </converter>
+      <converter type-in="text/html" type-out="application/vxml-unnormalized" elt-id="3540">
+        <call-function name="vse-converter-html" elt-id="3539"/>
+      </converter>
+      <converter type-in="text/plain" type-out="application/vxml-unnormalized" elt-id="3542">
+        <call-function name="vse-converter-text" elt-id="3541"/>
+      </converter>
+      <converter type-in="unknown" type-out="application/dbf" elt-id="3544">
+        <converter-test how="wc-set" what="path" elt-id="3543">*.dbf</converter-test>
+      </converter>
+      <converter type-in="application/dbf" type-out="text/csv" elt-id="3546">
+        <call-function name="vse-converter-dbf-to-csv" elt-id="3545"/>
+      </converter>
+      <converter type-in="text/csv" type-out="application/vxml-unnormalized" elt-id="3548">
+        <call-function name="vse-converter-csv-to-vxml" elt-id="3547"/>
+      </converter>
+      <converter type-in="text/xml" type-out="application/vxml-unnormalized" elt-id="3550">
+        <call-function name="vse-converter-xml-to-vxml" elt-id="3549"/>
+      </converter>
+      <converter type-in="application/vxml-unnormalized" type-out="application/vxml-unnormalized" elt-id="3552">
+        <call-function name="vse-converter-normalize" elt-id="3551"/>
+      </converter>
+      <converter type-in="application/vxml-unnormalized" type-out="application/vxml" elt-id="3553"/>
+    </converters>
+  </vse-config>
+  <vse-meta name="sharepoint-port" creator="goulding" create-time="1176732118" max-elt-id="2" elt-id="2">
+    <vse-meta-info name="maintainers" elt-id="1">goulding</vse-meta-info>
+  </vse-meta>
+</vse-collection>

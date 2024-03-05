@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="10" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="2" />
+<attribute name="total-results-with-duplicates" value="10" />
+<document filetypes="pdf "
+  url="http://testbed2.test.vivisimo.com:7087/publishedcontent/preview/publisheradminfolder01/pennsylvania/collaboration_install.pdf"
+  vse-key="aqualogic://testbed2.test.vivisimo.com:11905/publisher_item/?id=aed55958-4e9f-42e3-97e3-25dde28fc13a"
+  input-at="1195144421" vertex="84" vse-base-score="1.875" ct="text/html" i="1"
+  filetype="aqualogic" datasource="aqualogic" la-score="2.89037"
+>
+  <content name="title" output-action="bold" weight="3" u="27">Installation and Upgrade Guide for BEA AquaLogic Interaction Collaboration 4.1</content>
+  <content name="title" output-action="bold" weight="3" u="15701">Installation and Upgrade Guide for BEA AquaLogic Interaction Collaboration 4.1</content>
+  <content name="title" action="cluster" weight="3" output-action="bold"
+    u="31373"
+  >Collaboration install.pdf</content>
+  <content name="title" action="cluster" weight="3" output-action="bold"
+    u="31377"
+  >Collaboration install .pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="10">aqualogic://testbed2.test.vivisimo.com:11905/publisher_</pre>
+      <content name="url" action="none" u="3" v="17" />
+      <match u="11" v="11">item?</match>
+      <post u="12" v="17">id=aed55958-4e9f-42e3-97e3-25dde28fc13a</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="15678" v="15684">aqualogic://testbed2.test.vivisimo.com:11905/publisher_</pre>
+      <content name="url" action="none" u="15677" v="15691" />
+      <match u="15685" v="15685">item?</match>
+      <post u="15686" v="15691">id=aed55958-4e9f-42e3-97e3-25dde28fc13a</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="31350" v="31356">aqualogic://testbed2.test.vivisimo.com:11905/publisher_</pre>
+      <content name="url" action="none" u="31349" v="31363" />
+      <match u="31357" v="31357">item?</match>
+      <post u="31358" v="31363">id=aed55958-4e9f-42e3-97e3-25dde28fc13a</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="31382" v="31382">publisher_</pre>
+      <content name="aqualogic-type" action="none" weight="1"
+        output-action="none" u="31381" v="31383"
+      />
+      <match u="31383" v="31383">item</match>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span><b>BEA</b></span> </div><div> <span>AquaLogic®</span> </div><div> <span>Interaction<br/>Collaboration</span> </div><div> <span><b>Installation and Upgrade</b><br/><b>Guide</b></span> </div><div> <span>Version 4.2 MP1<br/>Revised: April 11, 2007</span> </div></div><a/><div> </div><a/><div> </div><a/><div> <div> <span><b>Copyright</b></span> </div><div> <span>Copyright © 1995-2007 BEA Systems,  ... ]]></content>
+</document>
+<document filetypes="text "
+  url="http://testbed2.test.vivisimo.com:7087/publishedcontent/publish/publisheradminfolder01/random_text_file.txt"
+  vse-key="aqualogic://testbed2.test.vivisimo.com:11905/publisher_item/?id=8535c127-0c39-4e87-b157-0f70b4b33724"
+  input-at="1195144418" vertex="75" vse-base-score="1.875" ct="text/plain" i="1"
+  filetype="aqualogic" datasource="aqualogic" la-score="2.42037"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="97">Random text file.txt</content>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="102">Random text file.txt</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="10">aqualogic://testbed2.test.vivisimo.com:11905/publisher_</pre>
+      <content name="url" action="none" u="3" v="17" />
+      <match u="11" v="11">item?</match>
+      <post u="12" v="17">id=8535c127-0c39-4e87-b157-0f70b4b33724</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="40" v="46">aqualogic://testbed2.test.vivisimo.com:11905/publisher_</pre>
+      <content name="url" action="none" u="39" v="53" />
+      <match u="47" v="47">item?</match>
+      <post u="48" v="53">id=8535c127-0c39-4e87-b157-0f70b4b33724</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="74" v="80">aqualogic://testbed2.test.vivisimo.com:11905/publisher_</pre>
+      <content name="url" action="none" u="73" v="87" />
+      <match u="81" v="81">item?</match>
+      <post u="82" v="87">id=8535c127-0c39-4e87-b157-0f70b4b33724</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="108" v="108">publisher_</pre>
+      <content name="aqualogic-type" action="none" weight="1"
+        output-action="none" u="107" v="109"
+      />
+      <match u="109" v="109">item</match>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">This is a test file for Publisher.
+
+ByeThis is a test file for Publisher.
+
+Bye</content>
+</document>
+<document filetypes="text "
+  url="http://testbed2.test.vivisimo.com:7087/publishedcontent/preview/publisheradminfolder01/random_text_file_published.txt"
+  vse-key="aqualogic://testbed2.test.vivisimo.com:11905/publisher_item/?id=307dd6ad-2c0e-456b-8132-598411f13dd1"
+  input-at="1195144418" vertex="76" vse-base-score="1.875" ct="text/plain" i="1"
+  filetype="aqualogic" datasource="aqualogic" la-score="2.42037"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="105">Random text file-published.txt</content>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="111">Random text file-published.txt</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="10">aqualogic://testbed2.test.vivisimo.com:11905/publisher_</pre>
+      <content name="url" action="none" u="3" v="17" />
+      <match u="11" v="11">item?</match>
+      <post u="12" v="17">id=307dd6ad-2c0e-456b-8132-598411f13dd1</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="44" v="50">aqualogic://testbed2.test.vivisimo.com:11905/publisher_</pre>
+      <content name="url" action="none" u="43" v="57" />
+      <match u="51" v="51">item?</match>
+      <post u="52" v="57">id=307dd6ad-2c0e-456b-8132-598411f13dd1</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="82" v="88">aqualogic://testbed2.test.vivisimo.com:11905/publisher_</pre>
+      <content name="url" action="none" u="81" v="95" />
+      <match u="89" v="89">item?</match>
+      <post u="90" v="95">id=307dd6ad-2c0e-456b-8132-598411f13dd1</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="118" v="118">publisher_</pre>
+      <content name="aqualogic-type" action="none" weight="1"
+        output-action="none" u="117" v="119"
+      />
+      <match u="119" v="119">item</match>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">This is a test file for Publisher.
+It should be published.
+
+ByeThis is a test file for Publisher.
+It should be published.
+
+Bye</content>
+</document>
+<document filetype="aqualogic" datasource="aqualogic"
+  url="http://testbed2.test.vivisimo.com:8082//portal/server.pt?PageID=0&amp;cached=true&amp;mode=2&amp;userID=1&amp;open=43&amp;objID=215"
+  vse-key="aqualogic://testbed2.test.vivisimo.com:11905/portlet?id=215"
+  input-at="1195144400" vertex="28" vse-base-score="3.5"
+  vse-key-normalized="vse-key-normalized" ct="application/vxml-unnormalized"
+  la-score="0.510826"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="38">Content Items in Workflow</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <pre u="39" v="39">Content </pre>
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="38" v="42"
+      />
+      <match u="40" v="40">Items </match>
+      <post u="41" v="42">in Workflow</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="21" v="29">This portlet shows the user a list of content </pre>
+      <content name="snippet" action="cluster" weight="1" output-action="none"
+        u="20" v="37"
+      />
+      <match u="30" v="30">items </match>
+      <post u="31" v="37">in workflow for which they are responsible.</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... portlet shows the user a list of content items in workflow for which they are responsible.</content>
+</document>
+<document filetype="aqualogic" datasource="aqualogic"
+  url="http://www.faqs.org/rfcs/rfc2254.html"
+  vse-key="aqualogic://testbed2.test.vivisimo.com:11905/knowledge_directory_document?id=217"
+  input-at="1195144418" vertex="78" vse-base-score="1.5"
+  vse-key-normalized="vse-key-normalized" ct="application/vxml-unnormalized"
+  filetypes="html " i="1" la-score="2.42037"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="32">RFC 2254 (rfc2254) - The String Representation of LDAP Search Filters</content>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="43">RFC 2254 (rfc2254) - The String Representation of LDAP Search Filters</content>
+  <content name="title" output-action="bold" weight="3" u="82">RFC 2254 (rfc2254) - The String Representation of LDAP Search Filters</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="715" v="734">following the ABNF notation defined in [5].  The
+   filter format uses a prefix notation.
+
+        filter     = "(" filtercomp ")"
+        filtercomp = and / or / not / </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="93"
+        v="1685"
+      />
+      <match u="735" v="735">item
+        </match>
+      <post u="736" v="755">and        = "&amp;amp;" filterlist
+        or         = "|" filterlist
+        not        = "!" filter
+        filterlist = 1*filter
+        item       = simple / present / substring / extensible
+        simple     = attr filtertype value
+        filtertype = equal / </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="725" v="744">uses a prefix notation.
+
+        filter     = "(" filtercomp ")"
+        filtercomp = and / or / not / item
+        and        = "&amp;amp;" filterlist
+        or         = "|" filterlist
+        not        = "!" filter
+        filterlist = 1*filter
+        </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="93"
+        v="1685"
+      />
+      <match u="745" v="745">item       = </match>
+      <post u="746" v="765">simple / present / substring / extensible
+        simple     = attr filtertype value
+        filtertype = equal / approx / greater / less
+        equal      = "="
+        approx     = "~="
+        greater    = "&amp;gt;="
+        less       = "&amp;lt;="
+        extensible = attr [":dn"] [":" </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... prefix notation.
+
+        filter     = "(" filtercomp ")"
+        filtercomp = and / or / not / item
+        and        = "&amp;amp;" filterlist
+        or         = "|" filterlist
+        not        = "!" filter
+        filterlist = 1* ... filter
+        item       = simple / present / substring / extensible
+        simple     = attr filtertype value
+         ... </content>
+</document>
+<document filetype="aqualogic" datasource="aqualogic"
+  url="http://testbed2.test.vivisimo.com:8082//portal/server.pt?PageID=0&amp;cached=true&amp;mode=2&amp;userID=1&amp;open=43&amp;objID=213"
+  vse-key="aqualogic://testbed2.test.vivisimo.com:11905/portlet?id=213"
+  input-at="1195144400" vertex="26" vse-base-score="1"
+  vse-key-normalized="vse-key-normalized" ct="application/vxml-unnormalized"
+  la-score="0.510826"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="35">Content Submission</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="21" v="28">This portlet allows users to create new content </pre>
+      <content name="snippet" action="cluster" weight="1" output-action="none"
+        u="20" v="34"
+      />
+      <match u="29" v="29">items </match>
+      <post u="30" v="34">from selected data entry templates</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">This portlet allows users to create new content items from selected data entry templates</content>
+</document>
+<document filetype="aqualogic" datasource="aqualogic"
+  url="http://testbed2.test.vivisimo.com:8082//portal/server.pt?PageID=0&amp;cached=true&amp;mode=2&amp;userID=1&amp;open=43&amp;objID=214"
+  vse-key="aqualogic://testbed2.test.vivisimo.com:11905/portlet?id=214"
+  input-at="1195144400" vertex="27" vse-base-score="1"
+  vse-key-normalized="vse-key-normalized" ct="application/vxml-unnormalized"
+  la-score="0.510826"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="34">Most Recently Used Content</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="21" v="27">This portlet displays a list of content </pre>
+      <content name="snippet" action="cluster" weight="1" output-action="none"
+        u="20" v="33"
+      />
+      <match u="28" v="28">items </match>
+      <post u="29" v="33">the user has recently used.</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">This portlet displays a list of content items the user has recently used.</content>
+</document>
+<document filetype="aqualogic" datasource="aqualogic"
+  url="http://testbed2.test.vivisimo.com:8082//portal/server.pt?PageID=0&amp;cached=true&amp;mode=2&amp;userID=1&amp;open=43&amp;objID=291"
+  vse-key="aqualogic://testbed2.test.vivisimo.com:11905/portlet?id=291"
+  input-at="1195144400" vertex="39" vse-base-score="1"
+  vse-key-normalized="vse-key-normalized" ct="application/vxml-unnormalized"
+  la-score="0.510826"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="30">My Calendar</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="21" v="22">Add calendar </pre>
+      <content name="snippet" action="cluster" weight="1" output-action="none"
+        u="20" v="29"
+      />
+      <match u="23" v="23">items </match>
+      <post u="24" v="29">from various projects to
+your MyPage</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">Add calendar items from various projects to
+your MyPage</content>
+</document>
+<document filetype="aqualogic" datasource="aqualogic"
+  url="http://testbed2.test.vivisimo.com:8082//portal/server.pt?PageID=0&amp;cached=true&amp;mode=2&amp;userID=1&amp;open=43&amp;objID=294"
+  vse-key="aqualogic://testbed2.test.vivisimo.com:11905/portlet?id=294"
+  input-at="1195144400" vertex="42" vse-base-score="1"
+  vse-key-normalized="vse-key-normalized" ct="application/vxml-unnormalized"
+  la-score="0.510826"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="31">My Project Search</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="21" v="22">Search for </pre>
+      <content name="snippet" action="cluster" weight="1" output-action="none"
+        u="20" v="30"
+      />
+      <match u="23" v="23">items </match>
+      <post u="24" v="30">in all projects or just
+selected projects</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">Search for items in all projects or just
+selected projects</content>
+</document>
+<document filetype="aqualogic" datasource="aqualogic"
+  url="http://testbed2.test.vivisimo.com:8082//portal/server.pt?PageID=0&amp;cached=true&amp;mode=2&amp;userID=1&amp;open=43&amp;objID=297"
+  vse-key="aqualogic://testbed2.test.vivisimo.com:11905/portlet?id=297"
+  input-at="1195144400" vertex="45" vse-base-score="1"
+  vse-key-normalized="vse-key-normalized" ct="application/vxml-unnormalized"
+  la-score="0.510826"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="28">Project Search</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="21" v="24">Search collaboration documents, calendar
+</pre>
+      <content name="snippet" action="cluster" weight="1" output-action="none"
+        u="20" v="27"
+      />
+      <match u="25" v="25">items </match>
+      <post u="26" v="27">and discussions</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">Search collaboration documents, calendar
+items and discussions</content>
+</document>
+</scope>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="3" />
+<attribute name="admin-url"
+  value="http://testbed6.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="5" />
+<attribute name="total-results-with-duplicates" value="3" />
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/12014/doc/BACKPACK.WW2/"
+  graph-id-high-water="16" priority="0" vertex="17" ct="text/html"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/12014/doc/BACKPACK.WW2"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">18432</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">BackPack Packing List</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="68" v="87"><![CDATA[Sleeping Clothes<br/>
+1 set<br/><br/><br/>
+Sleeping Bag &amp;
+ Pad Straps<br/>
+2 pr<br/><br/><br/>
+Foam Pad<br/>
+1<br/><br/><br/>
+Ground Cloth 5’x7’<br/>
+1<br/><br/><br/><br/><br/><br/><br/>
+Wearing<br/>
+Qty<br/><br/><br/>
+]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="32" v="420" />
+      <match u="88" v="88">Hiking </match>
+      <post u="89" v="108"><![CDATA[Boots (waterproofed)<br/>
+1 pr<br/><br/><br/>
+Tennis Shoes<br/>
+1 pr<br/><br/><br/>
+Heavy Wool Socks<br/>
+2 pr<br/><br/><br/>
+Liner Socks<br/>
+3 pr<br/><br/><br/>
+Barrier Socks<br/>
+1 ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 1<br/><br/><br/>
+Ground Cloth 5’x7’<br/>
+1<br/><br/><br/><br/><br/><br/><br/>
+Wearing<br/>
+Qty<br/><br/><br/>
+Hiking Boots (waterproofed)<br/>
+1 pr<br/><br/><br/>
+Tennis Shoes<br/>
+1 pr<br/><br/><br/>
+ ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/12014/doc/WEBCAMP.WW2/"
+  graph-id-high-water="59" priority="0" vertex="60" ct="text/html"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/12014/doc/WEBCAMP.WW2"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">18432</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Resident Camp Packing List</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="66" v="85"><![CDATA[set<br/><br/><br/>
+Sleeping Bag &amp;
+ Pad Straps<br/>
+2 pr<br/><br/><br/>
+Foam Pad<br/>
+1<br/><br/><br/>
+Ground Cloth 5’x7’<br/>
+1<br/><br/><br/>
+Bed Sheet<br/>
+1<br/><br/><br/><br/><br/><br/><br/>
+Wearing<br/>
+Qty<br/><br/><br/>
+]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="33" v="430" />
+      <match u="86" v="86">Hiking </match>
+      <post u="87" v="106"><![CDATA[Boots (waterproofed)<br/>
+1 pr<br/><br/><br/>
+Tennis Shoes<br/>
+1 pr<br/><br/><br/>
+Heavy Sports Socks<br/>
+4 pr<br/><br/><br/>
+Underwear<br/>
+4 sets<br/><br/><br/>
+Long sleeve shirt<br/>
+1<br/><br/><br/>
+]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 5’x7’<br/>
+1<br/><br/><br/>
+Bed Sheet<br/>
+1<br/><br/><br/><br/><br/><br/><br/>
+Wearing<br/>
+Qty<br/><br/><br/>
+Hiking Boots (waterproofed)<br/>
+1 pr<br/><br/><br/>
+Tennis Shoes<br/>
+1 pr<br/><br/><br/>
+ ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/12014/doc/CAMPPACK.WW2/"
+  graph-id-high-water="69" priority="0" vertex="70" ct="text/html"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/12014/doc/CAMPPACK.WW2"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">18432</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Resident Camp Packing List</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="64" v="83"><![CDATA[1 set<br/><br/><br/>
+Folding Cot<br/>
+1<br/><br/><br/>
+Mosquito Netting<br/>
+1<br/><br/><br/>
+Ground Cloth 5’x7’<br/>
+1<br/><br/><br/>
+Pillow<br/>
+1<br/><br/><br/>
+Bed Sheet<br/>
+1<br/><br/><br/><br/><br/><br/><br/>
+Wearing<br/>
+Qty<br/><br/><br/>
+]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="33" v="400" />
+      <match u="84" v="84">Hiking </match>
+      <post u="85" v="104"><![CDATA[Boots (waterproofed)<br/>
+1 pr<br/><br/><br/>
+Tennis Shoes<br/>
+1 pr<br/><br/><br/>
+Heavy Sports Socks<br/>
+8 pr<br/><br/><br/>
+Underwear<br/>
+8 sets<br/><br/><br/>
+Long sleeve shirt<br/>
+1<br/><br/><br/>
+]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 1<br/><br/><br/>
+Pillow<br/>
+1<br/><br/><br/>
+Bed Sheet<br/>
+1<br/><br/><br/><br/><br/><br/><br/>
+Wearing<br/>
+Qty<br/><br/><br/>
+Hiking Boots (waterproofed)<br/>
+1 pr<br/><br/><br/>
+Tennis Shoes<br/>
+1 pr<br/><br/><br/>
+ ... ]]></content>
+</document>
+<retrieval-performance n-tau="30" n-rho="6" n-uat="0" n-ohr="0" occr-reads="3885"
+  block-reads="21" seeks="7" cache-hits="21" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="6" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="32" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="6" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="32" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-blocks="1" n-tau="6" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="32" block-reads="1" seeks="1" cache-hits="1"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="1" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="3241" block-reads="9" seeks="0" cache-hits="9" cache-misses="0"
+  >
+    <query-performance what="3:" n-blocks="349" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="3241" block-reads="9" seeks="0" cache-hits="9"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="18" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="342" block-reads="6" seeks="4" cache-hits="6" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="18" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="342" block-reads="6" seeks="4" cache-hits="6" cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="18" n-rho="18" n-uat="0"
+        n-ohr="0" occr-reads="342" block-reads="5" seeks="4" cache-hits="5"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-blocks="1" n-tau="18" n-rho="27" n-uat="0"
+          n-ohr="0" occr-reads="240" block-reads="1" seeks="1" cache-hits="1"
+          cache-misses="0"
+        />
+        <query-performance what="or" n-tau="12" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="102" block-reads="4" seeks="3" cache-hits="4" cache-misses="0"
+        >
+          <query-performance what="0:url" n-blocks="1" n-tau="6" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="34" block-reads="1" seeks="1" cache-hits="1"
+            cache-misses="0"
+          />
+          <query-performance what="0:host" n-blocks="1" n-tau="6" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="34" block-reads="1" seeks="1" cache-hits="1"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-blocks="1" n-tau="1"
+            n-rho="0" n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0"
+            cache-hits="1" cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-blocks="1" n-tau="6" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="34" block-reads="1" seeks="1" cache-hits="1"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="1" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="3" n-rho="3" n-uat="0" n-ohr="0"
+    occr-reads="33" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="3" n-rho="3" n-uat="0" n-ohr="0"
+      occr-reads="33" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-blocks="1" n-tau="3" n-rho="3"
+        n-uat="0" n-ohr="0" occr-reads="33" block-reads="1" seeks="1" cache-hits="1"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="1" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="3" n-rho="3" n-uat="0"
+    n-ohr="0" occr-reads="237" block-reads="2" seeks="1" cache-hits="2"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="3" n-rho="3" n-uat="0" n-ohr="0"
+      occr-reads="237" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+    >
+      <query-performance what="0:" n-blocks="1" n-tau="3" n-rho="3" n-uat="0"
+        n-ohr="0" occr-reads="237" block-reads="1" seeks="1" cache-hits="1"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="1" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="5" block-reads="2" seeks="1" cache-hits="1" cache-misses="1"
+>
+  <query-performance what="1:hiking" n-blocks="1" n-tau="4" n-rho="0" n-uat="0"
+    n-ohr="0" occr-reads="5" block-reads="1" seeks="1" cache-hits="0"
+    cache-misses="1"
+  />
+  <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="1" n-uat="0"
+    n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+    cache-misses="0"
+  />
+</query-performance>
+</scope>

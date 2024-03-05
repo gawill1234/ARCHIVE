@@ -1,0 +1,5 @@
+#! /bin/ksh
+
+echo "tbl $* | troff -mm | /usr/lib/lp/postscript/dpost | lpr"
+tbl $* | troff -mm | /usr/lib/lp/postscript/dpost | lpr
+

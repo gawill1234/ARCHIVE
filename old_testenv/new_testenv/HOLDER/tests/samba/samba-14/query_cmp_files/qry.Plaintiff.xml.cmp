@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="7" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="5" />
+<attribute name="total-results-with-duplicates" value="7" />
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.219.157.html/"
+  graph-id-high-water="23" vertex="24" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.219.157.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">23691</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="233" v="252">process of law, since the Pennsylvania statute allegedly did not provide compensation for loss of access to the highway, the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3364"
+      />
+      <match u="253" v="253">plaintiffs </match>
+      <post u="254" v="273"><![CDATA[asked for injunctive relief and for a judgment declaring the statute unconstitutional.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >2&lt;/span>
+      &lt;p >The ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="433" v="452"><![CDATA[where no property is taken * * *.'&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >4&lt;/span>
+      &lt;p >The latter section was specifically attacked by the ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3364"
+      />
+      <match u="453" v="453">plaintiffs, </match>
+      <post u="454" v="473">who claimed that in the light of the Pennsylvania courts' interpretation of other statutes, this provision would be construed to </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="557" v="576"><![CDATA[their rights under the statute in the courts of Pennsylvania.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >6&lt;/span>
+      &lt;p >Theeup on the ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3364"
+      />
+      <match u="577" v="577">plaintiffs </match>
+      <post u="578" v="597">filed an equitable proceeding in the Common Pleas Court of Dauphin County, Pennsylvania. That court pointed out that the plaintiffs </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="577" v="596">plaintiffs filed an equitable proceeding in the Common Pleas Court of Dauphin County, Pennsylvania. That court pointed out that the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3364"
+      />
+      <match u="597" v="597">plaintiffs </match>
+      <post u="598" v="617">were asking for a determination of 'whether or not a taking of property has occurred and what damages shall be </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="620" v="639">and that, if the depriving them of access is found to be a taking of a compensable property right, that </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3364"
+      />
+      <match u="640" v="640">plaintiffs' </match>
+      <post u="641" v="660">legitimate interests will be constitutionally safeguarded by a resort to viewers proceedings and, if necessary, by later appeals to the </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="693" v="712"><![CDATA[only the last of these questions, and its answer was unequivocal:&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >8&lt;/span>
+      &lt;p >'All of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3364"
+      />
+      <match u="713" v="713">plaintiffs' </match>
+      <post u="714" v="733">rights can be protected and secured in a      proceeding before viewers, as is provided in section 8 of The      Limited </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="767" v="786">to compensation and, if so,      when, for what, and in what amounts. * * * Should the      Commonwealth proceed, then at that time </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3364"
+      />
+      <match u="787" v="787">plaintiffs </match>
+      <post u="788" v="807">will have      the right to proceed before viewers on the question of their      right to damages. In the orderly course </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="917" v="936">District Court. Although stating its awareness 'that the federal courts should be reluctant to exercise jurisdiction in cases where the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3364"
+      />
+      <match u="937" v="937">plaintiffs' </match>
+      <post u="938" v="957">constitutional rights will be properly protected in the state tribunal and where the statute under attack has not yet been </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="958" v="977">construed by the State Courts,' nevertheless the District Court proceeded to adjudicate the merits of the controversy, believing that the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3364"
+      />
+      <match u="978" v="978">plaintiffs </match>
+      <post u="979" v="998">might be irreparably harmed during the period required to determine their rights in the state courts. 'Without venturing to predict </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="1146" v="1165">clear pronouncement of the Pennsylvania courts that the state statute provides a complete procedure to guar an d protect the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3364"
+      />
+      <match u="1166" v="1166">plaintiffs' </match>
+      <post u="1167" v="1186">constitutional rights 'at all times.' In the light of this pronouncement it is difficult to perceive the basis for the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... for loss of access to the highway, the plaintiffs asked for injunctive relief and for a judgment  ... The latter section was specifically attacked by the plaintiffs, who claimed that in the light of the  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.99219"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.548.397.html/"
+  graph-id-high-water="28" vertex="29" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.548.397.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">107068</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5602" v="5621">information which he knew to be false and which was intended to deceive the postmasters to the detriment of the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="5622" v="5622">plaintiff. </match>
+      <post u="5623" v="5642">This Court sustained a plea by the Postmaster General of absolute privilege, stating that 161 U.S. at pages 498—499, </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="8307" v="8326">page 1341. This creates a presumption that the challenged action is within the officer's scope of duty unless the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="8327" v="8327">plaintiff </match>
+      <post u="8328" v="8347">can prove otherwise. Since it has been admitted that, as in this case, these duties are rarely enumerated, an executive </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="8343" v="8362">are rarely enumerated, an executive assertion on the official's bahalf may place an impossible burden of proof on the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="8363" v="8363">plaintiff </match>
+      <post u="8364" v="8383">seeking to avoid the defense of absolute privilege. By this unusual approach, the traditional rule that it is the defendant </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="8375" v="8394">approach, the traditional rule that it is the defendant who must sustain his affirmative defense of privilege—and not the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="8395" v="8395">plaintiff </match>
+      <post u="8396" v="8415"><![CDATA[who must negate that defense—is apparently disregarded.&lt;a >1&lt;/a>&lt;/p>
+    &lt;/div>
+    &lt;p >I.&lt;/p>
+    &lt;div >
+      &lt;span >55&lt;/span>
+      &lt;]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="8523" v="8542">outside the legislative and judicial branches of government is Sutton v. Johnstone, 1 T.R. 493, decided in 1786. There, the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="8543" v="8543">plaintiff, </match>
+      <post u="8544" v="8563">captain of a warship, sued the commander-in-chief of his squadron for charging plaintiff, maliciously and without probable cause, </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="8538" v="8557">decided in 1786. There, the plaintiff, captain of a warship, sued the commander-in-chief of his squadron for charging </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="8558" v="8558">plaintiff, </match>
+      <post u="8559" v="8578">maliciously and without probable cause, with disobedience of orders and putting him under arrest and forcing him to face a </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="8639" v="8658">of State for India, (1895) 2 Q.B. 189, the defendant had been apprised that his action with respect to the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="8659" v="8659">plaintiff </match>
+      <post u="8660" v="8679">would be made the subject of a parliamentary inquiry. In the communication alleged to be libelous, the defendant told his </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="9549" v="9568">109, 134, 79 S.Ct. 1081, 1097 (dissenting opinion). This is not a case where the only interest is in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="9569" v="9569">plaintiff'</match>
+      <post u="9570" v="9589">s obtaining redress of a wrong. The public interest in limiting libel suits against officers in order that the public </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... deceive the postmasters to the detriment of the plaintiff. This Court sustained a plea by the Postmaster  ... the officer's scope of duty unless the plaintiff can prove otherwise. Since it has been admitted  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.9375"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.167.127.html/"
+  graph-id-high-water="8" vertex="9" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.167.127.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">39598</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1695" v="1714">all or part of the expenses of the litigation are paid by the barrator,' or by those, other than the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5885"
+      />
+      <match u="1715" v="1715">plaintiffs, </match>
+      <post u="1716" v="1735">acting in concert with him, 'unless the instigation is justified.' An instigation is 'justified' when 'the instigator is related by </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1721" v="1740">unless the instigation is justified.' An instigation is 'justified' when 'the instigator is related by blood or marriage to the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5885"
+      />
+      <match u="1741" v="1741">plaintiff </match>
+      <post u="1742" v="1761">whom he instigates, or * * * is entitled by law to share with the plaintiff in money or property that is the </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1734" v="1753">related by blood or marriage to the plaintiff whom he instigates, or * * * is entitled by law to share with the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5885"
+      />
+      <match u="1754" v="1754">plaintiff </match>
+      <post u="1755" v="1774">in money or property that is the subject of the litigation or * * * has a direct interest ('personal right or a </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1776" v="1795">right or liability') in the subject matter of the litigation or occupies a position of trust in relation to the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5885"
+      />
+      <match u="1796" v="1796">plaintiff; </match>
+      <post u="1797" v="1816">or * * * is acting on behalf of a duly constituted legal aid society approved by the Virginia State Bar which offers </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="2997" v="3016">racial suits in Virginia with the assistance of the Association and the Fund have not been taken until the prospective </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5885"
+      />
+      <match u="3017" v="3017">plaintiffs </match>
+      <post u="3018" v="3037">made application to one or the other of the corporations for help.' 159 F.Supp. at page 533. Further the '</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... the barrator,' or by those, other than the plaintiffs, acting in concert with him, 'unless the instigation  ... is related by blood or marriage to the plaintiff whom he instigates, or * * * is entitled by law  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.593.57.html/"
+  graph-id-high-water="43" vertex="44" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.593.57.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">16670</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1670" v="1689"><![CDATA[its applicability.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >15&lt;/span>
+      &lt;p >The short explanation is that the Captain thought that since the ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2302"
+      />
+      <match u="1690" v="1690">plaintiffs </match>
+      <post u="1691" v="1710">had attacked the administrationof  the shipyard by sending copies of their newsletters and charges to Congress, he should send Congress </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1717" v="1736">he had a right to do but in doing so he should have no greater privilege than his critic. The </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2302"
+      />
+      <match u="1737" v="1737">plaintiffs </match>
+      <post u="1738" v="1757"><![CDATA[in this case at most received qualified privilege for their complaints to Congress,&lt;a >3&lt;/a> yet the Captain's ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1878" v="1897"><![CDATA[lengthy report. It is adequately summarized in the Court of Appeals' opinion as follows:&lt;/p>
+        &lt;p >'This letter alleged that ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2302"
+      />
+      <match u="1898" v="1898">plaintiff </match>
+      <post u="1899" v="1918">Lyons by name, and the other plaintiff by description, 'exercise a predominant influence' in the organizational activities; that the organization </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1885" v="1904"><![CDATA[the Court of Appeals' opinion as follows:&lt;/p>
+        &lt;p >'This letter alleged that plaintiff Lyons by name, and the other ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2302"
+      />
+      <match u="1905" v="1905">plaintiff </match>
+      <post u="1906" v="1925">by description, 'exercise a predominant influence' in the organizational activities; that the organization has been giving wide distribution to a </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... is that the Captain thought that since the plaintiffs had attacked the administrationof  the shipyard by sending  ... have no greater privilege than his critic. The plaintiffs in this case at most received qualified privilege  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.185.347.html/"
+  graph-id-high-water="29" vertex="30" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.185.347.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">39271</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2971" v="2990">respondent could not remove a state condemnation case to the Federal District Court on diversity grounds because he was the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="6166"
+      />
+      <match u="2991" v="2991">plaintiff </match>
+      <post u="2992" v="3011">in the state proceeding, the Court clearly recognized that the defendant in such a proceeding could remove in accordance with § </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Court on diversity grounds because he was the plaintiff in the state proceeding, the Court clearly recognized  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.622.326.html/"
+  graph-id-high-water="35" vertex="36" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.622.326.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">110344</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="16318" v="16337">for certain defnda nts in the United States District Court for the District of Hawaii entitled 'United States of America, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="16338" v="16338">Plaintiff, </match>
+      <post u="16339" v="16358">against Charles Kazuyuki Fujimoto, et als., Defendants,' being Criminal 10495 in that Court (107 F.Supp. 865); that on December </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... District of Hawaii entitled 'United States of America, Plaintiff, against Charles Kazuyuki Fujimoto, et als., Defendants,' being  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.525.248.html/"
+  graph-id-high-water="5" vertex="6" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.525.248.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">53541</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5777" v="5796">82, 82 A.L.R. 1098. Following this decision the case was remanded for a new trial. Appeal from a judgment for </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7642"
+      />
+      <match u="5797" v="5797">plaintiff </match>
+      <post u="5798" v="5817">was dismissed by the Supreme Court of Nebraska. Appeal to this Court was dismissed sub nom. KFAB Broadcasting Co. v. </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... a new trial. Appeal from a judgment for plaintiff was dismissed by the Supreme Court of Nebraska.  ... </content>
+</document>
+<retrieval-performance n-tau="63" n-rho="14" n-uat="0" n-ohr="0"
+  occr-reads="42452" block-reads="117" seeks="14" cache-hits="117" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="14" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="88" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="14" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="88" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-tau="14" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="88" block-reads="2" seeks="2" cache-hits="2" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="4" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="2" seeks="0" cache-hits="2" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="40780" block-reads="93" seeks="0" cache-hits="93" cache-misses="0"
+  >
+    <query-performance what="3:" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="40780" block-reads="93" seeks="0" cache-hits="93" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="35" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="910" block-reads="12" seeks="8" cache-hits="12" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="35" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="910" block-reads="12" seeks="8" cache-hits="12" cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="35" n-rho="35" n-uat="0"
+        n-ohr="0" occr-reads="910" block-reads="10" seeks="8" cache-hits="10"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-tau="35" n-rho="56" n-uat="0" n-ohr="0"
+          occr-reads="628" block-reads="2" seeks="2" cache-hits="2" cache-misses="0"
+        />
+        <query-performance what="or" n-tau="28" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="282" block-reads="8" seeks="6" cache-hits="8" cache-misses="0"
+        >
+          <query-performance what="0:url" n-tau="14" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="94" block-reads="2" seeks="2" cache-hits="2"
+            cache-misses="0"
+          />
+          <query-performance what="0:host" n-tau="14" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="94" block-reads="2" seeks="2" cache-hits="2"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-tau="4" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="2" seeks="0" cache-hits="2"
+            cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-tau="14" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="94" block-reads="2" seeks="2" cache-hits="2"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-tau="0" n-rho="4" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="2" seeks="0" cache-hits="2" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="7" n-rho="7" n-uat="0" n-ohr="0"
+    occr-reads="88" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="7" n-rho="7" n-uat="0" n-ohr="0"
+      occr-reads="88" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-tau="7" n-rho="7" n-uat="0" n-ohr="0"
+        occr-reads="88" block-reads="2" seeks="2" cache-hits="2" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="4" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="2" seeks="0" cache-hits="2" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="7" n-rho="7" n-uat="0"
+    n-ohr="0" occr-reads="586" block-reads="4" seeks="2" cache-hits="4"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="7" n-rho="7" n-uat="0" n-ohr="0"
+      occr-reads="586" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+    >
+      <query-performance what="0:" n-tau="7" n-rho="7" n-uat="0" n-ohr="0"
+        occr-reads="586" block-reads="2" seeks="2" cache-hits="2" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="4" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="2" seeks="0" cache-hits="2" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="36" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="37" block-reads="2" seeks="1" cache-hits="1" cache-misses="1"
+>
+  <query-performance what="1:plaintiff" n-tau="36" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="37" block-reads="1" seeks="1" cache-hits="0" cache-misses="1"
+  />
+  <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+  />
+</query-performance>
+</scope>

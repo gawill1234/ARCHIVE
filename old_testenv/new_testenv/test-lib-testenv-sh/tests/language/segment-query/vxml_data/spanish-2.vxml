@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vce>
+<option name="stem" value="spanish+spanish-depluralize" />
+<!--option name="stoplist" value="spanish" /-->
+<!--option name="stem-seq" value="true" /-->
+        <document vse-key="document://ES/query">
+           <content name="title">xxxx-query-data-xxxx</content>
+           <content name="query-data">query=cazar::count=3::qid=ES2-1</content>
+        </document>
+        <document vse-key="document://ES/doc1">
+           <content name="title">Yo me como una manzana.</content>
+           <content name="qid-list">ES1</content>
+        </document>
+        <document vse-key="document://ES/doc2">
+           <content name="title">Es como volar, pero mejor!</content>
+           <content name="qid-list">ES1</content>
+        </document>
+        <document vse-key="document://ES/doc3">
+           <content name="title">Comer es algo necesario.</content>
+           <content name="qid-list">ES1::ES2</content>
+        </document>
+        <document vse-key="document://ES/doc4">
+           <content name="title">Está en estado de coma etílico.</content>
+           <content name="qid-list">ES3</content>
+        </document>
+</vce>

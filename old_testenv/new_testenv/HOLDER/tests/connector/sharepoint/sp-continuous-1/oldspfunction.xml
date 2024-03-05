@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<function internal="7.x" name="vse-crawler-seed-sharepoint-tng" products="vse-connectors" max-elt-id="44">
+  <prototype>
+    <declare type="string-area" name="site-urls" required="required">
+      <label name="label">URLs</label>
+      <description name="description">
+Newline-separated list of URLs of Sharepoint sites to crawl. For example:
+<code>
+http://a.com http://b.com:83/site http://c.com/site2
+</code>
+<![CDATA[ The subsites of these sites will also be crawled (unless they are excluded by other crawling rules). ]]>
+</description>
+    </declare>
+    <declare type="string" name="username" required="required">
+      <label name="label">Username</label>
+      <description name="description"><![CDATA[ Username of Sharepoint user used to access the content. This user must have access to all the target sites and lists to be crawled and indexed, and must be able to retrieve and resolve the associated permissions. ]]></description>
+    </declare>
+    <declare type="password" name="password" required="required">
+      <label name="label">Password</label>
+      <description name="description">
+Password of Sharepoint user used to access the content.
+</description>
+    </declare>
+    <declare initial-value="2003" name="version" type="enum" enum-values="2003|2007">
+      <label name="label">Sharepoint Version</label>
+      <description name="description">The Sharepoint version to crawl.</description>
+    </declare>
+    <declare type="enum" name="protocol" enum-values="http|https" initial-value="http">
+      <label name="label">Protocol</label>
+      <description name="description">What protocol to use when contacting the Sharepoint server.</description>
+    </declare>
+    <declare type="flag" name="use-sid">
+      <label name="label">Use SID as ACL</label>
+      <description name="description">
+When enabled, Windows SIDs will be used as the ACLs.
+</description>
+    </declare>
+    <declare type="flag" name="add-admins">
+      <label name="label">Add Site Collection Administrators as ACL</label>
+      <description name="description"><![CDATA[When enabled, Site Collection Administrators will be given access to all the content in the site collection.]]></description>
+    </declare>
+    <declare type="flag" name="crawl-profile-info">
+      <label name="label">Crawl profile information from personal sites</label>
+      <description name="description">
+When enabled, profile information (My Profile) of personal sites will be crawled.
+</description>
+    </declare>
+    <declare type="flag" name="do-all-versions">
+      <label name="label">Crawl all versions</label>
+      <description name="description"><![CDATA[When enabled, all versions of a document will be crawled. Otherwise, just the latest version of the document will be crawled. ]]></description>
+    </declare>
+    <proto-section section="Advanced Configuration" toggle-section="toggle-section">
+      <declare type="enum" name="http-transport" enum-values="NTLM2|KERBEROS">
+        <label name="label">Authentication Type</label>
+        <description name="description">
+What authentication mechanism to use when contacting the Sharepoint server.
+</description>
+      </declare>
+      <declare type="string" name="kerbconf">
+        <label name="label">Kerberos Configuration</label>
+        <description name="description"><![CDATA[The name and location of the Kerberos configuration file e.g. C:\VivisimoKerb\krb5.ini or /usr/local/vivkerb/krb5.conf]]></description>
+      </declare>
+      <declare type="string" name="kerblogin">
+        <label name="label">JAAS Login Configuration</label>
+        <description name="description"><![CDATA[The name and location of the JAAS Login configuration file e.g. C:\VivisimoKerb\login.conf or /usr/local/vivkerb/login.conf]]></description>
+      </declare>
+    </proto-section>
+    <description name="description"><![CDATA[Crawler seed function to crawl Sharepoint sites, including the subsites and lists attached to these sites.]]></description>
+    <label name="label">Sharepoint-TNG</label>
+  </prototype>
+  <scope>
+    <process-xsl><![CDATA[ <xsl:param name="site-urls"/> <xsl:param name="username"/> <xsl:param name="password"/> <xsl:param name="version"/> <xsl:param name="protocol"/> <xsl:param name="use-sid"/> <xsl:param name="add-admins"/> <xsl:param name="crawl-profile-info"/> <xsl:param name="do-all-versions"/> <xsl:param name="http-transport"/> <xsl:param name="kerbconf"/> <xsl:param name="kerblogin"/> <xsl:template match="/"> <xsl:variable name="fixed-urls"> <xsl:for-each select="str:tokenize($site-urls, '&#10;')"> <xsl:variable name="url-parts" select="viv:url-decompose(.)" /> <xsl:variable name="fixed-path" select="concat($url-parts/path,viv:if-else(viv:match($url-parts/path, '(\.aspx|\/)$'),'','/'))" /> <xsl:value-of select="viv:url-build('sharepoint', '', '', $url-parts/host, $url-parts/port, $fixed-path, '')" /> <xsl:value-of select="'&#10;'" /> </xsl:for-each> </xsl:variable> <xsl:for-each select="str:tokenize($site-urls, '&#10;')"> <xsl:variable name="url-parts" select="viv:url-decompose(.)" /> <crawl-condition-when field="protocol"> <crawl-pattern> <xsl:value-of select="$url-parts/protocol" /> </crawl-pattern> <crawl-condition-when field="host" how="wc-set"> <crawl-pattern> <xsl:value-of select="$url-parts/host" /> </crawl-pattern> <crawl-condition-when field="path"> <crawl-pattern> <xsl:value-of select="viv:replace($url-parts/path, '/[^/]*$', '')" /> <xsl:text>/*</xsl:text> </crawl-pattern> <curl-options> <curl-option name="user-password"> <xsl:value-of select="concat($username, ':', $password)"/> </curl-option> </curl-options> </crawl-condition-when> </crawl-condition-when> </crawl-condition-when> </xsl:for-each> <xsl:variable name="extra-options"> <options> <call-function name="vse-crawler-seed-sharepoint-options" no-view-resolved="no-view-resolved"> <xsl:if test="$version"> <with name="sharepoint-version"> <xsl:value-of select="$version" /> </with> </xsl:if> <xsl:if test="$protocol"> <with name="sharepoint-protocol"> <xsl:value-of select="$protocol" /> </with> </xsl:if> <xsl:if test="$use-sid"> <with name="use-sid"> <xsl:value-of select="$use-sid" /> </with> </xsl:if> <xsl:if test="$add-admins"> <with name="add-admins"> <xsl:value-of select="$add-admins" /> </with> </xsl:if> <xsl:if test="$crawl-profile-info"> <with name="crawl-profile-info"> <xsl:value-of select="$crawl-profile-info" /> </with> </xsl:if> <xsl:if test="$do-all-versions"> <with name="do-all-versions"> <xsl:value-of select="$do-all-versions" /> </with> </xsl:if> <xsl:if test="$http-transport"> <with name="http-transport"> <xsl:value-of select="$http-transport" /> </with> </xsl:if> <xsl:if test="$kerbconf"> <with name="kerbconf"> <xsl:value-of select="$kerbconf" /> </with> </xsl:if> <xsl:if test="$kerblogin"> <with name="kerblogin"> <xsl:value-of select="$kerblogin" /> </with> </xsl:if> </call-function> </options> </xsl:variable> <call-function name="vse-crawler-seed-urls-common"> <with name="urls" value="{$fixed-urls}" /> <with name="how" value="path" /> <with name="username" copy-of="username" /> <with name="password" copy-of="password" /> <with name="extra-curl-options"> <xsl:value-of select="viv:node-to-str($extra-options)" /> </with> </call-function> <crawl-extender> <call-function name="vse-crawler-seed-extender-java-common" no-view-resolved="no-view-resolved"> <with name="protocol">sharepoint</with> <with name="classname">com.vivisimo.connector.SharepointConnector</with> <with name="dns">dns</with> <with name="heap-size">1750000000</with><!--with name="bootstrap-logging">,trace</with--> </call-function> </crawl-extender> </xsl:template> ]]></process-xsl>
+  </scope>
+</function>

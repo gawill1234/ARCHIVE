@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<vse-collection>
+  <vse-meta/>
+  <vse-config>
+    <crawler>
+      <crawl-urls>
+        <crawl-url url="http://vivisimo.com" status="complete">
+          <crawl-data content-type="application/vxml" encoding="xml">
+            <document>
+              <content name="title">test</content>
+            </document>
+          </crawl-data>
+          <curl-options><curl-option name="default-allow">allow</curl-option>:
+          </curl-options>
+        </crawl-url>
+      </crawl-urls>
+    </crawler>
+    <vse-index>
+      <vse-index-option name="output-contents">title</vse-index-option>
+      <vse-index-option name="summarize-contents">snippet</vse-index-option>
+      <vse-index-option name="fast-index">last-modified|date</vse-index-option>
+      <vse-url-equivs name="vse-url-equivs">
+        <vse-url-equiv old-prefix="smb://" new-prefix="file://///" />
+      </vse-url-equivs>
+    </vse-index>
+    <converters />
+  </vse-config>
+</vse-collection>
+  

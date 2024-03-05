@@ -1,0 +1,40 @@
+<testset>
+   <test>
+      <name>
+         vivChoose08
+      </name>
+      <description>
+         vivChoose():  Default is returned when it is the only case
+      </description>
+      <funcname argcnt="3" codetemplate="match" tbltemplate="1">
+         viv:choose
+      </funcname>
+      <variable>
+         <name>
+            condDefault
+         </name>
+         <value>
+            DEFAULT
+         </value>
+         <type>
+            string
+         </type>
+      </variable>
+      <argument>
+         <value>
+            condDefault
+         </value>
+         <type>
+            variable
+         </type>
+      </argument>
+      <result>
+         <value>
+            DEFAULT
+         </value>
+         <type>
+            string
+         </type>
+      </result>
+   </test>
+</testset>

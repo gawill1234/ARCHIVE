@@ -1,0 +1,130 @@
+#!/bin/bash
+#
+#  Pyed
+#
+
+
+#############################################################
+
+   VUSER=""
+   VPW=""
+   FILENAME=""
+   TARGDIR=""
+   TARGETFILE=""
+   LOCALDIR=""
+   VWWWUSER=""
+   SHOST=""
+   TARGETOS="$VIVTARGETOS"
+
+   VCMD="gronk"
+   if [ "$TARGETOS" == "windows" ]; then
+      VCMD="gronk.exe"
+   fi
+
+   VACTION="get-file"
+   export PATH=$PATH:$TEST_ROOT/utils/bin:$TEST_ROOT/bin
+
+#############################################################
+
+getsetopts()
+{
+   OPTERR=0
+   OPTIND=1
+   while getopts "H:F:U:P:D:L:" flag; do
+     case "$flag" in
+        F) FILENAME=$OPTARG;;
+        H) SHOST=$OPTARG;;
+        U) VUSER=$OPTARG;;
+        P) VPW=$OPTARG;;
+        D) TARGDIR=$OPTARG;;
+        L) LOCALDIR=$OPTARG;;
+        *) echo "Usage: get_file -F <file> -D <fromdir> -U <user> -P <password>"
+           exit 1;;
+     esac
+   done
+
+   if [ "$FILENAME" == "" ]; then
+      echo "File name must be specified"
+      echo "Use the -F <collection> option"
+      exit 1
+   fi
+
+   if [ "$TARGDIR" == "" ]; then
+      echo "Directory name must be specified (where is the file?)"
+      echo "Use the -D <directory> option"
+      exit 1
+   fi
+
+   if [ "$VUSER" == "" ]; then
+      VUSER=$VIVUSER
+      if [ "$VUSER" == "" ]; then
+         echo "Vivisimo username is needed"
+         echo "Either set VIVUSER environment variable or"
+         echo "use the -U <vivuser> options"
+         exit 1
+      fi
+   fi
+
+   if [ "$VPW" == "" ]; then
+      VPW=$VIVPW
+      if [ "$VPW" == "" ]; then
+         echo "Vivisimo password is needed"
+         echo "Either set VIVPW environment variable or"
+         echo "use the -P <vivpassword> options"
+         exit 1
+      fi
+   fi
+
+   if [ "$SHOST" == "" ]; then
+      SHOST=$VIVHOST
+   fi
+
+}
+
+usewget()
+{
+   rstring="wget 'http://$SHOST/vivisimo/cgi-bin/$VCMD?file=$TARGETFILE&action=$VACTION&type=binary' -o $FILENAME.getlog -O $FILENAME"
+}
+
+getsetopts $*
+
+retry=0
+
+TARGETFILE=$TARGDIR/$FILENAME
+
+usewget
+ 
+#
+#   Allow 2 attempts to get the file.
+#
+while [ $retry -lt 2 ];do
+   fail=0
+   eval $rstring 2>/dev/null
+
+   if [ -f $FILENAME.getlog ]; then
+      rm $FILENAME.getlog
+   fi
+
+   if [ -f $FILENAME ]; then
+      xyz=`stat -c %s $FILENAME`
+   else
+      touch $FILENAME
+      fail=1
+   fi
+
+   if [ $xyz -le 0 ]; then
+      fail=1
+   fi
+   if [ $fail -eq 0 ]; then
+      retry=99
+   else
+      retry=`expr $retry + 1`
+   fi
+done
+
+if [ "$LOCALDIR" != "" ]; then
+   mkdir -p $LOCALDIR
+   mv $FILENAME $LOCALDIR/$FILENAME
+fi
+
+exit $fail

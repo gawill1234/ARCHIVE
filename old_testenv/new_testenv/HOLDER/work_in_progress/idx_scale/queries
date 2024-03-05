@@ -1,0 +1,46 @@
+#query::collection::number_of_urls::compare_file::new_file
+#
+#   special codes in strings: (yes, I know it is screwy but it greatly
+#                              simplifies processing ...)
+#      <2eq> will become '=='   
+#      <eq> will become '='   
+#      <empty> will become ''   
+#      <cr> will become '\n' (newline)   
+#      <sp> will become ' '   
+#
+#   To add more changes go in:
+#      $TEST_ROOT/lib/queryObj.py in set_other_opts()
+#
+##############################################
+#
+#   Basic queries
+#
+Arizona::oracle-1::14::Arizona::num=200
+Arizona AND Battleship::oracle-1::1::Arizona_Battleship::num=200
+bismarck::oracle-1::4::bismarck::num=200
+arizona::oracle-1::24::Arizona::num=200
+Blücher::oracle-1::19::Blücher::num=200
+We AND the AND people::samba-1::2::We_the_people::num=200
+Hamilton AND Madison::samba-1::4::qry.Hamilton+Madison.xml::num=200
+Linux::samba-1::4::qry.Linux.xml::num=200
+#
+#   Use a node file (sort-xpaths requires a node in string form)
+#   This seemed the best way to not have the query line become huge
+#
+#   Checking the results here is actually pretty easy for the moment.
+#   I have to add an ordered check to the check routing.  But, for
+#   the moment, sorting changes the scores which means you can use
+#   a separate "sorted.cmp" file to compare with the expected result.
+#
+::binning-2::4::blank_query_bin::num=200&sort-xpaths=nodefile
+#
+#   Simple binning, single bin
+#
+::binning-1::0::ship..Battleship::num=200&binning-state=ship<2eq>Battleship
+::binning-1::0::ship..Cruiser::num=200&binning-state=ship<2eq>Cruiser
+::binning-1::0::ship..Frigate::num=200&binning-state=ship<2eq>Frigate
+::binning-1::0::ship..Battlecruiser::num=200&binning-state=ship<2eq>Battlecruiser
+#
+#   Simple binning, two bins
+#
+::binning-2::0::bin..German..Battleship::num=200&binning-state=ship<2eq>Battleship<cr>nations<2eq>Germany

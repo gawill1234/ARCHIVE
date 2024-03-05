@@ -1,0 +1,7 @@
+
+
+msg (94 ms) - The crawl has been started.  (ID: CRAWLER_STARTING)
+
+msg (78 ms) -  <crawl-url url="http://vivisimo.com/refresh" status="complete" verbose="verbose" hops="0" vertex="0" ><crawl-data content-type="application/vxml" encoding="xml" ><crawl-delete url="http://vivisimo.com/1"  /></crawl-data></crawl-url>  is input.  (ID: CRAWLER_INPUT)
+
+msg (94 ms) - [http://vivisimo.com/refresh] complete, status [complete] (cache code []).  (ID: CRAWLER_FINISHED)

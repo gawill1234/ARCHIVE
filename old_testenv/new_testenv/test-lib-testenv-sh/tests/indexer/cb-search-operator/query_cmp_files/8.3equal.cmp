@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<query-results>
+<binning-full>
+  <binning-set label="Year of Publication" bs-id="yop">
+    <binning-range interval="10" br-id="|10|" />
+    <bin state="yop=1990:2000" br-id="|10|" low="1990" high="2000" ndocs="2" />
+  </binning-set>
+  <binning-set label="Hero" bs-id="hero">
+    <bin state="hero==Gwen Wyke" label="Gwen Wyke" ndocs="1" cndocs="1" />
+  </binning-set>
+  <binning-state />
+</binning-full>
+<query><operator logic="and"><term field="v.output-score" str="true" processing="optional" input-type="system"/><operator logic="equal" name="equal" start-string="==" precedence="9"><term field="year" str="1997" input-type="user"/></operator></operator></query>
+<added-source test-strictly="test-strictly" name="example-metadata"
+  products="core" type="vse" no-override="no-override" over-request="1.3" num="50"
+  status="queried" requested="50"
+  admin-url="http://sles-11-ide-reg.vivisimo.com/vivisimo/cgi-bin/admin"
+  vse-vse="vse-vse" query-xml-supported="query-xml-supported" stoplist="none"
+  stem2="none" stem="depluralize" total-results-with-duplicates="2"
+  retrieval-ms="1" search-ms="2" total-results="2" retrieved="2"
+>
+  <parse
+    url="http://127.0.0.1:7205/search?query-xml=%3coperator%20logic%3d%22equal%22%20name%3d%22equal%22%20start-string%3d%22%3d%3d%22%20precedence%3d%229%22%3e%3cterm%20field%3d%22year%22%20str%3d%221997%22%20input-type%3d%22user%22%20%2f%3e%3c%2foperator%3e&amp;binning-mode=double&amp;force-binning=0&amp;max=75&amp;start=0&amp;num=50&amp;staging=0&amp;collection=example-metadata&amp;r-o-p=0&amp;sort-keys=1&amp;shingles=1&amp;summarize=1&amp;cache=1&amp;cache-data=0&amp;score=1&amp;show-duplicates=0&amp;gen-key=0&amp;n-collapse=0&amp;collapsed-binning=0&amp;performance=1"
+    start-time="42" end-time="48" http-status="200 OK" body-length="8340"
+    status="fetched processed parsed" retrieved="2"
+  />
+</added-source>
+<list start="0" per="50" num="2">
+  <document
+    vse-key="file://:80/srv/www/htdocs/vivisimo/examples/data/metadata-example/classic_autos.html/"
+    vertex="29" ct="text/html"
+    url="file:///srv/www/htdocs/vivisimo/examples/data/metadata-example/classic_autos.html"
+    mwi-shingle="OXLm4BU8cfoPOuZZTPrarbpAWZhDbmnQcqvrgOsUFoLcRms3uB7g47oLCRJrHKpAR8FAxmRrw24gBzo+2iJoTit58fFFIL+XPQQ0Utajeiq6ZCzWo5Oh0RYw4n510YO4"
+    score="1.1" vse-base-score="1" la-score="0.1" parse-ref="0" rank="0"
+    source="example-metadata" vse="vse" id="Ndoc2.0"
+  >
+    <content name="size" weight="-1" type="text" u="1" action="cluster">1392</content>
+    <content name="last-modified" action="none" weight="0" type="text"
+      seconds="1368118589" u="16"
+    >May 9,
+  2013 16:56:29 GMT</content>
+    <content name="language" weight="0" action="none" type="text" u="18">english</content>
+    <content type="text" name="title" output-action="bold" weight="3" u="20"
+      action="cluster"
+    >Classic Autos and Trucks</content>
+    <content name="genre" u="25" type="html" action="cluster" weight="1">Non-Fiction</content>
+    <content name="year" u="28" type="html" action="cluster" weight="1">1997</content>
+    <content name="hero" u="30" type="html" action="cluster" weight="1" />
+    <content name="author" u="31" type="html" action="cluster" weight="1">Forrest Brown</content>
+    <content name="publisher" u="34" type="html" action="cluster" weight="1">Reno Press</content>
+    <content name="sales_2008" u="127" type="html" action="cluster" weight="1">$26300</content>
+    <content name="sales_2009" u="129" type="html" action="cluster" weight="1">$29133</content>
+    <content name="sales_2010" u="131" type="html" action="cluster" weight="1">$24050</content>
+    <content name="sales_2011" u="133" type="html" action="cluster" weight="1">$23045</content>
+    <content name="snippet" action="cluster" type="html" weight="1">Forrest Brown takes us on a
+fascinating journey through the classic american automotive vehicles
+of the 20th century. The stunning visuals delivered in  ... </content>
+    <cache u="1" ct="text/html" />
+  </document>
+  <document
+    vse-key="file://:80/srv/www/htdocs/vivisimo/examples/data/metadata-example/sudden_stop.html/"
+    vertex="6" ct="text/html"
+    url="file:///srv/www/htdocs/vivisimo/examples/data/metadata-example/sudden_stop.html"
+    mwi-shingle="w+UrMw0LJ11yAxLYggaQsvRStyobzVKFghD7iyEvfD6wjKe6j9l/wi4KFCn9pRiPmVFqOic/VIDwmvA1yiwuFmL3JSL6oxH8Hx9KckdtrUBoYF+Tj6Tr6Fsq9qr602j2"
+    score="1.1" vse-base-score="1" la-score="0.1" parse-ref="0" rank="1"
+    source="example-metadata" vse="vse" id="Ndoc2.1"
+  >
+    <content name="size" weight="-1" type="text" u="1" action="cluster">1379</content>
+    <content name="last-modified" action="none" weight="0" type="text"
+      seconds="1368118589" u="16"
+    >May 9,
+  2013 16:56:29 GMT</content>
+    <content name="language" weight="0" action="none" type="text" u="18">english</content>
+    <content type="text" name="title" output-action="bold" weight="3" u="20"
+      action="cluster"
+    >Sudden Stop</content>
+    <content name="genre" u="23" type="html" action="cluster" weight="1">Fiction</content>
+    <content name="year" u="25" type="html" action="cluster" weight="1">1997</content>
+    <content name="hero" u="27" type="html" action="cluster" weight="1">Gwen Wyke</content>
+    <content name="author" u="30" type="html" action="cluster" weight="1">Lucy Spring</content>
+    <content name="publisher" u="33" type="html" action="cluster" weight="1">Kenlon-Dill Inc</content>
+    <content name="sales_2008" u="138" type="html" action="cluster" weight="1">$12034</content>
+    <content name="sales_2009" u="140" type="html" action="cluster" weight="1">$8043</content>
+    <content name="sales_2010" u="142" type="html" action="cluster" weight="1">$9468</content>
+    <content name="sales_2011" u="144" type="html" action="cluster" weight="1">$7047</content>
+    <content name="snippet" action="cluster" type="html" weight="1">Horses are all that Gwen Wyke thinks about: every day, every night, and even in her dreams. Working for the Jockey club is a dream job for Gwen, and transporting  ... </content>
+    <cache u="1" ct="text/html" />
+  </document>
+</list>
+</query-results>
+

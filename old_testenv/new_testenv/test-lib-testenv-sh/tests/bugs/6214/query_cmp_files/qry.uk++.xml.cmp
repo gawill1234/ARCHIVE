@@ -1,0 +1,3552 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="171" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="29" />
+<attribute name="total-results-with-duplicates" value="171" />
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/0/" vertex="1"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=0"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483993"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Abdiel</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Mine Layer</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Abdiel</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/1/" vertex="2"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=1"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483993"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Abercrombie</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Coastal Patrol Craft</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/w/index.php?title=HMS_Abercrombie&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/3/" vertex="4"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=3"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483993"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Achates</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Achates_%28H12%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/4/" vertex="5"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=4"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483993"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Acheron</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Acheron</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/5/" vertex="6"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=5"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483993"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Active</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Active</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/6/" vertex="7"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=6"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483993"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Activity</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Activity</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/2/" vertex="3"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=2"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483993"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Acasta</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Acasta_%28H09%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/10/" vertex="11"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=10"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483993"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Afridi</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Afridi_%28F07%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/18/" vertex="19"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=18"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Ambuscade</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Ambuscade_%28D38%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/17/" vertex="18"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=17"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Amazon</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Amazon</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/19/" vertex="20"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=19"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Ameer</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Ameer_%28D01%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/21/" vertex="22"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=21"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Anson</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Anson_%2879%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/22/" vertex="23"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=22"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Antelope</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Antelope_%28H36%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/23/" vertex="24"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=23"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Anthony</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Anthony&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/26/" vertex="26"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=26"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Arbiter</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Arbiter_%28D31%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/27/" vertex="27"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=27"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Archer</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Archer_%28D78%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/28/" vertex="28"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=28"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Ardent</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Ardent_%28H41%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/29/" vertex="29"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=29"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Argus</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Argus_%28I49%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/30/" vertex="30"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=30"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Ariadne</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Mine Layer</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/w/index.php?title=HMS_Ariadne&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/34/" vertex="34"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=34"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Ark Royal</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Ark_Royal_%2891%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/36/" vertex="36"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=36"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Arrow</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Arrow</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/39/" vertex="39"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=39"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Ashanti</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Ashanti_%28F51%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/42/" vertex="42"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=42"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Atheling</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Atheling_%28D51%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/44/" vertex="44"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=44"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Attacker</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/w/index.php?title=Attacker_class&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/45/" vertex="45"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=45"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Attacker</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/Bogue_class_escort_carrier</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/47/" vertex="47"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=47"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Audacity</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Audacity_%28D14%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/48/" vertex="48"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=48"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Avenger</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Avenger</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/51/" vertex="51"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=51"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Barham</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Barham_%281914%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/52/" vertex="52"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=52"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Basilisk</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Basilisk&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/55/" vertex="55"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=55"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Beagle</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Beagle_%281930%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/56/" vertex="56"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=56"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Bedouin</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Bedouin&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/57/" vertex="57"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=57"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Begum</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Begum_%28D38%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/58/" vertex="58"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=58"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Bermuda</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Bermuda</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/59/" vertex="59"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=59"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Birmingham</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Light Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Birmingham</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/62/" vertex="62"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=62"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Biter</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Biter</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/63/" vertex="63"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=63"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Blanche</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Blanche&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/66/" vertex="66"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=66"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Boadicea</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Boadicea</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/68/" vertex="68"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=68"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Boreas</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Boreas&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/69/" vertex="69"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=69"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Brazen</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Brazen</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/72/" vertex="72"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=72"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Brilliant</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Brilliant_%28H84%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/74/" vertex="74"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=74"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Bulldog</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Bulldog_%281930%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/79/" vertex="79"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=79"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Campania</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Campania</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/80/" vertex="80"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=80"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Capetown</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Light Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/w/index.php?title=HMS_Capetown_%28D_88%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/83/" vertex="83"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=83"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Ceres</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Light Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Ceres</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/84/" vertex="84"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=84"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Ceylon</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Ceylon</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/85/" vertex="85"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=85"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Charger</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/w/index.php?title=HMS_Charger&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/90/" vertex="90"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=90"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Codrington</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Codrington&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/93/" vertex="93"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=93"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Colossus</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Colossus_%28R15%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/96/" vertex="96"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=96"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Cossack</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Cossack_%28F03%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/98/" vertex="98"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=98"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Courageous</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Courageous_%2850%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/100/"
+  vertex="100"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=100"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483994"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Dasher</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Dasher_%28D37%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/104/"
+  vertex="104"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=104"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Duke of York</content>
+  <content name="NATION" type="text" u="5">UK</content>
+  <content name="ALIGNED" type="text" u="7">allied</content>
+  <content name="SHIP_TYPE" type="text" u="9">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Duke_of_York_%2817%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="6">UK</pre>
+      <content name="NATION" type="text" u="5" v="6" />
+      <match u="6" v="6">UK</match>
+      <post u="6" v="6">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/107/"
+  vertex="107"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=107"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Eagle</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Eagle_%281918%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/108/"
+  vertex="108"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=108"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Edinburgh</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Light Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Edinburgh_%28C16%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/110/"
+  vertex="110"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=110"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Emerald</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Light Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Emerald_%28D66%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/112/"
+  vertex="112"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=112"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Emperor</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Emperor_%28D98%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/113/"
+  vertex="113"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=113"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Empire MacAlpine</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="12">http://en.wikipedia.org/wiki/MV_Empire_MacAlpine</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/114/"
+  vertex="114"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=114"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Empire MacAndrew</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="12">http://en.wikipedia.org/wiki/MV_Empire_MacAndrew</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/115/"
+  vertex="115"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=115"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Empire MacCabe</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="12">http://en.wikipedia.org/wiki/MV_Empire_MacCabe</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/116/"
+  vertex="116"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=116"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Empire MacCallum</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="12">http://en.wikipedia.org/wiki/MV_Empire_MacCallum</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/117/"
+  vertex="117"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=117"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Empire MacColl</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="12">http://en.wikipedia.org/wiki/MV_Empire_MacColl</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/120/"
+  vertex="120"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=120"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Empire MacKendrick</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="12">http://en.wikipedia.org/wiki/MV_Empire_MacKendrick</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/121/"
+  vertex="121"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=121"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Empire MacMahon</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="12">http://en.wikipedia.org/wiki/MV_Empire_MacMahon</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/119/"
+  vertex="119"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=119"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Empire MacKay</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="12">http://en.wikipedia.org/wiki/MV_Empire_MacKay</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/118/"
+  vertex="118"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=118"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Empire MacDermott</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="12">http://en.wikipedia.org/wiki/MV_Empire_MacDermott</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/122/"
+  vertex="122"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=122"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Empire MacRae</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="12">http://en.wikipedia.org/wiki/MV_Empire_MacRae</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/123/"
+  vertex="123"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=123"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Empress</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Empress_%28D42%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/124/"
+  vertex="124"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=124"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Enterprise</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Light Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Enterprise_%28D52%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/127/"
+  vertex="127"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=127"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Erebus</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Coastal Patrol Craft</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Erebus_%28I02%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/128/"
+  vertex="128"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=128"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Eskimo</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Eskimo_%28F75%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/129/"
+  vertex="129"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=129"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Exeter</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Exeter_%2868%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/131/"
+  vertex="131"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=131"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Formidable</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Formidable_%28R67%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/132/"
+  vertex="132"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=132"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Furious</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Furious_%2847%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/134/"
+  vertex="134"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=134"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Gambia</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Gambia</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/138/"
+  vertex="138"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=138"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Glorious</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Glorious</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/139/"
+  vertex="139"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=139"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Glory</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Glory_%28R62%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/142/"
+  vertex="142"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=142"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Goodall</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Frigate</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Goodall_%28K_479%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/146/"
+  vertex="146"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=146"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Gurkha</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Gurkha_%28F20%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/154/"
+  vertex="154"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=154"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Hermes</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Hermes_%2895%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/159/"
+  vertex="159"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=159"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Hood</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Hood_%2851%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/160/"
+  vertex="160"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=160"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Hood</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://www.hmshood.com/</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/162/"
+  vertex="162"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=162"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Howe</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Howe_%281940%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/165/"
+  vertex="165"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=165"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Illustrious</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Illustrious_%28R87%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/166/"
+  vertex="166"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=166"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Implacable</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Implacable_%28R86%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/167/"
+  vertex="167"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=167"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Indefatigable</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Indefatigable_%28R10%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/169/"
+  vertex="169"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=169"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Indomitable</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Indomitable_%28R92%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/173/"
+  vertex="173"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=173"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Jamaica</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Jamaica</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/183/"
+  vertex="183"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=183"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Keith</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Keith&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/184/"
+  vertex="184"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=184"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Kent</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Heavy Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Kent_%2868%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/185/"
+  vertex="185"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=185"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Kenya</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Kenya</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/186/"
+  vertex="186"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=186"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Khedive</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Khedive_%28D62%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/187/"
+  vertex="187"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=187"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">King George V</content>
+  <content name="NATION" type="text" u="5">UK</content>
+  <content name="ALIGNED" type="text" u="7">allied</content>
+  <content name="SHIP_TYPE" type="text" u="9">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_King_George_V_%2841%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="6">UK</pre>
+      <content name="NATION" type="text" u="5" v="6" />
+      <match u="6" v="6">UK</match>
+      <post u="6" v="6">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/196/"
+  vertex="196"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=196"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Latona</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Mine Layer</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/w/index.php?title=HMS_Latona&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/199/"
+  vertex="199"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=199"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Leander</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMNZS_Leander</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/200/"
+  vertex="200"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=200"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Leander</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/Leander_class_cruiser_%281931%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/202/"
+  vertex="202"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=202"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">London</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Heavy Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/London</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/207/"
+  vertex="207"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=207"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483995"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Malaya</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Malaya_%281915%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/208/"
+  vertex="208"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=208"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Manxman</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Mine Layer</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/w/index.php?title=HMS_Manxman&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/211/"
+  vertex="211"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=211"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Marshall Soult</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Coastal Patrol Craft</content>
+  <content name="URL_LOCATER" type="text" u="12">http://en.wikipedia.org/w/index.php?title=HMS_Marshall_Soult&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/209/"
+  vertex="209"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=209"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Maori</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Maori_%28F24%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/213/"
+  vertex="213"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=213"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Mashona</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Mashona_%28F59%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/215/"
+  vertex="215"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=215"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Matabele</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Matabele_%28F26%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/216/"
+  vertex="216"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=216"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Mauritius</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Mauritius</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/224/"
+  vertex="224"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=224"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Mohawk</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Mohawk_%28F31%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/227/"
+  vertex="227"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=227"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Montrose</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Montrose_%281918%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/237/"
+  vertex="237"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=237"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Nelson</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Nelson_%281925%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/232/"
+  vertex="232"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=232"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Nabob</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Nabob_%28D77%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/238/"
+  vertex="238"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=238"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Neptune</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Light Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Neptune_%2820%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/236/"
+  vertex="236"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=236"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Nairana</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Nairana</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/243/"
+  vertex="243"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=243"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Newfoundland</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Newfoundland</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/242/"
+  vertex="242"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=242"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Newark</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/USS_Ringgold_%28DD-89%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/244/"
+  vertex="244"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=244"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Newmarket</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/USS_Robinson_%28DD-88%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/245/"
+  vertex="245"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=245"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Nigeria</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Nigeria&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/250/"
+  vertex="250"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=250"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Nubian</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Nubian_%28F36%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/251/"
+  vertex="251"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=251"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Ocean</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Ocean_%28R68%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/254/"
+  vertex="254"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=254"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Orion</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Light Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Orion_%2885%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/256/"
+  vertex="256"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=256"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Patroller</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Patroller_%28D07%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/260/"
+  vertex="260"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=260"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Pioneer</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Pioneer_%28R76%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/263/"
+  vertex="263"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=263"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Premier</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Premier_%28D23%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/265/"
+  vertex="265"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=265"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Prince of Wales</content>
+  <content name="NATION" type="text" u="5">UK</content>
+  <content name="ALIGNED" type="text" u="7">allied</content>
+  <content name="SHIP_TYPE" type="text" u="9">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Prince_of_Wales_%281939%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="6">UK</pre>
+      <content name="NATION" type="text" u="5" v="6" />
+      <match u="6" v="6">UK</match>
+      <post u="6" v="6">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/268/"
+  vertex="268"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=268"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Puncher</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Puncher_%28D79%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/270/"
+  vertex="270"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=270"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Queen</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Queen_%28D19%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/269/"
+  vertex="269"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=269"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Punjabi</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Punjabi_%28F21%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/271/"
+  vertex="271"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=271"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Queen Elizabeth</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Queen_Elizabeth_%281913%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/272/"
+  vertex="272"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=272"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Ranee</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Ranee_%28D03%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/274/"
+  vertex="274"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=274"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Reaper</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Reaper_%28D82%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/273/"
+  vertex="273"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=273"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Ravager</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Ravager_%28D70%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/275/"
+  vertex="275"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=275"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Redmill</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Frigate</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Redmill_%28K554%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/276/"
+  vertex="276"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=276"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Renown</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Renown_%281916%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/277/"
+  vertex="277"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=277"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Repulse</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Repulse_%281916%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/278/"
+  vertex="278"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=278"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Resolution</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Resolution_%281915%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/279/"
+  vertex="279"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=279"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Revenge</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Revenge_%2806%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/281/"
+  vertex="281"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=281"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Richmond</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/USS_Fairfax_%28DD-93%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/283/"
+  vertex="283"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=283"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Rodney</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Rodney_%281925%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/282/"
+  vertex="282"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=282"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Roberts</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Coastal Patrol Craft</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/w/index.php?title=HMS_Roberts&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/285/"
+  vertex="285"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=285"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Royal Oak</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Royal_Oak_%2808%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/286/"
+  vertex="286"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=286"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Royal Sovereign</content>
+  <content name="NATION" type="text" u="4">UK</content>
+  <content name="ALIGNED" type="text" u="6">allied</content>
+  <content name="SHIP_TYPE" type="text" u="8">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Royal_Sovereign_%2805%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5" v="5">UK</pre>
+      <content name="NATION" type="text" u="4" v="5" />
+      <match u="5" v="5">UK</match>
+      <post u="5" v="5">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/287/"
+  vertex="287"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=287"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Ruler</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Ruler_%28D72%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/293/"
+  vertex="293"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=293"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Saumarez</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Saumarez_%28G12%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/295/"
+  vertex="295"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=295"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Searcher</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Searcher_%28D40%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/297/"
+  vertex="297"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=297"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Shah</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Shah_%28D21%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/301/"
+  vertex="301"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=301"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Sikh</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Sikh_%28F82%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/303/"
+  vertex="303"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=303"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Slinger</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Slinger_%28D26%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/304/"
+  vertex="304"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=304"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Smiter</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Smiter_%28D55%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/305/"
+  vertex="305"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=305"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Somali</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Somali_%28F33%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/308/"
+  vertex="308"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=308"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Southampton</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Heavy Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Southampton</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/309/"
+  vertex="309"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=309"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Speaker</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Speaker_%28D90%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/315/"
+  vertex="315"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=315"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Tartar</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Tartar_%28F43%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/316/"
+  vertex="316"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=316"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Terror</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Coastal Patrol Craft</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Terror_%28I03%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/318/"
+  vertex="318"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=318"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Thane</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Thane_%28D48%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/319/"
+  vertex="319"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=319"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Theseus</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Theseus_%28R64%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/321/"
+  vertex="321"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=321"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Tracker</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Tracker_%28D24%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/323/"
+  vertex="323"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=323"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Trinidad</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Trinidad</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/324/"
+  vertex="324"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=324"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Triumph</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Triumph_%28R16%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/325/"
+  vertex="325"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=325"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483996"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Trouncer</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Trouncer_%28D85%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/327/"
+  vertex="327"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=327"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Uganda</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Cruiser</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Uganda</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/326/"
+  vertex="326"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=326"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Trumpeter</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/wiki/HMS_Trumpeter_%28D09%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/329/"
+  vertex="329"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=329"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Unicorn</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Unicorn_%28I72%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/332/"
+  vertex="332"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=332"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Valiant</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Valiant_%281914%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/334/"
+  vertex="334"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=334"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Vengeance</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Vengeance_%28R71%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/333/"
+  vertex="333"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=333"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Venerable</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Venerable_%28R63%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/335/"
+  vertex="335"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=335"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Venus</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Venus_%28R50%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/336/"
+  vertex="336"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=336"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Verulam</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Verulam_%28R28%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/337/"
+  vertex="337"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=337"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Victorious</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Victorious_%28R38%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/339/"
+  vertex="339"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=339"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Virago</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/w/index.php?title=HMS_Virago_%28R75%29&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/338/"
+  vertex="338"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=338"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Vindex</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Escort Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="11">http://en.wikipedia.org/w/index.php?title=HMS_Vindex&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/343/"
+  vertex="343"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=343"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Warrior</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Aircraft Carrier</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Warrior_%28R31%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/344/"
+  vertex="344"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=344"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Warspite</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Battleship</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Warspite_%281913%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/345/"
+  vertex="345"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=345"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Welshman</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Mine Layer</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/w/index.php?title=HMS_Welshman&amp;amp;action=edit</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/347/"
+  vertex="347"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=347"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Whaddon</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Whaddon_%28L45%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/358/"
+  vertex="358"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=358"
+  ct="application/vxml-unnormalized" vse-base-score="1" input-at="1192483997"
+  la-score="5.8861"
+>
+  <content name="NAME" type="text" u="1">Zulu</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Destroyer</content>
+  <content name="URL_LOCATER" type="text" u="9">http://en.wikipedia.org/wiki/HMS_Zulu_%28F18%29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="4">UK</pre>
+      <content name="NATION" type="text" u="3" v="4" />
+      <match u="4" v="4">UK</match>
+      <post u="4" v="4">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+</scope>

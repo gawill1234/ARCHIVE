@@ -1,0 +1,117 @@
+#!/bin/bash
+
+target=$1
+installer=$2			# Needs to be a valid path on the target.
+installRoot=$3
+embedded=$4
+
+function cmd {
+    echo $(date +%T) "$@"
+    ${SSH:-ssh} administrator@$target cmd /c "$@"
+}
+
+# If there is an existing installation, stop and remove it.
+retry=0
+while cmd dir "$installRoot" > /dev/null; do
+    if [ $retry -gt 0 ]; then
+	sleep $retry
+	echo "Retry number $retry :"
+    fi
+
+    # Don't specifically worry about these commands failing.
+    cmd "$installRoot\bin\velocity-shutdown" --force --yes
+    cmd rmdir /s /q "$installRoot"
+
+    retry=$(($retry+1))
+done
+
+if echo $installer | grep 'velocity-7\.[05]-'; then
+    echo
+else
+    add_db2_driver=true
+fi
+
+if [ "${installer:0:7}" != '\\filer' ]; then
+    cmd "$installer" /S /SELF-CONTAINED yes "/D=$installRoot" || exit
+else
+    # Add special handling when the installer is on "filer".
+    # Work around a VMWare bug: copy the installer locally.
+    mytmp="\tmp-$$"
+    cmd rmdir /s /q "$mytmp"
+    cmd mkdir "$mytmp"
+    cmd net use '\\filer.vivisimo.com\candidates' '/user:filer\qa' Baseball123
+    iter=0
+    while ! cmd xcopy /y /q "$installer" "$mytmp" ; do
+	iter=$(($iter+1))
+	if [ $iter -gt 100 ]; then
+	    echo "Couldn't copy installer in $iter tries. Punt."
+	    exit 3
+	fi
+	sleep $iter
+    done
+    cmd "$mytmp\\${installer##*\\}" /S /SELF-CONTAINED yes "/D=$installRoot" \
+	|| exit
+    cmd rmdir /s /q "$mytmp"
+fi
+
+# Open up protections on vivisimo.conf
+cmd icacls "$installRoot\vivisimo.conf" /grant:r everyone:f
+
+cmd net use '\\testbed5.test.vivisimo.com\testfiles' \
+	'/user:testbed5.test.vivisimo.com\root' mustang5
+
+if ! cmd copy /y '\\testbed5.test.vivisimo.com\testfiles\gronk.exe' "$installRoot\www\cgi-bin"; then
+    echo "Adding 'gronk' to the installation failed. Continuing ..."
+fi
+
+if [ "$add_db2_driver" ]; then
+    if ! cmd copy /y '\\testbed5.test.vivisimo.com\testfiles\lib\db2\*.jar' "$installRoot\lib\java"; then
+	echo "Adding DB2 JDBC driver libraries to the installation failed. Continuing ..."
+    fi
+fi
+
+function enable_dump() {
+    if cmd copy nul: "$installRoot\\data\\$1.fatal-error.enable-dump" ; then
+	echo "Enabled $1 dump."
+    else
+	echo "Enabling $1 dump failed. Continuing ..."
+    fi
+}
+
+enable_dump collection-broker
+enable_dump collection-service-dispatch
+enable_dump query-service
+
+if [ "$embedded" ]; then
+    base=$target:9080
+    cmd "$installRoot\\bin\\velocity-config" webserver/is-enabled=True
+    cmd echo ok \| "$installRoot\\bin\\velocity-webserver" start
+else
+    base=$target
+fi
+
+echo $(date +%T) "Copying license key, ISYS license and default users file"
+cmd copy /y '\\testbed5.test.vivisimo.com\testfiles\tools\key' "$installRoot\data\static"
+cmd copy /y '\\testbed5.test.vivisimo.com\testfiles\tools\users.xml' "$installRoot\data"
+cmd copy /y '\\testbed5.test.vivisimo.com\testfiles\tools\ISYS-license' "$installRoot\data"
+
+echo $(date +%T) "Installation complete; initializing configuration files (a.k.a. bootstrap"
+bootstrap="http://$base/vivisimo/cgi-bin/admin.exe?id=bootstrap.check&force-unpack=true"
+if ! curl --silent --show-error $bootstrap | grep 'Initialize Configuration Files'; then
+    echo $(date +%T) "Setup failed! Retry, noisy:"
+    curl $bootstrap
+fi
+
+echo $(date +%T) 'Attempting to import additional users'
+
+cookie_jar=/tmp/cookie_jar_$$.txt
+rm -f $cookie_jar
+curl --cookie-jar $cookie_jar --silent --show-error "http://$base/vivisimo/cgi-bin/admin.exe?id=login.logged&username=data-explorer-admin&password=TH1nk1710" | grep '^  [VY]'
+curl --cookie $cookie_jar --silent --show-error "http://$base/vivisimo/cgi-bin/admin.exe?id=users.add&project=query-meta&per=10&start=0&action=Import&import.url=http%3A%2F%2Ftestbed5.test.vivisimo.com%2Ftestfiles%2Ftools%2Fusersadd.xml" | grep added | sed -e 's/<[^>]*>/ /g' -e 's/  */ /g'
+rm -f $cookie_jar
+
+echo $(date +%T) "Attempting to start the query service."
+curl --silent "http://$base/vivisimo/cgi-bin/velocity.exe?v.app=api-rest&v.function=search-service-start&v.password=mustang5&v.username=gary_testing"
+echo
+
+echo $(date +%T) "All done."

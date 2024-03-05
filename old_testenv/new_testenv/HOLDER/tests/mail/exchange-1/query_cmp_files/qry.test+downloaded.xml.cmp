@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="2" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="3" />
+<attribute name="total-results-with-duplicates" value="2" />
+<document cache-parser="vse-cache-parser-email" filetypes="email " i="1"
+  vse-key="https://192.168.0.53:80/exchange/exadmin/Inbox/User test downloaded key (valid until Wed Dec  1 10:34:05 2004 )-42436281.EML/"
+  graph-id-high-water="41" ct="application/vxml-unnormalized"
+  outlookurl="outlook:00000000e8b35c89a547fc44815b589e659736000700ffc1005d8d8eb244939ee97856667fed000000002c050000f284b82d1ab3d048a5e9a27ef3d77c3c000001360a240000"
+  vse-base-score="4.89579" vertex="43" priority="0"
+  url="https://192.168.0.53/exchange/exadmin/Inbox/User%20test%20downloaded%20key%20%28valid%20until%20Wed%20Dec%20%201%2010%3a34%3a05%202004%20%29-42436281.EML"
+  la-score="2.41719"
+>
+  <content type="text" name="title" action="cluster" output-action="bold"
+    weight="3" u="30"
+  >User test downloaded key (valid until Wed Dec 1 10:34:05 2004 )</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="96">User test downloaded key (valid until Wed Dec 1 10:34:05 2004 )</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <pre u="31" v="31">User </pre>
+      <content type="TEXT" name="title" action="cluster" output-action="bold"
+        weight="3" u="30" v="43"
+      />
+      <match u="32" v="33">test downloaded </match>
+      <post u="34" v="43">key (valid until Wed Dec 1 10:34:05 2004 )</post>
+    </solution>
+    <solution rank="1" score="3">
+      <pre u="97" v="97">User </pre>
+      <content type="TEXT" name="title" output-action="bold" weight="3" u="96"
+        v="109"
+      />
+      <match u="98" v="99">test downloaded </match>
+      <post u="100" v="109">key (valid until Wed Dec 1 10:34:05 2004 )</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="6" v="11">https://192.168.0.53/exchange/exadmin/Inbox/User </pre>
+      <content name="url" action="none" u="5" v="25" />
+      <match u="12" v="13">test downloaded </match>
+      <post u="14" v="25">key (valid until Wed Dec  1 10:34:05 2004 )-42436281.EML</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="70" v="75">https://192.168.0.53/exchange/exadmin/Inbox/User </pre>
+      <content name="url" action="none" u="69" v="89" />
+      <match u="76" v="77">test downloaded </match>
+      <post u="78" v="89">key (valid until Wed Dec  1 10:34:05 2004 )-42436281.EML</post>
+    </solution>
+    <solution rank="4" score="0.2">
+      <pre u="6" v="12">https://192.168.0.53/exchange/exadmin/Inbox/User test </pre>
+      <content name="url" action="none" u="5" v="25" />
+      <match u="13" v="25">downloaded key (valid until Wed Dec  1 10:34:05 2004 )-42436281.EML</match>
+      <post u="33" v="43">downloaded key (valid until Wed Dec 1 10:34:05 2004 )</post>
+    </solution>
+    <solution rank="5" score="0.181818">
+      <pre u="70" v="76">https://192.168.0.53/exchange/exadmin/Inbox/User test </pre>
+      <content name="url" action="none" u="69" v="89" />
+      <match u="77" v="89">downloaded key (valid until Wed Dec  1 10:34:05 2004 )-42436281.EML</match>
+      <post u="99" v="109">downloaded key (valid until Wed Dec 1 10:34:05 2004 )</post>
+    </solution>
+    <solution rank="6" score="0.121212">
+      <pre u="97" v="98">User test </pre>
+      <content type="TEXT" name="title" output-action="bold" weight="3" u="96"
+        v="109"
+      />
+      <match u="99" v="109">downloaded key (valid until Wed Dec 1 10:34:05 2004 )</match>
+      <post u="132" v="135"><![CDATA[The Vivisimo Support Team</font></p>  ]]></post>
+    </solution>
+    <solution rank="7" score="0.0909091">
+      <pre u="31" v="32">User test </pre>
+      <content type="TEXT" name="title" action="cluster" output-action="bold"
+        weight="3" u="30" v="43"
+      />
+      <match u="33" v="43">downloaded key (valid until Wed Dec 1 10:34:05 2004 )</match>
+      <post u="77" v="89">downloaded key (valid until Wed Dec  1 10:34:05 2004 )-42436281.EML</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <br/><br/><p><font>Host: xp</font><br/><font>IP: 151.201.142.149 </font></p><p><font>For more user details go to:</font></p><p><font><a>https://support.vivisimo.com/admin?id=users.details&amp;users_name=test</a></font></p><p><font>The Vivisimo Support Team</font></p>  ]]></content>
+</document>
+<document cache-parser="vse-cache-parser-email" filetypes="email " i="1"
+  vse-key="https://192.168.0.53:80/exchange/exadmin/Inbox/Re: Opera Intranet Crawl Problems-42169531.EML/"
+  graph-id-high-water="213" ct="application/vxml-unnormalized"
+  outlookurl="outlook:00000000e8b35c89a547fc44815b589e659736000700ffc1005d8d8eb244939ee97856667fed000000002c050000f284b82d1ab3d048a5e9a27ef3d77c3c0000013606ce0000"
+  vse-base-score="0.0333333" vertex="215" priority="0"
+  url="https://192.168.0.53/exchange/exadmin/Inbox/Re%3a%20Opera%20Intranet%20Crawl%20Problems-42169531.EML"
+  la-score="2.41719"
+>
+  <content type="text" name="title" action="cluster" output-action="bold"
+    weight="3" u="22"
+  >Re: Opera Intranet Crawl Problems</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="77">Re: Opera Intranet Crawl Problems</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0333333">
+      <pre u="119" v="138"><![CDATA[what is happening exactly, you can copy the URL </font><br/><font>&gt; into the</font><br/><font>&gt; URL box of the converter configuration page and click ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="83"
+        v="2462"
+      />
+      <match u="139" v="198"><![CDATA[test it.]]>&#160;<![CDATA[ The most</font><br/><font>&gt; likely cause is that this PDF document within the zip file is password</font><br/><font>&gt; protected or has copying disabled (which we honour).</font><br/><font>&gt; </font><br/><font>&gt; Would the following output support the password protected PDF theory?</font></p><p><font>I was actually think in terms of the table of conversion steps that should </font><br/><font>be below this.]]>&#160;<![CDATA[ It should show each step as the downloaded ]]></match>
+      <post u="199" v="218"><![CDATA[data is </font><br/><font>converted to the XML that we index.</font></p><p><font>If you look through the table, you should see a point ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... box of the converter configuration page and click test it.]]>&#160;<![CDATA[ The most</font><br/><font>&gt; likely ...  It should show each step as the downloaded data is </font><br/><font>converted to the XML that we  ... ]]></content>
+</document>
+<retrieval-performance n-tau="25" n-rho="16" n-uat="0" n-ohr="0"
+  occr-reads="10049" block-reads="18" seeks="1" cache-hits="18" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="219" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="219" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-blocks="3" n-tau="4" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="219" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-blocks="2" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="5547" block-reads="17" seeks="0" cache-hits="17" cache-misses="0"
+  >
+    <query-performance what="3:" n-blocks="698" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="5547" block-reads="17" seeks="0" cache-hits="17"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="6" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="423" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="6" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="423" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:title" n-blocks="2" n-tau="6" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="423" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="3" n-rho="3" n-uat="0" n-ohr="0"
+    occr-reads="232" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="3" n-rho="3" n-uat="0" n-ohr="0"
+      occr-reads="232" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-blocks="2" n-tau="3" n-rho="3"
+        n-uat="0" n-ohr="0" occr-reads="232" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="12" n-rho="13" n-uat="0"
+    n-ohr="0" occr-reads="3628" block-reads="1" seeks="1" cache-hits="1"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="12" n-rho="13" n-uat="0"
+      n-ohr="0" occr-reads="3628" block-reads="1" seeks="1" cache-hits="1"
+      cache-misses="0"
+    >
+      <query-performance what="0:" n-blocks="3" n-tau="12" n-rho="13" n-uat="0"
+        n-ohr="0" occr-reads="3628" block-reads="1" seeks="1" cache-hits="1"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="and" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="443" block-reads="8" seeks="4" cache-hits="6" cache-misses="2"
+>
+  <query-performance what="not-within" n-tau="25" n-rho="0" n-uat="5" n-ohr="0"
+    occr-reads="315" block-reads="4" seeks="2" cache-hits="3" cache-misses="1"
+  >
+    <query-performance what="1:test" n-blocks="2" n-tau="25" n-rho="0" n-uat="5"
+      n-ohr="0" occr-reads="315" block-reads="2" seeks="2" cache-hits="1"
+      cache-misses="1"
+    />
+    <query-performance what="0:del#" n-blocks="0" n-tau="1" n-rho="1" n-uat="0"
+      n-ohr="1" occr-reads="0" block-reads="2" seeks="0" cache-hits="2"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="not-within" n-tau="22" n-rho="0" n-uat="5" n-ohr="0"
+    occr-reads="128" block-reads="4" seeks="2" cache-hits="3" cache-misses="1"
+  >
+    <query-performance what="1:downloaded" n-blocks="2" n-tau="22" n-rho="0"
+      n-uat="5" n-ohr="0" occr-reads="128" block-reads="2" seeks="2" cache-hits="1"
+      cache-misses="1"
+    />
+    <query-performance what="0:del#" n-blocks="0" n-tau="1" n-rho="1" n-uat="0"
+      n-ohr="1" occr-reads="0" block-reads="2" seeks="0" cache-hits="2"
+      cache-misses="0"
+    />
+  </query-performance>
+</query-performance>
+</scope>

@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="56" />
+<attribute name="admin-url"
+  value="http://bielski.dev2.vivisimo.com/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="4" />
+<attribute name="retrieval-ms" value="9" />
+<attribute name="total-results-with-duplicates" value="56" />
+<document vse-key="http://vivisimo.com:80/1/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="0" url="http://vivisimo.com/1"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">1</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/2/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="1" url="http://vivisimo.com/2"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">2</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/3/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="2" url="http://vivisimo.com/3"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">3</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/4/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="3" url="http://vivisimo.com/4"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">4</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/5/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="4" url="http://vivisimo.com/5"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">5</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/6/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="5" url="http://vivisimo.com/6"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">6</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/7/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="6" url="http://vivisimo.com/7"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">7</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/8/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="7" url="http://vivisimo.com/8"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">8</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/9/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="8" url="http://vivisimo.com/9"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">9</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/10/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="9" url="http://vivisimo.com/10"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">10</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/11/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="10" url="http://vivisimo.com/11"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">11</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/12/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="11" url="http://vivisimo.com/12"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">12</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/13/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="12" url="http://vivisimo.com/13"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">13</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/14/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="13" url="http://vivisimo.com/14"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">14</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/15/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="14" url="http://vivisimo.com/15"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">15</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/16/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="15" url="http://vivisimo.com/16"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">16</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/17/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="16" url="http://vivisimo.com/17"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">17</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/21/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="20" url="http://vivisimo.com/21"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">21</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/18/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="17" url="http://vivisimo.com/18"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">18</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/25/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="24" url="http://vivisimo.com/25"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">25</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/23/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="22" url="http://vivisimo.com/23"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">23</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/27/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="26" url="http://vivisimo.com/27"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">27</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/29/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="28" url="http://vivisimo.com/29"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">29</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/33/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="32" url="http://vivisimo.com/33"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">33</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/31/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="30" url="http://vivisimo.com/31"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">31</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/35/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="34" url="http://vivisimo.com/35"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">35</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/39/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="38" url="http://vivisimo.com/39"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">39</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/41/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="40" url="http://vivisimo.com/41"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">41</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/43/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="42" url="http://vivisimo.com/43"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">43</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/36/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="35" url="http://vivisimo.com/36"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">36</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/47/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="46" url="http://vivisimo.com/47"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">47</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/45/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="44" url="http://vivisimo.com/45"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">45</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/49/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="48" url="http://vivisimo.com/49"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">49</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://vivisimo.com/vse-key-1"
+  vse-key="http://vivisimo.com:80/vse-key1/" input-at="1195505889" encoding="xml"
+  ct="application/vxml" vertex="50" la-score="0.1" vse-base-score="2.32831e-10"
+>
+  <content name="title" u="1">vse-key11</content>
+  <content name="title" u="5">vse-key12</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://vivisimo.com/vse-key-2"
+  vse-key="http://vivisimo.com:80/vse-key2/" input-at="1195505889" encoding="xml"
+  ct="application/vxml" vertex="52" la-score="0.1" vse-base-score="2.32831e-10"
+>
+  <content name="title" u="1">vse-key21</content>
+  <content name="title" u="5">vse-key23</content>
+  <content name="title" u="9">vse-key22</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://vivisimo.com/vse-key-3"
+  vse-key="http://vivisimo.com:80/vse-key3/" input-at="1195505889" encoding="xml"
+  ct="application/vxml" vertex="56" la-score="0.1" vse-base-score="2.32831e-10"
+>
+  <content name="title" u="1">vse-key32</content>
+  <content name="title" u="5">vse-key34</content>
+  <content name="title" u="9">vse-key33</content>
+  <content name="title" u="13">vse-key31</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/add-to/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="60"
+  url="http://vivisimo.com/add-to-1" vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">addto-main</content>
+  <content name="title" u="4">addto-added</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/19/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="18" url="http://vivisimo.com/19"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">19</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/22/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="21" url="http://vivisimo.com/22"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">22</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/24/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="23" url="http://vivisimo.com/24"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">24</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/30/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="29" url="http://vivisimo.com/30"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">30</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/34/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="33" url="http://vivisimo.com/34"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">34</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/38/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="37" url="http://vivisimo.com/38"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">38</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/42/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="41" url="http://vivisimo.com/42"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">42</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/50/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="49" url="http://vivisimo.com/50"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">50</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/44/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="43" url="http://vivisimo.com/44"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">44</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/26/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="25" url="http://vivisimo.com/26"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">26</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/32/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="31" url="http://vivisimo.com/32"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">32</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/40/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="39" url="http://vivisimo.com/40"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">40</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/20/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="19" url="http://vivisimo.com/20"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">20</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/48/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="47" url="http://vivisimo.com/48"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">48</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/37/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="36" url="http://vivisimo.com/37"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">37</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/multidoc1-1/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="59"
+  url="http://vivisimo.com/multi-doc-1" vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">multidoc11</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/multidoc1-2/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="59"
+  url="http://vivisimo.com/multi-doc-1" vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">multidoc12</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/46/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="45" url="http://vivisimo.com/46"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">46</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-key="http://vivisimo.com:80/28/" input-at="1195505889"
+  encoding="xml" ct="application/vxml" vertex="27" url="http://vivisimo.com/28"
+  vse-base-score="2.32831e-10" la-score="0.1"
+>
+  <content name="title" u="1">28</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+</scope>

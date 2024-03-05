@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vce>
+        <document vse-key="document://JN1/doc12">
+           <vse-index-stream segmenter="japanese" stem="depluralize" kb="japanese-indexing"/>
+           <content name="title">日本アルコン、抗炎症非ステロイド性点眼薬の承認取得</content>
+           <content name="qid-list">JN1-5::JN1-4::JN1-8::ALL</content>
+        </document>
+</vce>

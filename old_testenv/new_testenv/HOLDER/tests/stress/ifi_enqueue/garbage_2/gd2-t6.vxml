@@ -1,0 +1,75 @@
+<vce>
+              <document url="http://vivisimo.com?ClaudeMonet">
+                <content name="title">Claude Monet</content>
+                <content name="name" fast-index="set">Oscar-Claude Monet</content>
+                <content name="born" fast-index="date">14 November 1840</content>
+                <content name="born-city">Paris, France</content>
+                <content name="died" fast-index="date">5 December 1926</content>
+                <content name="died-city">Giverny, France</content>
+                <content name="age" fast-index="int">86</content>
+                <content name="movement" fast-index="set">impressionism</content>
+              </document>
+              <document url="http://vivisimo.com?EdouardManet">
+                <content name="title">Edouard Manet</content>
+                <content name="name" fast-index="set">Edouard Manet</content>
+                <content name="born" fast-index="date">23 Jan 1832</content>
+                <content name="born-city">Paris, France</content>
+                <content name="died" fast-index="date">30 Apr 1883</content>
+                <content name="died-city">Paris, France</content>
+                <content name="age" fast-index="int">51</content>
+                <content name="movement" fast-index="set">impressionism</content>
+                <content name="movement" fast-index="set">realism</content>
+              </document>
+              <document url="http://vivisimo.com?Renoir">
+                <content name="title">Renoir</content>
+                <content name="name" fast-index="set">Pierre-Auguste Renoir</content>
+                <content name="born" fast-index="date">February 25, 1841</content>
+                <content name="born-city">Limoges, Haute-Vienne, France</content>
+                <content name="died" fast-index="date">3 December 1919</content>
+                <content name="died-city">Cagnes-sur-Mer, Provence-Alpes-Cote d'Azur, France</content>
+                <content name="age" fast-index="int">78</content>
+                <content name="movement" fast-index="set">impressionism</content>
+              </document>
+              <document url="http://vivisimo.com?Sisley">
+                <content name="title">Sisley</content>
+                <content name="name" fast-index="set">Alfred Sisley</content>
+                <content name="born" fast-index="date">30 October 1839</content>
+                <content name="born-city">Paris, France</content>
+                <content name="died" fast-index="date">January 29, 1899</content>
+                <content name="died-city">Moret-sur-Loing, France</content>
+                <content name="age" fast-index="int">59</content>
+                <content name="movement" fast-index="set">impressionism</content>
+              </document>
+              <document url="http://vivisimo.com?Cassatt">
+                <content name="title">Cassatt</content>
+                <content name="name" fast-index="set">Mary Stevenson Cassatt</content>
+                <content name="born" fast-index="date">May 22, 1844</content>
+                <content name="born-city">Allegheny City, Pennsylvania, USA</content>
+                <content name="died" fast-index="date">June 14, 1926</content>
+                <content name="died-city">Paris, France</content>
+                <content name="age" fast-index="int">82</content>
+                <content name="movement" fast-index="set">impressionism</content>
+              </document>
+              <document url="http://vivisimo.com?Picasso">
+                <content name="title">Picasso</content>
+                <content name="name" fast-index="set">Pablo Picasso</content>
+                <content name="born" fast-index="date">Oct 25, 1881</content>
+                <content name="born-city">Malaga, Spain</content>
+                <content name="died" fast-index="date">Apr 8, 1973</content>
+                <content name="died-city">Mougins, France</content>
+                <content name="age" fast-index="int">91</content>
+                <content name="movement" fast-index="set">cubism</content>
+              </document>
+              <document url="http://vivisimo.com?Dali">
+                <content name="title">Dali</content>
+                <content name="name" fast-index="set">Salvador Dali</content>
+                <content name="born" fast-index="date">May 5, 1904</content>
+                <content name="born-city">Figueres, Catalonia, Spain</content>
+                <content name="died" fast-index="date">11 Jan 1989</content>
+                <content name="died-city">Figueres, Catalonia, Spain</content>
+                <content name="age" fast-index="int">84</content>
+                <content name="movement" fast-index="set">cubism</content>
+                <content name="movement" fast-index="set">dada</content>
+                <content name="movement" fast-index="set">surrealism</content>
+              </document>
+</vce>

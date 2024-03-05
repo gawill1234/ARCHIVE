@@ -1,0 +1,19 @@
+#
+#   Set the sybase database so it will function like all the others and
+#   allow nulls in a field unless you say "not null", rather than their 
+#   odd default of not allowing any nulls.
+#
+sp_dboption WWII_Navy, 'allow nulls by default', true
+
+#
+#   Believe it or not, that is the command to change the
+#   defaults.  Must be entered in isql at the master database level
+#
+
+#
+#   To change sa password from null to something
+#   Default (and only) user in sybase express is sa
+#   Default server  on testbed5-6 is TESTBED56
+#   Ports:  5001, 5002, 5003, 5004, 8181, 8182
+#
+sp_password null, <new password>

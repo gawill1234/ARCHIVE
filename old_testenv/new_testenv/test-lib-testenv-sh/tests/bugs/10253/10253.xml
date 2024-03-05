@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<vse-collection name="10253" modified="1208550235">
+  <vse-config elt-id="2025" max-elt-id="2147">
+    <crawler elt-id="2132">
+      <call-function name="vse-crawler-seed-urls" elt-id="2125">
+        <with name="urls" elt-id="2123">http://vivisimo.com</with>
+        <with name="hops" elt-id="2124">1</with>
+      </call-function>
+      <crawl-options elt-id="2127">
+        <crawl-option name="cache-types" elt-id="2126">
+text/plain text/xml application/vxml-unnormalized application/vxml
+</crawl-option>
+      </crawl-options>
+      <crawl-condition-when how="wc-set" field="url" elt-id="2131">
+        <crawl-pattern elt-id="2128">*vivisimo.com*</crawl-pattern>
+        <curl-options elt-id="2130">
+          <curl-option name="robots" elt-id="2129">no-follow</curl-option>
+        </curl-options>
+      </crawl-condition-when>
+    </crawler>
+    <vse-index elt-id="2138">
+      <vse-index-option name="output-contents" elt-id="2133">title</vse-index-option>
+      <vse-index-option name="summarize-contents" elt-id="2134">snippet</vse-index-option>
+      <vse-index-option name="fast-index" elt-id="2135">last-modified|date</vse-index-option>
+      <vse-url-equivs name="vse-url-equivs" elt-id="2137">
+        <vse-url-equiv old-prefix="smb://" new-prefix="file://///" elt-id="2136"/>
+      </vse-url-equivs>
+    </vse-index>
+    <converters elt-id="2147">
+      <converter type-out="vivisimo/crawl-data" type-in="text/html" elt-id="2141">
+        <converter-test how="wc-set" what="url" elt-id="2139">http://vivisimo.com/</converter-test>
+        <parser type="html-xsl" elt-id="2140">
+&lt;xsl:template match="/"&gt; &lt;crawl-urls&gt; &lt;crawl-delete url="www.a.com" /&gt; &lt;crawl-delete url="www.b.com" /&gt; &lt;crawl-delete url="www.c.com" /&gt; &lt;crawl-url url="http://vivisimo.com/html/demos" /&gt; &lt;/crawl-urls&gt; &lt;/xsl:template&gt; 
+</parser>
+      </converter>
+      <converter type-in="text/html" type-out="application/vxml-unnormalized" elt-id="2143">
+        <call-function name="vse-converter-html" elt-id="2142"/>
+      </converter>
+      <converter type-in="application/vxml-unnormalized" type-out="application/vxml-unnormalized" elt-id="2145">
+        <call-function name="vse-converter-normalize" elt-id="2144"/>
+      </converter>
+      <converter type-in="application/vxml-unnormalized" type-out="application/vxml" elt-id="2146"/>
+    </converters>
+  </vse-config>
+  <vse-meta name="10253" creator="bielski" create-time="1208550210" elt-id="1" max-elt-id="1"/>
+</vse-collection>

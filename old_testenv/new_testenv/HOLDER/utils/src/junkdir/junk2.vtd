@@ -1,0 +1,10 @@
+(suite=database,windows)	oracle-1.tst
+(suite=database,linux)	oracle-1.tst -H testbed4 -T linux
+(suite=database,windows)	mysql-1.tst
+(suite=database,linux)	mysql-1.tst -H testbed4 -T linux
+(suite=database,windows)	postgres-1.tst
+(suite=database,linux)	postgres-1.tst -H testbed4 -T linux
+(suite=mail,windows)	imaps-3.tst
+(suite=mail,linux)	imaps-3.tst -H testbed4 -T linux
+(suite=database,windows)	db2-1.tst
+(suite=database,linux)	db2-1.tst -H testbed4 -T linux

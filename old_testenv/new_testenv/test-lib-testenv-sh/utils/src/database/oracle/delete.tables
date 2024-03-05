@@ -1,0 +1,6 @@
+drop table vessel;
+drop table vessel_url;
+drop table designation;
+drop table alignment;
+drop trigger vessel_trigger;
+drop sequence vessid;

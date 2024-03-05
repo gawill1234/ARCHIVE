@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="9" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="4" />
+<attribute name="total-results-with-duplicates" value="9" />
+<document filetypes="doc " vse-base-score="1.9375"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/ooxml1.docx/"
+  graph-id-high-water="9" priority="0" vertex="10" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/ooxml1.docx"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">396219</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640098"
+    u="24"
+  >Jun 16,
+  2008 18:14:58 GMT</content>
+  <content name="language" weight="0" action="none" u="26">english</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Office Open XML</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4750" v="4769"><![CDATA[a diagram:</p> <li>The data part (§14.2.4) specifies individual items of information presented in the diagram. Typically, each piece is a ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="37986"
+      />
+      <match u="4770" v="4770">simple </match>
+      <post u="4771" v="4790"><![CDATA[line of text, but depending on the diagram, an item of data might also be an image.</li><li>The layout part (§]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="5482" v="5501"><![CDATA[as a ZIP archive. </p> <li>Interleaving</li> <p>Office Open XML document parts shall be arranged contiguously in a package as defined by ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="37986"
+      />
+      <match u="5502" v="5502">simple </match>
+      <post u="5503" v="5522"><![CDATA[ordering.</p><p>Parts within an Office Open XML package shall not be interleaved. All parts shall be stored as complete ZIP ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="22740" v="22759"><![CDATA[in the package):</p><p>&lt;p:presentation xmlns:p="…"&gt;<br/>  &lt;p:notesSz cx="913607" cy="913607"/&gt;<br/>&lt;/p:presentation&gt;</p><p>end example]</p><p>[Example: Consider a ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="37986"
+      />
+      <match u="22760" v="22760">simple </match>
+      <post u="22761" v="22780">PresentationML document containing two slides, which both use an image as a template. Here’s an example of the hierarchical </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="29258" v="29277"><![CDATA[uniqueId="…" minVer="12.0"&gt;<br/>  &lt;qs:title lang="" val="Style 2"/&gt;<br/>  &lt;qs:desc lang="" val="Style 2"/&gt;<br/>  &lt;qs:catLst&gt;<br/>    &lt;qs:cat type="]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="37986"
+      />
+      <match u="29278" v="29278">simple" </match>
+      <post u="29279" v="29298"><![CDATA[pri="10200"/&gt;<br/>  &lt;/qs:catLst&gt;<br/>  &lt;qs:scene3d&gt;<br/>    …<br/>  &lt;/qs:scene3d&gt;</p><p>  &lt;qs:style&gt;<br/>    …<br/>  &lt;/qs:style&gt;</p><p>  &lt;qs:styleLbl name="…"&gt;<br/>    …<br/>  &lt;/qs:styleLbl&gt;<br/>  …<br/>  &lt;qs:styleLbl name="…"&gt;<br/>    …<br/>  &lt;/]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="32353" v="32372"><![CDATA[control</p><p>The XML content of the part referenced by rId5 could be:</p><p>&lt;applet xlink:href="../../../../Program%20Files/Application" xlink:type="]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="37986"
+      />
+      <match u="32373" v="32373">simple" </match>
+      <post u="32374" v="32393"><![CDATA[xlink:show="embed" xlink:actuate="onLoad" code="CalculateApplet.class" may-script="false"/&gt;</p><p>end example]</p><p>[Example: The following example shows the ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... in the diagram. Typically, each piece is a simple line of text, but depending on the diagram,  ... arranged contiguously in a package as defined by simple ordering.</p><p>Parts within an Office Open XML package  ... ]]></content>
+</document>
+<document filetypes="xls " vse-base-score="1.9375"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/ptcm.xlsx/"
+  graph-id-high-water="12" priority="0" vertex="13" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/ptcm.xlsx"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">xls</content>
+  <content name="size" weight="-1" u="3">628191</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640350"
+    u="24"
+  >Jun 16,
+  2008 18:19:10 GMT</content>
+  <content name="language" weight="0" action="none" u="26">english</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4771" v="4790"><![CDATA[Wireless</td><td>http://www.cricketcommunications.com</td><td>101 Hillpointe Dr</td><td>Suite 110</td><td>Canonsburg</td><td>PA</td><td>15317-9534</td><td>]]>&#160;<![CDATA[</td><td>724-743-2604</td><td>Cricket is a ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="189073"
+      />
+      <match u="4791" v="4791">simple, </match>
+      <post u="4792" v="4811">affordable wireless service that offers consumers and local businesses a flat-rate, unlimited service over the latest technology, high-quality, </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="5708" v="5727">was founded in 1999 by former Oracle executive Marc Benioff who pioneered the concept of delivering enterprise applications via a </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="189073"
+      />
+      <match u="5728" v="5728">simple </match>
+      <post u="5729" v="5748">Web site. Salesforce.com is constantly building on that legacy by improving and expanding our award-winning suite of on-</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="8608" v="8627">fuel-efficient vehicles are conveniently parked near homes and workplaces.  Members use them when they need them, paying just a </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="189073"
+      />
+      <match u="8628" v="8628">simple </match>
+      <post u="8629" v="8648">hourly rate that includes gas, insurance and maintenance.  It’s far less expensive than owning and operating a car, and </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="17068" v="17087"><![CDATA[encrypted coupons at various retail outlets is unique and integral to our proprietary business solution._x000D_
+&lt;p&gt;QponDirect makes it ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="189073"
+      />
+      <match u="17088" v="17088">simple </match>
+      <post u="17089" v="17108">for manufacturers and retailers to effectively drive sales. We do this by making it easy for consumers to take advantage </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="22365" v="22384"><![CDATA[of Delta Law Group.&lt;/p&gt;  _x000D_
+_x000D_
+&lt;p&gt;Our efficient high tech tools include Web-based video client interviews and ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="189073"
+      />
+      <match u="22385" v="22385">simple </match>
+      <post u="22386" v="22405">online case management tools to keep the client involved in their case and give access 24/7/365.    We use </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 15317-9534</td><td>]]>&#160;<![CDATA[</td><td>724-743-2604</td><td>Cricket is a simple, affordable wireless service that offers consumers and local  ... the concept of delivering enterprise applications via a simple Web site. Salesforce.com is constantly building on  ... ]]></content>
+</document>
+<document filetypes="openoffice " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.odp/"
+  graph-id-high-water="23" priority="0" vertex="24" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.odp"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">10525</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="16">smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="17" v="17">simple.</match>
+      <post u="18" v="18">odp</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p>test</p><li><p>outline</p></li><li><p>efadfjla</p></li><li><p/></li>  ]]></content>
+</document>
+<document filetypes="openoffice " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.odt/"
+  graph-id-high-water="25" priority="0" vertex="26" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.odt"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">6647</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">english</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="16">smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="17" v="17">simple.</match>
+      <post u="18" v="18">odt</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p>The quick brown fox jumped over the lazy something dog.</p>  ]]></content>
+</document>
+<document filetypes="ppt " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.pptx/"
+  graph-id-high-water="18" priority="0" vertex="19" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.pptx"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">ppt</content>
+  <content name="size" weight="-1" u="3">34170</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="16">smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="17" v="17">simple.</match>
+      <post u="18" v="18">pptx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/>  <td><p>Slide 1</p><p/><p>Test text 1</p><p/></td>  <p/>  <td><p/><p/><p>a</p><p/><p/><p/><p>b</p><p/><p/><p/></td>  <p/>  <td><p>title</p><p/><p>subtitle</p><p/></td>    ]]></content>
+</document>
+<document filetypes="xls " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.xlsx/"
+  graph-id-high-water="19" priority="0" vertex="20" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.xlsx"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">xls</content>
+  <content name="size" weight="-1" u="3">8241</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640016"
+    u="24"
+  >Jun 16,
+  2008 18:13:36 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="16">smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="17" v="17">simple.</match>
+      <post u="18" v="18">xlsx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <h1>Sheet1</h1><p/>  <br/><hr/><br/><h1>Sheet2</h1><p/>  <br/><hr/><br/><h1>Sheet3</h1><p/>  <td>a</td><td>1</td>  <td>b</td><td>2</td>  <br/><hr/><br/>  ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.docx/"
+  graph-id-high-water="17" priority="0" vertex="18" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.docx"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">9975</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">english</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Vivisimo!</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="16">smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="17" v="17">simple.</match>
+      <post u="18" v="18">docx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p>Microsoft word is so fun.</p><p/><p>2007 is here baby.</p><p/><p/><p>Vivisimo!</p>  ]]></content>
+</document>
+<document filetypes="openoffice " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.ods/"
+  graph-id-high-water="24" priority="0" vertex="25" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.ods"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">6121</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="16">smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="17" v="17">simple.</match>
+      <post u="18" v="18">ods</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <h1>Sheet1</h1>  <td><p>a</p></td><td><p>1</p></td>  <td><p>b</p></td><td><p>2</p></td>  <h1>Sheet2</h1>  <td/>  <h1>Sheet3</h1>  <td/>    ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.dbf/"
+  graph-id-high-water="22" priority="0" vertex="23" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.dbf"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">13796</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640014"
+    u="24"
+  >Jun 16,
+  2008 18:13:34 GMT</content>
+  <content name="language" weight="0" action="none" u="26">spanish</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6" v="16">smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/</pre>
+      <content name="url" action="none" u="5" v="18" />
+      <match u="17" v="17">simple.</match>
+      <post u="18" v="18">dbf</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+CODE,C,4</td><td>EMPLS,N,5,0</td><td>FCTRY,N,5,0</td><td>DOMEST,N,8,3</td><td>XPORTS,N,8,3</td><td>PRODUCTS,C,10</td><td>ORD,N,3,0</td><td>STK,N,3,0</td><td>PLN,N,3,0</td><td>UTL,N,3,0</td><td>EQPMT,N,8,3</td><td>TRN,N,3,0</td><td>POSIT,C,5</td><td>FUNCT,C,5</td><td> ... ]]></content>
+</document>
+<retrieval-performance n-tau="92" n-rho="18" n-uat="0" n-ohr="0"
+  occr-reads="18972" block-reads="59" seeks="1" cache-hits="59" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="16" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="94" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="16" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="94" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-blocks="1" n-tau="16" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="94" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="17148" block-reads="57" seeks="0" cache-hits="57" cache-misses="0"
+  >
+    <query-performance what="3:" n-blocks="441" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="17148" block-reads="57" seeks="0" cache-hits="57"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="49" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="1002" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="49" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="1002" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="49" n-rho="49" n-uat="0"
+        n-ohr="0" occr-reads="1002" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-blocks="1" n-tau="49" n-rho="76" n-uat="0"
+          n-ohr="0" occr-reads="699" block-reads="0" seeks="0" cache-hits="0"
+          cache-misses="0"
+        />
+        <query-performance what="or" n-tau="33" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="303" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+        >
+          <query-performance what="0:url" n-blocks="1" n-tau="16" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="102" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:host" n-blocks="1" n-tau="16" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="102" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-blocks="0" n-tau="0"
+            n-rho="0" n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0"
+            cache-hits="0" cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-blocks="1" n-tau="15" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="99" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="18" n-rho="9" n-uat="0" n-ohr="0"
+    occr-reads="111" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="18" n-rho="9" n-uat="0" n-ohr="0"
+      occr-reads="111" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-blocks="1" n-tau="18" n-rho="9"
+        n-uat="0" n-ohr="0" occr-reads="111" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="9" n-rho="9" n-uat="0"
+    n-ohr="0" occr-reads="617" block-reads="2" seeks="1" cache-hits="2"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="9" n-rho="9" n-uat="0" n-ohr="0"
+      occr-reads="617" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+    >
+      <query-performance what="0:" n-blocks="1" n-tau="9" n-rho="9" n-uat="0"
+        n-ohr="0" occr-reads="617" block-reads="1" seeks="1" cache-hits="1"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="2" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="32" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="33" block-reads="2" seeks="1" cache-hits="1" cache-misses="1"
+>
+  <query-performance what="1:simple" n-blocks="1" n-tau="32" n-rho="0" n-uat="0"
+    n-ohr="0" occr-reads="33" block-reads="1" seeks="1" cache-hits="0"
+    cache-misses="1"
+  />
+  <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="1" n-uat="0"
+    n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+    cache-misses="0"
+  />
+</query-performance>
+</scope>

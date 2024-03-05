@@ -1,0 +1,1014 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <libgen.h>
+
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <sqlca.h>
+
+//
+//   Table mailcontent
+//      mailid integer   (mailid from email)
+//      sequence integer (order in the email)
+//      content text     (actual mail content)
+//
+//   Table mailuser
+//      userid integer
+//      username varchar(64)  (user name)
+//      domain   varchar(64)  (user domain, i.e. enron.com, etc)
+//
+//   Table email_receiver
+//      userid integer (userid from user)
+//      mailid integer (mailid from email)
+//      usertype varchar(8) (TO, CC)
+//
+//   Table email
+//      mailid integer
+//      userfrom integer (userid from user)
+//      date varchar(64)  (data sent)
+//      subject varchar(128)  (subject of mail)
+//
+//   Table lomailcontent
+//      mailid integer
+//      fullfile oid
+//      filedir varchar(256)
+//      filename varchar(64)
+//      server cidr
+//
+
+#define READSZ 8192
+
+#define DATE 0
+#define DATELEN 5
+
+#define FROM 1
+#define FROMLEN 5
+
+#define TO 2
+#define TOLEN 3
+
+#define SUBJECT 3
+#define SUBJECTLEN 8
+
+#define CC 4
+#define CCLEN 3
+
+#define DOMAIN 5
+#define DOMAINLEN 0
+
+void *printit(char *);
+void *dropit(char *);
+void *subject(char *);
+void *datestr(char *);
+void *fromstr(char *);
+void *tostr(char *);
+void *ccstr(char *);
+
+struct userdata {
+   int type, userid;
+   char *name;
+   char *domain;
+   struct userdata *next;
+};
+
+struct from {
+   int mailid;
+   char *subject;
+   char *data;
+   struct userdata *user;
+};
+
+struct mailcontent {
+   char *content;
+   int segmentsize;
+   struct mailcontent *next;
+};
+
+//
+//   These globals exist simply because this if far easier
+//   than passing them to the myriad functions which will need
+//   them.  Besides, who want to re-initialize an array every
+//   time the initiating function is called.
+//
+struct titles {
+   int len;
+   char *content;
+   void *(*func_p)();
+} lookfor[] = {
+                  {DATELEN, "date:\0", datestr},
+                  {FROMLEN, "from:\0", fromstr},
+                  {TOLEN, "to:\0", tostr},
+                  {SUBJECTLEN, "subject:\0", subject},
+                  {CCLEN, "cc:\0", ccstr},
+                  {11, "message-id:\0", dropit},
+                  {2, "x-\0", dropit},
+                  {13, "mime-version:\0", dropit},
+                  {13, "content-type:\0", dropit},
+                  {26, "content-transfer-encoding:\0", dropit},
+                  {4, "bcc:\0", dropit},
+                  {13, "delivered-to:\0", dropit},
+                  {9, "received:\0", dropit},
+                  {11, "importance:\0", dropit},
+                  {12, "return-path:\0", dropit},
+                  {0, NULL, dropit}
+               };
+
+int headerdone = 0;
+
+struct userdata *userhead = NULL;
+struct userdata *usercurrent = NULL;
+struct from *fromblock = NULL;
+struct mailcontent *contenthead = NULL;
+struct mailcontent *contentcurrent = NULL;
+
+int notfound = 0;
+int errorval = 0;
+
+
+////////////////////////////////////////////////////////////
+//
+//   Database access routines
+//
+void mysql_error()
+{
+   errorval = 1;
+
+   return;
+}
+
+void notfoundfunc()
+{
+   notfound = 1;
+
+   return;
+}
+//////////////////////////////////////////////////////////////
+//
+//   Open a connection to the database.
+//
+int opendb(char *user, char *psswd)
+{
+EXEC SQL BEGIN DECLARE SECTION;
+char *ur, *pd;
+const char *target = "e-mail@192.168.0.30";
+EXEC SQL END DECLARE SECTION;
+
+   ur = user;
+   pd = psswd;
+
+   EXEC SQL WHENEVER SQLERROR DO mysql_error();
+
+   EXEC SQL CONNECT TO :target
+        AS thingy
+        USER :ur
+        IDENTIFIED BY :pd;
+
+   if (errorval == 1) {
+      printf("DB open failed, exiting\n");
+      exit(1);
+   }
+
+   return(0);
+}
+
+void insertuserinfo(struct userdata *luserhead)
+{
+struct userdata *localuser;
+EXEC SQL BEGIN DECLARE SECTION;
+int userid;
+char *username, *domain;
+EXEC SQL END DECLARE SECTION;
+
+   localuser = luserhead;
+
+   while (localuser != NULL) {
+
+      userid = 0;
+      username = localuser->name;
+      domain = localuser->domain;
+
+      EXEC SQL WHENEVER NOT FOUND DO notfoundfunc();
+      EXEC SQL SELECT userid into :userid
+               FROM mailuser
+               WHERE username = :username
+               AND domain = :domain;
+
+      if (notfound == 1) {
+         EXEC SQL SELECT max(userid) into :userid
+                  FROM mailuser;
+
+         if (errorval == 1) {
+            userid = 0;
+            errorval = 0;
+         } else {
+            userid++;
+         }
+
+         EXEC SQL INSERT INTO mailuser
+            (userid, username, domain)
+            VALUES (:userid, :username, :domain);
+
+         if (errorval == 1) {
+            printf("Insert (userinfo) failed, exiting\n");
+            exit(1);
+         }
+
+         notfound = 0;
+      }
+      localuser->userid = userid;
+      localuser = localuser->next;
+   }
+
+   return;
+}
+
+void insertmailfrom()
+{
+EXEC SQL BEGIN DECLARE SECTION;
+int userid, mailid;
+char *mydata, *subject;
+EXEC SQL END DECLARE SECTION;
+
+   insertuserinfo(fromblock->user);
+
+   subject = fromblock->subject;
+   mydata = fromblock->data;
+   userid = fromblock->user->userid;
+   mailid = 0;
+
+   EXEC SQL SELECT max(mailid) into :mailid
+            FROM email;
+
+   if (errorval == 1) {
+      mailid = 0;
+      errorval = 0;
+   } else {
+      mailid++;
+   }
+
+   EXEC SQL INSERT INTO email
+      (mailid, userfrom, date, subject)
+      VALUES (:mailid, :userid, :mydata, :subject);
+
+   if (errorval == 1) {
+      printf("Error inserting to email, exiting\n");
+      exit(1);
+   }
+
+   fromblock->mailid = mailid;
+   notfound = 0;
+
+   return;
+}
+
+void submitsegment(int segsize, int lmailid)
+{
+struct mailcontent *localcontent;
+int copied, leftover, i;
+char *bufptr, *srcptr;
+EXEC SQL BEGIN DECLARE SECTION;
+int mailid, sequence;
+char *buffer;
+EXEC SQL END DECLARE SECTION;
+
+   buffer = (char *)malloc(segsize + 1);
+
+   copied = 0;
+   errorval = 0;
+   mailid = lmailid;
+   sequence = 0;
+
+   localcontent = contenthead;
+   srcptr = localcontent->content; while (localcontent != NULL) {
+      bufptr = buffer;
+      for (i = 0; i < segsize + 1; i++) {
+         buffer[i] = '\0';
+      }
+      while ((copied < segsize) && (localcontent != NULL)) {
+         if ((copied + localcontent->segmentsize) > segsize) {
+            leftover = segsize - copied;
+            memcpy(bufptr, srcptr, leftover);
+            copied = copied + leftover;
+            bufptr = &buffer[copied];
+            if (segsize > READSZ) {
+               localcontent->segmentsize = leftover;
+               srcptr = srcptr + (localcontent->segmentsize - leftover);
+            } else {
+               localcontent->segmentsize = localcontent->segmentsize - leftover;
+               srcptr = srcptr + leftover;
+            }
+         } else {
+            memcpy(bufptr, srcptr, localcontent->segmentsize);
+            copied = copied + localcontent->segmentsize;
+            bufptr = &buffer[copied];
+            localcontent = localcontent->next;
+            if (localcontent != NULL)
+               srcptr = localcontent->content;
+         }
+      }
+
+      EXEC SQL INSERT INTO mailcontent
+         (mailid, sequence, content)
+         VALUES (:mailid, :sequence, :buffer);
+
+      if (errorval == 1) {
+         printf("Error submitting mail to db, exiting\n");
+         exit(1);
+      }
+      sequence++;
+      copied = 0;
+   }
+
+   free(buffer);
+   return;
+}
+
+void insertlargeobject(char *argfile, int mailthng)
+{
+EXEC SQL BEGIN DECLARE SECTION;
+int  mailid;
+char *thefile, *directory, *filenm, *server;
+EXEC SQL END DECLARE SECTION;
+char *forfile, *fordir, *filename;
+
+   mailid = mailthng;
+
+   server = (char *)malloc(16);
+
+   strcpy(server, "192.168.0.30");
+
+   forfile = (char *)malloc(strlen(argfile) + 1);
+   fordir = (char *)malloc(strlen(argfile) + 1);
+   strcpy(forfile, argfile);
+   strcpy(fordir, argfile);
+
+   directory = dirname(fordir);
+   if (strcmp(".", directory) == 0) {
+      free(fordir);
+      directory = getcwd((char *)malloc(256), 256);
+      fordir = directory;
+      filename = (char *)malloc(strlen(directory) + strlen(argfile) + 2);
+      strcpy(filename, directory);
+      strcat(filename, "/");
+      strcat(filename, argfile);
+   } else {
+      filename = (char *)malloc(strlen(argfile) + 1);
+      strcpy(filename, argfile);
+   }
+
+   thefile = filename;
+   filenm = basename(forfile);
+
+   EXEC SQL INSERT INTO lomailcontent
+      (mailid, fullfile, filedir, filename, server)
+      VALUES(:mailid, lo_import(:thefile), :directory, :filenm, :server);
+
+   if (errorval == 1) {
+      printf("Error submitting mail to large object, exiting\n");
+      exit(1);
+   }
+
+   free(server);
+   free(forfile);
+   free(fordir);
+   free(filename);
+
+   return;
+}
+
+void insertcontentandreceivers(int segsize, char *argfile)
+{
+struct userdata *localuser;
+EXEC SQL BEGIN DECLARE SECTION;
+int userid, mailid;
+char usertype[9];
+EXEC SQL END DECLARE SECTION;
+char *forfile, *fordir, *filename;
+
+   localuser = userhead;
+
+   mailid = fromblock->mailid;
+
+   while (localuser != NULL) {
+      userid = localuser->userid;
+      if (localuser->type == CC)
+         strcpy(usertype, "CC");
+      else
+         strcpy(usertype, "TO");
+
+      EXEC SQL INSERT INTO email_receiver
+         (userid, mailid, usertype)
+         VALUES (:userid, :mailid, :usertype);
+
+      localuser = localuser->next;
+   }
+
+   submitsegment(segsize, mailid);
+   insertlargeobject(argfile, mailid);
+
+   EXEC SQL COMMIT;
+
+   return;
+}
+
+void *printit(char *data)
+{
+   printf("FUNC LINE:  %s\n", data);
+   fflush(stdout);
+   free(data);
+   return(NULL);
+}
+
+void dumpit(char *data, int amt)
+{
+int fno;
+
+   fno = fileno(stdout);
+   write(fno, data, amt);
+}
+
+void *printit2(char *data, int amt)
+{
+
+
+   printf("LINE, %d:", amt);
+   fflush(stdout);
+   dumpit(data, amt);
+   printf("\n");
+   fflush(stdout);
+   return(NULL);
+}
+
+char *allocandcopy(char *data, int len)
+{
+char *localdata;
+
+   localdata = (char *)malloc(len + 1);
+
+   memcpy(localdata, data, len);
+   localdata[len] = '\0';
+
+   if (localdata[len - 1] == '\r')
+      localdata[len - 1] = '\0';
+
+   return(localdata);
+}
+
+struct mailcontent *createnewcontent(char *data, int size)
+{
+struct mailcontent *localcontent;
+
+   localcontent = (struct mailcontent *)malloc(sizeof(struct mailcontent));
+
+   if (localcontent == NULL) {
+      printf("Could not create localcontent\n");
+      fflush(stdout);
+      exit(1);
+   }
+
+   localcontent->segmentsize = size;
+   localcontent->content = allocandcopy(data, size);
+   localcontent->next = NULL;
+
+   return(localcontent);
+}
+
+struct userdata *createnewuser(char *user, char *domain, int what)
+{
+struct userdata *localuser;
+
+   localuser = (struct userdata *)malloc(sizeof(struct userdata));
+
+   if (localuser == NULL) {
+      printf("Could not create localuser\n");
+      fflush(stdout);
+      exit(1);
+   }
+
+   localuser->type = what;
+   localuser->userid = 0;
+   localuser->name = allocandcopy(user, strlen(user));
+   localuser->domain = allocandcopy(domain, strlen(domain));
+   localuser->next = NULL;
+
+   return(localuser);
+}
+
+void *addtocontent(char *data, int size) 
+{
+struct mailcontent *localcontent;
+
+   if (contenthead == NULL) {
+      localcontent = createnewcontent(data, size);
+      contenthead = localcontent;
+      contentcurrent = localcontent;
+   } else {
+      localcontent = createnewcontent(data, size);
+      contentcurrent->next = localcontent;
+      contentcurrent = contentcurrent->next;
+   }
+
+   //printit2(contentcurrent->content, contentcurrent->segmentsize);
+   return;
+}
+
+void *addtoto(char *data, char *domain, int what) 
+{
+struct userdata *localuser;
+
+   if (userhead == NULL) {
+      localuser = createnewuser(data, domain, what);
+      userhead = localuser;
+      usercurrent = localuser;
+   } else {
+      localuser = createnewuser(data, domain, what);
+      usercurrent->next = localuser;
+      usercurrent = usercurrent->next;
+   }
+
+   // if (what == TO)
+   //    printf("TO:  USER=%s   DOMAIN=%s\n",
+   //            usercurrent->name, usercurrent->domain);
+   // else
+   //    printf("CC:  USER=%s   DOMAIN=%s\n",
+   //            usercurrent->name, usercurrent->domain);
+   //  
+   // fflush(stdout);
+
+   return;
+}
+
+struct from *createfromblock()
+{
+struct from *newfrom;
+
+   newfrom = (struct from *)malloc(sizeof(struct from));
+
+   if (newfrom == NULL) {
+      printf("Error creating fromblock\n");
+      fflush(stdout);
+      exit(1);
+   }
+
+   newfrom->mailid = 0;
+   newfrom->user = NULL;
+   newfrom->subject = NULL;
+   newfrom->data = NULL;
+
+   return(newfrom);
+}
+
+void *addtofrom(char *data, char *domain, int what) 
+{
+
+   if (fromblock == NULL) {
+      fromblock = createfromblock();
+   }
+
+   
+   switch (what) {
+      case FROM:
+                     fromblock->user = createnewuser(data, domain, what);
+                     // printf("FROM:  USER=%s   DOMAIN=%s,  ID=%d\n",
+                     //         fromblock->user->name, fromblock->user->domain,
+                     //         fromblock->user->userid);
+                     // fflush(stdout);
+                     break;
+      case SUBJECT:
+                     fromblock->subject = allocandcopy(data, strlen(data));
+                     // printf("SUBJECT:  %s\n", fromblock->subject);
+                     // fflush(stdout);
+                     break;
+      case DATE:
+                     fromblock->data = allocandcopy(data, strlen(data));
+                     // printf("DATE:  %s\n", fromblock->data);
+                     // fflush(stdout);
+                     break;
+      default:
+                     break;
+   }
+
+   return;
+}
+
+void *dropit(char *data)
+{
+   return(NULL);
+}
+
+char *findcharacter(char *data, char mychar)
+{
+char *domain;
+
+   domain = data;
+   while ((*domain != mychar) && (*domain != '\0')) {
+      domain++;
+   }
+
+   if (*domain == '\0')
+      return(NULL);
+   else
+      return(domain);
+}
+
+char *minus(char *data)
+{
+char *thing;
+
+   thing = data;
+
+   while (1) {
+      switch (*thing) {
+         case '<':  thing++; return(thing);
+         case ':':  thing++; return(thing);
+         case ' ':  thing++; return(thing);
+         case ',':  thing++; return(thing);
+         case '\t':  thing++; return(thing);
+         default:   thing--;
+                    break;
+      }
+   }
+
+   return(data);
+}
+
+char *plus(char *data)
+{
+char *thing;
+
+   thing = data;
+
+   while (1) {
+      switch (*thing) {
+         case '>':  thing--; return(thing);
+         case '\n':  thing--; return(thing);
+         case '\r':  thing--; return(thing);
+         case ' ':  thing--; return(thing);
+         case ',':  thing--; return(thing);
+         case '\0':  thing--; return(thing);
+         case '\t':  thing--; return(thing);
+         default:   thing++;
+                    break;
+      }
+   }
+
+   return(data);
+}
+
+void *receivers(char *data, int what)
+{
+char *domain, *user, *userend;
+
+   domain = data;
+
+   domain = findcharacter(data, '@');
+   while (domain != NULL) {
+      user = minus(domain);
+      userend = plus(domain);
+
+      *domain = '\0';
+      domain++;
+      userend++;
+      *userend = '\0';
+
+      addtoto(user, domain, what);
+      domain = findcharacter(++userend, '@');
+   }
+}
+
+void *tostr(char *data)
+{
+
+   receivers(data, TO);
+
+   return(NULL);
+}
+
+void *ccstr(char *data)
+{
+
+   receivers(data, CC);
+
+   return(NULL);
+}
+
+void *fromstr(char *data)
+{
+char *domain, *user, *userend;
+
+   domain = findcharacter(data, '@');
+   user = minus(domain);
+   userend = plus(domain);
+
+   *domain = '\0';
+   domain++;
+   userend++;
+   *userend = '\0';
+
+   addtofrom(user, domain, FROM);
+}
+
+void *datestr(char *data)
+{
+char *subjstring;
+
+   subjstring = &data[5];
+
+   while (*subjstring == ' ') {
+      subjstring++;
+   }
+
+   addtofrom(subjstring, NULL, DATE);
+}
+
+void *subject(char *data)
+{
+char *subjstring;
+
+   subjstring = &data[8];
+
+   while (*subjstring == ' ') {
+      subjstring++;
+   }
+
+   addtofrom(subjstring, NULL, SUBJECT);
+}
+
+//////////////////////////////////////////////////////////////
+//
+//   Compare header labels to known types.  Set found if
+//   we get a match.
+//
+int compareit(char *line, int found)
+{
+int i, len;
+char comparer[32];
+
+   for (i = 0; i < 32; i++) {
+      comparer[i] = '\0';
+   }
+   len = strlen(line);
+   if (len > 32)
+      len = 32;
+
+   strncpy(comparer, line, len);
+   for (i = 0; i < len; i++) {
+      comparer[i] = tolower(comparer[i]);
+   }
+
+   i = 0;
+
+   do {
+      if (memcmp(comparer, lookfor[i].content, lookfor[i].len) == 0) {
+         found = i;
+         // printf("FOUND %s\n", lookfor[i].content);
+         // fflush(stdout);
+      }
+      i++;
+   } while (lookfor[i].content != NULL);
+
+   return(found);
+}
+
+//////////////////////////////////////////////////////////////
+//
+//   Open a file for reading only.  If the file can not be
+//   opened, exit the program.
+//
+int openfile(char *filename)
+{
+int fd;
+
+   fd = open(filename, O_RDONLY);
+
+   if (fd != (-1)) {
+      return(fd);
+   } else {
+      printf("Could not open file:  %s\n", filename);
+      exit(1);
+   }
+}
+
+//////////////////////////////////////////////////////////////
+//
+//   Suck out one line of data so it can be checked for being
+//   of some header type.
+//
+char *getline(char *data)
+{
+char *back;
+
+   back = data;
+
+   while ((*back != '\n') && (*back != '\0') && 
+          (*back != EOF)) {
+      back++;
+   }
+
+   if ((*back == '\0') && (*back != EOF)) {
+      return(NULL);
+   } else {
+      return(back);
+   }
+}
+
+char *printlines(char *data, int amt)
+{
+static int found = -1;
+int count;
+char *back, *front, *line;
+   
+   if (headerdone == 0) {
+      front = data;
+      while ((back = getline(front)) != NULL) {
+         count = (int)back - (int)front;
+         //
+         //   The microsoftie case which has both /n and /r
+         //
+         if (count == 1) {
+            if (*(back - 1) == '\r') {
+               count = 0;
+            }
+         }
+
+         //
+         //   If there is nothing on the line, the headers
+         //   are done.  Everything else is data and
+         //   will be treated as blob/clobs of some size.
+         //
+         if (count == 0) {
+            headerdone = 1;
+            return(front);
+         } 
+
+         line = (char *)malloc(count + 1);
+         strncpy(line, front, count);
+         line[count] = '\0';
+   
+         found = compareit(line, found);
+         if (found >= 0)
+            lookfor[found].func_p(line);
+
+         free(line);
+
+         front = back + 1;
+      }
+   } else {
+      front = &data[READSZ];
+      addtocontent(data, amt);
+   }
+
+   return(front);
+
+}
+
+char *saveleftovers(char *data, char *back)
+{
+char *tail;
+int len;
+
+   tail = &data[READSZ];
+
+   len = tail - back;
+
+   strncpy(data, back, len);
+
+   return(&data[len]);
+   
+}
+
+//////////////////////////////////////////////////////////////
+//
+//   Read the data from the file into a buffer and pass it
+//   up to be inserted into a database.  There is nothing
+//   fancy here; just read a number of bytes and insert.
+//
+char *readdata(int fd, char *filename)
+{
+char *mychunk;
+char *end, *back, *readto;
+int amt, thing, i, dynreadsize;
+
+   mychunk = (char *)malloc(READSZ + 1);
+   thing = 0;
+   dynreadsize = READSZ;
+   end = &mychunk[READSZ];
+   readto = mychunk;
+
+   for (i = 0; i < READSZ + 1; i++) {
+      mychunk[i] = '\0';
+   }
+
+   amt = read(fd, mychunk, READSZ);
+   while (amt == READSZ) {
+      back = printlines(mychunk, amt);
+      if (back < end) {
+         readto = saveleftovers(mychunk, back);
+         dynreadsize = (int)end - (int)readto;
+         thing = READSZ - dynreadsize;
+      } else {
+         dynreadsize = READSZ;
+         thing = 0;
+         readto = mychunk;
+      }
+      for (i = thing; i < READSZ + 1; i++) {
+         mychunk[i] = '\0';
+      }
+      amt = read(fd, readto, dynreadsize);
+      amt = amt + thing;
+   }
+   if (amt > 0) {
+      back = printlines(mychunk, amt);
+      //
+      //   This chunk of code handles situations
+      //   where the file being read has no eol/eof
+      //   which causes the tail of the file to not
+      //   be written in normal flow.  This writes
+      //   that chunk of the file.
+      //
+      if (back < end) {
+         readto = saveleftovers(mychunk, back);
+         dynreadsize = (int)end - (int)readto;
+         thing = amt - dynreadsize;
+
+         for (i = thing; i < READSZ + 1; i++) {
+            mychunk[i] = '\0';
+         }
+         back = printlines(mychunk, thing);
+      }
+   }
+
+   free(mychunk);
+   
+}
+
+void checkperm(int fd, char *filename)
+{
+struct stat buf;
+
+   fstat(fd, &buf);
+
+   if ((buf.st_mode & S_IRGRP) &&
+       (buf.st_mode & S_IROTH) &&
+       (buf.st_mode & S_IRUSR)) {
+      return;
+   } else {
+      printf("%s -- File needs read for group and other\n", filename);
+      printf("so postgres can import it to the oid datatype -- exiting\n");
+      fflush(stdout);
+      exit(1);
+   }
+}
+
+int main(int argc, char *argv[])
+{
+int fd, segsize, c;
+char *argfilename;
+extern char *optarg;
+extern int optind;
+static char *optstring = "f:s:";
+
+   argfilename = NULL;
+   fd = segsize = 0;
+
+   while ((c = getopt(argc, argv, optstring)) != EOF) {
+      switch (c) {
+         case 'f':
+                    argfilename = optarg;
+                    break;
+         case 's':
+                    segsize = atoi(optarg);
+                    break;
+         default:
+                    printf("Invalid argument:  %c\n", (char)c);
+                    break;
+      }
+   }
+
+   if (segsize == 0) {
+      segsize = READSZ;
+   }
+
+   if (argfilename == NULL) {
+      printf("You must specify a file\n");
+      printf("mailtodb -f <filename> [-s <segsize>]\n");
+      fflush(stdout);
+      exit(1);
+   }
+
+   fd = openfile(argfilename);
+   checkperm(fd, argfilename);
+   readdata(fd, argfilename);
+
+   opendb("gaw", "mustang5");
+   insertuserinfo(userhead);
+   insertmailfrom();
+   insertcontentandreceivers(segsize, argfilename);
+
+   exit(0);
+}
+

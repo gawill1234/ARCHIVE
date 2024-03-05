@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="query-xml-supported">query-xml-supported</attribute>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="3" />
+<attribute name="admin-url"
+  value="http://testbed6-8.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="2" />
+<attribute name="total-results-with-duplicates" value="3" />
+<document filetypes="text " vse-base-score="1.99219"
+  vse-key="smb://netapp1a.bigdatalab.ibm.com:80/testbed5-data/test_data/compression/cantrbry/plrabn12.txt/"
+  creation-time-sec="1371904805" vertex="36" ip="9.75.200.59" ct="text/plain"
+  url="file://///netapp1a.bigdatalab.ibm.com/testbed5-data/test_data/compression/cantrbry/plrabn12.txt"
+  la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="25001" v="25020">clouded majesty, at length 
+Apparent queen unveiled her peerless light, 
+And o'er the dark her silver mantle threw. 
+When </pre>
+      <content type="TEXT" name="snippet" u="29" v="81038" />
+      <match u="25021" v="25024">Adam thus to Eve.  </match>
+      <post u="25025" v="25044">Fair Consort, the hour 
+Of night, and all things now retired to rest, 
+Mind us of like repose; since God </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="30507" v="30526">while now the mounted sun 
+Shot down direct his fervid rays to warm 
+Earth's inmost womb, more warmth than </pre>
+      <content type="TEXT" name="snippet" u="29" v="81038" />
+      <match u="30527" v="30530">Adam needs: 
+And Eve </match>
+      <post u="30531" v="30550">within, due at her hour prepared 
+For dinner savoury fruits, of taste to please 
+True appetite, and not disrelish thirst 
+</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="58978" v="58997">is mine; 
+Our state cannot be severed; we are one, 
+One flesh; to lose thee were to lose myself. 
+So </pre>
+      <content type="TEXT" name="snippet" u="29" v="81038" />
+      <match u="58998" v="59001">Adam; and thus Eve </match>
+      <post u="59002" v="59021">to him replied. 
+O glorious trial of exceeding love, 
+Illustrious evidence, example high! 
+Engaging me to emulate; but, short 
+Of </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="59383" v="59402">desire inflaming; he on Eve 
+Began to cast lascivious eyes; she him 
+As wantonly repaid; in lust they burn: 
+Till </pre>
+      <content type="TEXT" name="snippet" u="29" v="81038" />
+      <match u="59403" v="59406">Adam thus 'gan Eve </match>
+      <post u="59407" v="59426">to dalliance move. 
+Eve, now I see thou art exact of taste, 
+And elegant, of sapience no small part; 
+Since </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="70695" v="70714">Powers, to seise 
+Possession of the garden; he alone, 
+To find where Adam sheltered, took his way, 
+Not unperceived of </pre>
+      <content type="TEXT" name="snippet" u="29" v="81038" />
+      <match u="70715" v="70718">Adam; who to Eve, 
+</match>
+      <post u="70719" v="70738">While the great visitant approached, thus spake. 
+Eve$ now expect great tidings, which perhaps 
+Of us will soon determine, or </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="30649" v="30668">Nature multiplies 
+Her fertile growth, and by disburthening grows 
+More fruitful, which instructs us not to spare. 
+To whom thus </pre>
+      <content type="TEXT" name="snippet" u="29" v="81038" />
+      <match u="30669" v="30670">Eve.  Adam, </match>
+      <post u="30671" v="30690">earth's hallowed mould, 
+Of God inspired! small store will serve, where store, 
+All seasons, ripe for use hangs on </post>
+    </solution>
+    <solution rank="6" score="0.8">
+      <pre u="30544" v="30563">please 
+True appetite, and not disrelish thirst 
+Of nectarous draughts between, from milky stream, 
+Berry or grape:  To whom thus </pre>
+      <content type="TEXT" name="snippet" u="29" v="81038" />
+      <match u="30564" v="30568">Adam called. 
+Haste hither, Eve, </match>
+      <post u="30569" v="30588">and worth thy sight behold 
+Eastward among those trees, what glorious shape 
+Comes this way moving; seems another morn 
+Risen </post>
+    </solution>
+    <solution rank="7" score="0.8">
+      <pre u="53322" v="53341">day's work, brought to little, though begun 
+Early, and the hour of supper comes unearned? 
+To whom mild answer </pre>
+      <content type="TEXT" name="snippet" u="29" v="81038" />
+      <match u="53342" v="53346">Adam thus returned. 
+Sole Eve, </match>
+      <post u="53347" v="53366">associate sole, to me beyond 
+Compare above all living creatures dear! 
+Well hast thou motioned, well thy thoughts employed, 
+How </post>
+    </solution>
+    <solution rank="8" score="0.8">
+      <pre u="57955" v="57974">This may be well:  But what if God have seen, 
+And death ensue? then I shall be no more! 
+And </pre>
+      <content type="TEXT" name="snippet" u="29" v="81038" />
+      <match u="57975" v="57979">Adam, wedded to another Eve, 
+</match>
+      <post u="57980" v="57999">Shall live with her enjoying, I extinct; 
+A death to think!  Confirmed then I resolve, 
+Adam shall share with me </post>
+    </solution>
+    <solution rank="9" score="0.8">
+      <pre u="69993" v="70012">Mean while, 
+To re-salute the world with sacred light, 
+Leucothea waked; and with fresh dews imbalmed 
+The earth; when </pre>
+      <content type="TEXT" name="snippet" u="29" v="81038" />
+      <match u="70013" v="70017">Adam and first matron Eve 
+</match>
+      <post u="70018" v="70037">Had ended now their orisons, and found 
+Strength added from above; new hope to spring 
+Out of despair; joy, but </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"> ... er the dark her silver mantle threw. 
+When Adam thus to Eve.  Fair Consort, the hour 
+Of night, and all  ... warm 
+Earth's inmost womb, more warmth than Adam needs: 
+And Eve within, due at her hour prepared 
+For dinner  ... </content>
+</document>
+<document filetypes="text " vse-base-score="1.91613"
+  vse-key="smb://netapp1a.bigdatalab.ibm.com:80/testbed5-data/test_data/compression/large/bible.txt/"
+  creation-time-sec="1371904807" ct="text/plain" vertex="5" ip="9.75.200.59"
+  url="file://///netapp1a.bigdatalab.ibm.com/testbed5-data/test_data/compression/large/bible.txt"
+  la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.33333">
+      <pre u="2136" v="2155">Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life. 
+And </pre>
+      <content type="TEXT" name="snippet" u="29" v="767884" />
+      <match u="2156" v="2158">Adam knew Eve </match>
+      <post u="2159" v="2178">his wife; and she conceived, and bare Cain, and said, I have gotten a man from the LORD. 
+And she </post>
+    </solution>
+    <solution rank="1" score="0.666667">
+      <pre u="734292" v="734311">I suffer not a woman to teach, nor to usurp authority over the man, but to be in silence. 
+For </pre>
+      <content type="TEXT" name="snippet" u="29" v="767884" />
+      <match u="734312" v="734317">Adam was first formed, then Eve. 
+</match>
+      <post u="734318" v="734337">And Adam was not deceived, but the woman being deceived was in the transgression. 
+Notwithstanding she shall be saved in </post>
+    </solution>
+    <solution rank="2" score="0.666667">
+      <pre u="734297" v="734316">to teach, nor to usurp authority over the man, but to be in silence. 
+For Adam was first formed, then </pre>
+      <content type="TEXT" name="snippet" u="29" v="767884" />
+      <match u="734317" v="734319">Eve. 
+And Adam </match>
+      <post u="734320" v="734339">was not deceived, but the woman being deceived was in the transgression. 
+Notwithstanding she shall be saved in childbearing, if </post>
+    </solution>
+    <solution rank="3" score="0.571429">
+      <pre u="2005" v="2024">the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return. 
+And </pre>
+      <content type="TEXT" name="snippet" u="29" v="767884" />
+      <match u="2025" v="2031">Adam called his wife's name Eve; </match>
+      <post u="2032" v="2051">because she was the mother of all living. 
+Unto Adam also and to his wife did the LORD God make </post>
+    </solution>
+    <solution rank="4" score="0.181818">
+      <pre u="2011" v="2030">wast thou taken: for dust thou art, and unto dust shalt thou return. 
+And Adam called his wife's name </pre>
+      <content type="TEXT" name="snippet" u="29" v="767884" />
+      <match u="2031" v="2041">Eve; because she was the mother of all living. 
+Unto Adam </match>
+      <post u="2042" v="2061">also and to his wife did the LORD God make coats of skins, and clothed them. 
+And the LORD God </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"> ... the way of the tree of life. 
+And Adam knew Eve his wife; and she conceived, and bare Cain,  ... the man, but to be in silence. 
+For Adam was first formed, then Eve. 
+And Adam was not deceived, but the woman  ... </content>
+</document>
+<document filetypes="text " vse-base-score="0.333333"
+  vse-key="smb://netapp1a.bigdatalab.ibm.com:80/testbed5-data/test_data/compression/calgary/book1/"
+  creation-time-sec="1371904804" vertex="13" ip="9.75.200.59" ct="text/plain"
+  url="file://///netapp1a.bigdatalab.ibm.com/testbed5-data/test_data/compression/calgary/book1"
+  la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.333333">
+      <pre u="39202" v="39221">Boldwood was in Casterbridge market
+house as usual, when the disturber of his dreams entered
+and became visible to him. </pre>
+      <content type="TEXT" name="snippet" u="28" v="141251" />
+      <match u="39222" v="39233">Adam had awakened from
+his deep sleep, and behold! there was Eve. </match>
+      <post u="39234" v="39253">The
+farmer took courage, and for the first time really looked
+at her.
+Material causes and emotional effects are not </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"> ... his dreams entered
+and became visible to him. Adam had awakened from
+his deep sleep, and behold! there was Eve. The
+farmer took courage, and for the first  ... </content>
+</document>
+<retrieval-performance n-tau="22" n-rho="14" n-uat="0" n-ohr="0"
+  occr-reads="32296" block-reads="54" seeks="0" cache-hits="54" cache-misses="0"
+  n-blocks="32804"
+>
+  <query-performance what="doc-text" n-tau="10" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="13" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="3"
+  />
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="3"
+  />
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="32189" block-reads="54" seeks="0" cache-hits="54" cache-misses="0"
+    n-blocks="32787"
+  />
+  <query-performance what="output" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="5"
+  />
+  <query-performance what="summarize" n-tau="6" n-rho="6" n-uat="0" n-ohr="0"
+    occr-reads="13" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="3"
+  />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="really-content" n-tau="0" n-rho="0" n-uat="0"
+    n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0" n-blocks="0"
+  />
+  <query-performance what="rights-query" n-tau="6" n-rho="8" n-uat="0" n-ohr="0"
+    occr-reads="81" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="3"
+  />
+</retrieval-performance>
+<query-performance flags="hard extent r:need" what="and" n-tau="0" n-rho="0"
+  n-uat="0" n-ohr="0" occr-reads="471" block-reads="4" seeks="2" cache-hits="2"
+  cache-misses="2" n-blocks="2"
+>
+  <query-performance flags="hard point r:apply" what="not-within" n-tau="53"
+    n-rho="0" n-uat="48" n-ohr="0" occr-reads="264" block-reads="2" seeks="1"
+    cache-hits="1" cache-misses="1" n-blocks="1"
+  >
+    <query-performance flags="hard point r:apply/need" what="1:0:adam" n-tau="53"
+      n-rho="0" n-uat="48" n-ohr="0" occr-reads="264" block-reads="1" seeks="1"
+      cache-hits="0" cache-misses="1" n-blocks="1"
+    />
+    <query-performance flags="hard extent r:apply/need" what="0:0:del#" n-tau="1"
+      n-rho="1" n-uat="0" n-ohr="1" occr-reads="0" block-reads="1" seeks="0"
+      cache-hits="1" cache-misses="0" n-blocks="0"
+    />
+  </query-performance>
+  <query-performance flags="hard point r:apply" what="not-within" n-tau="51"
+    n-rho="0" n-uat="49" n-ohr="0" occr-reads="207" block-reads="2" seeks="1"
+    cache-hits="1" cache-misses="1" n-blocks="1"
+  >
+    <query-performance flags="hard point r:apply/need" what="1:0:eve" n-tau="51"
+      n-rho="0" n-uat="49" n-ohr="0" occr-reads="207" block-reads="1" seeks="1"
+      cache-hits="0" cache-misses="1" n-blocks="1"
+    />
+    <query-performance flags="hard extent r:apply/need" what="0:0:del#" n-tau="1"
+      n-rho="1" n-uat="0" n-ohr="1" occr-reads="0" block-reads="1" seeks="0"
+      cache-hits="1" cache-misses="0" n-blocks="0"
+    />
+  </query-performance>
+</query-performance>
+<xpath-performances />
+</scope>

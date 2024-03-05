@@ -1,0 +1,27 @@
+<vce>
+              <document url="http://vivisimo.com?Multiply">
+                <content name="title">Multiply</content>
+                <content name="multiplier" units="cc" fast-index="float">833</content>
+                <content name="multiplier" fast-index="float">2</content>
+                <content name="answer" fast-index="float">1666</content>
+              </document>
+              <document url="http://vivisimo.com?Divide">
+                <content name="title">MultistradaAlaska</content>
+                <content name="divedend" units="cc" fast-index="float">3</content>
+                <content name="divisor" fast-index="float">1.0</content>
+                <content name="answer" fast-index="float">3.0</content>
+              </document>
+              <document url="http://vivisimo.com?Add">
+                <content name="title">Add</content>
+                <content name="addend" units="cc" fast-index="float">99.2</content>
+                <content name="addend" fast-index="float">.8</content>
+                <content name="addend" fast-index="float">96.234</content>
+                <content name="answer" fast-index="float">196.234</content>
+              </document>
+              <document url="http://vivisimo.com?Subtract">
+                <content name="title">Subtract</content>
+                <content name="minuend" units="cc" fast-index="float">1100.5</content>
+                <content name="subtrahend" fast-index="float">100.4</content>
+                <content name="answer" fast-index="float">1000.1</content>
+              </document>
+</vce>

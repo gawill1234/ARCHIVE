@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="3" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="6" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="3" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="12" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/test_data/document/TXT/installment.txt"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/test_data/document/TXT/installment.txt/"
+  vse-base-score="1.99805" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="94247" />
+      <pre u="4294967290" v="13"></pre>
+      <match u="14" v="14">9802 </match>
+      <post u="15" v="34">00000133525 
+ PL1 257425 9805 00000133525 
+ PL1 257425 9808 00000133525 
+ PL1 257426 9708 00000181525 
+ PL1 257426 9711 00000181525 
+ PL1 257426 9802 </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="94247" />
+      <pre u="14" v="33">9802 00000133525 
+ PL1 257425 9805 00000133525 
+ PL1 257425 9808 00000133525 
+ PL1 257426 9708 00000181525 
+ PL1 257426 9711 00000181525 
+ PL1 257426 </pre>
+      <match u="34" v="34">9802 </match>
+      <post u="35" v="54">00000181525 
+ PL1 257426 9805 00000181525 
+ PL1 257427 9708 00000154950 
+ PL1 257427 9711 00000154950 
+ PL1 257427 9802 00000154950 
+ PL1 257427 9805 </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="7" v="94247" />
+      <pre u="30" v="49">9711 00000181525 
+ PL1 257426 9802 00000181525 
+ PL1 257426 9805 00000181525 
+ PL1 257427 9708 00000154950 
+ PL1 257427 9711 00000154950 
+ PL1 257427 </pre>
+      <match u="50" v="50">9802 </match>
+      <post u="51" v="70">00000154950 
+ PL1 257427 9805 00000154950 
+ PL2 257428 9807 00000143800 
+ PL2 257428 9810 00000143800 
+ PL2 257428 9901 00000143800 
+ PL2 257428 9904 </post>
+    </solution>
+    <solution rank="3" score="1">
+      <content type="text" name="snippet" u="7" v="94247" />
+      <pre u="94" v="113">9810 00000071900 
+ PL2 257430 9901 00000071900 
+ PL2 257430 9904 00000071900 
+ PL1 257433 9708 00000093475 
+ PL1 257433 9711 00000093475 
+ PL1 257433 </pre>
+      <match u="114" v="114">9802 </match>
+      <post u="115" v="134">00000093475 
+ PL1 257433 9805 00000093475 
+ PL2 257434 9807 00000175125 
+ PL2 257434 9810 00000175125 
+ PL2 257434 9901 00000175125 
+ PL2 257434 9904 </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content type="text" name="snippet" u="7" v="94247" />
+      <pre u="202" v="221">9807 00000071900 
+ PL2 257440 9810 00000071900 
+ PL2 257440 9901 00000071900 
+ PL2 257440 9904 00000071900 
+ PL1 257441 9711 00000140800 
+ PL1 257441 </pre>
+      <match u="222" v="222">9802 </match>
+      <post u="223" v="242">00000140800 
+ PL1 257441 9805 00000140800 
+ PL1 257441 9808 00000140800 
+ PL1 257442 9708 00000046700 
+ PL1 257442 9711 00000046700 
+ PL1 257442 9802 </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">PL1 257425 9711 00000133525 
+ PL1 257425 9802 00000133525 
+ PL1 257425 9805 00000133525 
+ PL1 257425 9808 00000133525 
+ PL1 257426 9708 00000181525 
+ PL1 257426 9711 00000181525 
+ PL1 257426 9802 00000181525 
+ PL1  ... </content>
+</document>
+</scope>

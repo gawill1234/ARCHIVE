@@ -1,0 +1,36 @@
+<vce>
+              <document url="http://vivisimo.com?Sportster">
+                <content name="title">Sportster</content>
+                <content name="engine_size" units="cc" fast-index="int">833</content>
+                <content name="manufacturer" fast-index="set">Harley Davidson</content>
+                <content name="type" fast-index="set">motorcycle</content>
+              </document>
+              <document url="http://vivisimo.com?Multistrada1200">
+                <content name="title">MultistradaAlaska</content>
+                <content name="engine_size" units="cc" fast-index="int">1200</content>
+                <content name="manufacturer" fast-index="set">Ducatti</content>
+                <content name="type" fast-index="set">motorcycle</content>
+                <content name="type">sport</content>
+              </document>
+              <document url="http://vivisimo.com?F650GS">
+                <content name="title">F650GS</content>
+                <content name="engine_size" units="cc" fast-index="int">650</content>
+                <content name="manufacturer" fast-index="set">BMW</content>
+                <content name="type" fast-index="set">motorcycle</content>
+                <content name="type">cruiser</content>
+              </document>
+              <document url="http://vivisimo.com?Monster1100">
+                <content name="title">Monster1100</content>
+                <content name="engine_size" units="cc" fast-index="int">1100</content>
+                <content name="manufacturer" fast-index="set">Ducatti</content>
+                <content name="type" fast-index="set">motorcycle</content>
+                <content name="type">sport</content>
+              </document>
+              <document url="http://vivisimo.com?GTV250">
+                <content name="title">GTV250</content>
+                <content name="engine_size" units="cc" fast-index="int">244</content>
+                <content name="manufacturer" fast-index="set">Vespa</content>
+                <content name="type" fast-index="set">motorcycle</content>
+                <content name="type">scooter</content>
+              </document>
+</vce>

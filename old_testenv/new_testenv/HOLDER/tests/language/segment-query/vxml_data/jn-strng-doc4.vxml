@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vce>
+        <document vse-key="document://JN1/doc4">
+           <vse-index-stream segmenter="japanese" stem="depluralize" kb="japanese-indexing"/>
+           <content name="title">大塚製薬、新型利尿剤に国内承認　水分だけ排出</content>
+           <content name="qid-list">ALL</content>
+        </document>
+</vce>

@@ -1,0 +1,29 @@
+#query::collection::number_of_urls::compare_file::new_file
+#
+#   special codes in strings: (yes, I know it is screwy but it greatly
+#                              simplifies processing ...)
+#      <2eq> will become '=='
+#      <eq> will become '='
+#      <empty> will become ''
+#      <cr> will become '\n' (newline)
+#      <sp> will become ' '
+#
+#   To add more changes go in:
+#      $TEST_ROOT/lib/queryObj.py in set_other_opts()
+#
+##############################################
+#
+#   Basic queries
+#
+arizona flutes OR (jefferson OR syria)::qs-samba::421::or_or::num=450&profile=true
+arizona flutes AND (jefferson OR syria)::qs-samba::42::and_or::num=50&profile=true
+arizona flutes OR (jefferson AND syria)::qs-samba::129::or_and::num=150&profile=true
+arizona flutes AND (jefferson AND syria)::qs-samba::1::and_and::num=10&profile=true
+NOT arizona OR (jefferson OR syria)::qs-samba::1705::not_or_or::num=2000&profile=true
+NOT arizona AND (jefferson OR syria)::qs-samba::246::not_and_or::num=250&profile=true
+NOT arizona OR (jefferson AND syria)::qs-samba::1372::not_or_and::num=1500&profile=true
+NOT arizona AND (jefferson AND syria)::qs-samba::8::not_and_and::num=10&profile=true
+(arizona OR Turkey) AND (jefferson OR syria)::qs-samba::493::or_and_or::num=500&profile=true
+(arizona OR Turkey) OR (jefferson OR syria)::qs-samba::1186::or_or_or::num=1200&profile=true
+(arizona AND Turkey) AND (jefferson AND syria)::qs-samba::24::and_and_and::num=25&profile=true
+(arizona AND Turkey) OR (jefferson AND syria)::qs-samba::442::and_or_and::num=500&profile=true

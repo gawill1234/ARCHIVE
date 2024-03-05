@@ -1,0 +1,8 @@
+<vce>
+              <document url="http://vivisimo.com?braces">
+                <content name="title">character</content>
+                <content name="type">brace</content>
+                <content name="pseudo">bracket shift</content>
+                <content name="text">container 3 {}</content>
+              </document>
+</vce>

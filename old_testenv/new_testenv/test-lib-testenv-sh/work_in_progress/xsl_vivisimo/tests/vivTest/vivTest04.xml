@@ -1,0 +1,67 @@
+<testset>
+   <test>
+      <name>
+         vivTest04
+      </name>
+      <description>
+         vivTest():  simple string, no match
+      </description>
+      <funcname argcnt="3" codetemplate="match" tbltemplate="1">
+         viv:test
+      </funcname>
+      <variable>
+         <name>
+            string1
+         </name>
+         <value>
+            Habitat destroyed, the wolves took to snorting quack
+         </value>
+         <type>
+            string
+         </type>
+      </variable>
+      <variable>
+         <name>
+            string2
+         </name>
+         <value>
+            .*qu[ia]ck
+         </value>
+         <type>
+            string
+         </type>
+      </variable>
+      <argument>
+         <value>
+            string1
+         </value>
+         <type>
+            variable
+         </type>
+      </argument>
+      <argument>
+         <value>
+            string2
+         </value>
+         <type>
+            variable
+         </type>
+      </argument>
+      <argument>
+         <value>
+            regex
+         </value>
+         <type>
+            string
+         </type>
+      </argument>
+      <result>
+         <value>
+            true()
+         </value>
+         <type>
+            function
+         </type>
+      </result>
+   </test>
+</testset>

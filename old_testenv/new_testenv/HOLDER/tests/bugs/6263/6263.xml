@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<vse-collection name="6263" modified="1182423093" modified-by="palmer@Vivisimo" max-elt-id="2167">
+  <vse-config max-elt-id="2166">
+    <crawler>
+      <crawl-options>
+        <curl-option name="default-allow">allow</curl-option>
+      </crawl-options>
+      <crawl-urls>
+        <choose>
+          <when test="$live-crawl-date > 0">
+            <crawl-url url="http://vivisimo.com/refresh" status="complete">
+              <crawl-data content-type="application/vxml" encoding="xml">
+                <crawl-delete url="http://vivisimo.com/1" />
+              </crawl-data>
+            </crawl-url>
+          </when>
+          <otherwise>
+            <crawl-url url="http://vivisimo.com/1" status="complete">
+              <crawl-data content-type="application/vxml" encoding="xml">
+                <document>
+                  <content name="title">1</content>
+                </document>
+              </crawl-data>
+            </crawl-url>
+            <crawl-url url="http://vivisimo.com/2" status="complete">
+              <crawl-data content-type="application/vxml" encoding="xml">
+                <document>
+                  <content name="title">2</content>
+                </document>
+              </crawl-data>
+            </crawl-url>
+          </otherwise>
+        </choose>
+      </crawl-urls>
+    </crawler>
+    <vse-index>
+      <vse-index-option name="output-contents">title</vse-index-option>
+      <vse-index-option name="summarize-contents">snippet</vse-index-option>
+      <vse-index-option name="fast-index">last-modified|date</vse-index-option>
+      <vse-url-equivs name="vse-url-equivs">
+        <vse-url-equiv old-prefix="smb://" new-prefix="file://///" />
+      </vse-url-equivs>
+    </vse-index>
+    <converters />
+    <vse-remote>
+      <vse-remote-option name="auto-push">auto-push</vse-remote-option>
+      <vse-remote-mirror id="RnpWqwY143d3.0.264272">
+        <vse-remote-server id="RnpWqwY13nd3">
+          <vse-remote-server-option name="collection">6263-remote</vse-remote-server-option>
+        </vse-remote-server>
+      </vse-remote-mirror>
+    </vse-remote>
+  </vse-config>
+  <vse-meta name="6263" max-elt-id="4" creator="palmer" create-time="1182422290">
+    <vse-meta-info name="refresh">partial</vse-meta-info>
+    <vse-meta-info name="enable-remote">enable-remote</vse-meta-info>
+  </vse-meta>
+</vse-collection>

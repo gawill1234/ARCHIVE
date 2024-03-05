@@ -1,0 +1,212 @@
+Going no ports route
+myConnection:UCM
+UCM, here I come ...
+PORT: 4444
+SITE: wcc-qa.bigdatalab.ibm.com
+[2013-09-17 15:12:41,500] [main] INFO  (com.stellent.cis.impl.CISApplicationFactory) - Initialized CIS logging using log file: [default]
+[2013-09-17 15:12:41,500] [main] INFO  (com.stellent.cis.impl.CISApplicationFactory) - 
++-----------------
+| CIS using IsolatedJarClassLoader
+| Location: /tmp/tmp-mgr-7848230441127691945.tmp/cis-loader4909008466789185802.tmp
++-----------------
+[2013-09-17 15:12:41,530] [main] WARN  (com.stellent.cis.impl.CISApplication) - No adapter config specified at property 'cis.config.server.adapterconfig'
+[2013-09-17 15:12:42,409] [main] INFO  (com.stellent.cis.impl.CISApplication) - 
+ +------------------------------ 
+ | Initialized Content Integration Suite 10g Release 3 (10.1.3.3.3) [server] 
+ |  	Version: 8.0.0.3 (Build 2007.1031.1353) 
+ |  	Server Type: standalone [ejb=false, rmi=false] 
+ |  	Server Configuration: [/META-INF/resources/server/cis-services.jxml] 
+ |  	Adapter Configuration: null 
+ |  	Temporary File Location: /tmp/generic/cis-8.0.0.3 
+ +------------------------------
+[2013-09-17 15:12:42,576] [main] WARN  (com.stellent.cis.server.api.scs.event.impl.SCSEventPoller) - Event poller for adapter 'c461eb2f-fdab-4ff4-aa26-262975f9d546' not enabled, no events will be generated
+log4j:WARN No appenders could be found for logger (net.entropysoft.eci.oracle.ucm.util.Properties).
+log4j:WARN Please initialize the log4j system properly.
+Desc: Folder
+UID:  folderType
+Base: folder
+Desc: Folder Shortcut
+UID:  linkType=1
+Base: folder
+IN_DIR_NAME:/testenv/test_data/law/US/197
+folderName.getParent() is null
+HANGER /Contribution Folders
+MYPATH:/Contribution Folders/:
+Create Dirname : /Contribution Folders/
+Create Basename: testenv
+createFolder():testenv
+createFolder():testenv
+createFolder():  KABOOOOMM
+createFolder(): ERROR:  net.entropysoft.eci.ItemExistsException: Unable to create folder. A folder with the same name already exists in destination folder
+HANGER /Contribution Folders
+MYPATH:/Contribution Folders/testenv:
+Create Dirname : /Contribution Folders/testenv
+Create Basename: test_data
+createFolder():test_data
+createFolder():test_data
+createFolder():  KABOOOOMM
+createFolder(): ERROR:  net.entropysoft.eci.ItemExistsException: Unable to create folder. A folder with the same name already exists in destination folder
+HANGER /Contribution Folders
+MYPATH:/Contribution Folders/testenv/test_data:
+Create Dirname : /Contribution Folders/testenv/test_data
+Create Basename: law
+createFolder():law
+createFolder():law
+createFolder():  KABOOOOMM
+createFolder(): ERROR:  net.entropysoft.eci.ItemExistsException: Unable to create folder. A folder with the same name already exists in destination folder
+HANGER /Contribution Folders
+MYPATH:/Contribution Folders/testenv/test_data/law:
+Create Dirname : /Contribution Folders/testenv/test_data/law
+Create Basename: US
+createFolder():US
+createFolder():US
+createFolder():  KABOOOOMM
+createFolder(): ERROR:  net.entropysoft.eci.ItemExistsException: Unable to create folder. A folder with the same name already exists in destination folder
+HANGER /Contribution Folders
+MYPATH:/Contribution Folders/testenv/test_data/law/US:
+Create Dirname : /Contribution Folders/testenv/test_data/law/US
+Create Basename: 197
+createFolder():197
+createFolder():197
+  SINGLE FILE OR DIR: /testenv/test_data/law/US/197
+  File Name: 197.US.1.88.120.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.1.88.120.html
+  File Name: 197.US.11.70.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.11.70.html
+  File Name: 197.US.115.37.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.115.37.html
+  File Name: 197.US.134.38.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.134.38.html
+  File Name: 197.US.135.413.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.135.413.html
+  File Name: 197.US.146.143.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.146.143.html
+  File Name: 197.US.154.58.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.154.58.html
+  File Name: 197.US.169.104.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.169.104.html
+  File Name: 197.US.178.154.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.178.154.html
+  File Name: 197.US.183.141.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.183.141.html
+  File Name: 197.US.197.196.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.197.196.html
+  File Name: 197.US.200.153.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.200.153.html
+  File Name: 197.US.207.235.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.207.235.html
+  File Name: 197.US.223.509.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.223.509.html
+  File Name: 197.US.230.259.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.230.259.html
+  File Name: 197.US.235.160.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.235.160.html
+  File Name: 197.US.244.512.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.244.512.html
+  File Name: 197.US.299.178.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.299.178.html
+  File Name: 197.US.304.166.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.304.166.html
+  File Name: 197.US.313.171.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.313.171.html
+  File Name: 197.US.324.186.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.324.186.html
+  File Name: 197.US.334.92.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.334.92.html
+  File Name: 197.US.343.185.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.343.185.html
+  File Name: 197.US.348.442.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.348.442.html
+  File Name: 197.US.356.116.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.356.116.html
+  File Name: 197.US.386.184.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.386.184.html
+  File Name: 197.US.394.167.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.394.167.html
+  File Name: 197.US.40.63.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.40.63.html
+  File Name: 197.US.407.182.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.407.182.html
+  File Name: 197.US.419.149.466.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.419.149.466.html
+  File Name: 197.US.430.170.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.430.170.html
+  File Name: 197.US.436.174.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.436.174.html
+  File Name: 197.US.442.164.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.442.164.html
+  File Name: 197.US.453.172.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.453.172.html
+  File Name: 197.US.463.173.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.463.173.html
+  File Name: 197.US.475.438.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.475.438.html
+  File Name: 197.US.482.15.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.482.15.html
+  File Name: 197.US.488.14.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.488.14.html
+  File Name: 197.US.510.135.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.510.135.html
+  File Name: 197.US.516.51.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.516.51.html
+  File Name: 197.US.536.251.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.536.251.html
+  File Name: 197.US.544.99.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.544.99.html
+  File Name: 197.US.577.5.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.577.5.html
+  File Name: 197.US.60.152.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.60.152.html
+  File Name: 197.US.70.44.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.70.44.html
+  File Name: 197.US.9.118.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, 197.US.9.118.html
+  File Name: index.html
+  File Path: /testenv/test_data/law/US/197
+createDocument():  Doc Name, index.html

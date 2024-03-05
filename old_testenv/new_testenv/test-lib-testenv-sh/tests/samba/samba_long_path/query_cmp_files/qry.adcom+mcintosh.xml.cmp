@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="2" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="total-results-with-duplicates" value="2" />
+<document filetypes="pdf " vse-base-score="0.105263"
+  vse-key="smb://netapp1a.bigdatalab.ibm.com:80/testbed5-data/samba_test_data/samba_long_dir_name/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccccccccccdddddddddddddddddddddddddddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefffffffffffffffffffffffffffgggggggggggggggggggggghhhhhhhhhhhhhh/REVIEW_57.pdf/"
+  vertex="18"
+  url="smb://netapp1a.bigdatalab.ibm.com/testbed5-data/samba_test_data/samba_long_dir_name/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccccccccccdddddddddddddddddddddddddddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefffffffffffffffffffffffffffgggggggggggggggggggggghhhhhhhhhhhhhh/REVIEW_57.pdf"
+  ct="text/html" la-score="0.959257"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">79957</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1198183751"
+    u="28"
+  >Dec 20,
+  2007 20:49:11 GMT</content>
+  <content name="language" weight="0" action="none" u="30">english</content>
+  <content name="title" output-action="bold" weight="3" u="32">Top Performance Today—and Tomorrow</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.105263">
+      <pre u="2212" v="2231"><![CDATA[SCD-777ES SACD</span> </div><div> <span>Player; Theta Casablanca II, Meridian 861, Lexicon</span> </div><div> <span>MC-1,</span> </div><div> <span>Adcom </span> </div><div> <span>GTP-760 </span> </div><div> <span>controllers; </span> </div><div> <span>Theta</span> </div><div> <span>Dreadnaught (seven channel), ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="2732"
+      />
+      <match u="2232" v="2250"><![CDATA[Adcom GFA-7500, Krell</span> </div><div> <span>MDA300, Pass  X600  power  amplifiers;  Polk  SRT</span> </div><div> <span>Reference, Thiel CS 7.2, Revel Salon loudspeakers;</span> </div><div> <span>McIntosh ]]></match>
+      <post u="2251" v="2270"><![CDATA[MR-71 tuner; Kimber, Transparent Audio,</span> </div><div> <span>and Discovery interconnects and loudspeaker cable;</span> </div><div> <span>Sony KV-XBR400 36" HDTV monitor; Mitsubishi WS-</span> </div><div> <span>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Adcom </span> </div><div> <span>GTP-760 </span> </div><div> <span>controllers; </span> </div><div> <span>Theta</span> </div><div> <span>Dreadnaught (seven channel), Adcom GFA-7500, Krell</span> </div><div> <span>MDA300, Pass  X600  power  amplifiers;  Polk  SRT</span> </div><div> <span>Reference, Thiel CS 7.2, Revel Salon loudspeakers;</span> </div><div> <span>McIntosh MR-71 tuner; Kimber, Transparent Audio,</span> </div><div> <span>and Discovery  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="0.0572098"
+  vse-key="smb://netapp1a.bigdatalab.ibm.com:80/testbed5-data/samba_test_data/samba_long_dir_name/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccccccccccdddddddddddddddddddddddddddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefffffffffffffffffffffffffffgggggggggggggggggggggghhhhhhhhhhhhhh/REVIEW_616.pdf/"
+  vertex="2"
+  url="smb://netapp1a.bigdatalab.ibm.com/testbed5-data/samba_test_data/samba_long_dir_name/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccccccccccdddddddddddddddddddddddddddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefffffffffffffffffffffffffffgggggggggggggggggggggghhhhhhhhhhhhhh/REVIEW_616.pdf"
+  ct="text/html" la-score="0.959257"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">50604</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1198183751"
+    u="28"
+  >Dec 20,
+  2007 20:49:11 GMT</content>
+  <content name="language" weight="0" action="none" u="30">english</content>
+  <content name="title" output-action="bold" weight="3" u="32">McIntosh MC602 Amplifier: Innovation &amp; Tradition</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0408163">
+      <pre u="336" v="355">It’s one of the four product lines I re commend&lt;br/> to people whose budgets are limited. The&lt;br/>others are </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="2426"
+      />
+      <match u="356" v="404">Adcom, NAD, and Onkyo. Aside fro m&lt;br/>some of its SACD players, however, Marantz is not a&lt;br/>top-of-the-line High End contender today, and even&lt;br/>its  initial  SACD  players  exhibit  some  pro b l e m s :&lt;br/>Their CD sound does not match their SACD quality.&lt;/span> &lt;/div>&lt;div> &lt;span>McIntosh, </match>
+      <post u="405" v="424">however, has survived time and reor-&lt;/span> &lt;/div>&lt;div> &lt;span>ganizations without changing its character. It has&lt;br/>p roduced  some  excellent  solid-state  equipment,&lt;br/></post>
+    </solution>
+    <solution rank="1" score="0.0327869">
+      <pre u="276" v="295">of  the&lt;br/>McIntosh tuners and amplifiers over their Marantz&lt;br/>equivalents, although I favored the Marantz preamps.&lt;br/> I still use a </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="2426"
+      />
+      <match u="296" v="356"><![CDATA[McIntosh MR-71 tube tuner, and<br/>it sounds better than the fabled Marantz – even<br/>though it lacks a “scope.”</span> </div><div> <span>Years have passed, and one of these two manufac-</span> </div><div> <span>t u rers has changed beyond recognition. Marantz hasn<br/> ’t gone away: It’s one of the four product lines I re commend<br/> to people whose budgets are limited. The<br/>others are Adcom, ]]></match>
+      <post u="357" v="376">NAD, and Onkyo. Aside fro m&lt;br/>some of its SACD players, however, Marantz is not a&lt;br/>top-of-the-line </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... people whose budgets are limited. The&lt;br/>others are Adcom, NAD, and Onkyo. Aside fro m&lt;br/>some of ...  however, has survived time and reor-&lt;/span> &lt;/div>&lt;div> &lt;span>ganizations without  ... </content>
+</document>
+</scope>

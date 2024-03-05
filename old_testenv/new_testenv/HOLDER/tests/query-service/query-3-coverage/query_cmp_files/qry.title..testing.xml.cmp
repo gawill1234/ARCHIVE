@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="2" />
+<attribute name="stem" value="case" />
+<attribute name="stem2" value="english+depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="20" />
+<attribute name="retrieval-ms" value="2" />
+<attribute name="cache-hits-content-search" value="7" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="343" />
+<attribute name="cache-misses-word" value="7" />
+<attribute name="cache-hits-content-retrieval" value="9" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="24" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="2" />
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/03-AccessB.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/03-AccessB.pdf/"
+  filetype="pdf" vse-base-score="0.363736" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Data Structures, Algorithms and Implementation Issues Overview</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.263736">
+      <content name="title" output-action="bold" weight="3" u="13" v="68" />
+      <pre u="14" v="25">Data Structur</pre>
+      <match u="26" v="38">es, Algorithms a</match>
+      <post u="39" v="58">nd Implementation Issu</post>
+    </solution>
+    <solution rank="1" score="0.2">
+      <content name="title" output-action="bold" weight="3" u="13" v="68" />
+      <pre u="14" v="29">Data Structures, Al</pre>
+      <match u="30" v="44">gorithms and Impl</match>
+      <post u="45" v="64">ementation Issues Over</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <a/><div> <div> <span><b>Data Structures, Algorithms and</b></span> </div><div> <span><b>Implementation Issues</b></span> </div><div> <span>Jamie Callan</span> </div><div> <span>Carnegie Mellon University</span> </div><div> <span>callan@cs.cmu.edu</span> </div><div> <span><b>11-741:</b></span> </div><div> <span><b>Information Retrieval</b></span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>2</span> </div><div> <span><b>Overview</b></span> </div><div> <span>•</span> </div><div> <span><b>Document Parsing</b></span> </div><div> <span>•</span> </div><div> <span><b>Document Indexing</b></span> </div><div> <span>– What to index</span> </div><div> <span>– Inverted lists</span> </div><div> <span>•</span> </div><div> <span><b>Inverted Files</b></span> </div><div> <span>– Access</span> </div><div> <span>» Permuterm indexes</span> </div><div> <span>– Building</span> </div><div> <span>– Compression</span> </div><div> <span>•</span> </div><div> <span><b>Query Evaluation</b></span> </div><div> <span>– Ranking documents</span> </div><div> <span>– Optimizations</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>3</span> </div><div> <span><b>Basic Facts That Affect Search Engine Design</b></span> </div><div> <span>•</span> </div><div> <span><b>Computational efficiency is really important</b></span> </div><div> <span>– Speed and space</span> </div><div> <span>– A research search engine on a research corpus typically</span> </div><div> <span>processes several hundred million words</span> </div><div> <span>» Small inefficiencies × 200,000,000 = slow/bloated program</span> </div><div> <span>•</span> </div><div> <span><b>Integers are often preferred over strings</b></span> </div><div> <span>– Integers almost always take less space</span> </div><div> <span>– Integers can be compared more quickly</span> </div><div> <span><b>So…convert strings to integers whenever possible</b></span> </div><div> <span>•</span> </div><div> <span><b>You may not care about efficiency…</b></span> </div><div> <span><b>but you need to understand how it affects search engine design</b></span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>4</span> </div><div> <span><b>Parsing and Indexing:</b></span> </div><div> <span><b>Overview</b></span> </div><div> <span>•</span> </div><div> <span><b>Tasks:</b></span> </div><div> <span>– Build a set of indexes</span> </div><div> <span>» Inverted list, document ID, document location, fields, ….</span> </div><div> <span>– Possibly compress the documents</span> </div><div> <span>•</span> </div><div> <span><b>Speed:</b></span> </div><div> <span>– 2-3 gigabyte per processor hour is respectable (but not fast)</span> </div><div> <span>– “Fast” in 1998 was 4.7 GB per processor hour, on a PC</span> </div><div> <span>– “Fast” in 2004 was 33 GB per processing hour, on a PC</span> </div><div> <span>•</span> </div><div> <span><b>Memory:</b></span> </div><div> <span>– 1-5% the size of the total uncompressed documents</span> </div><div> <span>» E.g.,  128 MB RAM for 2 GB text, 1 GB RAM for 100 GB text</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>5</span> </div><div> <span><b>Parsing and Indexing:</b></span> </div><div> <span><b>Overview</b></span> </div><div> <span><b>Document</b></span> </div><div> <span><b>Parser</b></span> </div><div> <span><b>Indexer</b></span> </div><div> <span><b>Document Vectors</b></span> </div><div> <span><b>Term Dictionary</b></span> </div><div> <span><b>Inverted Lists</b></span> </div><div> <span><b>Field Masks</b></span> </div><div> <span><b>Document A ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/SharePointTips.doc"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/SharePointTips.doc/"
+  filetype="doc" vse-base-score="0.321429" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Tips and Tricks for Using Microsoft Office SharePoint Portal Server 2003</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.241071">
+      <content name="title" output-action="bold" weight="3" u="13" v="75" />
+      <pre u="14" v="32">Tips and Tricks for Usi</pre>
+      <match u="33" v="48">ng Microsoft Offic</match>
+      <post u="49" v="68">e SharePoint Portal Ser</post>
+    </solution>
+    <solution rank="1" score="0.160714">
+      <content name="title" output-action="bold" weight="3" u="13" v="75" />
+      <pre u="14" v="33">Tips and Tricks for Usin</pre>
+      <match u="34" v="57">g Microsoft Office SharePoi</match>
+      <post u="58" v="75">nt Portal Server 2003</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <br/><p><b></b><b></b></p><p><b>Tips and Tricks </b><b>for Using</b><b> Microsoft Office SharePoint Portal Server 2003</b></p><p><b>White Paper</b></p><p>Published: February 2004</p><p><b></b></p><p><b></b></p><p><b></b></p><p><b></b></p><p><b></b></p><br/><p><b>Table of Contents</b></p><p><b></b><b></b><b></b>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p><b></b><b></b></p><br/><p><b></b><b>Tips and Tricks for Using Microsoft Office SharePoint Portal Server 2</b><b>003</b><b></b></p><p><b>White Paper</b></p><p>Published: February 2004</p><p></p><p>For the latest information, please see the <a/> SharePoint Portal Server site  on Microsoft Office Online.</p><p><b>Introduction</b></p><p>These Tips and Tricks show how to perform a number of basic tasks in a Microsoft® Office SharePoint™ Portal Server 2003 environment. They can help you learn to use SharePoint Portal Server]]>&#160;<![CDATA[and will introduce you to the basic features and principles of portal site navigation and customization. This document is intended to be a desktop reference, but it can also form the basis for self-paced or instructor-led training. </p><p>Some SharePoint Portal Server features, such as My Sites and the ability to create new SharePoint sites, may not be available due to your company's IT policies. SharePoint Portal Server security can be used to limit the actions that each user can perform. In many cases, you need the correct rights in order to perform certain tasks. Check with your IT department for clarification of individual issues.</p><p><b>Create a New SharePoint Site</b></p><p>SharePoint Portal Server makes it easy to create SharePoint sites. SharePoint sites can serve a variety of purposes, such as the team Web site for a particular team or division, or for collaboration on a particular task or project. These steps show you how to create a SharePoint site fro ... ]]></content>
+</document>
+</scope>

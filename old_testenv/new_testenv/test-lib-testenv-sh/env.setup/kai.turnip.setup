@@ -1,0 +1,5 @@
+source env.setup/common
+export VIVHOST=kai.turnip.bigdatalab.ibm.com
+export VIVHTTPPORT=80
+export VIVUSER="data-explorer-admin"
+export VIVPW="TH1nk1710"

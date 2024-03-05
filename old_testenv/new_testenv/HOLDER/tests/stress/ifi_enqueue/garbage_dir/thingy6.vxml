@@ -1,0 +1,8 @@
+<vce>
+              <document url="http://vivisimo.com?parens">
+                <content name="title">character</content>
+                <content name="type">parenthesis</content>
+                <content name="pseudo">number shift</content>
+                <content name="text">container 1 ()</content>
+              </document>
+</vce>

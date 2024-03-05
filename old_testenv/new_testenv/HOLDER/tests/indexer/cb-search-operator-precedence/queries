@@ -1,0 +1,28 @@
+#query::collection::number_of_urls::compare_file::new_file
+#
+#   special codes in strings: (yes, I know it is screwy but it greatly
+#                              simplifies processing ...)
+#      <2eq> will become '=='
+#      <eq> will become '='
+#      <empty> will become ''
+#      <cr> will become '\n' (newline)
+#      <sp> will become ' '
+#
+#   To add more changes go in:
+#      $TEST_ROOT/lib/queryObj.py in set_other_opts()
+#
+##############################################
+#
+#   Basic queries
+#
+thomas AND NOT arizona OR syria::qs-samba::975::and_not_or::num=1000&profile=true
+thomas AND ((NOT arizona) OR syria)::qs-samba::920::and__not_or::num=1000&profile=true
+thomas AND (NOT arizona OR syria)::qs-samba::920::and__notor::num=1000&profile=true
+NOT arizona OR syria AND thomas::qs-samba::1420::not_or_and::num=1500&profile=true
+NOT thomas AND NOT arizona OR syria::qs-samba::620::not_not_or::num=1000&profile=true
+NOT thomas AND (NOT arizona OR syria)::qs-samba::539::not_and_not_or::num=1000&profile=true
+thomas AND arizona OR syria::qs-samba::724::and_or::num=1000&profile=true
+(thomas AND arizona) OR syria::qs-samba::724::and__or::num=1000&profile=true
+thomas arizona OR syria::qs-samba::629::ab_or::num=1000&profile=true
+thomas arizona syria::qs-samba::81::and_and_and::num=100&profile=true
+thomas OR arizona AND syria::qs-samba::1515::or_and::num=2000&profile=true

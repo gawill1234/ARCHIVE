@@ -1,0 +1,301 @@
+#!/bin/bash
+
+
+while getopts "C:R:F" flag; do
+  case "$flag" in
+     R) TEST_ROOT=$OPTARG;;
+     C) CRAWL_DIR=$OPTARG;;
+     F) SUFFIXES=$TEST_ROOT/utils/bin/datafiles/$OPTARG;;
+     *) echo "Usage: dgen -C <dir_to_crawl> -R <test root>"
+        exit 1;;
+  esac
+done
+
+if [ "$CRAWL_DIR" == "" ]; then
+   echo "Directory to create (for crawling) is"
+   echo "unknown.  Please set the env variable CRAWL_DIR"
+   echo "or use the -C <CRAWL_DIR> option"
+   exit 1
+fi
+
+if [ "$TEST_ROOT" == "" ]; then
+   echo "The test root directory is"
+   echo "unknown.  Please set the env variable TEST_ROOT"
+   echo "or use the -R <TEST_ROOT> option"
+   exit 1
+fi
+
+if [ "$SUFFIXES" == "" ]; then
+   SUFFIXES="$TEST_ROOT/utils/bin/datafiles/dgen-data/suffix_file_basics"
+fi
+
+cnt=0
+x=`cat $SUFFIXES | cut -f 1 -d ','`
+
+if [ ! -d "$CRAWL_DIR" ]; then
+      mkdir -p $CRAWL_DIR
+fi
+
+SOURCE_DIR=$TEST_ROOT/utils/bin/datafiles/dgen-data
+
+for y in $x; do
+   z=`echo $y | sed "s/\./dot./"`
+   if [ ! -d "$CRAWL_DIR/$z" ]; then
+      mkdir -p "$CRAWL_DIR/$z"
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/empty$y" ]; then
+      touch "$CRAWL_DIR/$z/empty$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/x86_32aout$y" ]; then
+      cp $SOURCE_DIR/a.out "$CRAWL_DIR/$z/x86_32aout$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/rtf$y" ]; then
+      cp $SOURCE_DIR/Vivisimo_Bios.rtf "$CRAWL_DIR/$z/rtf$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/gz$y" ]; then
+      cp $SOURCE_DIR/2005-03-17.gz "$CRAWL_DIR/$z/gz$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/dbf$y" ]; then
+      cp $SOURCE_DIR/9.dbf "$CRAWL_DIR/$z/dbf$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/doc$y" ]; then
+      cp $SOURCE_DIR/Alarm_System.doc "$CRAWL_DIR/$z/doc$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/targz$y" ]; then
+      cp $SOURCE_DIR/allwords.tar.gz "$CRAWL_DIR/$z/targz$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/pst$y" ]; then
+      cp $SOURCE_DIR/archive.pst "$CRAWL_DIR/$z/pst$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/ppt$y" ]; then
+      cp $SOURCE_DIR/boeing.ppt "$CRAWL_DIR/$z/ppt$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/html$y" ]; then
+      cp $SOURCE_DIR/Chips.html "$CRAWL_DIR/$z/html$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/txt$y" ]; then
+      cp $SOURCE_DIR/FAQ.txt "$CRAWL_DIR/$z/txt$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/tar$y" ]; then
+      cp $SOURCE_DIR/freetds-0.63.tar "$CRAWL_DIR/$z/tar$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/ps$y" ]; then
+      cp $SOURCE_DIR/macros.ps "$CRAWL_DIR/$z/ps$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/wpd$y" ]; then
+      cp $SOURCE_DIR/msjudge.wpd "$CRAWL_DIR/$z/wpd$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/swf$y" ]; then
+      cp $SOURCE_DIR/newportal.swf "$CRAWL_DIR/$z/swf$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/pdf$y" ]; then
+      cp $SOURCE_DIR/queryrefinement.pdf "$CRAWL_DIR/$z/pdf$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/csv$y" ]; then
+      cp $SOURCE_DIR/sample.csv "$CRAWL_DIR/$z/csv$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/ods$y" ]; then
+      cp $SOURCE_DIR/TestEnterpriseEquipment.ods "$CRAWL_DIR/$z/ods$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/xls$y" ]; then
+      cp $SOURCE_DIR/trials.xls "$CRAWL_DIR/$z/xls$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/msg$y" ]; then
+      cp $SOURCE_DIR/WELCOME.msg "$CRAWL_DIR/$z/msg$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/mpp$y" ]; then
+      cp $SOURCE_DIR/work_plan_3gpp.mpp "$CRAWL_DIR/$z/mpp$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/jpg$y" ]; then
+      cp $SOURCE_DIR/orion.jpg "$CRAWL_DIR/$z/jpg$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/gif$y" ]; then
+      cp $SOURCE_DIR/redhat.gif "$CRAWL_DIR/$z/gif$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/jar$y" ]; then
+      cp $SOURCE_DIR/resolver.jar "$CRAWL_DIR/$z/jar$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/xml$y" ]; then
+      cp $SOURCE_DIR/trec.xml "$CRAWL_DIR/$z/xml$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/x86_64doto$y" ]; then
+      cp $SOURCE_DIR/vhttpd.o "$CRAWL_DIR/$z/x86_64doto$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/x86_32dll$y" ]; then
+      cp $SOURCE_DIR/wuauserv.dll "$CRAWL_DIR/$z/x86_32dll$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/x86_32exe$y" ]; then
+      cp $SOURCE_DIR/winhlp32.exe "$CRAWL_DIR/$z/x86_32exe$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/x86_32ocx$y" ]; then
+      cp $SOURCE_DIR/wmp.ocx "$CRAWL_DIR/$z/x86_32ocx$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/x86_32acm$y" ]; then
+      cp $SOURCE_DIR/imaadp32.acm "$CRAWL_DIR/$z/x86_32acm$y"
+      cnt=`expr $cnt + 1`
+   fi
+   #
+   #   junk files have simply had binary data
+   #   dumped on to the end of the file
+   #
+   if [ ! -f "$CRAWL_DIR/$z/junkrtf$y" ]; then
+      cp $SOURCE_DIR/junk.rtf "$CRAWL_DIR/$z/junkrtf$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/junkcsv$y" ]; then
+      cp $SOURCE_DIR/junk.csv "$CRAWL_DIR/$z/junkcsv$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/junkppt$y" ]; then
+      cp $SOURCE_DIR/junk.ppt "$CRAWL_DIR/$z/junkppt$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/junkxls$y" ]; then
+      cp $SOURCE_DIR/junk.xls "$CRAWL_DIR/$z/junkxls$y"
+      cnt=`expr $cnt + 1`
+   fi
+   #
+   #   junk2 files are file which have had the tails
+   #   removed and a binary dumped in.
+   #
+   if [ ! -f "$CRAWL_DIR/$z/junk2rtf$y" ]; then
+      cp $SOURCE_DIR/junk2.rtf "$CRAWL_DIR/$z/junk2rtf$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/junk2csv$y" ]; then
+      cp $SOURCE_DIR/junk2.csv "$CRAWL_DIR/$z/junk2csv$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/junk2ppt$y" ]; then
+      cp $SOURCE_DIR/junk2.ppt "$CRAWL_DIR/$z/junk2ppt$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/junk2xls$y" ]; then
+      cp $SOURCE_DIR/junk2.xls "$CRAWL_DIR/$z/junk2xls$y"
+      cnt=`expr $cnt + 1`
+   fi
+   #
+   #   Junk3 files are files which are damaged
+   #   in some way with nothing added to them.
+   #
+   if [ ! -f "$CRAWL_DIR/$z/junk3rtf$y" ]; then
+      cp $SOURCE_DIR/junk3.rtf "$CRAWL_DIR/$z/junk3rtf$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/junk3csv$y" ]; then
+      cp $SOURCE_DIR/junk3.csv "$CRAWL_DIR/$z/junk3csv$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/junk3ppt$y" ]; then
+      cp $SOURCE_DIR/junk3.ppt "$CRAWL_DIR/$z/junk3ppt$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/junk3xls$y" ]; then
+      cp $SOURCE_DIR/junk3.xls "$CRAWL_DIR/$z/junk3xls$y"
+      cnt=`expr $cnt + 1`
+   fi
+   #
+   #   File are really various music files which have
+   #   not been altered.
+   #
+   if [ ! -f "$CRAWL_DIR/$z/testwav$y" ]; then
+      cp $SOURCE_DIR/testwav.wav "$CRAWL_DIR/$z/testwav$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/testmp3$y" ]; then
+      cp $SOURCE_DIR/testmp3.mp3 "$CRAWL_DIR/$z/testmp3$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/testwma$y" ]; then
+      cp $SOURCE_DIR/testwma.wma "$CRAWL_DIR/$z/testwma$y"
+      cnt=`expr $cnt + 1`
+   fi
+   #
+   #   Files are really named pipes
+   #
+   if [ ! -f "$CRAWL_DIR/$z/mypipe1$y" ]; then
+      mkfifo "$CRAWL_DIR/$z/mypipe1$y"
+      cnt=`expr $cnt + 1`
+   fi
+   #if [ ! -f "$CRAWL_DIR/$z/mypipe2$y" ]; then
+   #   mkfifo "$CRAWL_DIR/$z/mypipe2$y"
+   #   #cat $SOURCE_DIR/testwma.wma > "$CRAWL_DIR/$z/mypipe2$y"
+   #   cnt=`expr $cnt + 1`
+   #fi
+   #if [ ! -f "$CRAWL_DIR/$z/mypipe3$y" ]; then
+   #   mkfifo "$CRAWL_DIR/$z/mypipe3$y"
+   #   #cat $SOURCE_DIR/queryrefinement.pdf > "$CRAWL_DIR/$z/mypipe3$y"
+   #   cnt=`expr $cnt + 1`
+   #fi
+   #
+   #   Files are really nodes (block or character special)
+   #
+   if [ ! -f "$CRAWL_DIR/$z/mynode1$y" ]; then
+      sudo mknod "$CRAWL_DIR/$z/mynode1$y" b 1000 1001
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/mynode2$y" ]; then
+      sudo mknod "$CRAWL_DIR/$z/mynode2$y" c 2000 2002
+      cnt=`expr $cnt + 1`
+   fi
+  #
+  #   Files are really directory (empty)
+  #
+   if [ ! -d "$CRAWL_DIR/$z/mydir1$y" ]; then
+      echo Directory
+      mkdir "$CRAWL_DIR/$z/mydir1$y"
+      cnt=`expr $cnt + 1`
+   fi
+   #
+   #   Files are really symlink (to empty directory)
+   #
+   if [ ! -f "$CRAWL_DIR/$z/mylink1$y" ]; then
+      if [ -f "$CRAWL_DIR/$z/mydir1$y" ]; then
+         echo Symlink
+         ln -s "$CRAWL_DIR/$z/mydir1$y" "$CRAWL_DIR/$z/mylink1$y"
+         cnt=`expr $cnt + 1`
+      fi
+   fi
+   #
+   #   Files are full of odd characters
+   #
+   if [ ! -f "$CRAWL_DIR/$z/quickbrown$y" ]; then
+      cp $SOURCE_DIR/quickbrown.txt "$CRAWL_DIR/$z/quickbrown$y"
+      cnt=`expr $cnt + 1`
+   fi
+   if [ ! -f "$CRAWL_DIR/$z/UTF-8-test$y" ]; then
+      cp $SOURCE_DIR/UTF-8-test.txt "$CRAWL_DIR/$z/UTF-8-test$y"
+      cnt=`expr $cnt + 1`
+   fi
+   echo "Documents so far:  $cnt at suffix $y"
+done
+echo "Total documents:  $cnt"

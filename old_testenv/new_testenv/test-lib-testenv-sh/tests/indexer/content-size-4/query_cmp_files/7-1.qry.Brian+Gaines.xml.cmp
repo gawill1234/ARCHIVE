@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="2" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="2" />
+<attribute name="cache-hits-content-retrieval" value="0" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="6" />
+<attribute name="cache-misses-text" value="13" />
+<attribute name="total-results-with-duplicates" value="2" />
+<document
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/test_data/compression/calgary/paper3"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/test_data/compression/calgary/paper3/"
+  vse-base-score="1" la-score="0.652325"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="7369" />
+      <pre u="7293" v="7312">combination and synthesis of the two
+technologies of autonomy?
+.sh "Acknowledgements"
+.pp
+First and foremost I would like to thank </pre>
+      <match u="7313" v="7314">Brian Gaines </match>
+      <post u="7315" v="7334">for suggesting and
+encouraging this line of research.
+I am grateful to Saul Greenberg and Roy Masrani for many insights </post>
+    </solution>
+  </content>
+</document>
+<document
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/test_data/compression/large/world192.txt"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/test_data/compression/large/world192.txt/"
+  vse-base-score="0.0198438" la-score="3.17805"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.01">
+      <content type="text" name="snippet" u="7" v="330728" />
+      <pre u="9658" v="9677">of Assembly
+Judicial branch:
+    High Court
+Leaders:
+  Chief of State:
+    Queen ELIZABETH II (since 6 February 1952), represented by Governor </pre>
+      <match u="9678" v="9678">Brian </match>
+      <post u="9679" v="9698">G.
+    J. CANTY (since NA 1989)
+  Head of Government:
+    Chief Minister Emile GUMBS (since March 1984, served previously from
+    February 1977 </post>
+    </solution>
+    <solution rank="1" score="0.01">
+      <content type="text" name="snippet" u="7" v="330728" />
+      <pre u="17642" v="17661">HAYDEN (since 16 February 1989)
+  Head of Government:
+    Prime Minister Paul John KEATING (since 20 December 1991); Deputy Prime
+    Minister </pre>
+      <match u="17662" v="17662">Brian </match>
+      <post u="17663" v="17682">HOWE (since 4 June 1991)
+Political parties and leaders:
+  government:
+    Australian Labor Party, Paul John KEATING
+  opposition:
+    Liberal Party, John </post>
+    </solution>
+    <solution rank="2" score="0.01">
+      <content type="text" name="snippet" u="7" v="330728" />
+      <pre u="31919" v="31938">territory of the UK, Bermuda's interests in the US are
+    represented by the UK
+  US:
+    Consul General L. Ebersole </pre>
+      <match u="31939" v="31939">GAINES; </match>
+      <post u="31940" v="31959">Consulate General at Crown Hill, 16
+    Middle Road, Devonshire, Hamilton (mailing address is P. O. Box HM325,
+    Hamilton HMBX; PSC 1002, </post>
+    </solution>
+    <solution rank="3" score="0.01">
+      <content type="text" name="snippet" u="7" v="330728" />
+      <pre u="49936" v="49955">6 February 1952), represented by Governor General
+    Raymond John HNATSHYN (since 29 January 1990)
+  Head of Government:
+    Prime Minister (Martin) </pre>
+      <match u="49956" v="49956">Brian </match>
+      <post u="49957" v="49976">MULRONEY (since 4 September 1984); Deputy
+    Prime Minister Donald Frank MAZANKOWSKI (since June 1986)
+Political parties and leaders:
+    Progressive Conservative </post>
+    </solution>
+    <solution rank="4" score="0.01">
+      <content type="text" name="snippet" u="7" v="330728" />
+      <pre u="49958" v="49977">since 4 September 1984); Deputy
+    Prime Minister Donald Frank MAZANKOWSKI (since June 1986)
+Political parties and leaders:
+    Progressive Conservative Party, </pre>
+      <match u="49978" v="49978">Brian </match>
+      <post u="49979" v="49998">MULRONEY; Liberal Party, Jean
+    CHRETIEN; New Democratic Party, Audrey McLAUGHLIN
+Suffrage:
+    universal at age 18
+Elections:
+  House of Commons:
+    last </post>
+    </solution>
+  </content>
+</document>
+</scope>

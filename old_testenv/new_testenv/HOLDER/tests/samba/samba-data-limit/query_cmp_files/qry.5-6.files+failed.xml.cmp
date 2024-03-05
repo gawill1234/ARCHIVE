@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="7" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="4" />
+<attribute name="retrieval-ms" value="4" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="2" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="4" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="96" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="7" />
+<document
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-1/doc/Files_that_failed_to_crawl/"
+  vse-base-score="1.82589"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/Files_that_failed_to_crawl"
+  la-score="3.27714"
+>
+  <content name="crawled-date" action="none" weight="-1" seconds="1183135367"
+    u="1"
+  >Jun 29,
+  2007 16:42:47 GMT</content>
+  <content name="language" weight="0" action="none" u="3">english</content>
+  <content action="none" name="url" weight="1" u="45141">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/Files_that_failed_to_crawl</content>
+  <content action="none" name="host" weight="1" u="45159"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="5" v="45140" />
+      <pre u="392" v="411">m running SMB file share and found some files that couldn't succeed to
+crawl or index.
+
+The attached zip </pre>
+      <match u="412" v="413">file "failed-</match>
+      <post u="414" v="433">to-index.zip" is the files that failed
+while indexing and the
+error is as follows.
+------
+error (8312 ms) -
+[smb://</post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="5" v="45140" />
+      <pre u="441" v="460">59682.pdf] -
+Conversion error [Error on conversion: Terminated with exit code
+-1073741571] (ID: SEARCH_ENGINE_PAST_ERROR)
+------
+
+The another zip </pre>
+      <match u="461" v="462">file "failed-</match>
+      <post u="463" v="482">to-crawl.zip" is the files that failed
+while crawling
+and the error are as follows. The weird thing is </post>
+    </solution>
+    <solution rank="2" score="0.666667">
+      <content type="text" name="snippet" u="5" v="45140" />
+      <pre u="346" v="365">Thunderbird 1.5.0.8 (Windows/20061025)
+MIME-Version: 1.0
+To: Michael Pointer &lt;pointer@vivisimo.com>
+Cc: "'Vivisimo Support'" &lt;support@vivisimo.com>
+Subject: </pre>
+      <match u="366" v="368">Files that failed </match>
+      <post u="369" v="388">to crawl
+Content-Type: multipart/mixed; boundary="------------000206060601040302060305"
+
+
+--------------000206060601040302060305
+Content-Type: text/plain; charset=ISO-2022-JP
+Content-Transfer-Encoding: </post>
+    </solution>
+    <solution rank="3" score="0.666667">
+      <content type="text" name="snippet" u="5" v="45140" />
+      <pre u="399" v="418">some files that couldn't succeed to
+crawl or index.
+
+The attached zip file "failed-to-index.zip" is the </pre>
+      <match u="419" v="421">files that failed
+</match>
+      <post u="422" v="441">while indexing and the
+error is as follows.
+------
+error (8312 ms) -
+[smb://pluto/crawl_error_documents/pdf/06-331b_59682.</post>
+    </solution>
+    <solution rank="4" score="0.666667">
+      <content type="text" name="snippet" u="5" v="45140" />
+      <pre u="448" v="467">Terminated with exit code
+-1073741571] (ID: SEARCH_ENGINE_PAST_ERROR)
+------
+
+The another zip file "failed-to-crawl.zip" is the </pre>
+      <match u="468" v="470">files that failed
+</match>
+      <post u="471" v="490">while crawling
+and the error are as follows. The weird thing is that, most of these
+files succeeds
+by running </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... succeed to
+crawl or index.
+
+The attached zip file "failed-to-index.zip" is the files that failed
+ ... ID: SEARCH_ENGINE_PAST_ERROR)
+------
+
+The another zip file "failed-to-crawl.zip" is the files that failed
+ ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/oracle10g-quick-install-linux.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-1/doc/oracle10g-quick-install-linux.pdf/"
+  filetype="pdf" vse-base-score="0.0287305" la-score="3.27714"
+>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="1"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1183135367"
+    u="3"
+  >Jun 29,
+  2007 16:42:47 GMT</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">Oracle® Database</content>
+  <content action="none" name="url" weight="1" u="6255">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/oracle10g-quick-install-linux.pdf</content>
+  <content action="none" name="host" weight="1" u="6273"></content>
+  <content name="filetype" action="none" u="6274">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.015">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="6254"
+      />
+      <pre u="1762" v="1781"><![CDATA[system architecture can run the<br/>software, enter the following command:</span> </div><div> <span># grep "model name" /proc/cpuinfo</span> </div><div> <span><b>Installation Type</b></span> </div><div> <span><b>Requirement for Software ]]></pre>
+      <match u="1782" v="1782">Files (</match>
+      <post u="1783" v="1802"><![CDATA[GB)</b></span> </div><div> <span>Enterprise Edition</span> </div><div> <span>1.9</span> </div><div> <span>Standard Edition</span> </div><div> <span>1.9</span> </div><div> <span>Custom (maximum)</span> </div><div> <span>2.0</span> </div></div><a/><div> <div> <span>Oracle Database Quick Installation Guide13</span> </div><div> <span>This command displays the processor ]]></post>
+    </solution>
+    <solution rank="1" score="0.015">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="6254"
+      />
+      <pre u="3036" v="3055"><![CDATA[to the recommended value<br/>shown. The procedure following the table describes how to verify<br/>and set the values.</span> </div><div> <span><b>Parameter</b></span> </div><div> <span><b>Value</b></span> </div><div> <span><b>]]></pre>
+      <match u="3056" v="3056"><![CDATA[File</b></span> </div><div> <span>]]></match>
+      <post u="3057" v="3076"><![CDATA[semmsl</span> </div><div> <span>semmns</span> </div><div> <span>semopm</span> </div><div> <span>semmni</span> </div><div> <span>250</span> </div><div> <span>32000</span> </div><div> <span>100</span> </div><div> <span>128</span> </div><div> <span>/proc/sys/kernel/sem</span> </div></div><a/><div> <div> <span><b>24</b></span> </div><div> <span>Oracle Database Quick Installation Guide</span> </div><div> <span>shmall</span> </div><div> <span>2097152</span> </div><div> <span>/]]></post>
+    </solution>
+    <solution rank="2" score="0.015">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="6254"
+      />
+      <pre u="3142" v="3161"><![CDATA[wmem_default</span> </div><div> <span>262144</span> </div><div> <span>/proc/sys/net/core/wmem_default</span> </div><div> <span>wmem_max</span> </div><div> <span>262144</span> </div><div> <span>/proc/sys/net/core/wmem_max</span> </div><div> <span><b>Parameter</b></span> </div><div> <span><b>Value</b></span> </div><div> <span><b>]]></pre>
+      <match u="3162" v="3162"><![CDATA[File</b></span> </div></div><a/><div> <div> <span>]]></match>
+      <post u="3163" v="3182">Oracle Database Quick Installation Guide25&lt;/span> &lt;/div>&lt;div> &lt;span>To view the current value specified for these kernel parameters,&lt;br/>and to change them if </post>
+    </solution>
+    <solution rank="3" score="0.01">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="6254"
+      />
+      <pre u="684" v="703"><![CDATA[procedures in this guide describe how to:</span> </div><div> <span>■</span> </div><div> <span>Configure your system to support Oracle Database</span> </div><div> <span>■</span> </div><div> <span>Install Oracle Database on a local ]]></pre>
+      <match u="704" v="704">file </match>
+      <post u="705" v="724"><![CDATA[system by using the<br/>Basic Installation option</span> </div><div> <span>■</span> </div><div> <span>Configure a general-purpose Oracle Database installation that<br/>uses the local file system ]]></post>
+    </solution>
+    <solution rank="4" score="0.01">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="6254"
+      />
+      <pre u="703" v="722"><![CDATA[local file system by using the<br/>Basic Installation option</span> </div><div> <span>■</span> </div><div> <span>Configure a general-purpose Oracle Database installation that<br/>uses the local ]]></pre>
+      <match u="723" v="723">file </match>
+      <post u="724" v="743"><![CDATA[system for database file storage</span> </div><div> <span><b>Results of a Successful Installation</b></span> </div><div> <span>After you successfully install Oracle Database:</span> </div><div> <span>■</span> </div><div> <span>The database that you ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... name" /proc/cpuinfo</span> </div><div> <span><b>Installation Type</b></span> </div><div> <span><b>Requirement for Software Files (GB)</b></span> </div><div> <span>Enterprise Edition</span> </div><div> <span>1.9</span> </div><div> <span>Standard Edition</span> </div><div> <span>1.9</span> </div><div> <span>Custom ( ... to verify<br/>and set the values.</span> </div><div> <span><b>Parameter</b></span> </div><div> <span><b>Value</b></span> </div><div> <span><b>File</b></span> </div><div> <span>semmsl</span> </div><div> <span>semmns</span> </div><div> <span>semopm</span> </div><div> <span>semmni</span> </div><div> <span>250</span> </div><div> <span>32000</span> </div><div> <span>100</span> </div><div> <span>128</span> </div><div> <span>/ ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/fedpaper.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-1/doc/fedpaper.txt/"
+  vse-base-score="0.0199805" la-score="3.27714"
+>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067665"
+    u="1"
+  >Feb 21,
+  2007 14:21:05 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1183135367"
+    u="3"
+  >Jun 29,
+  2007 16:42:47 GMT</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content action="none" name="url" weight="1" u="165950">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/fedpaper.txt</content>
+  <content action="none" name="host" weight="1" u="165965"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.01">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="8" v="18">*This is the Project Gutenberg Etext of The Federalist Papers.*
+*****This </pre>
+      <match u="19" v="19">file </match>
+      <post u="20" v="39">should be named feder16.txt or feder16.zip******
+The release date of this Project Gutenberg Etext:  June 6, 1992
+
+Corrected </post>
+    </solution>
+    <solution rank="1" score="0.01">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="123" v="142">at one dollar, then we produce a
+million dollars per hour; next year we will have to do four text
+</pre>
+      <match u="143" v="143">files </match>
+      <post u="144" v="163">per month, thus upping our productivity to two million/hr.
+The Goal of Project Gutenberg is to Give Away One </post>
+    </solution>
+    <solution rank="2" score="0.01">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="146" v="165">thus upping our productivity to two million/hr.
+The Goal of Project Gutenberg is to Give Away One Trillion Etext
+</pre>
+      <match u="166" v="166">Files </match>
+      <post u="167" v="186">by the December 31, 2001.  [10,000 x 100,000,000=Trillion]
+This is ten thousand titles each to one hundred million readers.
+
+</post>
+    </solution>
+    <solution rank="3" score="0.01">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="492" v="511">new books]  [now also cd etext/etext92]
+or cd etext/articles [get suggest gut for more information]
+dir [to see </pre>
+      <match u="512" v="512">files]
+</match>
+      <post u="513" v="532">get or mget [to get files. . .set bin for zip files]
+GET INDEX and AAINDEX
+for a list of books
+</post>
+    </solution>
+    <solution rank="4" score="0.01">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="498" v="517">etext92]
+or cd etext/articles [get suggest gut for more information]
+dir [to see files]
+get or mget [to get </pre>
+      <match u="518" v="518">files. . .</match>
+      <post u="519" v="538">set bin for zip files]
+GET INDEX and AAINDEX
+for a list of books
+and
+GET NEW GUT for general </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Project Gutenberg Etext of The Federalist Papers.*
+*****This file should be named feder16.txt or feder16.zip******
+ ... year we will have to do four text
+files per month, thus upping our productivity to two  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/arizona.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-1/doc/arizona.txt/"
+  vse-base-score="0.015" la-score="3.27714"
+>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="1"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1183135366"
+    u="3"
+  >Jun 29,
+  2007 16:42:46 GMT</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content action="none" name="url" weight="1" u="8729">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/arizona.txt</content>
+  <content action="none" name="host" weight="1" u="8744"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.01">
+      <content type="text" name="snippet" u="7" v="8728" />
+      <pre u="7372" v="7391">have been chosen before the time fixed for the beginning of 
+his term, or if the President elect shall have </pre>
+      <match u="7392" v="7392">failed </match>
+      <post u="7393" v="7412">to qualify, 
+then the Vice President elect shall act as President until a 
+President shall have qualified; and the Congress </post>
+    </solution>
+    <solution rank="1" score="0.01">
+      <content action="none" name="url" weight="1" u="8729" v="8743" />
+      <pre u="8730" v="8729"></pre>
+      <match u="8730" v="8730">file://///</match>
+      <post u="8731" v="8743">testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/arizona.txt</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... term, or if the President elect shall have failed to qualify, 
+then the Vice President elect shall  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/constitution.doc"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-1/doc/constitution.doc/"
+  filetype="rtf" vse-base-score="0.015" la-score="3.27714"
+>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="1"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1183135367"
+    u="3"
+  >Jun 29,
+  2007 16:42:47 GMT</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content action="none" name="url" weight="1" u="7622">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/constitution.doc</content>
+  <content action="none" name="host" weight="1" u="7637"></content>
+  <content name="filetype" action="none" u="7638">rtf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.01">
+      <content name="snippet" weight="1" output-action="summarize" u="7" v="7621" />
+      <pre u="6405" v="6424">have been chosen before the time fixed for the beginning of his term, or if the President elect shall have </pre>
+      <match u="6425" v="6425">failed </match>
+      <post u="6426" v="6445">to qualify, then the Vice President elect shall act as President until a President shall have qualified; and the Congress </post>
+    </solution>
+    <solution rank="1" score="0.01">
+      <content action="none" name="url" weight="1" u="7622" v="7636" />
+      <pre u="7623" v="7622"></pre>
+      <match u="7623" v="7623">file://///</match>
+      <post u="7624" v="7636">testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/constitution.doc</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... term, or if the President elect shall have failed to qualify, then the Vice President elect shall  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/constitution.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-1/doc/constitution.pdf/"
+  filetype="pdf" vse-base-score="0.015" la-score="3.27714"
+>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="1"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1183135367"
+    u="3"
+  >Jun 29,
+  2007 16:42:47 GMT</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">CONSTITUTION</content>
+  <content action="none" name="url" weight="1" u="8900">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/constitution.pdf</content>
+  <content action="none" name="host" weight="1" u="8915"></content>
+  <content name="filetype" action="none" u="8916">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.01">
+      <content name="snippet" weight="1" output-action="summarize" u="9" v="8899" />
+      <pre u="7508" v="7527">been chosen before the time fi xed for the beginning of&lt;br/>his term, or if the President elect shall have </pre>
+      <match u="7528" v="7528">failed </match>
+      <post u="7529" v="7548">to qualify,&lt;br/>then the Vice President elect shall act as President until a&lt;br/>President shall have qualifi ed; and the </post>
+    </solution>
+    <solution rank="1" score="0.01">
+      <content action="none" name="url" weight="1" u="8900" v="8914" />
+      <pre u="8901" v="8900"></pre>
+      <match u="8901" v="8901">file://///</match>
+      <post u="8902" v="8914">testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/constitution.pdf</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... term, or if the President elect shall have failed to qualify,&lt;br/>then the Vice President elect shall  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/constitution.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-1/doc/constitution.txt/"
+  vse-base-score="0.015" la-score="3.27714"
+>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="1"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="crawled-date" action="none" weight="-1" seconds="1183135367"
+    u="3"
+  >Jun 29,
+  2007 16:42:47 GMT</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content action="none" name="url" weight="1" u="8729">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/constitution.txt</content>
+  <content action="none" name="host" weight="1" u="8744"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.01">
+      <content type="text" name="snippet" u="7" v="8728" />
+      <pre u="7372" v="7391">have been chosen before the time fixed for the beginning of 
+his term, or if the President elect shall have </pre>
+      <match u="7392" v="7392">failed </match>
+      <post u="7393" v="7412">to qualify, 
+then the Vice President elect shall act as President until a 
+President shall have qualified; and the Congress </post>
+    </solution>
+    <solution rank="1" score="0.01">
+      <content action="none" name="url" weight="1" u="8729" v="8743" />
+      <pre u="8730" v="8729"></pre>
+      <match u="8730" v="8730">file://///</match>
+      <post u="8731" v="8743">testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-1/doc/constitution.txt</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... term, or if the President elect shall have failed to qualify, 
+then the Vice President elect shall  ... </content>
+</document>
+</scope>

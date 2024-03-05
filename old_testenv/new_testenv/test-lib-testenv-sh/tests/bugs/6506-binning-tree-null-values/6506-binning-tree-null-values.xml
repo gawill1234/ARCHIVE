@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<vse-collection name="6506-binning-tree-null-values" modified="1184768442">
+  <vse-config elt-id="2259" max-elt-id="2498">
+    <crawler elt-id="2412">
+      <crawl-urls elt-id="2411">
+        <crawl-url url="http://test.com" status="complete" elt-id="2410">
+          <crawl-data content-type="application/vxml" encoding="xml" elt-id="2407">
+            <document id="1" elt-id="2404">
+              <content name="tree" elt-id="2403">////mail.office.vivisimo.com/foo</content>
+            </document>
+            <document id="2" elt-id="2406">
+              <content name="tree" elt-id="2405">////mail.office.vivisimo.com/bar</content>
+            </document>
+          </crawl-data>
+          <curl-options elt-id="2409">
+            <curl-option name="default-allow" elt-id="2408">allow</curl-option>
+          </curl-options>
+        </crawl-url>
+      </crawl-urls>
+    </crawler>
+    <vse-index elt-id="2428">
+      <vse-index-option name="fast-index" elt-id="2415">tree</vse-index-option>
+      <vse-url-equivs name="vse-url-equivs" elt-id="2417">
+        <vse-url-equiv old-prefix="smb://" new-prefix="file://///" elt-id="2416"/>
+      </vse-url-equivs>
+      <binning-sets elt-id="2427">
+        <binning-set elt-id="2423">
+          <call-function name="binning-set" elt-id="2419">
+            <with name="select" elt-id="2418">$tree</with>
+          </call-function>
+          <binning-tree elt-id="2422">
+            <call-function name="binning-tree" elt-id="2421">
+              <with name="delimiter" elt-id="2420">/</with>
+            </call-function>
+          </binning-tree>
+        </binning-set>
+        <binning-sets last-modified="1184697116" elt-id="2426">
+          <binning-set select="$tree" elt-id="2425">
+            <binning-tree delimiter="/" elt-id="2424"/>
+          </binning-set>
+        </binning-sets>
+      </binning-sets>
+    </vse-index>
+    <converters elt-id="2498">
+      <converter type-in="unknown" type-out="dead" elt-id="2430">
+        <call-function name="vse-converter-binary-files-in-archives" elt-id="2429"/>
+      </converter>
+      <converter type-in="unknown" program="guess-content %source_file" timing-name="Guess content" elt-id="2431"/>
+      <converter type-in="application/ms-office" program="ms-guess %source_file" timing-name="Guess MS Office" elt-id="2432"/>
+      <converter type-in="unknown" type-out="text/plain" elt-id="2434">
+        <converter-test how="wc-set" what="path" elt-id="2433">*.txt</converter-test>
+      </converter>
+      <call-function name="vse-converter-filetypes" elt-id="2435"/>
+      <call-function name="vse-converter-type-normalization" elt-id="2436"/>
+      <call-function name="vse-converter-database" elt-id="2437"/>
+      <call-function name="vse-converter-powerpoint" elt-id="2438"/>
+      <call-function name="vse-converter-1-2-3" elt-id="2439"/>
+      <converter type-in="outlook/mail" type-out="text/mailbox" elt-id="2441">
+        <call-function name="vse-converter-pst-to-mailbox" elt-id="2440"/>
+      </converter>
+      <converter type-in="text/mailbox" type-out="text/mail" elt-id="2443">
+        <call-function name="vse-converter-split-mailbox" elt-id="2442"/>
+      </converter>
+      <converter type-in="text/mail" type-out="vivisimo/crawl-data" elt-id="2446">
+        <call-function name="vse-converter-mail-message" elt-id="2445">
+          <with name="cache-parser" elt-id="2444">vse-cache-parser-email</with>
+        </call-function>
+      </converter>
+      <converter type-in="application/documentum" type-out="application/vxml-unnormalized" elt-id="2448">
+        <call-function name="vse-converter-documentum-to-xml" elt-id="2447"/>
+      </converter>
+      <converter type-in="application/eroom" type-out="application/vxml-unnormalized" elt-id="2450">
+        <call-function name="vse-converter-eroom-to-xml" elt-id="2449"/>
+      </converter>
+      <converter type-out="application/vxml-unnormalized" type-in="application/lotus" elt-id="2452">
+        <call-function name="vse-converter-lotus-to-xml" elt-id="2451"/>
+      </converter>
+      <converter type-in="application/sharepoint" type-out="application/vxml-unnormalized" elt-id="2454">
+        <call-function name="vse-converter-sharepoint-to-xml" elt-id="2453"/>
+      </converter>
+      <converter type-in="application/word" type-out="text/html" elt-id="2456">
+        <call-function name="vse-converter-msword" elt-id="2455"/>
+      </converter>
+      <converter type-in="application/excel" type-out="text/html" elt-id="2458">
+        <call-function name="vse-converter-excel" elt-id="2457"/>
+      </converter>
+      <converter type-in="application/wordperfect" type-out="text/html" elt-id="2460">
+        <call-function name="vse-converter-wordperfect" elt-id="2459"/>
+      </converter>
+      <converter type-in="application/openoffice" type-out="text/html" elt-id="2462">
+        <call-function name="vse-converter-openoffice" elt-id="2461"/>
+      </converter>
+      <converter type-in="application/vnd.ms-project" type-out="application/vxml-unnormalized" elt-id="2464">
+        <call-function name="vse-converter-ms-project" elt-id="2463"/>
+      </converter>
+      <converter type-in="application/ps" type-out="text/plain" elt-id="2466">
+        <call-function name="vse-converter-postscript" elt-id="2465"/>
+      </converter>
+      <converter type-in="application/pdf" type-out="text/html" elt-id="2468">
+        <call-function name="vse-converter-pdf" elt-id="2467"/>
+      </converter>
+      <converter type-in="application/rtf" type-out="text/html" elt-id="2470">
+        <call-function name="vse-converter-rtf" elt-id="2469"/>
+      </converter>
+      <converter type-in="application/outlook-msg" type-out="vivisimo/crawl-data" elt-id="2472">
+        <call-function name="vse-converter-outlook-msg" elt-id="2471"/>
+      </converter>
+      <converter type-in="application/flash" type-out="text/html" elt-id="2474">
+        <call-function name="vse-converter-flash" elt-id="2473"/>
+      </converter>
+      <converter type-in="application/tar" type-out="unknown" elt-id="2476">
+        <call-function name="vse-converter-tar" elt-id="2475"/>
+      </converter>
+      <converter type-in="application/x-gzip" type-out="unknown" elt-id="2478">
+        <call-function name="vse-converter-gunzip" elt-id="2477"/>
+      </converter>
+      <converter type-in="application/zip" type-out="unknown" elt-id="2480">
+        <call-function name="vse-converter-unzip" elt-id="2479"/>
+      </converter>
+      <converter type-in="application/x-compress" type-out="unknown" elt-id="2482">
+        <call-function name="vse-converter-uncompress" elt-id="2481"/>
+      </converter>
+      <converter type-in="text/html" type-out="application/vxml-unnormalized" elt-id="2484">
+        <call-function name="vse-converter-html" elt-id="2483"/>
+      </converter>
+      <converter type-in="text/plain" type-out="application/vxml-unnormalized" elt-id="2486">
+        <call-function name="vse-converter-text" elt-id="2485"/>
+      </converter>
+      <converter type-in="unknown" type-out="application/dbf" elt-id="2488">
+        <converter-test how="wc-set" what="path" elt-id="2487">*.dbf</converter-test>
+      </converter>
+      <converter type-in="application/dbf" type-out="text/csv" elt-id="2490">
+        <call-function name="vse-converter-dbf-to-csv" elt-id="2489"/>
+      </converter>
+      <converter type-in="text/csv" type-out="application/vxml-unnormalized" elt-id="2492">
+        <call-function name="vse-converter-csv-to-vxml" elt-id="2491"/>
+      </converter>
+      <converter type-in="text/xml" type-out="application/vxml-unnormalized" elt-id="2494">
+        <call-function name="vse-converter-xml-to-vxml" elt-id="2493"/>
+      </converter>
+      <converter type-in="application/vxml-unnormalized" type-out="application/vxml-unnormalized" elt-id="2496">
+        <call-function name="vse-converter-normalize" elt-id="2495"/>
+      </converter>
+      <converter type-in="application/vxml-unnormalized" type-out="application/vxml" elt-id="2497"/>
+    </converters>
+  </vse-config>
+  <vse-meta name="6506-binning-tree-null-values" max-elt-id="1" elt-id="1" create-time="1184696960" creator="pawlowski"/>
+</vse-collection>

@@ -1,0 +1,12 @@
+<vce>
+  <document url="http://vivisimo.com?nq_nc_2">
+    <content name="no-query-2" action="none" indexed="false">
+        spanish a pair is two
+        espanol un par es dos
+    </content>
+    <content name="no-cluster-2" action="none" indexed="false">
+        french this is number two
+        francais cest le numero deux
+    </content>
+  </document>
+</vce>

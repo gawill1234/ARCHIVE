@@ -1,0 +1,1257 @@
+#!/usr/bin/python
+
+import os, sys, string, getopt
+
+from cgi_interface import CGIINTERFACE
+from vapi_interface import VAPIINTERFACE
+
+def alloptions():
+
+   print "All options:"
+   print "-P <vivisimo_user_password> or --password=<vivisimo_user_password>"
+   print "   Default:  None"
+   print "-H <target_host> or --host=<target_host>"
+   print "   host running the software under test"
+   print "   Default:  local host"
+   print "-U <vivisimo_user> or --user=<vivisimo_user>"
+   print "   Default:  None"
+   print "-C <collection_name> or --collection=<collection_name>"
+   print "   Default:  None"
+   print "-S <source_name> or --source=<collection_name>"
+   print "   Default:  None"
+   print "-p <search_port> or --port=<search_port>"
+   print "   query service port"
+   print "   Default:  7205"
+   print "-Q <query_string> or --query=<query_string>"
+   print "   Query to process (any string)"
+   print "   Default:  blank string"
+   print "-B <bin_list> or --binlist=<bin_list>"
+   print "   Binning list (bin_name:bin_item, ship:Battleship)"
+   print "   Default:  query-meta"
+   print "-f or --force"
+   print "   Set the force flag"
+   print "   Default:  no force"
+   print "-n <number> or --num=<number>"
+   print "   Number of documents returned"
+   print "   Default:  1000"
+   print "-F <file_path> or --filepath=<file_path>"
+   print "   Full path name of file"
+   print "   Default:  None"
+   print "-D <target_dir> or --targetdir=<target_dir>"
+   print "   Directory that is target of command"
+   print "   Default:  /tmp"
+   print "-d <dir_type> or --dirtype=<dir_type>"
+   print "   valid:  base, bin, service, converter, collection"
+   print "   Default:  base"
+   print "-T <target_os> or --targetos=<target_os>"
+   print "   valid:  linux, solaris, windows, unix"
+   print "   Default:  linux"
+   print "-O <output_file> or --targetos=<output_file>"
+   print "   Where to dump query output"
+   print "   Default:  query-results"
+   print "-t <max_run_time> or --maxtime=<max_run_time>"
+   print "   max time allowed for a crawl"
+   print "   Default:  200 seconds"
+   print "-R <project_name> or --project=<project_name>"
+   print "   Name of project to work with"
+   print "   Default:  query-meta"
+   print "-w or --winfiles"
+   print "   Use alternate files for windows"
+   print "   Default:  No windows files"
+   print "-v <virtual_dir> or --virtualdir=<virtual_dir>"
+   print "   Default:  vivisimo"
+
+   return
+
+def dohelp(mycommand):
+
+   alloptions()
+
+   print "Permitted options for this command:"
+   ####################################################
+   #
+   #   Collection commands
+   #
+   if ( mycommand == "get_collection" ):
+      print "command:  get_collection"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+
+   if ( mycommand == "get_raw_collection" ):
+      print "command:  get_collection"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+
+   if ( mycommand == "delete_collection" ):
+      print "command:  delete_collection"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+      print "          -f"
+
+   if ( mycommand == "create_collection" ):
+      print "command:  create_collection"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+
+   if ( mycommand == "delete_data" ):
+      print "command:  delete_data"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+      print "          -f"
+
+   if ( mycommand == "collection_exists" ):
+      print "command:  collection_exists"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+
+   if ( mycommand == "remove_collection" ):
+      print "command:  remove_collection"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+   ####################################################
+   ####################################################
+   #
+   #   Crawler commands
+   #
+   if ( mycommand == "start_crawl" ):
+      print "command:  start_crawl"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+
+   if ( mycommand == "stop_crawler" ):
+      print "command:  stop_crawler"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+      print "          -f"
+
+   if ( mycommand == "refresh_crawl" ):
+      print "command:  refresh_crawl"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+
+   if ( mycommand == "resume_crawl" ):
+      print "command:  resume_crawl"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+
+   if ( mycommand == "get_status" ):
+      print "command:  get_status"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+
+   if ( mycommand == "wait_for_idle" ):
+      print "command:  wait_for_idle"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+      print "          -t <wait_time>"
+   ####################################################
+   ####################################################
+   #
+   #   Indexer commands
+   #
+   if ( mycommand == "build_index" ):
+      print "command:  build_index"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+
+   if ( mycommand == "stop_indexing" ):
+      print "command:  stop_indexing"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+      print "          -f"
+
+   if ( mycommand == "stop_crindex" ):
+      print "command:  stop_crindex"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+      print "          -f"
+   ####################################################
+
+   if ( mycommand == "get_bin" ):
+      print "command:  get_bin"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+      print "          -B <bin_list>"
+      print "          -n <num_results_returned>"
+
+   if ( mycommand == "check_bin" ):
+      print "command:  check_bin"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+      print "          -B <bin_list>"
+      print "          -n <num_results_returned>"
+
+   if ( mycommand == "run_query" ):
+      print "command:  run_query"
+      print "options:  -C <collection_name>"
+      print "          -S <source_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+      print "          -O <query_output_file>"
+      print "          -Q <query>"
+      print "          -r <rights>"
+      print "          -n <num_results_returned>"
+
+   ####################################################
+   #
+   #   Query service commands
+   #
+   if ( mycommand == "query_service_status" ):
+      print "command:  query_service_status"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+
+   if ( mycommand == "start_query_service" ):
+      print "command:  start_query_service"
+      print "options:  -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+
+   if ( mycommand == "stop_query_service" ):
+      print "command:  stop_query_service"
+      print "options:  -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+   ###################################################
+   ####################################################
+   #
+   #   File commands
+   #
+   if ( mycommand == "put_file" ):
+      print "command:  put_file"
+      print "options:  -H <target_host>"
+      print "          -F <local_file(full path)>"
+      print "          -D <target_dir>"
+
+   if ( mycommand == "get_file" ):
+      print "command:  get_file"
+      print "options:  -H <target_host>"
+      print "          -F <remote_file(full path)>"
+
+   if ( mycommand == "delete_file" ):
+      print "command:  delete_file"
+      print "options:  -C <collection_name>"
+      print "          -H <target_host>"
+      print "          -U <vivisimo_user>"
+      print "          -P <vivisimo_password>"
+      print "          -T <target_os>"
+      print "          -R <project_name>"
+
+   if ( mycommand == "vivisimo_dir" ):
+      print "command:  vivisimo_dir"
+      print "options:  -H <target_host>"
+      print "          -d <which_bin_dir>"
+
+   if ( mycommand == "where_is_vivisimo" ):
+      print "command:  where_is_vivisimo"
+      print "options:  -H <target_host>"
+
+   sys.exit(1)
+
+def envsetup(user=None, pswd=None, port=0, host=None,
+             tos=None, collection=None, project=None, virtualdir=None, targarch=None):
+
+   if ( user != None ):
+      os.putenv('VIVUSER', user)
+
+   if ( pswd != None ):
+      os.putenv('VIVPW', pswd)
+
+   if ( port != 0 ):
+      os.putenv('VIVPORT', port)
+
+   if ( tos != None ):
+      os.putenv('VIVTARGETOS', tos)
+
+   if ( host != None ):
+      os.putenv('VIVHOST', host)
+
+   if ( collection != None ):
+      os.putenv('VIVCOLLECTION', collection)
+
+   if ( targarch != None ):
+      os.putenv('VIVTARGETARCH', targarch)
+
+   envlist = {'VIVUSER':user, 'VIVPW':pswd, 'VIVPORT':port, 'VIVTARGETOS':tos, 'VIVHOST':host, 'VIVCOLLECTION':collection, 'VIVPROJECT':project, 'VIVVIRTUALDIR':virtualdir, 'VIVTARGETARCH':targarch}
+
+   return envlist
+
+def MAIN():
+
+   user = None
+   pswd = None
+   host = None
+   dbg = None
+   waitforit = None
+   colhost = None
+   tos = None
+   service = None
+   ppid = 0
+   collection = None
+   source = None
+   query = None
+   project = None
+   vd = None
+   port = 0
+   winfiles = 0
+   binlist = None
+   num = 1000
+   filepath = None
+   savepath = None
+   targetdir = None
+   outputfile = None
+   rights = None
+   dirtype = "base"
+   imaxtime = 0
+   helpflag = 0
+   rint = 0
+   biu = 1
+   attr="label"
+   which = None
+   ncnt = None
+   ta = None
+   appname = None
+   showdups = 1
+   et = None
+   en = None
+
+   dbcommand = None
+   sqlstmt = None
+   dbase = None
+   docid = None
+   tname = None
+
+   force = 0
+   udf = 0
+
+   kill_level = 1
+   kopti = "yes"
+
+   opts, args = getopt.getopt(sys.argv[1:], "Z:i:a:K:S:A:P:h:H:U:C:p:Q:fB:n:F:D:T:O:d:t:R:wv:r:s:b:c:W:zumq:NIg:", ["help", "elemtype=", "elemname=", "docid=", "attribute=", "password=", "colhost=", "host=", "user=", "collection=", "port=", "query=", "force", "binlist=", "num=", "filepath=", "targetdir=", "targetos=", "outputfile=", "dirtype=", "maxtime=", "project=", "winfiles", "virtualdir=", "source=", "kill=", "rights=", "sql=", "database=", "dbcommand=", "service=", "ppid=", "which=", "arch=", "srcdir=", "nodups", "waitfor=", "usedefcon", "nocount", "repointernal", "debug=", "testname="])
+
+   for o, a in opts:
+      if o in ("-A", "--attribute"):
+         attr = a
+         appname = a
+      if o in ("-a", "--arch"):
+         ta = a
+      if o in ("-g", "--debug"):
+         dbg = a
+      if o in ("-i", "--docid"):
+         docid = a
+      if o in ("-I", "--repointernal"):
+         rint = 1
+      if o in ("-s", "--sql"):
+         sqlstmt = a
+      if o in ("-b", "--database"):
+         dbase = a
+      if o in ("-c", "--dbcommand"):
+         dbcommand = a
+      if o in ("-S", "--source", "--service"):
+         source = a
+         service = a
+         savepath = a
+      if o in ("-P", "--password"):
+         pswd = a
+      if o in ("-u", "--usedefcon"):
+         udf = 1
+      if o in ("-N", "--nocount"):
+         ncnt = "true"
+         biu = 0
+      if o in ("-q", "--help"):
+         helpflag = 1
+      if o in ("-p", "--port", "--ppid"):
+         port = a
+         ppid = a
+      if o in ("-K", "--kill"):
+         kopti = a
+      if o in ("-H", "--host"):
+         host = a
+      if o in ("-h", "--colhost"):
+         colhost = a
+      if o in ("-U", "--user"):
+         user = a
+      if o in ("-C", "--collection"):
+         collection = a
+      if o in ("-Q", "--query"):
+         query = a
+      if o in ("-B", "--binlist"):
+         binlist = a
+      if o in ("-f", "--force"):
+         kopti = "kill"
+         force = 1
+      if o in ("-w", "--winfiles"):
+         winfiles = 1
+      if o in ("-n", "--num", "--elemname"):
+         num = a
+         en = a
+      if o in ("-F", "--filepath", "--srcdir"):
+         filepath = a
+      if o in ("-W", "--which"):
+         which = a
+      if o in ("-D", "--targetdir"):
+         targetdir = a
+      if o in ("-m", "--waitfor"):
+         waitforit = a
+      if o in ("-d", "--dirtype"):
+         dirtype = a
+      if o in ("-T", "--targetos"):
+         tos = a
+      if o in ("-O", "--outputfile"):
+         outputfile = a
+      if o in ("-t", "--maxtime", "--elemtype"):
+         imaxtime = a
+         et = a
+      if o in ("-R", "--project"):
+         project = a
+      if o in ("-v", "--virtualdir"):
+         vd = a
+      if o in ("-r", "--rights"):
+         rights = a
+      if o in ("-z", "--nodups"):
+         showdups = 0
+      if o in ("-Z", "--testname"):
+         tname = a
+
+   mycommand = os.path.basename(sys.argv[0])
+
+   if (helpflag == 1):
+      dohelp(mycommand)
+
+   envlist = envsetup(user=user, pswd=pswd, port=port, host=host, tos=tos,
+                      collection=collection, project=project, virtualdir=vd, targarch=ta)
+
+   cmdinterface = CGIINTERFACE(environment=envlist)
+   cmdinterface2 = VAPIINTERFACE(environment=envlist)
+
+   if ( which == None ):
+      which = cmdinterface.TENV.defaultsubcoll
+
+   #print "Command: ",  mycommand
+
+   if ( mycommand == "crt" ):
+      cmdinterface.testtest()
+   if ( mycommand == "testtest" ):
+      cmdinterface.testtest()
+      sys.exit(0)
+
+   ####################################################
+   #
+   #   Query processing commands
+   #
+   if ( mycommand == "content_titles" ):
+      val = cmdinterface.get_content_titles(query=query, filenm=filepath)
+      if ( val == None ):
+         print ""
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "restore_collection" ):
+      val = cmdinterface.restore_collection(testname=tname,
+                                            collection=collection)
+      if ( val == None ):
+         print ""
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "get_url_matches" ):
+      val = cmdinterface.query_matches(query=query, filenm=filepath)
+      if ( val == None ):
+         print ""
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "get_match_counts" ):
+      val = cmdinterface.query_match_counts(query=query, filenm=filepath)
+      if ( val == None ):
+         print ""
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "url_count" ):
+      val = cmdinterface.query_url_count(query=query, filenm=filepath)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "url_count_qe" ):
+      val = cmdinterface2.getAddedSourceUrlCount(filename=filepath)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "count_urls" ):
+      val = cmdinterface.count_query_urls(query=query, filenm=filepath)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "get_query_url" ):
+      val = cmdinterface.get_one_url(query=query, value=num, filenm=filepath)
+      if ( val == None ):
+         print None
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "get_url_by_id" ):
+      val = cmdinterface.get_url_by_id(query=query, value=docid, filenm=filepath)
+      if ( val == None ):
+         print None
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "get_query_urls" ):
+      val = cmdinterface.get_query_urls(query=query, filenm=filepath)
+      if ( val == None ):
+         print None
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "sort_query_urls" ):
+      val = cmdinterface.get_sorted_query_urls(query=query, filenm=filepath)
+      if ( val == None ):
+         print None
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "count_bin_urls" ):
+      val = cmdinterface.count_bin_urls(query=query, value=binlist, filenm=filepath)
+      if ( val == None ):
+         print None
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "query_urls_by_content" ):
+      val = cmdinterface.urls_by_content(query=query, which=which, value=binlist, filenm=filepath)
+      if ( val == None ):
+         print None
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   ####################################################
+   #
+   #   Collection commands
+   #
+   if ( mycommand == "run_velocity" ):
+      if ( appname == None ):
+         print "run_velocity:  No application specified"
+         dohelp(mycommand)
+      val = cmdinterface.run_velocity(appname=appname, runargs=colhost)
+      sys.exit(val)
+
+   if ( mycommand == "backup_repository" ):
+      val = cmdinterface.backup_repository(filename=savepath)
+      sys.exit(val)
+
+   if ( mycommand == "delete_repository" ):
+      val = cmdinterface.delete_repository(filename=savepath)
+      sys.exit(val)
+
+   if ( mycommand == "restore_repository" ):
+      val = cmdinterface.restore_repository(filename=savepath,
+                                            collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "repository_import" ):
+      val = cmdinterface.repo_import(importfile=filepath,
+                                     backupfile=savepath, backitup=biu)
+      sys.exit(val)
+
+   if ( mycommand == "repository_update" ):
+      val = cmdinterface.repo_update(importfile=filepath,
+                                     backupfile=savepath, backitup=biu)
+      sys.exit(val)
+
+   if ( mycommand == "repository_delete" ):
+      val = cmdinterface.repo_delete(elemtype=et, elemname=en)
+      sys.exit(val)
+
+   if ( mycommand == "new_repository" ):
+      if ( filepath == None ):
+         print "new_repository:  No filename specified to replace repository"
+         dohelp(mycommand)
+      val = cmdinterface.new_repository(filename=filepath)
+      sys.exit(val)
+
+   if ( mycommand == "get_collection" ):
+      if ( collection == None ):
+         print "get_collection:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.get_collection(collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "get_service_pid" ):
+      val = cmdinterface.get_service_pid(service=service, collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "get_index_file_count" ):
+      val = cmdinterface.get_index_file_count(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "get_service_pid_count" ):
+      val = cmdinterface.get_service_pid_count(service=service, collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "get_service_pid_list" ):
+      val = cmdinterface.get_service_pid_list(service=service, collection=collection)
+      if val == None or val == []:
+         print 0
+         sys.exit(0)
+      else:
+         print '\n'.join(val)
+         sys.exit(0)
+
+   if ( mycommand == "get_url_errors" ):
+      val = cmdinterface.get_url_errors(collection=collection, host=colhost, which=which)
+      sys.exit(val)
+
+   if ( mycommand == "get_collection_admin" ):
+      val = cmdinterface.get_collection_admin(collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "get_crawl_dir" ):
+      val = cmdinterface.get_crawl_dir(collection=collection)
+      if ( val == None ):
+         print ""
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "find_cgi_core" ):
+      val = cmdinterface.find_cgi_core()
+      if ( val == None ):
+         print ""
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "find_core" ):
+      val = cmdinterface.find_core()
+      if ( val == None ):
+         print ""
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "find_collection_core" ):
+      val = cmdinterface.find_collection_core(collection=collection)
+      if ( val == None ):
+         print ""
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if (mycommand == "remove_collection" ):
+      if ( collection == None ):
+         print "remove_collection:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.remove_collection(collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "get_vce" ):
+      val = cmdinterface.get_vce(collection=collection, num=num)
+      sys.exit(val)
+
+   if ( mycommand == "get_bin_attribute" ):
+      val = cmdinterface.get_bin_attribute(collectionname=collection, attribname=attr, num=num)
+      sys.exit(val)
+
+   if ( mycommand == "check_bin_attribute" ):
+      val = cmdinterface.check_bin_attribute(collection=collection, attrib=attr, num=num)
+      sys.exit(val)
+
+   if ( mycommand == "delete_collection" ):
+      if ( collection == None ):
+         print "delete_collection:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.delete_collection(collection=collection, force=force)
+      sys.exit(val)
+
+   if ( mycommand == "create_collection" ):
+      if ( collection == None ):
+         print "create_collection:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.create_collection(collection=collection, usedefcon=udf)
+      sys.exit(val)
+
+   if ( mycommand == "get_staging" ):
+      val = cmdinterface.get_staging(collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "push_to_live" ):
+      val = cmdinterface.push_to_live(collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "get_staging_indexer" ):
+      val = cmdinterface.get_staging_indexer(collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "indexing_test_status" ):
+      val = cmdinterface.indexing_test_status(collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "crawler_status" ):
+      val = cmdinterface.crawler_service_status(collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "delete_data" ):
+      if ( collection == None ):
+         print "delete_data:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.delete_data(collection=collection, force=force)
+      sys.exit(val)
+
+   if ( mycommand == "collection_exists" ):
+      if ( collection == None ):
+         print "collection_exists:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.collection_exists(collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "file_exists" ):
+      if ( filepath == None ):
+         print "file_exists:  No file name specified"
+         dohelp(mycommand)
+      val = cmdinterface.file_exists(filename=filepath)
+      print val
+      sys.exit(val)
+
+   if ( mycommand == "dump_index" ):
+      val = cmdinterface.dump_indices(collectionname=collection)
+      sys.exit(val)
+
+   if ( mycommand == "get_index_path" ):
+      val = cmdinterface.get_index_path(collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "get_index_size" ):
+      val = cmdinterface.get_index_size(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "crawl_dups" ):
+      val = cmdinterface.get_crawl_dups(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "crawl_elapsed" ):
+      val = cmdinterface.get_crawl_elapsed(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "crawled_bytes" ):
+      val = cmdinterface.get_crawled_bytes(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "crawl_errors" ):
+      val = cmdinterface.get_crawl_errors(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "crawl_outputs" ):
+      val = cmdinterface.get_crawl_outputs(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "crawl_idx_input" ):
+      val = cmdinterface.get_crawl_idx_input(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "crawl_idx_reply" ):
+      val = cmdinterface.get_crawl_idx_reply(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "crawl_idx_output_state" ):
+      val = cmdinterface.get_crawl_idx_output_state(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "crawl_pending" ):
+      val = cmdinterface.get_crawl_pending(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "crawl_inputs" ):
+      val = cmdinterface.get_crawl_inputs(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "index_docs" ):
+      val = cmdinterface.get_index_docs(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "index_time" ):
+      val = cmdinterface.get_index_time(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "index_size" ):
+      val = cmdinterface.get_index_size(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "hang_check" ):
+      val = cmdinterface.hang_check(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "index_contents" ):
+      val = cmdinterface.get_index_contents(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "valid_indexes" ):
+      val = cmdinterface.get_valid_index(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "index_urls" ):
+      val = cmdinterface.get_index_urls(collection=collection)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+   ####################################################
+   ####################################################
+   #
+   #   Crawler commands
+   #
+   if ( mycommand == "start_crawl" ):
+      if ( collection == None ):
+         print "start_crawl:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.start_crawl(collection=collection, which=which)
+      sys.exit(val)
+
+   if ( mycommand == "merge_index" ):
+      val = cmdinterface.merge_index(collection=collection, which=which)
+      sys.exit(val)
+
+   if ( mycommand == "stop_crawler" ):
+      if ( collection == None ):
+         print "stop_crawler:  No collection specified"
+         dohelp(mycommand)
+      if ( kopti == "kill" ):
+         kill_level = 2
+      elif ( kopti == "yes" ):
+         kill_level = 1
+      else:
+         kill_level = 0
+      val = cmdinterface.stop_crawl(collection=collection, force=kill_level, which=which)
+      sys.exit(val)
+
+   if ( mycommand == "refresh_crawl" ):
+      if ( collection == None ):
+         print "refresh_crawl:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.refresh_crawl(collection=collection, which=which)
+      sys.exit(val)
+
+   if ( mycommand == "resume_crawl" ):
+      if ( collection == None ):
+         print "resume_crawl:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.resume_crawl(collection=collection, which=which)
+      sys.exit(val)
+
+   if ( mycommand == "get_status" ):
+      if ( collection == None ):
+         print "get_status:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.get_status(collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "wait_for_idle" ):
+      if ( collection == None ):
+         print "wait_for_idle:  No collection specified"
+         dohelp(mycommand)
+      maxtime = string.atof('%s' % imaxtime)
+      val = cmdinterface.wait_for_idle(collection=collection, vmaxtime=maxtime, waitfor=waitforit)
+      sys.exit(val)
+   ####################################################
+   ####################################################
+   #
+   #   Indexer commands
+   #
+   if ( mycommand == "build_index" ):
+      if ( collection == None ):
+         print "build_index:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.build_index(collection=collection, which=which)
+      sys.exit(val)
+
+   if ( mycommand == "get_indexer_pid" ):
+      val = cmdinterface.get_indexer_pid(collection=collection, which=which)
+      if ( val == None ):
+         print -1
+         sys.exit(-1)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "get_crawler_pid" ):
+      val = cmdinterface.get_crawler_pid(collection=collection, which=which)
+      if ( val == None ):
+         print -1
+         sys.exit(-1)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "stop_indexing" ):
+      if ( collection == None ):
+         print "stop_indexing:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.stop_indexing(collection=collection, force=force, which=which)
+      sys.exit(val)
+
+   if ( mycommand == "stop_crindex" ):
+      if ( collection == None ):
+         print "stop_crindex:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.stop_crindex(collection=collection, force=force)
+      sys.exit(val)
+   ####################################################
+
+   if ( mycommand == "get_bin" ):
+      if ( collection == None ):
+         print "get_bin:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.get_bin(collection=collection, binlist=binlist, num=num)
+      sys.exit(val)
+
+   if ( mycommand == "check_bin" ):
+      if ( collection == None ):
+         print "check_bin:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.check_bin(collection=collection, binlist=binlist, num=num)
+      sys.exit(val)
+
+   if ( mycommand == "run_query" ):
+      if ( collection == None and source == None ):
+         print "run_query:  No collection or source specified"
+         dohelp(mycommand)
+      val = cmdinterface.run_query(collection=collection, source=source, query=query, defoutput=outputfile, rights=rights, num=num, dupshow=showdups, nocount=ncnt, debug=dbg)
+      sys.exit(val)
+
+   if ( mycommand == "query_db" ):
+      val = cmdinterface.run_database_remote(collection=collection, dbcmd=dbcommand, db=dbase, sql=sqlstmt)
+      if ( val == None ):
+         print 0
+         sys.exit(0)
+      else:
+         print val
+         sys.exit(0)
+
+   if ( mycommand == "gcse" ):
+      val = cmdinterface.get_collection_system_errors(collection=collection)
+      if ( val == None ):
+         sys.exit(0)
+      else:
+         sys.exit(val)
+   ####################################################
+   #
+   #   Query service commands
+   #
+   if ( mycommand == "query_service_status" ):
+      val = cmdinterface.query_service_status()
+      sys.exit(val)
+
+   if ( mycommand == "start_query_service" ):
+      val = cmdinterface.start_query_service()
+      sys.exit(val)
+
+   if ( mycommand == "stop_query_service" ):
+      val = cmdinterface.stop_query_service()
+      sys.exit(val)
+
+   if ( mycommand == "kill_service_children" ):
+      val = cmdinterface.kill_service_children(collection=collection, service=service, ppid=ppid)
+      sys.exit(val)
+   ###################################################
+   ####################################################
+   #
+   #   File commands
+   #
+   if ( mycommand == "put_file" ):
+      if ( filepath == None ):
+         print "put_file:  No file to copy specified"
+         dohelp(mycommand)
+      if ( targetdir == None ):
+         print "put_file:  No destination directory specified"
+         dohelp(mycommand)
+      val = cmdinterface.put_file(putfile=filepath, targetdir=targetdir)
+      sys.exit(val)
+
+   if ( mycommand == "put_dir" ):
+      val = cmdinterface.put_dir(targdirname=filepath, targetdir=targetdir, collection=None)
+      sys.exit(val)
+
+   if ( mycommand == "get_file" ):
+      if ( filepath == None ):
+         print "get_file:  No file to get specified"
+         dohelp(mycommand)
+      val = cmdinterface.get_file(getfile=filepath)
+      sys.exit(val)
+
+   if ( mycommand == "delete_file" ):
+      if ( filepath == None ):
+         print "delete_file:  No file to delete specified"
+         dohelp(mycommand)
+      val = cmdinterface.delete_file(removefile=filepath)
+      sys.exit(val)
+
+   if ( mycommand == "vivisimo_dir" ):
+      val = cmdinterface.vivisimo_dir(which=dirtype)
+      print val
+      sys.exit(0)
+
+   if ( mycommand == "where_is_vivisimo" ):
+      val = cmdinterface.where_is_vivisimo()
+      sys.exit(val)
+
+   if ( mycommand == "get_repository" ):
+      val = cmdinterface.get_repository(repointernal=rint)
+      sys.exit(val)
+
+   if ( mycommand == "get_raw_collection" ):
+      if ( collection == None ):
+         print "get_raw_collection:  No collection specified"
+         dohelp(mycommand)
+      val = cmdinterface.get_raw_collection(collectionname=collection)
+      sys.exit(val)
+
+   if ( mycommand == "get_raw_source" ):
+      val = cmdinterface.get_raw_source(sourcename=source)
+      sys.exit(val)
+
+   if ( mycommand == "get_raw_function" ):
+      val = cmdinterface.get_raw_function(functionname=collection)
+      sys.exit(val)
+
+   if ( mycommand == "get_raw_dictionary" ):
+      val = cmdinterface.get_raw_dictionary(dictionary=collection)
+      sys.exit(val)
+
+   if ( mycommand == "get_admin_xml" ):
+      val = cmdinterface.get_collection_admin_xml(collection=collection)
+      sys.exit(val)
+
+   if ( mycommand == "kill_all_services" ):
+      val = cmdinterface.kill_all_services()
+      sys.exit(val)
+
+   if ( mycommand == "kill_admin" ):
+      val = cmdinterface.kill_admin()
+      sys.exit(val)
+
+   ###################################################
+
+   print "Error:  unknown command:", mycommand
+   sys.exit(99)
+
+######################################
+
+if __name__ == "__main__":
+   MAIN()
+

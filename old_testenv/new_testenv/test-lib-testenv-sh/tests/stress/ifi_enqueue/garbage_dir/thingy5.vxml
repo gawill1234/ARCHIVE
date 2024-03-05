@@ -1,0 +1,9 @@
+<vce>
+              <document url="http://vivisimo.com?odd3">
+                <content name="title">character</content>
+                <content name="type">operator</content>
+                <content name="pseudo">number shift</content>
+                <content name="text">!@#$%^&amp;*()_+={}[]\|;:,./?&gt;&lt;</content>
+                <content name="type">odd characters</content>
+              </document>
+</vce>

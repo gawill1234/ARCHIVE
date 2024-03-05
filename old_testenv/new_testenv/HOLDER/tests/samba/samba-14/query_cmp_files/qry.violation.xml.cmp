@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="19" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="9" />
+<attribute name="total-results-with-duplicates" value="19" />
+<document filetypes="xml " vse-base-score="1.99609"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.72.34.html/"
+  graph-id-high-water="26" vertex="27" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.72.34.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">81757</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4489" v="4508">197. The Resolution directed the Attorney General of the State (appellee here) to make a 'full and complete investigation' of '</pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="4509" v="4509">violations </match>
+      <post u="4510" v="4529"><![CDATA[of the subversive activities act of 1951'&lt;a >2&lt;/a> and to determine whether 'subversive persons as defined in said ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="4553" v="4572">official of the State) a one-man legislative committee. The sanctions of prosecution of individuals and dissolution of organizations for </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="4573" v="4573">violation </match>
+      <post u="4574" v="4593">of the 1951 law seem to have been discarded, with the passage of the Resolution, in favor of the sanction </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="5570" v="5589">persons. In most cases, the caveat of the Attorney General that the information should not be understood as indicating a </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="5590" v="5590">violation </match>
+      <post u="5591" v="5610">of the New Hampshire Subversive Activities Act was, to say the least, well-taken, in the light of the conduct </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="6130" v="6149">the Legislature, and to the public generally. The main thrust of the Resolution itself was in terms of individual behavior—</pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="6150" v="6150">violation </match>
+      <post u="6151" v="6170">of the 1951 Act and the presence, in the State, of 'subversive persons,' were the objects of investigation. The collection </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="8203" v="8222">person has violated the act. * * * When the investigation provided for is a general one, the discovery of a specific, individual </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="8223" v="8223">violation </match>
+      <post u="8224" v="8243">of law is collateral and subordinate to the main object of the inquiry.' In evaluating this, it must be admitted </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="9376" v="9395">even more extreme; there is no demonstration at all of what the legislative purpose is, outside of the investigation of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="9396" v="9396">violations, </match>
+      <post u="9397" v="9416"><![CDATA[suspicions of violations, and conduct raising some question of violation of an existing statute.&lt;a >9&lt;/a> It is anomalous ]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="9379" v="9398">there is no demonstration at all of what the legislative purpose is, outside of the investigation of violations, suspicions of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="9399" v="9399">violations, </match>
+      <post u="9400" v="9419"><![CDATA[and conduct raising some question of violation of an existing statute.&lt;a >9&lt;/a> It is anomalous to say, as ]]></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="9386" v="9405">what the legislative purpose is, outside of the investigation of violations, suspicions of violations, and conduct raising some question of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="9406" v="9406">violation </match>
+      <post u="9407" v="9426"><![CDATA[of an existing statute.&lt;a >9&lt;/a> It is anomalous to say, as I fear the Court says today, that ]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="10620" v="10639"><![CDATA[p>
+        &lt;p >'That the attorney general is hereby authorized and directed to make full and complete investigation with respect to ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="10640" v="10640">violations </match>
+      <post u="10641" v="10660">of the subversive activities act of 1951 and to determine whether subversive persons as defined in said act are presently </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... to make a 'full and complete investigation' of 'violations of the subversive activities act of 1951'&lt;a > ... prosecution of individuals and dissolution of organizations for violation of the 1951 law seem to have been  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.99609"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.55.406.447.html/"
+  graph-id-high-water="13" vertex="14" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.55.406.447.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">41314</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432913"
+    u="28"
+  >Jun 25,
+  2008 22:28:33 GMT</content>
+  <content name="language" weight="0" action="none" u="30">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="161" v="180">presents, for the first time in this Court, issues relating to the availability of certain defenses to a prima facie </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="181" v="181">violation </match>
+      <post u="182" v="201"><![CDATA[of § 2(e) of the Clayton Act, 38 Stat. 730, as amended by the Robinson-Patman Act, 49 Stat. 1526.&lt;]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="253" v="272">neither the presence of 'cost justification' nor the absence of competitive injury may constitute a defense to a § 2(e) </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="273" v="273"><![CDATA[violation.&lt;/]]></match>
+      <post u="274" v="293"><![CDATA[p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >2&lt;/span>
+      &lt;p >The Court of Appeals found that competition existed between thee larger and smaller ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="303" v="322">that an absence of competitive injury would not constitute a 'justification' rebutting a prima facie showing of a § 2(e) </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="323" v="323">violation. </match>
+      <post u="324" v="343"><![CDATA[Through a different majority,&lt;a >2&lt;/a> however, it remanded the case on the 'cost justification' defense under § 2(b), ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="2140" v="2159">proscriptions of these three subsections are absolute. Unlike § 2(a), none of them requires, as proof of a prima facie </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="2160" v="2160">violation, </match>
+      <post u="2161" v="2180"><![CDATA[a showing that the illicit practice has had an injurious or destructive effect on competition.&lt;a >7&lt;/a> Similarly, none ]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="3102" v="3121">therefore, that neither 'cost-justification' nor an absence of competitive injury may constitute 'justification' of a prima facie § 2(e) </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="3122" v="3122"><![CDATA[violation.&lt;]]></match>
+      <post u="3123" v="3142"><![CDATA[a >18&lt;/a> The judgment of the Court of Appeals must accordingly be reversed insofar as it set aside and ]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="3651" v="3670">burden of rebutting the prima-facie case thus made by showing justification shall be upon the person charged with a </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="3671" v="3671">violation </match>
+      <post u="3672" v="3691">of this section, and unless justification shall be affirmatively shown, the Commission is authorized to issue an order terminating the </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="4721" v="4740">Simplicity concedes this, in effect, but argues that it should be allowed under § 2(b) to 'justify' the § 2(e) </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="4741" v="4741">violation </match>
+      <post u="4742" v="4761"><![CDATA[by making an affirmative showing of absence of competitive injury.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >8&lt;/a>
+        &lt;p > In allowing a ]]></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="4902" v="4921"><![CDATA[a >10&lt;/a>
+        &lt;p > The Courts of Appeals, prior to this case, had uniformly rejected the argument that § 2(e) ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="4922" v="4922">violations </match>
+      <post u="4923" v="4942">were subject to a cost-justification defense or required a showing of adverse effect on competition. Elizabeth Arden, Inc., v. </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="5247" v="5266">Oil Co., 1940, 310 U.S. 150, 60 S.Ct. 811, 84 L.Ed. 1129, which contain examples of per se </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="5267" v="5267">violations </match>
+      <post u="5268" v="5287">under the Sherman Act, 15 U.S.C.A. §§ 1—715 note. It is not without significance that earlier versions of both the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... availability of certain defenses to a prima facie violation of § 2(e) of the Clayton Act, 38  ... may constitute a defense to a § 2(e) violation.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >2&lt;/span>
+      &lt;p >The  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.96875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.301.482.html/"
+  graph-id-high-water="4" vertex="5" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.301.482.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">21709</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="163" v="182">by this case is the extent to which the Labor Board may, in formulating a complaint and in finding a </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3178"
+      />
+      <match u="183" v="183">violation </match>
+      <post u="184" v="203">of this section of the Act, take cognizance of events occurring subsequent to the filing of the charge upon which </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="343" v="362">was refusing to issue a complaint on the ground that 'it does not appear that there is sufficient evidence of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3178"
+      />
+      <match u="363" v="363">violations </match>
+      <post u="364" v="383"><![CDATA[to warrant further proceedings at this time.' The union requested the General Counsel of the Board to review this refusal.&lt;]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1224" v="1243">those alleged in the charge and which grow out of      them while the proceeding is pending before the Board. The      </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3178"
+      />
+      <match u="1244" v="1244">violations </match>
+      <post u="1245" v="1264">alleged in the complaint and found by the Board      were but a prolongation of the attempt to form the company      </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1262" v="1281">form the company      union and to secure the contracts alleged in the charge. All      are of the same class of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3178"
+      />
+      <match u="1282" v="1282">violations </match>
+      <post u="1283" v="1302">as those set up in the      charge and were continuations of them in pursuance of the      same objects. The Board'</post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="1369" v="1388"><![CDATA[span>
+      &lt;p >In the present case, as in National Licorice, the unilateral wage increase was 'of the same class of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3178"
+      />
+      <match u="1389" v="1389">violations </match>
+      <post u="1390" v="1409">as those set up in the charge * * *.' The wage increase was 'related to' the conduct alleged in the charge and </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="2528" v="2547">by the device of injecting into the case entirely new matter completely unrelated to the charge, the regional director, in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3178"
+      />
+      <match u="2548" v="2548">violation </match>
+      <post u="2549" v="2568">of the provisions of the Act, that no complaint can be filed except one based upon a charge, has filed </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... in formulating a complaint and in finding a violation of this section of the Act, take cognizance  ... not appear that there is sufficient evidence of violations to warrant further proceedings at this time.' The  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.9375"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.601.414.html/"
+  graph-id-high-water="18" vertex="19" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.601.414.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">48869</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="151" v="170">States District Court for the District of Nevada to recover damages from the railroad for allegedly wrongfully discharging him in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="171" v="171">violation </match>
+      <post u="172" v="191">of the collective bargaining agreement between it and the Brotherhood of Railroad Trainmen. The validity of the discharge was previously </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="843" v="862">the instant suit. His complaint alleges a cause of action predicated on the same grounds of allegedly wrongful dismissal in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="863" v="863">violation </match>
+      <post u="864" v="883">of the collective bargaining agreement which had been urged on the Adjustment Board, namely, (1) that he 'was dismissed without </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1314" v="1333"><![CDATA[Board&lt;a >4&lt;/a> it appears 'plain that the Board was of opinion, and in substance held, that the asserted ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="1334" v="1334">violation </match>
+      <post u="1335" v="1354">by the Company of Article 32, even if true, would not serve to justify an employee's violation of direct </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1332" v="1351">the asserted violation by the Company of Article 32, even if true, would not serve to justify an employee's </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="1352" v="1352">violation </match>
+      <post u="1353" v="1372">of direct operating instructions and his abandonment of his post.' 255 F.2d at pages 667—668. Since the discharge </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="5438" v="5457">review with a jury trial before complying with a Board order, there would appear to be an unjustifiable discrimination in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="5458" v="5458">violation </match>
+      <post u="5459" v="5478">of the Due Process Clause of the Fifth Amendment. It is not the usual practice in this country to permit </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... the railroad for allegedly wrongfully discharging him in violation of the collective bargaining agreement between it and  ... the same grounds of allegedly wrongful dismissal in violation of the collective bargaining agreement which had been  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.9375"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.334.252.html/"
+  graph-id-high-water="16" vertex="17" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.334.252.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">19648</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432913"
+    u="27"
+  >Jun 25,
+  2008 22:28:33 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="153" v="172">Oklahoma Retail Grocers Association, against appellant, Safeway Stores, for selling several specified items of retail grocery merchandise below 'cost' in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2828"
+      />
+      <match u="173" v="173">violation </match>
+      <post u="174" v="193"><![CDATA[of the Oklahoma Unfair Sales Act. Okla.Stat. tit. 15, §§ 598.1—598.11 (1951). Section 598.3 of the Act provides:&lt;/p>
+    &lt;/]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="420" v="439">petition sought to enjoin several named members of appellee Association, including Speed, alleging that they were selling below cost in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2828"
+      />
+      <match u="440" v="440">violation </match>
+      <post u="441" v="460">of the Act. The trial court, with some qualification, granted the injunction against Safeway and denied relief against appellees. On </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="660" v="679">at      prices which are less than cost to the retailer as defined in      the Oklahoma 'Unfair Sales Act' and in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2828"
+      />
+      <match u="680" v="680">violation </match>
+      <post u="681" v="700">of the      provisions of said 'Unfair Sales Act', except to meet in good      faith the prices of competitors who are </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1366" v="1385">Oklahoma court found that the giving of trading stamps with items sold at or near statutory cost was not a </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2828"
+      />
+      <match u="1386" v="1386">violation </match>
+      <post u="1387" v="1406">of the statute and denied Safeway's request for an injunction. The court also decided that Safeway could not reduce </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="2338" v="2357">of a competitor's price, which price he in good faith believes to be a legal price, there is no </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2828"
+      />
+      <match u="2358" v="2358">violation,' </match>
+      <post u="2359" v="2378">which clearly is not the case herein. In the instant case, Safeway obviously and admittedly did not, in good faith, </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... items of retail grocery merchandise below 'cost' in violation of the Oklahoma Unfair Sales Act. Okla.Stat.  ... alleging that they were selling below cost in violation of the Act. The trial court, with some  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.672.457.html/"
+  graph-id-high-water="19" vertex="20" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.672.457.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">26990</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="399" v="418"><![CDATA[of willful failure to pay the special tax imposed by § 4411 of the Internal Revenue Code,&lt;a >5&lt;/a> in ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3975"
+      />
+      <match u="419" v="419">violation </match>
+      <post u="420" v="439"><![CDATA[of § 7203 of the Code,&lt;a >6&lt;/a> and of failure to register as required by § 4412 of the Code,&lt;]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="424" v="443"><![CDATA[Code,&lt;a >6&lt;/a> and of failure to register as required by § 4412 of the Code,&lt;a >7&lt;/a> in ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3975"
+      />
+      <match u="444" v="444">violation </match>
+      <post u="445" v="464"><![CDATA[of § 7272 of the Code.&lt;a >8&lt;/a> The trial took place subsequent to the announcement of this Court's ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="2605" v="2624">in a lottery operation are subject to the taxing statutes, and that therefore only those persons can be held for </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3975"
+      />
+      <match u="2625" v="2625">violation </match>
+      <post u="2626" v="2645"><![CDATA[of their substantive provisions.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >23&lt;/span>
+      &lt;p >In this case the Government has in effect sought ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="3088" v="3107">been lost of the fact that this is a prosecution for conspiracy to violate a federal taxing statute, not for </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3975"
+      />
+      <match u="3108" v="3108">violation </match>
+      <post u="3109" v="3128">of local gambling laws. An overwhelming showing has been made that petitioners were participants in a large lottery enterprise, but </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... the Internal Revenue Code,&lt;a >5&lt;/a> in violation of § 7203 of the Code,&lt;a >6&lt;/a>  ... 4412 of the Code,&lt;a >7&lt;/a> in violation of § 7272 of the Code.&lt;a >8&lt;/a>  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.1.90.html/"
+  graph-id-high-water="22" vertex="23" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.1.90.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">37990</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="129" v="148"><![CDATA[span >1&lt;/span>
+      &lt;p >The petitioner seeks relief under 28 U.S.C. § 2255, 28 U.S.C.A. § 2255, fromhis  conviction and sentence for ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="149" v="149">violation </match>
+      <post u="150" v="169">of the Federal Kidnapping Act, 18 U.S.C. § 1201, 18 U.S.C.A. § 1201. Briefly, the kidnapping charge grew out of the following </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1196" v="1215"><![CDATA[questions presented.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >7&lt;/span>
+      &lt;p >The precise question at issue, therefore, is whether petitioner's alleged ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="1216" v="1216">violation </match>
+      <post u="1217" v="1236">of the Kidnapping Act had to be prosecuted by indictment. A number of statutory and constitutional provisions and the information </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="2815" v="2834">thereafter he escaped from the Federal Correctional Institution at Tallahassee, Florida. At age 26 he had twice been convicted of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="2835" v="2835">violations </match>
+      <post u="2836" v="2855">of the Dyer Act, 18 U.S.C. § 2312, 18 U.S.C.A. § 2312, was serving 25 years in a Florida prison for armed </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="5038" v="5057">reversal because of this interview. In a criminal case, such a private conference must be deemed presumptively prejudicial where, in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="5058" v="5058">violation </match>
+      <post u="5059" v="5078"><![CDATA[of Fed.Rules Crim.Proc., 32(c)(1),&lt;a >3&lt;/a> it was conducted prior to the plea.&lt;/p>
+    &lt;/div>
+    &lt;]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... 28 U.S.C.A. § 2255, fromhis  conviction and sentence for violation of the Federal Kidnapping Act, 18 U.S.C. § 1201,  ... at issue, therefore, is whether petitioner's alleged violation of the Kidnapping Act had to be prosecuted  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.109.35.html/"
+  graph-id-high-water="39" vertex="40" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.109.35.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">141619</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="9635" v="9654">course it has always been recognized that members of the Party who, either individually or in combination, commit acts in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="9655" v="9655">violation </match>
+      <post u="9656" v="9675">of valid laws can be prosecuted. But the Party as a whole and innocent members of it could not be </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="18696" v="18715"><![CDATA[on to say, in opposing outlawry of the Communist Party:&lt;/p>
+        &lt;p >'I am against it because it is a ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="18716" v="18716">violation </match>
+      <post u="18717" v="18736">of the Constitution of the United States and of the Bill of Rights, and clearly so. I am against it </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="20839" v="20858">of life, limb, liberty, or estate, but by Juries; a freedom which parliaments in all ages contended to preserve from </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="20859" v="20859">violation; </match>
+      <post u="20860" v="20879">as the birthright and chief inheritance of the people, as may appear most remarkably in the Petition of Right, which </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... either individually or in combination, commit acts in violation of valid laws can be prosecuted. But the  ... I am against it because it is a violation of the Constitution of the United States and  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.622.326.html/"
+  graph-id-high-water="35" vertex="36" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.622.326.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">110344</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="500" v="519">trial, in impugning the integrity of the local Federal courts and in other comments made at Honokaa, was guilty of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="520" v="520">violation </match>
+      <post u="521" v="540"><![CDATA[of Canons 1 and 22 of the Canons of Professional Ethics of the American Bar Association&lt;a >3&lt;/a> and ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="14278" v="14297">of the respect in which Canon 22 was thought to have been violated by petitioner's speech, and such a </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="14298" v="14298">violation </match>
+      <post u="14299" v="14318"><![CDATA[does not occur to us.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >4&lt;/a>
+        &lt;p > The portion of the article, in the Hilo ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="16481" v="16500">trial, in impugning the integrity of the local Federal courts and in other comments made at Honokaa, was guilty of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="16501" v="16501">violation </match>
+      <post u="16502" v="16521">of Canons 1 and 22 of the Canons of Professional Ethics of the American Bar Association and should be disciplined </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... other comments made at Honokaa, was guilty of violation of Canons 1 and 22 of the Canons  ... violated by petitioner's speech, and such a violation does not occur to us.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt; ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.548.397.html/"
+  graph-id-high-water="28" vertex="29" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.548.397.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">107068</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1935" v="1954">the employees to submit their claims to the Board for final determination, denies employees equal protection of the law in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="1955" v="1955">violation </match>
+      <post u="1956" v="1975">of the Due Process Clause of the Fifth Amendment. Cf. Bolling v. Sharpe, 347 U.S. 497, 74 S.Ct. 693, </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="3506" v="3525">Board jurisdiction to make a 'final and binding' determination of hiswag e claim deprives him of a jury trial in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="3526" v="3526">violation </match>
+      <post u="3527" v="3546"><![CDATA[of the Seventh Amendment since wage disputes were 'Suits at common law * * *.'&lt;a >10&lt;/a> His contention is all the ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="13578" v="13597">return them. Respondent Madigan challenged this determination in the Court of Claims, which held that the plan was not in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="13598" v="13598">violation </match>
+      <post u="13599" v="13618"><![CDATA[of law. Madigan v. United States, 142 Ct.Cl. 641.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >4&lt;/a>
+        &lt;p > The plan was ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... denies employees equal protection of the law in violation of the Due Process Clause of the Fifth  ... claim deprives him of a jury trial in violation of the Seventh Amendment since wage disputes were ' ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.203.329.html/"
+  graph-id-high-water="6" vertex="7" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.203.329.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">37821</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="636" v="655">2(5) (see note 1), and that respondents, since May 1954, had dominated, interfered with, and supported the Committees in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="656" v="656">violation </match>
+      <post u="657" v="676"><![CDATA[of § 8(a)(2) of the Act.&lt;a >4&lt;/a>&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >5&lt;/span>
+      &lt;p >After a hearing, ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1176" v="1195">of § 2(5), and that during the period here involved respondents dominated, interfered with, and supported those labor organizations in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="1196" v="1196">violation </match>
+      <post u="1197" v="1216">of § 8(a)(2) (see note 4). He therefore recommended that respondents be ordered to cease such conduct, and to </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="3562" v="3581">and employees from discussing matters of mutual interest concerning the employment relationship, and would thus abridge freedom of speech in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="3582" v="3582">violation </match>
+      <post u="3583" v="3602">of the First Amendment of the Constitution. But the Board's order does not impose any such bar; it merely </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... dominated, interfered with, and supported the Committees in violation of § 8(a)(2) of the Act.&lt;a > ... interfered with, and supported those labor organizations in violation of § 8(a)(2) (see note 4). He  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.315.582.html/"
+  graph-id-high-water="17" vertex="18" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.315.582.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">31951</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2149" v="2168"><![CDATA[div >
+      &lt;span >20&lt;/span>
+      &lt;p >Petitioner was a foreign-born young man of 25 with no past history of law ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4960"
+      />
+      <match u="2169" v="2169">violation </match>
+      <post u="2170" v="2189">or of subjection to official interrogation, at least insofar as the record shows. He had progressed only one-half year </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="3488" v="3507">obtain a conviction. They in effect deny him effective representation by counsel. This seems to me to be a flagrant </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4960"
+      />
+      <match u="3508" v="3508">violation </match>
+      <post u="3509" v="3528">of the principle announced in Powell v. State of Alabama, supra, that the right of counsel extends to the preparation </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... of 25 with no past history of law violation or of subjection to official interrogation, at least  ... This seems to me to be a flagrant violation of the principle announced in Powell v. State  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.684.394.html/"
+  graph-id-high-water="30" vertex="31" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.684.394.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">60701</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1233" v="1252">1095 (concurring opinion). 'Among free men, the deterrents ordinarily to be applied to prevent crime are education and punishment for </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="1253" v="1253">violations </match>
+      <post u="1254" v="1273">of the law, not abridgment of the rights of free speech * * *.' Id., 274 U.S. at page 378, 47 S.Ct. </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... to prevent crime are education and punishment for violations of the law, not abridgment of the rights  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.264.583.html/"
+  graph-id-high-water="37" vertex="38" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.264.583.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">21035</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="231" v="250">to correct the testimony of the witness which he knew to be false denied petitioner due process of law in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3299"
+      />
+      <match u="251" v="251">violation </match>
+      <post u="252" v="271"><![CDATA[of the Fourteenth Amendment to the Constitution of the United States.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >2&lt;/span>
+      &lt;p >The record ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... false denied petitioner due process of law in violation of the Fourteenth Amendment to the Constitution of  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.167.127.html/"
+  graph-id-high-water="8" vertex="9" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.167.127.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">39598</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1116" v="1135"><![CDATA[Correspondingly broad disclosures are required of individuals who fall within the statutory proscription.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >7&lt;/span>
+      &lt;p >]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5885"
+      />
+      <match u="1136" v="1136">Violation </match>
+      <post u="1137" v="1156">of this Chapter is punishable as a misdemeanor for individuals, and by a fine of not more than $10,000 for </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... proscription.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >7&lt;/span>
+      &lt;p >Violation of this Chapter is punishable as a misdemeanor  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.310.383.html/"
+  graph-id-high-water="0" vertex="1" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.310.383.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">8051</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="153" v="172">1) (B), 21 U.S.C.A. § 353(b)(1)(B), without a prescription from a licensed physician, which resulted in misbranding and </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1091"
+      />
+      <match u="173" v="173">violation </match>
+      <post u="174" v="193">of 21 U.S.C. § 331(k), 21 U.S.C.A. § 331(k). The Court of Appeals affirmed, one judge dissenting, 258 F.2d </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... a licensed physician, which resulted in misbranding and violation of 21 U.S.C. § 331(k), 21 U.S.C.A. § 331( ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.474.180.html/"
+  graph-id-high-water="10" vertex="11" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.474.180.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">120277</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="8412" v="8431">Executive Order was a general authorization just as the two here. Congress at the time only created criminal offenses for </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17493"
+      />
+      <match u="8432" v="8432">violation </match>
+      <post u="8433" v="8452">of exclusion or curfew orders of the military commander. Likewise we have criminal statutes here. And while the Japanese orders </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... at the time only created criminal offenses for violation of exclusion or curfew orders of the military  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.423.175.463.html/"
+  graph-id-high-water="46" vertex="47" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.423.175.463.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">52192</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="28"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="30">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="7066" v="7085"><![CDATA[a matter of the Federal Constitution.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >12&lt;/a>
+        &lt;p > It is true that the assertion of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="8184"
+      />
+      <match u="7086" v="7086">violation </match>
+      <post u="7087" v="7106">of federal rights through the lack of a direction to answer, passed on below, does not precisely match the dispositive </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... p > It is true that the assertion of violation of federal rights through the lack of a  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.525.248.html/"
+  graph-id-high-water="5" vertex="6" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.525.248.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">53541</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6903" v="6922">The North Dakota District Court, however, struck down a state statute which would have granted WDAY an immunity as in </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7642"
+      />
+      <match u="6923" v="6923">violation </match>
+      <post u="6924" v="6943">of a state constitutional provision saving to 'every man' a court remedy for any injury done his 'person or reputation.' </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... would have granted WDAY an immunity as in violation of a state constitutional provision saving to 'every  ... </content>
+</document>
+<retrieval-performance n-tau="171" n-rho="38" n-uat="0" n-ohr="0"
+  occr-reads="100826" block-reads="209" seeks="0" cache-hits="209" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="38" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="276" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="38" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="276" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-tau="38" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="276" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="95616" block-reads="209" seeks="0" cache-hits="209" cache-misses="0"
+  >
+    <query-performance what="3:" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="95616" block-reads="209" seeks="0" cache-hits="209" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="95" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="2822" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="95" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="2822" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="95" n-rho="95" n-uat="0"
+        n-ohr="0" occr-reads="2822" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-tau="95" n-rho="152" n-uat="0" n-ohr="0"
+          occr-reads="1948" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+        />
+        <query-performance what="or" n-tau="75" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="874" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+        >
+          <query-performance what="0:url" n-tau="38" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="292" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:host" n-tau="38" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="292" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-tau="1" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-tau="37" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="290" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="19" n-rho="19" n-uat="0" n-ohr="0"
+    occr-reads="276" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="19" n-rho="19" n-uat="0"
+      n-ohr="0" occr-reads="276" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-tau="19" n-rho="19" n-uat="0"
+        n-ohr="0" occr-reads="276" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="19" n-rho="19" n-uat="0"
+    n-ohr="0" occr-reads="1836" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="19" n-rho="19" n-uat="0"
+      n-ohr="0" occr-reads="1836" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    >
+      <query-performance what="0:" n-tau="19" n-rho="19" n-uat="0" n-ohr="0"
+        occr-reads="1836" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="64" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="65" block-reads="2" seeks="1" cache-hits="1" cache-misses="1"
+>
+  <query-performance what="1:violation" n-tau="64" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="65" block-reads="1" seeks="1" cache-hits="0" cache-misses="1"
+  />
+  <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+  />
+</query-performance>
+</scope>

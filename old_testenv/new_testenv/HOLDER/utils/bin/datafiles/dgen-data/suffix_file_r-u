@@ -1,0 +1,2000 @@
+.raw, PCM Signed Raw Sound File
+.raw, Raw File Format (bitmap)
+.raw, RAW grayscale/24-bit RGB bitmap image
+.raw, RAW sound file
+.raw, RealAudio sound; see RA
+.rax, Image File
+.ray, Rayshade
+.rb, (fuzzy rule based definition)see below
+.rb, Mime: application/x-rocketbook
+.rb1, R:Base Data File
+.rb2, R:Base Data File
+.rb3, R:Base Data File
+.rbd, (fuzzy rule based definition)fuzzy system modelling environment in ebnf-notation
+.rbf, Rbase datafile
+.rbh, RoboHelp Configuration
+.rbi, Adressmn file
+.rbm, Propellerhead ReBirth Modulation v2.0
+.rbs, RealiMation 3D Object
+.rc, Emacs configuration record
+.rc, ResourCe Script "Borland C++"
+.rc, ResourCe Script "Ms C, C++"
+.rc, ResourCe Script "Resource WorkShop"
+.rc2, Ms Developer Studio not editable resources
+.rc3, Vc98 resources file
+.rcd, Formula 1 car race 2001 Season01 Drivers file
+.rce, Ntgraph Gui Ctl3d file
+.rcf, "Audiogalaxy Rhapsody" storage file
+.rcf, Game: colin Mc Rae car race Configuration file
+.rcg, Netscape newsgroup file (netsc.rcg)
+.rcp, Recomposer's MIDI Sequencer Music File
+.rct, Mime: application/prs.nprend
+.rct, Ms Developer Studio resource template
+.rcv, Resource Compiler; Resource script
+.rc_, Winhelp file (compressed)
+.rd1, DATAIR Retirement Document System Data File
+.rd2, DATAIR Retirement Document System Custom Text File
+.rd3, Ray Dream Designer 3 graphics
+.rd3a, Mac File Type (Ray Dream Designer)
+.rd3f, Mac File Type (CorelDraw 3D File)
+.rd3f, Mac File Type (Ray Dream 3 Mode)
+.rd4, Ray Dream Designer Graphics
+.rd4a, Mac File Type (Ray Dream Studio)
+.rd4f, Mac File Type (Ray Dream 4 Model)
+.rd5, Ray Dream Designer Graphics
+.rdb, Netscape Communicator Aim file
+.rdc, "IBM Voice Type" languages scripts Data file
+.rdef, Geoworks UI resource file (old)
+.rdev, Mac File Type (Chooser Device)
+.rdf, Compiled UIC source code (Geoworks UI Compiler)
+.rdf, Resource Description Framework file
+.rdi, Device independent bitmap file (RIFF RDIB format)
+.rdl, Paradox
+.rdoff, Programming
+.rds, Ray dream 3d amination
+.rdv, Ntgraph Borland C 32 file
+.rdx, Database; Borland Reflex
+.rea, Doc Free Geocom file
+.rea, readme text file
+.readme, text file
+.rec, ARCSERVE archivation protocol
+.rec, EpiInfo datafile
+.rec, Sprint record
+.rec, Windows Macrorecorder macro
+.red, Clarion Modula-2 path info
+.red, Rational Rose module diagram
+.ref, Cross-reference
+.ref, Reference; (generic name)
+.reg, Registration information/key for W95/98...
+.regi, Mac File Type (Kagi Register Program)
+.regs, Mac File Type (Netscape Registry)
+.rem, REMarks
+.ren, Gen. renamed file
+.renderman, Pixar RenderMan 3.1 specification
+.reno, Mac File Type (Apple Guide)
+.rep, AAICWpro autoresponder file
+.rep, Mime: application/vnd.businessobjects
+.rep, Qwk reader REPly file
+.rep, REPort file made by several programs
+.rep!, Mac File Type (Replica)
+.report, Report chemical modeller output file
+.req, REQuest
+.res, Compiled resource Ms C, C++
+.res, Compiled Resources Borland C++
+.res, XBoard resign conferences file
+.resx, Visual Studio .NET file
+.ret, Basic Realizer Careal Caret Samples file
+.rev, FrameMaker document; see MIF
+.rev, Geoworks revision file
+.rev, Revolution stack
+.rex, Oracle report definition
+.rex, PharLab executable file (old format)
+.rex, Rexx language source code
+.rexx, Mime: text/x-script.rexx
+.rexx, Rexx language source code
+.rez, Resource file
+.re_, EPSON CALIBRATION file
+.rf, Bitmap image (Raster File)
+.rf, FrameMaker document
+.rf, Mime: image/vnd.rn-realflash
+.rf, RealFlash Clip
+.rfb, RoboForm
+.rfd, RecogniFORM Form Definition
+.rfg, RFG Integrator System Database
+.rfh, RFG Integrator Householding Database
+.rfm, Rich music format
+.rft, Document; IBM DisplayWrite RFT-DCA
+.rfx, Modula M2sds file
+.rg, Bitmap image (1bit B&W 4bit CMYK) (Raster Graphics format)
+.rgb, Bitmap picture
+.rgb, Mime: image/x-rgb
+.rgb, SGI RGB files (Silicon Graphics)
+.rgb, Silicon Graphics Raw Red, Green and Blue bytes bitmap image
+.rgb, VideoCraft GIF
+.rgba, Raw Red, Green, Blue and intensity bytes
+.rgdb, Mac File Type (Adobe Registration DB)
+.rge, Inno Setup Registry Entries file
+.rgh, ZZ RouGH image/tbv
+.rgi, RealArcade Game Installer (not secured)
+.rgn, DDTitle.Project open with: DDTITLE
+.rgp, RealArcade Game Package
+.rgs, Script for Windows Registry
+.rgx, Symbol tables etc. info (ReaGeniX code generator)
+.rh, Resource Header (Borland C++/Visual C++)
+.ri, Lotus 1-2-3 data
+.ria, Alpharel Group IV bitmap
+.rib, 3d graphics (3D Reality)
+.rib, 3d graphics (Renderman Interface Bytestream)
+.ric, Ricoh fax
+.richmedia, Norton Guides file
+.rif, Recource Interchange File Format bitmap image
+.riff, Mac File Type (Painter Image)
+.riff, Recource Interchange File Format bitmap image
+.rip, Quincy program crash report
+.rip, Remote Access graphics
+.rip, Telegrafx Remote Imaging Protocol (Maximus 3.0)
+.rir, Spaceward Satori family native (Windows)
+.ris, Hdf Zlib file
+.riscos, (makefile for )riscos file
+.rix, Bitmap image (RIX Softworks Paint Tool ColoRIX file)
+.rjs, Mime: application/vnd.rn-realsystem-rjs
+.rjs, RealSystem Skin
+.rkv, RKIVE compressed file archive
+.rl$, Basic Realizer Disk1 file
+.rl1, Descent1 Registered Level File
+.rl2, Descent2 Registered Level
+.rl4, Bitmap image
+.rl8, Bitmap image
+.rla, Alias/Wavefront bitmap image
+.rlb, Alias/Wavefront bitmap image
+.rlb, Harvard Graphics Win data
+.rlc, Bitmap image (Run Length RLC file)
+.rlc, Mime: image/vnd.fujixerox.edmics-rlc
+.rlc2, Image Systems RLC2 Graphic image format
+.rld, Norton Commander 5.0 temporary file
+.rle, Intergraph Format image format
+.rle, Run Length Encoded bitmap image
+.rle, same as bmp
+.rle, Utah raster bitmap image
+.rlf, Mime: application/x-richlink
+.rlf, RichLink compiled format
+.rlg, Regcleaner Languages file
+.rll, Basic Realizer Careal file
+.rlo, Basic Realizer Careal Lib file
+.rlv, Basic Realizer Careal Clipart file
+.rlz, Realizer source code file (CA-Realizer)
+.rm, Mime: application/vnd.rn-realmedia
+.rm, Mime: application/x-pn-realaudio
+.rm, Mime: audio/x-pn-realaudio
+.rm, Mime: audio/x-pn-realaudio-plugin
+.rm, RealMedia
+.rmap, Real Pool Image
+.rmd, Microsoft RegMaid document
+.rme, Sb_awe keys file
+.rmf, Beatnik Rich Music Format
+.rmf, RealMedia File
+.rmi, MIDI-sequention music (RIFF RMID format)
+.rmi, Mime: audio/mid
+.rmk, Makefile (CA Clipper RMake)
+.rmm, Mime: audio/x-pn-realaudio
+.rmm, RealMedia audio (RealPlayer)
+.rmp, Mime: application/vnd.rn-rn_music_package
+.rmp, Mime: audio/x-pn-realaudio
+.rmp, Mime: audio/x-pn-realaudio-plugin
+.rmp, RealAudio audio file
+.rmx, Mime: application/vnd.rn-realsystem-rmx
+.rmx, RealJukeBox MP3 File
+.rn, Xpl program (Nota Bene)
+.rnd, AutoCAD Autoshade rendering slide
+.rnd, Mime: application/prs.nprend
+.rnd, PGP Random Seed
+.rng, Mime: application/ringing-tones
+.rng, Mime: application/vnd.nokia.ringing-tone
+.rng, Nokia Communicator ringing tone
+.rnk, Dial-up shortcut
+.rnl, GTX runlength encoded bitmap graphics
+.rno, Runoff file (VAX)
+.rnx, Mime: application/vnd.rn-realplayer
+.rnx, RealPlayer audio
+.rob, Dllbackup microsoft artgalary file
+.rockwell, rockwell (modem) file
+.roff, Mime: application/x-troff
+.roff, Unformatted manual page (Roff/nroff/troff/groff)
+.rohd, Mac File Type (Read-Only Disk Image)
+.rol, Adlib syntesized music (Roland)
+.rom, Read Only Memory image (emulators/AONs)
+.rona, Mac File Type (Graphing Calculato)
+.rot, Rotater 3D image
+.rov, Rescure Rover game data
+.roy, TrueType
+.rp, Mime: image/vnd.rn-realpix
+.rp, Rainbow Painter image format
+.rp, RealPix image
+.rp1, Database Text; R&R report file
+.rp3, Game: need for speed car race file
+.rpb, CP Backup report
+.rpbm, Portable Bitmap image format
+.rpc, ACT! 2.0 Report
+.rpd, Database; Ashton Tate RapidFile
+.rpf, AutoCAD pattern
+.rpg, The RPG programming language
+.rpgm, Portable Image
+.rpi, "solid free form fabrication" flexible file format
+.rpj, RealSlideshow Project
+.rpl, Document (Replica)
+.rpl, RePLy message
+.rpm, Linux Package Manager( installing, uninstalling, verifying, querying, and updating software packages)
+.rpm, Mime: application/x-pn-realaudio
+.rpm, Mime: audio/x-pn-RealAudio-plugin
+.rpm, Mime: audio/x-pn-realaudio-plugin
+.rpm, RealAudio plugin
+.rpm, RunPaint (Multicolor) image format
+.rpn, ACT! 2.0 Report
+.rpnm, Portable Image image format
+.rppm, Portable Image
+.rpr, "IBM Voice Type" languages Vocabels file
+.rpt, Microsoft Visual Basic Crystal Reports file
+.rpv, Listlabl file
+.rqy, MS Excel OLE DB Query File
+.rrf, Musicmatch Jukebox file
+.rrs, Road Rash Save File
+.rs, Data file (Amiga Resource/Reassembler)
+.rs, Sun Raster Images image format
+.rs6000, Rs 6000 (make-)file
+.rsa, PKCS7 signature, MD5 + RSA
+.rsb, Red Storm Bitmap. RSB plugins for Photo or Paint Shop http://www.deadlyforcegaming.com/
+.rsc, Compiled ReSourCe(s)
+.rsd, Roland sound file
+.rsd, Scanner Recognita file
+.rsed, Mac File Type (ResEdit)
+.rset, Mac File Type (Extensions Manager Set)
+.rsf, Mediafour MacDrive Macintosh Resource Fork
+.rsg, Compiled resource header (EPOC)
+.rsk, Risk project (RiskMan)
+.rsl, Paradox (used with FSL)
+.rsl, PC Tools for Win ReSource Library
+.rsm, Mime: model/vnd.gdl
+.rsm, Mime: model/vnd.gs.gdl
+.rsm, Resume file (WinWay Resume Writer)
+.rsml, Mime: application/vnd.rn-rsml
+.rsml, RealSystem ML File
+.rsn, Propellerhead Reason Audio File
+.rsp, Linker response file (generic)
+.rsrc, Mac File Type (Resource File)
+.rsrc, Mac File Type (Resource Filek ImageBrsrc)
+.rsrc, ReSouRCe rsrc files Type "RSRC" Creator "RSED" (MAC)
+.rss, Resource source file (EPOC)
+.rssc, Mac File Type (Claris Resolve Script)
+.rst, "IBM Voice Type" languages scripts Data file
+.rsx, data base file (from ????)
+.rs_, Resource fork of a Macintosh file (Mac-ette)
+.rt, Mime: text/richtext
+.rt, Mime: text/vnd.rn-realtext
+.rt, Rich Text
+.rt, Behemot 3d Scene Files
+.rt$, Ntgraph Visual c wizzard file
+.rta, "IBM Voice Type" languages Vocabels file
+.rtb, Behemot binary 3d Scene Files
+.rtc, Rescue Me file
+.rtcp, Realtime Transport Control Protocol
+.rtd, Ragtime examples render file
+.rte, Mime: x-lml/x-gps
+.rtf, Mime: application/msword
+.rtf, Mime: application/rtf
+.rtf, Mime: application/x-rtf
+.rtf, Mime: text/richtext
+.rtf, Mime: text/rtf
+.rtf, Rich Text Format document
+.rtfd, RTF-Packet (NeXT)
+.rtf_, Mac File Type (RTF File)
+.rtf_, Mac File Type (RTF produced by Microsoft Word (PC ext: RTF))
+.rtf_, Mac File Type (Rich Text Format Filetrtf)
+.rtg, Mime: application/metastream
+.rth, ANSYS Results
+.rtk, RoboHelp Configuration
+.rtl, Bitmap image (HP Raster Transfer Language) (HP colour printers)
+.rtl, Norton Utilities runtime library
+.rtl, Text file
+.rtm, Real Tracker music module (MOD) file
+.rtp, MS patch file (usually MS VC++)
+.rtp, Software update file (.RTPatch)
+.rtr, "IBM Voice Type" languages Vocabels file
+.rts, CA-Realizer runtime library
+.rts, Mime: application/x-rtsl
+.rts, RealAudio's RTSL document
+.rtsl, Real document
+.rtt, Ragtime file
+.rtx, Mime: application/rtf
+.rtx, Mime: text/richtext
+.rtx, Text document
+.rt_, Winhelp file (compressed)
+.ru, Javasoft Jre 1.3 lib file
+.rul, Expert System Rule
+.rul, Rules (Echo-conference)
+.rul, SQL rule script file
+.rule, Mac File Type (Microsoft Rules File)
+.run, PC Tools for Win batch file
+.rus, Russian text
+.rv, Mime: video/vnd.rn-realvideo
+.rv, RealVideo video
+.rvp, Microsoft Scan Configuration file
+.rvw, ReVieW
+.rws, Borland C++ Resource Workshop Symbol file
+.rwx, Criterion RenderWare script/extruded text
+.rwx, MEME Shape File
+.rwx, Netscape Live 3D; see FLR
+.rwz, MS OutlookXP Internet Settings
+.rx, Dos7 file
+.rxd, Reflex datafile
+.rxh, Reflex Database Help File
+.rxml, Roxen Macro Language
+.rxn, MDL Reaction format
+.rxn, Mime: chemical/x-mdl-rxn
+.rxn, Mime: chemical/x-mdl-rxnfile
+.rxr, Reflex Report
+.rxs, Reflex Database Screen Driver
+.rxx, RAR compressed files from a multi-volume archive. Characters xx represents a number from 01 to 99.
+.s, Assembler source code Unix
+.s, Mime: text/x-asm
+.s, Modula-3 foreign assembly source
+.s, MultiEdit macro source
+.s, Scheme language source
+.s, Source code (non-PC platforms/Unix)
+.s, Train Simulator Shape File (Microsoft Train Simulator)
+.s, Mozilla (Netscape) Password Data (Mozilla.org) (Mozilla)
+.s, Nitpicker Backup Ipflow File
+.s, Free Pascal Assembler File for Linux or DOS Version (FPC Development Team)
+.s#+a, Mac File Type (Rag Time 2 text file)
+.s#+d, MAC CREATOR CODE (Rag Time 2)
+.s$$, Sprint temporary sort
+.s$n, Mindstore Digital Wallet File
+.s01, WordPerfect Distribution File (Corel Word Perfect)
+.s02, WordPerfect Distribution File (Corel Word Perfect)
+.s03, WordPerfect Distribution File (Corel Word Perfect)
+.s19, Motorola EEPROM programming
+.s1k, S1000 Simnet format
+.s2, Motorola S-record format
+.s2p, Sonnet File
+.s3, Motorola S-record format
+.s31, audio module
+.s330, sound file
+.s3d, Micrografx Simply 3D Project
+.s3i, Sample file (Digiplayer/ST3)
+.s3m, Digiplayer Sample File
+.s3m, Mime: audio/s3m
+.s3m, Mime: audio/x-mod
+.s3m, Scream Tracker III music (16 channels)
+.s3r, Rtl Ski Jump replay file
+.s3z, Mime: audio/x-mod
+.s50, sound file
+.s550, sound file
+.s57, vector image ( "International Hydrographic Organization's" )
+.s6bn, Mac File Type (Word 6 Template)
+.s8bn, Mac File Type (Word 98 Template)
+.sa, System Sa51swe file
+.sa2, Suprise! adlib tracker music module.
+.sacm, Mac File Type (Microsoft Spelling File)
+.sad, Lucas Arts sound file
+.saf, Spatial Archive Interchange Format
+.sah, http://setiathome.ssl.berkeley.edu/
+.saif, Spatial Archive Interchange Format, same as SAF
+.sal, Database Program; SQL Application Language
+.sal, SORITEC datafile
+.sam, Ami Professional document(Samna/Lotus Ami, Ami Pro)
+.sam, Mime: application/vnd.lotus-wordpro
+.sam, MS Office 97 File Converter (DLL)
+.sam, SAMple file
+.sam, Sound Sample
+.sample, WADigital ReportMagic file
+.san, LUCAS arts: The Curse of Monkey Island Movie File
+.sap, hyperbanner: Java animation
+.sar, SAR compressed file archive
+.sar, Saracen Paint image format
+.sas, SAS source code file (VMS)
+.sat, ACIS 2D/3D : Vector graphics / CAD
+.sav, SAVed backup/configuration data
+.sav, SAVed game situation (eg. NetHack)
+.save, Game Salt Lake city 2002 file
+.saveme, Mime: application/octet-stream
+.say, Sound data 1 bit
+.sb, 8bit sound data : Raw Signed PCM Byte format
+.sb, Audio file (Signed Byte)
+.sb!, Superbase : Locking file
+.sbbugreport, SBBugReport.Document open with: APPLOCalize.EXE
+.sbc, Smart Book compiled distribution file
+.sbd, Storyboard Editor data file
+.sbe, Spybot Excludes file
+.sbf, Superbase 95 File
+.sbglossary, SBGlossary.Document open with: APPLOCalize.EXE
+.sbi, Sound; Creative labs SoundBlaster instrument
+.sbig, Santa Barbara Instruments Astronomical Image (Bitmap graphics)
+.sbj, Clipart Index; Micrografx Clipart or Palette
+.sbk, Asymetrics ToolBook System Book
+.sbk, Creative Labs Soundfont 1.0 Bank file
+.sbk, Mime: application/x-tbook
+.sbk, Mime: audio/x-sbk
+.sbk, Multimedia Subject/book?, Metatec Corp.
+.sbkt, Mac File Type (ScrapBook)
+.sbkt, Mac File Type (Scrapbook File)
+.sbl, Shockwave Flash object
+.sbl, Stone Brook Pascal library
+.sbm, Image .LBM
+.sbn, ArcView : spatial index for read-write shapefiles
+.sbp, Dml program (Superbase 4)
+.sbq, Superbase : Query definition file
+.sbr, Source Browser for BSCMAKE (source for .bsc)
+.sbs, Spybot Includes file
+.sbt, Suberbase 4 Windows notes related to record
+.sbv, Superbase Form definition file
+.sbw, Smart Book file
+.sbx, Adobe Illustrator Tsume
+.sb_, Creativ compressed Sb16 sbide file
+.sc, Ingres Embedded SQL/C Source File
+.sc, Framework II display driver
+.sc, Mime: application/x-showcase
+.sc, Paradox PAL script
+.sc, SciTex Continuous Tone image format
+.sc$, Modem Bitware Fax disk1 file
+.sc1, Simcity
+.sc2, Ms Schedule+ 7.x export
+.sc2, Msx 2 Screen image format
+.sc2, SimCity2000 file
+.sc2000, Sim city 2000 dos tileset file
+.sc3, Harvard Graphics 3.x screen device driver
+.sc3, Renamed dBASE III screen mask file (dBASE IV)
+.sc3, SimCity3000 file
+.sc4, RollerCoaster Tycoon Scenario
+.sc?, Image ColoRix (? = resolution)(EGA Paint)
+.sca, SCA datafile
+.scan, Thunderscan image file
+.scav, Mac File Type (Disk First Aid)
+.scb, Scribble.Document open with: SCRIBBLE.EXE /dde
+.scc, MSX ( = MicroSoft eXtended home computer) bitmap image
+.scc, Source code control file; programming project file management
+.scd, Matrix/Imapro SCoDL film recorder (SCODL = Scan Conversion Object Description Language)
+.scd, Mime: application/x-msschedule
+.scd, Ms Schedule+ 7.x contacts
+.sce, SoftCuisine Data Exchange File
+.scene, Sculpt 3D/4D 3D object (Amiga)
+.scf, ScoreMaker multimedia show
+.scf, Symphony spelling checker configuration
+.scf, Windows Explorer Shell Command File
+.scg, Bitmap image (ColoRIX)
+.sch, Project schedule (Schedule Publisher/Ms Schedule+)
+.sch, Scheme (P CAD/Orcad)
+.schakal, Schakal chemical modeller input file
+.schd, Mac File Type (Microsoft Email Schedul)
+.schemas, Amaya config file
+.sci, Scitex Continuous Tone (CT2T) bitmap image/Fax
+.sci, System Configuration Information
+.scitex, Scitex Continuous Tone (CT) CMYK color images and grayscale images
+.scl, SCALA Scale
+.scm, Lotus ScreenCam Movie
+.scm, Mime: application/vnd.lotus-screencam
+.scm, Mime: application/x-lotusscreencam
+.scm, Mime: text/x-script.guile
+.scm, Mime: text/x-script.scheme
+.scm, Mime: video/x-scm
+.scm, Scheme language source code file
+.scn, Calgari trueSpace2 File Format
+.scn, Kermit screen dump or file
+.scn, Minolta SCeNe file
+.scn, Visual Basic
+.scne, Mac File Type (Infini-D Scene)
+.sco, SCOre (best results in games)
+.scodl, Bitmap image (Agfa slide file)
+.scp, BITCOM script
+.scp, ColoRIX bitmap image
+.scp, Microsoft Dial-Up Networking Script
+.scp, Mime: text/plain
+.scr, fax image
+.scr, Screen dump/tbv
+.scr, Screen font
+.scr, Sun Raster Images image format
+.scr, Windows screensaver
+.scri, Mac File Type (Extension)
+.script, Win Help related file
+.scrn, Mac File Type (StartUpScre)
+.scrn, Startup Screen
+.scs, ScreenCam Script; Lotus
+.scsi, Mac File Type (Apple HD Setup)
+.sct, FoxPro additional (FPT) screen description file
+.sct, Mime: text/scriptlet
+.sct, SciTex Continuous Tone bitmap image
+.sct, Windows Script Component
+.sct01, SAS catalog (Unix)
+.scu, ColoRIX bitmap image
+.scv, Winphone connection file
+.scx, Chart (Stanford Chart)
+.scx, ColoRIX bitmap image
+.scx, FoxPro main (DBF) screen description file
+.scx, MS Class Browser form
+.scy, ReaGeniX security file
+.scz, Wingz data
+.sd, Entropic Sound Data format : Audio
+.sd0, Dali Raw image/tbv
+.sd1, Dali Raw image/tbv
+.sd2, Dali Raw image/tbv
+.sd2, Sound Designer 2 file
+.sda, Software Distribution Network file archive description
+.sdb, SideKick 2 Database
+.sdbn, Mac File Type (Word 4/5 Template)
+.sdc, StarOffice StarCalc Spreadsheet
+.sdd, StarOffice StarImpress Presentation
+.sde, Drumbeat (Internet application) exported data
+.sdev, Mac File Type (Control Strip Module)
+.sdf, MDL Isis SDF chemical modeller input file
+.sdf, Mime: application/e-score
+.sdf, Mime: chemical/x-mdl-sdf
+.sdf, Source Definition File (Sourcer)
+.sdf, System Data Format file (fixed lenght ascii text)
+.sdg, Star Office Gallery image format
+.sdi, QuickBooks; Data
+.sdi, Software Distribution Network Info file
+.sdi, Super Data Interchange
+.sdk, Roland S-550/S-50/W-30 Disk Image
+.sdl, Alias Wavefront Scene Description Language
+.sdl, Paradox
+.sdl, Parsys hardware network description file
+.sdl, SmartDraw Library
+.sdml, Mime: text/plain
+.sdml, Spatial Data Modeling Language (VRML) by Silicon Graphics
+.sdn, Software Distribution Network compressed file archive (pak251.exe)
+.sdp, IBM Storyboard PIC image
+.sdp, Mime: application/sdp
+.sdp, Mime: application/x-sdp
+.sdp, RealAudio Scalable Multicast
+.sdpc, "Cocreate SolidDesigner" Datafile
+.sdr, Mime: application/sounder
+.sdr, SmartDraw drawing
+.sdr, Sounder music
+.sds, MIDI Sample sound (DUMP Standard File)
+.sds, Mime: application/x-onlive
+.sdt, QuickBooks; Data
+.sdt, SmartDraw Template
+.sdts, Spatial Data Transfer Standard (10m and 30m 7.5' DEM )
+.sdv, Semicolon Divided Values file
+.sdw, (header) files for MrSID (ESRI picture files)
+.sdw, Amidraw vector image
+.sdw, SourceSafe files in Shadow Directory
+.sdw, WordPro Drawing; Lotus
+.sdx, Sample DUMP Exchange File
+.sdx, sound file
+.sdy, Starmoney file
+.sd_, Audio Utility Midimach compressed file
+.se, ScopeEdit Project File
+.se, Dll Directx Migrate file
+.se1, Synthedit file
+.sea, Mime: application/sea
+.sea, Mime: application/x-sea
+.sea, Mime: application/x-stuffit
+.sea, self-expanding archive
+.sea, StuffIT Expander archive format (orig. Macintosh)
+.seawifs, SeaWiFS Frame Formatter (Level 0) output file format
+.sec, Diskreet encrypted file
+.sec, Disney Animation Studio secured animation file
+.sec, Pretty Good Privacy secret key ring file
+.security, Javasoft Jre 1.3 lib security file
+.sed, Sed/unix doc file
+.see, Mime: application/vnd.seemail
+.sef, Steganos Encrypted File (Steganos)
+.seg, Compressed File Segment
+.seg1, Mac File Type (StuffIt Segment)
+.seg2, Mac File Type (StuffIt Segment)
+.seg3, Mac File Type (StuffIt Segment)
+.segn, Mac File Type (StuffIt Segment)
+.sel, PaintShop Pro Selection File
+.semi, Spartan Semi-Empirical chemical modeller input file
+.seo, ScopeEdit Object File
+.sep, Printer separator page
+.sep, Tagged Image File Format (TIFF) bitmap image
+.seq, Atari STAD bitmap image/animation?
+.seq, Bubble Chamber Sequential Instruction File
+.seq, PowerTracks Pro Audio, by PG Music, Inc sequence files
+.seq, Sequence files of PowerTracks Pro Audio, by PG Music, Inc.
+.seq, Stad image format
+.ser, Mime: application/x-java-serialized-object
+.ser, Webalizer Lang file
+.server, Analog file
+.ses, Clarion Modula-2 session info
+.ses, Cood Edit Session file
+.session, Internet Security Scanner file (ISS)
+.set, 1st Reader configuration
+.set, File Set for MS Backup
+.set, Mime: application/set
+.set, SETup data or info
+.set, Symphony driver sets created by Install
+.seu, Serials 2000 Encrypted S2K Update
+.sew, Generic : Sewing program file
+.sex, Urban Chaos Game File
+.sext, Mac File Type (Text Template)
+.se_, Midiprg Cakepro compressed file
+.sf, OS/2 WPS Attribute Storage
+.sf, IRCAM Sound File (CSound package/MixView sound sample editor)
+.sf, Signature instructions file
+.sf, WPS attribute storage (OS/2 WorkPlace Shell)
+.sf0, Windows Sytem file check file
+.sf2, Creative Labs Soundfont 2.0 Bank file
+.sf?, Bitstream Printer Font
+.sfax, Mac File Type (STF Sent Fax)
+.sfb, HP soft font
+.sfc, Windows System file check file
+.sfd, SoundStage : Sound File Data
+.sfe, Split Files Shell Extension
+.sff, Fritz!Fax document
+.sff, Scene File Format
+.sff, Structured Fax Format image format
+.sff, Structured File Format
+.sfi, Bitmap; SIS Frame Grabber
+.sfi, Printer font (HP LaserJet landscape) (Ventura Publisher)
+.sfi, SIS Framegrabber image
+.sfil, Mac File Type (Sound File)
+.sfk, Sonic Foundry SoundForge : Sound file
+.sfl, PCL 4 bitmap font (landscape) (Intellifont/Ventura Publisher)
+.sfm, Dart file
+.sfn, SPX font
+.sfo, Bitstream font file - fontware format
+.sfp, Pcl 4 bitmap font (portrait) (Intellifont/Ventura Publisher)
+.sfr, Sonic Foundry Sample Resource : Sound
+.sfs, Pcl 5 scalable font file (Intellifont)
+.sft, ChiWriter screen font
+.sfv, Easy SFV Creator
+.sfw, Seattle Film Works graphics
+.sfx, Self-extracting file archive script (RAR)
+.sg, Snap Quiktour file
+.sg, SnapGraphix : Image file
+.sg1, Graphics (Stanford Graphics)
+.sgd, Lahey Blackbeard help file
+.sgf, Starwriter document with graphics
+.sgi, Silicon Graphics workstation, Irix RGB bitmap image
+.sgi-lpr, Mime: application/x-sgi-lpr
+.sgl, StarOffice Master Document
+.sgm, IETF SGML document (Standard Generalized Markup Language)
+.sgm, Mime: text/sgml
+.sgm, Mime: text/x-sgml
+.sgml, IETF SGML document (Standard Generalized Markup Language)
+.sgml, Mime: text/sgml
+.sgml, Mime: text/x-sgml
+.sgo, 3d Graphic generic
+.sgp, STATGRAPHICS Plus statistics
+.sgt, Save/get keyboard macro (Signature)
+.sgw, Snap Quiktour file
+.sgx, Lahey Fortran help file index
+.sh, Internet Program
+.sh, Mime: application/x-bsh
+.sh, Mime: application/x-sh
+.sh, Mime: application/x-shar
+.sh, Mime: text/x-script.sh
+.sh, SHell script (Unix sh or bash) (ASCII)
+.sh, Unix ASCII file archive created by SHAR (use unshar)
+.sh3, Harvard Graphics 3.0 presentation
+.sha, Mime: application/x-shar
+.sha, Unix SHAR
+.shade, Rayshade ray tracer
+.shar, Mime: application/x-bsh
+.shar, Mime: application/x-shar
+.shar, SHell ARchive script (Unix)
+.shb, Corel Show presentation/background
+.shb, Windows Shortcut into a document
+.shcf, Mac File Type (Shared OLE DLL)
+.shd, Metatools' Bryce Support file (Materials catalogue)
+.shd, W95 spool file
+.she, 2D-Medusa CAD
+.she, Windows 95 ".ShellExt"
+.shelx, ShelX chemical modeller input file
+.shex, Motolora hex-format
+.shf, PGP Share
+.shg, "Segmented Hypergraphics" Bitmap with hot-spots, created by "SHED.EXE", compiled with "HC.EXE" (Windows help file compiler)
+.shh, Automated Setup template
+.shk, ShrinkIt compressed Apple II file archive
+.shl, Inno Setup String Tables file
+.shlb, Mac File Type (Shared Library)
+.shm, SHell Macro (WordPerfect Library)
+.shn, SHorteN compressed audio file, lossless format but larger than MP3
+.sho, Mime: application/x-showcase
+.show, Mime: application/x-showcase
+.showcase, Mime: application/x-showcase
+.shp, AutoCAD shape file and source file for text fonts
+.shp, ESRI shapefiles
+.shp, Image Format
+.shp, Printmaster icon library
+.shp, SHaPe file (ESRI GIS & Mapping software)
+.shr, Unix Shell Archive (ASCII) (SHAR)
+.shrp, Apple IIG image
+.shs, Shell Scrap Object
+.shs, W95/98 Clipboard
+.sht, HTML,; SHTM, SHTML; structured HTML
+.shtm, Same as SHT
+.shtml, Mime: magnus-internal/parsed-html
+.shtml, Mime: text/html
+.shtml, Mime: text/x-server-parsed-html
+.shtml, Same as SHT
+.shtml, SSI-HTML (SSI = Server-Side Include): dynamic HTML page
+.shtml3, Shtml file
+.shv, graphic files read by Husqvarna Viking Designer 1 sewing machine (embroidery files that control stitching of the designs)
+.shw, ETC theatrical lighting control consoles. stores cues, dimmer-channel patch, submaster assignments, and general settings. It can be read and edited on a PC by ETC's free software, Expression Off-Line, available at www.etcconnect.com.
+.shw, Corel Show | Corel Presentations Show
+.shw, Mime: application/presentations
+.shw, Presentation; Harvard Graphics DOS 2.x Show
+.shx, AutoCAD shape entities
+.shx, ESRI shapefile (points)
+.shz, Ximage file
+.si, Mime: text/vnd.wap.si
+.si, Script Interpretor file
+.si, SoftImage image
+.sib, Sibelius Music File
+.sic, Mime: application/vnd.wap.sic
+.sic, Quicken 2002 order file
+.sid, C64 tunes and sound effects file (PlaySID)
+.sid, LizardTech MrSID image files http://www.lizardtech.com
+.sid, Mime: audio/prs.sid
+.sid, Mime: audio/x-psid
+.sif, Setup Installation File
+.sif, Vector data (ISIF format)
+.sig, gen. Current program settings = Signature
+.sig, SIGnature file (ThunderByte AntiVirus/PopMail/PGP)
+.sign, Archive file
+.sigs, Mac File Type (Microsoft Signature Fi)
+.sik, Ms Word backup file (SIcherungsKopie)
+.sik, Junk files...
+.silk, Same as SLK
+.silo, MeshTV : Mesh file
+.silo, Mime: model/mesh
+.sim, Aurora image format
+.sim, Intel VTune performance monitor
+.sim, SIMPLE script source (Telix)
+.simple, cygnus share file
+.sip, Scoptrax file
+.sir, Bitmap image (Solitaire file)
+.sir, BYU SIR image format
+.sird, Mac File Type (Infini-D)
+.sirds, 2d Graphic
+.sis, Mime: application/vnd.symbian.install
+.sis, Psion software installation file
+.sit, Mime: application/x-sit
+.sit, Mime: application/x-stuffit
+.sit, StuffIT Expander archive format, Macintosh
+.sit!, (MAC CREATOR CODE) Archive created by Stuffit (PC ext: SIT)
+.sit!, Mac File Type (Archive created by Stuffit (PC ext: SIT))
+.sit5, Mac File Type (Stuffit 5 Archive)
+.sitd, Mac File Type (Archive created by Stuffit (PC ext: SIT))
+.site, Site specific file
+.sitl, Mac File Type (Stuffit Library)
+.sito, Mac File Type (Stuffit Translator)
+.sitv, Mac File Type (StuffIt Viewer)
+.sitx, Mac File Type (StuffIt Expander)
+.six, Bitmap image (DEC LN03+ Sixel file)
+.sixel, Bitmap image (DEC LN03+ Sixel file)
+.siz, Oracle 7 Configuration
+.sj1, Image SEGA SJ-1 DIGIO
+.sjf, Split Files Shell Extension
+.sj_, Midiprg Superjam compressed file
+.ska, file of VIRUS ska.exe / happy99.exe
+.skb, QuickPOS (Point-Of-Sale) Standard Keyboard Layout File
+.skc, Mime: chemical/x-mdl-isis
+.skc, SKCARD SideKick for Windows
+.skcard, Same as SKC
+.skcard, Starfish SideKick datafile
+.skd, Autosketch file (Autodesk)
+.skd, Mime: application/vnd.koan
+.skd, Mime: application/x-Koan
+.skd, Mime: application/x-koan
+.skf, AutoSketch : Drawing file (Autodesk)
+.skl, Macromedia Director resource file
+.skm, Mime: application/vnd.koan
+.skm, Mime: application/x-Koan
+.skm, Mime: application/x-koan
+.skn, FileWrangler/SecurDesk!/ImageForge Graphic Skin,LV, ZipWrangler
+.skn, Kinupix skin image format
+.skp, Mime: application/vnd.koan
+.skp, Mime: application/x-koan
+.skp, Mime: application/x-Koan
+.skr, PGP private (secret) keyring
+.skt, Mime: application/vnd.koan
+.skt, Mime: application/x-Koan
+.skt, Mime: application/x-koan
+.skw, SKWRITE SideKick Write or Calendar (same extension for both)
+.skwrite, Same as SKW
+.sky, Multiplan SYLK spreadsheet file
+.skyt, SKYT packer format (music/sound)(Asle / ReDoX)
+.sk_, Audio Utility Koan compressed file
+.sl, 3d Graphic
+.sl, Mime: application/x-seelogo
+.sl, Mime: text/vnd.wap.sl
+.sl, PACT's Save Layout extension
+.sl, S-Lang language source code file
+.slb, Autodesk Autocad Slide Library
+.slb, Symbols library (P-CAD)
+.slc, Mime: application/vnd.wap.slc
+.slc, Mime: application/x-salsa
+.slc, Telix compiled SALT script
+.sld, Autodesk Autocad Slide
+.sld3, Mac File Type (Power Point 3 (PC ext: PPT))
+.sld3, Mac File Type (PowerPoint 3/4 Slide)
+.sld8, Mac File Type (Power Point 98 (PC ext: PPT))
+.sld8, Mac File Type (PowerPoint 98 Slide)
+.sldasm, Solidworks File
+.slddrw, Solidworks File
+.slddwg, SolidWorks drawing 2D (Vector graphics)
+.sldprt, SolidWorks drawing 3D (Vector graphics)
+.slds, Mac File Type (PowerPoint 2 Slide)
+.slf, Ntgraph Setup30 file
+.slg, Chromeleon Audit Trail
+.sli, MAGICorp Slide Service : Slide
+.sli, Slice : used by some 3d-modeller
+.slickedit, Bugslayer Tracesrv file
+.slides, Mime: application/x-showcase
+.slk, Excel-Spreadsheet: Data format (Sylk Symbolic Link format)
+.slk, MultiPlan -Spreadsheet: Data format (Sylk Symbolic Link format)
+.slk, Timeslips Lock File
+.sll, Sound data file (Generic)
+.slm, Microsoft Visual FoxPro
+.sln, Microsoft Mse file
+.sln, MS Visual Studio .Net solution file
+.slnk, Mac File Type (System Comms)
+.slo, Webalizer.01 Lang file
+.slp, Pro/E rendering file
+.slp, Timeslips Data File
+.sls3, Mac File Type (Excel 3 Template)
+.sls4, Mac File Type (Excel 4)
+.sls5, Mac File Type (Excel 5)
+.sls8, Mac File Type (Excel 98 Templat)
+.slt, Mime: application/vnd.epson.salt
+.slt, Selection
+.slt, Telix : Salt Script Application Language script source
+.slt, ZX SPECTRUM emulator
+.sm, Samna Word text document
+.sm, ScriptMaker script
+.sm, Smalltalk language source code file
+.sm, SoftSpoken Mailer maillist
+.sm$, Modem Bitware Fax disk2 file
+.sm2, Terrasoft summery table
+.sm3, DataCAD Symbol File
+.smc, SmartMaster LOTUS Freelance Graphics 9x scene file
+.smc, Super Nintendo Game-console ROM Image (See ZNES or SNES9x)
+.smd, Mime: chemical/x-smd
+.smd, SmartWare II, version 1.02
+.smd, StarOffice Mail
+.smd, Video game console ROM emulator file
+.smdb, SteamMaker project file. Windows-based authoring tool http://www.learn.com
+.smf, SMARTFAX : Fax
+.smf, StarOffice Formula
+.smi, CC:Mail Smart Icon
+.smi, Daylight SMILES
+.smi, LOTUS Smarticons
+.smi, Macintosh : "Self-mounting image" : Disk Copy compressed image
+.smi, Mime: application/smil
+.smi, Mime: chemical/x-daylight-smiles
+.smi, Mime: chemical/x-x-daylight-smiles
+.smi, RealPlay SMIL File Real Player G2
+.smi, SMIL multimedia
+.smil, "Synchronized Multimedia Integration Language"
+.smil, Mime: application/smil
+.smil, Text
+.smiles, SMILES chemical modeller input file
+.smk, Image file (Deer's Revenge)
+.smk, Image file (Nascar Racing '99)
+.smk, RAD Video Tools : Smacker compressed video
+.smm, Ami Pro Macro (2.x,3.x)
+.smn, ParaGraph's WorkScript format : Font
+.smn, Samma Word : text
+.smp, Ad Lib Gold Sample
+.smp, Mime: application/studiom
+.smp, Sample Scream Tracker Sample
+.smp, Samplevision format : Sound
+.smp, Ulead Photo Express
+.smp, Xionics SMP image
+.sms, 8-bit Sega Master System : Emulator ROM image file
+.sms, MS Package Definition File (used to be .PDF)
+.smt, extension used by some CAD programms used for SMT-circuit layout
+.smt, HiPer-Six Memo File
+.smt, IconAuthor : SmartObject file
+.smt, QuickBooks
+.smt, Smart Ware II : Text file
+.smu, Simple Musical Score
+.smv, Saved Mail Video
+.smz, Audio/Video file
+.sm_, Midiprg Seqmax Seqprest compressed file
+.sn, serial number file
+.sn, Sound Club editor : Compressed song file
+.sna, ZX80 SPECTRUM emulator snapshot
+.snd, AKAI MPC-series sample : Sound
+.snd, Amiga IFF/8SVX Sound
+.snd, Digitized sound file ATARI
+.snd, internet sound format
+.snd, Interplay/MusicStudio sound
+.snd, Mime: audio/basic
+.snd, Mime: audio/x-adpcm
+.snd, NeXT/Sun Sound
+.snd, Raw unsigned PCM data : Sound
+.snd, Resource Fork sound
+.snd, Software Toolworks Sound
+.snd, Sound Clip
+.snd, sound file, similar to AU
+.snd, Sound generic name
+.snd, Sounder/Soundtools sound
+.snd, Sun/NeXT/Tandy/Apple Macintosh : Sound file, old format
+.snd, Wired For Sound
+.sndj, audio modul
+.sndr, Sounder sound file : Sound
+.snds, Mac File Type (Microsoft Sound Set)
+.sndt, Sndtool sound file : Sound
+.sng, Midisoft Studio - Prism : Song (midi sound)
+.sng, Song : various prgs
+.sniffer, Sniffer trace files
+.snm, Netscape Communicator : Mail, News messages
+.sno, Snobol4 language source code file
+.snoop, SNOOP capture file format
+.snp, Access 97 report SNaPshot file
+.snp, CoffeeCup HTML Editor Snippet
+.snp, ComputerEyes output video Animation
+.snp, Microsoft Access : Database file
+.snp, READIBM : Book-shelf for .BOO
+.snp, Shapshot file (Snapview)
+.snt, Microsoft vissdk Vislocalinfo file
+.snt, Tonline Email sent file
+.snw, Wired For Sound
+.snx, QuickBooks; Data
+.snx, Slide Show Image
+.sn_, Midiprg Guitarws compressed file
+.so, Fortran 90 shared object
+.so, Shared library file (Unix)(similar to DLL)
+.so3, MP3 compressed .sou file =sound
+.soa, Sage MAS 90 Accounting Software File
+.soap, Mac File Type (KPT Soap)
+.sob, Visual Basic
+.soc, Game: Uefa champions league Logic file
+.sol, MATRA prelude solids
+.sol, Mime: application/solids
+.sol, Solution file ,Solution eg. game walkthroughs(Common used with game examples,tutorials)
+.som, Paradox : Sort information
+.som, Quattro Pro: network serial numbers
+.son, Creative Labs SoundBlaster Studio II : Song file
+.sort, thoroughbred basic direct / sort file
+.sou, Creative Labs SoundBlaster Studio : Sound file
+.sou, Lucas Arts sound file
+.sou, Sound data (sound tool)
+.sou, Sound file by games(Indiana Jones
+.soup, Message / E-mail
+.sow, ARJ archiv
+.sox, native Unix Sox raw sound
+.sox, Schema for object oriented XML
+.so_, Midiprg Score Midiprglite compressed file
+.sp, Micrografx ABC Snap Graphic
+.sp, Spice : Data
+.sp, Splint/unix : Compressed file archive
+.sp, ZX SPECTRUM emulator source profile
+.sp1, various games
+.sp2, various games
+.sp4, Roller Coaster Tycoon : Saved game
+.spa, Flash Movie
+.spade, Snort file
+.spar, Spartan chemical modeller input file
+.spar, Spartan chemical modeller output file
+.sparc, Sunos4 file
+.spc, 2d Graphic
+.spc, Atari compressed Spectrum file : Bitmap graphics
+.spc, Galactic Industries SPC File Format
+.spc, Microsoft Multiplan : Program
+.spc, Mime: application/x-pkcs7-certificates
+.spc, Mime: chemical/x-galactic-spc
+.spc, Mime: text/x-speech
+.spc, music : SNES Audio
+.spc, SPC format for spectral and chromatographic data
+.spc, Text to speech
+.spc, WordPerfect Temp File
+.spd, Adobe printer driver
+.spd, Harvard Bitstream Typefaces
+.spd, Postscript printer mini driver
+.spd, Speach Data file : Sound
+.spd, Speedo : Scalable Font
+.spe, Princeton Instruments CCD camera : Bitmap graphics/image
+.spec, Gen. specs file
+.spere, NIST SPHERE sound files
+.spf, 2d Graphic
+.spf, Bitmap image ,spiff = Still Picture Interchange File Format
+.spf, EnerGraphics : Slide presentation file
+.spf, Setup File
+.spf, Site Publisher Profile
+.spg, Sprint : Glossary
+.sph, POV-Ray (old vers.)
+.sph, Sphere
+.spi, scanned Graphics (Siemens and Philips scanner)
+.spiff, Bitmap image , SPIFF = Still Picture Interchange File Format
+.spj, Site Publisher Project File
+.spk, Acorn : Compressed file archive (Spark)
+.spl, Compressed file archive created by SPLINT
+.spl, Customized printer driver by Sprint
+.spl, Digitrakker Sample (by n-FACTOR)
+.spl, FutureSplash Animation (Internet Picture)
+.spl, Macromedia Future Splash Animator : Movie
+.spl, Mime: application/futuresplash
+.spl, Mime: application/x-futuresplash
+.spl, Personal spell dictionary
+.spl, Sample file (Generic)
+.spl, Signature : Personal spell dictionary
+.spl, Sound
+.spl, Split Files Shell Extension
+.spl, Windows 3.x printing : Spool file
+.spm, WordPerfect File
+.spmm, Spartan Mol. Mechanics chemical modeller input file
+.spn, Spanish readme
+.spn, WordPerfect Distribution File
+.spo, Mime: text/vnd.in3d.spot
+.spot, Mime: text/vnd.in3d.spot
+.spot, SPOT satellite image file : Bitmap graphics
+.spp, Serif PhotoPlus Native Format File
+.spp, Sprint : Printer file
+.sppack, SPPack sound sample : Sound
+.spr, Document letter PR: SPRINT
+.spr, Foxpro Generated Screen Program
+.spr, Lutin
+.spr, many - Story Board : Sprite (graphics image)
+.spr, Mime: application/x-sprite
+.spr, Psion Series 3 : Spreadsheet
+.spr, Sizzler : Animation
+.sprite, Acorn : Bitmap file
+.sprite, Mime: application/x-sprite
+.sprite, Sizzler : Animation
+.sps, 2d Graphic
+.sps, Image Atari Spectrum 512
+.sps, Screen driver of Sprint
+.sps, VAX/VMS : SPSS language source code file
+.sps, xport .sps by sharkport
+.spt, Mime: application/x-spt
+.spt, MITAC disk/system management utility pack : Data support file
+.spt, one part of multi-part file : Split
+.spt, Spitbol language source code file
+.spu, 2d Graphic
+.spu, Atari compressed Spectrum bitmap image
+.spw, ABC Snap Graphics workspace backup
+.spw, Jandel Sigma Stat/ SigmaPlot Worksheet
+.spx, Foxpro Compiler Screen Program
+.spx, Screensaver (Screen Peace) (Windows)
+.spy, Wintech Software Design file
+.sqb, SyQuest Backup
+.sqc, Structured Query Language (SQL) Common Code File
+.sqd, 3d Graphic
+.sqd, Misc
+.sqd, Squish : Squish message base
+.sqf, France98 football game fe file
+.sqi, Squish : Squish message base index
+.sql, Squish : Squish message base last read pointers
+.sql, Structured Query Language Data SQL
+.sqp, Sonique : Query result of audio search
+.sqr, Structured Query Language Program File (SQL)
+.sqw, Archive squeeze
+.sqz, Squeeze : Compressed file archive unix, also msdos
+.sr, Netscape file
+.sr, Sun Rasterfile : Bitmap graphics
+.src, DataFlex/Multi-Edit souce
+.src, generally Source code file
+.src, Mime: application/x-wais-source
+.sre, Motorola S-record file (undef)
+.srec, Motorola S-Records
+.srf, Sun Raster File : Bitmap graphics
+.srf, TerraGen SuRFace MAP
+.srfmap, TerraGen SuRFace MAP
+.srg, Microsoft PowerPoint : Self-registration data file
+.srm, Video game console ROM emulator file
+.srp, QuickLink : Script
+.srq, MS Server request file; unprocessed
+.srs, Bitmap: Sun Raster File
+.srs, MS Server request file; partially processed
+.srt, Skymap data file
+.srv, Help Maker file
+.srvr, Mac File Type (Server Connection Fil)
+.srz, DataFlex : Source file
+.sr_, Compr. Tvideo card Neu file
+.ss, Screen saver
+.ss, Snappy configuration file
+.ss, Splash : Bitmap graphics
+.ss2, Terrasoft SAS program file
+.ssa, Sub Station Alpha : Video file
+.ssage, inbound internet email message : Microsoft Exchange Server
+.ssc, SourceSafe (source code control) configuration
+.ssd, Painter4 Script file
+.ssd, SAS/PC Datafile
+.ssd, Style sheet definition file
+.ssd01, Unix : SAS data sets
+.ssf, Enable : Spreadsheet file
+.ssf, Mime: application/vnd.epson.ssf
+.ssf, Sound set file
+.ssh, DataFellows : Secure Shell document
+.ssh, Style Sheet for MS Internet Explorer
+.ssh2, SSH Secure Shell Client
+.ssi, HTML with server side includes
+.ssi, Image SriSun
+.ssi, Installer/GD Software Setup Information
+.ssi, Mime: text/x-server-parsed-html
+.ssiw, (MAC CREATOR CODE) Wordperfect 4 (saved by WP for the Mac) (PC ext: WP4)
+.ssiw, (MAC CREATOR CODE) Wordperfect 5 (saved by WP for the Mac) (PC ext: WP5)
+.ssiw, (MAC CREATOR CODE) Wordperfect 1
+.ssl, Borland Paradox5 file
+.ssl, Corel Flow Smart Library
+.ssl, Sessions List
+.ssm, Mime: application/streamingmedia
+.ssm, RealAudio Standard Streaming Metafile
+.ssp, Axialis screensaver image format
+.ssp, SAS Transport : Datafile
+.ssq, ODBC script
+.sss, Saved Game of Heart Of Darkness
+.sss, Studio Session Song File Format
+.sst, Certificate store file Microsoft
+.sst, IDIDAS, SSTMAP, IMGMAP : Bitmap graphics - Satellite image data AVHRR file
+.sst, Mime: application/vnd.ms-pki.certstore
+.ssv, Chartfile
+.ssx, Misc
+.st, NeoPaint Stamp File
+.st, Disk Image file (Atari)
+.st, Little Smalltalk language source code file
+.st, NeoPaint Stamp File
+.st, Scream Tracker : Instrument library
+.st0, Spice : Status
+.st1, Spice : Status
+.st2, Spice : Status
+.st3, Spice : Status
+.st4, Bitmap Santa Barbara Instruments Astronomical Image
+.st4, Image Raw grayscale file
+.st4, Image SBIG CCD Camera ST-4 / ST-x
+.st4, Spice : Status
+.st5, Bitmap Santa Barbara Instruments Astronomical Image
+.st5, SBIG CCD camera ST-x photo
+.st5, Spice : Status
+.st6, Bitmap Santa Barbara Instruments Astronomical Image
+.st6, SBIG CCD camera ST-x photo
+.st6, Spice : Status
+.st7, Bitmap Santa Barbara Instruments Astronomical Image
+.st7, SBIG CCD camera ST-x photo
+.st7, Spice : Status
+.st8, Bitmap Santa Barbara Instruments Astronomical Image
+.st8, SBIG CCD camera ST-x photo
+.st8, Spice : Status
+.st9, SBIG Astronomical Image
+.st9, Spice : Status
+.sta, diverent games: saved state
+.sta, Eudora File
+.sta, Reflection 4.0 saved state
+.sta, Spinmaker Plus : Stack
+.sta, Statistica : Data file
+.stak, Mac File Type (HyperCard Stack)
+.starpack, StarTrekker pack format (music/sound) (Asle / ReDoX)
+.stat, Status file
+.status, Gen. Status file
+.stb, Genus Stub Library
+.stc, Plug-in Acrobat Exchange
+.stc, Terrasoft SAS data file
+.std, LocoScript Standard Script File
+.std, Plug-in Acrobat Exchange
+.std, Prosa : State Transition Diagram graphics file
+.std, SureThing CD Labeler Document
+.stegano, Steganographic image
+.step, ISO-10303 STEP product data
+.step, Mime: application/step
+.stf, ACME Table Files (winword.exe)
+.stf, Microsoft Setup table (many prg.)
+.stf, Mime: application/vnd.wt.stf
+.stf, ShrinkToFit : Compressed file archive
+.stf, Structured File
+.stg, PageKeeper Storage File
+.sti, Programming
+.stk, Mime: application/hyperstudio
+.stk, Personal Stock Monitor File
+.stk, Sticker Store Sticker
+.stl, C++ Standard Template Library
+.stl, CAD Software Solid Modeling/Prototyping File
+.stl, Claris Works data file
+.stl, Micrographics Designer stylesheet
+.stl, Mime: application/sla
+.stl, Mime: application/vnd.ms-pki.stl
+.stl, Mime: application/x-navistyle
+.stl, Security Certificate trust/request list.
+.stl, STereoLithography 3d object
+.stm, PhotoStudio Stamp image format
+.stm, Prosa : State Transition Diagram model file
+.stm, Scream Tracker II : Music (4 channel)
+.stm, short for .SHTML = HTML with SSI
+.stm, State Transition Diagram model file (Prosa)
+.stmi, (MAC CREATOR CODE) Adobe's PageMill
+.stmi, (MAC CREATOR CODE) GIF files created by PageMill (PC ext: GIF)
+.stmi, (MAC CREATOR CODE) HTML files created by PageMill (PC ext: HTM)
+.stmi, Mac File Type (PageMill)
+.stml, See STM HTML
+.stn, ArcView : geocoding standardization file
+.stn, Microsoft Flight Simulator File
+.stn=, Genuine Fractals STiNg file format (losslesss image codec)
+.sto, Genus Pascal Stub OBJ File
+.stot, Mac File Type (Mac OS Help Index)
+.stp, 3d Graphic
+.stp, ISO-10303 STEP product data
+.stp, Mime: application/step
+.stp, PageKeeper Packed Storage File
+.stp, Plug-in Adobe Acrobat Exchange (language)
+.stq, StatSoft Software : Text file (Statistica)
+.str, DataPerfect Structure File
+.str, dBASE Application Generator : Structure list object file
+.str, Gate3 table structure file
+.str, Mime: application/vnd.pg.format
+.str, Mime: audio/x-str
+.str, Screensaver file
+.str, Stream File Playstation Discs
+.strk, Mac File Type (MOD Music File)
+.strn, Mac File Type (HyperCard Stack Converter)
+.sts, MS C Project Status Info
+.sts, Scream Tracker : Song format
+.stt, Tacmi Pixia palette file
+.stub, Mac File Type (Mac OS Stub Library)
+.stw, Neopaint Stamp image format
+.stw, SmartTerm for Windows : Data file
+.stx, CA-Simply Tax : Tax form
+.stx, Santa Barbara Instruments Astronomical Image : Bitmap graphics
+.stx, SBIG CCD camera ST-x (Astronomical Image)
+.stx, Scream Tracker Music Interface Kit
+.stx, SmarText : Electronic book
+.stx, SPOT Image : Statistics file
+.stx, System/User Topic Set Descriptor BullsEye
+.stx, Terrasoft SAS data file
+.sty, gen. STYle template, library or sheet used by many text and graphics programs
+.sty, Micrografx Picture Publisher Print Style
+.sty, MS Word for DOS Style Sheet
+.sty, Ventura Publisher style sheet
+.style, Html style file
+.sub, Rational Rose component package
+.sub, CloneCD related file (CloneCD)
+.suc, Softrans Hello Engines! 2.1 file
+.sud, Symantec Undodata file
+.sui, Suit library (Simple User Interface Toolkit)
+.suit, Mac File Type (MacBench Test Suite)
+.sul, Gfa Raytrace image/tbv
+.sum, SUMmary
+.summ, Clapack Blas Testing file
+.sun, Bitmap image (Sun raster file format), UNIX
+.sun3, Possibly modified Sunos4 file
+.sun4, Sun Os 4 file
+.sun5, Sun Os 5 file
+.suniff, Bitmap image (Sun TAAC Image File Format)
+.suo, Visual Studio .NET user settings
+.sup, Bitmap image (Startup screen)
+.sup, Error Suppression for Nu-Mega Technologies, Inc. BoundsChecker
+.sup, Supplemental data (spelling checker user dictionary)
+.sup, WordPerfect for Win SUPplementary dictionary
+.sur, Leben_jesu Bibel file
+.sux, audio modul
+.sv, Game: roland garros tennis file
+.sv2, Terrasoft SAS file / retrieval information
+.sv4, RollerCoaster Tycoon Saved Game
+.sv4cpio, Mime: application/x-sv4cpio
+.sv4crc, Mime: application/x-sv4crc
+.svd, Document autosave file (Ms Word)
+.sve, WINXP SYSTEM32 file
+.svf, Mime: image/vnd
+.svf, Mime: image/vnd.svf
+.svf, Mime: image/x-dwg
+.svf, Vector image (Simple Vector Format used by CAD programs)
+.svg, Mime: image/svg-xml
+.svg, Ms Word glossary autosave file
+.svg, W3C's XML based vector graphics format
+.svh, Mime: image/svh
+.svh, Picture; Black Diamond Consulting (Surround Video - Animated Internet Picture)
+.svm, Formula 1 car race 2001 Save file
+.svp, SwiftView Command File
+.svq, Music file
+.svr, Compressed virtual world for WWW
+.svr, Mime: application/x-world
+.svr, Mime: x-world/x-svr
+.svr, SuperScape ActiveX Superscape Viscape Control
+.svs, Ms Word style sheet autosave file
+.svu, Adressmanager Default.dbu file
+.svx, Sound (Amiga 8SVX format)
+.svy, SAVVY/PC : Database file
+.sw, 16bit) data : Sound (Raw Signed PCM Word
+.sw, Audio file (signed word)
+.sw0, Spice : Sweep output
+.sw1, Spice : Sweep output
+.sw2, Spice : Sweep output
+.sw3, Spice : Sweep output
+.sw4, Spice : Sweep output
+.sw5, Spice : Sweep output
+.sw6, Spice : Sweep output
+.sw7, Spice : Sweep output
+.sw8, Spice : Sweep output
+.sw9, Spice : Sweep output
+.swa, Macromedia Shockwave music (MPEG-1 Layer III with special header)
+.swb, Photoshop file
+.swd, Schoolwide Database file
+.swdb, Mac File Type (ClarisWorks 3/4 Database)
+.swe, Nhl Ice Hockey 2002 required file
+.swecoin, Swecoin Font Format and PKT
+.swf, Mime: application/x-shockwave-flash (Macromedia Flash)
+.swf, ShockWave Flash, Animated Vector Format for Internet (Macromedia Flash)
+.swf2, (MAC CREATOR CODE) Flash files (PC ext: SWF) (Macromedia Flash)
+.swfl, Mac File Type ( Shockwave Flash files (PC ext: SWF))
+.swfl, Mime: application/x-shockwave-flash (Macromedia Flash)
+.swg, SWAG Pascal Snippets (SWAG Reader)
+.swgr, Mac File Type (ClarisWorks 3/4 Drawing)
+.swi, files created by Swish (help in making Macromedia Flash files)
+.swin, Mac File Type (SoftWindows)
+.swish-e, SWISH-E file
+.swl, Macromedia Flash Format [Alternate]
+.swp, Borland Sprint document backup
+.swp, Win virtual Memory Storage = Swap File
+.swpl, Mac File Type (Software Update File)
+.swss, Mac File Type (ClarisWorks 3/4 Spreadsht)
+.swt, Visual Basic Setup Wizard Template file
+.swv, Windows Sound File Format
+.swwp, Mac File Type (ClarisWorks 3/4 Document)
+.sxp, 3D Studio process file
+.sxw, OpenOffice.org Writer document
+.sy#, Darn! Backup Files
+.sy0, WordExpress file
+.sy1, Smartpix symbol library (Ami Pro)
+.sy3, Harvard Graphics Symbol 3.x
+.syd, Backup file made by QEMM/SysEdit
+.syk, SYLK spreadsheet format (Excel)
+.sylk, Mac File Type (SYLK Spreadsheet)
+.sylk, SYLK spreadsheet format (Excel)
+.sym, Borland C++ precompiled headers
+.sym, Graphics symbols (Harvard Graphics 2.x/Ms Windows SDK)
+.sym, Lotus Freelance SYMbol library
+.sym, P-CAD component symbols
+.sym, Program symbol table (many assembler/compilers and linkers)
+.sym, Symbol (generic name)
+.syn, Bitmap image (SDSC Synu image file)
+.syn, Ms Word 5 synonym file
+.syn, Synthetic Universe image format
+.sync, Mac File Type (ColorSync)
+.synu, Bitmap image (SDSC Synu image file)
+.synu, Synthetic Universe image format
+.sys, Datafile (SYGRAPH/SYSTAT/SPSS/PC)
+.sys, Mime: video/x-mpeg-system
+.sys, System file - device driver or hardware configuration info (DOS)
+.sys, Windows Bitmap image format
+.sys-old, cygwin terminfo file
+.sysk, cygwin terminfo file
+.syw, Graphics symbols (Harvard Graphics Win)
+.syw, Yamaha SY-85/SY-99 Wave File
+.syx, Modula M2sds file
+.sy_, Korg Dw8000 compressed file
+.sy~, CorelDraw! file
+.s_s, Eru/erd file
+.t, Alchemy chemical modeller output file
+.t, Mime: application/x-troff
+.t, Paradox database file
+.t, roff /troff unformatted manual page
+.t, Tads source
+.t, Tester symbol table (ReaGeniX code generator)
+.t, Unix Tape Archive = TAR without compression (tar)
+.t#?, Time Line File
+.t$, Modem Bitware Fax disk5 file
+.t$2a, Mac File Type (Timbuktu Pro)
+.t$ab, Mac File Type (Timbuktu Pro Address Book)
+.t01, Tonline Netscape file
+.t02, Tonline Netscape file
+.t2, TrueType Font
+.t2k, Teach2000 Document
+.t2t, Sonata CAD modeling file
+.t2w, Ntgraph Turbo Pascal file
+.t3, Tarshare file
+.t32, Drive Image5 file
+.t3d, Epic's Unreal Editor 3D scene format
+.t3d, Game: FiFa2000 environment file
+.t44, dBASE IV temporary file
+.t4g, Tscad4 file
+.t4l, Tscad4 biblio file
+.t64, Commodore 64 emulator tape (C64S emulator)
+.t65, Adobe PageMaker template
+.t98, Kiplinger Tax Cut File (1998 Tax Year)
+.t99, (Note: Kiplinger Tax Cut State Return Files are of the form .T??
+.t??, Ingres Table/Index File (?? = Hex 00 to FF)
+.taac, Sun TAAC bitmap image
+.tab, Colour lookup table (CMYK image) (Stork format)
+.tab, Lotus 1-2-3 table
+.tab, Microsoft Map table
+.tab, TAB separated file
+.tad, Mime: application/octet-stream
+.taf, Tonline Db file
+.tag, DataFlex query tag name
+.tag, Mime: text/prs.lines.tag
+.tags, MIME Tag types site
+.tah, Turbo Assembler Help file
+.tai, INMOS Transputer Development System Occam Analyse Info
+.tajima, Tajima DST file format (MS Word)
+.tal, Adobe TypeAlign text illustration
+.talk, Mime: plugin/talker
+.talk, Mime: text/x-speech
+.talk, Mime: x-plugin/x-talker
+.talk, Text to speech
+.tam, Tame Program Settings
+.tao, IsoBuster File
+.tap, TAPe file (ZX Spectrum emulator by G.A. Lunter)
+.tap, Wave Sound, Action Wave
+.tar, Mime: appliation/x-tar
+.tar, Mime: application/x-tar
+.tar, Tape Archive, Unix standard Archive format / not compressed
+.tardist, Mime: application/x-tardist
+.targa, Truevision TarGA bitmap image
+.tat, Grafic twain Toolkit file
+.tax, Turbotax File
+.taz, Mime: application/x-tar
+.taz, TAR Compressed Tape Archive, Gzip/Compress
+.tb1, Borland Turbo C font file
+.tb2, Borland Turbo C font file
+.tbb, MS Windows Office Toolbar Button
+.tbc, Formula 1 car race 2001 Season01 Vehicles file
+.tbd, Microsoft Mse file
+.tbf, Fax (Imavox TurboFax)
+.tbf, Trellian Button Factory File http://www.trellian.com/tbf/index.html
+.tbi, Game: fifa 2001 data cmn be file
+.tbk, Memo backup (dBASE IV/FoxPro)
+.tbk, Mime: application/toolbook
+.tbk, Mime: application/x-tbook
+.tbk, ToolBooK (Asymetrix ToolBook)
+.tbl, Dynamic link library
+.tbl, TaBLe, used by several programs
+.tbnd, Mac File Type (Communication Tool)
+.tbp, Mime: application/x-timbuktu
+.tbr, Norton Desktop custom ToolBaR
+.tbs, German Ms Word text elements (TextBauSteine)
+.tbs, Intel VTune performance monitor
+.tbt, Mime: application/timbuktu
+.tbx, Project Scheduler 4 table
+.tb_, Visc15 Adressen Setup file
+.tc, Borland C++ Configuration (former Turbo C)
+.tc, Termcap
+.tcc, Turbo C / Gcc include std file
+.tcd, TurboCAD for DOS
+.tch, Help file (Turbo C/Borland C++)
+.tci, INMOS Transputer Development System Occam Configuration Info
+.tcl, Mime: application/x-tcl
+.tcl, Mime: text/x-script.tcl
+.tcl, Tcl/Tk (Tool Command Language) script source code
+.tcl, TextPad Clip Library
+.tcl~, Tcl/tk file
+.tcm, INMOS Transputer Development System Occam Comment Text File
+.tco, T9000 object modules
+.tcp2, Mac File Type (TCP/Connect II)
+.tcpa, (MAC CREATOR CODE) America On Line TCPa_text
+.tcpa, Mac File Type (AOL Web Browser)
+.tcpstream, Snort file
+.tcsh, Mime: text/x-script.tcsh
+.tcsh, Unix shell script (tcsh)
+.tct, Bc31 Bin file
+.tcw, TurboCAD for Windows drawing
+.td, Borland Turbo Debugger for DOS configuration file
+.td0, Teledisk disk image (compressed diskette in a file)
+.td1, TeleDisk Archive
+.td2, Borland Turbo Debugger for Win32 configuration file
+.td3, TeleDisk Archive
+.td4, RollerCoaster Tycoon Track Design
+.td?, TeleDisk Archive
+.tdat, Mac File Type (CodeWarrior Data File)
+.tdb, TACT database
+.tddd, Imagine Object File Format
+.tdf, Bitstream Fontware Description
+.tdf, MS Setup program data; see STF
+.tdf, Speedo Typeface Definition File
+.tdf, TheDraw font
+.tdh, Borland Turbo Debugger Help file
+.tdi, Alias Wavefront image
+.tdi, TDI Explore image
+.tdim, Digital F/X image format
+.tdk, Borland Turbo Debugger Keystroke recording
+.tdl, Intuit de online dat file
+.tdl, Stratum library file
+.tdo, Thumbs32 file
+.tdp, Midiprg Thedrums compressed file
+.tdr, Contents of Arvid tape
+.tds, Borland Turbo Debugger Symbol table
+.tdw, Borland Turbo Debugger for Windows configuration
+.tdx, Visual FoxPro Offline View
+.tdy, Tandy file
+.te2, Conquest of the New World
+.tea, Tea Template Source File
+.teb, HDL test bench file
+.tec, "Tanner Ledit" Layout technology data
+.tef, Fax (Relisys TEFAX)
+.tel, Telnet host file
+.tem, Borland C++ Turbo Editor Macro Language script
+.tem, IconAuthor input template
+.temp, SWISH-E file
+.temp, Temporary file
+.ter, CorelFlow line terminator (arrow picture)
+.ter, TerraGen TERrain Terrain
+.terms, cygwin tk8.0 demos file
+.terrain, TerraGen Terrain
+.tet, Tetris results (DN)
+.tex, Idealist datasheet
+.tex, LaTeX text (unix)
+.tex, Mime: application/x-tex
+.tex, on WINDOS old fashion TEXT file
+.tex, PaintShopPro Texture image format
+.tex, TEX Equation
+.tex, Text document (Unix TeX )
+.tex, Texture picture Windows' Hover game
+.tex, TEXture used in Paint Shop Pro
+.texi, Mime: application/x-tex
+.texi, Mime: application/x-texinfo
+.texi, TEXINFO
+.texinfo, Mime: application/x-texinfo
+.texinfo, Same as TEXI
+.text, Mac File Type (BinHex (PC ext: HQX))
+.text, Mac File Type (HTML files created by PageMill (PC ext: HTM))
+.text, Mac File Type (HTML for Internet Explorer (see A Web Site on a CD for more explanations) (PC ext: HTM))
+.text, Mac File Type (HTML for Netscape Navigator (see A Web Site on a CD for more explanations) (PC ext: HTM))
+.text, Mac File Type (Illustrator 3 (PC ext: AI))
+.text, Mac File Type (Mathematica (all kinds of files))
+.text, Mac File Type (SimpleText File (PC ext: TXT))
+.text, Mac File Type (BinHex Encoded Filele)
+.text, Mac File Type (C Header Filelea File)
+.text, Mac File Type (C Source File)
+.text, Mac File Type (C++ Source File)
+.text, Mac File Type (HTML Document)
+.text, Mac File Type (HTML Documentd Filele)
+.text, Mac File Type (Perl Source File)
+.text, Mac File Type (Postscript File)
+.text, Mac File Type (Rez Resource File)
+.text, Mac File Type (Text File)
+.text, Mac File Type (XML Document File)
+.text, Mime: application/plain
+.text, Mime: application/text
+.text, Mime: text/plain
+.text, Raw TEXT file
+.tf, TinyFugue MUD client macro
+.tf, Turbo Profiler configuration
+.tfa, Turbo Profiler Area file
+.tfc, Catalogue file (Tobi's Floppy Cataloguer)
+.tfh, Turbo Profiler Help file
+.tfm, Tagged Font Metric file (Intellifont/TeX)
+.tfmx, Amiga Audio file (Final Musicsystem eXtended)
+.tfs, Turbo Profiler statistical information
+.tfw, (header needed for georeferencing) files for MrSID
+.tfw, ArcView world file for tif image
+.tfx, Traffix Traffic Analysis Software
+.tg, Technical Guidance (NRC Inspection Manual)
+.tg1, On Target project file
+.tg4, TG4 image format
+.tga, Truevision TarGA bitmap image (may be RLE compressed)
+.tgf, Mime: chemical/x-mdl-tgf
+.tgh, TrueGas Host File
+.tgi, Pbm file
+.tgq, Bullfrog Software : Movie (Dungeon Keeper 2)
+.tgt, Corel40 Custom file
+.tgv, Electronic Arts : Video file (Need for Speed, NBA)
+.tgw, TerraGen World
+.tgworld, TerraGen World
+.tgz, Mime: application/gnutar
+.tgz, Mime: application/x-compressed
+.tgz, Mime: application/x-tar
+.tgz, ZIP Archive; TAR Tape Archive (probably Gzip compressed); see TAR,TAZ,GZ
+.th, Javasoft Jre 1.3,lib file
+.tha, WINXP SYSTEM32 file
+.thb, Clipart; Hijack Thumbnail
+.thd, Thread
+.the, Microsoft Plus Pack Desktop Theme
+.thelp, Compiler/decompiler for Borland Help Files (file format in German)
+.them, MS Windows Desktop Theme
+.theme, Windows 95 Desktop Theme
+.thm, THuMbnail bitmap image used by eg. Picture Publisher and PhotoMagic Thumbnail
+.thme, Mac File Type (Microsoft Theme File)
+.thml, Theological HTML (HTML with Greek Fonts etc)
+.thn, Graphics Workshop for Windows thumbnail
+.thng, Mac File Type (Thing)
+.thnl, Same as THN
+.thor, Database description (THOR database)
+.thp, TurboTax-related File
+.ths, WordPerfect for Win THeSaurus dictionary
+.thx, Amiga THX Tracker music
+.ti, Temporary Instruction (NRC Inspection Manual)
+.ti, Temporary Instruction (NRC Inspection Manual)
+.tic, FTN special file with associated file description (ALLFIX)
+.tid, "IBM Voice Type" languages tasks file
+.tif, Aldus Tagged Image File Format (TIFF) bitmap image, many different formats (Uncompressed, Huffman compressed, LZW,Jpeg,CCITT3/4, G3 FAX, G4 FAX, Packed Bits)
+.tif, Mime: image/tiff
+.tif, Mime: image/x-tiff
+.tiff, Mac File Type (TIFF file)
+.tiff, Aldus Tagged Image File Format (TIFF) bitmap image, many different formats (Uncompressed, Huffman compressed, Jpeg,LZW,CCITT3/4, G3 FAX, G4 FAX, Packed Bits)
+.tiff, Mime: image/tiff
+.tiff, Mime: image/x-tiff
+.tig, Tiger file, used by U.S. government to distribute maps
+.til, Buttonz & Tilez texture image format
+.til, Fuzzy logic knowledge base (Togai InfraLogic Fuzzy-C Compiler)
+.tim, Sony PlayStation bitmap image
+.tim, Tagged Image File Format
+.tinf, Mac File Type (Microsoft Theme Info File)
+.tip, Tip of the day for Microsoft and MFC applications.
+.tis, MahJongg 3.0 tile set
+.tjf, VAXTPU Backup File (VAXTPU is default OpenVMS editor)
+.tjl, Backup file (VAXTPU editor)
+.tjs, Sound
+.tk2, Take Two view file
+.tki, Mime: application/x-tkined
+.tkined, Mime: application/x-tkined
+.tlb, Bubble Chamber reference table
+.tlb, Remote Automation OLE TypeLiB files, Dynamic Link Library
+.tlb, Text library (VAX)
+.tlc, Compiled Tool Command Language source code (Geoworks Swat)
+.tld, Teledisk disk image
+.tle, NASA Two-Line Element Set
+.tlf, Opengl Stonehenge file
+.tlh, Adder100 source file
+.tli, Adder100 source file
+.tlist, 3d Graphic
+.tlo, SPSS TableLooks file http://www.cam.ac.uk/cs/docs/leaflets/m583/
+.tlp, TimeLine project
+.tlr, Ccs-lib.2 Acs file
+.tls, Zortech 21 Readme file
+.tlt, Trellix Web Design File
+.tlx, Goldwave 402 file
+.tl_, Game: doko inst file
+.tm, Bitmap image (EOSAT's Landsat Thematic Mapper data file)
+.tmap, Real Pool Image
+.tmb, Tmx editor user file
+.tmc, DCI TradeManager Catalog Archive
+.tmd, Lotus TvMap Document
+.tmd, Swisslog TimeData file
+.tme, Swisslog TimeStudy Event History
+.tmf, Tagged Font Metric file (WordPerfect for Win)
+.tmk, Turbopas Tp_tour file
+.tml, Padgen file
+.tmo, Ztg global optimizer default output file (Zortech C++)
+.tmp, temporary file
+.tmpl, SWISH-E example file
+.tms, Telemate compiled script
+.tmt, temporary file
+.tmx, Tmx editor file
+.tn1, Tiny image format
+.tn2, Tiny image format
+.tn3, Tiny image format
+.tn?, 2d Graphic
+.tnb, Windows Bitmap
+.tng, Audio Utility Tuningwrench compressed file
+.tni, Virtua Tennis Menufiles Common file
+.tnl, Thumbnail image format
+.tnpoly, Triangulated polygon files
+.tnv, Bitware Fax file
+.tny, TiNY bitmap image used on Atari
+.toc, FrameMaker
+.toc, Mime: application/toc
+.toc, Table Of Contents (index file)
+.tocf, Mac File Type (Eudora TOC)
+.tok, Borland C++ 4.x external tokens
+.tol, Tonline Bsw4 tol file
+.tombraider 3, Tomb raider 3 save game
+.ton, Wave Siggen-2.1 file
+.too, Asm Objasm file
+.tools, Dos djgpp tools file
+.top, IBM netfinity Rack Configurator extension
+.tor, Guitar Musik trainer Register.ds file
+.tor, Nba 99 art ingame anims file
+.tos, Self-extracting file archive (Atari ST)
+.toys, (MAC CREATOR CODE) Script Editor ToyS text
+.toys, Mac File Type (Script Editor)
+.tp, Turbo Profiler session-state file
+.tp3, Harvard Graphics DOS 3.0 Template
+.tp4, RollerCoaster Tycoon Track Design Screenshot
+.tp?, Tracker Packer v1/v2/v3 formats (music/sound)(Asle / ReDoX)
+.tpa, Corel Graphics10 Custom file
+.tpb, Downloadable PCL Soft font file backup (HiJaak)
+.tpc, Rtfgen file
+.tpf, Downloadable PCL Soft font file (HiJaak)
+.tph, Turbo Pascal Help file
+.tpi, Tonline file
+.tpic, Mac File Type (TARGA Image)
+.tpl, CakeWalk Audio Template file
+.tpl, Mime: application/vnd.groove-tool-template
+.tpl, Resident units library (Turbo Pascal)
+.tpl, TemPLate (Harvard Graphics/GoldEd/ITrack)
+.tpl, Template for Page Express; see DTP
+.tpl, Ulead iPhoto Express TemPLate
+.tpm, TextPad Macro (Windows text editor); see TCL
+.tpo, 3d Graphic
+.tpoly, 3d Graphic
+.tpp, Borland Pascal 7.0 Protected Mode Units
+.tps, WN16 DICT file
+.tpt, Thumbs32 file
+.tpu, Command file (VAXTPU editor)
+.tpu, Enable Teleprocessing
+.tpu, Turbo Pascal Unit
+.tpv, Packed graphics file (TutorPro)
+.tpw, Turbo Profiler for Windows session-state file
+.tpw, Turbo/Borland Pascal Unit (Windows library)
+.tpz, TAR.GZ compressed file archive (Tar and GNUzip)
+.tpz, Treepad Archive; text + pictures = zip
+.tqf, Chemical test (Chemical-mime)
+.tr, Mime: application/x-troff
+.tr, TomeRaider database
+.tr, Turbo Debugger for DOS session-state settings
+.tr, Unformatted manual page (Roff/nroff/troff/groff)
+.tr0, Spice : transient analysis output
+.tr1, "IBM Voice Type" languages Addword file
+.tr2, Turbo Debugger for Win32 session-state settings
+.tr3, Spice : transient analysis output
+.tr4, Spice : transient analysis output
+.tr5, Tree Professional File
+.tr6, Spice : transient analysis output
+.tr7, Spice : transient analysis output
+.tr8, Spice : transient analysis output
+.tr9, Spice : transient analysis output
+.tra, Mime: application/vnd.trueapp
+.tran, Mac File Type (Document Convert)
+.trans, Amaya file
+.trc, Debug support file (Power CTrace)
+.trce, Mac File Type (CorelTrace)
+.tre, PC-Tools directory TREe file
+.tri, Alias TRIangle file
+.trif, Bitmap image (Tiled Raster Interchange Format)
+.triple-s, Surveying file format
+.trk, Mime: x-lml/x-gps
+.trk, physical layout files (3d)
+.trk, TRacK (i.e. video sequence) used by many games
+.trm, Mime: application/x-msterminal
+.trm, Terminal; (generic name)
+.trm, Windows 3.x Terminal configuration settings
+.trn, MKS Source Integrity project usage log
+.trn, Translation (Windows)
+.trn, Translation support file (Quattro/Clarion)
+.tro, "IBM Voice Type" languages Vocabels file
+.troff, Typesetting devices converted text format
+.trp, Watcom binw file
+.trs, Micrografx executable file
+.trt, Team Sports Scheduling System Report Template
+.tru, TRUe Basic source
+.trw, Borland Turbo Debugger for Windows session-state settings
+.trz, Accusoft Alldemo file
+.tsb, TriSpectives 3D Drawing
+.tsc, Win Help related file
+.tsi, Mime: audio/tsp-audio
+.tsi, Mime: audio/tsplayer
+.tsk, Trend Pc-cillin 2000 file
+.tsk, Windows system32 file
+.tsm, Turbo Assembler for OS/2 manual
+.tsn, Midi file
+.tsnd, Mac File Type (Theme Sound File)
+.tsp, Mime: application/dsptype
+.tsp, Mime: audio/tsplayer
+.tsp, Windows telephony Service Provider
+.tsq, ODBC script
+.tsr, Swisslog TranStats Report
+.tss, Team Sports Scheduling System Project File
+.tst, WordPerfect for Win printer test file
+.tsv, Mime: text/tab-separated-values
+.tsv, Tab Separated Values
+.tsx, Team Sports Scheduling System XML Project File
+.tt, True type font file
+.ttbs, Mac File Type (PowerPoint Toolbars File)
+.ttc, TrueType Font Collection, multiple fonts in a single file(Far East Windows)
+.ttf, Mime: application/octet-stream
+.ttf, TrueType Font, variable size
+.tth, PC Game: Vampire - Bloodlines
+.ttk, Corel Catalyst Translation Tool Kit
+.ttl, Tera Term Macro File
+.tto, Client access data specification file (AS/400) (Server to Client)
+.ttp, Atari Falcon Application
+.ttr, TrueType Font
+.ttro, Mac File Type (SimpleText Read-Only ttxt_ttro)
+.ttro, Mac File Type (ReadMe File)
+.ttta, Mac File Type (TableText Table)
+.ttvf, Mac File Type (PlainTalk Voice)
+.ttxt, (Creator Code Mac) SimpleText "ttxt" (all lower case. This was also used by TeachText)
+.ttxt, (MAC CREATOR CODE) SimpleText File (PC ext: TXT)
+.ttxt, Mac File Type (SimpleText)
+.tty, Macromedia Dreamweaver 4 file
+.ttz, Mime: application/t-time
+.tt_, Compressed TTF
+.tub, PaintshopPro(5) picturetube, a multi-celled picture
+.tud, The Ultimate Draw document
+.tun, Fifa World Cup file
+.tur, Visual Turing (a Turing machine simulator) Save file for machines.
+.tur, Webalizer Lang file
+.turboc3, (make-)file for Borland Turbo C
+.turbot, Mime: image/florian
+.tut, Tutorial (generic)
+.tuv, Generic Tutorial file
+.tuw, Microsoft Office file
+.tv, Paradox table view settings
+.tv1, WordPerfect for Win overflow file above insert point in Doc 1
+.tv2, WordPerfect for Win overflow file above insert point in Doc 2
+.tv3, WordPerfect for Win overflow file above insert point in Doc 3
+.tv4, WordPerfect for Win overflow file above insert point in Doc 4
+.tv5, WordPerfect for Win overflow file above insert point in Doc 5
+.tv6, WordPerfect for Win overflow file above insert point in Doc 6
+.tv7, WordPerfect for Win overflow file above insert point in Doc 7
+.tv8, WordPerfect for Win overflow file above insert point in Doc 8
+.tv9, WordPerfect for Win overflow file above insert point in Doc 9
+.tvc, LOTUS 1-2-3 table file
+.tvex, Mac File Type (MoviePlayer Plug-in)
+.tvf, dBASE table view settings
+.tvm, Mime: application/x-tvml
+.tvml, Mime: application/x-tvml
+.tvod, (MAC CREATOR CODE) JPEG 2 File by QT (PC ext: JPG)
+.tvod, (MAC CREATOR CODE) Quick Time
+.tvod, (MAC CREATOR CODE) QuickTime movie files (PC ext: MOV)
+.tvod, Mac File Type (MoviePlayer)
+.tvr, Boot file
+.tvx, VoxPhone / TeleVox
+.twain, TWAIN 1.8 Specification (Adobe Acrobat)
+.twd, SYSTEM file
+.twe, 3d Graphic
+.twf, TabWorks data
+.twg, ThatWaltGuy Web Server File
+.twk, Bc31 Bgi2 tweak-file
+.twn, Op9630 Settings file
+.twn, Scanner Settings file
+.twp, Toplevel Computing Fine Words (DOS Word Processor)
+.tws, TextPad0.TWS (Shareware Windows text editor TextPad current settings)
+.twt, Carmageddon 2 : Carpocalyse Now (saved game)
+.tww, Tagwrite Template
+.tw_, Compressed Scanner us driver file
+.tx, Photoline5 hlp file
+.tx$, Driver Modem Bitware disk4 file
+.tx$, Poppad file
+.tx0, virus notation file
+.tx16w, Yamaha TX-16W sampler files
+.tx8, 8-bit ASCII text
+.txb, Game: fifa 2001 data environ file
+.txc, Urban Chaos Game File
+.txf, Mime: application/vnd.Mobius.TXF
+.txf, TAR.F compressed file archive (TAR and Freeze)
+.txi, TeX support file
+.txk, Kardplay 1.62 file
+.txl, (3d) texture lib file (many prgs)
+.txl, programming language designed to support computer software analysis and source transformation tasks
+.txm, Steuer2001 Daten file
+.txn, Mfhdf Doc file
+.txr, Corel Graphics10 Custom file
+.txt, Text file
+.txt, ANSI (Windows) TeXT
+.txt, DisplayWrite document
+.txt, many Dos Text editors used this extension
+.txt, Mime: application/text
+.txt, Mime: text/plain
+.txt, OEM (Dos) Text
+.txt, plain Text
+.txt, Unix format Text(lf only)
+.txw, Yamaha TX-16W Wave File (Convert (c) Villena)
+.txx, DataPerfect Text Storage
+.txz, Morfwarp au file
+.tx_, Compressed txt file
+.tx_, Webcd fread file
+.tx~, Compressed txt file
+.tym, PageMaker 4 time stamp
+.typ, Thumbs32 file
+.tz, TAR.Z compressed file archive (TAR and Compress)
+.tzb, TAR.Z.btoa compressed file archive (TAR - Compress - Btoa)
+.tzd, Netscape Communicator locale file
+.u, Bitmap image : subsampled raw YUV file
+.u4a, UnInstaller archive
+.u8, Sample
+.u96, EasyZip Temporary File
+.u98, USA 98: Streets & Dest. Tour
+.uap, WAP applications "User Agent Profile"
+.uax, Unreal Audio File
+.ub, Music file (uchar)
+.ubb, Basic Ubas file
+.ubd, Basic Ubas file
+.ubi, Animation UBISOFT
+.ubm, Iphoto Mtwain Install file
+.ubs, Tracesrv etc Bugslayer util file
+.uc0, Archive UC
+.uc2, UltraCompressor II compressed archive
+.ucd, Prosa/ OM Use Case Diagram
+.uce, WINXP SYSTEM32 file
+.ucm, Urban Chaos Game File
+.ucn, UltraCompressor II compressed archive
+.ucr, pixel image file
+.ud, Aol40 file
+.udb, Msworks file
+.udc, Fh5 Usenglsh file
+.udf, Photostyler filter
+.udf, Windows NT Uniqueness Database File
+.udi, Corel Graphics10 Draw Skripts textures Bitmap file
+.udl, MS Data Link
+.udo, 3d Graphic
+.udog, Mac File Type (Apple Browser Launcher)
+.udp, User Datagram Protocol
+.udt, UDTDemo.Document open with: UDTDEMO.EXE /dde
+.udw, Raw Unsigned DoubleWord (32-bit) Data
+.ue2, UltraCompressor II encrypted file archive
+.ufa, UFA compressed file archive
+.ufdl, Mime: application/vnd.ufdl
+.ufo, Ulead File for Objects (Ulead PhotoImpact)
+.ug, AutoCAD and others : Drawing file
+.ugbt, Mac File Type (Users & Groups)
+.uhs, Universal Hint System (binary file)
+.ui, Espire language source (Geoworks UI Compiler)
+.ui, User Interface (Sprint)
+.uid, "IBM Voice Type" Users file
+.uif, WordPerfect for Win long prompts for Windows
+.uih, Espire header file (Geoworks UI Compiler)
+.uil, Bitmap image (X-Motif UIL icon file)
+.uil, Mime: text/x-uil
+.uin, ICQ (a variety of instant messaging) user
+.uis, WindowBlinds Skin
+.uk, TAGCASE0 html folder file
+.uka, Fifa World Cup game data fe art Legalscr file
+.uks, Msworks file
+.uk_, Mcguiness file
+.ul, Ulaw music file
+.ulaw, Mac File Type (AU Soundyer Plug-in Filau)
+.ulaw, sound file
+.uld, Procomm Plus uploaded file information
+.uls, Internet; User Location Service (Internet New Media Phone)
+.ult, Ultratracker music module (MOD) file
+.umb, Backup by MemMaker
+.umod, Unreal Self-extracting MOD File
+.umx, Unreal Game Data File
+.und, A86 UNDefined symbols
+.uni, Forecast Pro datafile
+.uni, Mime: text/uri-list
+.uni, Music (UniMOD/MikMOD)
+.unic, Unic Tracker v1/v2 formats (music/sound)(Asle / ReDoX)
+.unis, Mime: text/uri-list
+.unix, Unix file
+.unixyz, UniChem chemical modeller output file
+.unixyz, UniChem XYZ chemical modeller input file
+.unpa*, glslang unpack program(* means only .unpa is tested)
+.unq, ACT! 3.0 Email message attachment
+.unr, Unreal Game Data File
+.unt, Unit
+.unused, Photoline4 Defaults file
+.unv, Mime: application/i-deas
+.unv, SDRC I-DEAS file
+.unx, Text file containing UNIX specific info
+.un_, Ntgraph Setup30 file
+.uol, PhotoImpact Clipart Images
+.up2, Cool3d plugins board file
+.upc, Ultimate Paint component
+.upd, UPDate info
+.upf, Bitmap image (Universal Picture Format)
+.upg, Grafik Anim file
+.upi, Iphoto4 Programs Plugin file
+.upj, ULead Project File
+.upl, Starmoney Agent Download file
+.upo, dBASE compiled update data
+.upr, Claris user dictionary
+.ups, Msworks file
+.upx, ULead Photo Express Saved Image File
+.upz, Starmoney Agent Download file
+.urf, "Radar ViewPoint" universal radar format
+.uri, List of Uniform Resource Identifiers (WWW)
+.uri, Mime: text/uri-list
+.uris, List of Uniform Resource Identifiers (WWW)
+.uris, Mime: text/uri-list
+.url, Internet Shortcut
+.url, Universal Resource Locator/internet
+.urls, Mime: application/x-url-list
+.urls, Universal Resource Locator : List of Internet shortcuts
+.url_, Mac File Type (Web Site Address-in Fiurl)
+.urt, Bitmap image (Utah Run-Length Encoded image file)
+.us?, MS Word for DOS/WordPerfect Font
+.usa, Microsoft Office Headers file
+.usage, Snort file
+.usb, Syssoft Sandra file
+.use, gen. Log
+.use, MKS Source Integrity file
+.userprofile, Symantec Shared file
+.usl, LaserJet Landscape Font
+.usm, Audio: Unsigned Sample Module data Farandole
+.usp, PageMaker printer font with US Ascii extended character set
+.usr, User database (Procomm Plus/Turbo C++ tour)
+.usrp, UTM/Universe Polar Stereographic (UPS) (USRP/ASRP 1.1/1.2),(French Defense Mapping Agency)
+.ustar, Mime: application/x-ustar
+.ustar, Mime: multipart/x-ustar
+.ustar, POSIX tar compressed archive
+.utbl, Mac File Type (Text Encoding)
+.ute, Rukus 110 file
+.utf, AOL Updating Files (in "Tools on Demand" folder)
+.uti, Spybot Includes file
+.utl, QuickBooks data
+.utp, BinPatch Patch Data File
+.uts, Spybot Includes file
+.utx, Unreal Texture File
+.utxt, Mac File Type (Unicode Text File)
+.uu, Encoded file archive (ascii) (uudecode/uuencode)
+.uu, Mime: application/octet-stream
+.uu, Mime: application/uue
+.uu, Mime: text/x-uuencode
+.uud, Encoded file archive (ascii) (uuencode)
+.uue, Mime: application/uue
+.uue, Mime: text/x-uuencode
+.uue, UUEncoded file.Ascci encoded file for binary attachments

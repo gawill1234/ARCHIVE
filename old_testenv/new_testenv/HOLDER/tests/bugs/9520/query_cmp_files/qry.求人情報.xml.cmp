@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="query-xml-supported">query-xml-supported</attribute>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="admin-url"
+  value="http://testbed10.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="2" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document filetypes="xls " vse-base-score="4"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/9520/recruit.xls/"
+  graph-id-high-water="2" priority="0" change-id="-1153492512" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/9520/recruit.xls"
+  vertex="3" la-score="0.1"
+>
+  <content name="filetype" action="none" type="text" u="1">xls</content>
+  <content name="size" weight="-1" type="text" u="3">16384</content>
+  <content name="last-modified" action="none" weight="-1" type="text"
+    seconds="1204639350" u="23"
+  >Mar 4,
+  2008 14:02:30 GMT</content>
+  <content name="language" weight="0" action="none" type="text" u="25">japanese</content>
+  <content type="html" name="title" output-action="bold" weight="3" u="27">求人情報</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <pre u="28" v="27"></pre>
+      <content type="html" name="title" output-action="bold" weight="3" u="27"
+        v="28"
+      />
+      <match u="28" v="28">求人情報</match>
+      <post u="30" v="48"><![CDATA[   <br/> <h1>求人情報</h1> <br/><font>  <td>eビジネスに特化し、eコマースやeCRM、eマーケティング/eプロモーションといった分野で、 ビジネスインキュベーション、コンサルティング、ソリューション/サービス提供を行っています。</td>  <td>]]>&#160;<![CDATA[</td>  <td>    *</td>  <td>      伊藤忠エレクトロニクスの特徴</td>  <td>]]>&#160;<![CDATA[</td>  <td>      eビジネスに特化し（モノ売りではなく）サービス提供を軸にしています。 さらに顧客との関係においてはビジネスパートナーとして、 時にはリスクとリターンをシェアするモデルを提案することができます。</td>  <td>      将来的には、現在のビジネスモデル、ソリューションの拡大はもちろんのこと、 新しいビジネスモデル、]]></post>
+    </solution>
+    <solution rank="1" score="2">
+      <pre u="30" v="29"></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="29" v="133"
+      />
+      <match u="30" v="30"><![CDATA[   <br/> <h1>求人情報</h1> <br/><font>  <td>]]></match>
+      <post u="31" v="50"><![CDATA[eビジネスに特化し、eコマースやeCRM、eマーケティング/eプロモーションといった分野で、 ビジネスインキュベーション、コンサルティング、ソリューション/サービス提供を行っています。</td>  <td>]]>&#160;<![CDATA[</td>  <td>    *</td>  <td>      伊藤忠エレクトロニクスの特徴</td>  <td>]]>&#160;<![CDATA[</td>  <td>      eビジネスに特化し（モノ売りではなく）サービス提供を軸にしています。 さらに顧客との関係においてはビジネスパートナーとして、 時にはリスクとリターンをシェアするモデルを提案することができます。</td>  <td>      将来的には、現在のビジネスモデル、ソリューションの拡大はもちろんのこと、 新しいビジネスモデル、ソリューションの開発に注力し、 海外ビジネスへの取り組みも拡大化していきます。</td>  <td>]]>&#160;<![CDATA[</td>  <td>    *</td>  <td>      ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"><![CDATA[   <br/> <h1>求人情報</h1> <br/><font>  <td>eビジネスに特化し、eコマースやeCRM、eマーケティング/eプロモーションといった分野で、 ビジネスインキュベーション、コンサルティング、ソリューション/サービス提供を行っています。</td>  <td>]]>&#160;<![CDATA[</td>  <td>    *</td>  <td>      伊藤忠エレクトロニクスの特徴</td>  <td>]]>&#160;<![CDATA[</td>  <td>      eビジネスに特化し（モノ売りではなく）サービス提供を軸にしています。 さらに顧客との関係においてはビジネスパートナーとして、 時にはリスクとリターンをシェアするモデルを提案することができます。</td>  <td>      将来的には、現在のビジネスモデル、 ... ]]></content>
+</document>
+<retrieval-performance n-tau="11" n-rho="3" n-uat="0" n-ohr="0" occr-reads="181"
+  block-reads="4" seeks="0" cache-hits="4" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="3" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="3" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:0:doc#" n-blocks="1" n-tau="2" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="3" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:0:del#" n-blocks="0" n-tau="0" n-rho="1"
+        n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:0:del#" n-blocks="1" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="123" block-reads="4" seeks="0" cache-hits="4" cache-misses="0"
+  >
+    <query-performance what="or" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="123" block-reads="4" seeks="0" cache-hits="4" cache-misses="0"
+    >
+      <query-performance what="3:0:" n-blocks="4" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="123" block-reads="4" seeks="0" cache-hits="4"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="output" n-tau="6" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="41" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="6" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="41" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="6" n-rho="6" n-uat="0"
+        n-ohr="0" occr-reads="41" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      >
+        <query-performance what="0:0:" n-blocks="1" n-tau="6" n-rho="9" n-uat="0"
+          n-ohr="0" occr-reads="26" block-reads="0" seeks="0" cache-hits="0"
+          cache-misses="0"
+        />
+        <query-performance what="or" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="15" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+        >
+          <query-performance what="0:0:url" n-blocks="1" n-tau="2" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="5" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:0:host" n-blocks="1" n-tau="2" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="5" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:0:crawled-date" n-blocks="0" n-tau="1"
+            n-rho="0" n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0"
+            cache-hits="0" cache-misses="0"
+          />
+          <query-performance what="0:0:snippet" n-blocks="1" n-tau="2" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="5" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:0:del#" n-blocks="0" n-tau="0" n-rho="1"
+        n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="1" n-rho="1" n-uat="0" n-ohr="0"
+    occr-reads="2" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="1" n-rho="1" n-uat="0" n-ohr="0"
+      occr-reads="2" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:0:snippet" n-blocks="1" n-tau="1" n-rho="1"
+        n-uat="0" n-ohr="0" occr-reads="2" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:0:del#" n-blocks="0" n-tau="0" n-rho="1"
+        n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="2" n-rho="2" n-uat="0"
+    n-ohr="0" occr-reads="12" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="2" n-rho="2" n-uat="0" n-ohr="0"
+      occr-reads="12" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:0:" n-blocks="1" n-tau="2" n-rho="2" n-uat="0"
+        n-ohr="0" occr-reads="12" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:0:del#" n-blocks="0" n-tau="0" n-rho="1"
+        n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="3" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="4" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+>
+  <query-performance what="1:0:求人情報" n-blocks="1" n-tau="3" n-rho="0"
+    n-uat="0" n-ohr="0" occr-reads="4" block-reads="1" seeks="1" cache-hits="1"
+    cache-misses="0"
+  />
+  <query-performance what="0:0:del#" n-blocks="0" n-tau="0" n-rho="1" n-uat="0"
+    n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+    cache-misses="0"
+  />
+</query-performance>
+</scope>

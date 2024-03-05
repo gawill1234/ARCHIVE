@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="query-xml-supported">query-xml-supported</attribute>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="admin-url"
+  value="http://testbed6-8.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="54" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document filetypes="text " vse-base-score="1"
+  vse-key="smb://netapp1a.bigdatalab.ibm.com:80/testbed5-data/test_data/compression/misc/mp44sp25.txt/"
+  creation-time-sec="1371904810" ct="text/plain" vertex="11" ip="9.75.200.59"
+  filename="./tmp-i/viv_en_mDmq5l" is-temp="is-temp"
+  url="file://///netapp1a.bigdatalab.ibm.com/testbed5-data/test_data/compression/misc/mp44sp25.txt"
+  la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="392343" v="392362">8444098422690960397937224  3736908282925046810300252  7140625728174403150237878  3008522944298948449573666  4421686066759841901894439  5094441332788052794489135  8784353427328317557774008  4532316536589655933800424  0418065705980500618708940  9809891002223450271217817  2504983919773937921203719  7051692286732743354727882  3847857441157258951013712  7452030580579730642474710  0659082402812006850418270  5641195433744490808169439  7023499496826726604958937  3225825120726126214431145  3564186958427357744633045  7465821333212445737104635  </pre>
+      <content type="TEXT" name="snippet" u="29" v="392364" />
+      <match u="392363" v="392363">6920000926590117528801540  </match>
+      <post u="392364" v="392364">53967871
+</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"> ... 3847857441157258951013712  7452030580579730642474710  0659082402812006850418270  5641195433744490808169439  7023499496826726604958937  3225825120726126214431145  3564186958427357744633045  7465821333212445737104635  6920000926590117528801540  53967871
+</content>
+</document>
+<retrieval-performance n-tau="10" n-rho="4" n-uat="0" n-ohr="0" occr-reads="509"
+  block-reads="5" seeks="0" cache-hits="5" cache-misses="0" n-blocks="10934"
+>
+  <query-performance what="doc-text" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="26" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="1"
+  />
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="1"
+  />
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="272" block-reads="5" seeks="0" cache-hits="5" cache-misses="0"
+    n-blocks="10929"
+  />
+  <query-performance what="output" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="2" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="1"
+  />
+  <query-performance what="summarize" n-tau="2" n-rho="2" n-uat="0" n-ohr="0"
+    occr-reads="26" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="1"
+  />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="really-content" n-tau="0" n-rho="0" n-uat="0"
+    n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0" n-blocks="0"
+  />
+  <query-performance what="rights-query" n-tau="2" n-rho="2" n-uat="0" n-ohr="0"
+    occr-reads="183" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="1"
+  />
+</retrieval-performance>
+<query-performance flags="hard point r:apply" what="not-within" n-tau="2"
+  n-rho="0" n-uat="0" n-ohr="0" occr-reads="3" block-reads="2" seeks="1"
+  cache-hits="1" cache-misses="1" n-blocks="1"
+>
+  <query-performance flags="hard point r:apply/need"
+    what="1:0:6920000926590117528801540" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="3" block-reads="1" seeks="1" cache-hits="0" cache-misses="1"
+    n-blocks="1"
+  />
+  <query-performance flags="hard extent r:apply/need" what="0:0:del#" n-tau="0"
+    n-rho="1" n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0"
+    cache-hits="1" cache-misses="0" n-blocks="0"
+  />
+</query-performance>
+<xpath-performances />
+</scope>

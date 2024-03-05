@@ -1,0 +1,246 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="/home/gaw/tryjunk/supper.xsl"?>
+<testset>
+   <test>
+      <data>
+      I can eat glass and it doesn't hurt me.
+      </data>
+      <expected>
+      english
+      </expected>
+   </test>
+   <test>
+      <data>
+      The quick brown fox jumps over the lazy dog.
+      </data>
+      <expected>
+      english
+      </expected>
+   </test>
+   <test>
+      <data>
+      Puedo comer vidrio, no me hace daño.
+      </data>
+      <expected>
+      spanish
+      </expected>
+   </test>
+   <test>
+      <data>
+      El pingüino Wenceslao hizo kilómetros bajo exhaustiva lluvia y frío, añoraba a su querido cachorro.
+      </data>
+      <expected>
+      spanish
+      </expected>
+   </test>
+   <test>
+      <data>
+      Puedo comer el vidrio. No me lastima.
+      </data>
+      <expected>
+      spanish
+      </expected>
+   </test>
+   <test>
+      <data>
+      Comer es algo necesario.  Es como volar, pero mejor!  Yo me como una manzana.  Está en estado de coma etílico.
+      </data>
+      <expected>
+      spanish
+      </expected>
+   </test>
+   <test>
+      <data>
+      Je peux manger le verre. Il ne me blesse pas.
+      </data>
+      <expected>
+      french
+      </expected>
+   </test>
+   <test>
+      <data>
+      Les naïfs ægithales hâtifs pondant à Noël où il gèle sont sûrs d'être déçus en voyant leurs drôles d'œufs abîmés.
+      </data>
+      <expected>
+      french
+      </expected>
+   </test>
+   <test>
+      <data>
+      Jag kan äta glas, det gör inte ont.
+      </data>
+      <expected>
+      swedish
+      </expected>
+   </test>
+   <test>
+      <data>
+      Flygande bäckasiner söka strax hwila på mjuka tuvor.
+      </data>
+      <expected>
+      swedish
+      </expected>
+   </test>
+   <test>
+      <data>
+      Posso mangiare il vetro, non mi fa male. 
+      </data>
+      <expected>
+      italian
+      </expected>
+   </test>
+   <test>
+      <data>
+      Ik kan glas eten. Het doet geen pijn.
+      </data>
+      <expected>
+      dutch
+      </expected>
+   </test>
+   <test>
+      <data>
+      Pa's wĳze lynx bezag vroom het fikse aquaduct.
+      </data>
+      <expected>
+      dutch
+      </expected>
+   </test>
+   <test>
+      <data>
+      入-に-か 入にか 金繰表 財.指@書
+      </data>
+      <expected>
+      japanese
+      </expected>
+   </test>
+   <test>
+      <data>
+      いろはにほへど　ちりぬるを わがよたれぞ　つねならむ うゐのおくやま　けふこえて あさきゆめみじ　ゑひもせず 
+      </data>
+      <expected>
+      japanese
+      </expected>
+   </test>
+   <test>
+      <data>
+      我能吞下玻璃而不傷身體。
+      </data>
+      <expected>
+      chinese, Traditional
+      </expected>
+   </test>
+   <test>
+      <data>
+      전자출판이 인쇄 요새에는 쇄인문신 용사
+      </data>
+      <expected>
+      korean
+      </expected>
+   </test>
+   <test>
+      <data>
+      า.แ@ล. ที่อยู่ ที่-อ-ยู่ ในร ะะใ ๑๒๓ ๔๕ ๖๗๘ ๙๐ ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙
+      </data>
+      <expected>
+      thai
+      </expected>
+   </test>
+   <test>
+      <data>
+      Eu posso comer o vidro. Não me fere.
+      </data>
+      <expected>
+      portuguese
+      </expected>
+   </test>
+   <test>
+      <data>
+      O próximo vôo à noite sobre o Atlântico, põe freqüentemente o único médico.
+      </data>
+      <expected>
+      portuguese
+      </expected>
+   </test>
+   <test>
+      <data>
+      Ich kann Glas essen, das tut mir nicht weh.
+      </data>
+      <expected>
+      german
+      </expected>
+   </test>
+   <test>
+      <data>
+      Falsches Üben von Xylophonmusik quält jeden größeren Zwerg.
+      </data>
+      <expected>
+      german
+      </expected>
+   </test>
+   <test>
+      <data>
+      Im finſteren Jagdſchloß am offenen Felsquellwaſſer patzte der affig-flatterhafte kauzig-höf‌liche Bäcker über ſeinem verſifften kniffligen C-Xylophon.
+      </data>
+      <expected>
+      german
+      </expected>
+   </test>
+   <test>
+      <data>
+      Съешь же ещё этих мягких французских булок да выпей чаю.
+      </data>
+      <expected>
+      russian
+      </expected>
+   </test>
+   <test>
+      <data>
+      В чащах юга жил-был цитрус? Да, но фальшивый экземпляр! ёъ.
+      </data>
+      <expected>
+      russian
+      </expected>
+   </test>
+   <test>
+      <data>
+      Я могу есть стекло, оно мне не вредит
+      </data>
+      <expected>
+      russian
+      </expected>
+   </test>
+   <test>
+      <data>
+      Puc menjar vidre, que no em fa mal 
+      </data>
+      <expected>
+      catalan
+      </expected>
+   </test>
+   <test>
+      <data>
+      אני יכול לאכול זכוכית וזה לא מזיק לי.
+      </data>
+      <expected>
+      hebrew
+      </expected>
+   </test>
+   <test>
+      <data>
+      זה כיף סתם לשמוע איך תנצח קרפד עץ טוב בגן.
+      </data>
+      <expected>
+      hebrew
+      </expected>
+   </test>
+   <test>
+      <data>
+      Árvíztűrő tükörfúrógép.
+      </data>
+      <expected>
+      hungarian
+      </expected>
+   </test>
+   
+   
+</testset>

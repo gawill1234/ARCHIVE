@@ -1,0 +1,764 @@
+3d2
+< <attribute name="query-xml-supported">query-xml-supported</attribute>
+7c6
+<   value="http://testbed6-8.test.vivisimo.com/vivisimo/cgi-bin/admin"
+---
+>   value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+13c12
+< <attribute name="retrieval-ms" value="5" />
+---
+> <attribute name="retrieval-ms" value="3" />
+15c14
+< <document filetypes="pdf " vse-base-score="8.27568"
+---
+> <document filetypes="pdf " vse-base-score="4.14326"
+17c16
+<   creation-time-sec="1371884527" vertex="28" ip="9.75.200.59" ct="text/html"
+---
+>   vertex="71"
+19c18
+<   la-score="0.1"
+---
+>   ct="text/html" la-score="1.62831"
+21,24c20,23
+<   <content name="filetype" action="none" type="text" u="2">pdf</content>
+<   <content name="size" weight="-1" type="text" u="4">279415</content>
+<   <content name="last-modified" action="none" weight="-1" type="text"
+<     seconds="1198180342" u="31"
+---
+>   <content name="filetype" action="none" u="1">pdf</content>
+>   <content name="size" weight="-1" u="3">279415</content>
+>   <content name="last-modified" action="none" weight="-1" seconds="1198183942"
+>     u="29"
+26,28c25,27
+<   2007 19:52:22 GMT</content>
+<   <content name="language" weight="0" action="none" type="text" u="33">english</content>
+<   <content type="html" name="title" output-action="bold" weight="3" u="35">Cary Audio Design A 306</content>
+---
+>   2007 20:52:22 GMT</content>
+>   <content name="language" weight="0" action="none" u="31">english</content>
+>   <content name="title" output-action="bold" weight="3" u="33">Cary Audio Design A 306</content>
+30,89c29,84
+<     <solution rank="0" score="6">
+<       <pre u="36" v="35"></pre>
+<       <content type="html" name="title" output-action="bold" weight="3" u="35"
+<         v="40"
+<       />
+<       <match u="36" v="37">Cary Audio </match>
+<       <post u="38" v="40">Design A 306</post>
+<     </solution>
+<     <solution rank="1" score="3">
+<       <pre u="979" v="998"><![CDATA[Balanced (XLR) and single-</b></span> </div><div> <span><b>ended (RCA)</b></span> </div><div> <span><b>Dimensions: 18" x 5" x 15.8"</b></span> </div><div> <span><b>Weight:</b></span> </div><div> <span><b> 50 lbs.</b></span> </div><div> <span><b>Price: $5000</b></span> </div><div> <span>SPECS/PRICE</span> </div><div> <span><b>]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="41" v="1069"
+<       />
+<       <match u="999" v="1000">CARy AUDIO </match>
+<       <post u="1001" v="1020"><![CDATA[DESIGN</b><br/><b>1020 Goodworth Drive</b><br/><b>Apex, North Carolina 27539</b><br/><b>(919) 355-0010</b><br/><b>caryaudio.com</b></span> </div><div> <span>DISTRIBuTOR</span> </div><div> <span><b>Cary CD 306, Meridian 808, and</b><br/><b>]]></post>
+<     </solution>
+<     <solution rank="2" score="2">
+<       <pre u="263" v="282"><![CDATA[in this issue are a fraction of the Cary’s size and<br/>weight (although none puts out as much power).</span> </div><div> <span>]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="41" v="1069"
+<       />
+<       <match u="283" v="284"><![CDATA[Cary</span> </div><div> <span>Audio</span> </div><div> <span>]]></match>
+<       <post u="285" v="304"><![CDATA[Design</span> </div><div> <span>A 306</span> </div><div> <span>Robert Harley</span> </div><div> <span>The A 306 is built around the ICEpower module (see the accompanying technical</span> </div><div> <span>background article ]]></post>
+<     </solution>
+<     <solution rank="3" score="2">
+<       <pre u="360" v="379"><![CDATA[a gorgeous, all-aluminum chassis with no visible screws. The</span> </div><div> <span>front panel contains an etched-crystal panel that illuminates the ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="41" v="1069"
+<       />
+<       <match u="380" v="381">Cary Audio </match>
+<       <post u="382" v="401"><![CDATA[Design<br/>logo in a soft blue light. Binding posts are the outstanding Cardas units, which are<br/>vastly better than five-]]></post>
+<     </solution>
+<     <solution rank="4" score="0.285714">
+<       <pre u="995" v="1014"><![CDATA[Price: $5000</b></span> </div><div> <span>SPECS/PRICE</span> </div><div> <span><b>CARy AUDIO DESIGN</b><br/><b>1020 Goodworth Drive</b><br/><b>Apex, North Carolina 27539</b><br/><b>(919) 355-0010</b><br/><b>caryaudio.com</b></span> </div><div> <span>DISTRIBuTOR</span> </div><div> <span><b>]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="41" v="1069"
+<       />
+<       <match u="1015" v="1035"><![CDATA[Cary CD 306, Meridian 808, and</b><br/><b>Esoteric P-03 and D-03 digital</b><br/><b>playback; Mark Levinson No.326S</b><br/><b>preamp; Wilson Audio ]]></match>
+<       <post u="1036" v="1055"><![CDATA[MAXX 2</b><br/><b>loudspeakers; Nordost Valhalla</b><br/><b>interconnects and MIT Magnum</b><br/><b>MA speaker cables; Shunyata</b><br/><b>Research Hydra-8 and Hydra-2</b><br/><b>power ]]></post>
+<     </solution>
+<     <solution rank="5" score="0.1875">
+<       <pre u="980" v="999"><![CDATA[XLR) and single-</b></span> </div><div> <span><b>ended (RCA)</b></span> </div><div> <span><b>Dimensions: 18" x 5" x 15.8"</b></span> </div><div> <span><b>Weight:</b></span> </div><div> <span><b> 50 lbs.</b></span> </div><div> <span><b>Price: $5000</b></span> </div><div> <span>SPECS/PRICE</span> </div><div> <span><b>CARy ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="41" v="1069"
+<       />
+<       <match u="1000" v="1015"><![CDATA[AUDIO DESIGN</b><br/><b>1020 Goodworth Drive</b><br/><b>Apex, North Carolina 27539</b><br/><b>(919) 355-0010</b><br/><b>caryaudio.com</b></span> </div><div> <span>DISTRIBuTOR</span> </div><div> <span><b>Cary ]]></match>
+<       <post u="1016" v="1035"><![CDATA[CD 306, Meridian 808, and</b><br/><b>Esoteric P-03 and D-03 digital</b><br/><b>playback; Mark Levinson No.326S</b><br/><b>preamp; Wilson Audio ]]></post>
+<     </solution>
+<     <solution rank="6" score="0.0769231">
+<       <pre u="264" v="283"><![CDATA[this issue are a fraction of the Cary’s size and<br/>weight (although none puts out as much power).</span> </div><div> <span>Cary</span> </div><div> <span>]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="41" v="1069"
+<       />
+<       <match u="284" v="309"><![CDATA[Audio</span> </div><div> <span>Design</span> </div><div> <span>A 306</span> </div><div> <span>Robert Harley</span> </div><div> <span>The A 306 is built around the ICEpower module (see the accompanying technical</span> </div><div> <span>background article on Class D amplification). Cary ]]></match>
+<       <post u="310" v="329"><![CDATA[modifies the module, as well as<br/>adds its own circuit designs around the ICEpower unit. The fully balanced A 306 ]]></post>
+<     </solution>
+<     <solution rank="7" score="0.0686623">
+<       <pre u="36" v="36">Cary </pre>
+<       <content type="html" name="title" output-action="bold" weight="3" u="35"
+<         v="40"
+---
+>     <solution rank="0" score="3">
+>       <pre u="34" v="33"></pre>
+>       <content name="title" output-action="bold" weight="3" u="33" v="38" />
+>       <match u="34" v="35">Cary Audio </match>
+>       <post u="36" v="38">Design A 306</post>
+>     </solution>
+>     <solution rank="1" score="1.5">
+>       <pre u="975" v="994"><![CDATA[Inputs:</b></span> </div><div> <span><b> Balanced (XLR) and single-</b></span> </div><div> <span><b>ended (RCA)</b></span> </div><div> <span><b>Dimensions:</b></span> </div><div> <span><b> 18" x 5" x 15.8"</b></span> </div><div> <span><b>Weight:</b></span> </div><div> <span><b> 50 lbs.</b></span> </div><div> <span><b>Price:</b></span> </div><div> <span><b> $5000</b></span> </div><div> <span>SPECS/PRICE</span> </div><div> <span><b>]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="39"
+>         v="1065"
+>       />
+>       <match u="995" v="996">CARy AUDIO </match>
+>       <post u="997" v="1016"><![CDATA[DESIGN</b><br/><b>1020 Goodworth Drive</b><br/><b>Apex, North Carolina 27539</b><br/><b>(919) 355-0010</b><br/><b>caryaudio.com</b></span> </div><div> <span>DISTRIBuTOR</span> </div><div> <span><b>Cary CD 306, Meridian 808, and</b><br/><b>]]></post>
+>     </solution>
+>     <solution rank="2" score="1">
+>       <pre u="261" v="280">in this issue are a fraction of the Cary’s size and&lt;br/>weight (although none puts out as much power).&lt;/span> &lt;/div>&lt;div> &lt;span></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="39"
+>         v="1065"
+>       />
+>       <match u="281" v="282"><![CDATA[Cary</span> </div><div> <span>Audio</span> </div><div> <span>]]></match>
+>       <post u="283" v="302"><![CDATA[Design</span> </div><div> <span>A 306</span> </div><div> <span>Robert Harley</span> </div><div> <span>The A 306 is built around the ICEpower module (see the accompanying technical</span> </div><div> <span>background article ]]></post>
+>     </solution>
+>     <solution rank="3" score="1">
+>       <pre u="358" v="377">a gorgeous, all-aluminum chassis with no visible screws. The&lt;/span> &lt;/div>&lt;div> &lt;span>front panel contains an etched-crystal panel that illuminates the </pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="39"
+>         v="1065"
+>       />
+>       <match u="378" v="379">Cary Audio </match>
+>       <post u="380" v="399">Design&lt;br/>logo in a soft blue light. Binding posts are the outstanding Cardas units, which are&lt;br/>vastly better than five-</post>
+>     </solution>
+>     <solution rank="4" score="0.1875">
+>       <pre u="976" v="995"><![CDATA[Balanced (XLR) and single-</b></span> </div><div> <span><b>ended (RCA)</b></span> </div><div> <span><b>Dimensions:</b></span> </div><div> <span><b> 18" x 5" x 15.8"</b></span> </div><div> <span><b>Weight:</b></span> </div><div> <span><b> 50 lbs.</b></span> </div><div> <span><b>Price:</b></span> </div><div> <span><b> $5000</b></span> </div><div> <span>SPECS/PRICE</span> </div><div> <span><b>CARy ]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="39"
+>         v="1065"
+>       />
+>       <match u="996" v="1011"><![CDATA[AUDIO DESIGN</b><br/><b>1020 Goodworth Drive</b><br/><b>Apex, North Carolina 27539</b><br/><b>(919) 355-0010</b><br/><b>caryaudio.com</b></span> </div><div> <span>DISTRIBuTOR</span> </div><div> <span><b>Cary ]]></match>
+>       <post u="1012" v="1031"><![CDATA[CD 306, Meridian 808, and</b><br/><b>Esoteric P-03 and D-03 digital</b><br/><b>playback; Mark Levinson No.326S</b><br/><b>preamp; Wilson Audio ]]></post>
+>     </solution>
+>     <solution rank="5" score="0.142857">
+>       <pre u="991" v="1010"><![CDATA[Price:</b></span> </div><div> <span><b> $5000</b></span> </div><div> <span>SPECS/PRICE</span> </div><div> <span><b>CARy AUDIO DESIGN</b><br/><b>1020 Goodworth Drive</b><br/><b>Apex, North Carolina 27539</b><br/><b>(919) 355-0010</b><br/><b>caryaudio.com</b></span> </div><div> <span>DISTRIBuTOR</span> </div><div> <span><b>]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="39"
+>         v="1065"
+>       />
+>       <match u="1011" v="1031"><![CDATA[Cary CD 306, Meridian 808, and</b><br/><b>Esoteric P-03 and D-03 digital</b><br/><b>playback; Mark Levinson No.326S</b><br/><b>preamp; Wilson Audio ]]></match>
+>       <post u="1032" v="1051"><![CDATA[MAXX 2</b><br/><b>loudspeakers; Nordost Valhalla</b><br/><b>interconnects and MIT Magnum</b><br/><b>MA speaker cables; Shunyata</b><br/><b>Research Hydra-8 and Hydra-2</b><br/><b>power ]]></post>
+>     </solution>
+>     <solution rank="6" score="0.08">
+>       <pre u="34" v="34">Cary </pre>
+>       <content name="title" output-action="bold" weight="3" u="33" v="38" />
+>       <match u="35" v="38">Audio Design A 306</match>
+>       <post u="85" v="104">s A 306 Class D amplifier, part of the new Designer Series that&lt;br/>includes the superb CD 306 CD/SACD </post>
+>     </solution>
+>     <solution rank="7" score="0.0769231">
+>       <pre u="262" v="281"><![CDATA[this issue are a fraction of the Cary’s size and<br/>weight (although none puts out as much power).</span> </div><div> <span>Cary</span> </div><div> <span>]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="39"
+>         v="1065"
+91,92c86,87
+<       <match u="37" v="40">Audio Design A 306</match>
+<       <post u="87" v="106"><![CDATA[s A 306 Class D amplifier, part of the new Designer Series that<br/>includes the superb CD 306 CD/SACD ]]></post>
+---
+>       <match u="282" v="307"><![CDATA[Audio</span> </div><div> <span>Design</span> </div><div> <span>A 306</span> </div><div> <span>Robert Harley</span> </div><div> <span>The A 306 is built around the ICEpower module (see the accompanying technical</span> </div><div> <span>background article on Class D amplification). Cary ]]></match>
+>       <post u="308" v="327">modifies the module, as well as&lt;br/>adds its own circuit designs around the ICEpower unit. The fully balanced A 306 </post>
+95,97c90,92
+<       <pre u="361" v="380"><![CDATA[gorgeous, all-aluminum chassis with no visible screws. The</span> </div><div> <span>front panel contains an etched-crystal panel that illuminates the Cary ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="41" v="1069"
+---
+>       <pre u="359" v="378">gorgeous, all-aluminum chassis with no visible screws. The&lt;/span> &lt;/div>&lt;div> &lt;span>front panel contains an etched-crystal panel that illuminates the Cary </pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="39"
+>         v="1065"
+99,100c94,95
+<       <match u="381" v="415"><![CDATA[Audio Design<br/>logo in a soft blue light. Binding posts are the outstanding Cardas units, which are<br/>vastly better than five-way posts. A rear-panel switch selects between unbalanced and<br/>balanced inputs.</span> </div><div> <span>The Cary ]]></match>
+<       <post u="416" v="435"><![CDATA[was the first Class D power amplifier I auditioned outside those in</span> </div><div> <span>AV receivers and powered subwoofers. I was immediately ]]></post>
+---
+>       <match u="379" v="413">Audio Design&lt;br/>logo in a soft blue light. Binding posts are the outstanding Cardas units, which are&lt;br/>vastly better than five-way posts. A rear-panel switch selects between unbalanced and&lt;br/>balanced inputs.&lt;/span> &lt;/div>&lt;div> &lt;span>The Cary </match>
+>       <post u="414" v="433">was the first Class D power amplifier I auditioned outside those in&lt;/span> &lt;/div>&lt;div> &lt;span>AV receivers and powered subwoofers. I was immediately </post>
+103c98
+<   <content name="snippet" action="cluster"><![CDATA[ ... 8"</b></span> </div><div> <span><b>Weight:</b></span> </div><div> <span><b> 50 lbs.</b></span> </div><div> <span><b>Price: $5000</b></span> </div><div> <span>SPECS/PRICE</span> </div><div> <span><b>CARy AUDIO DESIGN</b><br/><b>1020 Goodworth Drive</b><br/><b>Apex, North Carolina 27539</b><br/><b>(919) 355-0010</b><br/><b>caryaudio.com</b></span> </div><div> <span>DISTRIBuTOR</span> </div><div> <span><b>Cary CD 306, Meridian 808, ...  Wilson Audio MAXX 2</b><br/><b>loudspeakers; Nordost Valhalla</b><br/><b>interconnects and MIT  ... ]]></content>
+---
+>   <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... contains an etched-crystal panel that illuminates the Cary Audio Design<br/>logo in a soft blue light. Binding  ... 15.8"</b></span> </div><div> <span><b>Weight:</b></span> </div><div> <span><b> 50 lbs.</b></span> </div><div> <span><b>Price:</b></span> </div><div> <span><b> $5000</b></span> </div><div> <span>SPECS/PRICE</span> </div><div> <span><b>CARy AUDIO DESIGN</b><br/><b>1020 Goodworth Drive</b><br/><b>Apex, North Carolina 27539</b><br/><b>( ... ]]></content>
+105c100
+< <document filetypes="pdf " vse-base-score="7.7753"
+---
+> <document filetypes="pdf " vse-base-score="3.90119"
+107c102
+<   creation-time-sec="1371884527" vertex="99" ip="9.75.200.59" ct="text/html"
+---
+>   vertex="39"
+109c104
+<   la-score="0.1"
+---
+>   ct="text/html" la-score="0.959257"
+111,114c106,109
+<   <content name="filetype" action="none" type="text" u="2">pdf</content>
+<   <content name="size" weight="-1" type="text" u="4">278086</content>
+<   <content name="last-modified" action="none" weight="-1" type="text"
+<     seconds="1198180151" u="30"
+---
+>   <content name="filetype" action="none" u="1">pdf</content>
+>   <content name="size" weight="-1" u="3">278086</content>
+>   <content name="last-modified" action="none" weight="-1" seconds="1198183751"
+>     u="28"
+116,118c111,113
+<   2007 19:49:11 GMT</content>
+<   <content name="language" weight="0" action="none" type="text" u="32">english</content>
+<   <content type="html" name="title" output-action="bold" weight="3" u="34">Cary Audio Rocket 88 Power Amplifier</content>
+---
+>   2007 20:49:11 GMT</content>
+>   <content name="language" weight="0" action="none" u="30">english</content>
+>   <content name="title" output-action="bold" weight="3" u="32">Cary Audio Rocket 88 Power Amplifier</content>
+120,147c115,140
+<     <solution rank="0" score="6">
+<       <pre u="35" v="34"></pre>
+<       <content type="html" name="title" output-action="bold" weight="3" u="34"
+<         v="40"
+<       />
+<       <match u="35" v="36">Cary Audio </match>
+<       <post u="37" v="40">Rocket 88 Power Amplifier</post>
+<     </solution>
+<     <solution rank="1" score="2">
+<       <pre u="42" v="54"><![CDATA[   <a/><div> <div> <span>I</span> </div><div> <span>t’s a measure of the youth of the<br/>high end that ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="41" v="2253"
+<       />
+<       <match u="55" v="56">Cary Audio, </match>
+<       <post u="57" v="76"><![CDATA[at 13, is<br/>one of its venerable mainstays. But<br/>I’d never heard Cary’s electronics in<br/>my home system ]]></post>
+<     </solution>
+<     <solution rank="2" score="2">
+<       <pre u="700" v="719"><![CDATA[my familiarity with the favorable<br/>reviews Cary gear has received. But I had<br/>heard that the “Cary sound” was typical-</span> </div><div> <span>]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="41" v="2253"
+<       />
+<       <match u="720" v="721">Cary Audio </match>
+<       <post u="722" v="741"><![CDATA[Rocket 88 Power Amplifier</span> </div><div> <span>Dan Davis</span> </div><div> <span>equipment</span> </div><div> <span>report</span> </div></div><a/><div> <div> <span>ly tubey—smooth, fat and happy, but far<br/>from neutral. My experience ]]></post>
+<     </solution>
+<     <solution rank="3" score="2">
+<       <pre u="1988" v="2007"><![CDATA[preamp and sensitive<br/>speakers, can hold their own as a reasonably<br/>  priced,  high-value  alternative  to<br/>pricier monoblocks.</span> </div><div> <span>&amp;</span> </div><div> <span>MANUFACTURER INFORMATION</span> </div><div> <span>]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="41" v="2253"
+---
+>     <solution rank="0" score="3">
+>       <pre u="33" v="32"></pre>
+>       <content name="title" output-action="bold" weight="3" u="32" v="38" />
+>       <match u="33" v="34">Cary Audio </match>
+>       <post u="35" v="38">Rocket 88 Power Amplifier</post>
+>     </solution>
+>     <solution rank="1" score="1">
+>       <pre u="40" v="52"><![CDATA[   <a/><div> <div> <span>I</span> </div><div> <span>t’s a measure of the youth of the<br/>high end that ]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="39"
+>         v="2248"
+>       />
+>       <match u="53" v="54">Cary Audio, </match>
+>       <post u="55" v="74">at 13, is&lt;br/>one of its venerable mainstays. But&lt;br/>I’d never heard Cary’s electronics in&lt;br/>my home system </post>
+>     </solution>
+>     <solution rank="2" score="1">
+>       <pre u="697" v="716">my familiarity with the favorable&lt;br/>reviews Cary gear has received. But I had&lt;br/>heard that the “Cary sound” was typical-&lt;/span> &lt;/div>&lt;div> &lt;span></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="39"
+>         v="2248"
+>       />
+>       <match u="717" v="718">Cary Audio </match>
+>       <post u="719" v="738"><![CDATA[Rocket 88 Power Amplifier</span> </div><div> <span>Dan Davis</span> </div><div> <span>equipment</span> </div><div> <span>report</span> </div></div><a/><div> <div> <span>ly tubey—smooth, fat and happy, but far<br/>from neutral. My experience ]]></post>
+>     </solution>
+>     <solution rank="3" score="1">
+>       <pre u="1985" v="2004"><![CDATA[preamp and sensitive<br/>speakers, can hold their own as a reasonably<br/>  priced,  high-value  alternative  to<br/>pricier monoblocks.</span> </div><div> <span>&amp;</span> </div><div> <span>MANUFACTURER INFORMATION</span> </div><div> <span>]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="39"
+>         v="2248"
+149,150c142,143
+<       <match u="2008" v="2009"><![CDATA[Cary Audio</span> </div><div> <span>]]></match>
+<       <post u="2010" v="2029"><![CDATA[111-A Woodwinds Industrial Court</span> </div><div> <span>Cary, North Carolina 27511</span> </div><div> <span>Phone: (919) 481-4494</span> </div><div> <span>www.caryaudio.com</span> </div><div> <span>Price: $2,500</span> </div><div> <span>e ]]></post>
+---
+>       <match u="2005" v="2006"><![CDATA[Cary Audio</span> </div><div> <span>]]></match>
+>       <post u="2007" v="2026"><![CDATA[111-A Woodwinds Industrial Court</span> </div><div> <span>Cary, North Carolina 27511</span> </div><div> <span>Phone: (919) 481-4494</span> </div><div> <span>www.caryaudio.com</span> </div><div> <span>Price: $2,500</span> </div><div> <span>e q ]]></post>
+153,166c146,157
+<       <pre u="1989" v="2008"><![CDATA[and sensitive<br/>speakers, can hold their own as a reasonably<br/>  priced,  high-value  alternative  to<br/>pricier monoblocks.</span> </div><div> <span>&amp;</span> </div><div> <span>MANUFACTURER INFORMATION</span> </div><div> <span>Cary ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="41" v="2253"
+<       />
+<       <match u="2009" v="2015"><![CDATA[Audio</span> </div><div> <span>111-A Woodwinds Industrial Court</span> </div><div> <span>Cary, ]]></match>
+<       <post u="2016" v="2035"><![CDATA[North Carolina 27511</span> </div><div> <span>Phone: (919) 481-4494</span> </div><div> <span>www.caryaudio.com</span> </div><div> <span>Price: $2,500</span> </div><div> <span>e q u i p m e ]]></post>
+<     </solution>
+<     <solution rank="5" score="0.171656">
+<       <pre u="35" v="35">Cary </pre>
+<       <content type="html" name="title" output-action="bold" weight="3" u="34"
+<         v="40"
+<       />
+<       <match u="36" v="40">Audio Rocket 88 Power Amplifier</match>
+<       <post u="56" v="75"><![CDATA[Audio, at 13, is<br/>one of its venerable mainstays. But<br/>I’d never heard Cary’s electronics in<br/>my home ]]></post>
+---
+>       <pre u="1986" v="2005"><![CDATA[and sensitive<br/>speakers, can hold their own as a reasonably<br/>  priced,  high-value  alternative  to<br/>pricier monoblocks.</span> </div><div> <span>&amp;</span> </div><div> <span>MANUFACTURER INFORMATION</span> </div><div> <span>Cary ]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="39"
+>         v="2248"
+>       />
+>       <match u="2006" v="2012"><![CDATA[Audio</span> </div><div> <span>111-A Woodwinds Industrial Court</span> </div><div> <span>Cary, ]]></match>
+>       <post u="2013" v="2032"><![CDATA[North Carolina 27511</span> </div><div> <span>Phone: (919) 481-4494</span> </div><div> <span>www.caryaudio.com</span> </div><div> <span>Price: $2,500</span> </div><div> <span>e q u i p m e n ]]></post>
+>     </solution>
+>     <solution rank="5" score="0.2">
+>       <pre u="33" v="33">Cary </pre>
+>       <content name="title" output-action="bold" weight="3" u="32" v="38" />
+>       <match u="34" v="38">Audio Rocket 88 Power Amplifier</match>
+>       <post u="54" v="73">Audio, at 13, is&lt;br/>one of its venerable mainstays. But&lt;br/>I’d never heard Cary’s electronics in&lt;br/>my home </post>
+169,171c160,162
+<       <pre u="42" v="55"><![CDATA[   <a/><div> <div> <span>I</span> </div><div> <span>t’s a measure of the youth of the<br/>high end that Cary ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="41" v="2253"
+---
+>       <pre u="40" v="53"><![CDATA[   <a/><div> <div> <span>I</span> </div><div> <span>t’s a measure of the youth of the<br/>high end that Cary ]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="39"
+>         v="2248"
+173,174c164,165
+<       <match u="56" v="70"><![CDATA[Audio, at 13, is<br/>one of its venerable mainstays. But<br/>I’d never heard Cary’]]></match>
+<       <post u="71" v="90"><![CDATA[s electronics in<br/>my home system before the arrival</span> </div><div> <span>of  the  CAD  808  amplifier,  called  the<br/>Rocket 88 in tribute ]]></post>
+---
+>       <match u="54" v="68">Audio, at 13, is&lt;br/>one of its venerable mainstays. But&lt;br/>I’d never heard Cary’</match>
+>       <post u="69" v="88">s electronics in&lt;br/>my home system before the arrival&lt;/span> &lt;/div>&lt;div> &lt;span>of  the  CAD  808  amplifier,  called  the&lt;br/>Rocket 88 in tribute </post>
+177c168
+<   <content name="snippet" action="cluster"><![CDATA[ ... of the youth of the<br/>high end that Cary Audio, at 13, is<br/>one of its venerable mainstays.  ... had<br/>heard that the “Cary sound” was typical-</span> </div><div> <span>Cary Audio Rocket 88 Power Amplifier</span> </div><div> <span>Dan Davis</span> </div><div> <span>equipment</span> </div><div> <span>report</span> </div></div><a/><div> <div> <span> ... ]]></content>
+---
+>   <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... of the youth of the<br/>high end that Cary Audio, at 13, is<br/>one of its venerable mainstays.  ... had<br/>heard that the “Cary sound” was typical-</span> </div><div> <span>Cary Audio Rocket 88 Power Amplifier</span> </div><div> <span>Dan Davis</span> </div><div> <span>equipment</span> </div><div> <span>report</span> </div></div><a/><div> <div> <span> ... ]]></content>
+179c170
+< <document filetypes="pdf " vse-base-score="7.51101"
+---
+> <document filetypes="pdf " vse-base-score="3.75781"
+181c172
+<   creation-time-sec="1371884527" vertex="66" ip="9.75.200.59" ct="text/html"
+---
+>   vertex="34"
+183c174
+<   la-score="0.1"
+---
+>   ct="text/html" la-score="0.959257"
+185,188c176,179
+<   <content name="filetype" action="none" type="text" u="2">pdf</content>
+<   <content name="size" weight="-1" type="text" u="4">435455</content>
+<   <content name="last-modified" action="none" weight="-1" type="text"
+<     seconds="1198180150" u="30"
+---
+>   <content name="filetype" action="none" u="1">pdf</content>
+>   <content name="size" weight="-1" u="3">435455</content>
+>   <content name="last-modified" action="none" weight="-1" seconds="1198183750"
+>     u="28"
+190,192c181,183
+<   2007 19:49:10 GMT</content>
+<   <content name="language" weight="0" action="none" type="text" u="32">english</content>
+<   <content type="html" name="title" output-action="bold" weight="3" u="34">Cary Audio SLP-308 Linestage and Cinema 2 Amplifier</content>
+---
+>   2007 20:49:10 GMT</content>
+>   <content name="language" weight="0" action="none" u="30">english</content>
+>   <content name="title" output-action="bold" weight="3" u="32">Cary Audio SLP-308 Linestage and Cinema 2 Amplifier</content>
+194,221c185,210
+<     <solution rank="0" score="6">
+<       <pre u="35" v="34"></pre>
+<       <content type="html" name="title" output-action="bold" weight="3" u="34"
+<         v="43"
+<       />
+<       <match u="35" v="36">Cary Audio </match>
+<       <post u="37" v="43">SLP-308 Linestage and Cinema 2 Amplifier</post>
+<     </solution>
+<     <solution rank="1" score="2">
+<       <pre u="657" v="676"><![CDATA[more “hi-fi” than musical in<br/>nature. Although its depth is quite good<br/>and it creates a convincing enough sense</span> </div><div> <span>]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="44" v="1579"
+<       />
+<       <match u="677" v="678">Cary Audio </match>
+<       <post u="679" v="698"><![CDATA[SLP-308 Linestage<br/>and Cinema 2 Amplifier</span> </div><div> <span>Wayne Garcia</span> </div><div> <span>A moderately priced tube linestage and solid-state amplifier from<br/>one ]]></post>
+<     </solution>
+<     <solution rank="2" score="2">
+<       <pre u="954" v="973"><![CDATA[that really count for me, and has to<br/>be counted as a true high-end value.  </span> </div><div> <span>&amp;</span> </div><div> <span>equipment</span> </div><div> <span>report</span> </div><div> <span>MANUFACTURER INFORMATION</span> </div><div> <span>]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="44" v="1579"
+<       />
+<       <match u="974" v="975">CARY AUDIO </match>
+<       <post u="976" v="995"><![CDATA[DESIGN</span> </div><div> <span>1020 Goodworth Drive</span> </div><div> <span>Apex, North Carolina 27539</span> </div><div> <span>(919) 355-0010</span> </div><div> <span>info@caryaudio.com</span> </div><div> <span>caryaudio.com</span> </div><div> <span>Prices: SLP-308: $1999; ]]></post>
+<     </solution>
+<     <solution rank="3" score="0.0880574">
+<       <pre u="1117" v="1136"><![CDATA[Valkyrja interconnect and speak-</span> </div><div> <span>er cables and Brahma AC cords; Finite</span> </div><div> <span>Elemente “Spider” equipment racks; ASC</span> </div><div> <span>Tube Traps; Running Springs ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="44" v="1579"
+---
+>     <solution rank="0" score="3">
+>       <pre u="33" v="32"></pre>
+>       <content name="title" output-action="bold" weight="3" u="32" v="41" />
+>       <match u="33" v="34">Cary Audio </match>
+>       <post u="35" v="41">SLP-308 Linestage and Cinema 2 Amplifier</post>
+>     </solution>
+>     <solution rank="1" score="1">
+>       <pre u="655" v="674">more “hi-fi” than musical in&lt;br/>nature. Although its depth is quite good&lt;br/>and it creates a convincing enough sense&lt;/span> &lt;/div>&lt;div> &lt;span></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="42"
+>         v="1575"
+>       />
+>       <match u="675" v="676">Cary Audio </match>
+>       <post u="677" v="696"><![CDATA[SLP-308 Linestage<br/>and Cinema 2 Amplifier</span> </div><div> <span>Wayne Garcia</span> </div><div> <span>A moderately priced tube linestage and solid-state amplifier from<br/>one ]]></post>
+>     </solution>
+>     <solution rank="2" score="1">
+>       <pre u="952" v="971"><![CDATA[that really count for me, and has to<br/>be counted as a true high-end value.  </span> </div><div> <span>&amp;</span> </div><div> <span>equipment</span> </div><div> <span>report</span> </div><div> <span>MANUFACTURER INFORMATION</span> </div><div> <span>]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="42"
+>         v="1575"
+>       />
+>       <match u="972" v="973">CARY AUDIO </match>
+>       <post u="974" v="993"><![CDATA[DESIGN</span> </div><div> <span>1020 Goodworth Drive</span> </div><div> <span>Apex, North Carolina 27539</span> </div><div> <span>(919) 355-0010</span> </div><div> <span>info@caryaudio.com</span> </div><div> <span>caryaudio.com</span> </div><div> <span>Prices: SLP-308: $1999; ]]></post>
+>     </solution>
+>     <solution rank="3" score="0.0625">
+>       <pre u="1110" v="1129"><![CDATA[Valkyrja interconnect and speak-</span> </div><div> <span>er cables and Brahma AC cords; Finite</span> </div><div> <span>Elemente “Spider” equipment racks; ASC</span> </div><div> <span>Tube Traps; Running Springs ]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="42"
+>         v="1575"
+223,224c212,213
+<       <match u="1137" v="1166"><![CDATA[Audio Danielle</span> </div><div> <span>power conditioner</span> </div><div> <span>The Cinema 2 Power Amp</span> </div><div> <span><b>If the SLP-308 is a terrific value, at $2499 the 200Wpc Cinema 2 is its equal. It also showsthe Cary ]]></match>
+<       <post u="1167" v="1186">Design Group’s versatility with different circuit topologies. Essentially a stereo ver-sion of the Cinema 5 I reviewed some </post>
+---
+>       <match u="1130" v="1161"><![CDATA[Audio Danielle</span> </div><div> <span>power conditioner</span> </div><div> <span>The Cinema 2 Power Amp</span> </div><div> <span><b>I</b></span> </div><div> <span>f the SLP-308 is a terrific value, at $2499 the 200Wpc Cinema 2 is its equal. It also shows</span> </div><div> <span>the Cary ]]></match>
+>       <post u="1162" v="1181">Design Group’s versatility with different circuit topologies. Essentially a stereo ver-&lt;/span> &lt;/div>&lt;div> &lt;span>sion of the Cinema 5 I reviewed some </post>
+227c216
+<   <content name="snippet" action="cluster"><![CDATA[ ... good<br/>and it creates a convincing enough sense</span> </div><div> <span>Cary Audio SLP-308 Linestage<br/>and Cinema 2 Amplifier</span> </div><div> <span>Wayne  ... true high-end value.  </span> </div><div> <span>&amp;</span> </div><div> <span>equipment</span> </div><div> <span>report</span> </div><div> <span>MANUFACTURER INFORMATION</span> </div><div> <span>CARY AUDIO DESIGN</span> </div><div> <span>1020 Goodworth Drive</span> </div><div> <span>Apex, North Carolina 27539</span> </div><div> <span>( ... ]]></content>
+---
+>   <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... good<br/>and it creates a convincing enough sense</span> </div><div> <span>Cary Audio SLP-308 Linestage<br/>and Cinema 2 Amplifier</span> </div><div> <span>Wayne  ... true high-end value.  </span> </div><div> <span>&amp;</span> </div><div> <span>equipment</span> </div><div> <span>report</span> </div><div> <span>MANUFACTURER INFORMATION</span> </div><div> <span>CARY AUDIO DESIGN</span> </div><div> <span>1020 Goodworth Drive</span> </div><div> <span>Apex, North Carolina 27539</span> </div><div> <span>( ... ]]></content>
+229c218
+< <document filetypes="pdf " vse-base-score="4.54099"
+---
+> <document filetypes="pdf " vse-base-score="2.28295"
+231c220
+<   creation-time-sec="1371884525" vertex="9" ip="9.75.200.59" ct="text/html"
+---
+>   vertex="41"
+233c222
+<   la-score="0.1"
+---
+>   ct="text/html" la-score="0.959257"
+235,238c224,227
+<   <content name="filetype" action="none" type="text" u="2">pdf</content>
+<   <content name="size" weight="-1" type="text" u="4">791601</content>
+<   <content name="last-modified" action="none" weight="-1" type="text"
+<     seconds="1198180149" u="30"
+---
+>   <content name="filetype" action="none" u="1">pdf</content>
+>   <content name="size" weight="-1" u="3">791601</content>
+>   <content name="last-modified" action="none" weight="-1" seconds="1198183749"
+>     u="28"
+240,242c229,231
+<   2007 19:49:09 GMT</content>
+<   <content name="language" weight="0" action="none" type="text" u="32">english</content>
+<   <content type="html" name="title" output-action="bold" weight="3" u="34">Toshiba 50HP82 Cary Cinema 5</content>
+---
+>   2007 20:49:09 GMT</content>
+>   <content name="language" weight="0" action="none" u="30">english</content>
+>   <content name="title" output-action="bold" weight="3" u="32">Toshiba 50HP82 Cary Cinema 5</content>
+244,295c233,284
+<     <solution rank="0" score="3">
+<       <pre u="2305" v="2324"><![CDATA[all.</span> </div><div> <span>—SB</span> </div><div> <span>AMP SURVEY</span> </div><div> <span><b>ADCOM</b></span> </div><div> <span>8541 East Anderson Drive</span> </div><div> <span>Scottsdale, Arizona 85255</span> </div><div> <span>(480) 607-2277</span> </div><div> <span>www.adcom.com</span> </div><div> <span>Price: $2400</span> </div><div> <span><b>]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="40" v="2494"
+<       />
+<       <match u="2325" v="2326">CARY AUDIO </match>
+<       <post u="2327" v="2346"><![CDATA[DESIGN</b></span> </div><div> <span>1020 Goodworth Drive</span> </div><div> <span>Apex, North Carolina 27539</span> </div><div> <span>(919) 355-0010</span> </div><div> <span>www.caryaudio.com</span> </div><div> <span>Price: $4000</span> </div><div> <span><b>AYRE ACOUSTICS, INC.</b></span> </div><div> <span>2300-]]></post>
+<     </solution>
+<     <solution rank="1" score="2">
+<       <pre u="41" v="49"><![CDATA[   <a/><div> <div> <span>Our Multichannel Amp of the Year<br/>honor  goes  to  ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="40" v="2494"
+<       />
+<       <match u="50" v="51">Cary  Audio  </match>
+<       <post u="52" v="71"><![CDATA[for  the<br/>outstanding  Cinema  5.  A  high-end<br/>company that seems equally at home<br/>with tube or solid-state designs, ]]></post>
+<     </solution>
+<     <solution rank="2" score="2">
+<       <pre u="920" v="939"><![CDATA[an<br/>ultra-high-power amplifier<b>.</b></span> </div><div> <span>—RH</span> </div><div> <span>Cary Cinema 5: $4000</span> </div><div> <span>P</span> </div><div> <span>erhaps best known for its singleended-triode<br/>  tube  amps,  ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="40" v="2494"
+<       />
+<       <match u="940" v="941"><![CDATA[Cary<br/>Audio ]]></match>
+<       <post u="942" v="961"><![CDATA[has been broadening its</span> </div><div> <span>range to include CD players, speakers,<br/>and most recently home-theater components.<br/> The latter include the ]]></post>
+<     </solution>
+<     <solution rank="3" score="0.2">
+<       <pre u="1083" v="1102"><![CDATA[www.theperfectvision.com</span> </div><div> <span>S U R V E Y</span> </div><div> <span></span> </div><div> <span>Robert Harley, Wayne Garcia, Shane Buettner</span> </div><div> <span>Multichannel Power Amps from<br/>Adcom, ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="40" v="2494"
+<       />
+<       <match u="1103" v="1122"><![CDATA[Cary, and Ayre </span> </div></div><a/><div> <div> <span>The Perfect Vision  September/October 2003</span> </div><div> <span>a two-hundred pound, $10,000, noholds-barred<br/>  effort—Balanced  Audio<br/>]]></match>
+<       <post u="1123" v="1142"><![CDATA[Technology’s magnificent VK-6200.</span> </div><div> <span>Like the BAT, the Cary is excep-</span> </div><div> <span>tionally transparent and direct-sounding.<br/>  There’s  no  ]]></post>
+<     </solution>
+<     <solution rank="4" score="0.181818">
+<       <pre u="1102" v="1121"><![CDATA[Adcom, Cary, and Ayre </span> </div></div><a/><div> <div> <span>The Perfect Vision  September/October 2003</span> </div><div> <span>a two-hundred pound, $10,000, noholds-barred<br/>  effort—Balanced  ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="40" v="2494"
+<       />
+<       <match u="1122" v="1132"><![CDATA[Audio<br/>Technology’s magnificent VK-6200.</span> </div><div> <span>Like the BAT, the Cary ]]></match>
+<       <post u="1133" v="1152"><![CDATA[is excep-</span> </div><div> <span>tionally transparent and direct-sounding.<br/>  There’s  no  sense  of  listening<br/> through  something—that the amp is<br/>either ]]></post>
+<     </solution>
+<     <solution rank="5" score="0.102564">
+<       <pre u="447" v="466"><![CDATA[quality plasma has to offer!  (Reviewed by <br/> Randy Tomlinson in Issue 46) </span> </div><div> <span>Toshiba 50HP82</span> </div><div> <span>Price: $10,999  www.toshiba.com</span> </div><div> <span>]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="40" v="2494"
+<       />
+<       <match u="467" v="505"><![CDATA[Cary Cinema 5</span> </div><div> <span>$3995  www.caryaudio.com  </span> </div></div><a/><div> <div> <span>THUMBS UP</span> </div><div> <span>Massive output power</span> </div><div> <span>Low price<br/>Can drive any loudspeaker system</span> </div><div> <span>THUMBS DOWN</span> </div><div> <span>Not the last word in transparency</span> </div><div> <span>Adcom GFA-7805: $2400</span> </div><div> <span>A</span> </div><div> <span>dcom  shook  up  the  high-end<br/>audio ]]></match>
+<       <post u="506" v="525"><![CDATA[world back in 1979 with<br/>its  GFA-1  two-channel  power</span> </div><div> <span>amplifier. Seven years later, the company’s<br/>  GFA-555  ]]></post>
+<     </solution>
+<     <solution rank="6" score="0.0909091">
+<       <pre u="41" v="50"><![CDATA[   <a/><div> <div> <span>Our Multichannel Amp of the Year<br/>honor  goes  to  Cary  ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="40" v="2494"
+---
+>     <solution rank="0" score="1.5">
+>       <pre u="2301" v="2320"><![CDATA[all.</span> </div><div> <span>—SB</span> </div><div> <span>AMP SURVEY</span> </div><div> <span><b>ADCOM</b></span> </div><div> <span>8541 East Anderson Drive</span> </div><div> <span>Scottsdale, Arizona 85255</span> </div><div> <span>(480) 607-2277</span> </div><div> <span>www.adcom.com</span> </div><div> <span>Price: $2400</span> </div><div> <span><b>]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="38"
+>         v="2485"
+>       />
+>       <match u="2321" v="2322">CARY AUDIO </match>
+>       <post u="2323" v="2342"><![CDATA[DESIGN</b></span> </div><div> <span>1020 Goodworth Drive</span> </div><div> <span>Apex, North Carolina 27539</span> </div><div> <span>(919) 355-0010</span> </div><div> <span>www.caryaudio.com</span> </div><div> <span>Price: $</span> </div><div> <span>4000</span> </div><div> <span><b>AYRE ACOUSTICS, INC.</b></span> </div><div> <span>2300-]]></post>
+>     </solution>
+>     <solution rank="1" score="1">
+>       <pre u="39" v="47"><![CDATA[   <a/><div> <div> <span>Our Multichannel Amp of the Year<br/>honor  goes  to  ]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="38"
+>         v="2485"
+>       />
+>       <match u="48" v="49">Cary  Audio  </match>
+>       <post u="50" v="69">for  the&lt;br/>outstanding  Cinema  5.  A  high-end&lt;br/>company that seems equally at home&lt;br/>with tube or solid-state designs, </post>
+>     </solution>
+>     <solution rank="2" score="1">
+>       <pre u="917" v="936"><![CDATA[an<br/>ultra-high-power amplifier<b>.</b></span> </div><div> <span>—RH</span> </div><div> <span>Cary Cinema 5: $</span> </div><div> <span><b>4000</b></span> </div><div> <span>P</span> </div><div> <span>erhaps best known for its singleended-triode<br/>  tube  amps,  ]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="38"
+>         v="2485"
+>       />
+>       <match u="937" v="938"><![CDATA[Cary<br/>Audio ]]></match>
+>       <post u="939" v="958">has been broadening its&lt;/span> &lt;/div>&lt;div> &lt;span>range to include CD players, speakers,&lt;br/>and most recently home-theater components.&lt;br/> The latter include the </post>
+>     </solution>
+>     <solution rank="3" score="0.181818">
+>       <pre u="1098" v="1117"><![CDATA[from<br/>Adcom, Cary, and Ayre </span> </div></div><a/><div> <div> <span>The Perfect Vision  September/October 2003</span> </div><div> <span>a two-hundred pound, $10,000, noholds-barred<br/>  effort—Balanced  ]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="38"
+>         v="2485"
+>       />
+>       <match u="1118" v="1128"><![CDATA[Audio<br/>Technology’s magnificent VK-6200.</span> </div><div> <span>Like the BAT, the Cary ]]></match>
+>       <post u="1129" v="1148">is excep-&lt;/span> &lt;/div>&lt;div> &lt;span>tionally transparent and direct-sounding.&lt;br/>  There’s  no  sense  of  listening&lt;br/> through  something—that the amp is&lt;br/>either </post>
+>     </solution>
+>     <solution rank="4" score="0.105263">
+>       <pre u="1080" v="1099"><![CDATA[www.theperfectvision.com</span> </div><div> <span>S U R V E Y</span> </div><div> <span></span> </div><div> <span>Robert Harley, Wayne Garcia, Shane Buettner</span> </div><div> <span>Multichannel Power Amps from<br/>Adcom, ]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="38"
+>         v="2485"
+>       />
+>       <match u="1100" v="1118"><![CDATA[Cary, and Ayre </span> </div></div><a/><div> <div> <span>The Perfect Vision  September/October 2003</span> </div><div> <span>a two-hundred pound, $10,000, noholds-barred<br/>  effort—Balanced  Audio<br/>]]></match>
+>       <post u="1119" v="1138">Technology’s magnificent VK-6200.&lt;/span> &lt;/div>&lt;div> &lt;span>Like the BAT, the Cary is excep-&lt;/span> &lt;/div>&lt;div> &lt;span>tionally transparent and direct-sounding.&lt;br/>  There’s  no  </post>
+>     </solution>
+>     <solution rank="5" score="0.0909091">
+>       <pre u="39" v="48"><![CDATA[   <a/><div> <div> <span>Our Multichannel Amp of the Year<br/>honor  goes  to  Cary  ]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="38"
+>         v="2485"
+>       />
+>       <match u="49" v="70">Audio  for  the&lt;br/>outstanding  Cinema  5.  A  high-end&lt;br/>company that seems equally at home&lt;br/>with tube or solid-state designs, Cary&lt;/span> &lt;/div>&lt;div> &lt;span></match>
+>       <post u="71" v="90">has recently expanded its line of home-theater gear, and are&lt;br/>we glad they did! The (solid-state) Cinema 5 </post>
+>     </solution>
+>     <solution rank="6" score="0.0512821">
+>       <pre u="444" v="463"><![CDATA[image quality plasma has to offer!  (Reviewed by <br/> Randy Tomlinson in Issue 46) </span> </div><div> <span>Toshiba 50HP82</span> </div><div> <span>Price: $10,999  www.toshiba.com</span> </div><div> <span>]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="38"
+>         v="2485"
+297,298c286,287
+<       <match u="51" v="72"><![CDATA[Audio  for  the<br/>outstanding  Cinema  5.  A  high-end<br/>company that seems equally at home<br/>with tube or solid-state designs, Cary</span> </div><div> <span>]]></match>
+<       <post u="73" v="92"><![CDATA[has recently expanded its line of home-theater gear, and are<br/>we glad they did! The (solid-state) Cinema 5 ]]></post>
+---
+>       <match u="464" v="502"><![CDATA[Cary Cinema 5</span> </div><div> <span>$3995  www.caryaudio.com  </span> </div></div><a/><div> <div> <span>THUMBS UP</span> </div><div> <span>Massive output power</span> </div><div> <span>Low price<br/>Can drive any loudspeaker system</span> </div><div> <span>THUMBS DOWN</span> </div><div> <span>Not the last word in transparency</span> </div><div> <span>Adcom GFA-7805: $2400</span> </div><div> <span>A</span> </div><div> <span>dcom  shook  up  the  high-end<br/>audio ]]></match>
+>       <post u="503" v="522">world back in 1979 with&lt;br/>its  GFA-1  two-channel  power&lt;/span> &lt;/div>&lt;div> &lt;span>amplifier. Seven years later, the company’s&lt;br/>  GFA-555  </post>
+301c290
+<   <content name="snippet" action="cluster"><![CDATA[ ... 480) 607-2277</span> </div><div> <span>www.adcom.com</span> </div><div> <span>Price: $2400</span> </div><div> <span><b>CARY AUDIO DESIGN</b></span> </div><div> <span>1020 Goodworth Drive</span> </div><div> <span>Apex, North Carolina 27539</span> </div><div> <span>( ... ]]></content>
+---
+>   <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... best known for its singleended-triode<br/>  tube  amps,  Cary<br/>Audio has been broadening its</span> </div><div> <span>range to include CD  ... 480) 607-2277</span> </div><div> <span>www.adcom.com</span> </div><div> <span>Price: $2400</span> </div><div> <span><b>CARY AUDIO DESIGN</b></span> </div><div> <span>1020 Goodworth Drive</span> </div><div> <span>Apex, North Carolina 27539</span> </div><div> <span>( ... ]]></content>
+303c292
+< <document filetypes="pdf " vse-base-score="3.14432"
+---
+> <document filetypes="pdf " vse-base-score="1.58022"
+305c294
+<   creation-time-sec="1371884525" vertex="8" ip="9.75.200.59" ct="text/html"
+---
+>   vertex="36"
+307c296
+<   la-score="0.1"
+---
+>   ct="text/html" la-score="0.959257"
+309,312c298,301
+<   <content name="filetype" action="none" type="text" u="2">pdf</content>
+<   <content name="size" weight="-1" type="text" u="4">199720</content>
+<   <content name="last-modified" action="none" weight="-1" type="text"
+<     seconds="1198180149" u="30"
+---
+>   <content name="filetype" action="none" u="1">pdf</content>
+>   <content name="size" weight="-1" u="3">199720</content>
+>   <content name="last-modified" action="none" weight="-1" seconds="1198183749"
+>     u="28"
+314,316c303,305
+<   2007 19:49:09 GMT</content>
+<   <content name="language" weight="0" action="none" type="text" u="32">english</content>
+<   <content type="html" name="title" output-action="bold" weight="3" u="34">have had several components around that seem to just linger, never, for one bad reason or another, falling in line for ...</content>
+---
+>   2007 20:49:09 GMT</content>
+>   <content name="language" weight="0" action="none" u="30">english</content>
+>   <content name="title" output-action="bold" weight="3" u="32">have had several components around that seem to just linger, never, for one bad reason or another, falling in line for ...</content>
+318,337c307,326
+<     <solution rank="0" score="3">
+<       <pre u="2340" v="2359"><![CDATA[89’’W x 2.36”H x 5.12”D<br/><b>Weight: </b>3.52 lbs.<b/></span> </div></div><a/><div> <div> <span><b>Page 5 of 5</b></span> </div><div> <span><b>Manufacturer Information</b><br/><b>]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="56" v="2575"
+<       />
+<       <match u="2360" v="2361">Cary Audio </match>
+<       <post u="2362" v="2381"><![CDATA[Design</b><br/>1020 Goodworth Drive<br/>Apex, North Carolina  27539<br/><b>Ph:</b> 919 355 0010<br/><b>Fax:</b> 919 355 0013<br/>www.caryaudio.com<br/>info@]]></post>
+<     </solution>
+<     <solution rank="1" score="0.26087">
+<       <pre u="2213" v="2232"><![CDATA[his discs but who cannot lay out the really long green for one of<br/>today’s more esoteric offerings.</span> </div><div> <span><b>Specifications</b><br/><b>]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="56" v="2575"
+<       />
+<       <match u="2233" v="2255"><![CDATA[Cary Rocket 88 Power Amplifier</b><br/><b>Number of channels:</b>  2<br/><b>Power output: </b>30 Watts - Triode<br/>60 Watts - Ultra-Linear<br/><b>Number and type of audio ]]></match>
+<       <post u="2256" v="2275"><![CDATA[inputs: </b>RCA Single<br/>ended or XLR Balanced<br/><b>Dimensions: </b>10" H x 9" W x 18" D<br/><b>Weight: </b>38 lbs.<br/><b>Van ]]></post>
+<     </solution>
+<     <solution rank="2" score="0.0555556">
+<       <pre u="2287" v="2306"><![CDATA[Power output: </b>250 watts per channel 20 to 20<br/>kHz at less than 0.01% THD.<br/><b>Number and type of ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="56" v="2575"
+---
+>     <solution rank="0" score="1.5">
+>       <pre u="2333" v="2352"><![CDATA[Asymmetrical (RCA)<br/><b>Dimensions:  </b>6.89’’W x 2.36”H x 5.12”D<br/><b>Weight: </b>3.52 lbs.<b/></span> </div></div><a/><div> <div> <span><b>Page 5 of 5</b></span> </div><div> <span><b>Manufacturer Information</b><br/><b>]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="54"
+>         v="2567"
+>       />
+>       <match u="2353" v="2354">Cary Audio </match>
+>       <post u="2355" v="2374"><![CDATA[Design</b><br/>1020 Goodworth Drive<br/>Apex, North Carolina  27539<br/><b>Ph:</b> 919 355 0010<br/><b>Fax:</b> 919 355 0013<br/>www.caryaudio.com<br/>info@]]></post>
+>     </solution>
+>     <solution rank="1" score="0.130435">
+>       <pre u="2211" v="2230"><![CDATA[his discs but who cannot lay out the really long green for one of<br/>today’s more esoteric offerings.</span> </div><div> <span><b>Specifications</b><br/><b>]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="54"
+>         v="2567"
+>       />
+>       <match u="2231" v="2253"><![CDATA[Cary Rocket 88 Power Amplifier</b><br/><b>Number of channels:</b>  2<br/><b>Power output: </b>30 Watts - Triode<br/>60 Watts - Ultra-Linear<br/><b>Number and type of audio ]]></match>
+>       <post u="2254" v="2273"><![CDATA[inputs: </b>RCA Single<br/>ended or XLR Balanced<br/><b>Dimensions: </b>10" H x 9" W x 18" D<br/><b>Weight: </b>38 lbs.<br/><b>Van ]]></post>
+>     </solution>
+>     <solution rank="2" score="0.06">
+>       <pre u="2284" v="2303"><![CDATA[2<br/><b>Power output: </b>250 watts per channel 20 to 20<br/>kHz at less than 0.01% THD.<br/><b>Number and type of ]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="54"
+>         v="2567"
+339,340c328,329
+<       <match u="2307" v="2360"><![CDATA[audio inputs:</b><br/><b>Dimensions:  </b>7" H x 17" W x  13" D<br/><b>Weight: </b>38 lbs.<br/><b>Clearaudio Balance Phono Preamplifier</b><br/><b>Gain: </b>58dB (MC)<br/><b>Cartridge loading: </b>-<br/><b>Type of outputs: </b>Symmetrical (XLR) and<br/>Asymmetrical (RCA)<br/><b>Dimensions:  </b>6.89’’W x 2.36”H x 5.12”D<br/><b>Weight: </b>3.52 lbs.<b/></span> </div></div><a/><div> <div> <span><b>Page 5 of 5</b></span> </div><div> <span><b>Manufacturer Information</b><br/><b>Cary ]]></match>
+<       <post u="2361" v="2380"><![CDATA[Audio Design</b><br/>1020 Goodworth Drive<br/>Apex, North Carolina  27539<br/><b>Ph:</b> 919 355 0010<br/><b>Fax:</b> 919 355 0013<br/>www.caryaudio.com<br/>]]></post>
+---
+>       <match u="2304" v="2353"><![CDATA[audio inputs:</b><br/><b>Dimensions:  </b>7" H x 17" W x  13" D<br/><b>Weight: </b>38 lbs.<br/><b>Clearaudio Balance Phono Preamplifier</b><br/><b>Gain: </b>58dB (MC)<br/><b>Cartridge loading: </b>-<br/><b>Type of outputs: </b>Symmetrical (XLR) and<br/>Asymmetrical (RCA)<br/><b>Dimensions:  </b>6.89’’W x 2.36”H x 5.12”D<br/><b>Weight: </b>3.52 lbs.<b/></span> </div></div><a/><div> <div> <span><b>Page 5 of 5</b></span> </div><div> <span><b>Manufacturer Information</b><br/><b>Cary ]]></match>
+>       <post u="2354" v="2373"><![CDATA[Audio Design</b><br/>1020 Goodworth Drive<br/>Apex, North Carolina  27539<br/><b>Ph:</b> 919 355 0010<br/><b>Fax:</b> 919 355 0013<br/>www.caryaudio.com<br/>]]></post>
+343c332
+<   <content name="snippet" action="cluster"><![CDATA[ ... 52 lbs.<b/></span> </div></div><a/><div> <div> <span><b>Page 5 of 5</b></span> </div><div> <span><b>Manufacturer Information</b><br/><b>Cary Audio Design</b><br/>1020 Goodworth Drive<br/>Apex, North Carolina  27539<br/><b> ... ]]></content>
+---
+>   <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... less than 0.01% THD.<br/><b>Number and type of audio inputs:</b><br/><b>Dimensions:  </b>7" H x 17" W x  13" ...  <span><b>Manufacturer Information</b><br/><b>Cary Audio Design</b><br/>1020 Goodworth Drive<br/>Apex, North Carolina   ... 3.52 lbs.<b/></span> </div></div><a/><div> <div> <span><b>Page 5 of 5</b></span> </div><div> <span><b>Manufacturer Information</b><br/><b>Cary Audio Design</b><br/>1020 Goodworth Drive<br/>Apex, North Carolina  27539<br/><b> ... ]]></content>
+345c334
+< <document filetypes="pdf " vse-base-score="0.266667"
+---
+> <document filetypes="pdf " vse-base-score="0.133333"
+347c336
+<   creation-time-sec="1371884526" vertex="37" ip="9.75.200.59" ct="text/html"
+---
+>   vertex="66"
+349c338
+<   la-score="0.1"
+---
+>   ct="text/html" la-score="0.959257"
+351,354c340,343
+<   <content name="filetype" action="none" type="text" u="2">pdf</content>
+<   <content name="size" weight="-1" type="text" u="4">983800</content>
+<   <content name="last-modified" action="none" weight="-1" type="text"
+<     seconds="1198180150" u="30"
+---
+>   <content name="filetype" action="none" u="1">pdf</content>
+>   <content name="size" weight="-1" u="3">983800</content>
+>   <content name="last-modified" action="none" weight="-1" seconds="1198183750"
+>     u="28"
+356,358c345,347
+<   2007 19:49:10 GMT</content>
+<   <content name="language" weight="0" action="none" type="text" u="32">english</content>
+<   <content type="html" name="title" output-action="bold" weight="3" u="34"><![CDATA[B&W 700 Series Home-Theater Loudspeaker System]]></content>
+---
+>   2007 20:49:10 GMT</content>
+>   <content name="language" weight="0" action="none" u="30">english</content>
+>   <content name="title" output-action="bold" weight="3" u="32">B&amp;W 700 Series Home-Theater Loudspeaker System</content>
+360,363c349,352
+<     <solution rank="0" score="0.266667">
+<       <pre u="1339" v="1358"><![CDATA[15.6" x 17.2" x 18.9"</span> </div><div> <span>Weight: 70 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>B&amp;K Reference 50 A/V Controller; ]]></pre>
+<       <content name="snippet" weight="1" output-action="summarize" type="html"
+<         u="43" v="1676"
+---
+>     <solution rank="0" score="0.133333">
+>       <pre u="1320" v="1339"><![CDATA[1000 watts</span> </div><div> <span>Dimensions: 15.6" x 17.2" x 18.9"</span> </div><div> <span>Weight: 70 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>B&amp;K Reference 50 A/V Controller; ]]></pre>
+>       <content name="snippet" weight="1" output-action="summarize" u="41"
+>         v="1657"
+365,366c354,355
+<       <match u="1359" v="1373"><![CDATA[Cary Cinema 5 five-</span> </div><div> <span>channel amp; Valve Amplification Company Super</span> </div><div> <span>Avatar integrated amplifier; Balanced Audio</span> </div><div> <span>]]></match>
+<       <post u="1374" v="1393"><![CDATA[Technology VK-D5 CD player; Arcam DV88 DVD/CD</span> </div><div> <span>player; Philips DVD963SA SACD/CD/DVD-Video Player;</span> </div><div> <span>Musical Fidelity Tri-]]></post>
+---
+>       <match u="1340" v="1354"><![CDATA[Cary Cinema 5 five-</span> </div><div> <span>channel amp; Valve Amplification Company Super</span> </div><div> <span>Avatar integrated amplifier; Balanced Audio</span> </div><div> <span>]]></match>
+>       <post u="1355" v="1374">Technology VK-D5 CD player; Arcam DV88 DVD/CD&lt;/span> &lt;/div>&lt;div> &lt;span>player; Philips DVD963SA SACD/CD/DVD-Video Player;&lt;/span> &lt;/div>&lt;div> &lt;span>Musical Fidelity Tri-</post>
+369c358
+<   <content name="snippet" action="cluster"><![CDATA[ ... EQUIPMENT</span> </div><div> <span>B&amp;K Reference 50 A/V Controller; Cary Cinema 5 five-</span> </div><div> <span>channel amp; Valve Amplification Company Super</span> </div><div> <span>Avatar integrated amplifier; Balanced Audio</span> </div><div> <span>Technology VK-D5 CD player; Arcam DV88 DVD/ ... ]]></content>
+---
+>   <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... EQUIPMENT</span> </div><div> <span>B&amp;K Reference 50 A/V Controller; Cary Cinema 5 five-</span> </div><div> <span>channel amp; Valve Amplification Company Super</span> </div><div> <span>Avatar integrated amplifier; Balanced Audio</span> </div><div> <span>Technology VK-D5 CD player; Arcam DV88 DVD/ ... ]]></content>
+371,439d359
+< <retrieval-performance n-tau="466" n-rho="144" n-uat="110" n-ohr="0"
+<   occr-reads="41580" block-reads="88" seeks="0" cache-hits="88" cache-misses="0"
+<   n-blocks="2184"
+< >
+<   <query-performance what="doc-text" n-tau="38" n-rho="1" n-uat="0" n-ohr="0"
+<     occr-reads="160" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+<     n-blocks="12"
+<   />
+<   <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+<     occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+<     n-blocks="0"
+<   />
+<   <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+<     occr-reads="38164" block-reads="88" seeks="0" cache-hits="88" cache-misses="0"
+<     n-blocks="2100"
+<   />
+<   <query-performance what="output" n-tau="367" n-rho="91" n-uat="72" n-ohr="0"
+<     occr-reads="1844" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+<     n-blocks="48"
+<   />
+<   <query-performance what="summarize" n-tau="20" n-rho="17" n-uat="12" n-ohr="0"
+<     occr-reads="166" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+<     n-blocks="12"
+<   />
+<   <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+<     occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+<     n-blocks="0"
+<   />
+<   <query-performance what="really-content" n-tau="0" n-rho="0" n-uat="0"
+<     n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+<     cache-misses="0" n-blocks="0"
+<   />
+<   <query-performance what="rights-query" n-tau="41" n-rho="35" n-uat="26"
+<     n-ohr="0" occr-reads="1246" block-reads="0" seeks="0" cache-hits="0"
+<     cache-misses="0" n-blocks="12"
+<   />
+< </retrieval-performance>
+< <query-performance flags="hard extent r:need" what="and" n-tau="0" n-rho="0"
+<   n-uat="0" n-ohr="0" occr-reads="811" block-reads="4" seeks="4" cache-hits="0"
+<   cache-misses="4" n-blocks="4"
+< >
+<   <query-performance flags="hard extent r:apply" what="not-within" n-tau="26"
+<     n-rho="0" n-uat="22" n-ohr="0" occr-reads="61" block-reads="2" seeks="2"
+<     cache-hits="0" cache-misses="2" n-blocks="2"
+<   >
+<     <query-performance flags="hard extent r:apply/need" what="EXTENTS(57)"
+<       n-tau="26" n-rho="0" n-uat="22" n-ohr="0" occr-reads="61" block-reads="2"
+<       seeks="2" cache-hits="0" cache-misses="2" n-blocks="2"
+<     />
+<     <query-performance flags="hard extent r:need" what="never" n-tau="0"
+<       n-rho="1" n-uat="0" n-ohr="22" occr-reads="0" block-reads="0" seeks="0"
+<       cache-hits="0" cache-misses="0" n-blocks="0"
+<     />
+<   </query-performance>
+<   <query-performance flags="hard extent r:apply" what="not-within" n-tau="27"
+<     n-rho="0" n-uat="21" n-ohr="0" occr-reads="750" block-reads="2" seeks="2"
+<     cache-hits="0" cache-misses="2" n-blocks="2"
+<   >
+<     <query-performance flags="hard extent r:apply/need" what="EXTENTS(746)"
+<       n-tau="27" n-rho="0" n-uat="21" n-ohr="0" occr-reads="750" block-reads="2"
+<       seeks="2" cache-hits="0" cache-misses="2" n-blocks="2"
+<     />
+<     <query-performance flags="hard extent r:need" what="never" n-tau="0"
+<       n-rho="1" n-uat="0" n-ohr="21" occr-reads="0" block-reads="0" seeks="0"
+<       cache-hits="0" cache-misses="0" n-blocks="0"
+<     />
+<   </query-performance>
+< </query-performance>
+< <xpath-performances />

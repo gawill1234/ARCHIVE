@@ -1,0 +1,4 @@
+<syntax name="custom" products="all" no-override="no-override" modified-by="test-all" max-elt-id="3" modified="1276106786">
+<load-syntax name="core" />
+<field name="year" />
+</syntax>

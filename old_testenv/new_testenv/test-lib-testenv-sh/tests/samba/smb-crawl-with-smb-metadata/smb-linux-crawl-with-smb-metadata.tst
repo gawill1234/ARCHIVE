@@ -1,0 +1,64 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'misc'
+require 'collection'
+require 'nokogiri'
+
+###################################
+#
+#   Fixed Data
+#
+queries = {"Hamilton"         => 5,
+           "Hamilton Madison" => 5,
+           "Linux"            => 6,
+           "QueryThatWillNotMatchAnyDocuments"     => 0,
+           "root"     => 47,
+           "2009"     => 2,
+           "2007"     => 47,
+           "We the people"    => 19}
+
+crawler_config =  <<"LINUXXML"
+     <crawl-options>
+       <crawl-option name="n-fetch-threads">10</crawl-option>
+       <curl-option name="filter-exact-duplicates"><![CDATA[false]]></curl-option>
+       <curl-option name="converter-max-memory">512</curl-option>
+     </crawl-options>
+     <call-function name="vse-crawler-seed-smb">
+       <with name="host"><![CDATA[testbed5.bigdatalab.ibm.com]]></with>
+       <with name="shares"><![CDATA[/testfiles/samba_test_data/samba-1/doc]]></with>
+       <with name="username"><![CDATA[root]]></with>
+       <with name="password"><![CDATA[{vcrypt}TMWiymi8UsQ9QvtqWkxuhw==]]></with>
+       <with name="crawl-fs-metadata">true</with>
+     </call-function>
+LINUXXML
+
+#
+###################################
+
+test_results = TestResults.new("Samba crawl of samba data AND metadata for linux")
+
+collection = Collection.new(TESTENV.test_name)
+test_results.associate(collection)
+
+collection.delete
+collection.create("default")
+
+xml = collection.xml
+xml.xpath("/vse-collection/vse-config/crawler").children.before(crawler_config)
+collection.set_xml(xml)
+
+msg "Starting crawl"
+collection.clean
+collection.crawler_start
+collection.wait_until_crawler_stopped
+msg "Crawl finished"
+
+queries.each do | query, expected |
+   source_xpath = "/query-results/added-source"
+   result = collection.search(query, {:output_duplicates => true})
+   n_returned = result.xpath(source_xpath).first['total-results'].to_i
+   test_results.add_number_equals(expected, n_returned, "'#{query}' result")
+end
+
+test_results.cleanup_and_exit!

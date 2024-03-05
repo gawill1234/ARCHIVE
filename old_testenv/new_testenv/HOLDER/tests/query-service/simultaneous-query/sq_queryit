@@ -1,0 +1,70 @@
+#!/usr/bin/python
+
+import signal, os, sys, time
+import cgi_interface
+
+xx = None
+ofile = None
+
+def parentrun(signum, bogus):
+
+   try:
+      os.wait()
+   except:
+      print "No children to wait for"
+
+   return
+
+def dorunrun(signum, bogus):
+
+   return
+
+
+def dothisaschild():
+
+   pid = os.getpid()
+   print "Starting", pid
+   xx = cgi_interface.CGIINTERFACE()
+
+   ofile = ''.join(['querywork/simultaneous-query.', '%s' % pid])
+
+   signal.signal(10, dorunrun)
+
+   signal.pause()
+   xx.run_query(collection="simultaneous-query", num="2500", defoutput=ofile)
+
+   print "Completing", pid
+
+   return
+
+
+if __name__ == "__main__":
+
+   os.setsid()
+
+   i = 0
+   spawncnt = 10
+   signal.signal(10, parentrun)
+
+   mypid = os.getpid()
+   print "PARENT PID:", mypid
+
+   while ( i < spawncnt ):
+      try:
+         pid = os.fork()
+         if ( pid == 0 ):
+            dothisaschild()
+            sys.exit(0)
+      except OSError, e:
+         print "Fork failed"
+         os.killpg(mypid, 10)
+         time.sleep(1)
+         sys.exit(1)
+
+      i = i + 1
+
+   os.killpg(mypid, 10)
+
+   time.sleep(1)
+
+   sys.exit(0)

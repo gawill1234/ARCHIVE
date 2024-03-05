@@ -1,0 +1,8 @@
+ <vce>
+              <document url="http://vivisimo.com?alpha">
+                <content name="text">abcdefghijklmnopqrstuvwxyz</content>
+                <content name="empty1"/>
+                <content name="type">lower case alphabet</content>
+                <content name="empty2"/>
+              </document>
+</vce>

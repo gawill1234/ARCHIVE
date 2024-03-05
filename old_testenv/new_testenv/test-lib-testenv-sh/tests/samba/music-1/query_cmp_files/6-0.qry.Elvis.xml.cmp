@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="24" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="5" />
+<attribute name="retrieval-ms" value="7" />
+<attribute name="total-results-with-duplicates" value="24" />
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Return_to_Sender.mp3/"
+  graph-id-high-water="22" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Return_to_Sender.mp3"
+  vertex="23" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3081908</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244815"
+    u="27"
+  >Jun 23,
+  2008 18:13:35 GMT</content>
+  <content name="artist" u="29">Elvis Presley</content>
+  <content name="album-name" u="32">Greatest Jukebox Hits</content>
+  <content name="track-number" u="36">18</content>
+  <content name="track-title" u="38">Return to Sender</content>
+  <content name="year" u="42"></content>
+  <content name="genre" u="43">Other</content>
+  <content name="copyright-flag" u="45">No</content>
+  <content name="emphasis" u="47">none</content>
+  <content name="stereo-mode" u="49">joint stereo</content>
+  <content name="mpeg-version" u="52">1.000000</content>
+  <content name="frequency" u="54">44100 Hz</content>
+  <content name="bitrate" u="57">192</content>
+  <content name="playing-time" u="59">2 min 8 sec</content>
+  <content name="comment" u="64"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="21" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="21">Presley_-_Return_to_Sender.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="30" v="29"></pre>
+      <content name="artist" u="29" v="31" />
+      <match u="30" v="30">Elvis </match>
+      <post u="31" v="31">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_I_Got_Stung.mp3/"
+  graph-id-high-water="12" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_I_Got_Stung.mp3"
+  vertex="13" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">2691952</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244812"
+    u="27"
+  >Jun 23,
+  2008 18:13:32 GMT</content>
+  <content name="artist" u="29">Elvis Presley</content>
+  <content name="album-name" u="32">Greatest Jukebox Hits</content>
+  <content name="track-number" u="36">11</content>
+  <content name="track-title" u="38">I Got Stung</content>
+  <content name="year" u="42"></content>
+  <content name="genre" u="43">Other</content>
+  <content name="copyright-flag" u="45">No</content>
+  <content name="emphasis" u="47">none</content>
+  <content name="stereo-mode" u="49">joint stereo</content>
+  <content name="mpeg-version" u="52">1.000000</content>
+  <content name="frequency" u="54">44100 Hz</content>
+  <content name="bitrate" u="57">192</content>
+  <content name="playing-time" u="59">1 min 52 sec</content>
+  <content name="comment" u="64"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="21" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="21">Presley_-_I_Got_Stung.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="30" v="29"></pre>
+      <content name="artist" u="29" v="31" />
+      <match u="30" v="30">Elvis </match>
+      <post u="31" v="31">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_All_Shook_Up.mp3/"
+  graph-id-high-water="21" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_All_Shook_Up.mp3"
+  vertex="22" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">2859345</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244806"
+    u="27"
+  >Jun 23,
+  2008 18:13:26 GMT</content>
+  <content name="artist" u="29">Elvis Presley</content>
+  <content name="album-name" u="32">Greatest Jukebox Hits</content>
+  <content name="track-number" u="36">7</content>
+  <content name="track-title" u="38">All Shook Up</content>
+  <content name="year" u="42"></content>
+  <content name="genre" u="43">Other</content>
+  <content name="copyright-flag" u="45">No</content>
+  <content name="emphasis" u="47">none</content>
+  <content name="stereo-mode" u="49">joint stereo</content>
+  <content name="mpeg-version" u="52">1.000000</content>
+  <content name="frequency" u="54">44100 Hz</content>
+  <content name="bitrate" u="57">192</content>
+  <content name="playing-time" u="59">1 min 59 sec</content>
+  <content name="comment" u="64"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="21" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="21">Presley_-_All_Shook_Up.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="30" v="29"></pre>
+      <content name="artist" u="29" v="31" />
+      <match u="30" v="30">Elvis </match>
+      <post u="31" v="31">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_She's_Not_You.mp3/"
+  graph-id-high-water="23" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_She%27s_Not_You.mp3"
+  vertex="24" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3141467</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244816"
+    u="28"
+  >Jun 23,
+  2008 18:13:36 GMT</content>
+  <content name="artist" u="30">Elvis Presley</content>
+  <content name="album-name" u="33">Greatest Jukebox Hits</content>
+  <content name="track-number" u="37">17</content>
+  <content name="track-title" u="39">She's Not You</content>
+  <content name="year" u="44"></content>
+  <content name="genre" u="45">Other</content>
+  <content name="copyright-flag" u="47">No</content>
+  <content name="emphasis" u="49">none</content>
+  <content name="stereo-mode" u="51">joint stereo</content>
+  <content name="mpeg-version" u="54">1.000000</content>
+  <content name="frequency" u="56">44100 Hz</content>
+  <content name="bitrate" u="59">192</content>
+  <content name="playing-time" u="61">2 min 10 sec</content>
+  <content name="comment" u="66"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="22" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="22">Presley_-_She's_Not_You.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="31" v="30"></pre>
+      <content name="artist" u="30" v="32" />
+      <match u="31" v="31">Elvis </match>
+      <post u="32" v="32">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_I_Cant_Help_Falling_In_Love_With_You.mp3/"
+  graph-id-high-water="20" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_I_Cant_Help_Falling_In_Love_With_You.mp3"
+  vertex="21" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">2585005</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244811"
+    u="32"
+  >Jun 23,
+  2008 18:13:31 GMT</content>
+  <content name="artist" u="34">Elvis Presley</content>
+  <content name="album-name" u="37"></content>
+  <content name="track-number" u="38"></content>
+  <content name="track-title" u="39">_I_Cant_Help_Falling_In_Love_W</content>
+  <content name="year" u="47">0</content>
+  <content name="genre" u="49"></content>
+  <content name="copyright-flag" u="50">No</content>
+  <content name="emphasis" u="52">none</content>
+  <content name="stereo-mode" u="54">joint stereo</content>
+  <content name="mpeg-version" u="57">1.000000</content>
+  <content name="frequency" u="59">44100 Hz</content>
+  <content name="bitrate" u="62">112</content>
+  <content name="playing-time" u="64">3 min 5 sec</content>
+  <content name="comment" u="69"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="26" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="26">Presley_-_I_Cant_Help_Falling_In_Love_With_You.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="35" v="34"></pre>
+      <content name="artist" u="34" v="36" />
+      <match u="35" v="35">Elvis </match>
+      <post u="36" v="36">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Jailhouse_Rock.mp3/"
+  graph-id-high-water="19" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Jailhouse_Rock.mp3"
+  vertex="20" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3584713</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244814"
+    u="26"
+  >Jun 23,
+  2008 18:13:34 GMT</content>
+  <content name="artist" u="28">Elvis Presley</content>
+  <content name="album-name" u="31">Greatest Jukebox Hits</content>
+  <content name="track-number" u="35">9</content>
+  <content name="track-title" u="37">Jailhouse Rock</content>
+  <content name="year" u="40"></content>
+  <content name="genre" u="41">Other</content>
+  <content name="copyright-flag" u="43">No</content>
+  <content name="emphasis" u="45">none</content>
+  <content name="stereo-mode" u="47">joint stereo</content>
+  <content name="mpeg-version" u="50">1.000000</content>
+  <content name="frequency" u="52">44100 Hz</content>
+  <content name="bitrate" u="55">192</content>
+  <content name="playing-time" u="57">2 min 29 sec</content>
+  <content name="comment" u="62"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="20" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="20">Presley_-_Jailhouse_Rock.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="29" v="28"></pre>
+      <content name="artist" u="28" v="30" />
+      <match u="29" v="29">Elvis </match>
+      <post u="30" v="30">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Hard_Headed_Woman.mp3/"
+  graph-id-high-water="18" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Hard_Headed_Woman.mp3"
+  vertex="19" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">2770320</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244809"
+    u="27"
+  >Jun 23,
+  2008 18:13:29 GMT</content>
+  <content name="artist" u="29">Elvis Presley</content>
+  <content name="album-name" u="32">Greatest Jukebox Hits</content>
+  <content name="track-number" u="36">10</content>
+  <content name="track-title" u="38">Hard Headed Woman</content>
+  <content name="year" u="42"></content>
+  <content name="genre" u="43">Other</content>
+  <content name="copyright-flag" u="45">No</content>
+  <content name="emphasis" u="47">none</content>
+  <content name="stereo-mode" u="49">joint stereo</content>
+  <content name="mpeg-version" u="52">1.000000</content>
+  <content name="frequency" u="54">44100 Hz</content>
+  <content name="bitrate" u="57">192</content>
+  <content name="playing-time" u="59">1 min 55 sec</content>
+  <content name="comment" u="64"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="21" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="21">Presley_-_Hard_Headed_Woman.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="30" v="29"></pre>
+      <content name="artist" u="29" v="31" />
+      <match u="30" v="30">Elvis </match>
+      <post u="31" v="31">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_It's_Now_or_Never.mp3/"
+  graph-id-high-water="16" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_It%27s_Now_or_Never.mp3"
+  vertex="17" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">4718218</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244813"
+    u="29"
+  >Jun 23,
+  2008 18:13:33 GMT</content>
+  <content name="artist" u="31">Elvis Presley</content>
+  <content name="album-name" u="34">Greatest Jukebox Hits</content>
+  <content name="track-number" u="38">14</content>
+  <content name="track-title" u="40">It's Now or Never</content>
+  <content name="year" u="46"></content>
+  <content name="genre" u="47">Other</content>
+  <content name="copyright-flag" u="49">No</content>
+  <content name="emphasis" u="51">none</content>
+  <content name="stereo-mode" u="53">joint stereo</content>
+  <content name="mpeg-version" u="56">1.000000</content>
+  <content name="frequency" u="58">44100 Hz</content>
+  <content name="bitrate" u="61">192</content>
+  <content name="playing-time" u="63">3 min 16 sec</content>
+  <content name="comment" u="68"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="23" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="23">Presley_-_It's_Now_or_Never.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="32" v="31"></pre>
+      <content name="artist" u="31" v="33" />
+      <match u="32" v="32">Elvis </match>
+      <post u="33" v="33">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Suspicious_Minds.mp3/"
+  graph-id-high-water="15" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Suspicious_Minds.mp3"
+  vertex="16" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">6498098</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244818"
+    u="26"
+  >Jun 23,
+  2008 18:13:38 GMT</content>
+  <content name="artist" u="28">Elvis Presley</content>
+  <content name="album-name" u="31">Greatest Jukebox Hits</content>
+  <content name="track-number" u="35">21</content>
+  <content name="track-title" u="37">Suspicious Minds</content>
+  <content name="year" u="40"></content>
+  <content name="genre" u="41">Other</content>
+  <content name="copyright-flag" u="43">No</content>
+  <content name="emphasis" u="45">none</content>
+  <content name="stereo-mode" u="47">joint stereo</content>
+  <content name="mpeg-version" u="50">1.000000</content>
+  <content name="frequency" u="52">44100 Hz</content>
+  <content name="bitrate" u="55">192</content>
+  <content name="playing-time" u="57">4 min 30 sec</content>
+  <content name="comment" u="62"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="20" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="20">Presley_-_Suspicious_Minds.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="29" v="28"></pre>
+      <content name="artist" u="28" v="30" />
+      <match u="29" v="29">Elvis </match>
+      <post u="30" v="30">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Viva_Las_Vegas.mp3/"
+  graph-id-high-water="3" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Viva_Las_Vegas.mp3"
+  vertex="4" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3422963</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244819"
+    u="27"
+  >Jun 23,
+  2008 18:13:39 GMT</content>
+  <content name="artist" u="29">Elvis Presley</content>
+  <content name="album-name" u="32">Greatest Jukebox Hits</content>
+  <content name="track-number" u="36">20</content>
+  <content name="track-title" u="38">Viva Las Vegas</content>
+  <content name="year" u="42"></content>
+  <content name="genre" u="43">Other</content>
+  <content name="copyright-flag" u="45">No</content>
+  <content name="emphasis" u="47">none</content>
+  <content name="stereo-mode" u="49">joint stereo</content>
+  <content name="mpeg-version" u="52">1.000000</content>
+  <content name="frequency" u="54">44100 Hz</content>
+  <content name="bitrate" u="57">192</content>
+  <content name="playing-time" u="59">2 min 22 sec</content>
+  <content name="comment" u="64"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="21" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="21">Presley_-_Viva_Las_Vegas.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="30" v="29"></pre>
+      <content name="artist" u="29" v="31" />
+      <match u="30" v="30">Elvis </match>
+      <post u="31" v="31">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Don't_Be_Cruel.mp3/"
+  graph-id-high-water="13" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Don%27t_Be_Cruel.mp3"
+  vertex="14" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">2969686</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244808"
+    u="28"
+  >Jun 23,
+  2008 18:13:28 GMT</content>
+  <content name="artist" u="30">Elvis Presley</content>
+  <content name="album-name" u="33">Greatest Jukebox Hits</content>
+  <content name="track-number" u="37">4</content>
+  <content name="track-title" u="39">Don't Be Cruel</content>
+  <content name="year" u="44"></content>
+  <content name="genre" u="45">Other</content>
+  <content name="copyright-flag" u="47">No</content>
+  <content name="emphasis" u="49">none</content>
+  <content name="stereo-mode" u="51">joint stereo</content>
+  <content name="mpeg-version" u="54">1.000000</content>
+  <content name="frequency" u="56">44100 Hz</content>
+  <content name="bitrate" u="59">192</content>
+  <content name="playing-time" u="61">2 min 3 sec</content>
+  <content name="comment" u="66"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="22" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="22">Presley_-_Don't_Be_Cruel.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="31" v="30"></pre>
+      <content name="artist" u="30" v="32" />
+      <match u="31" v="31">Elvis </match>
+      <post u="32" v="32">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Stuck_on_You.mp3/"
+  graph-id-high-water="11" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Stuck_on_You.mp3"
+  vertex="12" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3375943</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244817"
+    u="27"
+  >Jun 23,
+  2008 18:13:37 GMT</content>
+  <content name="artist" u="29">Elvis Presley</content>
+  <content name="album-name" u="32">Greatest Jukebox Hits</content>
+  <content name="track-number" u="36">13</content>
+  <content name="track-title" u="38">Stuck on You</content>
+  <content name="year" u="42"></content>
+  <content name="genre" u="43">Other</content>
+  <content name="copyright-flag" u="45">No</content>
+  <content name="emphasis" u="47">none</content>
+  <content name="stereo-mode" u="49">joint stereo</content>
+  <content name="mpeg-version" u="52">1.000000</content>
+  <content name="frequency" u="54">44100 Hz</content>
+  <content name="bitrate" u="57">192</content>
+  <content name="playing-time" u="59">2 min 20 sec</content>
+  <content name="comment" u="64"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="21" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="21">Presley_-_Stuck_on_You.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="30" v="29"></pre>
+      <content name="artist" u="29" v="31" />
+      <match u="30" v="30">Elvis </match>
+      <post u="31" v="31">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Baby_Let's_Play_House.mp3/"
+  graph-id-high-water="10" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Baby_Let%27s_Play_House.mp3"
+  vertex="11" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3306979</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244806"
+    u="29"
+  >Jun 23,
+  2008 18:13:26 GMT</content>
+  <content name="artist" u="31">Elvis Presley</content>
+  <content name="album-name" u="34">Greatest Jukebox Hits</content>
+  <content name="track-number" u="38">2</content>
+  <content name="track-title" u="40">Baby Let's Play House</content>
+  <content name="year" u="46"></content>
+  <content name="genre" u="47">Other</content>
+  <content name="copyright-flag" u="49">No</content>
+  <content name="emphasis" u="51">none</content>
+  <content name="stereo-mode" u="53">joint stereo</content>
+  <content name="mpeg-version" u="56">1.000000</content>
+  <content name="frequency" u="58">44100 Hz</content>
+  <content name="bitrate" u="61">192</content>
+  <content name="playing-time" u="63">2 min 17 sec</content>
+  <content name="comment" u="68"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="23" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="23">Presley_-_Baby_Let's_Play_House.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="32" v="31"></pre>
+      <content name="artist" u="31" v="33" />
+      <match u="32" v="32">Elvis </match>
+      <post u="33" v="33">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Too_Much.mp3/"
+  graph-id-high-water="7" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Too_Much.mp3"
+  vertex="8" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3673112</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244818"
+    u="26"
+  >Jun 23,
+  2008 18:13:38 GMT</content>
+  <content name="artist" u="28">Elvis Presley</content>
+  <content name="album-name" u="31">Greatest Jukebox Hits</content>
+  <content name="track-number" u="35">6</content>
+  <content name="track-title" u="37">Too Much</content>
+  <content name="year" u="40"></content>
+  <content name="genre" u="41">Other</content>
+  <content name="copyright-flag" u="43">No</content>
+  <content name="emphasis" u="45">none</content>
+  <content name="stereo-mode" u="47">joint stereo</content>
+  <content name="mpeg-version" u="50">1.000000</content>
+  <content name="frequency" u="52">44100 Hz</content>
+  <content name="bitrate" u="55">192</content>
+  <content name="playing-time" u="57">2 min 33 sec</content>
+  <content name="comment" u="62"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="20" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="20">Presley_-_Too_Much.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="29" v="28"></pre>
+      <content name="artist" u="28" v="30" />
+      <match u="29" v="29">Elvis </match>
+      <post u="30" v="30">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Good_Luck_Charm.mp3/"
+  graph-id-high-water="14" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Good_Luck_Charm.mp3"
+  vertex="15" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3497569</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244808"
+    u="27"
+  >Jun 23,
+  2008 18:13:28 GMT</content>
+  <content name="artist" u="29">Elvis Presley</content>
+  <content name="album-name" u="32">Greatest Jukebox Hits</content>
+  <content name="track-number" u="36">16</content>
+  <content name="track-title" u="38">Good Luck Charm</content>
+  <content name="year" u="42"></content>
+  <content name="genre" u="43">Other</content>
+  <content name="copyright-flag" u="45">No</content>
+  <content name="emphasis" u="47">none</content>
+  <content name="stereo-mode" u="49">joint stereo</content>
+  <content name="mpeg-version" u="52">1.000000</content>
+  <content name="frequency" u="54">44100 Hz</content>
+  <content name="bitrate" u="57">192</content>
+  <content name="playing-time" u="59">2 min 25 sec</content>
+  <content name="comment" u="64"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="21" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="21">Presley_-_Good_Luck_Charm.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="30" v="29"></pre>
+      <content name="artist" u="29" v="31" />
+      <match u="30" v="30">Elvis </match>
+      <post u="31" v="31">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_A_Big_Hunk_O'_Love.mp3/"
+  graph-id-high-water="9" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_A_Big_Hunk_O%27_Love.mp3"
+  vertex="10" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3256824</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244805"
+    u="29"
+  >Jun 23,
+  2008 18:13:25 GMT</content>
+  <content name="artist" u="31">Elvis Presley</content>
+  <content name="album-name" u="34">Greatest Jukebox Hits</content>
+  <content name="track-number" u="38">12</content>
+  <content name="track-title" u="40">A Big Hunk O' Love</content>
+  <content name="year" u="46"></content>
+  <content name="genre" u="47">Other</content>
+  <content name="copyright-flag" u="49">No</content>
+  <content name="emphasis" u="51">none</content>
+  <content name="stereo-mode" u="53">joint stereo</content>
+  <content name="mpeg-version" u="56">1.000000</content>
+  <content name="frequency" u="58">44100 Hz</content>
+  <content name="bitrate" u="61">192</content>
+  <content name="playing-time" u="63">2 min 15 sec</content>
+  <content name="comment" u="68"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="23" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="23">Presley_-_A_Big_Hunk_O'_Love.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="32" v="31"></pre>
+      <content name="artist" u="31" v="33" />
+      <match u="32" v="32">Elvis </match>
+      <post u="33" v="33">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Good_Rockin'_Tonight.mp3/"
+  graph-id-high-water="8" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Good_Rockin%27_Tonight.mp3"
+  vertex="9" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3239897</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244809"
+    u="27"
+  >Jun 23,
+  2008 18:13:29 GMT</content>
+  <content name="artist" u="29">Elvis Presley</content>
+  <content name="album-name" u="32">Greatest Jukebox Hits</content>
+  <content name="track-number" u="36">1</content>
+  <content name="track-title" u="38">Good Rockin' Tonight</content>
+  <content name="year" u="42"></content>
+  <content name="genre" u="43">Other</content>
+  <content name="copyright-flag" u="45">No</content>
+  <content name="emphasis" u="47">none</content>
+  <content name="stereo-mode" u="49">joint stereo</content>
+  <content name="mpeg-version" u="52">1.000000</content>
+  <content name="frequency" u="54">44100 Hz</content>
+  <content name="bitrate" u="57">192</content>
+  <content name="playing-time" u="59">2 min 14 sec</content>
+  <content name="comment" u="64"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="21" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="21">Presley_-_Good_Rockin'_Tonight.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="30" v="29"></pre>
+      <content name="artist" u="29" v="31" />
+      <match u="30" v="30">Elvis </match>
+      <post u="31" v="31">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Way_Down.mp3/"
+  graph-id-high-water="0" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Way_Down.mp3"
+  vertex="1" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3782199</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244819"
+    u="26"
+  >Jun 23,
+  2008 18:13:39 GMT</content>
+  <content name="artist" u="28">Elvis Presley</content>
+  <content name="album-name" u="31">Greatest Jukebox Hits</content>
+  <content name="track-number" u="35">23</content>
+  <content name="track-title" u="37">Way Down</content>
+  <content name="year" u="40"></content>
+  <content name="genre" u="41">Other</content>
+  <content name="copyright-flag" u="43">No</content>
+  <content name="emphasis" u="45">none</content>
+  <content name="stereo-mode" u="47">joint stereo</content>
+  <content name="mpeg-version" u="50">1.000000</content>
+  <content name="frequency" u="52">44100 Hz</content>
+  <content name="bitrate" u="55">192</content>
+  <content name="playing-time" u="57">2 min 37 sec</content>
+  <content name="comment" u="62"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="20" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="20">Presley_-_Way_Down.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="29" v="28"></pre>
+      <content name="artist" u="28" v="30" />
+      <match u="29" v="29">Elvis </match>
+      <post u="30" v="30">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Hound_Dog.mp3/"
+  graph-id-high-water="5" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Hound_Dog.mp3"
+  vertex="6" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3296321</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244811"
+    u="26"
+  >Jun 23,
+  2008 18:13:31 GMT</content>
+  <content name="artist" u="28">Elvis Presley</content>
+  <content name="album-name" u="31">Greatest Jukebox Hits</content>
+  <content name="track-number" u="35">5</content>
+  <content name="track-title" u="37">Hound Dog</content>
+  <content name="year" u="40"></content>
+  <content name="genre" u="41">Other</content>
+  <content name="copyright-flag" u="43">No</content>
+  <content name="emphasis" u="45">none</content>
+  <content name="stereo-mode" u="47">joint stereo</content>
+  <content name="mpeg-version" u="50">1.000000</content>
+  <content name="frequency" u="52">44100 Hz</content>
+  <content name="bitrate" u="55">192</content>
+  <content name="playing-time" u="57">2 min 17 sec</content>
+  <content name="comment" u="62"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="20" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="20">Presley_-_Hound_Dog.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="29" v="28"></pre>
+      <content name="artist" u="28" v="30" />
+      <match u="29" v="29">Elvis </match>
+      <post u="30" v="30">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Burning_Love.mp3/"
+  graph-id-high-water="2" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Burning_Love.mp3"
+  vertex="3" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">4120746</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244807"
+    u="26"
+  >Jun 23,
+  2008 18:13:27 GMT</content>
+  <content name="artist" u="28">Elvis Presley</content>
+  <content name="album-name" u="31">Greatest Jukebox Hits</content>
+  <content name="track-number" u="35">22</content>
+  <content name="track-title" u="37">Burning Love</content>
+  <content name="year" u="40"></content>
+  <content name="genre" u="41">Other</content>
+  <content name="copyright-flag" u="43">No</content>
+  <content name="emphasis" u="45">none</content>
+  <content name="stereo-mode" u="47">joint stereo</content>
+  <content name="mpeg-version" u="50">1.000000</content>
+  <content name="frequency" u="52">44100 Hz</content>
+  <content name="bitrate" u="55">192</content>
+  <content name="playing-time" u="57">2 min 51 sec</content>
+  <content name="comment" u="62"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="20" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="20">Presley_-_Burning_Love.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="29" v="28"></pre>
+      <content name="artist" u="28" v="30" />
+      <match u="29" v="29">Elvis </match>
+      <post u="30" v="30">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_(Let_Me_Be_Your)_Teddy_Bear.mp3/"
+  graph-id-high-water="1" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_%28Let_Me_Be_Your%29_Teddy_Bear.mp3"
+  vertex="2" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">2599792</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244814"
+    u="30"
+  >Jun 23,
+  2008 18:13:34 GMT</content>
+  <content name="artist" u="32">Elvis Presley</content>
+  <content name="album-name" u="35">Greatest Jukebox Hits</content>
+  <content name="track-number" u="39">8</content>
+  <content name="track-title" u="41">(Let Me Be Your) Teddy Bear</content>
+  <content name="year" u="48"></content>
+  <content name="genre" u="49">Other</content>
+  <content name="copyright-flag" u="51">No</content>
+  <content name="emphasis" u="53">none</content>
+  <content name="stereo-mode" u="55">joint stereo</content>
+  <content name="mpeg-version" u="58">1.000000</content>
+  <content name="frequency" u="60">44100 Hz</content>
+  <content name="bitrate" u="63">192</content>
+  <content name="playing-time" u="65">1 min 48 sec</content>
+  <content name="comment" u="70"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="24" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="24">Presley_-_(Let_Me_Be_Your)_Teddy_Bear.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="33" v="32"></pre>
+      <content name="artist" u="32" v="34" />
+      <match u="33" v="33">Elvis </match>
+      <post u="34" v="34">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_(You're_The)_Devil_in_Disguise.mp3/"
+  graph-id-high-water="4" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_%28You%27re_The%29_Devil_in_Disguise.mp3"
+  vertex="5" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3420455</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244820"
+    u="30"
+  >Jun 23,
+  2008 18:13:40 GMT</content>
+  <content name="artist" u="32">Elvis Presley</content>
+  <content name="album-name" u="35">Greatest Jukebox Hits</content>
+  <content name="track-number" u="39">19</content>
+  <content name="track-title" u="41">(You're The) Devil in Disguise</content>
+  <content name="year" u="48"></content>
+  <content name="genre" u="49">Other</content>
+  <content name="copyright-flag" u="51">No</content>
+  <content name="emphasis" u="53">none</content>
+  <content name="stereo-mode" u="55">joint stereo</content>
+  <content name="mpeg-version" u="58">1.000000</content>
+  <content name="frequency" u="60">44100 Hz</content>
+  <content name="bitrate" u="63">192</content>
+  <content name="playing-time" u="65">2 min 22 sec</content>
+  <content name="comment" u="70"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="24" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="24">Presley_-_(You're_The)_Devil_in_Disguise.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="33" v="32"></pre>
+      <content name="artist" u="32" v="34" />
+      <match u="33" v="33">Elvis </match>
+      <post u="34" v="34">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Heartbreak_Hotel.mp3/"
+  graph-id-high-water="17" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Heartbreak_Hotel.mp3"
+  vertex="18" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3132690</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244810"
+    u="26"
+  >Jun 23,
+  2008 18:13:30 GMT</content>
+  <content name="artist" u="28">Elvis Presley</content>
+  <content name="album-name" u="31">Greatest Jukebox Hits</content>
+  <content name="track-number" u="35">3</content>
+  <content name="track-title" u="37">Heartbreak Hotel</content>
+  <content name="year" u="40"></content>
+  <content name="genre" u="41">Other</content>
+  <content name="copyright-flag" u="43">No</content>
+  <content name="emphasis" u="45">none</content>
+  <content name="stereo-mode" u="47">joint stereo</content>
+  <content name="mpeg-version" u="50">1.000000</content>
+  <content name="frequency" u="52">44100 Hz</content>
+  <content name="bitrate" u="55">192</content>
+  <content name="playing-time" u="57">2 min 10 sec</content>
+  <content name="comment" u="62"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="20" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="20">Presley_-_Heartbreak_Hotel.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="29" v="28"></pre>
+      <content name="artist" u="28" v="30" />
+      <match u="29" v="29">Elvis </match>
+      <post u="30" v="30">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Little_Sister.mp3/"
+  graph-id-high-water="6" priority="0" ct="application/vxml-unnormalized"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/Elvis_Presley_-_Little_Sister.mp3"
+  vertex="7" la-score="3.2581"
+>
+  <content name="size" weight="-1" u="1">3678754</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214244815"
+    u="26"
+  >Jun 23,
+  2008 18:13:35 GMT</content>
+  <content name="artist" u="28">Elvis Presley</content>
+  <content name="album-name" u="31">Greatest Jukebox Hits</content>
+  <content name="track-number" u="35">15</content>
+  <content name="track-title" u="37">Little Sister</content>
+  <content name="year" u="40"></content>
+  <content name="genre" u="41">Other</content>
+  <content name="copyright-flag" u="43">No</content>
+  <content name="emphasis" u="45">none</content>
+  <content name="stereo-mode" u="47">joint stereo</content>
+  <content name="mpeg-version" u="50">1.000000</content>
+  <content name="frequency" u="52">44100 Hz</content>
+  <content name="bitrate" u="55">192</content>
+  <content name="playing-time" u="57">2 min 33 sec</content>
+  <content name="comment" u="62"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4" v="15">smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/11601-2/mp3/</pre>
+      <content name="url" action="none" u="3" v="20" />
+      <match u="16" v="16">Elvis_</match>
+      <post u="17" v="20">Presley_-_Little_Sister.mp3</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="29" v="28"></pre>
+      <content name="artist" u="28" v="30" />
+      <match u="29" v="29">Elvis </match>
+      <post u="30" v="30">Presley</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<retrieval-performance n-tau="524" n-rho="72" n-uat="0" n-ohr="0"
+  occr-reads="15260" block-reads="75" seeks="4" cache-hits="75" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="46" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="142" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="46" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="142" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-tau="46" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="142" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="2" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="11086" block-reads="67" seeks="0" cache-hits="67" cache-misses="0"
+  >
+    <query-performance what="3:" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="11086" block-reads="67" seeks="0" cache-hits="67" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="406" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="2828" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="406" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="2828" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="406" n-rho="405" n-uat="0"
+        n-ohr="0" occr-reads="2828" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-tau="406" n-rho="453" n-uat="0" n-ohr="0"
+          occr-reads="2528" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+        />
+        <query-performance what="or" n-tau="70" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="300" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+        >
+          <query-performance what="0:url" n-tau="46" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="150" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:host" n-tau="46" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="150" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-tau="2" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-tau="2" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-tau="0" n-rho="2" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="24" n-rho="24" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="24" n-rho="24" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-tau="24" n-rho="24" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="48" n-rho="48" n-uat="0"
+    n-ohr="0" occr-reads="1204" block-reads="8" seeks="4" cache-hits="8"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="48" n-rho="48" n-uat="0"
+      n-ohr="0" occr-reads="1204" block-reads="8" seeks="4" cache-hits="8"
+      cache-misses="0"
+    >
+      <query-performance what="0:" n-tau="48" n-rho="48" n-uat="0" n-ohr="0"
+        occr-reads="1204" block-reads="4" seeks="4" cache-hits="4" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="24" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="4" seeks="0" cache-hits="4" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="49" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="50" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+>
+  <query-performance what="1:elvis" n-tau="49" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="50" block-reads="1" seeks="1" cache-hits="1" cache-misses="0"
+  />
+  <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+  />
+</query-performance>
+</scope>

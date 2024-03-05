@@ -1,0 +1,8 @@
+<function name="api-test-boolean" type="public-api">
+  <prototype>
+    <declare name="value" type="boolean" required="required" />
+    <returns type="boolean" />
+  </prototype>
+
+  <value-of-var name="value" />
+</function>

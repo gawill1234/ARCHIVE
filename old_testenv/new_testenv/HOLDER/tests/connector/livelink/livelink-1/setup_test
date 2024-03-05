@@ -1,0 +1,45 @@
+#!/bin/bash
+
+
+set_collection_file()
+{
+
+   if [ "$VIVTARGETOS" == "windows" ]; then
+      tpp=`vivisimo_dir`\\lib\\java\\universal-livelink
+      #
+      #   A bunch of total bull shit to get sed to accept this change
+      #   to a string using back slashes.  What a load of crap.
+      #
+      echo $tpp | sed 's?\\?\\\\?g' > totalbullshit
+      MyJar=`cat totalbullshit`
+      rm totalbullshit
+      output="$MyCollection.xml.windows"
+   else
+      MyJar=`vivisimo_dir`/lib/java/universal-livelink
+      output="$MyCollection.xml.linux"
+   fi
+
+   cat $MyCollection.base | sed "s?__MYSITE__?$MySite?" | sed "s?__MYUSER__?$MyUser?" | sed "s?__MYPASSWORD__?$MyPw?" | sed "s?__MYJARS__?$MyJar?" > $output
+
+   cp $output $MyCollection.xml
+
+   return
+}
+
+MyCollection="blahblah"
+MySite="192.168.0.146"
+MyUser="Admin"
+MyPw="livelink"
+
+while getopts "U:S:P:C:" flag; do
+   case "$flag" in
+      U) MyUser=$OPTARG;;
+      S) MySite=$OPTARG;;
+      P) MyPw=$OPTARG;;
+      C) MyCollection=$OPTARG;;
+      *) echo "setup:  Bad option"
+         exit;;
+   esac
+done
+
+set_collection_file

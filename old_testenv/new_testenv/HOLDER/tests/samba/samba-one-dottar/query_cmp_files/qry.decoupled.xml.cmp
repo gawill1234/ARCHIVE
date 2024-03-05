@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="0" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="1" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="3" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="6" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/document/XLS/NorthCent_2006Bud.xls"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/document/XLS/NorthCent_2006Bud.xls/"
+  filetype="xls" vse-base-score="1" la-score="0.1"
+>
+  <content name="title" output-action="bold" weight="3" u="7">Cashflow HRSW Durum Barley Corn Soyb Drybean Oil_SF Conf_SF Canola Flax Peas Oats Lentil Mustard Buckwht Millet Wint....</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="1989"
+      />
+      <pre u="178" v="197"><![CDATA[259,724</td><td>** 163,504</td><td>** 96,220</td><td>]]>&#160;<![CDATA[</td>  <td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td>  <td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td><b>CASHFLOW SUMMARY</b></td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td>  <td>INFLOWS, Total for Farm</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>OUTFLOWS, Total for Farm</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td>  <td>Market &amp; LDP Rev.</td><td>]]>&#160;<![CDATA[</td><td>** 259,724</td><td>]]>&#160;<![CDATA[</td><td>Direct Costs</td><td>]]>&#160;<![CDATA[</td><td>** 163504</td><td>]]>&#160;<![CDATA[</td>  <td>]]></pre>
+      <match u="198" v="198">Decoupled </match>
+      <post u="199" v="218"><![CDATA[Gov't Pmts</td><td>]]>&#160;<![CDATA[</td><td><font>23,800</font></td><td>&lt;-enter</td><td>Mach. Princ. &amp; Int. Pmts</td><td>]]>&#160;<![CDATA[</td><td><font>28000</font></td><td>&lt;-enter</td>  <td>Other Cash Inflow</td><td>]]>&#160;<![CDATA[</td><td><font>0</font></td><td>&lt;-enter</td><td>Land Rent</td><td>]]>&#160;<![CDATA[</td><td><font>75500</font></td><td>&lt;-enter</td>  <td>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Farm</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td>  <td>Market &amp; LDP Rev.</td><td>]]>&#160;<![CDATA[</td><td>** 259,724</td><td>]]>&#160;<![CDATA[</td><td>Direct Costs</td><td>]]>&#160;<![CDATA[</td><td>** 163504</td><td>]]>&#160;<![CDATA[</td>  <td>Decoupled Gov't Pmts</td><td>]]>&#160;<![CDATA[</td><td><font>23,800</font></td><td>&lt;-enter</td><td>Mach. Princ. &amp; Int.  ... ]]></content>
+</document>
+</scope>

@@ -1,0 +1,36 @@
+<source name="samba-stress" type="vse" test-strictly="test-strictly" modified="1224256967" modified-by="gary_testing">
+  <prototype>
+    <declare name="staging" initial-value="false" type="boolean">
+      <description>Flag used to allow querying of the staging index.</description>
+    </declare>
+    <declare>
+      <attribute name="name">authorization-user</attribute>
+      <attribute name="type">string</attribute>
+      <label>Authorization user</label>
+      <description>Username to use for document-level authentication of this source.</description>
+    </declare>
+    <declare>
+      <attribute name="name">authorization-password</attribute>
+      <attribute name="type">password</attribute>
+      <label>Authorization password</label>
+      <description>Password to use for document level authentication.</description>
+    </declare>
+  </prototype>
+  <submit>
+    <form>
+      <call-function name="vse_form">
+        <with name="collection">samba-stress</with>
+        <with name="authorization-user">
+          <attribute name="copy-of">authorization-user</attribute>
+        </with>
+        <with name="authorization-password">
+          <attribute name="copy-of">authorization-password</attribute>
+        </with>
+        <with name="staging">
+          <value-of-var name="staging"/>
+        </with>
+      </call-function>
+      <call-function name="vse-input-date"/>
+    </form>
+  </submit>
+</source>

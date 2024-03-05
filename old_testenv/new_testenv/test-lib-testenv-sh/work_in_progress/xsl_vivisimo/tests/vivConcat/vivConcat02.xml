@@ -1,0 +1,59 @@
+<testset>
+   <test>
+      <name>
+         vivConcat02
+      </name>
+      <description>
+         Simple extraction/concatenation with ... seperator
+      </description>
+      <funcname argcnt="3" codetemplate="match" tbltemplate="1">
+         viv:concat
+      </funcname>
+      <variable>
+         <name>
+            testNode
+         </name>
+         <value>
+            testnode
+         </value>
+         <type>
+            node
+         </type>
+      </variable>
+      <variable>
+         <name>
+            sepWord
+         </name>
+         <value>
+            ...
+         </value>
+         <type>
+            string
+         </type>
+      </variable>
+      <argument>
+         <value>
+            testNode
+         </value>
+         <type>
+            variable
+         </type>
+      </argument>
+      <argument>
+         <value>
+            sepWord
+         </value>
+         <type>
+            variable
+         </type>
+      </argument>
+      <result>
+         <value>
+            first flim1 flam1 ... second flim2 flam2 ... third flim3 flam3
+         </value>
+         <type>
+            string
+         </type>
+      </result>
+   </test>
+</testset>

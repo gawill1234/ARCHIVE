@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<project name="AnnotationsTest" default="all" basedir=".">
+  <target name="init" >
+    <property name="sourceDir" value="${basedir}"/>
+	
+    <property name="classDir" value="${basedir}/class"/>
+    <property name="tempResultDir" value="${basedir}/result"/>
+    <property name="junitTestReportDir" value="${basedir}/Test_Report"/>
+   
+    <property name="build.sysclasspath" value="first" />
+    <property name="java.class.path" value="${classDir}" />
+    <delete dir="${tempResultDir}"/>
+    <delete dir="${classDir}"/>
+    <delete dir="${junitTestReportDir}"/>
+
+    <mkdir dir="${classDir}"/>
+    <mkdir dir="${tempResultDir}"/>
+	
+	<property name="lib.dir"     value="lib"/>
+    <path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+    </path>
+
+	
+    <!-- . is used for pointing to the current directory -->
+    <javac srcdir="${sourceDir}" destdir="${classDir}"  classpathref="classpath">
+	  <include name="helperFunctions/*.java" />
+      <include name="apiFunctions/*.java" />	 
+      <include name="apiTests/*.java" />
+    </javac>
+  </target>
+
+  <target name="all" depends="junit" description="Build everything.">
+    <echo message="Application built."/>
+  </target>
+
+  <target name="junit" depends="init" description="Performs unit tests.">
+
+    <junit printsummary="yes" haltonfailure="no" logfailedtests="true" showoutput="true">
+      <classpath>
+        <pathelement location="${classDir}"/>
+		<pathelement path="${java.class.path}"/>
+		<fileset dir="lib">
+			<include name="**/*.jar"/>
+		</fileset>
+      </classpath>
+	 
+      <formatter type="xml"/>
+      <batchtest todir="${tempResultDir}">
+        <fileset dir="${classDir}">
+          <include name="apiTests/*"/>
+        </fileset>
+      </batchtest>
+
+    </junit>
+
+    <mkdir dir="${junitTestReportDir}"/>
+
+    <junitreport tofile="TESTS-TestSuites.xml" todir="${tempResultDir}">
+      <fileset dir="${tempResultDir}">
+        <include name="TEST-*.xml"/>
+      </fileset>
+      <report todir="${junitTestReportDir}"/>
+    </junitreport>
+
+    <fail message="JUnit test failure." if="junit.failed"/>
+
+  </target>
+</project>

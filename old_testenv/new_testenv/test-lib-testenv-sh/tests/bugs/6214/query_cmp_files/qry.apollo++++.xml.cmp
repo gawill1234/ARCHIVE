@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document vse-key="oracle://testbed5.test.vivisimo.com:1521/orcl/24/"
+  vertex="359"
+  url="oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?key-val=24"
+  ct="application/vxml-unnormalized" vse-base-score="1.5" input-at="1192484052"
+  la-score="5.88888"
+>
+  <content name="NAME" type="text" u="1">Apollo</content>
+  <content name="NATION" type="text" u="3">UK</content>
+  <content name="ALIGNED" type="text" u="5">allied</content>
+  <content name="SHIP_TYPE" type="text" u="7">Mine Layer</content>
+  <content name="URL_LOCATER" type="text" u="10">http://en.wikipedia.org/wiki/HMS_Apollo</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2" v="2">Apollo</pre>
+      <content name="NAME" type="text" u="1" v="2" />
+      <match u="2" v="2">Apollo</match>
+      <post u="2" v="2">Apollo</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="11" v="17">http://en.wikipedia.org/wiki/HMS_Apollo</pre>
+      <content name="URL_LOCATER" type="text" u="10" v="17" />
+      <match u="17" v="17">Apollo</match>
+      <post u="17" v="17">Apollo</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+</scope>

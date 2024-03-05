@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="query-xml-supported">query-xml-supported</attribute>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="0" />
+<attribute name="admin-url"
+  value="http://brusilovsky-pc.vivisimo.com/vivisimo82rc33/cgi-bin/admin.exe"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="total-results-with-duplicates" value="0" />
+<retrieval-performance n-tau="0" n-rho="0" n-uat="0" n-ohr="0" occr-reads="0"
+  block-reads="0" seeks="0" cache-hits="0" cache-misses="0" n-blocks="0"
+>
+  <query-performance what="doc-text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="output" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="summarize" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+  <query-performance what="really-content" n-tau="0" n-rho="0" n-uat="0"
+    n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0" n-blocks="0"
+  />
+  <query-performance what="rights-query" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    n-blocks="0"
+  />
+</retrieval-performance>
+<query-performance flags="hard point r:apply" what="not-within" n-tau="1"
+  n-rho="0" n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0"
+  cache-hits="1" cache-misses="0" n-blocks="1"
+>
+  <query-performance flags="hard point r:apply/need" what="1:0:object" n-tau="1"
+    n-rho="0" n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0"
+    cache-hits="1" cache-misses="0" n-blocks="0"
+  />
+  <query-performance flags="hard extent r:apply/need" what="0:0:del#" n-tau="0"
+    n-rho="0" n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0"
+    cache-hits="0" cache-misses="0" n-blocks="1"
+  />
+</query-performance>
+<xpath-performances />
+</scope>

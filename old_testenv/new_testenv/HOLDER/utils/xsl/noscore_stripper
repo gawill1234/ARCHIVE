@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xsl:stylesheet version="1.0"
+     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template name="do_attribute">
+   <xsl:if test="@name='total-results'">
+      <xsl:text disable-output-escaping="yes"><![CDATA[]]></xsl:text>
+      <URL_COUNT>
+         <xsl:text disable-output-escaping="yes"><![CDATA[
+         ]]></xsl:text>
+         <xsl:value-of select="@value"/>
+         <xsl:text disable-output-escaping="yes"><![CDATA[
+   ]]></xsl:text>
+      </URL_COUNT>
+      <xsl:text disable-output-escaping="yes"><![CDATA[
+]]></xsl:text>
+   </xsl:if>
+</xsl:template>
+
+<xsl:template match="/">
+<RESULT>
+   <xsl:text disable-output-escaping="yes"><![CDATA[
+   ]]></xsl:text>
+   <xsl:for-each select="//attribute">
+      <xsl:call-template name="do_attribute"/>
+   </xsl:for-each>
+   <xsl:for-each select="//document">
+   <xsl:sort select="@url"/>
+   <xsl:text disable-output-escaping="yes"><![CDATA[   ]]></xsl:text>
+   <ITEM>
+   <xsl:text disable-output-escaping="yes"><![CDATA[
+      ]]></xsl:text>
+      <URL>
+         <xsl:text disable-output-escaping="yes"><![CDATA[
+         ]]></xsl:text>
+         <xsl:value-of select="@url"/>
+         <xsl:text disable-output-escaping="yes"><![CDATA[
+      ]]></xsl:text>
+      </URL>
+      <xsl:text disable-output-escaping="yes"><![CDATA[
+   ]]></xsl:text>
+   </ITEM>
+   <xsl:text disable-output-escaping="yes"><![CDATA[
+]]></xsl:text>
+   </xsl:for-each>
+</RESULT>
+</xsl:template>
+
+</xsl:stylesheet>

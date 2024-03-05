@@ -1,0 +1,7 @@
+<syntax name="custom" products="all" no-override="no-override" elt-id="2"
+  max-elt-id="3" modified="1332944438" modified-by="gary_testing"
+>
+  <load-syntax name="core" elt-id="1" />
+  <field elt-id="3" name="SHIP_TYPE" />
+  <field elt-id="3" name="NATION" />
+</syntax>

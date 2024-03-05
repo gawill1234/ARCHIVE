@@ -1,0 +1,106 @@
+#!/bin/bash
+
+xx="go"
+
+VUSER=""
+VPW=""
+VCOLLECTION=""
+SHOST=""
+VMAXTIME=0
+
+export PATH=$PATH:$TEST_ROOT/utils/bin:$TEST_ROOT/bin
+
+VACTION="vse-status"
+
+while getopts "C:H:U:P:t:" flag; do
+  case "$flag" in
+     H) SHOST=$OPTARG;;
+     C) VCOLLECTION=$OPTARG;;
+     U) VUSER=$OPTARG;;
+     P) VPW=$OPTARG;;
+     t) VMAXTIME=$OPTARG;;
+     *) echo "Usage: check_crawl -C <collection> -U <user> -P <password>"
+        exit 1;;
+  esac
+done
+
+if [ "$VCOLLECTION" == "" ]; then
+   echo "Collection name must be specified"
+   echo "Use the -C <collection> option"
+   exit 1
+fi
+
+if [ "$VUSER" == "" ]; then
+   VUSER=$VIVUSER
+   if [ "$VUSER" == "" ]; then
+      echo "Vivisimo username is needed"
+      echo "Either set VIVUSER environment variable or"
+      echo "use the -U <vivuser> options"
+      exit 1
+   fi
+fi
+
+if [ "$VPW" == "" ]; then
+   VPW=$VIVPW
+   if [ "$VPW" == "" ]; then
+      echo "Vivisimo password is needed"
+      echo "Either set VIVPW environment variable or"
+      echo "use the -P <vivpassword> options"
+      exit 1
+   fi
+fi
+
+if [ "$SHOST" == "" ]; then
+   SHOST=$VIVHOST
+   if [ "$SHOST" == "" ]; then
+      echo "Target host needed"
+      echo "Either set VIVHOST environment variable or"
+      echo "use the -H <host> options"
+      exit 1
+   fi
+fi
+
+rstring="get_status -H $SHOST -C $VCOLLECTION -U $VUSER -P $VPW"
+killstring="stop_crindex -H $SHOST -C $VCOLLECTION -U $VUSER -P $VPW"
+
+xx=1
+i=1
+start=`date +%s`
+exitstat=0
+
+while [ $xx -ne 0 ]; do
+   donecnt=0
+   sleep 5
+   echo "$i: Checking status ..."
+   $rstring
+   xx=$?
+   i=`expr $i + 1`
+   if [ $xx -eq 0 ]; then
+      while [ $donecnt -lt 3 ]; do
+         if [ $xx -eq 0 ]; then
+            sleep 1
+            $rstring
+            xx=$?
+            donecnt=`expr $donecnt + 1`
+         else
+            donecnt=3
+         fi
+      done
+   fi
+   if [ $xx -ne 0 ]; then
+      if [ $VMAXTIME -gt 0 ]; then
+         now=`date +%s`
+         elapsed=`expr $now - $start`
+         echo "TIME ELAPSED: $elapsed,  MAX: $VMAXTIME"
+         if [ $elapsed -gt $VMAXTIME ]; then
+            $killstring
+            exitstat=1
+            xx=0
+         fi
+      fi
+   fi
+done
+
+echo "Crawler and indexer are idle."
+
+exit $exitstat

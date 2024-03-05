@@ -1,0 +1,67 @@
+<testset>
+   <test>
+      <name>
+         vivIfElse07
+      </name>
+      <description>
+         vivIfElse():  Test of unequal function condition
+      </description>
+      <funcname argcnt="3" codetemplate="match" tbltemplate="1">
+         viv:if-else
+      </funcname>
+      <variable>
+         <name>
+            myint
+         </name>
+         <value>
+            false()
+         </value>
+         <type>
+            boolean
+         </type>
+      </variable>
+      <variable>
+         <name>
+            myint2
+         </name>
+         <value>
+            true()
+         </value>
+         <type>
+            boolean
+         </type>
+      </variable>
+      <argument>
+         <value>
+            $myint = $myint2
+         </value>
+         <type>
+            vivtest
+         </type>
+      </argument>
+      <argument>
+         <value>
+            TRUE
+         </value>
+         <type>
+            string
+         </type>
+      </argument>
+      <argument>
+         <value>
+            FALSE
+         </value>
+         <type>
+            string
+         </type>
+      </argument>
+      <result>
+         <value>
+            FALSE
+         </value>
+         <type>
+            string
+         </type>
+      </result>
+   </test>
+</testset>

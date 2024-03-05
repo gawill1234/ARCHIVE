@@ -1,0 +1,55 @@
+#
+#	make file for shared files of nupdate
+#
+SHELL	= /bin/sh
+#
+CC	=	/usr/lang/cc
+CFLAGS	=
+#
+#
+BLD	=	bld
+#
+#
+
+.F.o:
+	$(FORTRAN) -c -Y f,/softos/xydev/gaw/bin $(CFTOPTS) $(CFTFLAGS) $<
+
+.c.o:
+	$(CC) -c $(CFLAGS) $<
+
+OBJ     =       checkdate.o checksize.o getparts.o main.o \
+                checkperm.o fileexist.o gettoday.o openfile.o getos.o \
+                alldo.o gettarg.o mfp.o checktype.o fileis.o prhder.o \
+                getmagic.o nameit.o dircheck.o initaprod.o checkinput.o \
+                checkitems.o balanceit.o cr_node.o cmdtest.o searchnadd.o \
+                dorddir.o
+
+
+sun:		$(OBJ)
+		$(CC) -o ivt $(OBJ)
+checkdate.o:	checkdate.c
+checkperm.o:	checkperm.c
+checksize.o:	checksize.c
+fileexist.o:	fileexist.c
+getparts.o:	getparts.c
+gettoday.o:	gettoday.c
+main.o:		main.c
+openfile.o:	openfile.c
+getos.o:	getos.c
+alldo.o:	alldo.c
+gettarg.o:	gettarg.c
+mfp.o:		mfp.c
+checktype.o:	checktype.c
+fileis.o:	fileis.c
+prhder.o:	prhder.c
+getmagic.o:	getmagic.c
+nameit.o:	nameit.c
+dircheck.o:	dircheck.c
+initaprod.o:	initaprod.c
+checkinput.o:	checkinput.c
+checkitems.o:	checkitems.c
+balanceit.o:	balanceit.c
+cr_node.o:	cr_node.c
+cmdtest.o:	cmdtest.c
+searchnadd.o:	searchnadd.c
+dorddir.o:	dorddir.c

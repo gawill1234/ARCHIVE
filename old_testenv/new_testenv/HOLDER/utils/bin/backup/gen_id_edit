@@ -1,0 +1,62 @@
+#!/bin/bash
+
+VUSER=""
+VPW=""
+VCOLLECTION=""
+VWORKINGDIR=$TESTWORKINGDIR
+
+while getopts "C:U:P:W:" flag; do
+  case "$flag" in
+     C) VCOLLECTION=$OPTARG;;
+     U) VUSER=$OPTARG;;
+     P) VPW=$OPTARG;;
+     W) VWORKINGDIR=$OPTARG;;
+     *) echo "Usage: gen_id_edit -C <collection> -U <user> -P <password>"
+        exit 1;;
+  esac
+done
+
+if [ "$VWORKINGDIR" == "" ]; then
+   VWORKINGDIR="/tmp"
+fi
+
+if [ "$VCOLLECTION" == "" ]; then
+   echo "Collection name must be specified"
+   echo "Use the -C <collection> option"
+   exit 1
+fi
+
+if [ "$VUSER" == "" ]; then
+   VUSER=$VIVUSER
+   if [ "$VUSER" == "" ]; then
+      echo "Vivisimo username is needed"
+      echo "Either set VIVUSER environment variable or"
+      echo "use the -U <vivuser> options"
+      exit 1
+   fi
+fi
+
+if [ "$VPW" == "" ]; then
+   VPW=$VIVPW
+   if [ "$VPW" == "" ]; then
+      echo "Vivisimo password is needed"
+      echo "Either set VIVPW environment variable or"
+      echo "use the -P <vivpassword> options"
+      exit 1
+   fi
+fi
+
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\" ?>"
+echo "<xmlupdate>"
+echo ""
+echo "   <node cmd=\"replace\" loc=\"this\" id-tag=\"vse-meta\">"
+echo "      <vse-meta name=\"$VCOLLECTION\" creator=\"$VIVUSER\" create-time=\"1155926248\" push-toggle=\"push-toggle\">"
+echo "          <vse-meta-info name=\"maintainers\">"
+echo "             <![CDATA[$VIVUSER]]>"
+echo "          </vse-meta-info>"
+echo "      </vse-meta>"
+echo "   </node>"
+echo ""
+echo "</xmlupdate>"
+
+exit 0

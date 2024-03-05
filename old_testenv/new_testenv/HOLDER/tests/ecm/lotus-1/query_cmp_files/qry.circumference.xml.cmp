@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="10" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="7" />
+<attribute name="total-results-with-duplicates" value="10" />
+<document filetypes="pdf " i="1"
+  vse-key="lotus://192.168.0.37:80/doclibra/?messages=76BFF8428409F1AB8525728300802E42"
+  last-modified="1171581885000" graph-id-high-water="199" ct="text/html"
+  url="http://192.168.0.37/__852571B400775529.nsf/0/76BFF8428409F1AB8525728300802E42?OpenDocument"
+  vertex="200" priority="0" la-score="6.24222" vse-base-score="1.98438"
+>
+  <content type="text" name="title" output-action="bold" weight="3" u="17">HOPfortheweb.PDF</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="1533">Material Master</content>
+  <content type="text" name="title" action="cluster" weight="3" u="859499">Non-rotatable fluid powered nozzle and valve combination</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="141305" v="141324">CONSTRUCTION PAPER, NON-TOXIC GLUE, TISSUE PAPER, GLITTER, SEQUINS, CHENILLE NYLON NETTING AND INSTRUCTIONS, FITS HEADS UP TO 24 IN. </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="1536"
+        v="857289"
+      />
+      <match u="141325" v="141325">CIRCUMFERENCE, </match>
+      <post u="141326" v="141345"><![CDATA[12 EA/PK, S AND S, LR192</td><td>KIT, AUNT HEIDIS HATS NO  SC7LR192</td><td>35</td>  <td>23241401506</td><td>7820020271900</td><td>]]>&#160;<![CDATA[</td><td>EA</td><td>CRAFTS, GENERAL</td><td>Kits ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="288123" v="288142">AND SUPPLIES&lt;/td>&lt;td>Measuring Equipment: Chains, Maps, Optical Tapes, Tapes, Wheels, etc. (Including Photogrammetry and Laser Equipment)&lt;/td>&lt;td>TAPE, METALLIC, FOR MEASURING </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="1536"
+        v="857289"
+      />
+      <match u="288143" v="288143"><![CDATA[CIRCUMFERENCE</td><td>]]></match>
+      <post u="288144" v="288163"><![CDATA[6 FT., REF. NO. LUFKIN 606PD</td><td>TAPE, MEASURE CIRCUMFERENCE METAL 6FT</td><td>37</td>  <td>30560849009</td><td>5110011055600</td><td>]]>&#160;<![CDATA[</td><td>EA</td><td>ENGINEERING AND ARCHITECTURAL EQUIPMENT, SURVEYING ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="288132" v="288151">Wheels, etc. (Including Photogrammetry and Laser Equipment)&lt;/td>&lt;td>TAPE, METALLIC, FOR MEASURING CIRCUMFERENCE&lt;/td>&lt;td>6 FT., REF. NO. LUFKIN 606PD&lt;/td>&lt;td>TAPE, MEASURE </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="1536"
+        v="857289"
+      />
+      <match u="288152" v="288152">CIRCUMFERENCE </match>
+      <post u="288153" v="288172"><![CDATA[METAL 6FT</td><td>37</td>  <td>30560849009</td><td>5110011055600</td><td>]]>&#160;<![CDATA[</td><td>EA</td><td>ENGINEERING AND ARCHITECTURAL EQUIPMENT, SURVEYING EQUIPMENT, DRAWING INSTRUMENTS, AND SUPPLIES</td><td>Measuring Equipment: Chains, Maps, ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="288167" v="288186">AND SUPPLIES&lt;/td>&lt;td>Measuring Equipment: Chains, Maps, Optical Tapes, Tapes, Wheels, etc. (Including Photogrammetry and Laser Equipment)&lt;/td>&lt;td>TAPE, METALLIC, FOR MEASURING </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="1536"
+        v="857289"
+      />
+      <match u="288187" v="288187"><![CDATA[CIRCUMFERENCE</td><td>]]></match>
+      <post u="288188" v="288207">100 FT X 3/8 IN., STEEL BLADE W/ HOOK YELLOW CLAD , KLEIN PART NO. 940-100&lt;/td>&lt;td>TAPE, MEASURE CIRCUMFERENCE </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="288187" v="288206">CIRCUMFERENCE&lt;/td>&lt;td>100 FT X 3/8 IN., STEEL BLADE W/ HOOK YELLOW CLAD , KLEIN PART NO. 940-100&lt;/td>&lt;td>TAPE, MEASURE </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="1536"
+        v="857289"
+      />
+      <match u="288207" v="288207">CIRCUMFERENCE </match>
+      <post u="288208" v="288227"><![CDATA[METAL 100FT</td><td>39</td>  <td>30560916808</td><td>5110011055900</td><td>]]>&#160;<![CDATA[</td><td>EA</td><td>ENGINEERING AND ARCHITECTURAL EQUIPMENT, SURVEYING EQUIPMENT, DRAWING INSTRUMENTS, AND SUPPLIES</td><td>Measuring Equipment: Chains, Maps, ]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="725144" v="725163">4 IN. WIDTH, CONSTRUCTED TO FIT 2-14 IN., CHROME PLATED SNAP, RING CHROME PLATED &amp;amp; 1 1/2 IN. IN </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="1536"
+        v="857289"
+      />
+      <match u="725164" v="725164"><![CDATA[CIRCUMFERENCE.</td><td>]]></match>
+      <post u="725165" v="725184"><![CDATA[HOLDER, BATON, BELT RING 3/4 IN  WIDTH</td><td>38</td>  <td>69057504503</td><td>]]>&#160;<![CDATA[</td><td>53400000470</td><td>EA</td><td>POWER GENERATION EQUIPMENT, ACCESSORIES, AND SUPPLIES</td><td>Power Supplies, ]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="776110" v="776129">ATHLETIC FACILITY EQUIPMENT&lt;/td>&lt;td>Basketball Equipment (Including Backboards and Backstops)&lt;/td>&lt;td>BASKETBALL EQUIPMENT&lt;/td>&lt;td>BALL, BASKETBALL, LEATHER, OFFICIAL SIZE, 29.5IN. X 30IN. </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="1536"
+        v="857289"
+      />
+      <match u="776130" v="776130">CIRCUMFERENCE </match>
+      <post u="776131" v="776150">AND WEIGHT, 100% NYLON WOUND LAST BUILT CONSTRUCTION, PREMIUM FULL GRAIN PEBBLE LEATHER, NARROW CHANNEL SEAMS, 100% BUTYL BLADDER, WILSON </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... AND INSTRUCTIONS, FITS HEADS UP TO 24 IN. CIRCUMFERENCE, 12 EA/PK, S AND S, LR192&lt;/td>&lt;td>KIT,  ... Photogrammetry and Laser Equipment)&lt;/td>&lt;td>TAPE, METALLIC, FOR MEASURING CIRCUMFERENCE&lt;/td>&lt;td>6 FT., REF. NO. LUFKIN 606PD&lt;/td>&lt;td>TAPE, MEASURE  ... </content>
+</document>
+<document filetypes="ppt " i="1"
+  vse-key="lotus://192.168.0.37:80/doclibra/?messages=36C7857EFD64261D8525720500773D88"
+  last-modified="1160689348000" graph-id-high-water="42" ct="text/html"
+  url="http://192.168.0.37/__852571B400775529.nsf/0/36C7857EFD64261D8525720500773D88?OpenDocument"
+  vertex="43" priority="0" la-score="6.24222" vse-base-score="1.5"
+>
+  <content type="text" name="title" output-action="bold" weight="3" u="10562">660-05M</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="11564">Microeconomics Principles</content>
+  <content type="text" name="title" action="cluster" weight="3" u="14378">Container partition</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="10864" v="10883">minimum of four (4), 38 mm wide, minimum. UHMW&lt;br/>polymer  runners  or  glass  reinforced  plastic  runners  spaced  equally  around  the&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="10565"
+        v="11546"
+      />
+      <match u="10884" v="10884">circumference </match>
+      <post u="10885" v="10904">to maintain bell clearance on all sides.  Runners to be equal length so that&lt;br/>carrier pipe is centered in casing </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="11219" v="11238">cutting head suitable for soil being bored, and capable of preventing free flow of&lt;br/>soft or poor material.&lt;/span> &lt;/div>&lt;div> &lt;span>Weld entire </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="10565"
+        v="11546"
+      />
+      <match u="11239" v="11239">circumference </match>
+      <post u="11240" v="11259">of each joint of casing pipe as each section is installed.&lt;/span> &lt;/div>&lt;div> &lt;span>Install restrained joint ductile iron water main by joining </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... glass  reinforced  plastic  runners  spaced  equally  around  the&lt;br/>circumference to maintain bell clearance on all sides.  Runners  ... flow of&lt;br/>soft or poor material.&lt;/span> &lt;/div>&lt;div> &lt;span>Weld entire circumference of each joint of casing pipe as each  ... </content>
+</document>
+<document filetypes="pdf " i="1"
+  vse-key="lotus://192.168.0.37:80/doclibra/?messages=E094A43587461F348525728300802EA1"
+  last-modified="1171582107000" graph-id-high-water="294" ct="text/html"
+  url="http://192.168.0.37/__852571B400775529.nsf/0/E094A43587461F348525728300802EA1?OpenDocument"
+  vertex="295" priority="0" la-score="6.24222" vse-base-score="1.5"
+>
+  <content type="text" name="title" output-action="bold" weight="3" u="17">SEAHO Site Selection Task Force</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="8393">coltonp</content>
+  <content type="text" name="title" action="cluster" weight="3" u="66565">TRAIL/Apo2L ligand selectively induces apoptosis and overcomes drug resistance in multiple myeloma: therapeutic ...</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="43313" v="43332">to a conventional linear accelerator because the accelerating and focusing elements are re-used many times per shot. 26 The </pre>
+      <content type="TEXT" name="snippet" u="16401" v="66208" />
+      <match u="43333" v="43333">circumference </match>
+      <post u="43334" v="43353">of the recirculator can be much less than the length of the equivalent linear accelerator, and the accelerating cores can </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="43416" v="43435">parameters that characterize the beam are similar to those of a driver-scale ring. The planned ring will have a </pre>
+      <content type="TEXT" name="snippet" u="16401" v="66208" />
+      <match u="43436" v="43436">circumference </match>
+      <post u="43437" v="43456">of 14.4 m, made up of 40 "half lattice periods," each with a permanent magnetic quadrupole for transverse confinement, an </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... re-used many times per shot. 26 The circumference of the recirculator can be much less than  ... scale ring. The planned ring will have a circumference of 14.4 m, made up of 40 "half  ... </content>
+</document>
+<document filetypes="ppt " i="1"
+  vse-key="lotus://192.168.0.37:80/doclibra/?messages=EF6D348EBDE12DD98525728300802F53"
+  last-modified="1171582736000" graph-id-high-water="470" ct="text/html"
+  url="http://192.168.0.37/__852571B400775529.nsf/0/EF6D348EBDE12DD98525728300802F53?OpenDocument"
+  vertex="471" priority="0" la-score="6.24222" vse-base-score="1.5"
+>
+  <content type="text" name="title" output-action="bold" weight="3" u="13302">PP542Constitution.PDF</content>
+  <content type="text" name="title" action="cluster" weight="3" u="17662">Short-term quality-of-life outcomes following laparoscopic-assisted colectomy vs open colectomy for colon cancer: a ...</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="6277" v="6296">if g is realized by a ﬂip of D(v), each of the two closed arcs cut out of the&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="2203"
+        v="13284"
+      />
+      <match u="6297" v="6297">circumference </match>
+      <post u="6298" v="6317"><![CDATA[by the axis of reﬂection determines a section for g</span> </div><div> <span>Σ</span> </div><div> <span>−</span> </div><div> <span>= y</span> </div><div> <span>0</span> </div><div> <span>, ..., y</span> </div><div> <span>µ−1</span> </div><div> <span>ordered counterclockwise, with the ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6390" v="6409">is also a proper section for g, corresponding (in the case of a realization) to the opposite arc in the&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="2203"
+        v="13284"
+      />
+      <match u="6410" v="6410">circumference </match>
+      <post u="6411" v="6430"><![CDATA[of D(v). When a section Σ</span> </div><div> <span>−</span> </div><div> <span>comes from a geometric realization, the local orientation θ</span> </div><div> <span>v</span> </div><div> <span>satisﬁes</span> </div><div> <span>θ</span> </div><div> <span>v</span> </div><div> <span>(]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... the two closed arcs cut out of the<br/>circumference by the axis of reﬂection determines a section  ... a realization) to the opposite arc in the<br/>circumference of D(v). When a section Σ</span> </div><div> <span>−</span> </div><div> <span>comes  ... ]]></content>
+</document>
+<document filetypes="ps " i="1"
+  vse-key="lotus://192.168.0.37:80/doclibra/?messages=FE2126FFB06C39CE8525728300802F65"
+  last-modified="1171582784000" graph-id-high-water="488" ct="text/plain"
+  url="http://192.168.0.37/__852571B400775529.nsf/0/FE2126FFB06C39CE8525728300802F65?OpenDocument"
+  vertex="489" priority="0" la-score="6.24222" vse-base-score="1.5"
+>
+  <content type="text" name="title" output-action="bold" weight="3" u="18084">Arizona Criminal Justice Commission</content>
+  <content type="text" name="title" action="cluster" weight="3" u="21299">[The isolation and purification of the protective antigen and the edema factor from the culture filtrate of Bacillus ...</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="214" v="233">circle centred at A meets BA produced.
+
+(Since XB is a diameter of this circle and P is on its </pre>
+      <content type="TEXT" name="snippet" u="17" v="18066" />
+      <match u="234" v="234">circumference </match>
+      <post u="235" v="254">the angle XP B is a right angle, and since XB and BP have lengths 2 and 1 it follows </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="795" v="814">1).
+
+Let O be the centre of a unit circle, and suppose that 10 points are equally spaced around the </pre>
+      <content type="TEXT" name="snippet" u="17" v="18066" />
+      <match u="815" v="815">circumference (</match>
+      <post u="816" v="835">giving a regular decagon). Join all 10 points to O. The 10 equal angles formed at O must total 2ss, </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... of this circle and P is on its circumference the angle XP B is a right angle,  ... that 10 points are equally spaced around the circumference (giving a regular decagon). Join all 10 points  ... </content>
+</document>
+<document
+  url="http://192.168.0.37/__852571B400775529.nsf/0/D1E090A807B4B3F185257205007A0956?OpenDocument"
+  priority="0"
+  vse-key="lotus://192.168.0.37:80/doclibra/?messages=D1E090A807B4B3F185257205007A0956"
+  graph-id-high-water="70" last-modified="1160691178000"
+  ct="application/vxml-unnormalized" vertex="71" la-score="6.24222"
+  vse-base-score="1"
+>
+  <content type="text" name="title" action="cluster" weight="3" u="180">Fuel injection apparatus</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="102" v="121">air flow rate meter has a circular control body, which is rotatably 
+arranged on a bearing shaft with its outer </pre>
+      <content name="snippet" action="none" weight="1" output-action="summarize"
+        u="17" v="179"
+      />
+      <match u="122" v="122">circumference </match>
+      <post u="123" v="142">facing in the opposite 
+direction to the air flow and, being transversely arranged with respect to the 
+air induction tube, </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... arranged on a bearing shaft with its outer circumference facing in the opposite 
+direction to the air  ... </content>
+</document>
+<document filetypes="doc " i="1"
+  vse-key="lotus://192.168.0.37:80/doclibra/?messages=568BC9CEC3703A788525728300802E15"
+  last-modified="1171581744000" graph-id-high-water="155" ct="text/html"
+  url="http://192.168.0.37/__852571B400775529.nsf/0/568BC9CEC3703A788525728300802E15?OpenDocument"
+  vertex="156" priority="0" la-score="6.24222" vse-base-score="1"
+>
+  <content type="text" name="title" output-action="bold" weight="3" u="17">Department of Earth Science Planning Website</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="3409">2006PreventiveHealthGuidelines</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="6230">C.A. v. State (In re C.A.)</content>
+  <content type="text" name="title" action="cluster" weight="3" u="7133">Re: C989602 12.1.5xm8 5350 session time out broken ?</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="3664" v="3683">as&lt;br/>child’s doctor advises&lt;br/>Hemoglobin and Hematocrit&lt;br/>(Hgb/Hct): once between 9 and 12&lt;br/>months&lt;br/>Weight, length and head&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="3411"
+        v="4859"
+      />
+      <match u="3684" v="3684">circumference: </match>
+      <post u="3685" v="3704"><![CDATA[at each visit<br/>Evaluate for deficient fluoride in<br/>drinking water [and prescribe<br/>fluoride]</span> </div><div> <span><b>AGES 3 TO 10</b><br/><b>Well-child exam: </b>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... 9 and 12&lt;br/>months&lt;br/>Weight, length and head&lt;br/>circumference: at each visit&lt;br/>Evaluate for deficient fluoride in&lt;br/> ... </content>
+</document>
+<document filetypes="rtf " priority="0"
+  vse-key="lotus://192.168.0.37:80/doclibra/?messages=EA2B1E6776C215588525728300802E4B"
+  last-modified="1171581887000" graph-id-high-water="208" ct="text/html"
+  url="http://192.168.0.37/__852571B400775529.nsf/0/EA2B1E6776C215588525728300802E4B?OpenDocument"
+  vertex="209" i="1" la-score="6.24222" vse-base-score="1"
+>
+  <content type="text" name="title" action="cluster" weight="3" u="2095">Paper conveying roller for image forming apparatus</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1219" v="1238">the separate exercise sections). &lt;br/>We recommend that participants &lt;b>self-monitor measures of their progress during the class&lt;/b>, such as waist </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="17"
+        v="1983"
+      />
+      <match u="1239" v="1239">circumference, </match>
+      <post u="1240" v="1259">perceived rate of exertion after walking a certain distance, and/or the number of reps they are able to complete </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... their progress during the class&lt;/b>, such as waist circumference, perceived rate of exertion after walking a certain  ... </content>
+</document>
+<document filetypes="doc " priority="0"
+  vse-key="lotus://192.168.0.37:80/doclibra/?messages=0EE608BD10D94FAA8525728300802F57"
+  last-modified="1171582741000" graph-id-high-water="474" ct="text/html"
+  url="http://192.168.0.37/__852571B400775529.nsf/0/0EE608BD10D94FAA8525728300802F57?OpenDocument"
+  vertex="475" i="1" la-score="6.24222" vse-base-score="1"
+>
+  <content type="text" name="title" output-action="bold" weight="3" u="17">SEC. 1014. HEALTH CARE THAT WORKS FOR ALL AMERICANS: CITIZENS HEALTH CARE WORKING GROUP.</content>
+  <content type="text" name="title" action="cluster" weight="3" u="2438">Floating head slider device for magnetic disk apparatus</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2398" v="2417">slider toward the center of the magnetic disk and the floating height of the 
+edge portion thereof toward the outermost </pre>
+      <content name="snippet" action="none" weight="1" output-action="summarize"
+        u="2263" v="2430"
+      />
+      <match u="2418" v="2418">circumference </match>
+      <post u="2419" v="2430">are virtually equal to 
+each other.
+
+ - medicare_reform_statute_section_1014.doc
+</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... of the 
+edge portion thereof toward the outermost circumference are virtually equal to 
+each other.
+
+ - medicare_reform_ ... </content>
+</document>
+<document filetypes="ppt " i="1"
+  vse-key="lotus://192.168.0.37:80/doclibra/?messages=6E2800C2C12B63B38525728300802F6E"
+  last-modified="1171582817000" graph-id-high-water="497" ct="text/html"
+  url="http://192.168.0.37/__852571B400775529.nsf/0/6E2800C2C12B63B38525728300802F6E?OpenDocument"
+  vertex="498" priority="0" la-score="6.24222" vse-base-score="1"
+>
+  <content type="text" name="title" output-action="bold" weight="3" u="1374">WV DNR DISABILITY MEDICAL Class Q app</content>
+  <content type="text" name="title" action="cluster" weight="3" u="3062">Hinged conductor casing for deviated driving and method therefor</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2936" v="2955">drive shoe assembly on the 
+end thereof having a bevel cut extending therethrough for up to 180 degrees of 
+the </pre>
+      <content name="snippet" action="none" weight="1" output-action="summarize"
+        u="2899" v="3042"
+      />
+      <match u="2956" v="2956">circumference </match>
+      <post u="2957" v="2976">thereof, or more, and thereby providing a residual connection 
+characterized as a hinge means. The conductor casing and drive shoe </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... therethrough for up to 180 degrees of 
+the circumference thereof, or more, and thereby providing a residual  ... </content>
+</document>
+<retrieval-performance n-tau="101" n-rho="20" n-uat="0" n-ohr="0"
+  occr-reads="78156" block-reads="153" seeks="20" cache-hits="138"
+  cache-misses="15"
+>
+  <query-performance what="doc-text" n-tau="48" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="3036" block-reads="5" seeks="5" cache-hits="5" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="48" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="3036" block-reads="5" seeks="5" cache-hits="5" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-tau="48" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="3036" block-reads="5" seeks="5" cache-hits="5" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="50564" block-reads="133" seeks="0" cache-hits="118" cache-misses="15"
+  >
+    <query-performance what="3:" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="50564" block-reads="133" seeks="0" cache-hits="118" cache-misses="15"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="33" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="4222" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="33" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="4222" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:title" n-tau="33" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="4222" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="10" n-rho="10" n-uat="0" n-ohr="0"
+    occr-reads="2950" block-reads="5" seeks="5" cache-hits="5" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="10" n-rho="10" n-uat="0"
+      n-ohr="0" occr-reads="2950" block-reads="5" seeks="5" cache-hits="5"
+      cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-tau="10" n-rho="10" n-uat="0"
+        n-ohr="0" occr-reads="2950" block-reads="5" seeks="5" cache-hits="5"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="10" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="10" n-rho="10" n-uat="0"
+    n-ohr="0" occr-reads="17384" block-reads="10" seeks="10" cache-hits="10"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="10" n-rho="10" n-uat="0"
+      n-ohr="0" occr-reads="17384" block-reads="10" seeks="10" cache-hits="10"
+      cache-misses="0"
+    >
+      <query-performance what="0:" n-tau="10" n-rho="10" n-uat="0" n-ohr="0"
+        occr-reads="17384" block-reads="10" seeks="10" cache-hits="10" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="10" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="21" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="44" block-reads="6" seeks="2" cache-hits="3" cache-misses="3"
+>
+  <query-performance what="1:circumference" n-tau="21" n-rho="0" n-uat="0"
+    n-ohr="0" occr-reads="44" block-reads="3" seeks="2" cache-hits="0"
+    cache-misses="3"
+  />
+  <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="3" seeks="0" cache-hits="3" cache-misses="0"
+  />
+</query-performance>
+</scope>

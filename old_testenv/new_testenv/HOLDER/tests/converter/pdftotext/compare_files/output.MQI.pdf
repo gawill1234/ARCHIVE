@@ -1,0 +1,217 @@
+Research
+Publication Date: 14 October 2005 ID Number: G00131678
+
+Magic Quadrant for Information Access Technology, 2005
+Whit Andrews, Rita E. Knox
+
+Information access technology includes and expands on what Gartner previously called "enterprise search technology." A new vendor has emerged in the Leader's quadrant, and some vendors have moved, based on market dynamics and changes in how we weight some of the criteria.
+
+© 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved. Reproduction of this publication in any form without prior written permission is forbidden. The information contained herein has been obtained from sources believed to be reliable. Gartner disclaims all warranties as to the accuracy, completeness or adequacy of such information. Although Gartner's research may discuss legal issues related to the information technology business, Gartner does not provide legal advice or services and its research should not be construed or used as such. Gartner shall have no liability for errors, omissions or inadequacies in the information contained herein or for interpretations thereof. The opinions expressed herein are subject to change without notice.
+
+WHAT YOU NEED TO KNOW
+Gartner renamed the "enterprise search" Magic Quadrant to the "information access technology" Magic Quadrant for a number of reasons. Most vendors in this market have capabilities that go beyond search to encompass a collection of technologies, including search; content classification, categorization and clustering; fact and entity extraction; taxonomy creation and management; information presentation (for example, visualization) to support analysis and understanding; and desktop (or personal knowledge) search to address user-controlled repositories to locate and invoke documents, data, e-mail and intelligence. These capabilities and specific support for vertical industries (for example, retail shopping) require a term that properly represents the breadth of features these vendors provide. Unfortunately, the term is not as recognizable or quickly conveyed as "search." Yet, the specific capabilities an information access technology vendor provides must include search to solve more than the most specific problems. We now consider all enterprise search vendors to be information access technology vendors; however, those who only offer search capabilities (frequently called "keyword search") are not fully equipped and no longer can be realistically considered candidates for leadership or visionary status. We changed the name because the problems that information access technology solves extend beyond the keyword search solution. Increasingly, end users assume that the Google.com experience can be translated inside enterprises or in larger domains, including some enterprise content and some outside content. The reality is that finding information, and acting on it intelligently, demands increasingly sophisticated and innovative strategies. This has been the case for at least four years. As a result, the terminology change supports the reality.
+
+Publication Date: 14 October 2005/ID Number: G00131678 © 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.
+
+Page 2 of 13
+
+MAGIC QUADRANT
+Figure 1. Magic Quadrant for Information Access Technology, 2005
+
+Source: Gartner (October 2005)
+
+Market Overview
+The first and most mature information access technology is search engine technology, which is typically applied to unstructured data in document repositories. Increasingly, autocategorization, creative visualization and taxonomy support technologies are being added to the category. The market does not include information management applications, such as document management, Web content management or relational database management systems. However, information access technology must be able to discern and retrieve information in such systems and increasingly is expected to address enterprise applications such as customer relationship management and legacy systems. Information access technology often is acquired as an
+
+Publication Date: 14 October 2005/ID Number: G00131678 © 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.
+
+Page 3 of 13
+
+embedded aspect of such other applications, and original equipment manufacturer (OEM) arrangements are significant for such vendors. Many vendors seek specific categorical markets, such as legal discovery or publishing. Gartner's Information Access Technology Magic Quadrant addresses enterprise information access. Although many of the vendors offer personal (desktop) search applications as well, that is not a primary focus or requirement for the vendors we've included. Vendors will not have different emphasis because this is now the "information access" market. Rather, the Magic Quadrant describes how vendors excel in search-related functions, as well as emphasizes that other functionality is required to get to the information people are after and deliver it in a form that supports their companies' business goals. The enterprise information access market, as with most technology markets (although not necessarily with many of those that have lived so long), remains in acquisition turmoil. In most cases, vendors outside the Magic Quadrant acquire those inside it (for example, Oracle bought TripleHop). Occasionally, vendors within the Magic Quadrant acquire one another with the intention of bulking up revenue bases or functionality (for example, Inxight Software bought Intelliseek).
+
+Market Definition/Description
+Information access technologies collect and condense information or map its native location so that users may actively seek it out, effectively analyze it and remain apprised of it.
+
+Inclusion and Exclusion Criteria
+We included only vendors that incorporate search capability in their products, although many also include other capabilities, such as autocategorization, taxonomy functions and clustering. There are open-source search engines; however, none of them are significant enough to threaten the commercial market. A few of the vendors included in the Magic Quadrant use Lucene — an opensource search infrastructure — in their technology. We excluded vendors that provide services only through an application service provider (ASP) sales and implementation model, such as SLI Systems and Atomz, a subsidiary of WebSideStory. This matches our practice in the past. We have found that nearly every enterprise seeking information access technology decides early in its process whether it prefers an ASP or conventional installation, and few enterprises compare vendors in one model against those in the other. In short, the ASP model for information access technology is its own small market. We also did not include vendors that sell information access technology only as an element of a suite or set of applications that must be acquired to function. This excluded SAP and Microsoft, neither one of which sell their search products separately from their portal products. Oracle was excluded because its new search product is not yet for sale. Oracle acquired TripleHop — a vendor that would have been included in the Magic Quadrant — and supports TripleHop's customers; however, Oracle no longer sells TripleHop's product.
+
+Added
+The shift from a specialist focus on search technology to a broader field of information access technology capabilities resulted in a substantial influx of new vendors. Although search has at many points in the past been declared moribund, new competitors with fresh visions are perennially appearing: • Dieselpoint and Vivisimo recently rose to sufficient prominence to be included.
+
+Publication Date: 14 October 2005/ID Number: G00131678 © 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.
+
+Page 4 of 13
+
+• •
+
+Google is increasing the appetite in enterprises for lower-priced products. dtSearch is a new addition to the Magic Quadrant. Its inexpensive but stable and scalable product has a significant customer base, and its OEM growth is also increasing, particularly in compliance-related markets. Inxight bought Intelliseek, bringing it firmly into the information access technology space. Kaidara Software is included due to its expanded interest in more-traditional enterprise search facility. IBM introduced OmniFind this year, a new stand-alone search product that leverages, but does not require, other WebSphere technologies.
+
+• • •
+
+Dropped
+Intelliseek was acquired by Inxight last year. Consequently, only Inxight appears on the 2005 Magic Quadrant.
+
+Evaluation Criteria
+Ability to Execute
+• The overall viability of vendors was determined by a number of financial indicators, such as revenue, cash equivalents, number of full-time equivalent employees, licenses sold, whether the company is publicly traded and whether the vendor is a subsidiary of another company. Sales execution/pricing was defined by the ratio of license value to service value which it sold. Market responsiveness was reflected by the vendor's percentage of hosted installations and the number of OEM installations. Marketing execution was not incorporated. Customer experience was based on detailed user interviews (two to three were conducted for each of the 25 vendors included in the Magic Quadrant) and a review of inquiries that provided detailed feedback on specific vendors. Industries represented in user input included retail, financial, pharmaceutical, government, legal, nongovernmental organizations, publishing, education, telecommunications, aerospace, media and the computer industry. The applications support intranets, Internet sites and extranets. Operations was defined by the number of systems integrators trained on the vendor's technology, and by management performance.
+
+• • • •
+
+•
+
+Table 1. Ability to Execute Evaluation Criteria
+Evaluation Criteria Product/Service Overall Viability (Business Unit, Financial, Strategy, Organization) Sales Execution/Pricing Market Responsiveness and Track Record Weighting no rating high low low
+
+Publication Date: 14 October 2005/ID Number: G00131678 © 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.
+
+Page 5 of 13
+
+Evaluation Criteria Marketing Execution Customer Experience Operations
+Source: Gartner (October 2005)
+
+Weighting no rating high standard
+
+Completeness of Vision
+• Offering (product) strategy was assessed by vendor's offering of search as a basic element, determination of relevancy, profiling, indexing span as determined by connectors to content repositories and data types, profiling, scaling and security (protection of access to assets) functions. Vertical/industry strategy looked at the vendor's variety of vertical market targets. Innovation was assessed by looking at several diverse factors, such as output formats supported, support of video and audio analysis, presentation functions, taxonomy functions (building and managing), support of personal knowledge search (typically called desktop search), the manipulation of syntax, semantics and ontologies to burrow into information, and the ability to analyze XML markup to find specific information.
+
+• •
+
+Table 2. Completeness of Vision Evaluation Criteria
+Evaluation Criteria Market Understanding Marketing Strategy Sales Strategy Offering (Product) Strategy Business Model Vertical/Industry Strategy Innovation Geographic Strategy
+Source: Gartner (October 2005)
+
+Weighting no rating no rating no rating high no rating standard high no rating
+
+Leaders
+All leaders have demonstrated significant architectural flexibility. They also have broad means of determining relevancy to return results to users and provide developers with flexibility in how to tune these relevancy settings. They are financially prepared to weather hard times, and they possess sufficient resources to invest inorganically and organically in technology and business growth. They have established sufficient depth and strength to serve as platform vendors, whose software might be used to solve most information access problems.
+
+Challengers
+Challengers possess sufficient resources to effectively penetrate the information access technology market. Nevertheless, they typically lack the vision necessary to address all of the information access opportunities. It is significant that, with the exception of ZyLAB — which is relatively specialized, with a strong customer base but less vision outside its core customer base
+
+Publication Date: 14 October 2005/ID Number: G00131678 © 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.
+
+Page 6 of 13
+
+— information access technology for enterprise use is not a core revenue category for these vendors. All of these vendors could emerge as leaders in less than 24 months if they choose to invest in information access technology and do so adeptly.
+
+Visionaries
+Visionaries have demonstrated intelligent approaches to the information access technology market, but lack the resources to prove their leadership and guaranteed strength in the future. They all possess architectural flexibility and creative means of establishing relevancy. Greater manifested financial depth and market traction would improve their positioning. Any could emerge as leaders through stronger market performance.
+
+Niche Players
+Niche players possess the attributes necessary to satisfy particular categories of projects, but they lack the depth and breadth to satisfy a variety of projects. They do not have the manifest financial resources that leaders and challengers can point to (this is particularly true of privately held vendors that properly avoid revealing their financial foundation). Nor can they demonstrate the depth of vision that indicates that they are ahead of and leading the market. On the other hand, they are typically right for a particular set of solutions, and they offer attractive pricing, special capabilities and vertical-industry knowledge.
+
+Vendor Comments
+Autonomy
+Autonomy continues to expand its IDOL platform to include new capabilities, and it is the most aggressive vendor in addressing video and audio objects in its target capabilities. Its vision and execution status is founded on sound financials, a strong and growing customer list, and a vigorous vision for the burgeoning role of information access. Autonomy's reputation for complexity and sophistication, however, is a cause for concern with some prospects. The company is taking steps to provide less-intimidating packaged versions of its applications, along with improving its depth in professional services.
+
+Convera
+Convera's past year was extremely challenging. Some of its revamped strategy appears to be working as it seems to be stopping the major financial losses it has suffered recently. Its major customer is still the U.S. government. Convera has claimed that Excalibur, a comprehensive, secure index of the Web, will serve as a necessary innovation to rescue it from the doldrums; however, it continues to sell RetrievalWare, which is its information access suite of technologies. The prowess of this capability keeps Convera in the Visionaries quadrant, although execution (for example, customer support and sales) must dramatically improve to maintain or improve this position.
+
+dtSearch
+dtSearch is still run by its founder, David Thede. Its products are particularly broadly embedded in other vendors' products, thanks to an aggressively priced OEM sales program. Highly customizable relevancy models exploit keywords but do not address less-concrete models, such as pattern-matching. Developers praise its flexibility. dtSearch also possesses particularly strong desktop search tools and forensic search capability.
+
+Publication Date: 14 October 2005/ID Number: G00131678 © 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.
+
+Page 7 of 13
+
+Dieselpoint
+Dieselpoint provides a tool that facilitates the discovery and analysis of structured data through search and navigation interfaces. It should be considered in particular cases where documents or records are fully parametrically comprehensible. The tool also provides traditional enterprise search capabilities for common documents.
+
+EasyAsk
+Progress Software acquired EasyAsk in May 2005. The EasyAsk subsidiary's stated direction is to pursue new contracts in its longtime core market of e-commerce and catalog search. However, Progress intends to leverage EasyAsk's core technology of converting plainly worded inquiries into sophisticated database queries for other applications, independent software vendors and customers. EasyAsk substantially improves Progress's long-term viability and ability to execute. The critical question is where the EasyAsk technology will be most vigorously applied and enhanced through year-end 2006.
+
+Endeca
+Endeca's specialty of massaging structured data to improve navigability in an enterprise is deliberately expanding to include more-traditional search and document retrieval functions. Endeca also is capable of managing sophisticated solutions for supporting research processes. Because Endeca is not a public company, its finances are inherently unknowable, but the company has developed a substantial customer list that applies its capabilities broadly and deeply. Endeca is architecturally flexible and extensible. It moved into the Leaders quadrant this year due to continued customer growth and manifest success in pursuit of its platform strategy.
+
+Entopia
+Entopia has released increasingly innovative means of establishing the relevancy of documents or related objects, such as enterprise user profiles. Its product is intriguing and continues to expand.
+
+Fast Search & Transfer
+Fast Search & Transfer's ambition has served it well, as it has cornered a substantial portion of the market for information access technology. The company's architectural facility is a crisp medium for its explosive growth, serving as a promise of flexibility and depth in functionality for enterprises. It focuses on developing applications centered on vertical markets. Its near-term challenge is how to manage reliable and somewhat inorganic growth (its ambitions will demand sales growth from established products, as well as new products that are likely to come via acquisition). In the long term, the question of how to become more than an information access technology vendor is pivotal.
+
+Google
+The Google Search Appliance is the best-known search engine on the market. Google, an increasingly ambitious and influential company, has effectively marketed it. Nevertheless, Google does not pursue major enterprise contracts as effectively as its rivals, with such deals as their sole focus, and the appliance lacks sophisticated tuning and customization capabilities. New improvements in security and dynamic document indexing will be critical to the product's future growth, and its desktop search facility is a positive element in its future potential. These functional changes are key if Google is to move beyond being a challenger and have a standing that matches its popularity.
+
+Publication Date: 14 October 2005/ID Number: G00131678 © 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.
+
+Page 8 of 13
+
+Hummingbird
+Hummingbird sells its solid information access applications as independent products; however, it has not aggressively marketed them separately from its core content and document management technologies. Growth for the vendor is in those content-centric categories.
+
+iPhrase Technologies
+iPhrase Technologies competes aggressively on price in the submarket of natural language processing-driven search. It has survived as a relatively prominent vendor in information access technologies through the long technology slump that erased many of its competitors. Crisp administration tools, ease of use, and functional specialty in call centers and self-service are drivers of its success.
+
+IBM
+IBM stopped selling its Lotus Discovery Server as an independent product in 2003; however, it began to offer its new stand-alone OmniFind product this year. OmniFind is targeted at simple projects for now, but IBM's ambitions for search are clear in its full-product road map and open specifications for intercommunication among information access technology elements.
+
+InQuira
+InQuira is using its strong natural language processing technologies to support processes focused on addressing customer service. It is particularly adept at handling external Web sites (for pre- or post-sale relationships) and service environments where questions are likely to be fully realized with syntax and sentiment.
+
+Inxight Software
+Inxight's technologies are founded in extracting entities and facts and analyzing documents to grasp natural language. Its visualization and analysis capabilities are broadly embedded in a variety of information access applications. Last year, it became established as a fully developed information access application vendor with the acquisition of the enterprise search assets from Intelliseek, which enable it to improve its federated search capabilities. Effective intellectual execution could make it a visionary in the short term.
+
+ISYS Search Software
+ISYS Search Software has developed the more-complex functions (for example, categorization and analytics) of its enterprise search, and has marketed a mature, intelligently designed desktop search tool for years. ISYS is known for strong attention to its customers, and it is a favorite in government, law enforcement and legal environments. This focused strategy may help it over the longer term.
+
+Kaidara Software
+Kaidara Software uses case-based reasoning technology to navigate and comprehend patterns in structured data. It has specialized in enabling enterprises to expand their understanding of customer experience with their products, and improve case resolution through analysis and exploration of experiences.
+
+Knova Software
+Knova Software, the result of Kanisa's merger with ServiceWare Technologies, specializes in supporting and enhancing customer interaction processes through the application of information
+Publication Date: 14 October 2005/ID Number: G00131678 © 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved. Page 9 of 13
+
+access technology. Knova manages customer interaction processes, with a specific focus on finding appropriate information and storing insights about the interaction initiations and results.
+
+Mercado
+Mercado Software has developed a tighter business strategy, a targeted vision and better marketing as it has refocused on its initial strength in e-commerce search. Its Uniclass technology to identify and extract attributes helps business-to-consumer and business-to-business retailers present product offerings for parametric search, selection and purchase. Its administrative tools stand out in their clarity. Mercado is used to effectively power a number of well-known vendors' dot-com sites. Its niche position is largely due to its highly specialized target market.
+
+Mondosoft
+Mondosoft has invested substantially in its information access technology's strategic compatibility with Microsoft products. This has given Mondosoft a strong position, because Microsoft has not developed a stand-alone search product.
+
+Open Text
+Open Text continues to market a solid, scalable platform for developing enterprise search. However, despite choosing to re-release its Livelink Discovery Server as an independent application two years ago, it has not gained substantial market presence. Enterprises will find it appealing for conventional search projects.
+
+Recommind
+Recommind's sophistication in determining document relevancy is significant, and the vendor has effectively succeeded with law firms that have developed applications to address their needs. Recommind's solid focus here has been a factor in its movement to become a niche player, a reflection not of lack of vision, but rather, of particular strength in a relatively smaller market. Its ambitions include a broader expansion in the near term. Recommind does pursue business outside the legal vertical market.
+
+Thunderstone
+Thunderstone offers an appliance that competes with Google's. Thunderstone's options for managing relevancy do not substantially exceed its competitors'; however, they're "good enough" for many conventional projects. Thunderstone's search engine software supports the broadest range of operating systems of any vendor. The product has demonstrated substantial scale (it is eBay's former search engine). Thunderstone, which was founded in 1981, has demonstrated long-term stability.
+
+Verity
+Verity's purchases of a business process management vendor and an e-form vendor telegraph its vision for an expanded role for information access technology as a smart process management capability. Verity's vision of its software as an intelligent manipulator of processes is critical to its leadership status and what distinguishes it most significantly. Its ownership of a low-cost, simple search product (Ultraseek) and a stronger product (Verity K2), which is targeted at larger companies, uniquely place Verity at both ends of the information access technology spectrum. Prospects report that Verity's sales processes are problematic, but the vendor is seeking to improve sales through repositioning and reorganization. Verity has revised how it packages its products — including an intended desktop search integrated to its enterprise products — and could overcome these challenges.
+
+Publication Date: 14 October 2005/ID Number: G00131678 © 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.
+
+Page 10 of 13
+
+Vivisimo
+Vivisimo operates a popular online search site called Clusty.com. It sells its foundation as a package of information access technology with search capabilities, but focuses on the clustering of documents for visualizing areas of interest. Vivisimo is seeking to elevate the visibility of its inexpensive enterprise product to a broader audience.
+
+ZyLAB
+ZyLAB's historical focus on managing paper documents to make them effectively searchable lends it particular strength in the compliance and legal discovery categories. It offers native desktop search as an element of its enterprise strategy or it can be purchased separately. It has a particularly large customer base and seeks to fulfill platform aspirations.
+
+RECOMMENDED READING
+"Open-Source Search Platform May Entice Committed Users" "Magic Quadrant for Enterprise Search, 2004" "Magic Quadrants and MarketScopes: How Gartner Evaluates Vendors Within a Market"
+
+Evaluation Criteria Definitions
+Ability to Execute Product/Service: Core goods and services offered by the vendor that compete in/serve the defined market. This includes current product/service capabilities, quality, feature sets, skills, etc., whether offered natively or through OEM agreements/partnerships as defined in the market definition and detailed in the subcriteria. Overall Viability (Business Unit, Financial, Strategy, Organization): Viability includes an assessment of the overall organization's financial health, the financial and practical success of the business unit, and the likelihood of the individual business unit to continue investing in the product, to continue offering the product and to advance the state of the art within the organization's portfolio of products. Sales Execution/Pricing: The vendor's capabilities in all pre-sales activities and the structure that supports them. This includes deal management, pricing and negotiation, pre-sales support and the overall effectiveness of the sales channel. Market Responsiveness and Track Record: Ability to respond, change direction, be flexible and achieve competitive success as opportunities develop, competitors act, customer needs evolve and market dynamics change. This criterion also considers the vendor's history of responsiveness. Marketing Execution: The clarity, quality, creativity and efficacy of programs designed to deliver the organization's message in order to influence the market, promote the brand and business, increase awareness of the products, and establish a positive identification with the product/brand and organization in the minds of buyers. This "mind share" can be driven by a combination of publicity, promotional, thought leadership, word-of-mouth and sales activities. Customer Experience: Relationships, products and services/programs that enable clients to be successful with the products evaluated. Specifically, this includes the ways customers receive
+
+Publication Date: 14 October 2005/ID Number: G00131678 © 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.
+
+Page 11 of 13
+
+technical support or account support. This can also include ancillary tools, customer support programs (and the quality thereof), availability of user groups, service-level agreements, etc. Operations: The ability of the organization to meet its goals and commitments. Factors include the quality of the organizational structure including skills, experiences, programs, systems and other vehicles that enable the organization to operate effectively and efficiently on an ongoing basis. Completeness of Vision Market Understanding: Ability of the vendor to understand buyers' wants and needs and to translate those into products and services. Vendors that show the highest degree of vision listen and understand buyers' wants and needs, and can shape or enhance those with their added vision. Marketing Strategy: A clear, differentiated set of messages consistently communicated throughout the organization and externalized through the Web site, advertising, customer programs and positioning statements. Sales Strategy: The strategy for selling product that uses the appropriate network of direct and indirect sales, marketing, service and communication affiliates that extend the scope and depth of market reach, skills, expertise, technologies, services and the customer base. Offering (Product) Strategy: The vendor's approach to product development and delivery that emphasizes differentiation, functionality, methodology and feature set as they map to current and future requirements. Business Model: The soundness and logic of the vendor's underlying business proposition. Vertical/Industry Strategy: The vendor's strategy to direct resources, skills and offerings to meet the specific needs of individual market segments, including verticals. Innovation: Direct, related, complementary and synergistic layouts of resources, expertise or capital for investment, consolidation, defensive or pre-emptive purposes. Geographic Strategy: The vendor's strategy to direct resources, skills and offerings to meet the specific needs of geographies outside the "home" or native geography, either directly or through partners, channels and subsidiaries as appropriate for that geography and market.
+
+Publication Date: 14 October 2005/ID Number: G00131678 © 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.
+
+Page 12 of 13
+
+REGIONAL HEADQUARTERS
+Corporate Headquarters 56 Top Gallant Road Stamford, CT 06902-7700 U.S.A. +1 203 964 0096 European Headquarters Tamesis The Glanty Egham Surrey, TW20 9AW UNITED KINGDOM +44 1784 431611 Asia/Pacific Headquarters Gartner Australasia Pty. Ltd. Level 9, 141 Walker Street North Sydney New South Wales 2060 AUSTRALIA +61 2 9459 4600 Japan Headquarters Gartner Japan Ltd. Aobadai Hills, 6F 7-7, Aobadai, 4-chome Meguro-ku, Tokyo 153-0042 JAPAN +81 3 3481 3670 Latin America Headquarters Gartner do Brazil Av. das Nações Unidas, 12551 9° andar—World Trade Center 04578-903—São Paulo SP BRAZIL +55 11 3443 1509
+
+Publication Date: 14 October 2005/ID Number: G00131678 © 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.
+
+Page 13 of 13
+
+

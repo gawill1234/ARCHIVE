@@ -1,0 +1,30 @@
+          <source test-strictly="test-strictly" name="qs-sorting" type="vse
+"
+  modified="1277303433" modified-by="lince" elt-id="10" max-elt-id="29"
+>
+  <prototype elt-id="3">
+    <declare elt-id="2">
+      <description elt-id="1">Flag used to allow querying of the staging in
+dex.</description>
+      <attribute name="name" elt-id="18">staging</attribute>
+      <attribute name="initial-value" elt-id="19">false</attribute>
+      <attribute name="type" elt-id="20">boolean</attribute>
+    </declare>
+  </prototype>
+  <submit elt-id="9">
+    <form elt-id="8">
+      <call-function name="vse_form" elt-id="6">
+        <with name="fi-sort" elt-id="21">date|descending:$date
+field1|ascending:$field1
+url|descending:$url
+score|descending:$score</with>
+        <with name="collection" elt-id="4">qs-sorting</with>
+        <with name="staging" copy-of="staging" elt-id="5" />
+      </call-function>
+      <call-function name="vse-input-date" elt-id="7" />
+    </form>
+  </submit>
+  <tests elt-id="15" />
+  <help elt-id="16" />
+  <description elt-id="17" />
+</source>

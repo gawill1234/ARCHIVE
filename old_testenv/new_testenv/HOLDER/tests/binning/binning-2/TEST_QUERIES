@@ -1,0 +1,18 @@
+<test name="binning-2">
+   <collection name="binning-2">
+      <statuscheck name="a-name" from="xpath">
+         <status-item eValue="0" vAttr="n-errors">//crawler-status</status-item>
+         <status-item eValue="352" vAttr="n-docs">//vse-index-status</status-item>
+      </statuscheck>
+      <queries>
+         <query eValue="62">ship==Battleship</query>
+         <query eValue="62">SHIP_TYPE:Battleship</query>
+         <query eValue="1">ship==Battlecruiser#nations==USA</query>
+         <query eValue="29">ship==Cruiser</query>
+         <query eValue="2">ship==Frigate#nations==UK</query>
+         <query eValue="19" cFile="myfile.xml" eTime="0.199" eTPerc="20">NATION:Germany</query>
+      </queries>
+      <updates type="syntax" name="custom">ship_type.syntax.xml</updates>
+      <updates type="source" name="binning-2">binning-2.src.xml</updates>
+   </collection>
+</test>

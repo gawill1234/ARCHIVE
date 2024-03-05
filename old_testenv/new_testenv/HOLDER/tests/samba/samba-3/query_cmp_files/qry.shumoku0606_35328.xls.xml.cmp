@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="3" />
+<attribute name="cache-hits-content-retrieval" value="0" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="4" />
+<attribute name="cache-misses-text" value="3" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-3/doc/failed_convert/shumoku0606_35328.xls"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-3/doc/failed_convert/shumoku0606_35328.xls/"
+  status="complete" vse-base-score="0.333333" filetype="xls" conversion-time="93"
+  la-score="3.29584"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-3/doc/failed_convert/shumoku0606_35328.xls"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:28:11</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:07:24</content>
+  <content name="language" weight="0" action="none" u="5">chinese</content>
+  <content name="title" output-action="bold" weight="3" u="7">大科目別 種目別</content>
+  <content action="none" name="url" weight="1" u="336">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-3/doc/failed_convert/shumoku0606_35328.xls</content>
+  <content action="none" name="host" weight="1" u="354"></content>
+  <content name="filetype" action="none" u="355">xls</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.333333">
+      <content action="none" name="url" weight="1" u="336" v="353" />
+      <pre u="337" v="350">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-3/doc/failed_convert/</pre>
+      <match u="351" v="353">shumoku0606_35328.xls</match>
+      <post u="354" v="353"></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <br/> <h1>大科目別</h1> <br/><font>  <td>種目別統計表（２００６年４月～２００６年６月）</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td>  <td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>]]>&#160;<![CDATA[</td><td>（単位：百万円）</td>  <td>保　険　種　類</td><td>元受正味保険料</td><td>正味収入保険料</td><td>元受正味保険金</td><td>正味支払保険金</td>    <td>火　　　災</td><td>362020</td><td>240389</td><td>101536</td><td>105782</td>  <td>海　　　上</td><td>57664</td><td>48930</td><td>23792</td><td>24125</td>  <td>運　　　送</td><td>17704</td><td>16466</td><td> ... ]]></content>
+</document>
+</scope>

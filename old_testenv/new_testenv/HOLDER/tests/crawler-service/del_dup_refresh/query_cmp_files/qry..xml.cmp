@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="19" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="0" />
+<attribute name="retrieval-ms" value="3" />
+<attribute name="total-results-with-duplicates" value="19" />
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2042.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2042.pdf/"
+  input-at="1196291113" vertex="27" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="3.3673"
+>
+  <content name="filetype" action="none" u="7025">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269678"
+    u="7049"
+  >Nov 28,
+  2007 17:07:58 GMT</content>
+  <content name="language" weight="0" action="none" u="7051">english</content>
+  <content name="title" output-action="bold" weight="3" u="7053"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>122</span> </div><div> <span>THE ABSOLUTE SOUND  </span> </div><div> <span>I</span> </div><div> <span>APRIL/MAY 2006</span> </div><div> <span>EXPLORING THE ART AND TECHNOLOGY</span> </div><div> <span>Mark Levinson N</span> </div><div> <span>o.</span> </div><div> <span>326S Preamplifier</span> </div><div> <span>and N</span> </div><div> <span>o.</span> </div><div> <span>432 Power Amplifier</span> </div><div> <span>A tradition of  ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_288.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_288.pdf/"
+  input-at="1196291113" vertex="22" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="3.3673"
+>
+  <content name="filetype" action="none" u="7161">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269678"
+    u="7185"
+  >Nov 28,
+  2007 17:07:58 GMT</content>
+  <content name="language" weight="0" action="none" u="7187">english</content>
+  <content name="title" output-action="bold" weight="3" u="7189">The Absolute Sound Complete Issue 126</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>Y</span> </div><div> <span>our assignment, class, is to take the common<br/>multi-driver  dynamic  loudspeaker  and  redesign<br/> it. Think “out of the box” – consider</span> </div><div> <span>how you would eliminate  ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2227.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2227.pdf/"
+  input-at="1196291113" vertex="13" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="3.3673"
+>
+  <content name="filetype" action="none" u="2225">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269680"
+    u="2249"
+  >Nov 28,
+  2007 17:08:00 GMT</content>
+  <content name="language" weight="0" action="none" u="2251">english</content>
+  <content name="title" output-action="bold" weight="3" u="2253"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>D</span> </div><div> <span>ynaudio prides<br/>itself on building<br/>accurate loudpeakers<br/>  and so</span> </div><div> <span>has adopted this simple motto:<br/>“Danes don’t lie.” While I can’t<br/>vouch for all Danes everywhere,<br/> ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2310.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2310.pdf/"
+  input-at="1196291113" vertex="17" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="3.3673"
+>
+  <content name="filetype" action="none" u="3171">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269680"
+    u="3195"
+  >Nov 28,
+  2007 17:08:00 GMT</content>
+  <content name="language" weight="0" action="none" u="3197">english</content>
+  <content name="title" output-action="bold" weight="3" u="3199"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>Analog</span> </div><div> <span>ABSOLuTE</span> </div><div> <span><b>Clearaudio Ambient</b></span> </div><div> <span><b>Turntable System</b></span> </div><div> <span>36    December 2006    The Absolute Sound</span> </div><div> <span> <b>Designed for someone who just wants</b> <br/> <b>to sit back and enjoy the music</b> </span> </div><div> <span> ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2155.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2155.pdf/"
+  input-at="1196291113" vertex="4" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="3.3673"
+>
+  <content name="filetype" action="none" u="3561">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269679"
+    u="3585"
+  >Nov 28,
+  2007 17:07:59 GMT</content>
+  <content name="language" weight="0" action="none" u="3587">english</content>
+  <content name="title" output-action="bold" weight="3" u="3589"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>78</span> </div><div> <span>THE ABSOLUTE SOUND  </span> </div><div> <span>I</span> </div><div> <span>SEPTEMBER 2006</span> </div><div> <span>S</span> </div><div> <span>cientists  say  that  we’re  not  supposed  to<br/>anthropomorphize objects, which is a fancy<br/>term for ascribing human qualities  ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2090.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2090.pdf/"
+  input-at="1196291113" vertex="2" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="3.3673"
+>
+  <content name="filetype" action="none" u="7771">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269679"
+    u="7795"
+  >Nov 28,
+  2007 17:07:59 GMT</content>
+  <content name="language" weight="0" action="none" u="7797">english</content>
+  <content name="title" output-action="bold" weight="3" u="7799"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span><b>The Cutting Edge</b></span> </div><div> <span>114</span> </div><div> <span>THE ABSOLUTE SOUND  </span> </div><div> <span>I</span> </div><div> <span>JUNE/JULY 2006</span> </div><div> <span>The Goldmund</span> </div><div> <span>SR System</span> </div></div><a/><div> <div> <span>A $55,000 PEEK INTO</span> </div><div> <span>THE DIGITAL FUTURE</span> </div><div> <span>ALAN TAFFEL</span> </div><div> <span>T</span> </div><div> <span>he Goldmund SR is far  ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2161.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2161.pdf/"
+  input-at="1196291113" vertex="7" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="3.3673"
+>
+  <content name="filetype" action="none" u="5679">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269679"
+    u="5703"
+  >Nov 28,
+  2007 17:07:59 GMT</content>
+  <content name="language" weight="0" action="none" u="5705">english</content>
+  <content name="title" output-action="bold" weight="3" u="5707"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>110</span> </div><div> <span>THE ABSOLUTE SOUND  </span> </div><div> <span>I</span> </div><div> <span>SEPTEMBER 2006</span> </div><div> <span>C</span> </div><div> <span>an two digital controllers with directly<br/>opposed strengths and weaknesses both<br/>qualify as being “music-minded”?  ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2180.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2180.pdf/"
+  input-at="1196291113" vertex="9" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="3.3673"
+>
+  <content name="filetype" action="none" u="2115">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269679"
+    u="2139"
+  >Nov 28,
+  2007 17:07:59 GMT</content>
+  <content name="language" weight="0" action="none" u="2141">english</content>
+  <content name="title" output-action="bold" weight="3" u="2143"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>106    November 2006    The Absolute Sound</span> </div><div> <span>I<br/>s<br/>C<br/>l<br/>a<br/>s<br/>s<br/>D</span> </div><div> <span>t<br/>h<br/>e<br/>F<br/>u<br/>t<br/>u<br/>r<br/>e<br/>o<br/>f<br/>H<br/>i<br/>g<br/>h<br/>-<br/>E<br/>n<br/>d<br/>A<br/>m<br/>p<br/>l<br/>i</span> </div><div> <span>fi<br/>c<br/>a<br/>t<br/>i<br/>o<br/>n<br/>?</span> </div><div> <span>Cary’s A 306 Class D amplifier, part of  ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2331.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2331.pdf/"
+  input-at="1196291113" vertex="12" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="3.3673"
+>
+  <content name="filetype" action="none" u="1908">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269680"
+    u="1932"
+  >Nov 28,
+  2007 17:08:00 GMT</content>
+  <content name="language" weight="0" action="none" u="1934">english</content>
+  <content name="title" output-action="bold" weight="3" u="1936"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>The Absolute Sound January 2007 7</span> </div><div> <span>I</span> </div><div> <span>was tickled pink by Cayin Audio’s A-88T all-tube integrated amplifier from the<br/>moment I began to unpack it. The inclusion  ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2458.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2458.pdf/"
+  input-at="1196291113" vertex="34" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269680"
+    u="25"
+  >Nov 28,
+  2007 17:08:00 GMT</content>
+  <content name="language" weight="0" action="none" u="27">english</content>
+  <content name="title" output-action="bold" weight="3" u="29"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>66  August 2007  The Absolute Sound</span> </div><div> <span>The Absolute Sound  August 2007  6</span> </div><div> <span><b>Equipment</b></span> </div><div> <span><b>Report</b></span> </div><div> <span><b>T</b></span> </div><div> <span>he $750 Belles Soloist 3 preamp<br/>and  $900  5  power  amplifier<br/>from  Power   ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_208.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_208.pdf/"
+  input-at="1196291113" vertex="33" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269678"
+    u="25"
+  >Nov 28,
+  2007 17:07:58 GMT</content>
+  <content name="language" weight="0" action="none" u="27">english</content>
+  <content name="title" output-action="bold" weight="3" u="29"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">   &lt;a/>&lt;div> &lt;div> &lt;span>s  one  of  the  world’s  foremost&lt;br/>m a n u f a c t u rers  of  both  raw&lt;br/>speaker  components  and  complete&lt;br/> speaker systems, Denmark’s&lt;br/>Dynaudio  has  a  well-deserv  ... </content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2489.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2489.pdf/"
+  input-at="1196291113" vertex="36" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269681"
+    u="25"
+  >Nov 28,
+  2007 17:08:01 GMT</content>
+  <content name="language" weight="0" action="none" u="27">english</content>
+  <content name="title" output-action="bold" weight="3" u="29"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>The Absolute Sound  September 2007  95</span> </div><div> <span><b>equipment</b></span> </div><div> <span><b>report</b></span> </div><div> <span><b>i</b></span> </div><div> <span>like this product’s name, and not just<br/>because of its promise of reaching<br/>beyond  the  common  range   ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2027.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2027.pdf/"
+  input-at="1196291113" vertex="37" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269678"
+    u="25"
+  >Nov 28,
+  2007 17:07:58 GMT</content>
+  <content name="language" weight="0" action="none" u="27">english</content>
+  <content name="title" output-action="bold" weight="3" u="29"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>60</span> </div><div> <span>THE ABSOLUTE SOUND  </span> </div><div> <span>I</span> </div><div> <span>MARCH 2006</span> </div><div> <span>D</span> </div><div> <span>ynaudio  is  a  company  that<br/>leaves  nothing  to  chance.<br/>Whereas others lean heavily<br/>on subcontractors for fabrication<br/> and  ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2277.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2277.pdf/"
+  input-at="1196291113" vertex="32" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269680"
+    u="25"
+  >Nov 28,
+  2007 17:08:00 GMT</content>
+  <content name="language" weight="0" action="none" u="27">english</content>
+  <content name="title" output-action="bold" weight="3" u="29"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>Chris<br/>Martens</span> </div><div> <span>AUDIO REVIEW</span> </div><div> <span>Sunfire TGP-5 and TGA-7400</span> </div><div> <span>Multichannel Controller and  Power Amplifier</span> </div><div> <span>Superabundant Clarity and Power</span> </div><div> <span>whistles of dubious merit,  ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2477.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2477.pdf/"
+  input-at="1196291113" vertex="35" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269681"
+    u="25"
+  >Nov 28,
+  2007 17:08:01 GMT</content>
+  <content name="language" weight="0" action="none" u="27">english</content>
+  <content name="title" output-action="bold" weight="3" u="29"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>8  August 2007  The Absolute Sound</span> </div><div> <span>The Absolute Sound  August 2007  </span> </div><div> <span><b>T</b></span> </div><div> <span>he  new  CM1  from  Bowers  &amp;<br/>Wilkins  (B&amp;W)  comes  straight<br/>out  of  the  British  mini-monitor</span> </div><div> <span> ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2159.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2159.pdf/"
+  input-at="1196291113" vertex="28" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269679"
+    u="25"
+  >Nov 28,
+  2007 17:07:59 GMT</content>
+  <content name="language" weight="0" action="none" u="27">english</content>
+  <content name="title" output-action="bold" weight="3" u="29"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>WWW.THEABSOLUTESOUND.COM</span> </div><div> <span>89</span> </div><div> <span>P</span> </div><div> <span>ower  amplifiers  are<br/>perplexing </span> </div><div> <span>beasts.</span> </div><div> <span>From  experience  I<br/>know that a panel of<br/>listeners can listen to</span> </div><div> <span>three different pairs  ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2192.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2192.pdf/"
+  input-at="1196291113" vertex="29" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269679"
+    u="25"
+  >Nov 28,
+  2007 17:07:59 GMT</content>
+  <content name="language" weight="0" action="none" u="27">english</content>
+  <content name="title" output-action="bold" weight="3" u="29"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>O</span> </div><div> <span>kay, let’s say you’ve finally<br/>got  a  place  of  your  own.<br/>Those  iPod  earbuds  are<br/>great  on  long  jogs  but<br/>murder  when  you  just</span> </div><div> <span>want  to  kick  back  with  the   ... ]]></content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2264.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2264.pdf/"
+  input-at="1196291113" vertex="31" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269680"
+    u="25"
+  >Nov 28,
+  2007 17:08:00 GMT</content>
+  <content name="language" weight="0" action="none" u="27">english</content>
+  <content name="title" output-action="bold" weight="3" u="29"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">   &lt;a/>&lt;div> &lt;div> &lt;span>that  use  up  a  lot  of  back-panel  real&lt;br/>estate but that can’t be beat for noisefree&lt;br/> long cable runs. A wide assortment&lt;br/>of Dolby Digital and DTS surround sound&lt;br/> ... </content>
+</document>
+<document filetypes="pdf "
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2199.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/del_dup/working/REPLACE__ME/REVIEW_2199.pdf/"
+  input-at="1196291113" vertex="30" ct="text/html" vse-base-score="2.32831e-10"
+  la-score="0.1"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1196269680"
+    u="25"
+  >Nov 28,
+  2007 17:08:00 GMT</content>
+  <content name="language" weight="0" action="none" u="27">english</content>
+  <content name="title" output-action="bold" weight="3" u="29"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span><b>Equipment</b><br/><b>Reports</b></span> </div><div> <span><b>WHERE DOES ONE FIND HIGHLY MUSICAL AND RELIABLE, FULL-RANGE TUBE MONOBLOCK</b><br/><b>AMPLIFIERS FOR AROUND $2K PER PAIR THAT ARE CAPABLE OF DRIVING MOST  ... ]]></content>
+</document>
+</scope>

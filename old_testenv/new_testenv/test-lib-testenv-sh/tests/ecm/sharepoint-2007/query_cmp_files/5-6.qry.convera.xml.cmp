@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="10" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="3" />
+<attribute name="retrieval-ms" value="6" />
+<attribute name="total-results-with-duplicates" value="10" />
+<document
+  url="http://sharepoint2007/Docs/Documents/Reports/Convera%2bProfessional%2bSearch%2bSurvey%2bSummary%2b2006.pdf"
+  vse-key="http://sharepoint2007:80/Docs/Documents/Reports/Convera+Professional+Search+Survey+Summary+2006.pdf/"
+  filetype="pdf" vse-base-score="4.49414" ct="text/html" input-at="1192867034"
+  vertex="433" la-score="2.00699"
+>
+  <content name="title" output-action="bold" weight="3" u="7">THE SEARCH FOR PROFESSIONAL SEARCH A Convera</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <pre u="8" v="14">THE SEARCH FOR PROFESSIONAL SEARCH A Convera</pre>
+      <content name="title" output-action="bold" weight="3" u="7" v="14" />
+      <match u="14" v="14">Convera</match>
+      <post u="14" v="14">Convera</post>
+    </solution>
+    <solution rank="1" score="1.5">
+      <pre u="16" v="22"><![CDATA[   <a/><div> <div> <span> <b>THE SEARCH FOR PROFESSIONAL SEARCH</b> <br/><b>A Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="1830"
+      />
+      <match u="22" v="23"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – ]]></match>
+      <post u="22" v="43"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – December 2006</b></span> </div><div> <span>Internet search engines are an indispensable part of business<br/>today. Doctors search the Web as a diagnostic aid ]]></post>
+    </solution>
+    <solution rank="2" score="1.5">
+      <pre u="183" v="204"><![CDATA[following report summarizes the key survey findings<br/>and details responses to more than 30 questions. </span> </div></div><a/><div> <div> <span><b>THE SEARCH FOR PROFESSIONAL SEARCH</b><br/><b>A Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="1830"
+      />
+      <match u="204" v="205"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – ]]></match>
+      <post u="204" v="225"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – December 2006</b></span> </div><div> <span><b>Page 2</b></span> </div><div> <span><b>Nine in 10 professionals find search engines to be an aid</b></span> </div><div> <span>According to the survey, professionals ]]></post>
+    </solution>
+    <solution rank="3" score="1.5">
+      <pre u="415" v="436"><![CDATA[0%</span> </div><div> <span>10%</span> </div><div> <span>20%</span> </div><div> <span>30%</span> </div><div> <span>40%</span> </div><div> <span>50%</span> </div><div> <span>60%</span> </div><div> <span>70%</span> </div><div> <span>80%</span> </div><div> <span>90%</span> </div><div> <span>100%</span> </div><div> <span>A distraction</span> </div><div> <span>An aid</span> </div></div><a/><div> <div> <span><b>THE SEARCH FOR PROFESSIONAL SEARCH</b><br/><b>A Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="1830"
+      />
+      <match u="436" v="437"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – ]]></match>
+      <post u="436" v="457"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – December 2006</b></span> </div><div> <span><b>Page 3</b></span> </div><div> <span><b>But only four in 10 professionals are very satisfied with the results</b></span> </div><div> <span>When asked how satisfied ]]></post>
+    </solution>
+    <solution rank="4" score="1.5">
+      <pre u="681" v="702"><![CDATA[understood</span> </div><div> <span>0%</span> </div><div> <span>10%</span> </div><div> <span>20%</span> </div><div> <span>30%</span> </div><div> <span>40%</span> </div><div> <span>50%</span> </div><div> <span>60%</span> </div><div> <span>Not too satisfied</span> </div><div> <span>Somewhat satisfied</span> </div><div> <span>Very satisfied</span> </div></div><a/><div> <div> <span><b>THE SEARCH FOR PROFESSIONAL SEARCH</b><br/><b>A Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="1830"
+      />
+      <match u="702" v="703"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – ]]></match>
+      <post u="702" v="723"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – December 2006</b></span> </div><div> <span><b>Page 4</b></span> </div><div> <span><b>The page one syndrome</b></span> </div><div> <span>Consumer search engines largely follow a popularity matching logic that counts page ]]></post>
+    </solution>
+    <solution rank="5" score="1.5">
+      <pre u="1056" v="1077"><![CDATA[0%</span> </div><div> <span>5%</span> </div><div> <span>10%</span> </div><div> <span>15%</span> </div><div> <span>20%</span> </div><div> <span>25%</span> </div><div> <span>30%</span> </div><div> <span>35%</span> </div><div> <span>40%</span> </div><div> <span>45%</span> </div><div> <span>50%</span> </div><div> <span>Always</span> </div><div> <span>Sometimes</span> </div><div> <span>Rarely</span> </div><div> <span>Never</span> </div></div><a/><div> <div> <span><b>THE SEARCH FOR PROFESSIONAL SEARCH</b><br/><b>A Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="1830"
+      />
+      <match u="1077" v="1078"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – ]]></match>
+      <post u="1077" v="1098"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – December 2006</b></span> </div><div> <span><b>Page 5</b></span> </div><div> <span><b>Lost and distracted</b></span> </div><div> <span>When professionals do not find what they are looking for, they do not ]]></post>
+    </solution>
+    <solution rank="6" score="1.5">
+      <pre u="1352" v="1373"><![CDATA[ve looked<br/>everywhere</span> </div><div> <span>0%</span> </div><div> <span>10%</span> </div><div> <span>20%</span> </div><div> <span>30%</span> </div><div> <span>40%</span> </div><div> <span>50%</span> </div><div> <span>60%</span> </div><div> <span>70%</span> </div><div> <span>Always</span> </div><div> <span>Sometimes</span> </div><div> <span>Rarely</span> </div><div> <span>Never</span> </div></div><a/><div> <div> <span><b>THE SEARCH FOR PROFESSIONAL SEARCH</b><br/><b>A Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="1830"
+      />
+      <match u="1373" v="1374"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – ]]></match>
+      <post u="1373" v="1394"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – December 2006</b></span> </div><div> <span><b>Page 6</b></span> </div><div> <span><b>The search for alternatives</b></span> </div><div> <span>It’s no secret to the search industry that current consumer search ]]></post>
+    </solution>
+    <solution rank="7" score="1.5">
+      <pre u="1631" v="1652"><![CDATA[by popular<br/>search engines</span> </div><div> <span>0%</span> </div><div> <span>10%</span> </div><div> <span>20%</span> </div><div> <span>30%</span> </div><div> <span>40%</span> </div><div> <span>50%</span> </div><div> <span>60%</span> </div><div> <span>Always</span> </div><div> <span>Sometimes</span> </div><div> <span>Rarely</span> </div><div> <span>Never</span> </div></div><a/><div> <div> <span><b>THE SEARCH FOR PROFESSIONAL SEARCH</b><br/><b>A Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="1830"
+      />
+      <match u="1652" v="1653"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – ]]></match>
+      <post u="1652" v="1673"><![CDATA[Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – December 2006</b></span> </div><div> <span><b>Page 7</b></span> </div><div> <span><b>Where are consumer search engines headed?</b></span> </div><div> <span>Do professionals care that many popular search engines are growing ]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="122" v="143">them more, including professionals not trained in research&lt;br/>practices, significant challenges are beginning to emerge.&lt;/span> &lt;/div>&lt;div> &lt;span>To identify and quantify these obstacles, Convera </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="1830"
+      />
+      <match u="143" v="144">Convera Corp. </match>
+      <post u="143" v="164">Convera Corp. surveyed 1,112 professionals in&lt;br/>publishing, advertising, marketing, healthcare, finance, government and other&lt;br/>industries. The online survey examined Internet search practices, </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="1481" v="1502">provide a more&lt;br/>professionally relevant search experience – better understanding their queries and more&lt;br/>intelligently indexing Web content relevant to their trade.&lt;/span> &lt;/div>&lt;div> &lt;span>Convera </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="1830"
+      />
+      <match u="1502" v="1503">Convera asked </match>
+      <post u="1502" v="1523">Convera asked professionals about their expectations for such sites in comparison to popular&lt;br/>Internet search engines. Nearly 90 percent of professionals believe </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span> <b>THE SEARCH FOR PROFESSIONAL SEARCH</b> <br/><b>A Convera</b></span> </div><div> <span><b>®</b></span> </div><div> <span><b> Survey – December 2006</b></span> </div><div> <span>Internet search engines are an indispensable part of business<br/>today. Doctors search the Web as a diagnostic aid to  ... ]]></content>
+</document>
+<document
+  url="http://sharepoint2007/Docs/Documents/EContent%20Search%20Whitepapers%202004.pdf"
+  enqueued="xOQnU9b/7tguUsYdRfEjIQ=="
+  vse-key="http://sharepoint2007:80/Docs/Documents/EContent Search Whitepapers 2004.pdf/"
+  input-at="1192866976" vertex="223" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="2.00699" vse-base-score="2.74805"
+>
+  <content name="title" output-action="bold" weight="3" u="33">Leadership Series</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.5">
+      <pre u="98" v="119"><![CDATA[typically applied to the content that<br/>users consume every day. These same capabilities, however,<br/>can be of major benefit…</span> </div><div> <span><b>Alkis Papadopoullos, Convera</b></span> </div><div> <span><b>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="36"
+        v="25998"
+      />
+      <match u="119" v="120"><![CDATA[Convera</b></span> </div><div> <span><b>6</b></span> </div><div> <span> ]]></match>
+      <post u="119" v="140"><![CDATA[Convera</b></span> </div><div> <span><b>6</b></span> </div><div> <span> Answering the Right Questions about Search <br/>Today the typical mid-sized organization accumulates more<br/>information in a week than the ]]></post>
+    </solution>
+    <solution rank="1" score="1.5">
+      <pre u="25826" v="25847"><![CDATA[26th Street, Suite 1711<br/>New York, NY 10010<br/>Ph: 212.432.1515<br/>Fax: 212.432.1929<br/>Web: www.clearforest.com<br/>E-mail: information@clearforest.com</span> </div><div> <span><b>Convera</b></span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="36"
+        v="25998"
+      />
+      <match u="25847" v="25848"><![CDATA[Convera</b></span> </div><div> <span>1921 ]]></match>
+      <post u="25847" v="25868"><![CDATA[Convera</b></span> </div><div> <span>1921 Gallows Road, Suite 200<br/>Vienna, VA 22182<br/>Ph: 800.788.7758 or<br/>703.761.3700<br/>Fax: 703.761.1990<br/>Web: www.convera.com<br/>E-mail: info@]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1461" v="1482"><![CDATA[Since a higher percentage of requests<br/>are understood, online resolution rates improve<br/>and value is delivered for the business.</span> </div><div> <span>Mark Myers, Convera:</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="36"
+        v="25998"
+      />
+      <match u="1482" v="1483"><![CDATA[Convera:</span> </div><div> <span>The ]]></match>
+      <post u="1482" v="1503"><![CDATA[Convera:</span> </div><div> <span>The objective of finding</span> </div><div> <span>information is a pervasive issue. It exists as a<br/>standalone industry segment in IT, but it’s<br/>]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="5835" v="5856"><![CDATA[the corporate intranet, information on </span> </div><div> <span>S6Strategies for Search, Taxonomy &amp; Classification</span> </div><div> <span>Answering the Right<br/>Questions about Search</span> </div><div> <span><b>Alkis Papadopoullos</b></span> </div><div> <span>Director, Linguistic<br/>Technologies,<br/>Convera ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="36"
+        v="25998"
+      />
+      <match u="5856" v="5857"><![CDATA[Convera Canada</span> </div><div> <span><b>]]></match>
+      <post u="5856" v="5877"><![CDATA[Convera Canada</span> </div><div> <span><b>t</b></span> </div><div> <span>Supplement to July/August 2004 EContent and Information Today</span> </div></div><a/><div> <div> <span>to assemble the right team of individuals<br/>from key groups ]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="6932" v="6953"><![CDATA[algorithms with library science-backed usage<br/>of taxonomic content in order to effectively<br/>yield the most relevant results possible for<br/>searchers.</span> </div><div> <span>❏</span> </div><div> <span> Convera ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="36"
+        v="25998"
+      />
+      <match u="6953" v="6954">Convera is </match>
+      <post u="6953" v="6974">Convera is a leading provider of mission-critical enterprise &lt;/span> &lt;/div>&lt;div> &lt;span> search and categorization solutions. Convera’s RetrievalWare &lt;/span> &lt;/div>&lt;div> &lt;span> solutions provide highly scalable, fast, accurate </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="6945" v="6966"><![CDATA[yield the most relevant results possible for<br/>searchers.</span> </div><div> <span>❏</span> </div><div> <span> Convera is a leading provider of mission-critical enterprise </span> </div><div> <span> search and categorization solutions. Convera’]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="36"
+        v="25998"
+      />
+      <match u="6966" v="6967">Convera’s </match>
+      <post u="6966" v="6987"><![CDATA[Convera’s RetrievalWare </span> </div><div> <span> solutions provide highly scalable, fast, accurate and secure </span> </div><div> <span> search across 200 forms of information, in 45 languages. More </span> </div><div> <span> than ]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="6974" v="6995">accurate and secure &lt;/span> &lt;/div>&lt;div> &lt;span> search across 200 forms of information, in 45 languages. More &lt;/span> &lt;/div>&lt;div> &lt;span> than 800 customers in 33 countries rely on Convera’</pre>
+      <content name="snippet" weight="1" output-action="summarize" u="36"
+        v="25998"
+      />
+      <match u="6995" v="6996">Convera’s </match>
+      <post u="6995" v="7016"><![CDATA[Convera’s search </span> </div><div> <span> solutions to power a broad range of mission-critical applica- </span> </div><div> <span> tions. For more information please visit www.convera.com. </span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="6994" v="7015">on Convera’s search &lt;/span> &lt;/div>&lt;div> &lt;span> solutions to power a broad range of mission-critical applica- &lt;/span> &lt;/div>&lt;div> &lt;span> tions. For more information please visit www.convera.</pre>
+      <content name="snippet" weight="1" output-action="summarize" u="36"
+        v="25998"
+      />
+      <match u="7015" v="7016"><![CDATA[convera.com. </span> </div><div> <span>]]></match>
+      <post u="7015" v="7036"><![CDATA[convera.com. </span> </div><div> <span>Supplement to July/August 2004 EContent and Information Today</span> </div><div> <span>www.econtentmag.com </span> </div><div> <span>S7</span> </div></div><a/><div> <div> <span>professionals in their day-to-day business<br/>]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="24621" v="24642"><![CDATA[guide links “the face with the name” as you read this month’s<br/>interview.</span> </div><div> <span> —Andy Moore </span> </div><div> <span><b>Mark Myers • </b>VP, Strategic Alliances, Convera</span> </div><div> <span> ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="36"
+        v="25998"
+      />
+      <match u="24642" v="24643"><![CDATA[Convera</span> </div><div> <span> Mark ]]></match>
+      <post u="24642" v="24663"><![CDATA[Convera</span> </div><div> <span> Mark Myers is Vice President of Strategic Alliances at Convera </span> </div><div> <span> (formerly Excalibur Technologies). In eight years with the </span> </div><div> <span> company, Mark has ]]></post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="24631" v="24652"><![CDATA[this month’s<br/>interview.</span> </div><div> <span> —Andy Moore </span> </div><div> <span><b>Mark Myers • </b>VP, Strategic Alliances, Convera</span> </div><div> <span> Mark Myers is Vice President of Strategic Alliances at Convera </span> </div><div> <span> (]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="36"
+        v="25998"
+      />
+      <match u="24652" v="24653"><![CDATA[Convera </span> </div><div> <span> (formerly ]]></match>
+      <post u="24652" v="24673"><![CDATA[Convera </span> </div><div> <span> (formerly Excalibur Technologies). In eight years with the </span> </div><div> <span> company, Mark has played a key role in the development and </span> </div><div> <span> marketing of ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... however,<br/>can be of major benefit…</span> </div><div> <span><b>Alkis Papadopoullos, Convera</b></span> </div><div> <span><b>6</b></span> </div><div> <span> Answering the Right Questions about Search <br/>Today  ... www.clearforest.com<br/>E-mail: information@clearforest.com</span> </div><div> <span><b>Convera</b></span> </div><div> <span>1921 Gallows Road, Suite 200<br/>Vienna, VA 22182<br/> ... ]]></content>
+</document>
+<document
+  url="http://sharepoint2007/Docs/Documents/Reports/Bloor%20Research_Enterprise%20Search%202006.pdf"
+  enqueued="/zaQW5GY9KXr6unoxFsOPw=="
+  vse-key="http://sharepoint2007:80/Docs/Documents/Reports/Bloor Research_Enterprise Search 2006.pdf/"
+  input-at="1192866976" vertex="94" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="2.00699" vse-base-score="2.49805"
+>
+  <content name="title" output-action="bold" weight="3" u="35">SAMPLE</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.5">
+      <pre u="17162" v="17183"><![CDATA[Clarabridge, Inc.</b><br/>Website - www.clarabridge.com; HQ - Falls Church, VA, USA.</span> </div><div> <span><b>ClearForest Corp.</b><br/>Website - www.clearforest.com; HQ - Waltham, MA, USA.</span> </div><div> <span><b>Convera ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="37"
+        v="18354"
+      />
+      <match u="17183" v="17184"><![CDATA[Convera Corp.</b><br/>]]></match>
+      <post u="17183" v="17204"><![CDATA[Convera Corp.</b><br/>Website - www.convera.com; HQ - Vienna, VA, USA.</span> </div><div> <span><b>Corpora Software</b><br/>Website - www.corporasoftware.com; HQ - Guildford, Surrey, UK.</span> </div><div> <span><b>Coveo</b><br/>Website - ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="9150" v="9171"><![CDATA[h</b></span> </div><div> <span><b>a</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>n</b></span> </div><div> <span><b>g</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>r</b></span> </div><div> <span>1</span> </div><div> <span>2</span> </div><div> <span>3</span> </div><div> <span>4</span> </div><div> <span>5</span> </div><div> <span>Inxight</span> </div><div> <span>Insightful</span> </div><div> <span>X1 Technologies</span> </div><div> <span>Vivisimo</span> </div><div> <span>Corpora</span> </div><div> <span>Mondosoft</span> </div><div> <span>Convera</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="37"
+        v="18354"
+      />
+      <match u="9171" v="9172"><![CDATA[Convera</span> </div><div> <span>Northern ]]></match>
+      <post u="9171" v="9192"><![CDATA[Convera</span> </div><div> <span>Northern Light</span> </div><div> <span><b>Figure 7:</b>  Landscape Bullseye —Enterprse plus External Search vendors </span> </div></div><a/><div> <div> <span>SAMPLE</span> </div><div> <span> Enterprse-wde Search </span> </div><div> <span> © Bloor Research 2006 </span> </div><div> <span> Page 2 </span> </div><div> <span><b>Champion</b></span> </div><div> <span><b>]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="9317" v="9338"><![CDATA[h</b></span> </div><div> <span><b>a</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>n</b></span> </div><div> <span><b>g</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>r</b></span> </div><div> <span>1</span> </div><div> <span>2</span> </div><div> <span>3</span> </div><div> <span>4</span> </div><div> <span>5</span> </div><div> <span>Inxight</span> </div><div> <span>Insightful</span> </div><div> <span>X1 Technologies</span> </div><div> <span>Vivisimo Corpora</span> </div><div> <span>Mondosoft</span> </div><div> <span>Convera</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="37"
+        v="18354"
+      />
+      <match u="9338" v="9339"><![CDATA[Convera</span> </div><div> <span>Northern ]]></match>
+      <post u="9338" v="9359"><![CDATA[Convera</span> </div><div> <span>Northern Light</span> </div><div> <span><b>Figure 9:</b>  Stablty &amp; Rsk scores —Enterprse plus External Search vendors </span> </div></div><a/><div> <div> <span>SAMPLE</span> </div><div> <span> Enterprse-wde Search </span> </div><div> <span> © Bloor Research 2006 </span> </div><div> <span> Page 22 </span> </div><div> <span><b>]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="9414" v="9435"><![CDATA[h</b></span> </div><div> <span><b>a</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>n</b></span> </div><div> <span><b>g</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>r</b></span> </div><div> <span>1</span> </div><div> <span>2</span> </div><div> <span>3</span> </div><div> <span>4</span> </div><div> <span>5</span> </div><div> <span>Inxight</span> </div><div> <span>Insightful</span> </div><div> <span>X1 Technologies</span> </div><div> <span>Vivisimo</span> </div><div> <span>Corpora</span> </div><div> <span>Mondosoft</span> </div><div> <span>Convera</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="37"
+        v="18354"
+      />
+      <match u="9435" v="9436"><![CDATA[Convera</span> </div><div> <span>Northern ]]></match>
+      <post u="9435" v="9456"><![CDATA[Convera</span> </div><div> <span>Northern Light</span> </div><div> <span><b>Figure 11:</b>  Archtecture scores—Enterprse plus External Search vendors </span> </div></div><a/><div> <div> <span>SAMPLE</span> </div><div> <span> Enterprse-wde Search </span> </div><div> <span> © Bloor Research 2006 </span> </div><div> <span> Page 2 </span> </div><div> <span><b>Champion</b></span> </div><div> <span><b>]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="9511" v="9532"><![CDATA[h</b></span> </div><div> <span><b>a</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>n</b></span> </div><div> <span><b>g</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>r</b></span> </div><div> <span>1</span> </div><div> <span>2</span> </div><div> <span>3</span> </div><div> <span>4</span> </div><div> <span>5</span> </div><div> <span>Inxight</span> </div><div> <span>Insightful</span> </div><div> <span>X1 Technologies</span> </div><div> <span>Vivisimo</span> </div><div> <span>Corpora</span> </div><div> <span>Mondosoft</span> </div><div> <span>Convera</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="37"
+        v="18354"
+      />
+      <match u="9532" v="9533"><![CDATA[Convera</span> </div><div> <span>Northern ]]></match>
+      <post u="9532" v="9553"><![CDATA[Convera</span> </div><div> <span>Northern Light</span> </div><div> <span><b>Figure 13:</b>  Ft for Purpose scores—Enterprse plus External Search vendors </span> </div></div><a/><div> <div> <span>SAMPLE</span> </div><div> <span> Enterprse-wde Search </span> </div><div> <span> © Bloor Research 2006 </span> </div><div> <span> Page ]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="9609" v="9630"><![CDATA[h</b></span> </div><div> <span><b>a</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>n</b></span> </div><div> <span><b>g</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>r</b></span> </div><div> <span>1</span> </div><div> <span>2</span> </div><div> <span>3</span> </div><div> <span>4</span> </div><div> <span>5</span> </div><div> <span>Inxight</span> </div><div> <span>Insightful</span> </div><div> <span>X1 Technologies</span> </div><div> <span>Vivisimo</span> </div><div> <span>Corpora</span> </div><div> <span>Mondosoft</span> </div><div> <span>Convera</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="37"
+        v="18354"
+      />
+      <match u="9630" v="9631"><![CDATA[Convera</span> </div><div> <span>Northern ]]></match>
+      <post u="9630" v="9651"><![CDATA[Convera</span> </div><div> <span>Northern Light</span> </div><div> <span><b>Figure 15:</b>  Performance scores—Enterprse plus External Search vendors </span> </div></div><a/><div> <div> <span>SAMPLE</span> </div><div> <span> Enterprse-wde Search </span> </div><div> <span> © Bloor Research 2006 </span> </div><div> <span> Page 2 </span> </div><div> <span><b>Champion</b></span> </div><div> <span><b>]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="9707" v="9728"><![CDATA[h</b></span> </div><div> <span><b>a</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>n</b></span> </div><div> <span><b>g</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>r</b></span> </div><div> <span>1</span> </div><div> <span>2</span> </div><div> <span>3</span> </div><div> <span>4</span> </div><div> <span>5</span> </div><div> <span>Inxight</span> </div><div> <span>Insightful<br/>X1 Technologies</span> </div><div> <span>Vivisimo</span> </div><div> <span>Corpora</span> </div><div> <span>Mondosoft</span> </div><div> <span>Convera</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="37"
+        v="18354"
+      />
+      <match u="9728" v="9729"><![CDATA[Convera</span> </div><div> <span>Northern ]]></match>
+      <post u="9728" v="9749"><![CDATA[Convera</span> </div><div> <span>Northern Light</span> </div><div> <span><b>Figure 17:</b>  Ease of Implementaton scores—Enterprse plus External Search vendors </span> </div></div><a/><div> <div> <span>SAMPLE</span> </div><div> <span> Enterprse-wde Search </span> </div><div> <span> © Bloor Research 2006 </span> </div><div> <span> Page ]]></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="9805" v="9826"><![CDATA[h</b></span> </div><div> <span><b>a</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>l</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>n</b></span> </div><div> <span><b>g</b></span> </div><div> <span><b>e</b></span> </div><div> <span><b>r</b></span> </div><div> <span>1</span> </div><div> <span>2</span> </div><div> <span>3</span> </div><div> <span>4</span> </div><div> <span>5</span> </div><div> <span>Inxight</span> </div><div> <span>Insightful</span> </div><div> <span>X1 Technologies</span> </div><div> <span>Vivisimo<br/>Corpora</span> </div><div> <span>Mondosoft</span> </div><div> <span>Convera</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="37"
+        v="18354"
+      />
+      <match u="9826" v="9827"><![CDATA[Convera</span> </div><div> <span>Northern ]]></match>
+      <post u="9826" v="9847"><![CDATA[Convera</span> </div><div> <span>Northern Light</span> </div><div> <span><b>Figure 19:</b>  Support scores—Enterprse plus External Search vendors </span> </div></div><a/><div> <div> <span>SAMPLE</span> </div><div> <span> Enterprse-wde Search </span> </div><div> <span> © Bloor Research 2006 </span> </div><div> <span> Page 2 </span> </div><div> <span>Value ]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="15231" v="15252"><![CDATA[LS</span> </div><div> <span/> </div><div> <span>M</span> </div><div> <span>Clarabridge,	Inc.</span> </div><div> <span>BI	Search	v.0</span> </div><div> <span>O</span> </div><div> <span>E</span> </div><div> <span>LM</span> </div><div> <span/> </div><div> <span>E</span> </div><div> <span>ClearForest	Corp.Text	Analytics	Solution</span> </div><div> <span>O</span> </div><div> <span>None</span> </div><div> <span>L</span> </div><div> <span/> </div><div> <span>M</span> </div><div> <span>Convera	]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="37"
+        v="18354"
+      />
+      <match u="15252" v="15253"><![CDATA[Convera	Corp.</span> </div><div> <span>]]></match>
+      <post u="15252" v="15273"><![CDATA[Convera	Corp.</span> </div><div> <span>RetrievalWare;	Excalibur</span> </div><div> <span>EW</span> </div><div> <span>EW</span> </div><div> <span>L(S)</span> </div><div> <span/> </div><div> <span>M/L</span> </div><div> <span>Corpora	Software</span> </div><div> <span>Find!</span> </div><div> <span>E</span> </div><div> <span>EW</span> </div><div> <span>LM</span> </div><div> <span/> </div><div> <span>E</span> </div><div> <span>Coveo</span> </div><div> <span>Enterprise	Search	v.0</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="15890" v="15911">the	USA	and	Israel,	it	offers	products	aimed	at	&lt;br/>providing	“unified	business	intelligence”.	It	is	aiming	at	&lt;br/>similar	markets	to	Attensity.&lt;/span> &lt;/div>&lt;div> &lt;span>Convera	</pre>
+      <content name="snippet" weight="1" output-action="summarize" u="37"
+        v="18354"
+      />
+      <match u="15911" v="15912"><![CDATA[Convera	Corp.</span> </div><div> <span>.]]></match>
+      <post u="15911" v="15932"><![CDATA[Convera	Corp.</span> </div><div> <span>.0</span> </div><div> <span>.</span> </div><div> <span>.</span> </div><div> <span>.</span> </div><div> <span>.</span> </div><div> <span>.</span> </div><div> <span>.</span> </div><div> <span>Long-established	but	loss-making	US	supplier	of	<br/>taxonomy-based	search	software.	Strong	in	central	<br/>government	markets.	Bidding	for	]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 5</span> </div><div> <span>Inxight</span> </div><div> <span>Insightful</span> </div><div> <span>X1 Technologies</span> </div><div> <span>Vivisimo Corpora</span> </div><div> <span>Mondosoft</span> </div><div> <span>Convera</span> </div><div> <span>Northern Light</span> </div><div> <span><b>Figure 9:</b>  Stablty &amp; Rsk scores —Enterprse  ... Website - www.clearforest.com; HQ - Waltham, MA, USA.</span> </div><div> <span><b>Convera Corp.</b><br/>Website - www.convera.com; HQ - Vienna, VA,  ... ]]></content>
+</document>
+<document
+  url="http://sharepoint2007/Docs/Documents/Reports/Unstructured%20Information%20Management%20(InfoSphere).pdf"
+  enqueued="KigNiGbRI7n6poOL+wn81Q=="
+  vse-key="http://sharepoint2007:80/Docs/Documents/Reports/Unstructured Information Management (InfoSphere).pdf/"
+  input-at="1192866976" vertex="151" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="2.00699" vse-base-score="1.99805"
+>
+  <content name="title" output-action="bold" weight="3" u="34">Unstructured Information Management</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="13403" v="13424"><![CDATA[c<br/>u<br/>t<br/>e</span> </div><div> <span>80-20 Software</span> </div><div> <span>52</span> </div><div> <span>Antarctica</span> </div><div> <span>53</span> </div><div> <span>Applied Psychology Research  54<br/>Applied Semantics</span> </div><div> <span>55</span> </div><div> <span>Autonomy</span> </div><div> <span>56</span> </div><div> <span>Clearforest</span> </div><div> <span>57</span> </div><div> <span>Convera</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="40981"
+      />
+      <match u="13424" v="13425"><![CDATA[Convera</span> </div><div> <span>58</span> </div><div> <span>]]></match>
+      <post u="13424" v="13445"><![CDATA[Convera</span> </div><div> <span>58</span> </div><div> <span>Endeca</span> </div><div> <span>59</span> </div><div> <span>Endymion</span> </div><div> <span>60</span> </div><div> <span>Entrieva</span> </div><div> <span>61</span> </div><div> <span>Fast Search and Transfer</span> </div><div> <span>62</span> </div><div> <span>Google</span> </div><div> <span>63</span> </div><div> <span>Hapax</span> </div><div> <span>64</span> </div><div> <span>IBM including Lotus</span> </div><div> <span>65</span> </div><div> <span>Insightful</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="17413" v="17434"><![CDATA[m<br/>a<br/>t<br/>i<br/>o<br/>n<br/>M<br/>a<br/>n<br/>a<br/>g<br/>e<br/>m<br/>e<br/>n<br/>t</span> </div><div> <span>5<br/>8</span> </div><div> <span>Contact Information</span> </div><div> <span><b>Headquarters:</b><br/>Convera<br/>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="40981"
+      />
+      <match u="17434" v="17435"><![CDATA[Convera<br/>1921 ]]></match>
+      <post u="17434" v="17455"><![CDATA[Convera<br/>1921 Gallows Road Suite 200<br/>Vienna, VA 22182<br/>USA<br/>Phone:  +1-(703)-761 3700<br/>Fax:</span> </div><div> <span>+1-(703)-761 1990</span> </div><div> <span><b>Other Locations:</b><br/>]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="17451" v="17472"><![CDATA[703)-761 1990</span> </div><div> <span><b>Other Locations:</b><br/>California, Oregon, and Argentina,<br/>Austria, Canada, France, Germany, South<br/>Africa, Switzerland, UK.<br/><b>Mail and Website:</b><br/>info@convera.]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="40981"
+      />
+      <match u="17472" v="17473"><![CDATA[convera.com<br/>]]></match>
+      <post u="17472" v="17493"><![CDATA[convera.com<br/>http://www.convera.com</span> </div><div> <span>About the Company</span> </div><div> <span><b>Mission:</b></span> </div><div> <span>Convera is a leading provider of mission-critical<br/>enterprise search, retrieval and ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="17455" v="17476">Locations:&lt;/b>&lt;br/>California, Oregon, and Argentina,&lt;br/>Austria, Canada, France, Germany, South&lt;br/>Africa, Switzerland, UK.&lt;br/>&lt;b>Mail and Website:&lt;/b>&lt;br/>info@convera.com&lt;br/>http://www.convera.</pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="40981"
+      />
+      <match u="17476" v="17477"><![CDATA[convera.com</span> </div><div> <span>]]></match>
+      <post u="17476" v="17497"><![CDATA[convera.com</span> </div><div> <span>About the Company</span> </div><div> <span><b>Mission:</b></span> </div><div> <span>Convera is a leading provider of mission-critical<br/>enterprise search, retrieval and categorization<br/>solutions.</span> </div><div> <span><b>Founded:</b></span> </div><div> <span>2000 ]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="17461" v="17482"><![CDATA[Canada, France, Germany, South<br/>Africa, Switzerland, UK.<br/><b>Mail and Website:</b><br/>info@convera.com<br/>http://www.convera.com</span> </div><div> <span>About the Company</span> </div><div> <span><b>Mission:</b></span> </div><div> <span>Convera ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="40981"
+      />
+      <match u="17482" v="17483">Convera is </match>
+      <post u="17482" v="17503"><![CDATA[Convera is a leading provider of mission-critical<br/>enterprise search, retrieval and categorization<br/>solutions.</span> </div><div> <span><b>Founded:</b></span> </div><div> <span>2000 by combination of the former Excalibur<br/>]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="17652" v="17673"><![CDATA[Video Indexing</span> </div><div> <span><b>Products:</b></span> </div><div> <span>RetrievalWare</span> </div><div> <span><b>Pricing:</b></span> </div><div> <span>Prices are not published beyond offices and<br/>authorized resellers. End User pricing begins around<br/>$15K.</span> </div><div> <span><b>Comments:</b></span> </div><div> <span>Convera ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="40981"
+      />
+      <match u="17673" v="17674">Convera employ </match>
+      <post u="17673" v="17694">Convera employ a number of pricing models,&lt;br/>including&lt;br/>* per CPU pricing&lt;br/>* per user pricing&lt;br/>Per document pricing is not used.&lt;/span> &lt;/div>&lt;div> &lt;span>Products &amp;amp; Technology </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="35758" v="35779"><![CDATA[n</span> </div><div> <span>A<br/>b<br/>i<br/>l<br/>i<br/>t<br/>y</span> </div><div> <span>t<br/>o<br/>E<br/>x<br/>e<br/>c<br/>u<br/>t<br/>e</span> </div><div> <span>Applied Psychology Research<br/>Autonomy<br/>Convera<br/>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="40981"
+      />
+      <match u="35779" v="35780"><![CDATA[Convera<br/>Entrieva<br/>]]></match>
+      <post u="35779" v="35800"><![CDATA[Convera<br/>Entrieva<br/>IBM including Lotus<br/>Inxight<br/>Nstein<br/>SPSS<br/>Verity</span> </div><div> <span>© 2003, Infosphere AB</span> </div><div> <span>92 </span> </div></div><a/><div> <div> <span>Unstructured Information Management</span> </div><div> <span>Leaders by market segment</span> </div><div> <span>For readers ]]></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="36124" v="36145"><![CDATA[i<br/>l<br/>i<br/>t<br/>y</span> </div><div> <span>t<br/>o<br/>E<br/>x<br/>e<br/>c<br/>u<br/>t<br/>e</span> </div><div> <span>80-20 Software<br/>Applied Psychology Research<br/>Autonomy<br/>Convera<br/>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="40981"
+      />
+      <match u="36145" v="36146"><![CDATA[Convera<br/>Fast ]]></match>
+      <post u="36145" v="36166"><![CDATA[Convera<br/>Fast Search and Transfer</span> </div><div> <span>© 2003, Infosphere AB</span> </div><div> <span>93 </span> </div></div><a/><div> <div> <span>Unstructured Information Management</span> </div><div> <span>Google<br/>Hapax<br/>IBM including Lotus<br/>Intelliseek<br/>Jeeves Solutions<br/>Oracle<br/>Verity</span> </div><div> <span><b>]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="36504" v="36525"><![CDATA[b<br/>i<br/>l<br/>i<br/>t<br/>y</span> </div><div> <span>t<br/>o<br/>E<br/>x<br/>e<br/>c<br/>u<br/>t<br/>e</span> </div><div> <span>Applied Psychology Research<br/>Applied Semantics<br/>Autonomy<br/>Convera<br/>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="40981"
+      />
+      <match u="36525" v="36526"><![CDATA[Convera<br/>Entrieva<br/>]]></match>
+      <post u="36525" v="36546"><![CDATA[Convera<br/>Entrieva<br/>IBM including Lotus<br/>Inxight<br/>LingoMotors<br/>Mohomine<br/>Nstein<br/>SER<br/>SPSS<br/>Stratify<br/>Temis Group<br/>TripleHop<br/>Verity</span> </div><div> <span>© 2003, Infosphere AB</span> </div><div> <span>95 </span> </div></div><a/><div> <div> <span>Unstructured Information ]]></post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="40825" v="40846">Vendor functionality&lt;/a>&lt;a>Completeness of vision&lt;/a>&lt;a>Ability to execute&lt;/a>&lt;a>Vendor Profiles&lt;/a>
+80-20 Software
+Antarctica
+Applied Psychology Research
+Applied Semantics
+Autonomy
+ClearForest
+Convera
+</pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="40981"
+      />
+      <match u="40846" v="40847">Convera
+Endeca
+</match>
+      <post u="40846" v="40867">Convera
+Endeca
+Endymion
+Entrieva
+Fast Search &amp;amp; Transfer
+Google
+Hapax
+IBM and Lotus
+Insightful
+Intelligenxia
+Intelliseek
+Inxight Software
+Ask Jeeves
+KartOO
+LingoMotors
+Megaputer </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 54<br/>Applied Semantics</span> </div><div> <span>55</span> </div><div> <span>Autonomy</span> </div><div> <span>56</span> </div><div> <span>Clearforest</span> </div><div> <span>57</span> </div><div> <span>Convera</span> </div><div> <span>58</span> </div><div> <span>Endeca</span> </div><div> <span>59</span> </div><div> <span>Endymion</span> </div><div> <span>60</span> </div><div> <span>Entrieva</span> </div><div> <span>61</span> </div><div> <span>Fast  ... e<br/>n<br/>t</span> </div><div> <span>5<br/>8</span> </div><div> <span>Contact Information</span> </div><div> <span><b>Headquarters:</b><br/>Convera<br/>1921 Gallows Road Suite 200<br/>Vienna, VA 22182<br/> ... ]]></content>
+</document>
+<document
+  url="http://sharepoint2007/Docs/Documents/Reports/Forrester%20-%20Upgrade%20to%20the%20Right%20Search%20Engine.pdf"
+  enqueued="4zKSjm3OYKzseDSIxhH2dw=="
+  vse-key="http://sharepoint2007:80/Docs/Documents/Reports/Forrester - Upgrade to the Right Search Engine.pdf/"
+  input-at="1192866976" vertex="112" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="2.00699" vse-base-score="1.9375"
+>
+  <content name="title" output-action="bold" weight="3" u="37">Upgrade To The Right Search Engine</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="927" v="948">but a graph with a very large number&lt;br/>of dimensions -- and determines relevance&lt;br/>based on their physical proximity in that space&lt;/span> &lt;/div>&lt;div> &lt;span>Convera,&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="3976"
+      />
+      <match u="948" v="949">Convera,&lt;br/>Google, </match>
+      <post u="948" v="969"><![CDATA[Convera,<br/>Google, Verity</span> </div><div> <span>GammaSite,<br/>H5 Technologies,<br/>YellowBrix</span> </div><div> <span>Autonomy,<br/>Recommind,<br/>Microsoft</span> </div><div> <span>Endeca, InQuira,<br/>iPhrase, Verity</span> </div><div> <span>Albert,<br/>Inxight Software,<br/>InQuira</span> </div><div> <span>Virtually all search<br/>engines ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1449" v="1470"><![CDATA[Forrester Research, Inc.</span> </div><div> <span>Is your most</span> </div><div> <span>important content</span> </div><div> <span>stored as</span> </div><div> <span>relational data?</span> </div><div> <span>Yes</span> </div><div> <span>A</span> </div><div> <span>• EasyAsk<br/>• Endeca<br/>• Mercado<br/>•  Verity</span> </div><div> <span>E</span> </div><div> <span>• Broad</span> </div><div> <span>Daylight</span> </div><div> <span>• Convera<br/>• ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="3976"
+      />
+      <match u="1470" v="1471"><![CDATA[Convera<br/>• GammaSite<br/>• ]]></match>
+      <post u="1470" v="1491"><![CDATA[Convera<br/>• GammaSite<br/>• iPhrase<br/>• InQuira<br/>• Jeeves</span> </div><div> <span>Solutions</span> </div><div> <span>• Verity<br/>• YellowBrix </span> </div><div> <span>F</span> </div><div> <span>• Albert<br/>• Endeca<br/>• Fast Search</span> </div><div> <span>&amp; Transfer</span> </div><div> <span>• Google<br/>• IBM<br/>• Inktomi<br/>• Microsoft<br/>• Oracle<br/>• Recommind<br/>• Verity</span> </div><div> <span>B</span> </div><div> <span>• ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="2664" v="2685">solutions, vendors with strength in one type of search will scoop&lt;br/>up complementary technologies. Expect today’s unstructured content solutions&lt;br/>like Convera </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="3976"
+      />
+      <match u="2685" v="2686">Convera to </match>
+      <post u="2685" v="2706"><![CDATA[Convera to acquire relational data plays like EasyAsk or categorization<br/>solutions like GammaSite.</span> </div><div> <span><b>Demand for metadata mavens will heat up.</b></span> </div><div> <span>The more ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="2905" v="2926"><![CDATA[Albert<br/> www.albert.com <br/>AltaVista<br/> www.altavista.com <br/>Autonomy<br/> www.autonomy.com <br/>Broad Daylight<br/> www.broaddaylight.com <br/>ClearForest<br/> www.clearforest.com <br/>Convera<br/> ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="3976"
+      />
+      <match u="2926" v="2927"><![CDATA[Convera<br/> www.]]></match>
+      <post u="2926" v="2947"><![CDATA[Convera<br/> www.convera.com <br/>EasyAsk<br/> www.easyask.com <br/>Endeca Technologies<br/> www.endeca.com <br/>Fast Search &amp; Transfer<br/> www.fastsearch.com <br/>GammaSite<br/> www.gammasite.]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="2907" v="2928"><![CDATA[albert.com <br/>AltaVista<br/> www.altavista.com <br/>Autonomy<br/> www.autonomy.com <br/>Broad Daylight<br/> www.broaddaylight.com <br/>ClearForest<br/> www.clearforest.com <br/>Convera<br/> www.convera.]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="44"
+        v="3976"
+      />
+      <match u="2928" v="2929"><![CDATA[convera.com <br/>]]></match>
+      <post u="2928" v="2949"><![CDATA[convera.com <br/>EasyAsk<br/> www.easyask.com <br/>Endeca Technologies<br/> www.endeca.com <br/>Fast Search &amp; Transfer<br/> www.fastsearch.com <br/>GammaSite<br/> www.gammasite.com <br/>Google<br/> ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... based on their physical proximity in that space</span> </div><div> <span>Convera,<br/>Google, Verity</span> </div><div> <span>GammaSite,<br/>H5 Technologies,<br/>YellowBrix</span> </div><div> <span>Autonomy,<br/>Recommind,<br/> ... A</span> </div><div> <span>• EasyAsk<br/>• Endeca<br/>• Mercado<br/>•  Verity</span> </div><div> <span>E</span> </div><div> <span>• Broad</span> </div><div> <span>Daylight</span> </div><div> <span>• Convera<br/>• GammaSite<br/>• iPhrase<br/>• InQuira<br/>• Jeeves</span> </div><div> <span>Solutions</span> </div><div> <span>• Verity<br/>• YellowBrix </span> </div><div> <span>F</span> </div><div> <span>•  ... ]]></content>
+</document>
+<document
+  url="http://sharepoint2007/Docs/Documents/Reports/search_mkt_size_whitepaper.pdf"
+  enqueued="rPJY8jmjGIK9A94aq+Rk2g=="
+  vse-key="http://sharepoint2007:80/Docs/Documents/Reports/search_mkt_size_whitepaper.pdf/"
+  input-at="1192866976" vertex="141" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="2.00699" vse-base-score="1.9375"
+>
+  <content name="title" output-action="bold" weight="3" u="34">Search Engines: Evolution and Diffusion</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5561" v="5582">in a price-sensitive, stable, reliable environment. Research&lt;br/>projects and government initiatives operate under different rules.&lt;/span> &lt;/div>&lt;div> &lt;span>Third, a few companies – Verity, Convera (</pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="10305"
+      />
+      <match u="5582" v="5583">Convera (formerly </match>
+      <post u="5582" v="5603">Convera (formerly Excalibur Technologies) and Autonomy – appear as&lt;br/>examples of successful companies in multiple markets. In fact, the list of commercially viable </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="6205" v="6226"><![CDATA[search<br/>structured databases</span> </div><div> <span>Web indexing</span> </div><div> <span>Access to content in<br/>structured databases</span> </div><div> <span>License engine and<br/>sell services to build<br/>text mining systems</span> </div><div> <span>Convera (]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="10305"
+      />
+      <match u="6226" v="6227">Convera (formerly&lt;br/></match>
+      <post u="6226" v="6247"><![CDATA[Convera (formerly<br/>Excalibur Technologies)</span> </div><div> <span>Text, image, and<br/>video search</span> </div><div> <span>ASP service plus site<br/>license</span> </div><div> <span>Enterprise search and<br/>text mining</span> </div><div> <span>Obtain new investors<br/>]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="9418" v="9439">best’ search? The reality is that no simple answer is possible. At this time, the&lt;br/>Verity, Autonomy, Hummingbird, Open Text, and Convera </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="10305"
+      />
+      <match u="9439" v="9440">Convera search </match>
+      <post u="9439" v="9460">Convera search and retrieval systems are stable, scalable&lt;br/>and effective. That does not mean search and retrieval in general and advanced techniques </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="10228" v="10249"><![CDATA[20,000</span> </div><div> <span>$5,000</span> </div><div> <span>$2,000,000</span> </div><div> <span>$100,000,000 Google, FAST Search &amp;</span> </div><div> <span>Retrieval</span> </div><div> <span>Google, Alta Vista, FAST Search &amp; Retrieval</span> </div><div> <span>Still image retrieval</span> </div><div> <span>10,000</span> </div><div> <span>$10,000</span> </div><div> <span>$1,500,000</span> </div><div> <span>$100,000,000 Convera, ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="10305"
+      />
+      <match u="10249" v="10250">Convera, Apple </match>
+      <post u="10249" v="10270"><![CDATA[Convera, Apple Com-</span> </div><div> <span>puter</span> </div><div> <span>Convera, piXlogic</span> </div><div> <span>Toolkits for enterprise search</span> </div><div> <span>10,000</span> </div><div> <span>$200</span> </div><div> <span>$2,500,000</span> </div><div> <span>$2,000,000 Verity, Microsoft</span> </div><div> <span>Visualization</span> </div><div> <span>2,000</span> </div><div> <span>$25,000</span> </div><div> <span>$3,000,000</span> </div><div> <span>$50,000,000 Plumb ]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="10232" v="10253"><![CDATA[Google, FAST Search &amp;</span> </div><div> <span>Retrieval</span> </div><div> <span>Google, Alta Vista, FAST Search &amp; Retrieval</span> </div><div> <span>Still image retrieval</span> </div><div> <span>10,000</span> </div><div> <span>$10,000</span> </div><div> <span>$1,500,000</span> </div><div> <span>$100,000,000 Convera, Apple Com-</span> </div><div> <span>puter</span> </div><div> <span>Convera, ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="10305"
+      />
+      <match u="10253" v="10254"><![CDATA[Convera, piXlogic</span> </div><div> <span>]]></match>
+      <post u="10253" v="10274"><![CDATA[Convera, piXlogic</span> </div><div> <span>Toolkits for enterprise search</span> </div><div> <span>10,000</span> </div><div> <span>$200</span> </div><div> <span>$2,500,000</span> </div><div> <span>$2,000,000 Verity, Microsoft</span> </div><div> <span>Visualization</span> </div><div> <span>2,000</span> </div><div> <span>$25,000</span> </div><div> <span>$3,000,000</span> </div><div> <span>$50,000,000 Plumb Design,</span> </div><div> <span>Anarti.ca, Kartoo</span> </div><div> <span>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... under different rules.</span> </div><div> <span>Third, a few companies – Verity, Convera (formerly Excalibur Technologies) and Autonomy – appear as<br/>examples  ... and<br/>sell services to build<br/>text mining systems</span> </div><div> <span>Convera (formerly<br/>Excalibur Technologies)</span> </div><div> <span>Text, image, and<br/>video search</span> </div><div> <span> ... ]]></content>
+</document>
+<document
+  url="http://sharepoint2007/Docs/Documents/Reports/ArnoldIT%20-%20Gilbane%20-%20Section3.pdf"
+  enqueued="CuNCCf0UEwqXXJsgbpJ0Jg=="
+  vse-key="http://sharepoint2007:80/Docs/Documents/Reports/ArnoldIT - Gilbane - Section3.pdf/"
+  input-at="1192866975" vertex="75" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="2.00699" vse-base-score="1.5"
+>
+  <content name="title" output-action="bold" weight="3" u="33">Search Engine Profiles Discuss 11 Engines and Google</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.5">
+      <pre u="216" v="237"><![CDATA[Pricing thresholds not well understood</b></span> </div><div> <span>• <b>An enterprise class system that can handle</b></span> </div><div> <span><b>one million documents is about $250,000</b></span> </div><div> <span>– <b>Comparable to Autonomy, Convera,</b></span> </div><div> <span><b>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="42" v="347" />
+      <match u="237" v="238"><![CDATA[Convera,</b></span> </div><div> <span><b>FAST, ]]></match>
+      <post u="237" v="258"><![CDATA[Convera,</b></span> </div><div> <span><b>FAST, and Verity</b></span> </div><div> <span>– <b>Precision and recall acceptable but not</b></span> </div><div> <span><b>like the Web version</b></span> </div><div> <span><b>General: The Services Issue</b></span> </div><div> <span>• <b>Most search engines are “]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... million documents is about $250,000</b></span> </div><div> <span>– <b>Comparable to Autonomy, Convera,</b></span> </div><div> <span><b>FAST, and Verity</b></span> </div><div> <span>– <b>Precision and recall acceptable but  ... ]]></content>
+</document>
+<document
+  url="http://sharepoint2007/Docs/Documents/Reports/SteveArnold%20-%20ESS2005.doc"
+  enqueued="CRvHeRuTW6PzPAc/LllQvw=="
+  vse-key="http://sharepoint2007:80/Docs/Documents/Reports/SteveArnold - ESS2005.doc/"
+  input-at="1192866976" vertex="90" ct="application/vxml-unnormalized"
+  filetype="doc" la-score="2.00699" vse-base-score="1.5"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="14">Summary of Remarks</content>
+  <content name="title" output-action="bold" weight="3" u="36">Summary of Remarks</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="900" v="921">Appliance will replicate most of the functionality of the basic search systems offered by the Big Four of enterprise search: Autonomy, Convera, </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="1267"
+      />
+      <match u="921" v="922">Convera, FAST </match>
+      <post u="921" v="942">Convera, FAST Search &amp;amp; Transfer, and Verity.&lt;/p>&lt;p>&lt;/p>&lt;p>Second, get the support of management for resources. Enterprise search can become a highly visible cost </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1141" v="1162">IT professionals may not see it, but Google is "there."&lt;/p>&lt;p>&lt;/p>&lt;p>It goes without saying that close attention must be paid to Convera'</pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="1267"
+      />
+      <match u="1162" v="1163">Convera's </match>
+      <post u="1162" v="1183">Convera's shift to indexing the Web after years of effort in the defense and security community. The Big Four must be </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... by the Big Four of enterprise search: Autonomy, Convera, FAST Search &amp;amp; Transfer, and Verity.&lt;/p>&lt;p>&lt;/p>&lt;p>Second, get the  ... saying that close attention must be paid to Convera's shift to indexing the Web after years  ... </content>
+</document>
+<document
+  url="http://sharepoint2007/Docs/Documents/Reports/Why_Taxonomies_Delphi_Group(2004).pdf"
+  enqueued="nh0N6v6Hwy5rpX4/xLvl6Q=="
+  vse-key="http://sharepoint2007:80/Docs/Documents/Reports/Why_Taxonomies_Delphi_Group(2004).pdf/"
+  input-at="1192866976" vertex="156" ct="application/vxml-unnormalized"
+  filetype="pdf" la-score="2.00699" vse-base-score="1"
+>
+  <content name="title" output-action="bold" weight="3" u="35">Information Intelligence: Content Classification and the Enterprise Taxonomy Practice</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="14006" v="14027"><![CDATA[strong feature of the company’s enterprise-focused Google Search Appliance<br/> offering.</span> </div><div> <span><b>Vendors Identified at Less Than 4%</b></span> </div><div> <span>Clear ForestFASTMondeca</span> </div><div> <span>Schemalogic</span> </div><div> <span>Convera</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="45"
+        v="16832"
+      />
+      <match u="14027" v="14028"><![CDATA[Convera</span> </div><div> <span>HummingbirdNstein</span> </div><div> <span>]]></match>
+      <post u="14027" v="14048"><![CDATA[Convera</span> </div><div> <span>HummingbirdNstein</span> </div><div> <span>SER</span> </div><div> <span>DocumentumInMagic</span> </div><div> <span>Open TextSoftware AG</span> </div><div> <span>Endeca</span> </div><div> <span>InterwovenOracle</span> </div><div> <span>Teragram</span> </div><div> <span>Entrieva (Semio)Lexis NexisPlumtree</span> </div><div> <span>Vignette</span> </div><div> <span>Factiva</span> </div><div> <span>Microsoft</span> </div><div> <span>Recommind</span> </div><div> <span><b>Taxonomy Software Suppliers—Market ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Identified at Less Than 4%</b></span> </div><div> <span>Clear ForestFASTMondeca</span> </div><div> <span>Schemalogic</span> </div><div> <span>Convera</span> </div><div> <span>HummingbirdNstein</span> </div><div> <span>SER</span> </div><div> <span>DocumentumInMagic</span> </div><div> <span>Open TextSoftware AG</span> </div><div> <span>Endeca</span> </div><div> <span>InterwovenOracle</span> </div><div> <span> ... ]]></content>
+</document>
+<document
+  url="http://sharepoint2007/Docs/Documents/Reports/Convera+Professional+Search+Survey+Summary+2006.pdf"
+  enqueued="/SRI8khH/MkFxloTl/tSgw=="
+  vse-key="http://sharepoint2007:80/Docs/Documents/Reports/Convera Professional Search Survey Summary 2006.pdf/"
+  input-at="1192866976" vertex="102" ct="application/vxml-unnormalized"
+  la-score="0.543134" vse-base-score="1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="15" v="20">http://sharepoint2007/Docs/Documents/Reports/Convera+</pre>
+      <content action="none" name="url" weight="1" u="14" v="26" />
+      <match u="20" v="21">Convera+Professional+</match>
+      <post u="20" v="26">Convera+Professional+Search+Survey+Summary+2006.pdf</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<binning id="sharepoint-2007" ndocs="10" mode="normal">
+  <binning-set bs-id="author" select="$author" label="Author" other-ndocs="1"
+    n-output-bins="1" n-total-bins="1" ndocs-not-output="0"
+  >
+    <bin label="SHAREPOINT2007\Administrator" ndocs="9"
+      token="author==SHAREPOINT2007\\Administrator" cndocs="9"
+    />
+  </binning-set>
+  <binning-set bs-id="filetype" select="$filetype" label="Filetype"
+    other-ndocs="1" n-output-bins="2" n-total-bins="2" ndocs-not-output="0"
+  >
+    <bin label="pdf" ndocs="8" token="filetype==pdf" cndocs="8" />
+    <bin label="doc" ndocs="1" token="filetype==doc" cndocs="9" />
+  </binning-set>
+  <binning-set bs-id="last-modified" select="$last-modified"
+    label="Last Modified Date" other-ndocs="0" n-output-bins="2" n-total-bins="2"
+    ndocs-not-output="0"
+  >
+    <binning-range interval="86400"
+      label-xpath="viv:if-else($high - $low > 86400, concat(date:month-in-year(viv:seconds-to-local-date-time(floor($low))), '/', date:day-in-month(viv:seconds-to-local-date-time(floor($low))), '/', date:year(viv:seconds-to-local-date-time(floor($low))), ' to ', date:month-in-year(viv:seconds-to-local-date-time(floor($high))), '/', date:day-in-month(viv:seconds-to-local-date-time(floor($high))), '/', date:year(viv:seconds-to-local-date-time(floor($high)))), concat(date:month-in-year(viv:seconds-to-local-date-time(floor($low))), '/', date:day-in-month(viv:seconds-to-local-date-time(floor($low))), '/', date:year(viv:seconds-to-local-date-time(floor($low)))))"
+      br-id="|86400|"
+    />
+    <bin label="4/16/2007" br-id="|86400|" ndocs="9" low="1176768000"
+      high="1176854400" token="last-modified=1176768000:1176854400"
+    />
+    <bin label="8/27/2007" br-id="|86400|" ndocs="1" low="1188259200"
+      high="1188345600" token="last-modified=1188259200:1188345600"
+    />
+  </binning-set>
+  <binning-state />
+</binning>
+</scope>

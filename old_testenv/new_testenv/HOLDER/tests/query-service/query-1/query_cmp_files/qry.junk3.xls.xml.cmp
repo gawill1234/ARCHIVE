@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="4" />
+<attribute name="cache-hits-content-retrieval" value="0" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="4" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document
+  vse-key="file://:80/testenv/test_data/spec_tests/smoke_test/searchdocs/junk3.xls/"
+  url="file:///testenv/test_data/spec_tests/smoke_test/searchdocs/junk3.xls"
+  vse-base-score="0.5" la-score="4.18965"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="567" v="578" />
+      <pre u="568" v="576">file:///testenv/test_data/spec_tests/smoke_test/searchdocs/</pre>
+      <match u="577" v="578">junk3.xls</match>
+      <post u="579" v="578"></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">
+  Raul Valdes-Perez                                                                                            B
+2  _("$"* #,##0_);_("$"* \(#,##0\);_("$"* "-"_);_(@_)  .
+)  _(* #,##0_);_(* \(#,##0\);_(* "-"_);_(@_)  ?
+:  _("$"* #,##0.00_);_("$"* \(#,##0.
+
+Vivisimo Korea   CellNetwork
+  CMU Community Connections   Mindcrossing	MediaSite
+Charlie  ... </content>
+</document>
+</scope>

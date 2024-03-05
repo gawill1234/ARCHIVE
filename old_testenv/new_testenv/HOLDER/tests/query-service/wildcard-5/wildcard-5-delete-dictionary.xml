@@ -1,0 +1,14 @@
+<application name="wildcard-5-delete-dictionary" modified-by="palmer@Vivisimo" max-elt-id="1" modified="1234455595">
+  <call-function name="util-print-http-headers">
+    <with name="type">text/plain</with>
+  </call-function>
+  <scope with-rights="admin-user">
+  <print>
+    <xml-to-text process="*">
+        <call-function name="dictionary-delete">
+          <with name="dictionary">wildcard-5-dictionary</with>
+        </call-function>
+    </xml-to-text>
+  </print>
+  </scope>
+</application>

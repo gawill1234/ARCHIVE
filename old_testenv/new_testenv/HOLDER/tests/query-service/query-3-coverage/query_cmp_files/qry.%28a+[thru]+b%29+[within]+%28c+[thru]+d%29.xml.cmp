@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="35" />
+<attribute name="stem" value="case" />
+<attribute name="stem2" value="english+depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="469" />
+<attribute name="retrieval-ms" value="20" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="1993" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="15" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="493" />
+<attribute name="cache-misses-text" value="28" />
+<attribute name="total-results-with-duplicates" value="37" />
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/Preambe_and_Bill_of_Rights.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/Preambe_and_Bill_of_Rights.pdf/"
+  filetype="pdf" vse-base-score="1.99398" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Preamble &amp; Bill of Rights.pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.5">
+      <content name="title" output-action="bold" weight="3" u="13" v="36" />
+      <pre u="14" v="16">Pre</pre>
+      <match u="17" v="18">am</match>
+      <post u="19" v="36">ble &amp; Bill of Rights.pdf</post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="37"
+        v="4269"
+      />
+      <pre u="547" v="566"><![CDATA[from following their</span> </div><div> <span>or ]]></pre>
+      <match u="567" v="568">ab</match>
+      <post u="569" v="588">ridging the freedom of s</post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="37"
+        v="4269"
+      />
+      <pre u="652" v="671"><![CDATA[make laws that stop</span> </div><div> <span>peac]]></pre>
+      <match u="672" v="673">ea</match>
+      <post u="674" v="693">bly to assemble, &amp;amp; to petit</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="37"
+        v="4269"
+      />
+      <pre u="653" v="672"><![CDATA[ake laws that stop</span> </div><div> <span>peace]]></pre>
+      <match u="673" v="674">ab</match>
+      <post u="675" v="694">ly to assemble, &amp;amp; to petiti</post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content action="none" name="url" weight="1" u="4270" v="4353" />
+      <pre u="4288" v="4307">ivisimo.com/testfiles/s</pre>
+      <match u="4308" v="4309">am</match>
+      <post u="4310" v="4329">ba_test_data/samba-2/doc/P</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... ree exercise thereof;</span> </div><div> <span>to stop people from following their</span> </div><div> <span>or abridging the freedom of speech, or</span> </div><div> <span>own religion.</span> </div><div> <span>of the press; or  ... right of the people</span> </div><div> <span>Congress cannot make laws that stop</span> </div><div> <span>peaceably to assemble, &amp; to petition</span> </div><div> <span>people from speaking &amp; writing</span> </div><div> <span>the  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/Files_that_failed_to_crawl"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/Files_that_failed_to_crawl/"
+  vse-base-score="1.74854" la-score="2.73003"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="13" v="952361" />
+      <pre u="562242" v="562261">41d7BODxv41dfNr0y8cn</pre>
+      <match u="562262" v="562263">a+B</match>
+      <post u="562264" v="562283">bBd6vKaVsWzAng
+zxgXt/m</post>
+    </solution>
+    <solution rank="1" score="0.75">
+      <content type="text" name="snippet" u="13" v="952361" />
+      <pre u="16028" v="16047">PuSlJIm5Tr41c50I68C7</pre>
+      <match u="16048" v="16049">a
+e</match>
+      <post u="16050" v="16069">baUUrRkrDZ0BcQHHfYzt</post>
+    </solution>
+    <solution rank="2" score="0.75">
+      <content type="text" name="snippet" u="13" v="952361" />
+      <pre u="16069" v="16088">tZStaQotqe7EF/5mm9f4/c</pre>
+      <match u="16089" v="16090">a+b</match>
+      <post u="16091" v="16110">vNKS4SWijjn0s0W2meF1</post>
+    </solution>
+    <solution rank="3" score="0.75">
+      <content type="text" name="snippet" u="13" v="952361" />
+      <pre u="71239" v="71258">PHcS5O4/SSxE1st3EvNG3</pre>
+      <match u="71259" v="71260">ab</match>
+      <post u="71261" v="71280">bftpi1kW7a7
+3aoIJBDQV</post>
+    </solution>
+    <solution rank="4" score="0.75">
+      <content type="text" name="snippet" u="13" v="952361" />
+      <pre u="73692" v="73711">LSULEkD2sFtLgy0lCSHn</pre>
+      <match u="73712" v="73713">a
+b</match>
+      <post u="73714" v="73733">NVZvlE/JdiwoMK0gIWCTC</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... jn0s0W2meF1gyfq3M/
+6IfT7TKd9nBgFiwqu6PwFYl/x ... kVRz/7Jn55vLNxfbYM74nM3Zsxx7bsRPHcS5O4/SSxE1st3EvNG3abbftpi1kW7a7
+3aoIJBDQVbXwVNDCAxLigX0AIUHhiRcE2oUXeOY ... o7REi0pJyWTgpxI8kvTKMXVZ8QdLJQ/LSULEkD2sFtLgy0lCSHna
+bNVZvlE/JdiwoMK0gIWCTCRZJmWchEvBBJx0en1TCyrX47SmEvDq ... Q+uejHchY589ysb93cwS3t1QTq8MD+NP41d7BODxv41dfNr0y8cna+BbBd6vKaVsWzAng
+zxgXt/me0ykjJi9TwrJ+rC3/mPQuXj87HsU8H43 ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/SuSE-Linux-Adminguide-9.2.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/SuSE-Linux-Adminguide-9.2.pdf/"
+  filetype="pdf" vse-base-score="1.49854" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">SUSE LINUX</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="23"
+        v="474632"
+      />
+      <pre u="4378" v="4397"><![CDATA[icks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 116</span> </div><div> <span>3.6.1</span> </div><div> <span>Creating ]]></pre>
+      <match u="4398" v="4399">a B</match>
+      <post u="4400" v="4419"><![CDATA[oot Disk in DOS . . . . . . . . . . . . . . . . . . 116</span> </div><div> <span>3.6.2</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="1" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="23"
+        v="474632"
+      />
+      <pre u="4408" v="4427"><![CDATA[n DOS . . . . . . . . . . . . . . . . . . 116</span> </div><div> <span>3.6.2</span> </div><div> <span>Creating ]]></pre>
+      <match u="4428" v="4429">a B</match>
+      <post u="4430" v="4449">oot Disk in a UNIX-Type Sy</post>
+    </solution>
+    <solution rank="2" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="23"
+        v="474632"
+      />
+      <pre u="6126" v="6145"><![CDATA[ement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 187</span> </div><div> <span>7.3</span> </div><div> <span>Selecting ]]></pre>
+      <match u="6146" v="6147">a B</match>
+      <post u="6148" v="6167"><![CDATA[oot Loader . . . . . . . . . . . . . . . . . . . . . . . . . . 188</span> </div><div> <span>7.4</span> </div><div> <span>Booti]]></post>
+    </solution>
+    <solution rank="3" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="23"
+        v="474632"
+      />
+      <pre u="6266" v="6285"><![CDATA[Shell . . . . . . . . . . . . . . . . . . . . . . . . . . 196</span> </div><div> <span>7.4.5</span> </div><div> <span>Setting ]]></pre>
+      <match u="6286" v="6287">a B</match>
+      <post u="6288" v="6307"><![CDATA[oot Password . . . . . . . . . . . . . . . . . . . . . 196</span> </div><div> <span>7.5</span> </div><div> <span>Con]]></post>
+    </solution>
+    <solution rank="4" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="23"
+        v="474632"
+      />
+      <pre u="9606" v="9625"><![CDATA[ooting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 300</span> </div><div> <span>14.5.1</span> </div><div> <span>PCMCI]]></pre>
+      <match u="9626" v="9627">A B</match>
+      <post u="9628" v="9647">ase System Does Not Work . . . . . . . . . . . . . </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... m a Network Source . . . . . . . . . . . . . . 116</span> </div><div> <span>3.6</span> </div><div> <span>Tips and Tricks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 116</span> </div><div> <span>3.6.1</span> </div><div> <span>Creating a Boot Disk in DOS . . . . . . . . . . . . . . . . . . 116</span> </div><div> <span>3.6.2</span> </div><div> <span>Creating a Boot Disk in a UNIX-Type Sy ... stem . . . . . . . . . 118</span> </div><div> <span>3.6.3</span> </div><div> <span>Booting from a Floppy  ... ing DOS or Windows . . . . . . . . . . . . . . . . . . . . 187</span> </div><div> <span>7.2</span> </div><div> <span>Boot Management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 187</span> </div><div> <span>7.3</span> </div><div> <span>Selecting a Boot Loader . . . . . . . . . . . . . . . . . . . . . . . . . . 188</span> </div><div> <span>7.4</span> </div><div> <span>Booting with GRUB . . . . . . . . . . . . . . . . . . . . . . . . . . . . 189</span> </div><div> <span>7.4.1</span> </div><div> <span>The GRUB Boot M ... File /etc/grub.conf . . . . . . . . . . . . . . . . . . . . . 195</span> </div><div> <span>7.4.4</span> </div><div> <span>The GRUB Shell . . . . . . . . . . . . . . . . . . . . . . . . . . 196</span> </div><div> <span>7.4.5</span> </div><div> <span>Setting a Boot Password . . . . . . . . . . . . . . . . . . . . . 196</span> </div><div> <span>7.5</span> </div><div> <span>Conﬁguring the Boot Loader with YaST . . . . . . . . . . . . . . . . 19 ... 9</span> </div><div> <span>14.4</span> </div><div> <span>Utilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 300</span> </div><div> <span>14.5</span> </div><div> <span>Troubleshooting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 300</span> </div><div> <span>14.5.1</span> </div><div> <span>PCMCIA Base System Does Not Work . . . . . . . . . . . . . 300</span> </div><div> <span>14.5.2</span> </div><div> <span>PCMCIA Card Does Not Work  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/SuSE-Linux-Userguide-9.2.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/SuSE-Linux-Userguide-9.2.pdf/"
+  filetype="pdf" vse-base-score="1.49854" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">SUSE LINUX</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="23"
+        v="356397"
+      />
+      <pre u="38616" v="38635">llows you to manage the t</pre>
+      <match u="38636" v="38637">ab</match>
+      <post u="38638" v="38657">bed subwindows&lt;br/>within t</post>
+    </solution>
+    <solution rank="1" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="23"
+        v="356397"
+      />
+      <pre u="38677" v="38696">ng a new tab or closing a t</pre>
+      <match u="38697" v="38698">ab, </match>
+      <post u="38699" v="38718">duplicating&lt;br/>an existin</post>
+    </solution>
+    <solution rank="2" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="23"
+        v="356397"
+      />
+      <pre u="38701" v="38720">plicating&lt;br/>an existing t</pre>
+      <match u="38721" v="38722">ab, </match>
+      <post u="38723" v="38742">or detaching a tab into a </post>
+    </solution>
+    <solution rank="3" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="23"
+        v="356397"
+      />
+      <pre u="38716" v="38735">ting tab, or detaching a t</pre>
+      <match u="38736" v="38737">ab </match>
+      <post u="38738" v="38757"><![CDATA[into a separate window.</span> </div><div> <span><b>‘H]]></post>
+    </solution>
+    <solution rank="4" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="23"
+        v="356397"
+      />
+      <pre u="38956" v="38975">mark. If you click an icon, </pre>
+      <match u="38976" v="38977">a b</match>
+      <post u="38978" v="38997">rief help text is displa</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... rizon-</span> </div><div> <span>tally and vertically. It also allows you to manage the tabbed subwindows<br/>within the main window by opening a new tab or  ... closing a tab, duplicating<br/>an existing tab, or detaching a tab into a separa ... te window.</span> </div><div> <span><b>‘Help’</b></span> </div><div> <span>Under the ‘Help’  ... menu, access the Ko ... er is then<br/>displayed with a question mark. If you click an icon, a brief help text is displayed<br/> (if there is one available). The ‘Hel ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/edaoob.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/edaoob.pdf/"
+  filetype="pdf" vse-base-score="1.49512" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Easysoft Data Access</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="232446"
+      />
+      <pre u="21464" v="21483"><![CDATA[gzipped</span> </div><div> <span>"</span> </div><div> <span>archive,.bz2</span> </div><div> <span>for ]]></pre>
+      <match u="21484" v="21485">a "b</match>
+      <post u="21486" v="21505"><![CDATA[zip2ed</span> </div><div> <span>" archive, or</span> </div><div> <span>.Z</span> </div><div> <span>for a "]]></post>
+    </solution>
+    <solution rank="1" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="232446"
+      />
+      <pre u="113115" v="113134">s (for example) and create </pre>
+      <match u="113135" v="113136">a b</match>
+      <post u="113137" v="113156"><![CDATA[lank database.</span> </div><div> <span>2. Select <b>F]]></post>
+    </solution>
+    <solution rank="2" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="232446"
+      />
+      <pre u="113781" v="113800"><![CDATA[he <b>Machine Data Source </b>t]]></pre>
+      <match u="113801" v="113802"><![CDATA[ab.</span> </div><div> <span>]]></match>
+      <post u="113803" v="113822">Find the local data sour</post>
+    </solution>
+    <solution rank="3" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="232446"
+      />
+      <pre u="137119" v="137138">f an application passes </pre>
+      <match u="137139" v="137140">a b</match>
+      <post u="137141" v="137160">uffer length smaller th</post>
+    </solution>
+    <solution rank="4" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="32"
+        v="232446"
+      />
+      <pre u="212345" v="212364">e, but when you introduce </pre>
+      <match u="212365" v="212366">a b</match>
+      <post u="212367" v="212386">ridge there&lt;br/>are in effec</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... mes may also be suffixed with.gz</span> </div><div> <span>for a "gzipped</span> </div><div> <span>"</span> </div><div> <span>archive,.bz2</span> </div><div> <span>for a "bzip2ed</span> </div><div> <span>" archive, or</span> </div><div> <span>.Z</span> </div><div> <span>for a "compressed"</span> </div><div> <span>archive.</span> </div><div> <span><b>NB</b></span> </div><div> <span>Select the hi ... his<br/>section.</span> </div><div> <span>1. Start Microsoft Access (for example) and create a blank database.</span> </div><div> <span>2. Select <b>File &gt; Get External Data &gt; Link Tables</b>.</span> </div><div> <span>Th ... box Machine Data Source tab</b></span> </div><div> <span>4. Click the <b>Machine Data Source </b>tab.</span> </div><div> <span>Find the local data source you created, somewhere in the list.  ... mation types from the<br/>application. If an application passes a buffer length smaller than the<br/>size of an SQLINTEGER or an SQL ... lled for a</span> </div><div> <span>driver on the local machine, but when you introduce a bridge there<br/>are in effect two levels of browsing. The first le ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/fedpaper.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/fedpaper.txt/"
+  vse-base-score="1.49854" la-score="2.60269"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.75">
+      <content type="text" name="snippet" u="13" v="803356" />
+      <pre u="19347" v="19366">oper and convenient for </pre>
+      <match u="19367" v="19368">a b</match>
+      <post u="19369" v="19388">and of brethren, united
+ t</post>
+    </solution>
+    <solution rank="1" score="0.75">
+      <content type="text" name="snippet" u="13" v="803356" />
+      <pre u="36806" v="36825">and, if the Scotch militi</pre>
+      <match u="36826" v="36827">a o</match>
+      <post u="36828" v="36847">beyed the
+ government of </post>
+    </solution>
+    <solution rank="2" score="0.75">
+      <content type="text" name="snippet" u="13" v="803356" />
+      <pre u="56999" v="57018">s des Negociations'' par 1'</pre>
+      <match u="57019" v="57020">Ab</match>
+      <post u="57021" v="57040">be de Mably.
+
+
+FEDERALIST. N</post>
+    </solution>
+    <solution rank="3" score="0.75">
+      <content type="text" name="snippet" u="13" v="803356" />
+      <pre u="76112" v="76131">uch impressions,
+ to make </pre>
+      <match u="76132" v="76133">a b</match>
+      <post u="76134" v="76153">old or effectual resist</post>
+    </solution>
+    <solution rank="4" score="0.75">
+      <content type="text" name="snippet" u="13" v="803356" />
+      <pre u="94057" v="94076">nay with greater reason, </pre>
+      <match u="94077" v="94078">a b</match>
+      <post u="94079" v="94098">ody
+ of men are unfit to be </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... rovidence, that an
+ inheritance so proper and convenient for a band of brethren, united
+ to each other by the strongest ties, sh ... litia
+ obeyed the government of England, if the Scotch militia obeyed the
+ government of Scotland, and if the Welsh militia ob ... uke of Marlborough.
+11 Vide ``Principes des Negociations'' par 1'Abbe de Mably.
+
+
+FEDERALIST. No. 7
+
+The Same Subject Continued
+(Conce ... cult to prevail upon a people under such impressions,
+ to make a bold or effectual resistance to usurpations supported by
+ th ... ly,
+ corrupt his integrity. With equal, nay with greater reason, a body
+ of men are unfit to be both judges and parties at the same t ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/SharePointTips.doc"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/SharePointTips.doc/"
+  filetype="doc" vse-base-score="1.43652" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Tips and Tricks for Using Microsoft Office SharePoint Portal Server 2003</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="76"
+        v="52548"
+      />
+      <pre u="1638" v="1657"><![CDATA[he <b>Description</b> box, type ]]></pre>
+      <match u="1658" v="1659">a b</match>
+      <post u="1660" v="1679">rief description of you</post>
+    </solution>
+    <solution rank="1" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="76"
+        v="52548"
+      />
+      <pre u="13343" v="13362">he description&lt;/b> box, type </pre>
+      <match u="13363" v="13364">a b</match>
+      <post u="13365" v="13384">rief description of the </post>
+    </solution>
+    <solution rank="2" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="76"
+        v="52548"
+      />
+      <pre u="16379" v="16398"><![CDATA[he<b>Description</b><b></b>box, type ]]></pre>
+      <match u="16399" v="16400">a b</match>
+      <post u="16401" v="16420">rief description of thi</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="76"
+        v="52548"
+      />
+      <pre u="796" v="815">int sites, may not be avai</pre>
+      <match u="816" v="817">la</match>
+      <post u="818" v="837">ble due to your company's </post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="76"
+        v="52548"
+      />
+      <pre u="797" v="816">nt sites, may not be avail</pre>
+      <match u="817" v="818">ab</match>
+      <post u="819" v="838">le due to your company's I</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... e ... easy for others to find your site.</p></li><li><p>In the <b>Description</b> box, type a brief description of your site. It should explain who uses the  ... he first item in the list.</p></li><li><p>In the <b>Type the description</b> box, type a brief description of the link.</p></li><li><p>If you want to include addition ... nal Settings for Column</b> section, in the<b>Description</b><b></b>box, type a brief description of this column.</p></li><li><p>If the column contains mand ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/magnacar.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/magnacar.txt/"
+  vse-base-score="1.43555" la-score="2.60269"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.75">
+      <content type="text" name="snippet" u="13" v="22407" />
+      <pre u="2104" v="2123">L100; the heir or heirs of </pre>
+      <match u="2124" v="2125">a b</match>
+      <post u="2126" v="2145">aron, L100 for a
+
+whole bar</post>
+    </solution>
+    <solution rank="1" score="0.75">
+      <content type="text" name="snippet" u="13" v="22407" />
+      <pre u="5756" v="5775">he archbishops, bishops, </pre>
+      <match u="5776" v="5777">ab</match>
+      <post u="5778" v="5797">bots,
+
+earls, and greater b</post>
+    </solution>
+    <solution rank="2" score="0.75">
+      <content type="text" name="snippet" u="13" v="22407" />
+      <pre u="14832" v="14851">service), and concerning </pre>
+      <match u="14852" v="14853">ab</match>
+      <post u="14854" v="14873">beys
+
+founded on other fi</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content type="text" name="snippet" u="13" v="22407" />
+      <pre u="3394" v="3413">ues of the land can reaso</pre>
+      <match u="3414" v="3415">na</match>
+      <post u="3416" v="3435">ble bear.
+
+
+
+6. Heirs shall be </post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content type="text" name="snippet" u="13" v="22407" />
+      <pre u="3395" v="3414">es of the land can reason</pre>
+      <match u="3415" v="3416">ab</match>
+      <post u="3417" v="3436">le bear.
+
+
+
+6. Heirs shall be m</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... rl, for the whole
+
+baroncy of an earl by L100; the heir or heirs of a baron, L100 for a
+
+whole barony; the heir or heirs of a knight, 100s,  ... s ... cutage, we will cause to be summoned the archbishops, bishops, abbots,
+
+earls, and greater barons, severally by our letters; and w ... ef
+
+which anyone held of us by knight's service), and concerning abbeys
+
+founded on other fiefs than our own, in which the lord of t ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/Magic_Quadrant_for_Information_Access_Technology2005_Gartner_.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/Magic_Quadrant_for_Information_Access_Technology2005_Gartner_.pdf/"
+  filetype="pdf" vse-base-score="1.37402" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Magic Quadrant for Information Access Technology, 2005</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="26397"
+      />
+      <pre u="6222" v="6241">on search technology to </pre>
+      <match u="6242" v="6243">a b</match>
+      <post u="6244" v="6263">roader field of informa</post>
+    </solution>
+    <solution rank="1" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="26397"
+      />
+      <pre u="21687" v="21706">e enterprise product to </pre>
+      <match u="21707" v="21708">a b</match>
+      <post u="21709" v="21728"><![CDATA[roader audience.</span> </div><div> <span><b>ZyLAB</b></span> </div><div> <span>Z]]></post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="26397"
+      />
+      <pre u="573" v="592">h. Gartner shall have no l</pre>
+      <match u="593" v="594">ia</match>
+      <post u="595" v="614">bility for errors, omiss</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="26397"
+      />
+      <pre u="574" v="593">Gartner shall have no li</pre>
+      <match u="594" v="595">ab</match>
+      <post u="596" v="615">ility for errors, omissi</post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="26397"
+      />
+      <pre u="1278" v="1297">rs in this market have ca</pre>
+      <match u="1298" v="1299">pa</match>
+      <post u="1300" v="1319">bilities that go&lt;br/>beyond </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... t ... nt for a number of reasons. Most vendors in this market have capabilities that go<br/>beyond search to encompass a collection of  ... ed</b></span> </div><div> <span>The shift from a specialist focus on search technology to a broader field of information access<br/>technology capabiliti ... te the visibility of its<br/>inexpensive enterprise product to a broader audience.</span> </div><div> <span><b>ZyLAB</b></span> </div><div> <span>ZyLAB's historical focus on managing  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/An%20Introduction%20to%20Heritrix.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/An Introduction to Heritrix.pdf/"
+  filetype="pdf" vse-base-score="1.24902" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">An Introduction to Heritrix An open source archival quality web crawler Abstract</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="83"
+        v="25200"
+      />
+      <pre u="19772" v="19791">ior one would expect for </pre>
+      <match u="19792" v="19793">a b</match>
+      <post u="19794" v="19813">road crawl if there is al</post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="83"
+        v="25200"
+      />
+      <pre u="553" v="572">source to encourage col</pre>
+      <match u="573" v="574">la</match>
+      <post u="575" v="594">boration and joint deve</post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="83"
+        v="25200"
+      />
+      <pre u="554" v="573">ource to encourage coll</pre>
+      <match u="574" v="575">ab</match>
+      <post u="576" v="595">oration and joint devel</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="83"
+        v="25200"
+      />
+      <pre u="1987" v="2006">en source to promote&lt;br/>col</pre>
+      <match u="2007" v="2008">la</match>
+      <post u="2009" v="2028">boration between insti</post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="83"
+        v="25200"
+      />
+      <pre u="1988" v="2007">n source to promote&lt;br/>coll</pre>
+      <match u="2008" v="2009">ab</match>
+      <post u="2010" v="2029">oration between instit</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... i ... d it was essential the software be open source to promote&lt;br/>collaboration between institutions interested in archiving the  ... es over time.&lt;br/>This is the type of behavior one would expect for a broad crawl if there is always a queue&lt;br/>of URIs in the frontier.&lt;/span> &lt;/div>&lt;div> &lt;span>C ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/Worldwide_Content_Access_Tools_Search_and_Retrieval_2005-2009_Forecast_and_2004_Vendor_Shares_IDC_.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/Worldwide_Content_Access_Tools_Search_and_Retrieval_2005-2009_Forecast_and_2004_Vendor_Shares_IDC_.pdf/"
+  filetype="pdf" vse-base-score="1.24902" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">MARKET ANALYSIS Worldwide Content Access Tools (Search and Retrieval) 2005–2009 Forecast and 2004 Vendor Shares</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.75">
+      <content name="snippet" weight="1" output-action="summarize" u="108"
+        v="34453"
+      />
+      <pre u="24491" v="24510"><![CDATA[ks</span> </div><div> <span>The housing market is ]]></pre>
+      <match u="24511" v="24512">a b</match>
+      <post u="24513" v="24532">ubble&lt;br/>waiting to happen. </post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="108"
+        v="34453"
+      />
+      <pre u="4114" v="4133">ly the stuff of research </pre>
+      <match u="4134" v="4135">la</match>
+      <post u="4136" v="4155">bs and hopeful start-up c</post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="108"
+        v="34453"
+      />
+      <pre u="4115" v="4134">y the stuff of research l</pre>
+      <match u="4135" v="4136">ab</match>
+      <post u="4137" v="4156">s and hopeful start-up co</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="108"
+        v="34453"
+      />
+      <pre u="4482" v="4501">estion answering&lt;br/>is  now  </pre>
+      <match u="4502" v="4504">a  ro</match>
+      <post u="4505" v="4524">bust  product  for  custom</post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="108"
+        v="34453"
+      />
+      <pre u="5591" v="5610"><![CDATA[ications</span> </div><div> <span># </span> </div><div> <span>Linguistic ca]]></pre>
+      <match u="5611" v="5612">pa</match>
+      <post u="5613" v="5632">bilities for parsing te</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... i ... suggestions for refining a query. Question answering<br/>is  now  a  robust  product  for  customer-facing  applications  such  as  call   ... r creating faceted navigation applications</span> </div><div> <span># </span> </div><div> <span>Linguistic capabilities for parsing text and extracting entities or conce ... utral</span> </div><div> <span>Certainty of</span> </div><div> <span>Assumption</span> </div><div> <span>Stocks</span> </div><div> <span>The housing market is a bubble<br/>waiting to happen. There is a<br/>moderate risk that the bub ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/iroquois.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/iroquois.txt/"
+  vse-base-score="1.24902" la-score="2.60269"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.75">
+      <content type="text" name="snippet" u="13" v="55435" />
+      <pre u="37921" v="37940">nd a messenger carrying </pre>
+      <match u="37941" v="37942">a b</match>
+      <post u="37943" v="37962">road belt of black shell</post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content type="text" name="snippet" u="13" v="55435" />
+      <pre u="1246" v="1265">ng Leaves an 
+Eagle who is </pre>
+      <match u="1266" v="1267">ab</match>
+      <post u="1268" v="1287">le to see afar.  If he sees i</post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content type="text" name="snippet" u="13" v="55435" />
+      <pre u="20191" v="20210">ion assist with special </pre>
+      <match u="20211" v="20212">ab</match>
+      <post u="20213" v="20232">ility 
+or show great inte</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content type="text" name="snippet" u="13" v="55435" />
+      <pre u="24703" v="24722">estow it, or if such heirs </pre>
+      <match u="24723" v="24724">ab</match>
+      <post u="24725" v="24744">andon, forsake or despis</post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content type="text" name="snippet" u="13" v="55435" />
+      <pre u="27062" v="27081">at Law, which they have es</pre>
+      <match u="27082" v="27083">ta</match>
+      <post u="27084" v="27103">blished.
+     A bunch of shell </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... ee Chiefs
+
+35.  Should any man of the Nation assist with special ability 
+or show great interest in the affairs of the Nation, if h ... rdship or other title and refuse to 
+bestow it, or if such heirs abandon, forsake or despise their 
+heritage, then shall such wom ... y or union called 
+the Union of the Great Law, which they have established.
+     A bunch of shell strings is to be the symbol of the 
+cou ... rds of the Five Nations at 
+will may send a messenger carrying a broad belt of black shells 
+and when the messenger arrives he s ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/doi_rough.htm"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/doi_rough.htm/"
+  vse-base-score="0.999023" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Thomas Jefferson: Original Rough Draft of the Declaration of Independence</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="77"
+        v="8541"
+      />
+      <pre u="1402" v="1421">hat
+governments long es</pre>
+      <match u="1422" v="1423">ta</match>
+      <post u="1424" v="1443">blished should not be ch</post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="77"
+        v="8541"
+      />
+      <pre u="1403" v="1422">at
+governments long est</pre>
+      <match u="1423" v="1424">ab</match>
+      <post u="1425" v="1444">lished should not be cha</post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="77"
+        v="8541"
+      />
+      <pre u="1733" v="1752">esign to subject them to </pre>
+      <match u="1753" v="1754">ar</match>
+      <post u="1755" v="1774">bitrary
+power, it is thei</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="77"
+        v="8541"
+      />
+      <pre u="2915" v="2934">egislative powers, inca</pre>
+      <match u="2935" v="2936">pa</match>
+      <post u="2937" v="2956">ble of annihilation, hav</post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="77"
+        v="8541"
+      />
+      <pre u="2916" v="2935">gislative powers, incap</pre>
+      <match u="2936" v="2937">ab</match>
+      <post u="2938" v="2957">le of annihilation, have </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... ness. prudence indeed will dictate that
+governments long established should not be changed for light &amp;amp; transient
+causes: and  ... variably the same object, evinces a design to subject them to arbitrary
+power, it is their right, it is their duty, to throw off s ... se others to be elected,
+whereby the legislative powers, incapable of annihilation, have returned to the
+people at large for t ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/us_doi.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/us_doi.pdf/"
+  filetype="pdf" vse-base-score="0.999023" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Declaration of Independence</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="39"
+        v="7658"
+      />
+      <pre u="557" v="576">tor with certain unalie</pre>
+      <match u="577" v="578">na</match>
+      <post u="579" v="598">ble Rights, that among th</post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="39"
+        v="7658"
+      />
+      <pre u="558" v="577">or with certain unalien</pre>
+      <match u="578" v="579">ab</match>
+      <post u="580" v="599">le Rights, that among the</post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="39"
+        v="7658"
+      />
+      <pre u="1026" v="1045">hat Governments long es</pre>
+      <match u="1046" v="1047">ta</match>
+      <post u="1048" v="1067">blished should not be ch</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="39"
+        v="7658"
+      />
+      <pre u="1027" v="1046">at Governments long est</pre>
+      <match u="1047" v="1048">ab</match>
+      <post u="1049" v="1068">lished should not be cha</post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="39"
+        v="7658"
+      />
+      <pre u="2276" v="2295">laces unusual, uncomfor</pre>
+      <match u="2296" v="2297">ta</match>
+      <post u="2298" v="2317">ble, and distant&lt;br/>from the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... l, that they are endowed by&lt;br/>their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit&lt;br/>o ... ness. Prudence,&lt;br/>indeed, will dictate that Governments long established should not be changed for light and&lt;br/>transient causes;  ... ed together legislative bodies at places unusual, uncomfortable, and distant&lt;br/>from the depository of their public Records,  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/vse-crawler-seed-smb.xml"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/vse-crawler-seed-smb.xml/"
+  filetype="rtf" vse-base-score="0.999023" la-score="2.73003"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="13"
+        v="2083"
+      />
+      <pre u="401" v="420"><![CDATA[re type="string" name="port"&gt;</p><p>
+     &lt;]]></pre>
+      <match u="421" v="422">la</match>
+      <post u="423" v="442"><![CDATA[bel name="label"&gt;Port&lt;/labe]]></post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="13"
+        v="2083"
+      />
+      <pre u="402" v="421"><![CDATA[e type="string" name="port"&gt;</p><p>
+     &lt;l]]></pre>
+      <match u="422" v="423">ab</match>
+      <post u="424" v="443"><![CDATA[el name="label"&gt;Port&lt;/label&gt;</p><p>
+     &lt;]]></post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="13"
+        v="2083"
+      />
+      <pre u="410" v="429"><![CDATA[ing" name="port"&gt;</p><p>
+     &lt;label name="]]></pre>
+      <match u="430" v="431">la</match>
+      <post u="432" v="451"><![CDATA[bel"&gt;Port&lt;/label&gt;</p><p>
+     &lt;descript]]></post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="13"
+        v="2083"
+      />
+      <pre u="411" v="430"><![CDATA[ng" name="port"&gt;</p><p>
+     &lt;label name="l]]></pre>
+      <match u="431" v="432">ab</match>
+      <post u="433" v="452"><![CDATA[el"&gt;Port&lt;/label&gt;</p><p>
+     &lt;descripti]]></post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="13"
+        v="2083"
+      />
+      <pre u="419" v="438"><![CDATA[rt"&gt;</p><p>
+     &lt;label name="label"&gt;Port&lt;/]]></pre>
+      <match u="439" v="440">la</match>
+      <post u="441" v="460"><![CDATA[bel&gt;</p><p>
+     &lt;description name="de]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... ode&gt;</p><p>
+         &lt;/li&gt;</p><p>
+       &lt;/ul&gt;</p><p>
+&lt;/description&gt;</p><p>
+   &lt;/declare&gt;</p><p>
+   &lt;declare type="string" name="port"&gt;</p><p>
+     &lt;label name="label"&gt;Port&lt;/label&gt;</p><p>
+     &lt;description name="description"&gt;If th ... e server op ... erates on  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/oracle10g-quick-install-linux.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/oracle10g-quick-install-linux.pdf/"
+  filetype="pdf" vse-base-score="0.999023" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Oracle® Database</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="31702"
+      />
+      <pre u="1147" v="1166">llowing notice is appli</pre>
+      <match u="1167" v="1168">ca</match>
+      <post u="1169" v="1188"><![CDATA[ble:</span> </div><div> <span>U.S. GOVERNMENT RIGHTS ]]></post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="31702"
+      />
+      <pre u="1148" v="1167">lowing notice is applic</pre>
+      <match u="1168" v="1169">ab</match>
+      <post u="1170" v="1189"><![CDATA[le:</span> </div><div> <span>U.S. GOVERNMENT RIGHTS P]]></post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="31702"
+      />
+      <pre u="1336" v="1355">ta"&lt;br/>pursuant to the appli</pre>
+      <match u="1356" v="1357">ca</match>
+      <post u="1358" v="1377">ble Federal Acquisitio</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="31702"
+      />
+      <pre u="1337" v="1356">a"&lt;br/>pursuant to the applic</pre>
+      <match u="1357" v="1358">ab</match>
+      <post u="1359" v="1378">le Federal Acquisition </post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="28"
+        v="31702"
+      />
+      <pre u="1619" v="1638">t,&lt;br/>and, to the extent appli</pre>
+      <match u="1639" v="1640">ca</match>
+      <post u="1641" v="1660">ble, the additional righ</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... the United States Government, the following notice is applicable:&lt;/span> &lt;/div>&lt;div> &lt;span>U.S. GOVERNMENT RIGHTS Programs, software, databases, and rel ... oftware" or "commercial technical data"&lt;br/>pursuant to the applicable Federal Acquisition Regulation and agency-specific sup ... pplicable Oracle license agreement,&lt;br/>and, to the extent applicable, the additional rights set forth in FAR 52.227-19, Commerc ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/constitution.doc"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/constitution.doc/"
+  filetype="rtf" vse-base-score="0.999023" la-score="2.73003"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="13"
+        v="36165"
+      />
+      <pre u="14559" v="14578">he Senate, shall appoint </pre>
+      <match u="14579" v="14580">Am</match>
+      <post u="14581" v="14600">bassadors, other public </post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="13"
+        v="36165"
+      />
+      <pre u="14725" v="14744">for, and which shall be es</pre>
+      <match u="14745" v="14746">ta</match>
+      <post u="14747" v="14766">blished by Law: but the Co</post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="13"
+        v="36165"
+      />
+      <pre u="14726" v="14745">or, and which shall be est</pre>
+      <match u="14746" v="14747">ab</match>
+      <post u="14748" v="14767">lished by Law: but the Con</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="13"
+        v="36165"
+      />
+      <pre u="15369" v="15388">proper; he shall receive </pre>
+      <match u="15389" v="15390">Am</match>
+      <post u="15391" v="15410">bassadors and other pub</post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="13"
+        v="36165"
+      />
+      <pre u="16196" v="16215">y; — to all Cases affecting </pre>
+      <match u="16216" v="16217">Am</match>
+      <post u="16218" v="16237">bassadors, other public </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... y and with the Advice and Consent of the Senate, shall appoint Ambassadors, other public Ministers and Consuls, Judges of the  ... s are not herein otherwise provided for, and which shall be established by Law: but the Congress may by Law vest the Appointmen ... rn them to such Time as he shall think proper; he shall receive Ambassadors and other public Ministers; he shall take Care tha ... h shall be made, under their Authority; — to all Cases affecting Ambassadors, other public Ministers and Consuls; — to all Cases o ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/constitution.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/constitution.pdf/"
+  filetype="pdf" vse-base-score="0.999023" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">CONSTITUTION</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="26"
+        v="41703"
+      />
+      <pre u="14750" v="14769">he Senate, shall appoint&lt;br/></pre>
+      <match u="14770" v="14771">Am</match>
+      <post u="14772" v="14791">bassadors, other public </post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="26"
+        v="41703"
+      />
+      <pre u="14916" v="14935">for, and which shall be es</pre>
+      <match u="14936" v="14937">ta</match>
+      <post u="14938" v="14957">blished by Law: but&lt;br/>the Co</post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="26"
+        v="41703"
+      />
+      <pre u="14917" v="14936">or, and which shall be est</pre>
+      <match u="14937" v="14938">ab</match>
+      <post u="14939" v="14958">lished by Law: but&lt;br/>the Con</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="26"
+        v="41703"
+      />
+      <pre u="15560" v="15579">proper; he shall receive </pre>
+      <match u="15580" v="15581">Am</match>
+      <post u="15582" v="15601">bassadors and other&lt;br/>pub</post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="26"
+        v="41703"
+      />
+      <pre u="16417" v="16436">y; - to all Cases affecting </pre>
+      <match u="16437" v="16438">Am</match>
+      <post u="16439" v="16458">bassadors,&lt;br/> other public </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... y and&lt;br/>with the Advice and Consent of the Senate, shall appoint&lt;br/>Ambassadors, other public Ministers and Consuls, Judges&lt;br/>of the  ... s are not herein otherwise&lt;br/>provided for, and which shall be established by Law: but&lt;br/>the Congress may by Law vest the Appointmen ... rn them to such Time as he&lt;br/>shall think proper; he shall receive Ambassadors and other&lt;br/>public Ministers; he shall take Care tha ... h shall be made,&lt;br/>under their Authority; - to all Cases affecting Ambassadors,&lt;br/> other public Ministers and Consuls; - to all Cases o ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/03-AccessB.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/03-AccessB.pdf/"
+  filetype="pdf" vse-base-score="0.999023" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Data Structures, Algorithms and Implementation Issues Overview</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="69"
+        v="16073"
+      />
+      <pre u="1565" v="1584"><![CDATA[ent vector</b></span> </div><div> <span>– Information ]]></pre>
+      <match u="1585" v="1586">ab</match>
+      <post u="1587" v="1606">out every term in a docum</post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="69"
+        v="16073"
+      />
+      <pre u="2560" v="2579"><![CDATA[,427, …</span> </div><div> <span>•</span> </div><div> <span>Case conversion  (e.g., “]]></pre>
+      <match u="2580" v="2581">Ta</match>
+      <post u="2582" v="2601"><![CDATA[ble”“table”, “Apple”</span> </div><div> <span>“apple”)</span> </div><div> <span>•</span> </div><div> <span>Di]]></post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="69"
+        v="16073"
+      />
+      <pre u="2561" v="2580"><![CDATA[427, …</span> </div><div> <span>•</span> </div><div> <span>Case conversion  (e.g., “T]]></pre>
+      <match u="2581" v="2582">ab</match>
+      <post u="2583" v="2602"><![CDATA[le”“table”, “Apple”</span> </div><div> <span>“apple”)</span> </div><div> <span>•</span> </div><div> <span>Dis]]></post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="69"
+        v="16073"
+      />
+      <pre u="2565" v="2584">ase conversion  (e.g., “Table”“</pre>
+      <match u="2585" v="2586">ta</match>
+      <post u="2587" v="2606"><![CDATA[ble”, “Apple”</span> </div><div> <span>“apple”)</span> </div><div> <span>•</span> </div><div> <span>Discard ]]></post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="69"
+        v="16073"
+      />
+      <pre u="2566" v="2585">se conversion  (e.g., “Table”“t</pre>
+      <match u="2586" v="2587">ab</match>
+      <post u="2588" v="2607"><![CDATA[le”, “Apple”</span> </div><div> <span>“apple”)</span> </div><div> <span>•</span> </div><div> <span>Discard s]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... each term occurs in the corpus</span> </div><div> <span>•</span> </div><div> <span><b>Document vector</b></span> </div><div> <span>– Information about every term in a document</span> </div><div> <span>•</span> </div><div> <span><b>Field mask (maybe)</b></span> </div><div> <span>– Information ab ... s</span> </div><div> <span>– E.g., Apple, AT&amp;T, drive-in, 527-4701, $1,110,427, …</span> </div><div> <span>•</span> </div><div> <span>Case conversion  (e.g., “Table”“table”, “Apple”</span> </div><div> <span>“apple”)</span> </div><div> <span>•</span> </div><div> <span>Discard stopwords</span> </div><div> <span>•</span> </div><div> <span>Stem tokens</span> </div><div> <span>•</span> </div><div> <span>Count to ... ken oc ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/emancipation-proclamation_files/styles.css"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/emancipation-proclamation_files/styles.css/"
+  vse-base-score="0.890088" la-score="3.13549"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content type="text" name="snippet" u="13" v="1477" />
+      <pre u="447" v="466">eva, Swiss, SunSans-Regul</pre>
+      <match u="467" v="469">ar }
+
+b { </match>
+      <post u="470" v="489">font-weight: bold }
+i {font-s</post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content type="text" name="snippet" u="13" v="1477" />
+      <pre u="603" v="622">pnavblue:active,a.skipn</pre>
+      <match u="623" v="624">av</match>
+      <post u="625" v="644">blue:visited {color: #0000</post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content action="none" name="url" weight="1" u="1478" v="1574" />
+      <pre u="1496" v="1515">ivisimo.com/testfiles/s</pre>
+      <match u="1516" v="1517">am</match>
+      <post u="1518" v="1537">ba_test_data/samba-2/doc/e</post>
+    </solution>
+    <solution rank="3" score="0.0769231">
+      <content type="text" name="snippet" u="13" v="1477" />
+      <pre u="118" v="137">eva, Swiss, SunSans-Regul</pre>
+      <match u="138" v="150">ar; font-weight: b</match>
+      <post u="151" v="170">old }
+p { font-size: 12px; font-</post>
+    </solution>
+    <solution rank="4" score="0.0769231">
+      <content type="text" name="snippet" u="13" v="1477" />
+      <pre u="1340" v="1359">ize: 13px;
+	font-style: norm</pre>
+      <match u="1360" v="1372">al;
+	font-weight: b</match>
+      <post u="1373" v="1392">old;
+	color: #000066;
+	line-he</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... 2px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+
+b { font-weight: bold }
+i {font-style: italic}
+
+a:link { color: #000066 }
+a:vis ... ipnavblue,a.skipnavblue:hover,a.skipnavblue:active,a.skipnavblue:visited {color: #000066; font-size: 1px; text-decoration: non ... ly: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000066;
+	line-height: 15px;
+
+}
+.RedHead {
+	font-family: Arial,  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/bill_rights.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/bill_rights.pdf/"
+  filetype="pdf" vse-base-score="0.971253" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Constitution of the United States : Bill of Rights</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="55"
+        v="2633"
+      />
+      <pre u="211" v="230">ree exercise thereof; or </pre>
+      <match u="231" v="232">ab</match>
+      <post u="233" v="252">ridging the freedom of s</post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="55"
+        v="2633"
+      />
+      <pre u="275" v="294">right of the people peac</pre>
+      <match u="295" v="296">ea</match>
+      <post u="297" v="316">bly to assemble, and to pe</post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="55"
+        v="2633"
+      />
+      <pre u="276" v="295">ight of the people peace</pre>
+      <match u="296" v="297">ab</match>
+      <post u="298" v="317">ly to assemble, and to pet</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content action="none" name="url" weight="1" u="2634" v="2705" />
+      <pre u="2652" v="2671">ivisimo.com/testfiles/s</pre>
+      <match u="2672" v="2673">am</match>
+      <post u="2674" v="2693">ba_test_data/samba-2/doc/b</post>
+    </solution>
+    <solution rank="4" score="0.333333">
+      <content name="snippet" weight="1" output-action="summarize" u="55"
+        v="2633"
+      />
+      <pre u="1540" v="1559"><![CDATA[o a speedy and</span> </div><div> <span>public tri]]></pre>
+      <match u="1560" v="1562">al, b</match>
+      <post u="1563" v="1582">y an impartial jury of th</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... ent  of  religion,  or</span> </div><div> <span>prohibiting the free exercise thereof; or abridging the freedom of speech, or of</span> </div><div> <span>the press; or the right of t ... he people peaceably to assemble, and to petition the</span> </div><div> <span>Government for a redress o ... s, the accused shall enjoy the right to a speedy and</span> </div><div> <span>public trial, by an impartial jury of the State and district wherein the cri ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/const_quotes.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/const_quotes.txt/"
+  vse-base-score="0.999023" la-score="2.60269"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content type="text" name="snippet" u="13" v="7766" />
+      <pre u="707" v="726">ed to be 
+
+without effect;... -- M</pre>
+      <match u="727" v="728">ar</match>
+      <post u="729" v="748">bury v. Madison, 5 U.S. 137, 174 (</post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content type="text" name="snippet" u="13" v="7766" />
+      <pre u="1128" v="1147">ct through the 
+
+organs es</pre>
+      <match u="1148" v="1149">ta</match>
+      <post u="1150" v="1169">blished by the Constitu</post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content type="text" name="snippet" u="13" v="7766" />
+      <pre u="1129" v="1148">t through the 
+
+organs est</pre>
+      <match u="1149" v="1150">ab</match>
+      <post u="1151" v="1170">lished by the Constitut</post>
+    </solution>
+    <solution rank="3" score="0.5">
+      <content type="text" name="snippet" u="13" v="7766" />
+      <pre u="4422" v="4441">of a constitution are un</pre>
+      <match u="4442" v="4443">am</match>
+      <post u="4444" v="4463">biguous and in their com</post>
+    </solution>
+    <solution rank="4" score="0.5">
+      <content type="text" name="snippet" u="13" v="7766" />
+      <pre u="4948" v="4967">weight in construing 
+
+an </pre>
+      <match u="4968" v="4969">am</match>
+      <post u="4970" v="4989">biguous or doubtful pro</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... lause in the constitution is intended to be 
+
+without effect;... -- Marbury v. Madison, 5 U.S. 137, 174 (1803). 
+
+
+
+The Constitution is a written i ... ereignty resides in the people, who act through the 
+
+organs established by the Constitution. -- Chisholm v. Georgia, 2 Dall 419, 
+
+471;  ... k vs. Iverson, 122, N.M. 251.
+
+
+
+Where the words of a constitution are unambiguous and in their commonly 
+
+received sense lead to a reaso ... rcise of power, is entitled to a great weight in construing 
+
+an ambiguous or doubtful provision, but is entitled to no weight i ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/emancipation-proclamation.html"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/emancipation-proclamation.html/"
+  vse-base-score="0.899414" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Featured Documents</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="31"
+        v="3843"
+      />
+      <pre u="2131" v="2150">w Orleans) Mississippi, A</pre>
+      <match u="2151" v="2152">la</match>
+      <post u="2153" v="2172">bama, Florida,
+Georgia, So</post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="31"
+        v="3843"
+      />
+      <pre u="2132" v="2151">Orleans) Mississippi, Al</pre>
+      <match u="2152" v="2153">ab</match>
+      <post u="2154" v="2173">ama, Florida,
+Georgia, Sou</post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content action="none" name="url" weight="1" u="3844" v="3930" />
+      <pre u="3862" v="3881">ivisimo.com/testfiles/s</pre>
+      <match u="3882" v="3883">am</match>
+      <post u="3884" v="3903">ba_test_data/samba-2/doc/e</post>
+    </solution>
+    <solution rank="3" score="0.125">
+      <content name="snippet" weight="1" output-action="summarize" u="31"
+        v="3843"
+      />
+      <pre u="939" v="958">hereof, respectively, sh</pre>
+      <match u="959" v="966">all then b</match>
+      <post u="967" v="986">e in rebellion
+against t</post>
+    </solution>
+    <solution rank="4" score="0.0833333">
+      <content name="snippet" weight="1" output-action="summarize" u="31"
+        v="3843"
+      />
+      <pre u="1969" v="1988">s, Louisiana, (except the P</pre>
+      <match u="1989" v="2000">arishes of St. B</match>
+      <post u="2001" v="2020">ernard,
+Plaquemines, Jef</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... s, the following, to wit:
+&lt;p> Arkansas, Texas, Louisiana, (except the Parishes of St. Bernard,
+Plaquemines, Jefferson, St. John, St. Charles, St. James As ... and Orleans,
+including the City of New Orleans) Mississippi, Alabama, Florida,
+Georgia, South Carolina, North Carolina, and Virg ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/gncaddress.htm"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/gncaddress.htm/"
+  vse-base-score="0.875" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">The Gettysburg Address</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="34"
+        v="1485"
+      />
+      <pre u="151" v="170">to dedicate the newly
+es</pre>
+      <match u="171" v="172">ta</match>
+      <post u="173" v="192">blished "Soldiers Natio</post>
+    </solution>
+    <solution rank="1" score="0.5">
+      <content name="snippet" weight="1" output-action="summarize" u="34"
+        v="1485"
+      />
+      <pre u="152" v="171">o dedicate the newly
+est</pre>
+      <match u="172" v="173">ab</match>
+      <post u="174" v="193">lished "Soldiers Nation</post>
+    </solution>
+    <solution rank="2" score="0.5">
+      <content action="none" name="url" weight="1" u="1486" v="1557" />
+      <pre u="1504" v="1523">ivisimo.com/testfiles/s</pre>
+      <match u="1524" v="1525">am</match>
+      <post u="1526" v="1545">ba_test_data/samba-2/doc/g</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"> ... to the crowd gathered at Gettysburg to dedicate the newly
+established "Soldiers National Cemetery". Here is the first draft o ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/federa00.htm"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/federa00.htm/"
+  vse-base-score="0.789062" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">The Federalist - Contents</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="6922" v="6991" />
+      <pre u="6940" v="6959">ivisimo.com/testfiles/s</pre>
+      <match u="6960" v="6961">am</match>
+      <post u="6962" v="6981">ba_test_data/samba-2/doc/f</post>
+    </solution>
+    <solution rank="1" score="0.333333">
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="6921"
+      />
+      <pre u="427" v="446">d)", so that each document c</pre>
+      <match u="447" v="449">an b</match>
+      <post u="450" v="469">etter
+		stand alone. We hav</post>
+    </solution>
+    <solution rank="2" score="0.333333">
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="6921"
+      />
+      <pre u="767" v="786">h as
+		all caps or italics, h</pre>
+      <match u="787" v="789">as b</match>
+      <post u="790" v="809">een used here. We have tri</post>
+    </solution>
+    <solution rank="3" score="0.25">
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="6921"
+      />
+      <pre u="165" v="184">lling and punctuation h</pre>
+      <match u="185" v="188">ave b</match>
+      <post u="189" v="208">een modernized, and
+		some </post>
+    </solution>
+    <solution rank="4" score="0.125">
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="6921"
+      />
+      <pre u="5273" v="5292"><![CDATA[788</td><td>Feb</td><td>20</td><td>M</td><td>Objection Th]]></pre>
+      <match u="5293" v="5300">at The Num</match>
+      <post u="5301" v="5320">ber of Members Will Not B</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... ious heading and appended "(continued)", so that each document can better
+		stand alone. We have been guided by the excellent editi ... al typography used for emphasis, such as
+		all caps or italics, has been used here. We have tried to identify the date of
+		earliest a ... nnection with Representation</td>  <td><a>58</a></td><td>J</td><td>1788</td><td>Feb</td><td>20</td><td>M</td><td>Objection That The Number of Members Will Not Be Augmented as the
+			 Progress of Popul ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/programming_basics.ppt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/programming_basics.ppt/"
+  filetype="ppt" vse-base-score="0.763731" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Basic Programming</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="3114" v="3192" />
+      <pre u="3132" v="3151">ivisimo.com/testfiles/s</pre>
+      <match u="3152" v="3153">am</match>
+      <post u="3154" v="3173">ba_test_data/samba-2/doc/p</post>
+    </solution>
+    <solution rank="1" score="0.333333">
+      <content name="snippet" weight="1" output-action="summarize" u="30"
+        v="3113"
+      />
+      <pre u="661" v="680"><![CDATA[gram</span><br/><span>Hardware control c]]></pre>
+      <match u="681" v="683">an b</match>
+      <post u="684" v="703">e provided by other prog</post>
+    </solution>
+    <solution rank="2" score="0.25">
+      <content name="snippet" weight="1" output-action="summarize" u="30"
+        v="3113"
+      />
+      <pre u="2618" v="2637"><![CDATA[tests</span><br/><span>Too many comments ]]></pre>
+      <match u="2638" v="2641">are b</match>
+      <post u="2642" v="2661"><![CDATA[etter than too few</span><br/><span>Use er]]></post>
+    </solution>
+    <solution rank="3" score="0.2">
+      <content name="snippet" weight="1" output-action="summarize" u="30"
+        v="3113"
+      />
+      <pre u="251" v="270"><![CDATA[mbled</span><br/><span>Compiled</span><br/><span>Scripts</span><br/><hr/><span>]]></pre>
+      <match u="271" v="275">Assem</match>
+      <post u="276" v="295"><![CDATA[bled</span><br/><p/><span>CAL, Compass, Assemb]]></post>
+    </solution>
+    <solution rank="4" score="0.111111">
+      <content name="snippet" weight="1" output-action="summarize" u="30"
+        v="3113"
+      />
+      <pre u="627" v="646"><![CDATA[ecution</span><br/><span>A program step m]]></pre>
+      <match u="647" v="655">ay itself b</match>
+      <post u="656" v="675"><![CDATA[e a program</span><br/><span>Hardware con]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... cripts</span><br/><p/><span>csh, tsh, tcl, ksh</span><br/><span>Much slower execution</span><br/><span>A program step may itself be a program</span><br/><span>Hardware control can be provided by other progra ... ion</span><br/><span>A program step may itself be a program</span><br/><span>Hardware control can be provided by other programs</span><br/><span>Easy to write</span><br/><span>Easy to extend</span><br/><hr/><span>Bas ... gram documentation is good, even for tests</span><br/><span>Too many comments are better than too few</span><br/><span>Use error handling procedures</span><br/><span>Use status/ ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/automation.ppt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/automation.ppt/"
+  filetype="ppt" vse-base-score="0.63125" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Automation</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="2899" v="2970" />
+      <pre u="2917" v="2936">ivisimo.com/testfiles/s</pre>
+      <match u="2937" v="2938">am</match>
+      <post u="2939" v="2958">ba_test_data/samba-2/doc/a</post>
+    </solution>
+    <solution rank="1" score="0.2">
+      <content name="snippet" weight="1" output-action="summarize" u="24"
+        v="2898"
+      />
+      <pre u="2629" v="2648"><![CDATA[and check your results.</span><br/><hr/><span>C]]></pre>
+      <match u="2649" v="2653">an it b</match>
+      <post u="2654" v="2673"><![CDATA[e done?</span><br/><p/><span>That depends on th]]></post>
+    </solution>
+    <solution rank="2" score="0.125">
+      <content name="snippet" weight="1" output-action="summarize" u="24"
+        v="2898"
+      />
+      <pre u="595" v="614"><![CDATA[tion coverage</span><br/><hr/><span>Memory An]]></pre>
+      <match u="615" v="622"><![CDATA[alyzers</span><br/><p/><span>B]]></match>
+      <post u="623" v="642"><![CDATA[ounds checking</span><br/><span>Memory l]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... d walk away.  Come back after some time and check your results.</span><br/><hr/><span>Can it be done?</span><br/><p/><span>That depends on the person writing the tests.</span><br/><span>You need a  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/kelly-dbtest-postgres.xml"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/kelly-dbtest-postgres.xml/"
+  vse-base-score="0.625" la-score="2.73003"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="326" v="406" />
+      <pre u="344" v="363">ivisimo.com/testfiles/s</pre>
+      <match u="364" v="365">am</match>
+      <post u="366" v="385">ba_test_data/samba-2/doc/k</post>
+    </solution>
+    <solution rank="1" score="0.25">
+      <content name="snippet" output-action="summarize" u="13" v="325" />
+      <pre u="300" v="319"><![CDATA[r]]]><![CDATA[]></xsl:attribute>
+   <xsl:apply-templates select="@* | * | text() | comment()" mode="copy" />
+</xsl:copy>
+</xsl:template>
+
+<!-- End specialty nodes -->
+
+<xsl:template match="@* | text() | comment()" mode="copy">
+ <xsl:copy />
+</xsl:template>
+
+<!-- Default action, keep recursing and copying -->
+<xsl:template match="*" mode="copy">
+ <xsl:copy>
+   <xsl:apply-templates select="@* | * | text() | comment()" mode="copy" />
+ </xsl:copy>
+</xsl:template>
+
+</parser></converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter />
+  <converter />
+  <converter >
+    <converter-test >*.txt</converter-test>
+  </converter>
+  <call-function />
+  <call-function />
+  <call-function >
+    <with >vse-cache-parser-em]]></pre>
+      <match u="320" v="323"><![CDATA[ail</with>
+  </call-function>
+  <call-function />
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <call-function />
+  <call-function />
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <converter-test >*.d]]></match>
+      <post u="324" v="325"><![CDATA[bf</converter-test>
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter />
+</converters>
+</vse-config><vse-run ><crawler /><vse-index /></vse-run><vse-status ><crawler-status ><crawl-hops-output ><crawl-hop /></crawl-hops-output><crawl-hops-input /></crawler-status><vse-index-status ><vse-index-merge-status /><vse-index-content-name-status /><vse-index-content-name-status /><vse-index-content-name-status /><vse-index-content-name-status /><vse-index-content-name-status /><vse-index-content-name-status /><vse-index-content-name-status /><vse-index-content-name-status /></vse-index-status></vse-status></vse-collection>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[ ... 1.0</vse-index-option>
+<vse-index-option >100</vse-index-option>
+
+
+<vse-index-option >16</vse-index-option>
+<vse-index-option >150</vse-index-option>
+<vse-index-option >1000000</vse-index-option>
+<vse-url-equivs >
+  <vse-url-equiv />
+</vse-url-equivs>
+
+
+</vse-index>
+
+<converters ><converter ><parser ><xsl:template match="/">
+ <xsl:apply-templates select="." mode="copy" />
+</xsl:template>
+
+<xsl:template match="document" mode="copy">
+ <xsl:copy>
+   <xsl:apply-templates select="@*" mode="copy" />
+
+
+
+<xsl:attribute name="url">
+ <xsl:value-of select="content[@name='url_locater']" />
+</xsl:attribute>
+
+
+   <xsl:apply-templates select="*" mode="copy" />
+ </xsl:copy>
+</xsl:template>
+
+<!-- Specialty nodes go here -->
+<xsl:template match="content[@name='name']" mode="copy">
+<xsl:copy> 
+   <xsl:attribute name="name"><![CDATA[title]]]><![CDATA[]></xsl:attribute>
+   <xsl:attribute name="weight"><![CDATA[3]]]><![CDATA[]></xsl:attribute>
+   <xsl:attribute name="action"><![CDATA[cluster]]]><![CDATA[]></xsl:attribute>
+   <xsl:apply-templates select="@* | * | text() | comment()" mode="copy" />
+</xsl:copy>
+</xsl:template>
+
+<!-- End specialty nodes -->
+
+<xsl:template match="@* | text() | comment()" mode="copy">
+ <xsl:copy />
+</xsl:template>
+
+<!-- Default action, keep recursing and copying -->
+<xsl:template match="*" mode="copy">
+ <xsl:copy>
+   <xsl:apply-templates select="@* | * | text() | comment()" mode="copy" />
+ </xsl:copy>
+</xsl:template>
+
+</parser></converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter />
+  <converter />
+  <converter >
+    <converter-test >*.txt</converter-test>
+  </converter>
+  <call-function />
+  <call-function />
+  <call-function >
+    <with >vse-cache-parser-email</with>
+  </call-function>
+  <call-function />
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <call-function />
+  <call-function />
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <converter-test >*.dbf</converter-test>
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter >
+    <call-function />
+  </converter>
+  <converter />
+</converters>
+</vse-config><vse-run ><crawler /><vse-index /></vse-run><vse-status ><crawler-status ><crawl-hops-output ><crawl-hop /></crawl-hops-output><crawl-hops-input /></crawler-status><vse-index-status ><vse-index-merge-status /><vse-index-content-name-status /><vse-index-content-name-status /><vse-index-content-name-status /><vse-index-content-name-status /><vse-index-content-name-status /><vse-index-content-name-status /><vse-index-content-name-status /><vse-index-content-name-status /></vse-index-status></vse-status></vse-collection>]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/README"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/README/"
+  vse-base-score="0.55" la-score="2.73003"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="76" v="140" />
+      <pre u="94" v="113">ivisimo.com/testfiles/s</pre>
+      <match u="114" v="115">am</match>
+      <post u="116" v="135">ba_test_data/samba-2/doc/R</post>
+    </solution>
+    <solution rank="1" score="0.1">
+      <content type="text" name="snippet" u="13" v="75" />
+      <pre u="14" v="32">This is a basic samba cr</pre>
+      <match u="33" v="42">awl with no b</match>
+      <post u="43" v="62">ad data.  It is just a mediu</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5">This is a basic samba crawl with no bad data.  It is just a medium
+sized data set.
+</content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/reunion_info.doc"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/reunion_info.doc/"
+  filetype="doc" vse-base-score="0.5" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Gary Williams 1219 Lakevue Dr. Butler, PA 16002 (724)586-9022 gaw@zoominternet.net</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="989" v="1061" />
+      <pre u="1007" v="1026">ivisimo.com/testfiles/s</pre>
+      <match u="1027" v="1028">am</match>
+      <post u="1029" v="1048">ba_test_data/samba-2/doc/r</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <br/><p><b>Gary Williams</b></p><p><b>1219 Lakevue Dr.</b></p><p><b>Butler, PA 16002</b></p><p><b>(724)586-9022</b></p><p><b> gaw@zoominternet.net </b></p><p><b></b></p><p><b></b></p><p><b>What did you do immediately after high school?  </b>College.  Berkshire Community College, followed by time off and work then North Adams State College.  BS Computer Science.</p><p><b>What kind of work to you do?  Where do you work?  </b>Director of Quality Assurance (Programming) at Vivisimo.</p><p><b>(A)Where have you live since high school graduation?  (B)Do you still have family in the area?  (A)</b>Remained in Berkshire County until 1985.  Moved to St. Paul, MN until 1995. Currently in Butler, PA.  <b>(B)</b>Parents still live in Lenox.</p><p><b>Name of significant other and/or children?  Tell us about them.  </b>Tammy - wife, Lyndsey - daughter (21), Clayton - son (17), Taylor - daughter (13).</p><p><b>What is your favorite high school memory?  </b>Graduation.</p><p><b>If you could have a “do over” what would you change about your high school experience?</b> Nobody's business but mine ...</p><p><b>What are your hobbies and interests?  </b>Road bicycling, mountain bicycling, fishing, golf shooting (target), ATVing, canoeing, hiking/camping.</p><p><b>Have you achieved your dream?  What was/is it?  </b>No.  Independently wealthy and retired somewhere in the Blue Ridge Mountains.</p>  ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/georgebernardshaw.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/georgebernardshaw.pdf/"
+  filetype="pdf" vse-base-score="0.5" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="16" v="94" />
+      <pre u="34" v="53">ivisimo.com/testfiles/s</pre>
+      <match u="54" v="55">am</match>
+      <post u="56" v="75">ba_test_data/samba-2/doc/g</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <a/><div> </div>  ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/dfc_0000.htm"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/dfc_0000.htm/"
+  vse-base-score="0.5" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Debates in the Federal Convention</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="752" v="820" />
+      <pre u="770" v="789">ivisimo.com/testfiles/s</pre>
+      <match u="790" v="791">am</match>
+      <post u="792" v="811">ba_test_data/samba-2/doc/d</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[    <b><font>T</font>he <font>D</font>ebates in the
+		<font>F</font>ederal <font>C</font>onvention of 1787<br/> by
+		<font>J</font>ames <font>M</font>adison</b>     <td>   <td><b>May</b></td>  <td><b>Sun</b></td><td><b>Mon</b></td><td><b>Tue</b></td><td><b>Wed</b></td><td><b>Thr</b></td><td><b>Fri</b></td><td><b>Sat</b></td>  <td/><td/><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>  <td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>  <td>13</td><td><a>14</a></td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td>  <td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td><a>25</a></td><td>26</td>  <td>27</td><td><a>28</a></td><td><a>29</a></td><td><a>30</a></td><td><a>31</a></td><td/><td/>   </td><td>   <td><b>June</b></td>  <td><b>Sun</b></td><td><b>Mon</b></td><td><b>Tue</b></td><td><b>Wed</b></td><td><b>Thr</b></td><td><b>Fri</b></td><td><b>Sat</b></td>  <td/><td/><td/><td/><td/><td><a>1</a></td><td><a>2</a></td>  <td>3</td><td><a>4</a></td><td><a>5</a></td><td><a>6</a></td><td><a>7</a></td><td><a>8</a></td><td><a>9</a></td>  <td>10</td><td><a>11</a></td><td><a>12</a></td><td><a>13</a></td><td><a>14</a></td><td><a>15</a></td><td><a>16</a></td>  <td>17</td><td><a>18</a></td><td><a>19</a></td><td><a>20</a></td><td><a>21</a></td><td><a>22</a></td><td><a>23</a></td>  <td>24</td><td><a>25</a></td><td><a>26</a></td><td><a>27</a></td><td><a>28</a></td><td><a>29</a></td><td><a>30</a></td>   </td><td>   <td><b>July</b></td>  <td><b>Sun</b></td><td><b>Mon</b></td><td><b>Tue</b></td><td><b>Wed</b></td><td><b>Thr</b></td><td><b>Fri</b></td><td><b>Sat</b></td>  <td>1</td><td><a>2</a></td><td>3</td><td>4</td><td><a>5</a></td><td><a>6</a></td><td><a>7</a></td>  <td>8</td><td><a>9</a></td><td><a>10</a></td><td><a>11</a></td><td><a>12</a></td><td><a>13</a></td><td><a>14</a></td>  <td>15</td><td><a>16</a></td><td><a>17</a></td><td><a>18</a></td><td><a>19</a></td><td><a>20</a></td><td><a>21</a></td>  <td>22</td><td><a>23</a></td><td><a>24</a></td><td><a>25</a></td><td><a>26</a></td><td>27</td><td>28</td>  <td>29</td><td>30</td><td>31</td><td/><td/><td/><td/>   </td>  <td>   <td><b>August</b></td>  <td><b>Sun</b></td><td><b>Mon</b></td><td><b>Tue</b></td><td><b>Wed</b></td><td><b>Thr</b></td><td><b>Fri</b></td><td><b>Sat</b></td>  <td/><td/><td/><td>1</td><td>2</td><td>3</td><td>4</td>  <td>5</td><td><a>6</a></td><td><a>7</a></td><td><a>8</a></td><td><a>9</a></td><td><a>10</a></td><td><a>11</a></td>  <td>12</td><td><a>13</a></td><td><a>14</a></td><td><a>15</a></td><td><a>16</a></td><td><a>17</a></td><td><a>18</a></td>  <td>19</td><td><a>20</a></td><td><a>21</a></td><td><a>22</a></td><td><a>23</a></td><td><a>24</a></td><td><a>25</a></td>  <td>26</td><td><a>27</a></td><td><a>28</a></td><td><a>29</a></td><td><a>30</a></td><td><a>31</a></td><td/>   </td><td>   <td><b>September</b></td>  <td><b>Sun</b></td><td><b>Mon</b></td><td><b>Tue</b></td><td><b>Wed</b></td><td><b>Thr</b></td><td><b>Fri</b></td><td><b>Sat</b></td>  <td/><td/><td/><td/><td/><td/><td><a>1</a></td>  <td>2</td><td><a>3</a></td><td><a>4</a></td><td><a>5</a></td><td><a>6</a></td><td><a>7</a></td><td><a>8</a></td>  <td>9</td><td><a>10</a></td><td><a>11</a></td><td><a>12</a></td><td><a>13</a></td><td><a>14</a></td><td><a>15</a></td>  <td>16</td><td><a>17</a></td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td>  <td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td>   </td><td>   <td><b>October</b></td>  <td><b>Sun</b></td><td><b>Mon</b></td><td><b>Tue</b></td><td><b>Wed</b></td><td><b>Thr</b></td><td><b>Fri</b></td><td><b>Sat</b></td>  <td>30</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>  <td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>  <td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>  <td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>  <td>28</td><td>29</td><td>30</td><td>31</td><td/><td/><td/>   </td>      <td><a>Constitution Society Home
+				Page</a></td><td><a>Madison's
+				Introduction</a></td><td><a>Editor's
+				Introduction</a></td><td><a>First Day</a></td><td><a>Index</a></td>    <hr/> <h4>Search this subsite</h4>    <td><font><a> Search this
+			 site</a> or <a> the
+			 web</a>]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[Powered by <a>FreeFind</a><br/></font></td>  <td> <font/>             <p><font>   Debates in the Federal Convention
+					    Entire site   Entire web </font></p>  </td>   <hr/>  ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/smb_onechar"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/smb_onechar/"
+  vse-base-score="0.5" la-score="2.73003"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="15" v="83" />
+      <pre u="33" v="52">ivisimo.com/testfiles/s</pre>
+      <match u="53" v="54">am</match>
+      <post u="55" v="74">ba_test_data/samba-2/doc/s</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5">2</content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/biojunk"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/biojunk/"
+  vse-base-score="0.5" la-score="2.73003"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="802" v="867" />
+      <pre u="820" v="839">ivisimo.com/testfiles/s</pre>
+      <match u="840" v="841">am</match>
+      <post u="842" v="861">ba_test_data/samba-2/doc/b</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5">Personal:  Married to Tammy.  3 kids; Lyndsey(22), Clayton(17), 
+and Taylor(13).  I live
+a quiet (read boring) life in a quiet (again, boring) suburb just south of
+Butler, PA.  
+
+Watching sports is boring (look, they're going left, now they're
+going right, what fun), but I'm game to play (or at least
+try) anything once.  Favorites include bicycling(road and mountain),
+fishing, shooting, golf and riding around on ATVs.  Favorite types of books
+are history books, particularly WWII and the revolutionary war period (war
+sucks, but they are fascinating, kind of like a car wreck).  Other hobbies
+include keeping my house together and keeping my cars running (no SUVs).
+
+Politcal leanings:  Libertarian
+Religion:  Only on Christmas (Sometimes Easter)
+
+Saying my kids hate:  "If I find out you did half the things I did when
+I was a kid, I'll ground you for life."
+
+Primary responsibilities:  Research and develop testing methods and
+environments.  Find ways to automate testing, simplify testing and 
+improve testing coverage.
+</content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/thing.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/thing.txt/"
+  vse-base-score="0.5" la-score="2.60269"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.5">
+      <content action="none" name="url" weight="1" u="2356" v="2422" />
+      <pre u="2374" v="2393">ivisimo.com/testfiles/s</pre>
+      <match u="2394" v="2395">am</match>
+      <post u="2396" v="2415">ba_test_data/samba-2/doc/t</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="summarize" weight="5">   It seems to me that we have stopped entertaining ideas on how to manage
+and get out of Iraq.  The problem with this is that we end up rehashing the
+same old stuff over and over.  This is obviously not working.  Also, by 
+ignoring all new ideas (good, bad or middling), we are losing that nugget
+of a great idea that may exist in even the worst proposal.  In order to
+break this bit of stagnation, I am proposing a few ideas.  I'm
+not saying the ideas are good or bad, just a place to start.
+   First, we allow Iraqi forces to handle all duties that occur within any
+city limits.  Coalition forces will be used to guard major infrastructure vital
+to the recovery of the country such as oil fields, pipelines, power generation
+facilities and the like.  This does three things.  First, the forces in view of
+the Iraqi public are themselves Iraqi.  This may or may not ease tensions, but 
+it certainly can not make things worse.  Second, it puts coalition forces in 
+places where they do considerable good for the nation and puts them in a
+position where it is easier to discern friend from foe.  Finally, if the
+coalition forces are needed for some reason, they are not far away.
+   Second, we give the Iraqi government notice; coalition forces are leaving in
+18 months.  Iraq has 18 months to decide how they want to partition and govern
+their country and put the system in place.  Whether it is a coalition government
+of Sunni's, Shiite's and Kurds, or they break the nation into three autonomous
+states or nations should be  ... </content>
+</document>
+</scope>

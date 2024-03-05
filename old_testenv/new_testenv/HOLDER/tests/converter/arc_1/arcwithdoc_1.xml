@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<vse-collection name="arcwithdoc_1" modified="1352841587" modified-by="data-explorer-admin">
+  <vse-config elt-id="117" max-elt-id="126">
+    <crawler elt-id="13">
+      <call-function elt-id="118" type="crawl-seed" name="vse-crawler-seed-documentum">
+        <with name="host" elt-id="119">10.17.21.17</with>
+        <with name="port" elt-id="120">1489</with>
+        <with name="username" elt-id="121">Administrator</with>
+        <with name="password" elt-id="122">[[vcrypt]]Dc9TQ1nYURBkDl+YZmvRKA==</with>
+        <with name="docbase" elt-id="123">doc6</with>
+        <with name="version">6.5</with>
+        <with name="doc-install-dir" elt-id="124">c:\Documentum</with>
+        <with name="shared-dir" elt-id="125">c:\Program Files\Documentum\Shared</with>
+        <with name="url-root" elt-id="126">http://10.17.21.17:8080/webtop/objectId</with>
+      </call-function>
+      <call-function elt-id="119" type="crawl-seed" name="vse-crawler-seed-documentum-arc">
+        <with name="arc-unique-id" elt-id="120">junker</with>
+      </call-function>
+      <crawl-options elt-id="11">
+        <crawl-option name="idle-running-time" elt-id="1">-1</crawl-option>
+        <curl-option name="default-allow" elt-id="2">allow</curl-option>
+        <crawl-option name="cache-types" elt-id="3"/>
+        <curl-option name="delay" elt-id="4">0</curl-option>
+        <crawl-option name="n-fetch-threads" elt-id="5">10</crawl-option>
+        <curl-option name="max-data-size" elt-id="7">200000000</curl-option>
+        <curl-option name="gen-deletes" elt-id="8">false</curl-option>
+        <crawl-option name="disable-url-normalization" elt-id="9">true</crawl-option>
+        <curl-option name="purge-input-xml" elt-id="10">true</curl-option>
+      </crawl-options>
+      <call-function name="vse-crawler-light-crawler" elt-id="12"/>
+    </crawler>
+    <vse-index elt-id="22">
+      <vse-index-option name="fast-index" elt-id="14"/>
+      <vse-index-option name="merger-sizes" elt-id="15">100
+1000
+50000</vse-index-option>
+      <vse-index-option name="duplicate-elimination" elt-id="16">false</vse-index-option>
+      <vse-index-option name="n-build-threads" elt-id="17">2</vse-index-option>
+      <vse-index-option name="max-output-contents" elt-id="18">0</vse-index-option>
+      <vse-index-streams elt-id="21">
+        <call-function name="vse-index-streams-common" elt-id="20">
+          <with name="stem" elt-id="19">case</with>
+        </call-function>
+      </vse-index-streams>
+    </vse-index>
+
+
+    <converters><converter type-in="vivisimo/fallback" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-unknown-to-vxml">
+          <with name="extract-strings">no, output XML</with>
+        </call-function>
+      </converter><converter type-in="unknown" type-out="dead">
+        <call-function name="vse-converter-binary-files-in-archives"/>
+      </converter><converter type-in="unknown" program="guess-content --type-override text/html text/html-to-utf8 %source_file" timing-name="Guess content"/><converter type-in="application/ms-office" program="ms-guess %source_file" timing-name="Guess MS Office"/><converter type-in="application/ms-office-container" program="unzip -l %source_file | ms-container-guess" timing-name="Guess MS Office 2007"/><converter type-in="application/word|application/excel|application/powerpoint" program="guess-office-2007 %source_file" timing-name="Check MS Office version"/><converter type-in="unknown" type-out="text/plain">
+        <converter-test how="wc-set" what="path">*.txt</converter-test>
+      </converter><converter type-in="unknown" type-out="application/excel">
+        <converter-test how="wc-set" what="path">*.xls</converter-test>
+      </converter><call-function name="vse-converter-filetypes"/><call-function name="vse-converter-type-normalization"/><converter type-in="application/vxml-db" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-database-tng"/>
+      </converter><call-function name="vse-converter-powerpoint"/><call-function name="vse-converter-1-2-3"/><converter type-in="outlook/mail" type-out="text/mailbox">
+        <call-function name="vse-converter-pst-to-mailbox"/>
+      </converter><converter type-in="text/mailbox" type-out="text/mail">
+        <call-function name="vse-converter-split-mailbox"/>
+      </converter><converter type-in="text/mail" type-out="vivisimo/crawl-data">
+        <call-function name="vse-converter-mail-message">
+          <with name="cache-parser">vse-cache-parser-email</with>
+        </call-function>
+      </converter><converter type-in="application/universal" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-universal"/>
+      </converter><converter type-in="application/documentum" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-documentum-to-xml"/>
+      </converter><converter type-in="application/eroom" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-eroom-to-xml"/>
+      </converter><converter type-out="application/vxml-unnormalized" type-in="application/lotus">
+        <call-function name="vse-converter-lotus-to-xml"/>
+      </converter><converter type-in="application/sharepoint" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-sharepoint-to-xml"/>
+      </converter><converter type-in="application/io-sharepoint" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-io-sharepoint-to-xml"/>
+      </converter><converter type-in="application/io-sharepoint-userprofile" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-sharepoint-user-profile-to-xml"/>
+      </converter><converter type-in="application/word2" type-out="text/html">
+        <call-function name="vse-converter-msword2"/>
+      </converter><converter type-in="application/word" type-out="text/html">
+        <call-function name="vse-converter-msword"/>
+      </converter><converter type-in="application/excel" type-out="text/html">
+        <call-function name="vse-converter-excel"/>
+      </converter><converter type-in="application/wordperfect" type-out="text/html">
+        <call-function name="vse-converter-wordperfect"/>
+      </converter><converter type-in="application/openoffice" type-out="text/html">
+        <call-function name="vse-converter-openoffice"/>
+      </converter><converter type-in="application/ms-ooxml-word" type-out="text/html">
+        <call-function name="vse-converter-ooxml-word"/>
+      </converter><converter type-in="application/ms-ooxml-excel" type-out="text/html">
+        <call-function name="vse-converter-ooxml-excel"/>
+      </converter><converter type-in="application/ms-ooxml-powerpoint" type-out="text/html">
+        <call-function name="vse-converter-ooxml-powerpoint"/>
+      </converter><converter type-in="application/vnd.ms-project" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-ms-project"/>
+      </converter><converter type-in="application/ps" type-out="text/html">
+        <call-function name="vse-converter-postscript"/>
+      </converter><converter type-in="application/pdf" type-out="text/html">
+        <call-function name="vse-converter-pdf"/>
+      </converter><converter type-in="application/rtf" type-out="text/html">
+        <call-function name="vse-converter-rtf"/>
+      </converter><converter type-in="application/outlook-msg" type-out="vivisimo/crawl-data">
+        <call-function name="vse-converter-outlook-msg"/>
+      </converter><converter type-in="application/flash" type-out="text/html">
+        <call-function name="vse-converter-flash"/>
+      </converter><converter type-out="application/vxml-unnormalized" type-in="image/jpeg">
+        <call-function name="vse-converter-jpg-metadata"/>
+      </converter><converter timing-name="MP3 to metadata" type-in="audio/mpeg" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-mp3-metadata"/>
+      </converter><converter type-in="application/tar" type-out="unknown">
+        <call-function name="vse-converter-tar"/>
+      </converter><converter type-in="application/x-gzip" type-out="unknown">
+        <call-function name="vse-converter-gunzip"/>
+      </converter><converter type-in="application/zip" type-out="unknown">
+        <call-function name="vse-converter-unzip"/>
+      </converter><converter type-in="application/x-compress" type-out="unknown">
+        <call-function name="vse-converter-uncompress"/>
+      </converter><converter type-in="text/html-to-utf8" type-out="text/html">
+        <call-function name="vse-converter-html-to-utf8"/>
+      </converter><converter type-in="text/html" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-html"/>
+      </converter><converter type-in="text/plain" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-text"/>
+      </converter><converter type-in="unknown" type-out="application/dbf">
+        <converter-test how="wc-set" what="path">*.dbf</converter-test>
+      </converter><converter type-in="application/dbf" type-out="text/csv">
+        <call-function name="vse-converter-dbf-to-csv"/>
+      </converter><converter type-in="text/csv" type-out="text/html">
+        <call-function name="vse-converter-csv-to-html"/>
+      </converter><converter type-in="text/xml" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-xml-to-vxml"/>
+      </converter><converter type-in="application/vxml-unnormalized" type-out="application/vxml-unnormalized" fallback="application/vxml">
+        <call-function name="vse-converter-normalize"/>
+      </converter><converter type-in="application/vxml-unnormalized" type-out="application/vxml"/></converters>
+  </vse-config>
+  <vse-meta name="arcwithdoc_1"/>
+</vse-collection>

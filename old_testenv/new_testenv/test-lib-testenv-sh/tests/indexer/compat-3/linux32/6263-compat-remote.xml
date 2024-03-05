@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vse-collection name="6263-remote" modified="1182423167" modified-by="palmer@Vivisimo" max-elt-id="2162" id="RzsZcQu1ySDp">
+  <vse-config max-elt-id="2166">
+    <crawler>
+      <crawl-options>
+        <curl-option name="default-allow">allow</curl-option>
+      </crawl-options>
+      <crawl-urls>
+        <choose>
+          <when test="$live-crawl-date &gt; 0">
+            <crawl-url url="http://vivisimo.com/refresh" status="complete">
+              <crawl-data content-type="application/vxml" encoding="xml">
+                <crawl-delete url="http://vivisimo.com/1"/>
+              </crawl-data>
+            </crawl-url>
+          </when>
+          <otherwise>
+            <crawl-url url="http://vivisimo.com/1" status="complete">
+              <crawl-data content-type="application/vxml" encoding="xml">
+                <document>
+                  <content name="title">1</content>
+                </document>
+              </crawl-data>
+            </crawl-url>
+            <crawl-url url="http://vivisimo.com/2" status="complete">
+              <crawl-data content-type="application/vxml" encoding="xml">
+                <document>
+                  <content name="title">2</content>
+                </document>
+              </crawl-data>
+            </crawl-url>
+          </otherwise>
+        </choose>
+      </crawl-urls>
+    </crawler>
+    <vse-index>
+      <vse-index-option name="output-contents">title</vse-index-option>
+      <vse-index-option name="summarize-contents">snippet</vse-index-option>
+      <vse-index-option name="fast-index">last-modified|date</vse-index-option>
+      <vse-url-equivs name="vse-url-equivs">
+        <vse-url-equiv old-prefix="smb://" new-prefix="file://///"/>
+      </vse-url-equivs>
+    </vse-index>
+    <converters/>
+  </vse-config>
+  <vse-meta name="6263-remote" max-elt-id="4" creator="palmer" create-time="1182422290">
+    <vse-meta-info name="refresh">partial</vse-meta-info>
+  </vse-meta>
+  <vse-run>
+    <crawler/>
+    <vse-index/>
+  </vse-run>
+  <vse-status which="live" identifier="RzsZlwmvSyFj" remote-host="testbed1-4" remote-collection="6263" remote-admin-url="http://testbed1-4.test.vivisimo.com/vivisimo/cgi-bin/admin" remote-at="1195055512" slice="0" n-slices="1">
+    <crawler-status time="1195055511" elapsed="1" this-elapsed="1" n-input="1" n-output="1" n-errors="0" n-http-errors="0" n-http-location="0" n-filtered="0" n-robots="0" conversion-time="0" n-sub="1" n-bytes="0" n-dl-bytes="0" converted-size="44" n-pending="0" n-redirect="0" n-duplicates="0" n-deleted="0" n-cache-complete="0" complete="complete">
+      <converter-timings total-ms="0"/>
+      <crawl-hops-output>
+        <crawl-hop hop="0" n="1"/>
+      </crawl-hops-output>
+      <crawl-hops-input/>
+    </crawler-status>
+    <vse-index-status identifier="RzsZlwmvSyFj" start-time="1195055511" link-analysis-time="1" indexing-time="1" merging-time="1" link-analysis-pct="0" indexed-urls="1" uncrawled-urls="0" n-deletes="1" indexed-datas="1" indexed-docs="0" indexed-contents="0" indexed-bytes="0" error-datas="0" error-items="0" running-time="1" end-time="1195055511">
+      <vse-index-file name="viv_vliup9" gen="0" type="index" at="1195055472" max-docs="2" size="3584" n-docs="1" fname="/home/vivisimo//data/collections/6263//indices/viv_vliup9"/>
+      <vse-index-file name="viv_V2jEKp" type="docs-data" size="16" n-docs="1" max-docs="2" at="1195055511" fname="/home/vivisimo//data/collections/6263//indices/viv_V2jEKp"/>
+      <converter-timings total-ms="0"/>
+    </vse-index-status>
+    <vse-remote-service-status start-time="1195055512" end-time="1195055512">
+      <push-info id="RzsZlwmvSyFj" remote-admin-url="http://testbed1-4.test.vivisimo.com/vivisimo/cgi-bin/admin" remote-collection="6263" remote-host="testbed1-4"/>
+      <push-file class="crawl" name="viv_7SivEa" directory="./tmp" start-secs="1195055512" bytes-received="0" end-secs="1195055512"/>
+      <push-file class="crawl" name="cache.sqlt" directory="." start-secs="1195055512" bytes-received="12288" end-secs="1195055512"/>
+      <push-file class="crawl" name="docids2" directory="." start-secs="1195055512" bytes-received="40" end-secs="1195055512"/>
+      <push-file class="crawl" name="0000000000" directory="." start-secs="1195055512" bytes-received="0" end-secs="1195055512"/>
+      <push-file class="crawl" name="docids" directory="." start-secs="1195055512" bytes-received="32" end-secs="1195055512"/>
+      <push-file class="crawl" name="fatal-error" directory="." start-secs="1195055512" bytes-received="8192" end-secs="1195055512"/>
+      <push-file class="crawl" name="log.sqlt" directory="." start-secs="1195055512" bytes-received="131072" end-secs="1195055512"/>
+      <push-file class="index" name="viv_vliup9" directory="." identifier="RzsZcAt8ByDH" start-secs="1195055512" bytes-received="0" end-secs="1195055512"/>
+      <push-file class="index" name="viv_V2jEKp" directory="." start-secs="1195055512" bytes-received="16" end-secs="1195055512"/>
+      <push-xml/>
+      <push-staging-live/>
+      <push-delete-staging/>
+    </vse-remote-service-status>
+  </vse-status>
+  <vse-meta modified="1195055550"/>
+</vse-collection>

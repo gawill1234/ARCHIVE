@@ -1,0 +1,9 @@
+source env.setup/common
+export VIVHOST=turnip.devel.bigdatalab.ibm.com
+export VIVHTTPPORT=8814
+export VIVPORT=8815
+# Vivisimo password, some tests fail with punctuation in passwords :-(
+export VIVPW='P@$$word#1?'
+
+# Vivisimo administrator user, that already exists on the target Velocity.
+export VIVUSER=test-live-all

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="0" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="1" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="0" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="8" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document vse-key="http://testbed4.test.vivisimo.com:80/pages/like_products.htm/"
+  url="http://testbed4.test.vivisimo.com/pages/like_products.htm"
+  vse-base-score="1.5" la-score="1.32176"
+>
+  <content name="title" output-action="bold" weight="3" u="7">Companies That Will Never See My</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="snippet" weight="1" output-action="summarize" u="14" v="350" />
+      <pre u="168" v="187">speakers.&#160; When I stepped up from my old Onkyo &amp;#13;
+		receiver, I noticed the difference immediately.&#160; Definitely an &amp;#13;
+		improvement. &lt;/p> &lt;/div>&lt;div>&lt;b> &lt;a></pre>
+      <match u="188" v="188">Audio </match>
+      <post u="189" v="208">Electronic &amp;#13;
+	Supply&lt;/a> &lt;/b> &lt;p> I have used the SixPac amps, the AE-3 preamp, and the PH-1 phono &amp;#13;
+		stage.&#160; </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="snippet" weight="1" output-action="summarize" u="14" v="350" />
+      <pre u="308" v="327">t feel as good.&#160; Bear in mind that &amp;#13;
+		I am talking about rods in the realm of affordability. &lt;/p> &lt;/div>&lt;div>&lt;b> &lt;a>Legacy </pre>
+      <match u="328" v="328"><![CDATA[Audio</a> </b> <p> ]]></match>
+      <post u="329" v="348">My speakers are a pair of old Legacy Classics.&#160; I still think &amp;#13;
+		they sound great.&#160; And now they're </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... noticed the difference immediately.]]>&#160;<![CDATA[ Definitely an &#13;
+		improvement. </p> </div><div><b> <a>Audio Electronic &#13;
+	Supply</a> </b> <p> I have used the SixPac  ... about rods in the realm of affordability. </p> </div><div><b> <a>Legacy Audio</a> </b> <p> My speakers are a pair of old Legacy  ... ]]></content>
+</document>
+</scope>

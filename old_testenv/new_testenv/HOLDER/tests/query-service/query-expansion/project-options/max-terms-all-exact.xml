@@ -1,0 +1,11 @@
+<options name="query-meta" modified-by="gary_testing" max-elt-id="24" modified="1225986032">
+  <load-options name="core" elt-id="1" />
+  <set-var name="query.num-total" elt-id="4">100000</set-var>
+  <set-var name="query-expansion.enabled">true</set-var>
+  <set-var name="query-expansion.ontolections">ontolection-english-spelling-variations</set-var>
+<set-var name="query-expansion.automatic-symmetric">synonym|spelling|translation</set-var>
+<set-var name="query-expansion.automatic-asymmetric">narrower|broader|related</set-var>
+<set-var name="query-expansion.suggestion-symmetric" />
+<set-var name="query-expansion.suggestion-asymmetric" />
+<set-var name="query-expansion.max-terms-per-type">-1</set-var><set-var name="query-expansion.query-match-type">exact</set-var>
+ </options>

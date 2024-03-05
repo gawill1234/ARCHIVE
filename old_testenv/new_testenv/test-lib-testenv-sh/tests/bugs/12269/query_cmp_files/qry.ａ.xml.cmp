@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="query-xml-supported">query-xml-supported</attribute>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="2" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document vse-key="foo://:80/" encoding="xml" priority="0"
+  graph-id-high-water="0" ct="application/vxml" url="foo:///" vse-base-score="1"
+  vertex="0" la-score="0.1"
+>
+  <content name="title" u="1">a.b..c. the aquick.brown..cat.</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2" v="1"></pre>
+      <content name="title" u="1" v="8" />
+      <match u="2" v="2">a.</match>
+      <post u="3" v="8">b..c. the aquick.brown..cat.</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"></content>
+</document>
+<retrieval-performance n-tau="6" n-rho="2" n-uat="0" n-ohr="0" occr-reads="12"
+  block-reads="15" seeks="3" cache-hits="15" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="1" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="1" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+    >
+      <query-performance what="0:0:doc#" n-blocks="1" n-tau="2" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="1" block-reads="1" seeks="1" cache-hits="1"
+        cache-misses="0"
+      />
+      <query-performance what="0:0:del#" n-blocks="0" n-tau="0" n-rho="1"
+        n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:0:del#" n-blocks="1" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="7" block-reads="2" seeks="0" cache-hits="2" cache-misses="0"
+  >
+    <query-performance what="or" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="7" block-reads="2" seeks="0" cache-hits="2" cache-misses="0"
+    >
+      <query-performance what="3:0:" n-blocks="1" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="7" block-reads="2" seeks="0" cache-hits="2"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="output" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="3" block-reads="8" seeks="1" cache-hits="8" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="3" block-reads="8" seeks="1" cache-hits="8" cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="2" n-rho="2" n-uat="0"
+        n-ohr="0" occr-reads="3" block-reads="7" seeks="1" cache-hits="7"
+        cache-misses="0"
+      >
+        <query-performance what="0:0:" n-blocks="1" n-tau="2" n-rho="2" n-uat="0"
+          n-ohr="0" occr-reads="3" block-reads="1" seeks="1" cache-hits="1"
+          cache-misses="0"
+        />
+        <query-performance what="or" n-tau="1" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="0" block-reads="6" seeks="0" cache-hits="6" cache-misses="0"
+        >
+          <query-performance what="0:0:url" n-blocks="0" n-tau="1" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+            cache-misses="0"
+          />
+          <query-performance what="0:0:host" n-blocks="0" n-tau="1" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+            cache-misses="0"
+          />
+          <query-performance what="0:0:crawled-date" n-blocks="0" n-tau="1"
+            n-rho="0" n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0"
+            cache-hits="1" cache-misses="0"
+          />
+          <query-performance what="0:0:snippet" n-blocks="0" n-tau="1" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+            cache-misses="0"
+          />
+          <query-performance what="0:0:v.tag-start" n-blocks="0" n-tau="1"
+            n-rho="0" n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0"
+            cache-hits="1" cache-misses="0"
+          />
+          <query-performance what="0:0:v.tag-end" n-blocks="0" n-tau="1"
+            n-rho="0" n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0"
+            cache-hits="1" cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:0:del#" n-blocks="0" n-tau="0" n-rho="1"
+        n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="1" n-rho="1" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="1" n-rho="1" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+    >
+      <query-performance what="0:0:snippet" n-blocks="0" n-tau="1" n-rho="1"
+        n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+        cache-misses="0"
+      />
+      <query-performance what="0:0:del#" n-blocks="1" n-tau="0" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="1" n-rho="1" n-uat="0"
+    n-ohr="0" occr-reads="1" block-reads="2" seeks="1" cache-hits="2"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="1" n-rho="1" n-uat="0" n-ohr="0"
+      occr-reads="1" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+    >
+      <query-performance what="0:0:" n-blocks="1" n-tau="1" n-rho="1" n-uat="0"
+        n-ohr="0" occr-reads="1" block-reads="1" seeks="1" cache-hits="1"
+        cache-misses="0"
+      />
+      <query-performance what="0:0:del#" n-blocks="0" n-tau="0" n-rho="1"
+        n-uat="0" n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="3" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+>
+  <query-performance what="1:0:a" n-blocks="1" n-tau="2" n-rho="0" n-uat="0"
+    n-ohr="0" occr-reads="3" block-reads="1" seeks="1" cache-hits="1"
+    cache-misses="0"
+  />
+  <query-performance what="0:0:del#" n-blocks="0" n-tau="0" n-rho="1" n-uat="0"
+    n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+    cache-misses="0"
+  />
+</query-performance>
+</scope>

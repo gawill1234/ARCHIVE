@@ -1,0 +1,18 @@
+<source name="samba-stress-doc6" maintainers="gary_testing" test-strictly="test-strictly" modified-by="gary_testing" max-elt-id="71" modified="1225915851" elt-id="66">
+  <submit elt-id="62">
+
+    <form elt-id="61">
+      <call-function name="vse_form" elt-id="60">
+        <with name="fields" elt-id="71">url
+host
+*filetype
+*language
+title</with>
+        <with name="collection" elt-id="59">samba-stress</with>
+      </call-function>
+    </form>
+  </submit>
+  <tests elt-id="63"/>
+  <help elt-id="64"/>
+  <description elt-id="65"/>
+</source>

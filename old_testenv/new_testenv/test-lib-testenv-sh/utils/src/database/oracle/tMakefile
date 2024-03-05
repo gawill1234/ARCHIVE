@@ -1,0 +1,15 @@
+
+ifndef TEST_ROOT
+$(error Son, you need a TEST_ROOT if you want this here build to work)
+endif
+
+all:
+	ALL=`ls -1`; \
+	mkdir -p $(TEST_ROOT)/utils/lib/database/oracle; \
+	for i in $$ALL; do \
+		if [ ! -d $$i ]; then \
+			cp $$i $(TEST_ROOT)/utils/lib/database/oracle; \
+		fi; \
+	done; \
+	rm $(TEST_ROOT)/utils/lib/database/oracle/tMakefile
+

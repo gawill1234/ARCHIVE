@@ -1,0 +1,194 @@
+#!/bin/bash
+
+fail=0
+
+VCOLLECTION=""
+VWORKINGDIR=$TESTWORKINGDIR
+
+#args=`getopt C: $*`
+#if test $? != 0; then
+#   echo "Usage: check_crawl -C <collection>"
+#   exit 1
+#fi
+
+#set -- $args
+#for i; do
+#  case "$i" in
+#     -C) shift; VCOLLECTION=$1; shift;;
+#      *) echo "Usage: check_crawl -C <collection>"
+#         exit 1;;
+#  esac
+#done
+
+while getopts "C:W:" flag; do
+  case "$flag" in
+     C) VCOLLECTION=$OPTARG;;
+     W) VWORKINGDIR=$OPTARG;;
+     *) echo "Usage: check_crawl -C <collection>"
+        exit 1;;
+  esac
+done
+
+if [ "$VWORKINGDIR" == "" ]; then
+   VWORKINGDIR="/tmp"
+fi
+
+if [ "$VCOLLECTION" == "" ]; then
+   echo "Collection name must be specified"
+   echo "Use the -C <collection> option"
+   exit 1
+fi
+
+VINSTALL=$VIVISIMO_INSTALL_DIR
+if [ "$VINSTALL" == "" ]; then
+   VINSTALL="/usr/local/vivisimo-"
+fi
+
+mydir="data/collections/$VCOLLECTION"
+colfile="data/collections/$VCOLLECTION.xml"
+checkfile="$VWORKINGDIR/$VCOLLECTION.xml"
+extcmd="$VIVUTILBIN/xml-extract-attrs"
+
+if [ "$VERSION_FORCE" != "" ]; then
+   cd $VINSTALL$VERSION_FORCE
+else
+   cd $VINSTALL
+fi
+
+if [ -f "$mydir/index0" ]; then
+   thedir="$mydir/crawl0"
+   theindex="$mydir/index0"
+else
+   if [ -f "$mydir/index1" ]; then
+      thedir="$mydir/crawl1"
+      theindex="$mydir/index1"
+   else
+      echo "Collection $VCOLLECTION does not exit"
+      exit 1
+   fi
+fi
+
+echo "$thedir"
+xxx=`find $thedir -name "core.*" -print`
+
+if [ "$xxx" != "" ]; then
+   echo "One of more of the crawl processes crashed"
+   fail=`expr $fail + 1`
+else
+   echo "Preliminary inspection of crawl processes okay"
+fi
+
+if [ -f $checkfile ]; then
+   ckout=`cat $checkfile | $extcmd crawler-status n-output`
+   nwout=`cat $colfile | $extcmd crawler-status n-output`
+
+   ckdup=`cat $checkfile | $extcmd crawler-status n-duplicates`
+   nwdup=`cat $colfile | $extcmd crawler-status n-duplicates`
+
+   ckerr=`cat $checkfile | $extcmd crawler-status n-errors`
+   nwerr=`cat $colfile | $extcmd crawler-status n-errors`
+
+   ckhttperr=`cat $checkfile | $extcmd crawler-status n-http-errors`
+   nwhttperr=`cat $colfile | $extcmd crawler-status n-http-errors`
+
+   cksub=`cat $checkfile | $extcmd crawler-status n-sub`
+   nwsub=`cat $colfile | $extcmd crawler-status n-sub`
+
+   cksiz=`cat $checkfile | $extcmd vse-index-status final-size`
+   nwsiz=`cat $colfile | $extcmd vse-index-status final-size`
+
+   ckind=`cat $checkfile | $extcmd vse-index-status indexed-urls`
+   nwind=`cat $colfile | $extcmd vse-index-status indexed-urls`
+
+   ckdat=`cat $checkfile | $extcmd vse-index-status indexed-datas`
+   nwdat=`cat $colfile | $extcmd vse-index-status indexed-datas`
+
+   ckdoc=`cat $checkfile | $extcmd vse-index-status indexed-docs`
+   nwdoc=`cat $colfile | $extcmd vse-index-status indexed-docs`
+
+   ckbyt=`cat $checkfile | $extcmd vse-index-status indexed-bytes`
+   nwbyt=`cat $colfile | $extcmd vse-index-status indexed-bytes`
+
+   if [ "$ckout" != "" ] && [ "$nwout" != "" ]; then
+      if [ $ckdat -ne $nwdat ]; then
+         echo "Error:  Indexed datas mismatch"
+         echo "        Previous datas = $ckdat"
+         echo "        Current datas =  $nwdat"
+         fail=`expr $fail + 1`
+      fi
+   
+      if [ $nwsub -ne $nwdat ]; then
+         echo "Error:  Indexed datas/crawled sub mismatch"
+         echo "        Crawled sub =   $nwsub"
+         echo "        Indexed datas = $nwdat"
+         fail=`expr $fail + 1`
+      fi
+   
+      if [ $ckdoc -ne $nwdoc ]; then
+         echo "Error:  Indexed docs mismatch"
+         echo "        Previous docs = $ckdoc"
+         echo "        Current docs =  $nwdoc"
+         fail=`expr $fail + 1`
+      fi
+   
+      if [ "$ckbyt" != "$nwbyt" ]; then
+         echo "Warning:  Indexed bytes mismatch"
+         echo "          Previous bytes = $ckbyt"
+         echo "          Current bytes =  $nwbyt"
+      fi
+   
+      if [ $ckout -ne $nwout ]; then
+         echo "Error:  Completed count mismatch"
+         echo "        Previous completed = $ckout"
+         echo "        Current completed =  $nwout"
+         fail=`expr $fail + 1`
+      fi
+   
+      if [ $ckdup -ne $nwdup ]; then
+         echo "Error:  Duplicate count mismatch"
+         echo "        Previous duplicates = $ckdup"
+         echo "        Current duplicates =  $nwdup"
+         fail=`expr $fail + 1`
+      fi
+   
+      if [ $ckerr -ne $nwerr ]; then
+         echo "Error:  Error count mismatch"
+         echo "        Previous errors = $ckerr"
+         echo "        Current errors =  $nwerr"
+         fail=`expr $fail + 1`
+      fi
+   
+      if [ $ckhttperr -ne $nwhttperr ]; then
+         echo "Error:  HTTP error count mismatch"
+         echo "        Previous HTTP errors = $ckhttperr"
+         echo "        Current HTTP errors =  $nwhttperr"
+         fail=`expr $fail + 1`
+      fi
+   
+      if [ "$cksiz" != "$nwsiz" ]; then
+         echo "Warning:  Final size mismatch"
+         echo "          Previous final size = $cksiz"
+         echo "          Current final size =  $nwsiz"
+      fi
+   
+      if [ $ckind -ne $nwind ]; then
+         echo "Error:  Index count mismatch"
+         echo "        Previous index count = $ckind"
+         echo "        Current index count =  $nwind"
+         fail=`expr $fail + 1`
+      fi
+   
+      if [ $nwout -ne $nwind ]; then
+         echo "Error:  Current index count mismatch"
+         echo "        Current completed =    $nwout"
+         echo "        Current index count =  $nwind"
+         fail=`expr $fail + 1`
+      fi
+   fi
+fi
+
+if [ $fail -ne 0 ]; then
+   exit 1
+else
+   exit 0
+fi

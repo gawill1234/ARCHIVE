@@ -1,0 +1,48 @@
+3d2
+< <attribute name="query-xml-supported">query-xml-supported</attribute>
+7c6
+<   value="http://testbed6-8.test.vivisimo.com/vivisimo/cgi-bin/admin"
+---
+>   value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+15,55d13
+< <retrieval-performance n-tau="0" n-rho="0" n-uat="0" n-ohr="0" occr-reads="0"
+<   block-reads="0" seeks="0" cache-hits="0" cache-misses="0" n-blocks="0"
+< >
+<   <query-performance what="doc-text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+<     occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+<     n-blocks="0"
+<   />
+<   <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+<     occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+<     n-blocks="0"
+<   />
+<   <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+<     occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+<     n-blocks="0"
+<   />
+<   <query-performance what="output" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+<     occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+<     n-blocks="0"
+<   />
+<   <query-performance what="summarize" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+<     occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+<     n-blocks="0"
+<   />
+<   <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+<     occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+<     n-blocks="0"
+<   />
+<   <query-performance what="really-content" n-tau="0" n-rho="0" n-uat="0"
+<     n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+<     cache-misses="0" n-blocks="0"
+<   />
+<   <query-performance what="rights-query" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+<     occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+<     n-blocks="0"
+<   />
+< </retrieval-performance>
+< <query-performance flags="hard extent r:need" what="never" n-tau="1" n-rho="0"
+<   n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+<   cache-misses="0" n-blocks="0"
+< />
+< <xpath-performances />

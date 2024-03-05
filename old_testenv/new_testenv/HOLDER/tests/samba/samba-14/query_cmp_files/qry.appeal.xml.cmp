@@ -1,0 +1,3129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="40" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="19" />
+<attribute name="total-results-with-duplicates" value="40" />
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.252.581.html/"
+  graph-id-high-water="21" vertex="22" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.252.581.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">25927</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="152" v="171">indigent defendant in a criminal care pay a filing fee before permitting him to file a motion for leave to </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3807"
+      />
+      <match u="172" v="172">appeal </match>
+      <post u="173" v="192"><![CDATA[in one of its courts.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >2&lt;/span>
+      &lt;p >After a trial in Ohio in 1953, the ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="200" v="219"><![CDATA[to life imprisonment.&lt;a >1&lt;/a> That same year his conviction was affirmed without opinion by the Ohio Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3807"
+      />
+      <match u="220" v="220">Appeals. </match>
+      <post u="221" v="240">Petitioner immediately filed a notice of appeal in the Court of Appeals but did nothing further until 1957, when he </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="207" v="226">same year his conviction was affirmed without opinion by the Ohio Court of Appeals. Petitioner immediately filed a notice of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3807"
+      />
+      <match u="227" v="227">appeal </match>
+      <post u="228" v="247">in the Court of Appeals but did nothing further until 1957, when he sought to file a copy of the </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="212" v="231">affirmed without opinion by the Ohio Court of Appeals. Petitioner immediately filed a notice of appeal in the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3807"
+      />
+      <match u="232" v="232">Appeals </match>
+      <post u="233" v="252">but did nothing further until 1957, when he sought to file a copy of the earlier notice of appeal and </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="231" v="250">of Appeals but did nothing further until 1957, when he sought to file a copy of the earlier notice of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3807"
+      />
+      <match u="251" v="251">appeal </match>
+      <post u="252" v="271"><![CDATA[and a motion for leave to appeal in the Supreme Court of Ohio.&lt;a >2&lt;/a> To these papers petitioner ]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="238" v="257">1957, when he sought to file a copy of the earlier notice of appeal and a motion for leave to </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3807"
+      />
+      <match u="258" v="258">appeal </match>
+      <post u="259" v="278"><![CDATA[in the Supreme Court of Ohio.&lt;a >2&lt;/a> To these papers petitioner attached an affidavit of poverty which declared ]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="347" v="366">This will serve to acknowledge receipt of your motion for      leave to proceed in forma pauperis, motion for leave to      </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3807"
+      />
+      <match u="367" v="367">appeal </match>
+      <post u="368" v="387"><![CDATA[and ntic e of appeal.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >5&lt;/span>
+      &lt;p >'We must advise that the Supreme Court has ]]></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="352" v="371">receipt of your motion for      leave to proceed in forma pauperis, motion for leave to      appeal and ntic e of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3807"
+      />
+      <match u="372" v="372"><![CDATA[appeal.&lt;/]]></match>
+      <post u="373" v="392"><![CDATA[p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >5&lt;/span>
+      &lt;p >'We must advise that the Supreme Court has determined on      numerous occasions that ]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="530" v="549">the Supreme Court had jurisdiction to review petitioner's conviction and petitioner sought to file his motion asking leave to </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3807"
+      />
+      <match u="550" v="550"><![CDATA[appeal.&lt;]]></match>
+      <post u="551" v="570"><![CDATA[a >6&lt;/a> The filing fee required by the Supreme Court on a motion for leave to appeal is $20&lt;]]></post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="548" v="567"><![CDATA[leave to appeal.&lt;a >6&lt;/a> The filing fee required by the Supreme Court on a motion for leave to ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3807"
+      />
+      <match u="568" v="568">appeal </match>
+      <post u="569" v="588"><![CDATA[is $20&lt;a >7&lt;/a> and if that fee is paid, and the papers are otherwise proper, the motion will ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... him to file a motion for leave to appeal in one of its courts.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt; ... affirmed without opinion by the Ohio Court of Appeals. Petitioner immediately filed a notice of appeal in  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.1.90.html/"
+  graph-id-high-water="22" vertex="23" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.1.90.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">37990</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="514" v="533">the alleged kidnapping offense and other alleged crimes of petitioner. Soon thereafter, and, in the words of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="534" v="534">Appeals, '(</match>
+      <post u="535" v="554">a)fter the judge's mind had become thoroughly conditioned by this interview with, and the disclosures made to him </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="684" v="703">sentenced petitioner to thirty years in the penitentiary and the two seventeen-year-old accomplices to fifteen years each. No </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="704" v="704">appeals </match>
+      <post u="705" v="724"><![CDATA[were taken.&lt;a >2&lt;/a>&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >4&lt;/span>
+      &lt;p >Because of these precipitous and telescoped proceedings, the ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="717" v="736">Because of these precipitous and telescoped proceedings, the case has had a long and troublesome history in the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="737" v="737">Appeals </match>
+      <post u="738" v="757">for the Fifth Circuit. It has been three times before that court. Soon after the sentence was imposed, petitioner filed </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="756" v="775">petitioner filed his initial application under § 2255 to vacate the judgment. The application was denied without a hearing and no </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="776" v="776">appeal </match>
+      <post u="777" v="796">was taken. In March 1954 petitioner filed a second, similar application which was likewise denied without a hearing, but on </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="777" v="796">was taken. In March 1954 petitioner filed a second, similar application which was likewise denied without a hearing, but on </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="797" v="797">appeal </match>
+      <post u="798" v="817">the Court of Appeals determined that petitioner's allegations required a hearing. Smith v. United States, 5 Cir., 223 F.</post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="781" v="800">1954 petitioner filed a second, similar application which was likewise denied without a hearing, but on appeal the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="801" v="801">Appeals </match>
+      <post u="802" v="821">determined that petitioner's allegations required a hearing. Smith v. United States, 5 Cir., 223 F.2d 750. After the </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="821" v="840">the hearing was held, the District Court again dismissed the application. D.C., 137 F.Supp. 222. Again the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="841" v="841">Appeals </match>
+      <post u="842" v="861">reversed, this time finding that petitioner had been deprived of due process by the summary manner in which the Government </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="1008" v="1027">proceedings, the District Court resentenced petitioner, but refused him permission to withdraw his waivers and guilty plea. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="1028" v="1028">Appeals </match>
+      <post u="1029" v="1048">affirmed this decision, Smith v. United States, 5 Cir., 250 F.2d 842, over the dissent of Judge Rives who </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="1546" v="1565"><![CDATA[was released harmed or unharmed.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >12&lt;/span>
+      &lt;p >It has been held by two Courts of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="1566" v="1566">Appeals </match>
+      <post u="1567" v="1586">that indictments similar in terms to the charge here were sufficient to support capital punishments despite the absence of allegations </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="1738" v="1757"><![CDATA[United States Attorney eliminated the capital element of the crime.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >13&lt;/span>
+      &lt;p >The Courts of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5768"
+      />
+      <match u="1758" v="1758">Appeals </match>
+      <post u="1759" v="1778">which have been concerned with the statute have uniformly construed it to create the single offense of transporting a kidnapping </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... and, in the words of the Court of Appeals, '(a)fter the judge's mind had become  ... year-old accomplices to fifteen years each. No appeals were taken.&lt;a >2&lt;/a>&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt; ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.684.394.html/"
+  graph-id-high-water="30" vertex="31" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.684.394.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">60701</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="539" v="558">a license be issued. 4 A.D.2d 348, 165 N.Y.S.2d 681. A sharply divided Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="559" v="559">Appeals, </match>
+      <post u="560" v="579">however, reversed the Appellate Division and upheld the Regents' refusal to license the film for exhibition. 4 N.Y.2d </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="585" v="604"><![CDATA[2d 39, 151 N.E.2d 197.&lt;a >6&lt;/a>&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >4&lt;/span>
+      &lt;p >The Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="605" v="605">Appeals </match>
+      <post u="606" v="625"><![CDATA[unanimously and explicitly rejected any notion that the film is obscene.&lt;a >7&lt;/a> See Roth v. United States, 354 ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="716" v="735">Y.2d 351, 175 N.Y.S.2d 40, 151 N.E.2d 197. A majority of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="736" v="736">Appeals </match>
+      <post u="737" v="756">ascribed to that language a precise purpose of the New York Legislature to require the denial of a license to </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="820" v="839">characterized. We accept too, as we must, the construction of the New York Legislature's language which the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="840" v="840">Appeals </match>
+      <post u="841" v="860">has put upon it. Albertson v. Millard, 345 U.S. 242, 73 S.Ct. 600, 97 L.Ed. 983; United States </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="925" v="944">not suggested that the film would itself operate as an incitement to illegal action. Rather, the New York Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="945" v="945">Appeals </match>
+      <post u="946" v="965">tells us that the relevant portion of the New York Education Law requires the denial of a license to any </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="1276" v="1295"><![CDATA[649.&lt;a >11&lt;/a>&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >9&lt;/span>
+      &lt;p >The inflexible command which the New York Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="1296" v="1296">Appeals </match>
+      <post u="1297" v="1316">has attributed to the State Legislature thus cuts so close to the core of constitutional freedom as to make it </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="1828" v="1847">badness of pictures are well illustrated by the contrasting standards mentioned in the opinion of the New York Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="1848" v="1848">Appeals </match>
+      <post u="1849" v="1868">and the concurring opinion of Mr. Justice FRANKFURTER here. As I read the New York court's opinion this movie </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="3111" v="3130">as we struck down prior New York legislation. Nor does it reverse the judgment of the New York Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="3131" v="3131">Appeals, </match>
+      <post u="3132" v="3151">as I would, because in applying the New York law to 'Lady Chatterley's Lover' it applied it to a </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="3176" v="3195">from some expressions culled here and there from the opinion of the Chief Judge of the New York Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="3196" v="3196">Appeals. </match>
+      <post u="3197" v="3216">This leads the Court to give the phrase 'acts of sexual immorality * * * as desirable, acceptable or proper patterns of behavior' </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="3238" v="3257">2d 39, 151 N.E.2d 197.) But, surely, to attribute that result to the decision of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="9236"
+      />
+      <match u="3258" v="3258">Appeals, </match>
+      <post u="3259" v="3278">on the basis of a few detached phrases of Chief Judge Conway, is to break a faggot into pieces, is </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... S.2d 681. A sharply divided Court of Appeals, however, reversed the Appellate Division and upheld the  ... div >
+      &lt;span >4&lt;/span>
+      &lt;p >The Court of Appeals unanimously and explicitly rejected any notion that the  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.411.155.html/"
+  graph-id-high-water="36" vertex="37" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.411.155.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">27031</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="481" v="500"><![CDATA[and constituted no defense to thelib el.&lt;a >3&lt;/a>&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >4&lt;/span>
+      &lt;p >The Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3973"
+      />
+      <match u="501" v="501">Appeals </match>
+      <post u="502" v="521">did not consider any of the first three claims of error, although if sustained they would wholly have disposed of </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="651" v="670"><![CDATA[922, 928.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >5&lt;/span>
+      &lt;p >Petitioner sought certiorari, contending that the refusal of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3973"
+      />
+      <match u="671" v="671">Appeals </match>
+      <post u="672" v="691">to strike down the exculpatory clause as a matter of law was contrary to the decision of this Court in </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="751" v="770"><![CDATA[L.Ed.2d 55.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >6&lt;/span>
+      &lt;p >At the outset, we hold that the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3973"
+      />
+      <match u="771" v="771">Appeals </match>
+      <post u="772" v="791">erred in ordering what was in substance a referral of the issue of the validity of the exculpatory clause to </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="825" v="844">the District Court and the entry of judgment for respondent. The case had been fully argued before the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3973"
+      />
+      <match u="845" v="845">Appeals, </match>
+      <post u="846" v="865"><![CDATA[and those claims were plainly ripe for decision.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >7&lt;/span>
+      &lt;p >Under these circumstances, we think ]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="858" v="877"><![CDATA[7&lt;/span>
+      &lt;p >Under these circumstances, we think that sound and expeditious judicial administration should have led the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3973"
+      />
+      <match u="878" v="878">Appeals </match>
+      <post u="879" v="898">not to leave these issues undecided while a course was charted requiring the institution and litigation of an altogether separate </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="932" v="951">in such a proceeding it should be determined that the excupat ory clause cannot be given effect, the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3973"
+      />
+      <match u="952" v="952">Appeals </match>
+      <post u="953" v="972">would then have to decide the very questions which it can now decide without the necessity for any collateral proceeding. </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="990" v="1009">Commission which would further delay the final disposition of this already protracted litigation. We conclude, therefore, that the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3973"
+      />
+      <match u="1010" v="1010">Appeals </match>
+      <post u="1011" v="1030">should have passed upon those issues as to which the expert assistance of the I.C.C. is concededly not appropriate, before </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="1038" v="1057"><![CDATA[div>
+    &lt;div >
+      &lt;span >8&lt;/span>
+      &lt;p >Despite the fact that disposition of respondent's other claims by the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3973"
+      />
+      <match u="1058" v="1058">Appeals </match>
+      <post u="1059" v="1078">may ultimately render moot the question of the validity of the exculpatory clause as a defense in the circumstances of </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="1089" v="1108">holding of that court that the exculpatory clause was not void as a matter of law. Were the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3973"
+      />
+      <match u="1109" v="1109">Appeals </match>
+      <post u="1110" v="1129">on remand to decide the other questions tendered by respondent adversely to it, it would otherwise then be necessary for </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="2272" v="2291"><![CDATA[through experience, and      by more flexible procedure.'&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >15&lt;/span>
+      &lt;p >We hold that the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3973"
+      />
+      <match u="2292" v="2292">Appeals </match>
+      <post u="2293" v="2312">correctly ruled that the exculpatory clause here at issue should not be struck down as a matter of law, and </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... div >
+      &lt;span >4&lt;/span>
+      &lt;p >The Court of Appeals did not consider any of the first three  ... contending that the refusal of the Court of Appeals to strike down the exculpatory clause as a  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.287.378.html/"
+  graph-id-high-water="33" vertex="34" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.287.378.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">31221</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="413" v="432">this same Inquiry, M. Anonymous v. Arkwright, 5 A.D.2d 790, 170 N.Y.S.2d 535, leave to </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="433" v="433">appeal </match>
+      <post u="434" v="453">denied, 4N.Y .2d 676, 173 N.Y.S.2d 1025, 149 N.E.2d 538, informed appellants that </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="528" v="547">Anonymous No. 6, 6 A.D.2d 719, 176 N.Y.S.2d 227, and the New York Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="548" v="548">Appeals, </match>
+      <post u="549" v="568">finding that 'no substantial constitutional question is involved,' dismissed ensuing appeals. 4 N.Y.2d 1034, 1035, 177 N.Y.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="539" v="558">S.2d 227, and the New York Court of Appeals, finding that 'no substantial constitutional question is involved,' dismissed ensuing </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="559" v="559">appeals. </match>
+      <post u="560" v="579">4 N.Y.2d 1034, 1035, 177 N.Y.S.2d 687, 152 N.E.2d 651. Appellants, proceeding under </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="622" v="641"><![CDATA[div>
+    &lt;div >
+      &lt;span >4&lt;/span>
+      &lt;p >Dealing first with the question of our jurisdiction, we think it clear that this ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="642" v="642">appeal </match>
+      <post u="643" v="662">must be dismissed. It is predicated on the ground that the state courts held valid under the Federal Constitution § 90, </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="699" v="718">never 'drawn in question' or passed upon in the state courts; the Appellate Division, from whose decision the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="719" v="719">Appeals </match>
+      <post u="720" v="739">denied leave to appeal, simply relied on the earlier cases of M. Anonymous v. Arkwright, supra, and S. Anonymous v. </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="703" v="722">or passed upon in the state courts; the Appellate Division, from whose decision the Court of Appeals denied leave to </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="723" v="723">appeal, </match>
+      <post u="724" v="743">simply relied on the earlier cases of M. Anonymous v. Arkwright, supra, and S. Anonymous v. Arkwright, 5 A.D.</post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="765" v="784">circumstances we must hold that we lack jurisdiction under 28 U.S.C. § 1257(2), 28 U.S.C.A. § 1257(2). Nevertheless, treating the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="785" v="785">appeal </match>
+      <post u="786" v="805"><![CDATA[as a petition for writ of certiorari, we grant the writ. 28 U.S.C. § 2103, 28 U.S.C.A. § 2103.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;]]></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="924" v="943">may then be based. In the words of Mr. Justice Cardozo, then Chief Judge of the New York Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="944" v="944">Appeals, </match>
+      <post u="945" v="964">the proceedings at Special Term thus simply constitute a 'preliminary inquisition, without adversary parties, neither ending in any decree nor </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="2315" v="2334"><![CDATA[S.Ct. at pages 512—513.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >16&lt;/span>
+      &lt;p >The final order of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="2335" v="2335">Appeals </match>
+      <post u="2336" v="2355"><![CDATA[of the State of New York must be affirmed.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >17&lt;/span>
+      &lt;p >Affirmed.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;]]></post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="3014" v="3033"><![CDATA[in which a decision could be had, may be reviewed by the Supreme Court as follows:&lt;/p>
+        &lt;p >'(2) By ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4597"
+      />
+      <match u="3034" v="3034">appeal, </match>
+      <post u="3035" v="3054">where is drawn in question the validity of a statute of any state on the ground of its being repugnant </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... 170 N.Y.S.2d 535, leave to appeal denied, 4N.Y .2d 676, 173 N. ... 2d 227, and the New York Court of Appeals, finding that 'no substantial constitutional question is involved,'  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.185.347.html/"
+  graph-id-high-water="29" vertex="30" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.185.347.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">39271</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="469" v="488">Pa. 305, 308, 88 A. 487; see also Winger v. Aires, 371 Pa. 242, 89 A.2d 521; Lance's </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="6166"
+      />
+      <match u="489" v="489">Appeals, </match>
+      <post u="490" v="509"><![CDATA[55 Pa. 16.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >3&lt;/span>
+      &lt;p >On the basis of this settled law respondents brought suit ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="638" v="657">political subdivision acting under color of State law in a condemnation proceeding.' 154 F.Supp. 628, 629. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="6166"
+      />
+      <match u="658" v="658">Appeals </match>
+      <post u="659" v="678">reversed, holding that a challenge to the validity of a taking such as respondents make in this case may, and </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="843" v="862">an important countervailing interest. Since no exceptional circumstances justifying abstention appear in this case we think that the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="6166"
+      />
+      <match u="863" v="863">Appeals </match>
+      <post u="864" v="883"><![CDATA[was correct in holding that the District Court should have adjudicated the respondents' claim.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >5&lt;/span>
+      &lt;]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1556" v="1575">for public purposes, in a suit brought in a Court of Common Pleas independent of the damage proceedings pending on </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="6166"
+      />
+      <match u="1576" v="1576">appeal </match>
+      <post u="1577" v="1596">from the Board of Viewers. The Court of Appeals' opinion instructs us as to the state procedure which would have </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="1565" v="1584">Court of Common Pleas independent of the damage proceedings pending on appeal from the Board of Viewers. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="6166"
+      />
+      <match u="1585" v="1585">Appeals' </match>
+      <post u="1586" v="1605">opinion instructs us as to the state procedure which would have applied if respondents had chosen the state forum: 'These (</post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="1627" v="1646">Pennsylvania courts independent of that in which compensation is awarded.' 256 F.2d at page 243. Again the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="6166"
+      />
+      <match u="1647" v="1647">Appeals </match>
+      <post u="1648" v="1667">stated: 'the question involved before the federal court need not, and perhaps cannot, be raised in the pending state action * * *.' </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="1662" v="1681">raised in the pending state action * * *.' Ibid. We, of course, usually accept state law as found by the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="6166"
+      />
+      <match u="1682" v="1682">Appeals, </match>
+      <post u="1683" v="1702">see Propper v. Clark, 337 U.S. 472, 69 S.Ct. 1333, 93 L.Ed. 1480; The Tungus v. Skovgaard, 358 </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="3895" v="3914">the federal court proceeding had initiated a suit in a state court to adjudicate the same issue. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="6166"
+      />
+      <match u="3915" v="3915">Appeals </match>
+      <post u="3916" v="3935">ruled that the Federal District Court should have issued a requested injunction to stay the state court proceedings. This Court </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="4502" v="4521">If it finally prevails in the federal court, after two or three more years of delay incident to trial and </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="6166"
+      />
+      <match u="4522" v="4522">appeal, </match>
+      <post u="4523" v="4542">still it must go back to its state case and try the issue of damages. If the County loses in </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="5163" v="5182">nothing here to show that the trial court clearly abused its discretion and I would therefore reverse the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="6166"
+      />
+      <match u="5183" v="5183">Appeals </match>
+      <post u="5184" v="5203"><![CDATA[and reinstate the judgment of the trial judge.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;div >
+        &lt;a >1&lt;/a>
+        &lt;p > The prayer for injunctive ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Pa. 242, 89 A.2d 521; Lance's Appeals, 55 Pa. 16.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >3&lt;/ ... 154 F.Supp. 628, 629. The Court of Appeals reversed, holding that a challenge to the validity  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.109.35.html/"
+  graph-id-high-water="39" vertex="40" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.109.35.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">141619</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="773" v="792">for the second time. Petitioner's conviction was originally affirmed in 1957 by a unanimous panel of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="793" v="793">Appeals, </match>
+      <post u="794" v="813">100 U.S.App.D.C. 13, 240 F.2d 875. This Court granted certiorari, 354 U.S. 930, 77 S.Ct. </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="807" v="826">certiorari, 354 U.S. 930, 77 S.Ct. 1394, 1 L.Ed.2d 1533, vacated the judgment of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="827" v="827">Appeals, </match>
+      <post u="828" v="847">and remanded the case to that court for further consideration in light of Watkins v. United States, 354 U.S. 178, </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="853" v="872">L.Ed.2d 1273, which had reversed a contempt of Congress conviction, and which was decided after the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="873" v="873">Appeals' </match>
+      <post u="874" v="893">decision here had issued. Thereafter the Court of Appeals, sitting en banc, reaffirmed the conviction by a divided court. 102 </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="862" v="881">of Congress conviction, and which was decided after the Court of Appeals' decision here had issued. Thereafter the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="882" v="882">Appeals, </match>
+      <post u="883" v="902">sitting en banc, reaffirmed the conviction by a divided court. 102 U.S.App.D.C. 217, 252 F.2d 129. </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="5748" v="5767">legislative purpose is being served.' Having scrutinized this record we cannot say that the unanimous panel of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="5768" v="5768">Appeals </match>
+      <post u="5769" v="5788">which first considered this case was wrong in concluding that 'the primary purpose of  the inquiry were in aid of </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="6045" v="6064">hold that petitioner's conviction for contempt of Congress discloses no infirmity, and that the judgment of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="6065" v="6065">Appeals </match>
+      <post u="6066" v="6085"><![CDATA[must be affirmed.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >46&lt;/span>
+      &lt;p >Affirmed.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >47&lt;/span>
+      &lt;p >Mr. Justice ]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="6525" v="6544">dismissing an indictment for contempt of Congress. His position, however, was rejected at the trial and in the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="6545" v="6545">Appeals </match>
+      <post u="6546" v="6565">for the District of Columbia Circuit over the strong dissents of Chief Judge Edgerton and Judges Bazelon, Fahy and Washington. </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="14417" v="14436"><![CDATA[than twelve months.'&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >2&lt;/a>
+        &lt;p > In the words of the panel of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="14437" v="14437">Appeals </match>
+      <post u="14438" v="14457">which first heard the case this memorandum 'can best be described as a lengthy legal brief attacking the jurisdiction of </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="14724" v="14743">p > Had Watkins reached to the extent now claimed by petitioner a reversal of the judgment of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="14744" v="14744">Appeals, </match>
+      <post u="14745" v="14764"><![CDATA[not a remand for further consideration, would have been required when this case first came to us.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;]]></post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="16989" v="17008">directives and discipline of the Communist Party.' The full statement is printed as the Appendix to the original Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="21246"
+      />
+      <match u="17009" v="17009">Appeals </match>
+      <post u="17010" v="17029"><![CDATA[opinion, 100 U.S.App.D.C. 22—24, 240 F.2d 884—886.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >32&lt;/a>
+        &lt;p > ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... by a unanimous panel of the Court of Appeals, 100 U.S.App.D.C. 13, 240 F. ... 1533, vacated the judgment of the Court of Appeals, and remanded the case to that court for  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.622.326.html/"
+  graph-id-high-water="35" vertex="36" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.622.326.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">110344</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="172" v="191">law for one year, ordered by the Supreme Court of the Territory of Hawaii, 41 Haw. 403, and affirmed on </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="192" v="192">appeal </match>
+      <post u="193" v="212"><![CDATA[by the Court of Appeals for the Ninth Circuit, 260 F.2d 189.&lt;a >1&lt;/a>&lt;/p>
+      &lt;p >Petitioner has ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="177" v="196">by the Supreme Court of the Territory of Hawaii, 41 Haw. 403, and affirmed on appeal by the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="197" v="197">Appeals </match>
+      <post u="198" v="217"><![CDATA[for the Ninth Circuit, 260 F.2d 189.&lt;a >1&lt;/a>&lt;/p>
+      &lt;p >Petitioner has been a member of the ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="688" v="707">We deal with the Court's findings, not with 'misconduct' in the abstract. Although the opinions in the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="708" v="708">Appeals </match>
+      <post u="709" v="728">and the argument before us have tended in varying degrees to treat the petitioner's suspension as disciplie i mposed </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="954" v="973">speech. Precisely what she did say is a matter of dispute. Neither the Territorial Supreme Court nor the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="974" v="974">Appeals </match>
+      <post u="975" v="994">saw the witness, but both courts, on reading the record, resolved matters of evidentiary conflict in the fashion least favorable </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="1004" v="1023">here, we may do the same. The version of the petitioner's speech principally relied upon by the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="1024" v="1024">Appeals, </match>
+      <post u="1025" v="1044">260 F.2d at 197—198, is derived from notes made by a newspaper reporter, Matsuoka, who attended the meeting </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="3793" v="3812"><![CDATA[the suspension order it rendered on the charge relating to the speech would suffice.&lt;a >19&lt;/a> The Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="3813" v="3813">Appeals </match>
+      <post u="3814" v="3833">was of opinion that if the charge as to the speech were insupportable, in the present posture of the case </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="3892" v="3911"><![CDATA[the finding of misconduct by reason of the interviews.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >11&lt;/span>
+      &lt;p >III. The Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="3912" v="3912">Appeals </match>
+      <post u="3913" v="3932">expressed doubt as to its jurisdiction to hear the appeal from the Territorial Supreme Court, and respondent here urges that </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="3902" v="3921"><![CDATA[div>
+    &lt;div >
+      &lt;span >11&lt;/span>
+      &lt;p >III. The Court of Appeals expressed doubt as to its jurisdiction to hear the ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="3922" v="3922">appeal </match>
+      <post u="3923" v="3942">from the Territorial Supreme Court, and respondent here urges that that court was without jurisdiction. Since our jurisdiction to hear </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="3938" v="3957">Since our jurisdiction to hear the case on the merits must stand or fall with that of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="3958" v="3958">Appeals, </match>
+      <post u="3959" v="3978">we examine the objections. They are without merit. The Court of Appeals for the Ninth Circuit has jurisdiction of appeals </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="3950" v="3969">or fall with that of the Court of Appeals, we examine the objections. They are without merit. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17333"
+      />
+      <match u="3970" v="3970">Appeals </match>
+      <post u="3971" v="3990">for the Ninth Circuit has jurisdiction of appeals from final judgments of the Supreme Court of the Territory of Hawaii, </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... of Hawaii, 41 Haw. 403, and affirmed on appeal by the Court of Appeals for the Ninth Circuit, 260 F.2d 189.&lt; ... abstract. Although the opinions in the Court of Appeals and the argument before us have tended in  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.548.397.html/"
+  graph-id-high-water="28" vertex="29" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.548.397.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">107068</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="359" v="378">the First Division of the National Railroad Adjustment Board, DePriest v. Pennsylvania R. Co., D.C., 145 F.Supp. 596. An </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="379" v="379">appeal </match>
+      <post u="380" v="399">from this interlocutory decision, not one granting or denying an injunction, was dismissed. 3 Cir., 243 F.2d 485. In </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="444" v="463">the Board's interpretations were final and as such binding on respondent, D.C., 155 F.Supp. 695. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="464" v="464">Appeals </match>
+      <post u="465" v="484">reversed, 3 Cir., 258 F.2d 62, holding that the determination by the Board of claims to which respondent was </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1867" v="1886"><![CDATA[Justice DOUGLAS concur, dissenting.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >14&lt;/span>
+      &lt;p >I would affirm the judgment of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="1887" v="1887">Appeals </match>
+      <post u="1888" v="1907">for two reasons: I do not agree that the Railway Labor Act requires retired railroad employees to submit their back-</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="4202" v="4221"><![CDATA[p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >23&lt;/span>
+      &lt;p >For all these reasons I would affirm the judgment of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="4222" v="4222"><![CDATA[Appeals.&lt;/]]></match>
+      <post u="4223" v="4242"><![CDATA[p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >24&lt;/span>
+      &lt;p >Mr. Byron N. Scott, Washington, D.C., for respondents.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >25&lt;/]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="5116" v="5135">appealed, raising only the issue of absolute privilege. The judgment of the trial court was affirmed by the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="5136" v="5136">Appeals, </match>
+      <post u="5137" v="5156">which held that 'in explaining his decision (to suspend respondents) to the general public (petitioner) * * * went entirely outside his line </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="5171" v="5190">not attach. 100 U.S.App.D.C. 319, 244 F.2d 767, 768. We granted certiorari, vacated the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="5191" v="5191">Appeals' </match>
+      <post u="5192" v="5211">judgment, and remanded the case 'with directions to pass upon petitioner's claim of a qualified privilege.' 355 U.S. 171, </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="5208" v="5227">privilege.' 355 U.S. 171, 173, 78 S.Ct. 204, 206, 2 L.Ed.2d 179. On remand the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="5228" v="5228">Appeals </match>
+      <post u="5229" v="5248">held that the press release was protected by a qualified privilege, but that there was evidence from which a jury </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="13101" v="13120">79 S.Ct. 292, 3 L.Ed.2d 238; 79 S.Ct. 1164 (state required to allow indigent defendant to </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="13121" v="13121">appeal </match>
+      <post u="13122" v="13141">in forma pauperis from criminal conviction where appeal as of right allowed other defendants); Griffin v. People of the State </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="13109" v="13128">238; 79 S.Ct. 1164 (state required to allow indigent defendant to appeal in forma pauperis from criminal conviction where </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="13129" v="13129">appeal </match>
+      <post u="13130" v="13149">as of right allowed other defendants); Griffin v. People of the State of Illinois, 351 U.S. 12, 76 S.Ct. </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="13210" v="13229">evidence of 'similar sales' while other party is not, held invalid); People v. Sholem, 238 Ill, 203, 87 N.E. 390 (</pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="15994"
+      />
+      <match u="13230" v="13230">appeal </match>
+      <post u="13231" v="13250">from administrative determination of valuation of an estate for tax purposes must be allowed State if allowed other party); Hecker </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... R. Co., D.C., 145 F.Supp. 596. An appeal from this interlocutory decision, not one granting or  ... D.C., 155 F.Supp. 695. The Court of Appeals reversed, 3 Cir., 258 F.2d 62, holding  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.601.414.html/"
+  graph-id-high-water="18" vertex="19" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.601.414.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">48869</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1016" v="1035">opinion, granted the motion and entered summary judgment in favor of the petitioner. The respondent appealed to the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="1036" v="1036">Appeals </match>
+      <post u="1037" v="1056">for the Ninth Circuit, assigning as the single point on the appeal that the District Court 'erred in holding that </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1028" v="1047">petitioner. The respondent appealed to the Court of Appeals for the Ninth Circuit, assigning as the single point on the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="1048" v="1048">appeal </match>
+      <post u="1049" v="1068">that the District Court 'erred in holding that the award of the National Railroad Adjustment Board entitled * * * (the railroad) to </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1054" v="1073">in holding that the award of the National Railroad Adjustment Board entitled * * * (the railroad) to Summary Judgment.' The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="1074" v="1074">Appeals, </match>
+      <post u="1075" v="1094">one judge dissenting, reversed, 255 F.2d 633. Although the Court of Appeals held that the District Court would be '</post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1067" v="1086">railroad) to Summary Judgment.' The Court of Appeals, one judge dissenting, reversed, 255 F.2d 633. Although the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="1087" v="1087">Appeals </match>
+      <post u="1088" v="1107">held that the District Court would be 'without jurisdiction to entertain the action if the Board award represents a determination </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="1222" v="1241"><![CDATA[3 L.Ed.2d 119.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >7&lt;/span>
+      &lt;p >We do not agree with the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="1242" v="1242">Appeals' </match>
+      <post u="1243" v="1262">holding that the Board's award was based solely on its decision that Article 33(a) was not violated by </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="1282" v="1301">s determination that respondent was discharged for good cause. Thus we agree with Judge Healy, dissenting in the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="1302" v="1302">Appeals, </match>
+      <post u="1303" v="1322"><![CDATA[that on the face of the customarily brief findings of the Board&lt;a >4&lt;/a> it appears 'plain that the ]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="3789" v="3808">Pennsylvania-Reading Seashore Lines, 3 Cir., 245 F.2d 579, 582. So far as appears, all of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="3809" v="3809"><![CDATA[Appeals&lt;]]></match>
+      <post u="3810" v="3829"><![CDATA[a >13&lt;/a> and District Courts&lt;a >14&lt;/a> which have dealt with this problem have reached the conclusion we ]]></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="3980" v="3999"><![CDATA[damages in the instant common-law action.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >17&lt;/span>
+      &lt;p >The judgment of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="4000" v="4000">Appeals </match>
+      <post u="4001" v="4020"><![CDATA[is reversed and the case is remanded with direction to affirm the judgment of the District Court.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="4021" v="4040"><![CDATA[span >18&lt;/span>
+      &lt;p >It is so ordered.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >19&lt;/span>
+      &lt;p >Judgment of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="4041" v="4041">Appeals </match>
+      <post u="4042" v="4061"><![CDATA[reversed and case remanded with direction to affirm the judgment of the District Court.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >20&lt;/span>
+      &lt;]]></post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="6184" v="6203">award reflected its conclusion that the railroad was justified in discharging respondent. This interpretation was not before the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7492"
+      />
+      <match u="6204" v="6204">Appeals </match>
+      <post u="6205" v="6224">in this case, and we refer to it only as further substantiation of our conclusion based on the record in </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... petitioner. The respondent appealed to the Court of Appeals for the Ninth Circuit, assigning as the single point on the appeal that the District Court 'erred in holding that  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.55.406.447.html/"
+  graph-id-high-water="13" vertex="14" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.55.406.447.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">41314</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432913"
+    u="28"
+  >Jun 25,
+  2008 22:28:33 GMT</content>
+  <content name="language" weight="0" action="none" u="30">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="264" v="283"><![CDATA[injury may constitute a defense to a § 2(e) violation.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >2&lt;/span>
+      &lt;p >The Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="284" v="284">Appeals </match>
+      <post u="285" v="304">found that competition existed between thee larger and smaller customers of Simplicity and, with one judge dissenting, held that an </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1246" v="1265"><![CDATA[COMPETITION.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >10&lt;/span>
+      &lt;p >The unanimous conclusion of the Examiner, the Commission, and the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="1266" v="1266">Appeals </match>
+      <post u="1267" v="1286">on this point was, as stated by the Court of Appeals, that the variety and fabric stores, 'operating in the </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1257" v="1276">of the Examiner, the Commission, and the Court of Appeals on this point was, as stated by the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="1277" v="1277">Appeals, </match>
+      <post u="1278" v="1297">that the variety and fabric stores, 'operating in the same cities and in the same shopping area, often side by </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="3112" v="3131"><![CDATA[injury may constitute 'justification' of a prima facie § 2(e) violation.&lt;a >18&lt;/a> The judgment of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="3132" v="3132">Appeals </match>
+      <post u="3133" v="3152">must accordingly be reversed insofar as it set aside and remanded the Commission's order and affirmed as to the </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="3156" v="3175"><![CDATA[div >
+      &lt;span >27&lt;/span>
+      &lt;p >It is so ordered.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >28&lt;/span>
+      &lt;p >Judgment of Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="3176" v="3176">Appeals </match>
+      <post u="3177" v="3196"><![CDATA[reversed in part and affirmed in part.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;div >
+        &lt;a >1&lt;/a>
+        &lt;p > The complaint was in two ]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="4455" v="4474">of customers in fact constituted 'proportionally equal terms.' And, of course, this point was not raised in the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="4475" v="4475">Appeals </match>
+      <post u="4476" v="4495">or in this Court. We note in passing, however, that the Commission has indicated a willingness to give a relatively </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="4614" v="4633">argues that the Examiner 'affirmatively found an absence of competitive injury.' This view was apparently adopted by the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="4634" v="4634">Appeals. </match>
+      <post u="4635" v="4654">258 F.2d at page 678. We do not so read the record, however. What the Examiner said was that '</post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="4752" v="4771"><![CDATA[p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >8&lt;/a>
+        &lt;p > In allowing a showing of 'cost-justification' under § 2(b), the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="4772" v="4772">Appeals </match>
+      <post u="4773" v="4792">negated any inference that it was thereby importing '§ 2(a) criteria as matters of defense to a Section 2(e) </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="4889" v="4908"><![CDATA[U.S. 231, 71 S.Ct. 240, 95 L.Ed. 239.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >10&lt;/a>
+        &lt;p > The Courts of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="4909" v="4909">Appeals, </match>
+      <post u="4910" v="4929">prior to this case, had uniformly rejected the argument that § 2(e) violations were subject to a cost-justification defense </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="5037" v="5056">Cir., 1939, 102 F.2d 763, 767 (dictum as to competitive injury). It does not appear that any Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5953"
+      />
+      <match u="5057" v="5057">Appeals </match>
+      <post u="5058" v="5077"><![CDATA[had previously been asked to decide whether an absence of competitive injury could constitute a 'justification' under § 2(b).&lt;/p>
+      &lt;/]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... div >
+      &lt;span >2&lt;/span>
+      &lt;p >The Court of Appeals found that competition existed between thee larger and  ... the Examiner, the Commission, and the Court of Appeals on this point was, as stated by the  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.25.398.html/"
+  graph-id-high-water="15" vertex="16" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.25.398.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">46447</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="244" v="263">the authority on which the city's expropriation order was based. 153 F.Supp. 515, 517—518. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7150"
+      />
+      <match u="264" v="264">Appeals </match>
+      <post u="265" v="284">for the Fifth Circuit reversed, holding that the procedure adopted by the district judge was not available in an expropriation </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1331" v="1350">in whom may safely be vested, as is already, a wide range of judicial discretion, subject to appropriate review on </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7150"
+      />
+      <match u="1351" v="1351"><![CDATA[appeal.&lt;/]]></match>
+      <post u="1352" v="1371"><![CDATA[p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >11&lt;/span>
+      &lt;p >In light of these considerations, the immediate situation quickly falls into place. In ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1654" v="1673"><![CDATA[ion by the Supreme Court of Louisiana.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >13&lt;/span>
+      &lt;p >The judgment of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7150"
+      />
+      <match u="1674" v="1674">Appeals </match>
+      <post u="1675" v="1694">is reversed and the stay order of the District Court reinstated. We assume that both parties will cooperate in taking </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1764" v="1783"><![CDATA[determination.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >14&lt;/span>
+      &lt;p >Reversed.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >15&lt;/span>
+      &lt;p >Judgment of Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7150"
+      />
+      <match u="1784" v="1784">Appeals </match>
+      <post u="1785" v="1804"><![CDATA[reversed and stay order of District Court reinstated.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >16&lt;/span>
+      &lt;p >Mr. Justice STEWART, concurring.&lt;/p>
+    &lt;/]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="2785" v="2804">that federal constitutional questions lurk in the background is so patently frivolous that neither the District Court, the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7150"
+      />
+      <match u="2805" v="2805">Appeals, </match>
+      <post u="2806" v="2825">nor this Court considers it to be worthy of even passing reference. The Power and Light Company's only contention </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="3519" v="3538"><![CDATA[234, 64 S.Ct. 7, 11, 88 L.Ed. 9.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >24&lt;/span>
+      &lt;p >The Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7150"
+      />
+      <match u="3539" v="3539">Appeals, </match>
+      <post u="3540" v="3559">in my view, correctly considered, in reversing the action of the District Court, that there is not shown a semblance </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="3557" v="3576">shown a semblance of a countervailing interest which meets the standards permitting abstention. The standard utilized by the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7150"
+      />
+      <match u="3577" v="3577">Appeals </match>
+      <post u="3578" v="3597">in reviewing the District Court's order was not whether the district judge abused his discretion in staying the proceedings; </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="6001" v="6020"><![CDATA[negligence and contract actions.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >33&lt;/span>
+      &lt;p >I would affirm the judgment of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7150"
+      />
+      <match u="6021" v="6021"><![CDATA[Appeals.&lt;/]]></match>
+      <post u="6022" v="6041"><![CDATA[p>
+    &lt;/div>
+    &lt;div >
+      &lt;div >
+        &lt;a >1&lt;/a>
+        &lt;p > In the petition for certiorari there was also raised the question of ]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="6218" v="6237"><![CDATA[of his opinion Mr. Chief Justice Stone stated this issue:&lt;/p>
+        &lt;p >'The question is whether the Circuit Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7150"
+      />
+      <match u="6238" v="6238">Appeals, </match>
+      <post u="6239" v="6258">on appeal from the judgment of the District Court, rightly declined to exercise its jurisdiction on the ground that decision </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="6220" v="6239"><![CDATA[opinion Mr. Chief Justice Stone stated this issue:&lt;/p>
+        &lt;p >'The question is whether the Circuit Court of Appeals, on ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7150"
+      />
+      <match u="6240" v="6240">appeal </match>
+      <post u="6241" v="6260">from the judgment of the District Court, rightly declined to exercise its jurisdiction on the ground that decision of the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... F.Supp. 515, 517—518. The Court of Appeals for the Fifth Circuit reversed, holding that the  ... of judicial discretion, subject to appropriate review on appeal.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >11&lt;/span>
+      &lt;p >In  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.367.451.html/"
+  graph-id-high-water="24" vertex="25" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.367.451.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">24158</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432913"
+    u="27"
+  >Jun 25,
+  2008 22:28:33 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="162" v="181">which he had been a party. 18 U.S.C. § 2314, 18 U.S.C.A. § 2314. That conviction was reversed by the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3380"
+      />
+      <match u="182" v="182">Appeals </match>
+      <post u="183" v="202">for the Third Circuit on the ground that Jencks v. United States, 353 U.S. 657, 77 S.Ct. 1007, 1 </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="195" v="214">353 U.S. 657, 77 S.Ct. 1007, 1 L.Ed.2d 1103, which had been decided after conviction but before </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3380"
+      />
+      <match u="215" v="215">appeal, </match>
+      <post u="216" v="235">required production for petitioner's inspection of certain statements in the prosecutor's possession. 3 Cir., 245 F.2d 870. </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="238" v="257">trial thus ordered also resulted in a conviction, D.C., 157 F.Supp. 654, which was sustained by the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3380"
+      />
+      <match u="258" v="258">Appeals </match>
+      <post u="259" v="278">for the Third Circuit, 257 F.2d 760, 762. We granted certiorari, 358 U.S. 904, 79 S.Ct. 233, 3 </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="309" v="328">of documents, 18 U.S.C. (Supp. V) § 3500, 18 U.S.C.A. § 3500, and the propriety of the ruling of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3380"
+      />
+      <match u="329" v="329">Appeals </match>
+      <post u="330" v="349">that if the trial judge had erred in failing to deliver to petitioner certain documents, the error was harmless and </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="538" v="557">in the record to permit review of the correctness of the trial judge's rulings. As did the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3380"
+      />
+      <match u="558" v="558">Appeals, </match>
+      <post u="559" v="578">we have reviewed the documents withheld by the trial judge. Two are reports by FBI investigators which in no sense </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="911" v="930">the witness has testified 'and should have been given to defendant. This was recognized as error by the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3380"
+      />
+      <match u="931" v="931">Appeals. </match>
+      <post u="932" v="951">3 Cir., 257 F.2d 760, 763. That court, however, found that the same information which was contained in the </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="979" v="998">record, portions of which are reproduced in an Appendix, precludes us from rejecting the judgment on which the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3380"
+      />
+      <match u="999" v="999">Appeals </match>
+      <post u="1000" v="1019">based its conclusion that the failure to require production of this letter was empty of consequence. Since the same information </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="1141" v="1160">trial. There is such a thing as harmless error and this clearly was such. The judgment of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3380"
+      />
+      <match u="1161" v="1161">Appeals </match>
+      <post u="1162" v="1181"><![CDATA[for the Third Circuit is therefore affirmed.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >7&lt;/span>
+      &lt;p >Affirmed.&lt;/p>
+    &lt;/div>
+    &lt;p >APPENDIX TO ]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="2246" v="2265">day occurrences after such a period, though, as stated, possibly a review of my statement would help.' The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3380"
+      />
+      <match u="2266" v="2266">Appeals </match>
+      <post u="2267" v="2286">and this Court both agree that this letter was a statement relevant to the subject matter as to which the </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="3146" v="3165">testified in considerable detail at the trial. In such a circumstance, I think it was error for the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3380"
+      />
+      <match u="3166" v="3166">Appeals </match>
+      <post u="3167" v="3186">to second-guess defense counsel as to the possible use of the letter on cross-examination. If we are to </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... That conviction was reversed by the Court of Appeals for the Third Circuit on the ground that  ... which had been decided after conviction but before appeal, required production for petitioner's inspection of certain  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.273.439.html/"
+  graph-id-high-water="2" vertex="3" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.273.439.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">32129</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="171" v="190">to a jury on a negligence theory and judgment went for petitioner. D.C., 161 F.Supp. 875. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4872"
+      />
+      <match u="191" v="191">Appeals </match>
+      <post u="192" v="211">reversed, finding that under Pennsylvania law the decedent was an employee of respondent and that the Pennsylvania Workmen's Compensation </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="265" v="284">525, 78 S.Ct. 893, 2 L.Ed.2d 953 (decided after this case was argued in the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4872"
+      />
+      <match u="285" v="285">Appeals), </match>
+      <post u="286" v="305">the matter of the relationship of the decedent to respondent was a jury question. We have concluded that Byrd does </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="886" v="905">whether it was 'reasonably necessary for the protection of defendant's (respondent's) interests' to engage decedent. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4872"
+      />
+      <match u="906" v="906">Appeals </match>
+      <post u="907" v="926">held that the affirmative answer of the jury classified decedent as respondent's employee bringing him within the general definition </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="967" v="986">in addition, such casual employment must 'not be in the regular course of business' of respondent. This, the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4872"
+      />
+      <match u="987" v="987">Appeals </match>
+      <post u="988" v="1007">said, was a question of law under Pennsylvania practice and open to review. It held that the finding under Interrogatory </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="1036" v="1055"><![CDATA[the Pennsylvania Workmen's Compensation Act.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >5&lt;/span>
+      &lt;p >Since the keystone of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4872"
+      />
+      <match u="1056" v="1056">Appeals' </match>
+      <post u="1057" v="1076">holding depends on its interpretation of Special Interrogatory No. 1, we note the views of the trial judge on that </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="1304" v="1323">the regular course' of respondent's business. Our opinion in Byrd came down subsequent to argument in the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4872"
+      />
+      <match u="1324" v="1324">Appeals. </match>
+      <post u="1325" v="1344">As we said in that case 'An essential characteristic of (the federal system) is the manner in which, in civil </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="2136" v="2155">under the Pennsylvania decisions, bring him under the Workmen's Compensation Act. D.C., 161 F.Supp. 875. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4872"
+      />
+      <match u="2156" v="2156">Appeals </match>
+      <post u="2157" v="2176">disagreed with the trial judge's interpretation of the interrogatory, of the Pennsylvania statute and of the decisions thereunder. Reviewing </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="2335" v="2354">did not make that determination here. To agree with this second proposition we must either find that the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4872"
+      />
+      <match u="2355" v="2355">Appeals </match>
+      <post u="2356" v="2375">totally misinterpreted the answer of the jury to the interrogatory or that the rule stated in Byrd requires not only </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="2404" v="2423">deviate from the settled practice of this Court to accept the interpretation of proceedings below adopted by the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4872"
+      />
+      <match u="2424" v="2424">Appeals </match>
+      <post u="2425" v="2444"><![CDATA[unless that interpretation is baseless.&lt;a >1&lt;/a> Moreover, the ruling of the Court of Appeals was based primarily on ]]></post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="2420" v="2439"><![CDATA[by the Court of Appeals unless that interpretation is baseless.&lt;a >1&lt;/a> Moreover, the ruling of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4872"
+      />
+      <match u="2440" v="2440">Appeals </match>
+      <post u="2441" v="2460">was based primarily on an interpretation of Pennsylvania law and not on an extrapolation from the jury's finding. Judge </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... D.C., 161 F.Supp. 875. The Court of Appeals reversed, finding that under Pennsylvania law the decedent  ... this case was argued in the Court of Appeals), the matter of the relationship of the decedent  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.203.329.html/"
+  graph-id-high-water="6" vertex="7" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.203.329.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">37821</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1269" v="1288"><![CDATA[entered its order accordingly. 117 N.L.R.B. 1633.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >8&lt;/span>
+      &lt;p >Respondents then petitioned the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="1289" v="1289">Appeals </match>
+      <post u="1290" v="1309">to review and vacate the Board's findings and order, and the Board's answer sought enforcement of its order. </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1293" v="1312">vacate the Board's findings and order, and the Board's answer sought enforcement of its order. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="1313" v="1313">Appeals </match>
+      <post u="1314" v="1333">denied enforcement of the Board's order and set it aside. 256 F.2d 281. It found that respondents dominated </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1427" v="1446">2d, at pages 285—289. Because of an asserted conflict of that decision with the decisions of other Courts of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="1447" v="1447">Appeals, </match>
+      <post u="1448" v="1467">and of the importance of the matter to the proper administration of the National Labor Relations Act, we granted certiorari. </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1474" v="1493"><![CDATA[98, 3 L.Ed.2d 97.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >9&lt;/span>
+      &lt;p >We turn first to the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="1494" v="1494">Appeals' </match>
+      <post u="1495" v="1514">holding that an employee committee which does not 'bargain with' employers in 'the usual concept of collective bargaining' does not </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="1732" v="1751">2(5) which, if adopted, would have given that section the meaning now ascribed to it by the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="1752" v="1752">Appeals. </match>
+      <post u="1753" v="1772"><![CDATA[The proposal was that the term 'bargaining collectively' be substituted for the term 'dealing.'&lt;a >8&lt;/a> But the proposal ]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="1804" v="1823">the broad term 'dealing with' should be limited to and mean only 'bargaining with' as held by the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="1824" v="1824"><![CDATA[Appeals.&lt;]]></match>
+      <post u="1825" v="1844"><![CDATA[a >10&lt;/a> Construing § 2(5) of the original Wagner Act, the Courts of Appeals uniformly held that employee committees ]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="1819" v="1838"><![CDATA[held by the Court of Appeals.&lt;a >10&lt;/a> Construing § 2(5) of the original Wagner Act, the Courts of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="1839" v="1839">Appeals </match>
+      <post u="1840" v="1859">uniformly held that employee committees or plans, under whatever name called, that functioned similarly to those here, were 'labor organizations' </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="1897" v="1916"><![CDATA[Hartley Act re-enacted the section without change.&lt;a >13&lt;/a> Since that time, as before, the several Courts of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="1917" v="1917">Appeals </match>
+      <post u="1918" v="1937">have uniformly held that employee committees or plans, functioning similarly to those here, were 'labor organizations' within the definition of § </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="1933" v="1952"><![CDATA[organizations' within the definition of § 2(5).&lt;a >14&lt;/a>&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >11&lt;/span>
+      &lt;p >The Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="1953" v="1953">Appeals </match>
+      <post u="1954" v="1973">was therefore in error in holding that company-dominated Employee Committees, which exist for the purpose, in part at least (</post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="2507" v="2526">that under the declared purposes and actual practices of these Committees they are labor organizations unless, as the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5141"
+      />
+      <match u="2527" v="2527">Appeals </match>
+      <post u="2528" v="2547">held and as respondents contend, Congress by the 1947 amendment of § 9(a), in legal effect, eliminated such committees from </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... span>
+      &lt;p >Respondents then petitioned the Court of Appeals to review and vacate the Board's findings  ... sought enforcement of its order. The Court of Appeals denied enforcement of the Board's order and  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.474.180.html/"
+  graph-id-high-water="10" vertex="11" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.474.180.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">120277</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2320" v="2339">judgment. The District Court granted the Government's motion for summary judgment, 150 F.Supp. 958, and the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17493"
+      />
+      <match u="2340" v="2340">Appeals </match>
+      <post u="2341" v="2360"><![CDATA[affirmed that disposition, 103 U.S.App.D.C. 87, 254 F.2d 944, 952.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >18&lt;/span>
+      &lt;]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="2345" v="2364"><![CDATA[U.S.App.D.C. 87, 254 F.2d 944, 952.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >18&lt;/span>
+      &lt;p >The Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17493"
+      />
+      <match u="2365" v="2365">Appeals </match>
+      <post u="2366" v="2385"><![CDATA[recognized that petitioner had suffered substantial harm from the clearance revocation.&lt;a >21&lt;/a> But in that court's view, ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="2390" v="2409">no 'justiciable controversy'—no controversy which the courts could finally and effectively decide. This conclusion followed from the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17493"
+      />
+      <match u="2410" v="2410">Appeals' </match>
+      <post u="2411" v="2430">reasoning that the Executive Department alone is competent to evaluate the competing considerations which exist in determining the persons who </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="3200" v="3219">to protect from disclosure information affecting the national security or tending to compromise investigative sources or methods * * *.' See 'Procedures Governing </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17493"
+      />
+      <match u="3220" v="3220">Appeals </match>
+      <post u="3221" v="3240">to the Industrial Employment Review Board, dated 7 November 1949,' note 48 supra, § 4(c). After abolition of these boards </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="9140" v="9159">duplication in making clearance investigations. A      joint Personnel Security Board administers this program, and      the Industrial Employment Review Board hears </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17493"
+      />
+      <match u="9160" v="9160">appeals </match>
+      <post u="9161" v="9180"><![CDATA[from      security clearance denials.' Second Report of the Secretary      of Defense, for the Fiscal Year 1949 (1950), 85.&lt;/p>
+    &lt;/div>
+    &lt;]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="9202" v="9221">Army, where the number of security cases processed by the Army-Navy-Air Force Personnel Board, and the number of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17493"
+      />
+      <match u="9222" v="9222">appeals </match>
+      <post u="9223" v="9242"><![CDATA[handled by the Industrial Employment Review Board were detailed.&lt;a >9&lt;/a>&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >84&lt;/span>
+      &lt;p >Again ]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="10958" v="10977"><![CDATA[div >
+        &lt;a >4&lt;/a>
+        &lt;p > The IERB was a four-member board which was given jurisdiction to hear and review ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17493"
+      />
+      <match u="10978" v="10978">appeals </match>
+      <post u="10979" v="10998">from decisions of the PSB. Its charter, dated 7 November 1949 and signed by the Secretaries of the Army, Navy, </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="10996" v="11015">the Army, Navy, and Air Force, contemplated that it would afford hearings to persons denied clearance. And see 'Procedures Governing </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17493"
+      />
+      <match u="11016" v="11016">Appeals </match>
+      <post u="11017" v="11036"><![CDATA[to the Industrial Employment Review Board, dated 7 November 1949.'&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >5&lt;/a>
+        &lt;p > The letter read, ]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="11234" v="11253">an Industrial Personnel Security Board. This board shall consist of two separate and distinct divisions, a Screening Division and an </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17493"
+      />
+      <match u="11254" v="11254">Appeal </match>
+      <post u="11255" v="11274">Division, with equal representation of the Departments of the Army, Navy and Air Force on each such division. The Appeal </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="11254" v="11273">Appeal Division, with equal representation of the Departments of the Army, Navy and Air Force on each such division. The </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="17493"
+      />
+      <match u="11274" v="11274">Appeal </match>
+      <post u="11275" v="11294">Division shall have jurisdiction to hear appeals from the decision of the Screening Division and its decisions shall be determined </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 150 F.Supp. 958, and the Court of Appeals affirmed that disposition, 103 U.S.App.D.C.  ... div >
+      &lt;span >18&lt;/span>
+      &lt;p >The Court of Appeals recognized that petitioner had suffered substantial harm from  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.423.175.463.html/"
+  graph-id-high-water="46" vertex="47" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.423.175.463.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">52192</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="28"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="30">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="175" v="194"><![CDATA[p>
+      &lt;p >Mr. Justice BRENNAN delivered the opinion of the Court.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >1&lt;/span>
+      &lt;p >These two ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="8184"
+      />
+      <match u="195" v="195">appeals </match>
+      <post u="196" v="215">involve convictions of four appellants for refusal to answer certain questions put to them at sessions of the 'Un-American </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="243" v="262">incrimination in refusing to answer each of the questions. The cases are before us for the second time; on prior </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="8184"
+      />
+      <match u="263" v="263">appeals </match>
+      <post u="264" v="283">the judgments below were vacated and the causes remanded for reconsideration in the light of Sweezy v. State of New </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="332" v="351">reaffirmance of the prior judgment without discussion, 167 Ohio St. 295, 147 N.E.2d 847, and on the present </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="8184"
+      />
+      <match u="352" v="352">appeals </match>
+      <post u="353" v="372">we postponed further consideraton of the jurisdictional questions presented until the arguments on the merits. 358 U.S. 862, 863, 79 </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="2151" v="2170">the relatively few counts found against them, the trial court filing no opinion or conclusions of law. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="8184"
+      />
+      <match u="2171" v="2171">Appeals </match>
+      <post u="2172" v="2191">affirmed the convictions on some of the counts as to Raley, on one of the two counts as to Stern, </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="2457" v="2476">that her plea of the privilege against self-incrimination was rejected. Further constitutional claims were summarily rejected. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="8184"
+      />
+      <match u="2477" v="2477">Appeals—</match>
+      <post u="2478" v="2497">a different one from that which passed on the appeal of Raley, Stern, and Brown—affirmed the judgment for the </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="2467" v="2486">rejected. Further constitutional claims were summarily rejected. The Court of Appeals—a different one from that which passed on the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="8184"
+      />
+      <match u="2487" v="2487">appeal </match>
+      <post u="2488" v="2507"><![CDATA[of Raley, Stern, and Brown—affirmed the judgment for the reasons stated in the trial court's opinion.&lt;/p>
+    &lt;/div>
+    &lt;]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="2494" v="2513"><![CDATA[the judgment for the reasons stated in the trial court's opinion.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >11&lt;/span>
+      &lt;p >On ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="8184"
+      />
+      <match u="2514" v="2514">appeal, </match>
+      <post u="2515" v="2534">the Supreme Court of Ohio, though affirming the convictions, abandoned reliance on the theories under which the appellants were found </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="2578" v="2597">133 N.E.2d at pages 111—112. And it did not discuss the theory on which the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="8184"
+      />
+      <match u="2598" v="2598">Appeals </match>
+      <post u="2599" v="2618">relied in the case of Raley, Stern, and Brown; its basis for affirming the judgment was entirely independent of that </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="2603" v="2622">of Raley, Stern, and Brown; its basis for affirming the judgment was entirely independent of that of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="8184"
+      />
+      <match u="2623" v="2623">Appeals. </match>
+      <post u="2624" v="2643">The Supreme Court placed its reliance entirely on the immunity statute. It held that the immunity under the statute was </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="2758" v="2777"><![CDATA[adhered to its former judgments.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >12&lt;/span>
+      &lt;p >First. We must examine our jurisdiction over these ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="8184"
+      />
+      <match u="2778" v="2778">appeals. </match>
+      <post u="2779" v="2798">Appellants assert jurisdiction under 28 U.S.C. § 1257(2), 28 U.S.C.A. § 1257(2), a grant of jurisdiction on appeal, 'where is </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... div>
+    &lt;div >
+      &lt;span >1&lt;/span>
+      &lt;p >These two appeals involve convictions of four appellants for refusal to  ... before us for the second time; on prior appeals the judgments below were vacated and the causes  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.99609"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.246.699.html/"
+  graph-id-high-water="27" vertex="28" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.246.699.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">10698</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="71" v="90"><![CDATA[v.&lt;br />PRICE, Chief of Police.&lt;/p>
+    &lt;p >No. 699.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >On ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1492"
+      />
+      <match u="91" v="91">Appeal </match>
+      <post u="92" v="111"><![CDATA[from the Supreme Court of Ohio.&lt;/p>
+      &lt;p >Mr. J. Harvey Crow, for appellant.&lt;/p>
+      &lt;p >Messrs. Charles S. Rhyne ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="241" v="260">The Court's practice, when considering a jurisdictional statement whereby a litigant attempts to invoke the Court's jurisdiction on </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1492"
+      />
+      <match u="261" v="261">appeal, </match>
+      <post u="262" v="281">is quite similar to its well-known one on applications for writs of certiorari. That is, if four Justices or </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="272" v="291">for writs of certiorari. That is, if four Justices or more are of opinion that the questions presented by the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1492"
+      />
+      <match u="292" v="292">appeal </match>
+      <post u="293" v="312">should be fully briefed and argued orally, an order noting probable jurisdiction or postponing further consideration of the jurisdictional questions </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="351" v="370">Court; votes previously cast in Conference that the judgment of the court appealed from be summarily affirmed, or that the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1492"
+      />
+      <match u="371" v="371">appeal </match>
+      <post u="372" v="391">be dismissed for want of a substantial federal question, do not conclude the Justices casting them, and every member of </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="410" v="429">the oral arguments. Because of this, disagreeing Justices do not ordinarily make a public notation, when an order setting an </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1492"
+      />
+      <match u="430" v="430">appeal </match>
+      <post u="431" v="450">for argument is entered, that they would have summarily affirmed the judgment below, or have dismissed the appeal from it </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="428" v="447">setting an appeal for argument is entered, that they would have summarily affirmed the judgment below, or have dismissed the </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1492"
+      />
+      <match u="448" v="448">appeal </match>
+      <post u="449" v="468"><![CDATA[from it for want of a substantial federal question. Research has not disclosed any instance of such notations until today.&lt;]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="888" v="907">in this case at bar and involves the same constitutional questions,' thus raising 'substantially the same problems presented by this </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1492"
+      />
+      <match u="908" v="908">appeal.' </match>
+      <post u="909" v="928">We, therefore, held this case awaiting the decision in Frank v. State of Maryland, 79 S.Ct. 804. It was </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="1313" v="1332">S.Ct. 775, 96 L.Ed. 1344, where the extraordinary power to grant certiorari before judgment in the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1492"
+      />
+      <match u="1333" v="1333">Appeals </match>
+      <post u="1334" v="1353">was exercised, and two Justices expressed their view that judgment in that court should have been obtained before this Court </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="1385" v="1404"><![CDATA[div >
+        &lt;a >2&lt;/a>
+        &lt;p > Notation of dissent from a denial of certiorari, or from a summary disposition of an ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1492"
+      />
+      <match u="1405" v="1405">appeal, </match>
+      <post u="1406" v="1425">is a completely different matter. Such notations occur with some frequency and I have made them myself. They are expressions </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >On Appeal from the Supreme Court of Ohio.&lt;/p>
+      &lt;p > ... attempts to invoke the Court's jurisdiction on appeal, is quite similar to its well-known one  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.96875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.593.57.html/"
+  graph-id-high-water="43" vertex="44" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.593.57.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">16670</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="680" v="699">duties and in relation to matters committed to him for determination,' and that it was therefore absolutely privileged. On respondents' </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2302"
+      />
+      <match u="700" v="700">appeal, </match>
+      <post u="701" v="720">the Court of Appeals held that the sending of the official report to petitioner's superior officers was protected by </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="684" v="703">to matters committed to him for determination,' and that it was therefore absolutely privileged. On respondents' appeal, the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2302"
+      />
+      <match u="704" v="704">Appeals </match>
+      <post u="705" v="724">held that the sending of the official report to petitioner's superior officers was protected by an absolute privilege, and </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="720" v="739">by an absolute privilege, and noted that reliance on the dissemination to the newspapers had been abandoned by respondents on </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2302"
+      />
+      <match u="740" v="740">appeal </match>
+      <post u="741" v="760">in the face of petitioner's sworn statement that he had not been responsible for that publication. As to the </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="871" v="890"><![CDATA[915.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >6&lt;/span>
+      &lt;p >We granted certiorari to consider petitioner's contention that the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2302"
+      />
+      <match u="891" v="891">Appeals </match>
+      <post u="892" v="911">had erred in failing to recognize his plea of absolute privilege in respect of the publication to members of Congress. </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="931" v="950"><![CDATA[p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >7&lt;/span>
+      &lt;p >At the outset, we take note of a question which the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2302"
+      />
+      <match u="951" v="951">Appeals, </match>
+      <post u="952" v="971">on its view of the case, did not find it necessary to resolve—whether the extent of the privilege in </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="1868" v="1887">No purpose would be served by setting out the entire, lengthy report. It is adequately summarized in the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2302"
+      />
+      <match u="1888" v="1888">Appeals' </match>
+      <post u="1889" v="1908"><![CDATA[opinion as follows:&lt;/p>
+        &lt;p >'This letter alleged that plaintiff Lyons by name, and the other plaintiff by description, 'exercise ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... that it was therefore absolutely privileged. On respondents' appeal, the Court of Appeals held that the sending of the official report  ... the newspapers had been abandoned by respondents on appeal in the face of petitioner's sworn statement  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.96875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.395.489.491.html/"
+  graph-id-high-water="9" vertex="10" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.395.489.491.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">35591</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="28"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="30">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="211" v="230">grand jury minutes covering the testimony before that body of a key government witness at the trial. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5430"
+      />
+      <match u="231" v="231">Appeals </match>
+      <post u="232" v="251">affirmed the convictions, 260 F.2d 397. With reference to the present claim, it held that Rule 6(e) of </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="931" v="950">Court in 1946 after the approval of Congress. In fact, the federal trial courts as well as the Courts of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5430"
+      />
+      <match u="951" v="951">Appeals </match>
+      <post u="952" v="971"><![CDATA[have been nearly unanimous in regarding disclosure as committed to the discretion of the trial judge.&lt;a >4&lt;/a> Our ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1682" v="1701">But we need not consider that problem because petitioners made no such request of the trial judge. The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5430"
+      />
+      <match u="1702" v="1702">Appeals </match>
+      <post u="1703" v="1722">apparently was of the view that even if the ria l judge had been requested to examine the transcript he </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1720" v="1739">the transcript he would not have been absolutely required to do so. It is contended here that the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5430"
+      />
+      <match u="1740" v="1740">Appeals </match>
+      <post u="1741" v="1760">for the Second Circuit has reached a contrary conclusion. United States v. Spangelet, 258 F.2d 338. Be that as </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="1846" v="1865"><![CDATA[and Mr. Justice DOUGLAS join, dissenting.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >12&lt;/span>
+      &lt;p >In the words of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5430"
+      />
+      <match u="1866" v="1866">Appeals, </match>
+      <post u="1867" v="1886"><![CDATA[Jonas was the Government's 'principal prosecuting witness.'&lt;a >1&lt;/a> He was President of Lenoir Mirror Company, which company ]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="4622" v="4641"><![CDATA[course to the applicable rules of evidence.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >24&lt;/span>
+      &lt;p >I would reverse the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5430"
+      />
+      <match u="4642" v="4642">Appeals </match>
+      <post u="4643" v="4662">and order a new trial for failure to the trial judge to order the production of Jonas' relevant grand jury </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... government witness at the trial. The Court of Appeals affirmed the convictions, 260 F.2d 397. With  ... trial courts as well as the Courts of Appeals have been nearly unanimous in regarding disclosure as  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.9375"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.343.471.html/"
+  graph-id-high-water="14" vertex="15" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.343.471.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">53020</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="597" v="616"><![CDATA[since it was not within the definition of 'statement' in (e) of the Act.&lt;a >1&lt;/a> The Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7939"
+      />
+      <match u="617" v="617">Appeals </match>
+      <post u="618" v="637">for the Second Circuit affirmed. 258 F.2d 397. Together with several other cases raising Jencks Act problems, we granted </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="2990" v="3009">p >In light of these principles the case before us is clear. Both the District Court and the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7939"
+      />
+      <match u="3010" v="3010">Appeals </match>
+      <post u="3011" v="3030">correctly held that the sole standard governing production of the agent's memorandum of his conference with Sanfilippo was 18 </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="3024" v="3043">of his conference with Sanfilippo was 18 U.S.C. § 3500, 18 U.S.C.A. § 3500. The district judge and a unanimous Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7939"
+      />
+      <match u="3044" v="3044">Appeals </match>
+      <post u="3045" v="3064">held that the statement was not within the definition of statement in (e) as properly understood by them. We have </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="3095" v="3114">serious reflection on the conscience and capacity of the federal judiciary if both a trial judge and a Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7939"
+      />
+      <match u="3115" v="3115">Appeals </match>
+      <post u="3116" v="3135">were found to have disregarded the command of Congress, duly interpreted, for making available a prior statement of a government </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="6768" v="6787">defendant, the entire text of such statements shall be preserved by the United States and, in the event the defendant </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7939"
+      />
+      <match u="6788" v="6788">appeals, </match>
+      <post u="6789" v="6808">shall be made available to the appellate court for the purpose of determining the correctness of the ruling of the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... the Act.&lt;a >1&lt;/a> The Court of Appeals for the Second Circuit affirmed. 258 F.2d  ... Both the District Court and the Court of Appeals correctly held that the sole standard governing production  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.9375"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.378.518.536.html/"
+  graph-id-high-water="31" vertex="32" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.378.518.536.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">35875</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="28"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="30">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="654" v="673">using Tennessee's gas. Upon the issuance of the certificates the respondents filed petitions for review with the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5334"
+      />
+      <match u="674" v="674">Appeals. </match>
+      <post u="675" v="694">It held that 'Congress has not given the Commission power to inquire into the issue of public convenience and necessity </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="798" v="817">1959, 358 U.S. 926, 79 S.Ct. 317, 3 L.Ed.2d 300. We have concluded that the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5334"
+      />
+      <match u="818" v="818">Appeals </match>
+      <post u="819" v="838">was in rro r in deciding that the Commission had no jurisdiction. However, for reasons hereafter developed we hold that </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="841" v="860">of the Commission in granting the certificates was in error and we, therefore, affirm the judgment of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5334"
+      />
+      <match u="861" v="861"><![CDATA[Appeals.&lt;/]]></match>
+      <post u="862" v="881"><![CDATA[p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >3&lt;/span>
+      &lt;p >The natural gas involved here is of a Miocene sand located below seabed ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="2130" v="2149"><![CDATA[a >6&lt;/a> It does not urge reversal of the judgment but attacks the ground upon which the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5334"
+      />
+      <match u="2150" v="2150">Appeals </match>
+      <post u="2151" v="2170">bottomed its remand, namely, lack of Commission jurisdiction to consider the limited proposal of petitioners. The Commission's brief suggests </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="2260" v="2279"><![CDATA[was quite substantial.&lt;/p>
+    &lt;/div>
+    &lt;p >I. Jurisdiction of the Commission.&lt;/p>
+    &lt;div >
+      &lt;span >11&lt;/span>
+      &lt;p >The Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="32"
+        v="5334"
+      />
+      <match u="2280" v="2280">Appeals </match>
+      <post u="2281" v="2300">thought that the Commission had no jurisdiction to consider petitioners' proposal because it was limited to a firm price agreed </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... filed petitions for review with the Court of Appeals. It held that 'Congress has not given the  ... 300. We have concluded that the Court of Appeals was in rro r in deciding that the  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.328.573.html/"
+  graph-id-high-water="38" vertex="39" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.328.573.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">12906</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="535" v="554">purposes' and that a NIKE site was not such a purpose, the jury returned a $25,000 verdict for respondents. On </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1842"
+      />
+      <match u="555" v="555">appeal </match>
+      <post u="556" v="575">the United States Court of Appeals for the Seventh Circuit affirmed this verdict by a divided court. 258 F.2d </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="541" v="560">was not such a purpose, the jury returned a $25,000 verdict for respondents. On appeal the United States Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1842"
+      />
+      <match u="561" v="561">Appeals </match>
+      <post u="562" v="581">for the Seventh Circuit affirmed this verdict by a divided court. 258 F.2d 17. It held (1) that the </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1202" v="1221"><![CDATA[has been made here.&lt;a >7&lt;/a>&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >7&lt;/span>
+      &lt;p >The judgment of the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1842"
+      />
+      <match u="1222" v="1222">Appeals </match>
+      <post u="1223" v="1242"><![CDATA[is reversed.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >8&lt;/span>
+      &lt;p >Reversed.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;div >
+        &lt;a >1&lt;/a>
+        &lt;p > The preamble ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... jury returned a $25,000 verdict for respondents. On appeal the United States Court of Appeals for the Seventh Circuit affirmed this verdict by  ... span>
+      &lt;p >The judgment of the Court of Appeals is reversed.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >8&lt;/span>
+      &lt; ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.219.157.html/"
+  graph-id-high-water="23" vertex="24" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.219.157.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">23691</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="638" v="657">right, that plaintiffs' legitimate interests will be constitutionally safeguarded by a resort to viewers proceedings and, if necessary, by later </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3364"
+      />
+      <match u="658" v="658">appeals </match>
+      <post u="659" v="678"><![CDATA[to the courts.' Creasy v. Lawler, 8 Pa.Dist. &amp; Co.R.2d 535, 537.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >7&lt;/span>
+      &lt;]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="804" v="823">In the orderly course of the procedure      provided by The Limited Access Highways Act, they will have a      right of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3364"
+      />
+      <match u="824" v="824">appeal </match>
+      <post u="825" v="844">to the common pleas court and a jury trial,      and still later to have their rights adjudicated in the      appellate </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1090" v="1109"><![CDATA[v. Stevens, D.C., 160 F.Supp. 404, 409.&lt;a >4&lt;/a> The case is here by way of a direct ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3364"
+      />
+      <match u="1110" v="1110">appeal, </match>
+      <post u="1111" v="1130">28 U.S.C. § 1253, 28 U.S.C.A. § 1253, of which this Court noted probable jurisdiction. 358 U.S. 807, 79 S.Ct. 38, </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... to viewers proceedings and, if necessary, by later appeals to the courts.' Creasy v. Lawler, 8 Pa. ... Highways Act, they will have a      right of appeal to the common pleas court and a jury  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.72.34.html/"
+  graph-id-high-water="26" vertex="27" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.72.34.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">81757</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="141" v="160"><![CDATA[CLARK delivered the opinion of the Court.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >1&lt;/span>
+      &lt;p >This case is here again on ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="161" v="161">appeal </match>
+      <post u="162" v="181">from a judgment of civil contempt entered against appellant by the Merrimack County Court and affirmed by the Supreme Court </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="210" v="229">determine, inter alia, whether there were subversive persons or organizations present in the State of New Hampshire. Upon the first </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="230" v="230">appeal </match>
+      <post u="231" v="250">from the New Hampshire court, 100 N.H. 436, 130 A.2d 278, we vacated the judgment, 355 U.S. 16, 78 </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="670" v="689">Court sustained appellant's objection to the production of the names of the nonprofessional employees. The Attorney General took no </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="12601"
+      />
+      <match u="690" v="690">appeal </match>
+      <post u="691" v="710">from that ruling, and it is not before us. Appellant's objections to the production of the names of the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... span>
+      &lt;p >This case is here again on appeal from a judgment of civil contempt entered against  ... the State of New Hampshire. Upon the first appeal from the New Hampshire court, 100 N.H. 436,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.167.127.html/"
+  graph-id-high-water="8" vertex="9" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.167.127.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">39598</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="216" v="235">retained jurisdiction pending a construction by the state courts. 159 F.Supp. 503. Only the former disposition was appealed. The </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5885"
+      />
+      <match u="236" v="236">appeal </match>
+      <post u="237" v="256">raises two questions: First, whether in the circumstances of this case the District Court should have abstained from a constitutional </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="855" v="874">noted probable jurisdiction. 358 U.S. 807, 79 S.Ct. 33, 3 L.Ed.2d 53. NAACP and Fund did not </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5885"
+      />
+      <match u="875" v="875">appeal </match>
+      <post u="876" v="895"><![CDATA[the disposition of Chapters 33 and 36.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >6&lt;/span>
+      &lt;p >The three Virginia statutes before us ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="3231" v="3250">cf. NAACP v. Alabama, supra, we note that Chapter 32 contains a separability clause, and that the Supreme Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="5885"
+      />
+      <match u="3251" v="3251">Appeals </match>
+      <post u="3252" v="3271">of Virginia treats legislative acts as separable, where possible, even in the absence of such an express provision. See Woolfolk </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 503. Only the former disposition was appealed. The appeal raises two questions: First, whether in the circumstances  ... Ed.2d 53. NAACP and Fund did not appeal the disposition of Chapters 33 and 36.&lt;/p>
+    &lt;/ ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.301.482.html/"
+  graph-id-high-water="4" vertex="5" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.301.482.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">21709</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="878" v="897"><![CDATA[of a finding that the respondent had violated the Act.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >7&lt;/span>
+      &lt;p >The Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3178"
+      />
+      <match u="898" v="898">Appeals </match>
+      <post u="899" v="918">denied the Board's petition for enforcement. 258 F.2d 851, 855. Substantially agreeing with the reasoning of the dissenting </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1703" v="1722">p >What has been said is not to imply that the Board is, in the words of the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3178"
+      />
+      <match u="1723" v="1723">Appeals, </match>
+      <post u="1724" v="1743">to be left 'carte blanche to expand the charge as they might please, or to ignore it altogether.' 258 F.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="3035" v="3054"><![CDATA[filing of the charge.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >10&lt;/a>
+        &lt;p > The Board urges that we instruct the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3178"
+      />
+      <match u="3055" v="3055">Appeals </match>
+      <post u="3056" v="3075">to enforce the Board's order We  decline to do so. Cf. National Labor Relations Board v. Pittsburgh S.S. Co., </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... div >
+      &lt;span >7&lt;/span>
+      &lt;p >The Court of Appeals denied the Board's petition for enforcement. 258  ... is, in the words of the Court of Appeals, to be left 'carte blanche to expand the  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.672.457.html/"
+  graph-id-high-water="19" vertex="20" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.672.457.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">26990</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="175" v="194"><![CDATA[lottery operations. The petitioners and six others were convicted.&lt;a >1&lt;/a> Their convictions were affirmed by the Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3975"
+      />
+      <match u="195" v="195">Appeals. </match>
+      <post u="196" v="215">259 F.2d 886. Certiorari was granted to examine the scope of the conspiracy statute in the context of these </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="2406" v="2425">motions for acquittal of Smith and Law should have been sustained by the District Court, and that the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3975"
+      />
+      <match u="2426" v="2426">Appeals </match>
+      <post u="2427" v="2446"><![CDATA[was in error in affirming their convictions.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >19&lt;/span>
+      &lt;p >Judgment accordingly.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Their convictions were affirmed by the Court of Appeals. 259 F.2d 886. Certiorari was granted to  ... the District Court, and that the Court of Appeals was in error in affirming their convictions.&lt;/p>
+    &lt;/ ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.264.583.html/"
+  graph-id-high-water="37" vertex="38" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.264.583.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">21035</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="809" v="828"><![CDATA[court denied petitioner relief on the basis of the attorney's testimony.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >7&lt;/span>
+      &lt;p >On ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3299"
+      />
+      <match u="829" v="829">appeal, </match>
+      <post u="830" v="849">the Illinois Supreme Court affirmed on different grounds over two dissents. 13 Ill.2d 566, 150 N.E.2d 613. </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1313" v="1332">in testifying falsely that a defendant's life or liberty may depend. As stated by the New York Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3299"
+      />
+      <match u="1333" v="1333">Appeals </match>
+      <post u="1334" v="1353">in a case very similar to this one, People v. Savvides, 1 N.Y.2d 554, 557, 154 N.Y.</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >7&lt;/span>
+      &lt;p >On appeal, the Illinois Supreme Court affirmed on different grounds  ... As stated by the New York Court of Appeals in a case very similar to this one,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.45.584.html/"
+  graph-id-high-water="44" vertex="45" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.45.584.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">22503</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="458" v="477">Supreme Court which affirmed the lower court. 248 N.C. 102, 102 S.E.2d 853. The case came here by </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3341"
+      />
+      <match u="478" v="478">appeal, </match>
+      <post u="479" v="498">28 U.S.C. § 1257(2), 28 U.S.C.A. § 1257(2), and we noted probable jurisdiction. 358 U.S. 916, 79 S.Ct. 294, </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="2025" v="2044">those who are literate should exercise the franchise. Cf. Franklin v. Harper, 205 Ga. 779, 55 S.E.2d 221, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="3341"
+      />
+      <match u="2045" v="2045">appeal </match>
+      <post u="2046" v="2065">dismissed 339 U.S. 946, 70 S.Ct. 804, 94 L.Ed. 1361. It was said last century in Massachusetts that </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... E.2d 853. The case came here by appeal, 28 U.S.C. § 1257(2), 28 U.S.C.A. § 1257(2),  ... 205 Ga. 779, 55 S.E.2d 221, appeal dismissed 339 U.S. 946, 70 S.Ct. 804,  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.715.561.html/"
+  graph-id-high-water="25" vertex="26" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.715.561.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">2875</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="179" v="198"><![CDATA[others.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >4&lt;/span>
+      &lt;p >On petition for writ of certiorari to the United States Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="285"
+      />
+      <match u="199" v="199">Appeals </match>
+      <post u="200" v="219"><![CDATA[for the Fifth Circuit.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >5&lt;/span>
+      &lt;p >PER CURIAM.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >6&lt;/span>
+      &lt;p >]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="216" v="235"><![CDATA[span >6&lt;/span>
+      &lt;p >The petition for writ of certiorari is granted. The judgment of the United States Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="285"
+      />
+      <match u="236" v="236">Appeals </match>
+      <post u="237" v="256">for the Fifth Circuit are reversed. Commissioner of Internal Revenue v. Hansen, (Commissioner of Internal Revenue v. Glover, Baird v. </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... of certiorari to the United States Court of Appeals for the Fifth Circuit.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span > ... The judgment of the United States Court of Appeals for the Fifth Circuit are reversed. Commissioner of  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.315.582.html/"
+  graph-id-high-water="17" vertex="18" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.315.582.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">31951</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1657" v="1676">to be voluntary. The jury returned a guilty verdict and petitioner was sentenced to death. The New York Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4960"
+      />
+      <match u="1677" v="1677">Appeals </match>
+      <post u="1678" v="1697">affirmed the conviction over three dissents, 4 N.Y.2d 256, 173 N.Y.S.2d 793, 150 N.E.</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="3745" v="3764"><![CDATA[div >
+      &lt;span >34&lt;/span>
+      &lt;p >I join with Judges Desmond, Fuld, and Van Voorhis of the New York Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="4960"
+      />
+      <match u="3765" v="3765">Appeals (</match>
+      <post u="3766" v="3785">4 N.Y.2d 256, 266, 173 N.Y.S.2d 793, 801, 150 N.E.2d 226, 232—233), </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... sentenced to death. The New York Court of Appeals affirmed the conviction over three dissents, 4 N. ... Van Voorhis of the New York Court of Appeals (4 N.Y.2d 256, 266, 173 N. ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.525.248.html/"
+  graph-id-high-water="5" vertex="6" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.525.248.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">53541</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5772" v="5791">123 Neb. 348, 243 N.W. 82, 82 A.L.R. 1098. Following this decision the case was remanded for a new trial. </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7642"
+      />
+      <match u="5792" v="5792">Appeal </match>
+      <post u="5793" v="5812">from a judgment for plaintiff was dismissed by the Supreme Court of Nebraska. Appeal to this Court was dismissed sub </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="5786" v="5805">was remanded for a new trial. Appeal from a judgment for plaintiff was dismissed by the Supreme Court of Nebraska. </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="7642"
+      />
+      <match u="5806" v="5806">Appeal </match>
+      <post u="5807" v="5826">to this Court was dismissed sub nom. KFAB Broadcasting Co. v. Sorensen, 290 U.S. 599, 54 S.Ct. 209, 78 </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... the case was remanded for a new trial. Appeal from a judgment for plaintiff was dismissed by the Supreme Court of Nebraska. Appeal to this Court was dismissed sub nom. KFAB  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.472.677.html/"
+  graph-id-high-water="34" vertex="35" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.472.677.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">2418</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432913"
+    u="27"
+  >Jun 25,
+  2008 22:28:33 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="113" v="132"><![CDATA[Beatrice Rosenberg, for the United States.&lt;/p>
+      &lt;p >On Petition for Writ of Certiorari to the United States Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="240"
+      />
+      <match u="133" v="133">Appeals </match>
+      <post u="134" v="153"><![CDATA[for the Ninth Circuit.&lt;/p>
+      &lt;p >PER CURIAM.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >1&lt;/span>
+      &lt;p >In view of all the ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... of Certiorari to the United States Court of Appeals for the Ninth Circuit.&lt;/p>
+      &lt;p >PER CURIAM.&lt;/ ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.470.435.436.437.html/"
+  graph-id-high-water="45" vertex="46" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.470.435.436.437.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">2486</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="29"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="31">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="181" v="200"><![CDATA[Feit, on the brief), for the United States.&lt;/p>
+      &lt;p >On writs of certiorari to the United States Court of ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="33"
+        v="265"
+      />
+      <match u="201" v="201">Appeals </match>
+      <post u="202" v="221"><![CDATA[for the Second Circuit.&lt;/p>
+      &lt;p >PER CURIAM.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >1&lt;/span>
+      &lt;p >The judgment is affirmed by ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... of certiorari to the United States Court of Appeals for the Second Circuit.&lt;/p>
+      &lt;p >PER CURIAM.&lt;/ ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.19.210.html/"
+  graph-id-high-water="41" vertex="42" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.19.210.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">11260</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="570" v="589">had invested in its subsidiary. The trial court rejected the Government's interpretation, and the United States brought a direct </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1539"
+      />
+      <match u="590" v="590">appeal </match>
+      <post u="591" v="610"><![CDATA[under 32 Stat. 823, as amended, 15 U.S.C. § 29, 15 U.S.C.A. § 29, 49 U.S.C. § 45, 49 U.S.C.A. § 45.&lt;/p>
+    &lt;/div>
+    &lt;]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... interpretation, and the United States brought a direct appeal under 32 Stat. 823, as amended, 15 U.S.C. §  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.251.831.html/"
+  graph-id-high-water="11" vertex="12" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.251.831.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">2055</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="148" v="167"><![CDATA[Michigan.&lt;/p>
+      &lt;p >PER CURIAM.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >1&lt;/span>
+      &lt;p >The motion to dismiss is granted and the ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="196"
+      />
+      <match u="168" v="168">appeal </match>
+      <post u="169" v="188"><![CDATA[is dismissed for want of a subsant ial federal question.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;p >&lt;a >CC∅&lt;/a> | Transformed by &lt;a >]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... The motion to dismiss is granted and the appeal is dismissed for want of a subsant ial  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.310.383.html/"
+  graph-id-high-water="0" vertex="1" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.310.383.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">8051</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="166" v="185">licensed physician, which resulted in misbranding and violation of 21 U.S.C. § 331(k), 21 U.S.C.A. § 331(k). The Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="1091"
+      />
+      <match u="186" v="186">Appeals </match>
+      <post u="187" v="206">affirmed, one judge dissenting, 258 F.2d 94. The case is here on a petition for certiorari, 28 U.S.C. § 1254(</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... k), 21 U.S.C.A. § 331(k). The Court of Appeals affirmed, one judge dissenting, 258 F.2d 94.  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.709.504.html/"
+  graph-id-high-water="1" vertex="2" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.709.504.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">7097</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="27"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="313" v="332">Respondents prevailed on a motion for summary judgment and, on December 15, 1958, we granted certiorari to the Court of </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="870"
+      />
+      <match u="333" v="333">Appeals </match>
+      <post u="334" v="353">before argument was had in that court because of the pendency here of Greene v. McElroy, supra. 358 U.S. 918, </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... 1958, we granted certiorari to the Court of Appeals before argument was had in that court because  ... </content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/law/US/360/360.US.334.252.html/"
+  graph-id-high-water="16" vertex="17" priority="0" ct="text/xml"
+  url="smb://testbed5.test.vivisimo.com/testfiles/test_data/law/US/360/360.US.334.252.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">19648</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432913"
+    u="27"
+  >Jun 25,
+  2008 22:28:33 GMT</content>
+  <content name="language" weight="0" action="none" u="29">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="441" v="460">of the Act. The trial court, with some qualification, granted the injunction against Safeway and denied relief against appellees. On </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="31"
+        v="2828"
+      />
+      <match u="461" v="461">appeal, </match>
+      <post u="462" v="481">the Supreme Court of Oklahoma affirmed, 322 P.2d 179, and since the constitutionality of the state statute was challenged </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... against Safeway and denied relief against appellees. On appeal, the Supreme Court of Oklahoma affirmed, 322 P. ... </content>
+</document>
+<retrieval-performance n-tau="358" n-rho="80" n-uat="0" n-ohr="0"
+  occr-reads="313159" block-reads="644" seeks="0" cache-hits="644" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="79" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="598" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="79" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="598" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-tau="79" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="598" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="301838" block-reads="644" seeks="0" cache-hits="644" cache-misses="0"
+  >
+    <query-performance what="3:" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="301838" block-reads="644" seeks="0" cache-hits="644" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="199" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="6059" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="199" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="6059" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="199" n-rho="199" n-uat="0"
+        n-ohr="0" occr-reads="6059" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-tau="199" n-rho="319" n-uat="0" n-ohr="0"
+          occr-reads="4206" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+        />
+        <query-performance what="or" n-tau="158" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="1853" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+        >
+          <query-performance what="0:url" n-tau="79" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="618" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:host" n-tau="79" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="618" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-tau="1" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-tau="78" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="617" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="40" n-rho="40" n-uat="0" n-ohr="0"
+    occr-reads="598" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="40" n-rho="40" n-uat="0"
+      n-ohr="0" occr-reads="598" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-tau="40" n-rho="40" n-uat="0"
+        n-ohr="0" occr-reads="598" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="40" n-rho="40" n-uat="0"
+    n-ohr="0" occr-reads="4066" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="40" n-rho="40" n-uat="0"
+      n-ohr="0" occr-reads="4066" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    >
+      <query-performance what="0:" n-tau="40" n-rho="40" n-uat="0" n-ohr="0"
+        occr-reads="4066" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="334" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="335" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+>
+  <query-performance what="1:appeal" n-tau="334" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="335" block-reads="1" seeks="1" cache-hits="1" cache-misses="0"
+  />
+  <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+  />
+</query-performance>
+</scope>

@@ -1,0 +1,86 @@
+#!/bin/bash
+#
+#   This comparison tool uses the output from:
+#      dump -urls 000000000.xml ../index<0|1> > dumpfile
+#
+COMPAREIT=""
+BASECMP=""
+EDITPOINT=""
+
+while getopts "C:U:E:" flag; do
+  case "$flag" in
+     C) COMPAREIT=$OPTARG;;
+     U) BASECMP=$OPTARG;;
+     E) EDITPOINT=$OPTARG;;
+     *) echo "Usage: idxurldiff -C <comparison url file>"
+        echo "                  -U <url file> -E <common directory>"
+        exit 1;;
+  esac
+done
+
+if [ "$COMPAREIT" == "" ];then
+   COMPAREIT=stanurls
+fi
+if [ "$BASECMP" == "" ];then
+   BASECMP=gawurls
+fi
+if [ "$EDITPOINT" == "" ];then
+   EDITPOINT=searchdocs
+fi
+
+if [ -f $BASECMP ]; then
+   if [ -f $COMPAREIT ];then
+      echo "WARNING:  This may take a long time"
+      echo "          It is dependent on the size of the index files"
+      grep "://" $COMPAREIT | cut -f 1 -d ' ' | sort -u > $COMPAREIT.srt
+      grep "://" $BASECMP | cut -f 1 -d ' ' | sort -u > $BASECMP.srt
+      eff="cat $COMPAREIT.srt | sed 's/file:.*\/$EDITPOINT/file:\/\/\/HOLDER\/searchdocs/'"
+      efs="cat $BASECMP.srt | sed 's/file:.*\/$EDITPOINT/file:\/\/\/HOLDER\/searchdocs/'"
+   else
+      echo "$COMPAREIT does not exist"
+      exit 1
+   fi
+else
+   echo "$BASECMP does not exist"
+   exit 1
+fi
+
+echo $eff
+echo $efs
+
+if [ -f $BASECMP.srt ]; then
+   if [ -f $COMPAREIT.srt ]; then
+      eval $eff > $COMPAREIT.fxd
+      eval $efs > $BASECMP.fxd
+   else
+      echo "Extracted URI file $COMPAREIT.srt does not exist (creation failed)"
+      exit 1
+   fi
+else
+   echo "Extracted URI file $BASECMP.srt does not exist (creation failed)"
+   exit 1
+fi
+
+if [ -f $BASECMP.fxd ]; then
+   if [ -f $COMPAREIT.fxd ]; then
+      echo "< $COMPAREIT(left arrow) $BASECMP(right arrow) >"
+      diff $COMPAREIT.fxd $BASECMP.fxd
+      res=$?
+   else
+      echo "Comparison file $COMPAREIT.fxd does not exist (creation failed)"
+      exit 1
+   fi
+else
+   echo "Comparison file $BASECMP.fxd does not exist (creation failed)"
+   exit 1
+fi
+
+if [ $res -eq 0 ]; then
+   rm $COMPAREIT.fxd $BASECMP.fxd
+   rm $COMPAREIT.srt $BASECMP.srt
+   echo "URIs in index files match"
+   exit 0
+else
+   echo "URIs in index files do not match"
+   exit 1
+fi

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="4" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="1" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="2" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="5" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document url="http://eroom6/eRoom/vivisimo/DemandCollaboration/0_134c"
+  vse-key="eroom://192.168.0.65:80/vivisimo/?room=DemandCollaboration&amp;id=0_134c"
+  la-score="0.784273" vse-base-score="1"
+>
+  <content name="title" action="cluster" weight="3" u="32">Demand Supply Collaboration - Explained</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="snippet" action="none" weight="1" u="69" v="410" />
+      <pre u="87" v="106">direct materials to the relevant suppliers.
+
+
+Both the buyers and suppliers are striving to make the components and the resulting </pre>
+      <match u="107" v="107">finished </match>
+      <post u="108" v="127">goods available to the end customer in a timely manner. The buyer communicates anticipated demand to the suppliers so that </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... striving to make the components and the resulting finished goods available to the end customer in a  ... </content>
+</document>
+</scope>

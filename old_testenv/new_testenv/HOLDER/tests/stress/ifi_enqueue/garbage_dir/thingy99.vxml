@@ -1,0 +1,38 @@
+<vce>
+              <document url="http://vivisimo.com?New_Jersey">
+                <content name="title">New Jersey</content>
+                <content name="SHIP_TYPE">Battleship</content>
+                <content name="hidden_ship" fast-index="set">Battleship</content>
+                <content name="type">SHIP</content>
+              </document>
+              <document url="http://vivisimo.com?SSBN_Alaska">
+                <content name="title">Alaska</content>
+                <content name="SHIP_TYPE">Submarine</content>
+                <content name="hidden_ship" fast-index="set">Submarine</content>
+                <content name="type">SHIP</content>
+              </document>
+              <document url="http://vivisimo.com?Iowa">
+                <content name="title">Iowa</content>
+                <content name="SHIP_TYPE">Battleship</content>
+                <content name="hidden_ship" fast-index="set">Battleship</content>
+                <content name="type">SHIP</content>
+              </document>
+              <document url="http://vivisimo.com?Wisconsin">
+                <content name="title">Wisconsin</content>
+                <content name="SHIP_TYPE">Battleship</content>
+                <content name="hidden_ship" fast-index="set">Battleship</content>
+                <content name="type">SHIP</content>
+              </document>
+              <document url="http://vivisimo.com?Montana">
+                <content name="title">Montana</content>
+                <content name="SHIP_TYPE">Battleship</content>
+                <content name="hidden_ship" fast-index="set">Battleship</content>
+                <content name="type">SHIP</content>
+              </document>
+              <document url="http://vivisimo.com?USS_Alaska">
+                <content name="title">Alaska</content>
+                <content name="SHIP_TYPE">Battle Cruiser</content>
+                <content name="hidden_ship" fast-index="set">Battle Cruiser</content>
+                <content name="type">SHIP</content>
+              </document>
+</vce>

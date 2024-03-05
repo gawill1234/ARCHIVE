@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML Transitional//EN"
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="xlhtml">
+<TITLE>/tmp/jnj-federated-search-list.xls</TITLE>
+</HEAD>
+
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF"><br>
+<!-- starting sheet 0: 18 x 8 -->
+<CENTER><H1>Sheet1</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD><B>TITLE</B></TD>
+<TD>&nbsp;</TD>
+<TD><B>SEARCH PAGE URL</B></TD>
+<TD><B>TYPE</B></TD>
+<TD><B>AUTHENTICATION</B></TD>
+<TD><B>ID</B></TD>
+<TD><B>PW</B></TD>
+<TD><B>NOTES</B></TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">1</TD>
+<TD>Ovid</TD>
+<TD>login, redirect to form, submit form</TD>
+<TD>http://gateway.ovid.com/ovidweb.cgi?T=JS&amp;ID=rwj101&amp;PASSWORD=johnson&amp;MODE=easy&amp;PAGE=main&amp;D=mesz,prem&amp;DBC=n&amp;NEWS=N&amp;LOGOUT=http://gateway.ovid.com</TD>
+<TD>database</TD>
+<TD>Group ID &amp; PW (embedded in URL)</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>Databases to search:  Medline, Pre-Medline</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">2</TD>
+<TD>IDDB3</TD>
+<TD>slow, but okay (login form just sets a cookie) -- does not actually look interesting to cluster</TD>
+<TD>http://www.iddb3.com/iddb3/iddb3_2/search.guided_search_content?i_clear_trail=Y</TD>
+<TD>database</TD>
+<TD>Individual User ID &amp; PW</TD>
+<TD>mgonza18</TD>
+<TD>IDDB3</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">3</TD>
+<TD>ScienceDirect</TD>
+<TD>Do they want us to also do IP authentication?  Not hard, just a little custom work.</TD>
+<TD>http://www.sciencedirect.com/science/search/journals </TD>
+<TD>journal collection</TD>
+<TD>IP authentication</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">4</TD>
+<TD>PubMed</TD>
+<TD>done</TD>
+<TD>http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed</TD>
+<TD>database </TD>
+<TD>no authentication</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">5</TD>
+<TD>Lancet</TD>
+<TD>does group password mean organization or each user belows to a group that may or may not have a password, here userid and password seem only to be needed to view the non-free full texts.</TD>
+<TD>http://www.thelancet.com/search</TD>
+<TD>journal </TD>
+<TD>Group ID &amp; PW</TD>
+<TD>jnjpharm</TD>
+<TD>jnjpharm01</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">6</TD>
+<TD>Physician's Desk Reference</TD>
+<TD>need to follow per/document links to be interesting, would be very slow but might be cool with meta data.</TD>
+<TD>http://pdrel.thomsonhc.com/pdrel/librarian/action/command.Command</TD>
+<TD>database</TD>
+<TD>IP authentication</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">7</TD>
+<TD>Prous Integrity - Bioactive Compounds</TD>
+<TD>also required IP authentication, so I can't see it.</TD>
+<TD>http://integrity.prous.com/servlet/xmlxsl/pk_prod_form.prod_form_pr</TD>
+<TD>database</TD>
+<TD>User ID &amp; PW</TD>
+<TD>meindhov</TD>
+<TD>integrity</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">8</TD>
+<TD>NEJM</TD>
+<TD>only titles + authors? userid/password only for full text?</TD>
+<TD>http://content.nejm.org/search.dtl</TD>
+<TD>journal</TD>
+<TD>Group ID &amp; PW</TD>
+<TD>jnjpharm</TD>
+<TD>jnjpharm01</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">9</TD>
+<TD>Ashley Pubs.</TD>
+<TD>only titles + authors? looks easy</TD>
+<TD>http://www.ashley-pub.com</TD>
+<TD>journal collection</TD>
+<TD>IP authentication</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">10</TD>
+<TD>HighWire</TD>
+<TD>done</TD>
+<TD>http://highwire.stanford.edu/cgi/search/</TD>
+<TD>journal collection</TD>
+<TD>no authentication</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">11</TD>
+<TD>Nature Pub. Group</TD>
+<TD>looks great</TD>
+<TD>http://www.nature.com/dynasearch/app/dynasearch.taf?</TD>
+<TD>journal collection</TD>
+<TD>IP authentication</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">12</TD>
+<TD>Wiley InterScience</TD>
+<TD>only titles + authors, looks easy</TD>
+<TD>http://www3.interscience.wiley.com/cgi-bin/simplesearch</TD>
+<TD>journal collection</TD>
+<TD>IP authentication</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">13</TD>
+<TD>Prous Backgrounders</TD>
+<TD>couldn't connect</TD>
+<TD>http://backgrounders.prous.com/servlet/xmlxsl/pk_bgr_list.xml_bgr_prous</TD>
+<TD>report collection</TD>
+<TD>IP authentication</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">14</TD>
+<TD>CenterWatch Drugs in Clinical Trials</TD>
+<TD>a lot of different searches (site, clinical trial listings, newly approved drugs, etc), shouldn't be a problem to do them all</TD>
+<TD>http://www.centerwatch.com/patient/cwpipeline/default.asp</TD>
+<TD>database</TD>
+<TD>no authentication</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">15</TD>
+<TD>Incidence &amp; Prevalence</TD>
+<TD>looks hard, interactively builds a query and somehow uses cookies or something?  cutting and pasting an intermediate url does not work.</TD>
+<TD>http://www.tdrdata.com/IPD/IPD_SearchIPDByKeyword1.asp</TD>
+<TD>database</TD>
+<TD>IP authentication</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">16</TD>
+<TD>Science</TD>
+<TD>easy</TD>
+<TD>http://www.sciencemag.org/search.dtl</TD>
+<TD>journal</TD>
+<TD>IP authentication</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">17</TD>
+<TD>Reuters Health</TD>
+<TD>only titles, easy</TD>
+<TD>http://www.reutershealth.com/en/index.html</TD>
+<TD>database</TD>
+<TD>IP authentication</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>Framed site; search button is in left nav frame.</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD ALIGN="center">18</TD>
+<TD>Two Convera Libraries</TD>
+<TD>jerome knows how to do this now</TD>
+<TD>in development</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 1: -1 x -1 -->
+<!-- starting sheet 2: -1 x -1 -->
+</BODY></HTML>

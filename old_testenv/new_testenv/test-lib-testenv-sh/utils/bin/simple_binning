@@ -1,0 +1,224 @@
+#!/bin/bash
+
+usescore=0
+dumpit=0
+timeit=0
+usewindows=0
+num=200
+
+VUSER=$VIVUSER
+VPW=$VIVPW
+VCOLLECTION=$VIVCOLLECTION
+HOST=$VIVHOST
+PORT=$VIVPORT
+QUERY=""
+DEFOUTPUT=$VIVQUERYOUTPUT
+LOGFILE=$VIVLOGFILE
+TARGETOS=$VIVTARGETOS
+SEARCH_FILE_DIR=$FILE_SEED_HOME
+#
+#   An environment thing created to aid new test creation.
+#
+DOCOPY=$NEWTESTSAVE
+
+CMP_FILE_DIR=$VIVQUERYCMPFILES
+if [ "$CMP_FILE_DIR" == "" ]; then
+   CMP_FILE_DIR=query_cmp_files
+fi
+
+while getopts "DC:U:P:Q:H:p:O:L:T:S:swn:" flag; do
+  case "$flag" in
+     C) VCOLLECTION=$OPTARG;;
+     U) VUSER=$OPTARG;;
+     P) VPW=$OPTARG;;
+     Q) QUERY=$OPTARG;;
+     H) HOST=$OPTARG;;
+     p) PORT=$OPTARG;;
+     O) DEFOUTPUT=$OPTARG;;
+     L) LOGFILE=$OPTARG;;
+     S) SEARCH_FILE_DIR=$OPTARG;;
+     D) dumpit=1;;
+     T) TESTNAME=$OPTARG;;
+     n) num=$OPTARG;;
+     w) usewindows=1;;
+     s) usescore=1;;
+     *) echo "Usage: run_query -C <collection> -U <user> -P <password>"
+        echo "                 -Q <query> -H <hostid> -p <port>"
+        echo "                 -O <query-output-file> -L <query-log-file>"
+        echo "                 -S <file-seed-home-directory> -s"
+        exit 1;;
+  esac
+done
+
+CMP_SUFFIX="cmp"
+if [ "$TARGETOS" == "windows" ]; then
+   if [ $usewindows -eq 1 ]; then
+      CMP_SUFFIX="cmp.windows"
+   fi
+fi
+
+if [ "$VCOLLECTION" == "" ]; then
+   echo "Collection name must be specified"
+   echo "Use the -C <collection> option"
+   exit 1
+fi
+
+if [ "$PORT" != "" ]; then
+   export VIVPORT=$PORT
+else
+   export VIVPORT=7205
+fi
+
+if [ "$HOST" != "" ]; then
+   export VIVHOST=$HOST
+fi
+
+if [ "$LOGFILE" == "" ]; then
+   LOGFILE=/dev/null
+fi
+
+if [ "$DEFOUTPUT" == "" ]; then
+   DEFOUTPUT="query_results"
+fi
+
+if [ "$VUSER" != "" ]; then
+   export VIVUSER=$VUSER
+fi
+
+if [ "$VPW" != "" ]; then
+   export VIVPW=$VPW
+fi
+
+if [ "$dumpit" -eq 1 ]; then
+   echo "Collection = $VCOLLECTION  (-C option) or (VIVCOLLECTION env var)"
+   echo "Output file = $DEFOUTPUT   (-O option) or (VIVQUERYOUTPUT env var)"
+   echo "Log file = $LOGFILE        (-L option) or (VIVLOGFILE env var)"
+   echo "Host = $HOST               (-H option) or (VIVHOST env var)"
+   echo "Port = $PORT               (-p option) or (VIVPORT env var)"
+   echo "User = $VUSER              (-U option) or (VIVUSER env var)"
+   echo "Password = $VPW            (-P option) or (VIVCOLLECTION env var)"
+   exit 0
+fi
+
+if [ "$SEARCH_FILE_DIR" != "" ]; then
+   filename=`mktemp`
+   echo $SEARCH_FILE_DIR | sed "s/\//\\\\\//g" > $filename
+   replstr=`cat $filename`
+   xxx="sed \"s/\/home\/williams/$replstr/g\""
+   rm $filename
+else
+   SEARCH_FILE_DIR=/tmp/thesearchers
+   xxx="cat"
+fi
+
+echo "################  $TESTNAME start  ##################"
+echo "$TESTNAME:  query = $QUERY"
+
+if [ "$QUERY" == "" ]; then
+   qQUERY="NoQuErY"
+else
+   qQUERY=$QUERY
+fi
+
+mkdir -p querywork
+
+binrslt=`xmlresultfile -t binning -q $qQUERY`
+binurirslt=`uriresultfile -t binning -q $qQUERY`
+binbinsrslt=`binsresultfile -t binning -q $qQUERY`
+
+binuridiff=`uridifffile -t binning -q $qQUERY`
+binxmldiff=`xmldifffile -t binning -q $qQUERY`
+binbinsdiff=`binsdifffile -t binning -q $qQUERY`
+
+bincmp=`xmlcomparefile -t binning -q $qQUERY`
+binuricmp=`uricomparefile -t binning -q $qQUERY`
+binbinscmp=`binscomparefile -t binning -q $qQUERY`
+
+
+if [ "$QUERY" != "" ]; then
+   rstring="$TEST_ROOT/utils/bin/run_query -C $VCOLLECTION -Q $QUERY -O querywork/$binrslt -n $num"
+else
+   rstring="$TEST_ROOT/utils/bin/run_query -C $VCOLLECTION -O querywork/$binrslt -n $num"
+fi
+
+eval $rstring
+
+if [ -f querywork/$binrslt ]; then
+   xyz=`stat -c %s querywork/$binrslt`
+else
+   xyz=0
+fi
+
+if [ $xyz -eq 0 ]; then
+
+   echo "$TESTNAME:  WARNING"
+   echo "$TESTNAME:      Search on query binning$QUERY returned a result file"
+   echo "$TESTNAME:      that is empty"
+
+   res1=1
+
+else
+
+   if [ ! -f $CMP_FILE_DIR/$bincmp ]; then
+      echo "Query compare file $CMP_FILE_DIR/$bincmp not found"
+      echo "$TESTNAME:  Test Failed"
+      #
+      #   An environment thing created to aid new test creation.
+      #
+      if [ "$DOCOPY" == "Yes" ]; then
+         mkdir -p $CMP_FILE_DIR
+         echo "Doing copy:  querywork/$binrslt to $CMP_FILE_DIR/$bincmp"
+         cp querywork/$binrslt $CMP_FILE_DIR/$bincmp
+      fi
+      echo "################  $TESTNAME end    ##################"
+      exit 1
+   fi
+
+   #cp $TEST_ROOT/files/$VCOLLECTION/compare_files/$bincmp .
+
+   if [ $usescore -eq 1 ]; then
+      xsltproc $TEST_ROOT/utils/xsl/stripper querywork/$binrslt > querywork/$binurirslt
+      xsltproc $TEST_ROOT/utils/xsl/stripper $CMP_FILE_DIR/$bincmp | eval $xxx > querywork/$binuricmp
+   else
+      xsltproc $TEST_ROOT/utils/xsl/noscore_stripper querywork/$binrslt > querywork/$binurirslt
+      xsltproc $TEST_ROOT/utils/xsl/noscore_stripper $CMP_FILE_DIR/$bincmp | eval $xxx > querywork/$binuricmp
+   fi
+
+   xsltproc $TEST_ROOT/utils/xsl/binning_data_norm.xsl querywork/$binrslt | grep -v "xml" > querywork/$binbinsrslt
+
+   xsltproc $TEST_ROOT/utils/xsl/binning_data_norm.xsl $CMP_FILE_DIR/$bincmp | eval $xxx | grep -v "xml" > querywork/$binbinscmp
+
+   diff querywork/$binurirslt querywork/$binuricmp > querywork/$binuridiff
+   res1=$?
+
+   diff querywork/$binrslt $CMP_FILE_DIR/$bincmp > querywork/$binxmldiff
+   res2=$?
+
+   diff querywork/$binbinsrslt querywork/$binbinscmp > querywork/$binbinsdiff
+   res3=$?
+
+   if [ $res2 -ne 0 ];then
+      echo "$TESTNAME:  WARNING"
+      echo "$TESTNAME:      Search on query binning$QUERY returned a result file"
+      echo "$TESTNAME:      that is different than that which is stored for comparison"
+   fi
+
+fi
+
+res1=`expr $res1 + $res3`
+
+if [ $res1 -eq 0 ];then
+   echo "$TESTNAME:  Test Passed"
+   #if [ $res2 -eq 0 ];then
+   #   rm querywork/binning$QUERY.*
+   #fi
+else
+   echo "$TESTNAME:  Test Failed"
+fi
+echo "################  $TESTNAME end    ##################"
+
+if [ $res1 -eq 0 ];then
+   exit 0
+else
+   exit 1
+fi

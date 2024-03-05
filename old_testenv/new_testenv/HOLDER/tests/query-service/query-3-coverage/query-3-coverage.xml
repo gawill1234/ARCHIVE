@@ -1,0 +1,189 @@
+<?xml version="1.0" ?>
+<vse-collection name="query-3-coverage" modified="1183049488" modified-by="palmer@Vivisimo" max-elt-id="2844">
+  <vse-config max-elt-id="2843">
+    <crawler>
+      <crawl-options>
+        <curl-option name="expires">-1</curl-option>
+        <curl-option name="delay">0</curl-option>
+      </crawl-options>
+      <call-function name="vse-crawler-seed-smb">
+        <with name="host">testbed5.test.vivisimo.com</with>
+        <with name="username">gaw</with>
+        <with name="password">{vcrypt}TMWiymi8UsQ9QvtqWkxuhw==</with>
+        <with name="shares">/testfiles/samba_test_data/samba-2/doc</with>
+      </call-function>
+      <call-function name="vse-crawler-apache-directory-browsing" />
+      <call-function name="vse-crawler-binary-file-extensions" />
+      <call-function name="vse-crawler-bugzilla" />
+      <call-function name="vse-crawler-calendars-forums" />
+      <call-function name="vse-crawler-no-delay-for-files" />
+      <call-function name="vse-crawler-lotus-domino-site" />
+      <call-function name="vse-crawler-session-ids" />
+      <call-function name="vse-crawler-verity-query-service" />
+      <call-function name="vse-crawler-wiki" />
+      <if test="$live-crawl-date = 0">
+        <crawl-may-not-have how="wc-set" field="path">
+          <crawl-pattern>*.txt</crawl-pattern>
+        </crawl-may-not-have>
+      </if>
+      <if test="$live-crawl-date > 0">
+        <crawl-urls>
+          <crawl-url url="fake://vivisimo.com" status="complete">
+            <crawl-data encoding="xml" content-type="application/vxml">
+              <crawl-delete url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/04-AccessB.pdf" />
+            </crawl-data>
+            <curl-options>
+              <curl-option name="default-allow">allow</curl-option>
+            </curl-options>
+          </crawl-url>
+        </crawl-urls>
+      </if>
+      <crawl-may-not-have how="wc-set" field="url">
+        <crawl-pattern>*dmoz*</crawl-pattern>
+      </crawl-may-not-have>
+    </crawler>
+    <vse-index>
+      <vse-index-option name="default-contents">-last-modified -language</vse-index-option>
+      <vse-index-option name="stem">case</vse-index-option>
+      <vse-index-option name="stem2">english+depluralize</vse-index-option>
+      <vse-index-option name="segmenter">bigram</vse-index-option>
+      <vse-index-option name="segmenter2">unigram</vse-index-option>
+      <vse-index-option name="output-contents">title</vse-index-option>
+      <vse-index-option name="summarize-contents">snippet</vse-index-option>
+      <vse-index-option name="summary-context-words">100</vse-index-option>
+      <vse-index-option name="summary-bytes">1500</vse-index-option>
+      <vse-index-option name="summarize-output-action">summarize</vse-index-option>
+      <vse-index-option name="summarize-weight">5</vse-index-option>
+      <vse-index-option name="wc-blacklist">*arizona.txt
+sldfjladfjalkfdj
+afadslfjalfja
+</vse-index-option>
+      <vse-index-option name="re-blacklist">employee.*\.xl</vse-index-option>
+      <vse-index-option name="multi-read">8</vse-index-option>
+      <vse-index-option name="phrase-logic">near</vse-index-option>
+      <vse-index-option name="check-contents">true</vse-index-option>
+      <vse-index-option name="fast-index">last-modified|date</vse-index-option>
+      <vse-index-option name="use-default-tags">false</vse-index-option>
+      <vse-tags name="vse-tags">
+        <tag str="i" weight="5" />
+        <tag str="b" weight="0.1" />
+        <tag str="h1" weight="100" />
+        <tag str="h2" weight="0" />
+      </vse-tags>
+      <vse-url-equivs name="vse-url-equivs">
+        <vse-url-equiv old-prefix="smb://" new-prefix="file://///" />
+      </vse-url-equivs>
+    </vse-index>
+    <converters>
+      <converter type-in="unknown" type-out="dead">
+        <call-function name="vse-converter-binary-files-in-archives" />
+      </converter>
+      <converter type-in="unknown" program="guess-content %source_file" timing-name="Guess content" />
+      <converter type-in="application/ms-office" program="ms-guess %source_file" timing-name="Guess MS Office" />
+      <converter type-in="unknown" type-out="text/plain">
+        <converter-test how="wc-set" what="path">*.txt</converter-test>
+      </converter>
+      <call-function name="vse-converter-filetypes" />
+      <call-function name="vse-converter-type-normalization" />
+      <call-function name="vse-converter-database" />
+      <call-function name="vse-converter-powerpoint" />
+      <call-function name="vse-converter-1-2-3" />
+      <converter type-in="outlook/mail" type-out="text/mailbox">
+        <call-function name="vse-converter-pst-to-mailbox" />
+      </converter>
+      <converter type-in="text/mailbox" type-out="text/mail">
+        <call-function name="vse-converter-split-mailbox" />
+      </converter>
+      <converter type-in="text/mail" type-out="vivisimo/crawl-data">
+        <call-function name="vse-converter-mail-message">
+          <with name="cache-parser">vse-cache-parser-email</with>
+        </call-function>
+      </converter>
+      <converter type-in="application/documentum" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-documentum-to-xml" />
+      </converter>
+      <converter type-out="application/vxml-unnormalized" type-in="application/lotus">
+        <call-function name="vse-converter-lotus-to-xml" />
+      </converter>
+      <converter type-in="application/sharepoint" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-sharepoint-to-xml" />
+      </converter>
+      <converter type-in="application/word" type-out="text/html">
+        <call-function name="vse-converter-msword" />
+      </converter>
+      <converter type-in="application/excel" type-out="text/html">
+        <call-function name="vse-converter-excel" />
+      </converter>
+      <converter type-in="application/wordperfect" type-out="text/html">
+        <call-function name="vse-converter-wordperfect" />
+      </converter>
+      <converter type-in="application/openoffice" type-out="text/html">
+        <call-function name="vse-converter-openoffice" />
+      </converter>
+      <converter type-in="application/vnd.ms-project" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-ms-project" />
+      </converter>
+      <converter type-in="application/ps" type-out="text/plain">
+        <call-function name="vse-converter-postscript" />
+      </converter>
+      <converter type-in="application/pdf" type-out="text/html">
+        <call-function name="vse-converter-pdf" />
+      </converter>
+      <converter type-in="application/rtf" type-out="text/html">
+        <call-function name="vse-converter-rtf" />
+      </converter>
+      <converter type-in="application/outlook-msg" type-out="vivisimo/crawl-data">
+        <call-function name="vse-converter-outlook-msg" />
+      </converter>
+      <converter type-in="application/flash" type-out="text/html">
+        <call-function name="vse-converter-flash" />
+      </converter>
+      <converter type-in="application/tar" type-out="unknown">
+        <call-function name="vse-converter-tar" />
+      </converter>
+      <converter type-in="application/x-gzip" type-out="unknown">
+        <call-function name="vse-converter-gunzip" />
+      </converter>
+      <converter type-in="application/zip" type-out="unknown">
+        <call-function name="vse-converter-unzip" />
+      </converter>
+      <converter type-in="application/x-compress" type-out="unknown">
+        <call-function name="vse-converter-uncompress" />
+      </converter>
+      <converter type-in="text/html" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-html" />
+      </converter>
+      <converter type-in="text/plain" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-text" />
+      </converter>
+      <converter type-in="unknown" type-out="application/dbf">
+        <converter-test how="wc-set" what="path">*.dbf</converter-test>
+      </converter>
+      <converter type-in="application/dbf" type-out="text/csv">
+        <call-function name="vse-converter-dbf-to-csv" />
+      </converter>
+      <converter type-in="text/csv" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-csv-to-vxml" />
+      </converter>
+      <converter type-in="text/xml" type-out="application/vxml-unnormalized">
+        <call-function name="vse-converter-xml-to-vxml" />
+      </converter>
+      <converter type-out="application/vxml-unnormalized" type-in="application/vxml-unnormalized">
+        <call-function name="vse-converter-normalize">
+          <with name="free-xsl">&lt;xsl:template match="*" mode="document-attributes">
+  &lt;xsl:if
+    test="(string-length(viv:replace($crawl-url-url, '.*/', '')) mod 2) = 0"
+  >
+    &lt;xsl:attribute name="default-content-acl">good&lt;/xsl:attribute>
+  &lt;/xsl:if>
+&lt;/xsl:template>
+</with>
+        </call-function>
+      </converter>
+      <converter type-in="application/vxml-unnormalized" type-out="application/vxml" />
+    </converters>
+  </vse-config>
+  <vse-meta name="query-3-coverage" create-time="1174588316" max-elt-id="5">
+    <vse-meta-info name="refresh">full</vse-meta-info>
+  </vse-meta>
+</vse-collection>

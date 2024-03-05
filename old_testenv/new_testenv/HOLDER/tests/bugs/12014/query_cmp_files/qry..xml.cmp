@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="79" />
+<attribute name="admin-url"
+  value="http://testbed6.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="20" />
+<attribute name="total-results-with-duplicates" value="79" />
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/BACKPACK.WW2/"
+  graph-id-high-water="16" priority="0" vertex="17" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/BACKPACK.WW2"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">18432</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">BackPack Packing List</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Packing<br/>
+Qty<br/><br/><br/>
+Backpack with padded belt<br/>
+1<br/><br/><br/>
+Waterproof Pack cover<br/>
+1<br/><br/><br/>
+Plastic bag - trash<br/>
+2<br/><br/><br/>
+Plastic bag - Ziploc<br/>
+6<br/><br/><br/>
+Daypack or Waistpack<br/>
+1<br/><br/><br/><br/><br/><br/><br/>
+Sleeping<br/>
+Qty<br/><br/><br/>
+sleeping bag in  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/0TOC.DOC/"
+  graph-id-high-water="15" priority="0" vertex="16" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/0TOC.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">21835</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700158"
+    u="24"
+  >Jul 10,
+  2008 14:29:18 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <br/>
+Contents<p/>Copyright	ii<p/>Microsoft Software License Agreement	iii<br/><p/>	Welcome	1<p/>About the Windows Resource Kit	2<p/>Conventions in This Manual	4<p/>Document Conventions	4<p/> ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/NORMAL.DOT/"
+  graph-id-high-water="48" priority="0" vertex="49" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/NORMAL.DOT"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">3738</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/> 
+1 
+	Part 2   Configuring Windows 3.1 <p/><p/>		Chapter 5   Windows 3.1 and Memory Management	 
+1 
+<p/><p/>Windows Resource Kit	CONFIDENTIAL Review Draft  
+1/25/92 
+<p/><p/>CONFIDENTIAL Review  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/3PIFW.DOC/"
+  graph-id-high-water="11" priority="0" vertex="12" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/3PIFW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">277895</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter <br/>
+8	PIFs and PIF Editor<p/>This chapter presents details related to creating program information files (PIFs) for non-Windows applications running under Microsoft  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/02WELW.DOC/"
+  graph-id-high-water="35" priority="0" vertex="36" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/02WELW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">302373</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700158"
+    u="24"
+  >Jul 10,
+  2008 14:29:18 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chart 1.1	System Requirements for Windows<p/><p/>Windows Resource Kit Reference	page<p/>“Memory and Windows Startup Requirements” in Chapter 5	249<p/><hr/>
+Chart 1.2	Windows Hangs  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/7INDEX.DOC/"
+  graph-id-high-water="51" priority="0" vertex="52" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/7INDEX.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">66185</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Windows for Pens Resource Guide</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Index	<p/>; as .INI file comment character, 159<p/>! as field delimiter, 128<p/>* denoting built-in devices in SYSTEM.INI entries, 100, 193<p/>^ in WIN.INI, 171<p/><p/>.2GR grabber files,  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/5NETW.DOC/"
+  graph-id-high-water="49" priority="0" vertex="50" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/5NETW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">65264</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">C:-TIPS.DOC</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter]]>&#160;<![CDATA[<br/>
+12	Networks and Windows 3.1<p/>This chapter contains some tips about using a network with Microsoft Windows]]>&#160;<![CDATA[3.1, plus notes about using specific networks  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/0COVER.DOC/"
+  graph-id-high-water="53" priority="0" vertex="54" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/0COVER.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">3611</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700158"
+    u="24"
+  >Jul 10,
+  2008 14:29:18 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <br/><br/><br/>
+Microsoft® Windows™<br/>
+Resource Kit<p/>Complete Technical Information<br/>
+for the Support Professional<br/>
+for the Microsoft Windows Operating System<br/>
+Version 3.1<p/>Microsoft Corporation<p/> 
+ ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/4CHAPT.DOC/"
+  graph-id-high-water="50" priority="0" vertex="51" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/4CHAPT.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">175637</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[    
+The TrueType Font File<p/>The TrueType font file holds the tables that make up an outline font. All tables should be long aligned and padded with zeroes.<p/><p/> 
+Data  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/README.DOC/"
+  graph-id-high-water="47" priority="0" vertex="48" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/README.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">3913</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/> $<p/>Read Me  <p/><p/>The TrueType Font Spec has been divided into sections for easier readability and printing. The table below corresponds the file names with chapters.  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/bbguncmd.ww2/"
+  graph-id-high-water="54" priority="0" vertex="55" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/bbguncmd.ww2"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">10240</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">BB Gun Range Commands</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   {taught by walking each new group of boys through the entire process, then reinforced by repeating the commands continuously as they fired}<p/>EMERGENCY COMMANDS<p/> ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/7B.DOC/"
+  graph-id-high-water="56" priority="0" vertex="57" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/7B.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">43071</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/>Appendix <br/>
+B	Hardware Compatibility List<p/>This appendix contains a list of machines, video displays, keyboards, pointing devices, networks, and printers that are  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/7C.DOC/"
+  graph-id-high-water="57" priority="0" vertex="58" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/7C.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">124505</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/>Appendix<br/>
+C	The Windows 3.1 Disks and Files<p/>This appendix contains information about the Windows 3.1 installation disks and tips for minimizing the amount of disk  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/GAMEINTR.DOC/"
+  graph-id-high-water="61" priority="0" vertex="62" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/GAMEINTR.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">32684</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   A GAME THEORY START<p/><p/>Most of us are familiar with game theory in an unstructured fashion.  We have played chess, checkers and various card games.  Furthermore,  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/7D.DOC/"
+  graph-id-high-water="58" priority="0" vertex="59" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/7D.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">498434</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Windows for Pen - White Paper</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/>Appendix<br/>
+D	Articles<p/>This appendix contains technical articles on these topics:<br/><br/>
+·	Microsoft Windows for Pens<br/>
+·	Quarterdeck’s QEMM–386 and Windows 3.1<br/>
+·	PCNFS and Windows  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/7A.DOC/"
+  graph-id-high-water="55" priority="0" vertex="56" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/7A.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">100728</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Windows Resource Kit</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/>Appendix<br/>
+A	Windows Resource Directory<p/>This appendix contains a list of resources to support learning and using Microsoft Windows. With Windows becoming accepted  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/dsform.doc/"
+  graph-id-high-water="52" priority="0" vertex="53" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/dsform.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">10240</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">BASYS Metadata form Word 2.0</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Part I: General Information on Datasets<br/><br/>
+Cruise:.................................................................                    from:   ..............................    to:   ...... .........................<br/><br/>
+Serial number<br/><br/><br/>
+Sampling<br/><br/>
+Gear <br/>
+(see  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/54_1.doc/"
+  graph-id-high-water="60" priority="0" vertex="61" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/54_1.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">5012</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="25"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="29">LAWNET BOARD LABELS</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Ms. Cathy Reilly<br/>
+Vice President<br/>
+Chase Manhattan Bank, N.A.<br/>
+One Chase Manhattan Plaza<p/>25th Floor<br/>
+New York, NY  10081-0001<br/>
+Ms. Kelli Hohout<br/>
+Manager, Information  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/CHAP13.DOC/"
+  graph-id-high-water="63" priority="0" vertex="64" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/CHAP13.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">271956</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   CHAPTER 13 - Imperfect Market Structures -  
+October 22,1996 
+<p/>Recall demand movements and elasticities and optimal pricing patterns:<p/>An increase in demand, outward  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/WEBCAMP.WW2/"
+  graph-id-high-water="59" priority="0" vertex="60" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/WEBCAMP.WW2"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">18432</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Resident Camp Packing List</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Packing<br/>
+Qty<br/><br/><br/>
+Backpack with padded belt<br/>
+1<br/><br/><br/>
+Waterproof Pack cover<br/>
+1<br/><br/><br/>
+Plastic bag - trash<br/>
+2<br/><br/><br/>
+Plastic bag - Ziploc<br/>
+6<br/><br/><br/>
+Daypack or Waistpack<br/>
+1<br/><br/><br/><br/><br/><br/><br/>
+Sleeping<br/>
+Qty<br/><br/><br/>
+Sleeping Bag &amp;
+ Cover<br/>
+ ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/_TOC.DOC/"
+  graph-id-high-water="45" priority="0" vertex="46" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/_TOC.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">6201</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Table of Contents<p/>Chapter 1 - TrueType Fundamentals	1<p/>From design to font file	1<p/>Digitizing a design	3<p/>Scaling a glyph	11<p/>Grid-fitting a glyph outline	14<p/>The  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/GAMES2.DOC/"
+  graph-id-high-water="67" priority="0" vertex="68" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/GAMES2.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">4401</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Game Theory II - 
+October 22,1996 
+<p/>Extensive form games:<p/>	Decision tree vs. Game tree (own results vs. All results)<p/>	Alternating movers<p/>	Information node<p/>	Remember  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/4PRINTW.DOC/"
+  graph-id-high-water="64" priority="0" vertex="65" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/4PRINTW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">249802</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter <br/>
+10	Printing<p/>This chapter examines technical issues related to printing in Microsoft Windows]]>&#160;<![CDATA[3.1. This chapter provides a technical supplement to the  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/GAMES1.DOC/"
+  graph-id-high-water="66" priority="0" vertex="67" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/GAMES1.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">29519</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   GAME THEORY -  
+October 22,1996 
+<p/>Game -	situation in which strategic behavior is an important part of decision making<p/>Only interesting if there is mutual interdependence:  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/7GLOSSW.DOC/"
+  graph-id-high-water="43" priority="0" vertex="44" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/7GLOSSW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">44017</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">C:-GLOSSA.DOC</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <br/>
+Glossary<p/>Other glossary resources<p/>·	The Glossary in the Windows User's Guide for]]>&#160;<![CDATA[terms related to Microsoft Windows.<p/>·	The Glossary in Windows online help for definitions  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/format.doc/"
+  graph-id-high-water="44" priority="0" vertex="45" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/format.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">44516</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Formatting Topics<p/>	 Chapter  
+7 
+<p/>Help supports most of the character and paragraph formatting features supported in Word for Windows. However, because Help topics are  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/6UTILW.DOC/"
+  graph-id-high-water="62" priority="0" vertex="63" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/6UTILW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">227657</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter <br/>
+14	The Windows Resource Kit Disk<p/>This chapter describes the utilities, programs, drivers, and documentation provided on disk with the Windows Resource  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/sharing-docs.doc/"
+  graph-id-high-water="46" priority="0" vertex="47" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/sharing-docs.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">11264</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700161"
+    u="25"
+  >Jul 10,
+  2008 14:29:21 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="29">Recommendations for Sharing Documents</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Recommendations for Sharing Documents <br/><br/>
+INFORMATION TECHNOLOGY SERVICES<br/><br/>
+Revised September 24, 1998<p/>General Information<p/>Microsoft Word is the standard word processing program  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/skj_v2.doc/"
+  graph-id-high-water="68" priority="0" vertex="69" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/skj_v2.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">12288</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700161"
+    u="25"
+  >Jul 10,
+  2008 14:29:21 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="29">FORSKNINGSFORUM ULLEVÅL SYKEHUS</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   FORSKNINGSFORUM ULLEVÅL SYKEHUS<p/>FUS<p/><p/>OBS: SØKNAD MED VEDLEGG LEVERES I 7 EKSEMPLARER<p/><p/>Les orienteringen på siste side og ”Råd ved søknad om midler fra FUS”.<p/>Alle rubrikker  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/1SETUPW.DOC/"
+  graph-id-high-water="42" priority="0" vertex="43" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/1SETUPW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">105072</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter <br/>
+2	The Windows Setup Information Files<p/>This chapter contains information that can be used to create custom Microsoft Windows setup information files (SETUP. ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/2MEMWW.DOC/"
+  graph-id-high-water="65" priority="0" vertex="66" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/2MEMWW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">174748</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">C:-MEMORY.DOC</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter <br/>
+5	Windows 3.1 and Memory Management<p/>This chapter contains information about how Microsoft Windows 3.1 interacts]]>&#160;<![CDATA[with memory. You can use this information  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/CAMPPACK.WW2/"
+  graph-id-high-water="69" priority="0" vertex="70" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/CAMPPACK.WW2"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">18432</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Resident Camp Packing List</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Packing<br/>
+Qty<br/><br/><br/>
+Footlocker<br/>
+1<br/><br/><br/>
+Lock(s) and key(s)<br/>
+1<br/><br/><br/>
+Plastic bag - trash<br/>
+2<br/><br/><br/>
+Plastic bag - Ziploc<br/>
+1 pkg<br/><br/><br/>
+Waistpack or Daypack<br/>
+1<br/><br/><br/><br/><br/><br/><br/>
+Sleeping<br/>
+Qty<br/><br/><br/>
+sleeping bag<br/>
+1<br/><br/><br/>
+Sleeping Clothes<br/>
+ ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/A-APPEND.DOC/"
+  graph-id-high-water="73" priority="0" vertex="74" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/A-APPEND.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">25849</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="25"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[    
+Instruction Set Summary <p/> 
+Instructions by Category<p/> 
+Pushing data onto the interpreter stack<p/>Instruction<br/>
+Opcode<br/>
+Takes from IS<br/>
+Pushes<br/><br/>
+NPUSHB[ ]<br/>
+0x40<br/>
+n, b1, b2,...bn<br/>
+b1, ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/CHAP12B.DOC/"
+  graph-id-high-water="40" priority="0" vertex="41" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/CHAP12B.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">126323</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   CHAPTER 12 Part B- MONOPOLY -  
+October 22,1996 
+<p/><p/>MONOPOLY<p/>single seller, unique product, blocked entry<p/>	barriers:	Regulation, IPRs (patents, copyrights, trade marks),  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/01WELW.DOC/"
+  graph-id-high-water="72" priority="0" vertex="73" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/01WELW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">19312</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700158"
+    u="24"
+  >Jul 10,
+  2008 14:29:18 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <br/>
+	Welcome<p/>Welcome to the Windows Resource Kit: Complete Technical Information for the Support Professional for the Microsoft Windows Operating System.]]>&#160;<![CDATA[This manual  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/7FEEDBK.DOC/"
+  graph-id-high-water="75" priority="0" vertex="76" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/7FEEDBK.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">5118</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <br/>
+Windows Resource Kit Feedback Sheet<p/>We update the Windows Resource Kit as we release new versions of Windows, and we’d like you to tell us the type of additional  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/CHAP12A.DOC/"
+  graph-id-high-water="39" priority="0" vertex="40" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/CHAP12A.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">282545</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   CHAPTER 12 <p/>PERFECT COMPETITION AND MONOPOLY -  
+October 22,1996 
+<p/>Market structure	the competitive environment in the the market for a good or service<p/>Which structure  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/___TITLE.DOC/"
+  graph-id-high-water="74" priority="0" vertex="75" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/___TITLE.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">4017</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   TrueType Font Files<p/><p/><p/><p/><p/><p/><p/>Version 1.00<hr/><p/>Information in this document is subject to change without notice and does not represent a commitment on the part of Microsoft  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/TEMPLATE.DOT/"
+  graph-id-high-water="77" priority="0" vertex="78" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/TEMPLATE.DOT"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">3743</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/> 
+1 
+	Part 2   Configuring Windows 3.1 <p/><p/>		Chapter 5   Windows 3.1 and Memory Management	 
+1 
+<p/><p/>Resource Kit for Microsoft Windows 3.1 	CONFIDENTIAL 2nd Review Draft  
+1/22/ ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/55_1.doc/"
+  graph-id-high-water="78" priority="0" vertex="79" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/55_1.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">4608</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="25"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="29">HEALTH POWER OF ATTY</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   EXHIBIT B<p/><p/>DIRECTIVE<p/><p/>	As a statement of my intent, if at any time I should have an incurable or irreversible condition caused by injury, disease, or illness certified  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/3-3CHAPT.DOC/"
+  graph-id-high-water="25" priority="0" vertex="26" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/3-3CHAPT.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">417383</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="25"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Example of DELTA exceptions<p/>Assume that you want to move point 15 of your glyph 1/8 of a pixel along the freedom_vector at 12 pixels per em. Assume that delta_ ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/cu_html.doc/"
+  graph-id-high-water="31" priority="0" vertex="32" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/cu_html.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">4068</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="25"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   CU_HTML.DOT (Beta 2)<p/>CU_HTML.DOT (Beta 2)<p/><p/>CU_HTML.DOT is a Microsoft Word for Windows 2.0 document template that allows users to create HTML documents inside  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/CHAP9.DOC/"
+  graph-id-high-water="28" priority="0" vertex="29" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/CHAP9.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">27471</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter 9- Cost Analysis - June 5, 1996<p/>Many types of cost, be certain to find out what is being discussed<p/>historical cost	actual cash outlay when purchased<p/>			How  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/CHAP5.DOC/"
+  graph-id-high-water="26" priority="0" vertex="27" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/CHAP5.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">85441</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter 5- Demand Analysis<p/>Basis for Consumer demand<p/>Preferences are:<p/>	asymmetric   if x y then y   x<p/>	irreflexive    c : x x<p/>	transitive     x, y, z, if x y, y z then x z<p/>	more  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/0CPAGE.DOC/"
+  graph-id-high-water="18" priority="0" vertex="19" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/0CPAGE.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">14323</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700158"
+    u="24"
+  >Jul 10,
+  2008 14:29:18 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold">   Information in this document is subject to change without notice and does not represent a commitment on the part of Microsoft Corporation. The software described  ... </content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/author.doc/"
+  graph-id-high-water="33" priority="0" vertex="34" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/author.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">103064</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Using Help Author<p/>	 Chapter  
+5 
+<p/>You have two options to create topic files for Windows Help: you can use Word for Windows and enter all the Help-specific coding  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/CHAP2.DOC/"
+  graph-id-high-water="22" priority="0" vertex="23" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/CHAP2.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">108367</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter 2- Economic Optimization -  
+October 22,1996 
+<p/>Value of the firm:<p/>SUM _{t=1} ^N<br/>
+{P_t    Q_t - TC_t} over{(1+i)^t}<p/>Functional relationships:<p/>	tables to equations to graphs -  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/D-APPEND.DOC/"
+  graph-id-high-water="13" priority="0" vertex="14" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/D-APPEND.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">20201</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="25"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[    
+Microsoft TrueType Files<p/>There are many ways to construct a TrueType font file.  This appendix outlines the recommended method for constructing a font file that  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/1FILEWW.DOC/"
+  graph-id-high-water="19" priority="0" vertex="20" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/1FILEWW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">41748</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700158"
+    u="24"
+  >Jul 10,
+  2008 14:29:18 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter <br/>
+3	The Windows Files<p/>A question that technical people often ask about Microsoft Windows is:  <br/>
+What does this file do? This chapter describes the purpose  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/1INSTWW.DOC/"
+  graph-id-high-water="30" priority="0" vertex="31" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/1INSTWW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">279826</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">C:-INSTAL.DOC</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter <br/>
+1	Windows 3.1 Installation<p/>This chapter contains an overview of installation for Microsoft Windows 3.1, plus a detailed technical discussion of the Windows  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/bb56003z.doc/"
+  graph-id-high-water="20" priority="0" vertex="21" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/bb56003z.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">157184</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Guia do Estudante de Química</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/><p/>BBS de Química e Ciências Afins<p/><p/>Cópia de Arquivo<p/><p/>Atenção: Os autores do material que compõe este arquivo concordam que o mesmo seja copiado do BBS para o  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/CHAP8.DOC/"
+  graph-id-high-water="27" priority="0" vertex="28" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/CHAP8.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">219513</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter 8- Production Analysis &amp;
+ Estimation -  
+October 22,1996 
+<p/>PRODUCTION FUNCTIONS<p/>	Costs are determined by relationship between outputs and inputs.<p/>	production function	 ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/3APPW.DOC/"
+  graph-id-high-water="14" priority="0" vertex="15" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/3APPW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">152094</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter <br/>
+7	Setting Up Non-Windows Applications<p/>This chapter presents details about how to set up and run non-Windows applications under Microsoft Windows 3.1.  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/5-1CHAPT.DOC/"
+  graph-id-high-water="8" priority="0" vertex="9" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/5-1CHAPT.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">40942</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="25"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   c1.Chapter 5 - Microsoft UGL Character Set<p/> 
+Support of Macintosh Character set<p/>To support the basic Macintosh Character set additional characters are needed.  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/2TIPW.DOC/"
+  graph-id-high-water="5" priority="0" vertex="6" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/2TIPW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">143610</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">C:-TIPS.DOC</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter <br/>
+6	Tips for Configuring Windows]]>&#160;<![CDATA[3.1<p/>This chapter presents several tips for configuring Microsoft Windows]]>&#160;<![CDATA[3.1, both]]>&#160;<![CDATA[for gaining optimal performance and  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/2CHAPT.DOC/"
+  graph-id-high-water="6" priority="0" vertex="7" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/2CHAPT.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">197479</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[    
+Instructing Glyphs<p/>This chapter gives an overview of the fundamental tasks involved in instructing a glyph.<p/> 
+Choosing a scan conversion setting<p/>One of the key decisions  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/0PART.DOC/"
+  graph-id-high-water="34" priority="0" vertex="35" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/0PART.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">23242</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700158"
+    u="24"
+  >Jul 10,
+  2008 14:29:18 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Part<br/>
+1  	Installation and Setup <p/>Chapter 1   	Windows 3.1 Installation	57<p/>About Windows Setup	58<p/>Running Setup	59<p/>Choosing Setup Options	60<p/>Choosing Express Setup  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/3-1CHAPT.DOC/"
+  graph-id-high-water="76" priority="0" vertex="77" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/3-1CHAPT.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">735701</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="25"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[    
+The TrueType Instruction Set<p/>TrueType provides instructions for each of the following tasks and a set of general purpose instructions. This chapter describes  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/webelos.doc/"
+  graph-id-high-water="70" priority="0" vertex="71" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/webelos.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">2036224</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700161"
+    u="24"
+  >Jul 10,
+  2008 14:29:21 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">WEBELOS 2-YEAR PROGRAM PLANNING</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/><p/><p/>Activity<p/>Badge<p/>Groups<p/><p/>(P) - Physical Skills<p/>(M) - Mental Skills<p/>(C) - Community<p/>(T) - Technology<p/>(O) - Outdoor<p/><p/>	New 4th Grade Scouts cross over to Webelos at the end of May or  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/verdebib.doc/"
+  graph-id-high-water="9" priority="0" vertex="10" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/verdebib.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">306688</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700161"
+    u="24"
+  >Jul 10,
+  2008 14:29:21 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   	BIBLIOGRAPHY FOR VERDE RIVER WATERSHED PROJECT.<p/>	Originally compiled by Jim Byrkit, <p/>assisted by Bruce Hooper, both of Northern Arizona University.<p/><p/>Abbey, Edward.(1)<p/>       ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/4OLEW.DOC/"
+  graph-id-high-water="36" priority="0" vertex="37" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/4OLEW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">214538</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter <br/>
+11	Compound Documents in Windows]]>&#160;<![CDATA[3.1<p/>This chapter presents an overview of how Object Linking and Embedding (OLE) works when a Windows application is designed  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/CHAP4.DOC/"
+  graph-id-high-water="24" priority="0" vertex="25" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/CHAP4.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">36151</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter 4- Demand and Supply<p/>Market	an instiution that allows for interaction between buyers and sellers<p/>Two sides, do not confuse them<p/>Basis for demand<p/>	utility	 ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/CHAP3.DOC/"
+  graph-id-high-water="23" priority="0" vertex="24" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/CHAP3.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">167385</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter 3- Risk Analysis - June 10, 1996<p/>Uncertain world  how to cope with it in a business world<p/>Understand somethings about regularity in uncertainty.<p/>economic  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/bbguntea.ww2/"
+  graph-id-high-water="3" priority="0" vertex="4" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/bbguntea.ww2"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">10240</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">BB Gun Range Instruction</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Safety Instruction<p/>Safety Rules - Safe Gun Handling<p/>{presented on two flip chart pages}<p/>1.	The “golden rule of gun safety:” Always point the muzzle in a safe direction -  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/B-APPEND.DOC/"
+  graph-id-high-water="0" priority="0" vertex="1" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/B-APPEND.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">7764</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="25"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[    
+Graphics State Summary<p/>The following tables summarize the variables that make up the Graphics State. Nearly all of the Graphics State variables have a default  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/5-2CHAPT.DOC/"
+  graph-id-high-water="21" priority="0" vertex="22" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/5-2CHAPT.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">31604</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="25"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Bars<br/><br/><br/><br/><br/>
+2580<br/>
+SF600000<br/>
+upblock<br/>
+upper half block<br/><br/>
+2584<br/>
+SF570000<br/>
+dnblock<br/>
+lower half block<br/><br/>
+2588<br/>
+SF610000<br/>
+block<br/>
+full block<br/><br/>
+258c<br/>
+SF580000<br/>
+lfblock<br/>
+left half block<br/><br/>
+2590<br/>
+ ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/scholar1.doc/"
+  graph-id-high-water="4" priority="0" vertex="5" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/scholar1.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">172032</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700161"
+    u="24"
+  >Jul 10,
+  2008 14:29:21 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Scholar Activity Badge Request</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/>Date:	_______________<p/>To:	Mr./Mrs./Miss ________________<p/>From:	_______________, Webelos Den Leader<p/><p/>Subject:	Request for Assistance for a Webelos Scout in Completing the Scholar Activity Badge<p/><p/>The Cub Scout  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/3-2CHAPT.DOC/"
+  graph-id-high-water="10" priority="0" vertex="11" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/3-2CHAPT.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">320110</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="25"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     
+Managing outlines<p/>The following set of instructions make it possible to move the points that make up a glyph outline. They are the instructions that accomplish  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/E-INDEX.DOC/"
+  graph-id-high-water="29" priority="0" vertex="30" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/E-INDEX.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">7098</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="25"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   AA[ ]	175<p/>ABS[ ]	232<p/>ADD[ ]	228<p/>ALIGNPTS[ ]	178<p/>ALIGNRP[ ]	173<p/>AND[ ]	222<p/>CALL[ ]	245<p/>CEILING[ ]	236<p/>CINDEX[ ]	200<p/>CLEAR[ ]	197<p/>DEBUG[ ]	248<p/>DELTAC1[ ]	190<p/>DELTAC2[ ]	191<p/>DELTAC3[ ]	 ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/CHAP12C.DOC/"
+  graph-id-high-water="41" priority="0" vertex="42" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/CHAP12C.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">324568</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter 12 Part C- Nat’l Monopoly, Monopsony -  
+October 22,1996 
+<p/><p/>NATURAL Monopoly- When demand size will support only one firm at MES in LR.<p/>	More efficient productively  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/1INIW.DOC/"
+  graph-id-high-water="38" priority="0" vertex="39" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/1INIW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">263745</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700158"
+    u="24"
+  >Jul 10,
+  2008 14:29:18 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter <br/>
+4	The Windows Initialization Files<p/>This chapter describes the contents of the key Microsoft Windows initialization files, WIN.INI and SYSTEM.INI, plus  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/vidinsw2.doc/"
+  graph-id-high-water="17" priority="0" vertex="18" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/vidinsw2.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">9216</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700161"
+    u="24"
+  >Jul 10,
+  2008 14:29:21 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">1995-96 Annual Refresher Training</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Video Lesson Plan Template - Instructions<p/><p/>Note: This template was originally compiled using Microsoft Word 7.0 for Win95.  I used the file conversion features  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/C-APPEND.DOC/"
+  graph-id-high-water="7" priority="0" vertex="8" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/C-APPEND.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">33069</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="25"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[    
+Macintosh to Microsoft UGL Mapping<p/>The following tables show how to translate Apple's Macintosh character indices and ordering into Microsoft's UGL order.  Note  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/4FONTW.DOC/"
+  graph-id-high-water="32" priority="0" vertex="33" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/4FONTW.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">767803</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter <br/>
+9	Fonts <p/>This chapter examines technical issues related to fonts, focusing on TrueType, the new font technology available in Microsoft Windows]]>&#160;<![CDATA[3.1. This  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/posters.doc/"
+  graph-id-high-water="1" priority="0" vertex="2" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/posters.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">6144</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700161"
+    u="24"
+  >Jul 10,
+  2008 14:29:21 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Basic Training Poster Sets</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   No.<br/>
+1988 Poster Set<br/>
+1994 Poster Set<br/><br/>
+1<br/>
+Cub Scout : Boy Needs .....Preparing<br/>
+The Cub Scout Promise<br/><br/>
+2<br/>
+Purposes: Parent Concerns .....Boy Scouts<br/>
+The Law of the Pack<br/><br/>
+3<br/>
+Program :  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/1CHAPT.DOC/"
+  graph-id-high-water="71" priority="0" vertex="72" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/1CHAPT.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">490980</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700158"
+    u="24"
+  >Jul 10,
+  2008 14:29:18 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[    
+TrueType Fundamentals<p/>This chapter introduces the basic concepts needed to create and instruct a TrueType font. It begins with an overview of the steps involved  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/6TRBL.DOC/"
+  graph-id-high-water="37" priority="0" vertex="38" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/6TRBL.DOC"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">112372</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700159"
+    u="24"
+  >Jul 10,
+  2008 14:29:19 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Chapter <br/>
+13	Troubleshooting Windows 3.1<p/>This chapter provides information about troubleshooting Microsoft Windows for both general users and experts. If you have  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/cslbt2.doc/"
+  graph-id-high-water="2" priority="0" vertex="3" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/cslbt2.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">28672</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">CSLBT Evaluation</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   Received: from MAILQUEUE by CC1 (Mercury 1.11); Thu, 12 Jan 95 23:52:25 -600<p/>Return-path: &lt;
+meenehmm@sun.aitc.rest.tasc.com&gt;<p/>Received: from mercury.unt.edu by  ... ]]></content>
+</document>
+<document filetypes="doc " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/12014/doc/abstract.doc/"
+  graph-id-high-water="12" priority="0" vertex="13" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/12014/doc/abstract.doc"
+  la-score="4.39445"
+>
+  <content name="filetype" action="none" u="1">doc</content>
+  <content name="size" weight="-1" u="3">171520</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1215700160"
+    u="24"
+  >Jul 10,
+  2008 14:29:20 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/><p/><p/><p/><p/><p/>CLIPS<p/>Application<p/>Abstracts<p/><p/><p/><p/><p/><br/><p/>April 28th 1994<p/><p/><p/><p/><p/><p/><p/><p/><p/><p/><p/>Software Technology Branch<p/><p/>Lyndon B. Johnson Space Center<hr/>
+CLIPS Application Abstracts<p/>April 28th 1994<p/><p/>CONTENTS<p/> ... ]]></content>
+</document>
+<retrieval-performance n-tau="638" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="35782" block-reads="105" seeks="12" cache-hits="105" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="149" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="348" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="149" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="348" block-reads="4" seeks="2" cache-hits="4"
+      cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-blocks="1" n-tau="149" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="348" block-reads="2" seeks="2" cache-hits="2"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="3" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="2" seeks="0" cache-hits="2"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="31477" block-reads="85" seeks="0" cache-hits="85" cache-misses="0"
+  >
+    <query-performance what="3:" n-blocks="349" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="31477" block-reads="85" seeks="0" cache-hits="85"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="410" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="3609" block-reads="12" seeks="8" cache-hits="12" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="410" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="3609" block-reads="12" seeks="8" cache-hits="12"
+      cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="410" n-rho="410" n-uat="0"
+        n-ohr="0" occr-reads="3609" block-reads="10" seeks="8" cache-hits="10"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-blocks="1" n-tau="410" n-rho="647"
+          n-uat="0" n-ohr="0" occr-reads="2548" block-reads="2" seeks="2" cache-hits="2"
+          cache-misses="0"
+        />
+        <query-performance what="or" n-tau="306" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="1061" block-reads="8" seeks="6" cache-hits="8" cache-misses="0"
+        >
+          <query-performance what="0:url" n-blocks="1" n-tau="149" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="354" block-reads="2" seeks="2" cache-hits="2"
+            cache-misses="0"
+          />
+          <query-performance what="0:host" n-blocks="1" n-tau="149" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="354" block-reads="2" seeks="2" cache-hits="2"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-blocks="0" n-tau="3"
+            n-rho="0" n-uat="0" n-ohr="0" occr-reads="0" block-reads="2" seeks="0"
+            cache-hits="2" cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-blocks="1" n-tau="148" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="353" block-reads="2" seeks="2" cache-hits="2"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="3" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="2" seeks="0" cache-hits="2"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="79" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="348" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="79" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="348" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-blocks="1" n-tau="79" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="348" block-reads="2" seeks="2" cache-hits="2"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="3" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="2" seeks="0" cache-hits="2"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="0" n-rho="0" n-uat="0"
+    n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:" n-blocks="1" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="containing" n-tau="80" n-rho="79" n-uat="0" n-ohr="0"
+  occr-reads="572" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+>
+  <query-performance what="document" n-tau="80" n-rho="79" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  />
+  <query-performance what="not-within" n-tau="79" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="572" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+  >
+    <query-performance what="0:" n-blocks="1" n-tau="79" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="572" block-reads="1" seeks="1" cache-hits="1"
+      cache-misses="0"
+    />
+    <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="1" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+      cache-misses="0"
+    />
+  </query-performance>
+</query-performance>
+</scope>

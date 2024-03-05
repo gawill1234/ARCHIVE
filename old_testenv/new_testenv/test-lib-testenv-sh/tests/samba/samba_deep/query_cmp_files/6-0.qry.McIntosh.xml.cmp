@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="11" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="4" />
+<attribute name="total-results-with-duplicates" value="11" />
+<document filetypes="pdf " vse-base-score="3.99805"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/6/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_616.pdf/"
+  vertex="281"
+  url="smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/6/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_616.pdf"
+  ct="text/html" la-score="5.89164"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">50604</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380578"
+    u="51"
+  >Jan 3,
+  2008 17:16:18 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">McIntosh MC602 Amplifier: Innovation &amp; Tradition</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <pre u="56" v="55"></pre>
+      <content name="title" output-action="bold" weight="3" u="55" v="60" />
+      <match u="56" v="56">McIntosh </match>
+      <post u="57" v="60">MC602 Amplifier: Innovation &amp; Tradition</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="62" v="71"><![CDATA[   <a/><div> <div> <span>O</span> </div><div> <span>ne  school  of  audiophiles  re g a rd s<br/>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2449"
+      />
+      <match u="72" v="72">McIntosh  </match>
+      <post u="73" v="92">products  the  way  some  car&lt;br/>buffs regard Lincolns and Cadillacs, as&lt;br/>status symbols for lawyers and doctors&lt;br/>that really don’</post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="128" v="147"><![CDATA[new, small, cult<br/>manufacturers are the ones that count.</span> </div><div> <span>Now it’s probably true that lawyers and doctors</span> </div><div> <span>do buy ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2449"
+      />
+      <match u="148" v="148">McIntosh </match>
+      <post u="149" v="168">products. Worse still, at least one&lt;br/>of my fellow professors has also probably bought&lt;br/>McIntosh, and if you can’t </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="143" v="162">lawyers and doctors&lt;/span> &lt;/div>&lt;div> &lt;span>do buy McIntosh products. Worse still, at least one&lt;br/>of my fellow professors has also probably bought&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2449"
+      />
+      <match u="163" v="163">McIntosh, </match>
+      <post u="164" v="183">and if you can’t distrust an academic,&lt;br/>what’s the world coming to? However, some product&lt;br/>lines can survive </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="173" v="192">s the world coming to? However, some product&lt;br/>lines can survive even popularity among the wealthy.&lt;/span> &lt;/div>&lt;div> &lt;span>When I grew up, </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2449"
+      />
+      <match u="193" v="193">McIntosh </match>
+      <post u="194" v="213">and Marantz were&lt;/span> &lt;/div>&lt;div> &lt;span>the  cutting-edge  dreams  of  most  serious  audiophiles.&lt;br/> At the University of Chicago, audiophiles&lt;br/>w e re </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="204" v="223">audiophiles.&lt;br/> At the University of Chicago, audiophiles&lt;br/>w e re either building Dynaco kits or saving up for a&lt;br/>used </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2449"
+      />
+      <match u="224" v="224">McIntosh. </match>
+      <post u="225" v="244">The McIntosh line was  t h e  a u d i o&lt;br/>status symbol. It was also my introduction to </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="206" v="225">the University of Chicago, audiophiles&lt;br/>w e re either building Dynaco kits or saving up for a&lt;br/>used McIntosh. The </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2449"
+      />
+      <match u="226" v="226">McIntosh </match>
+      <post u="227" v="246">line was  t h e  a u d i o&lt;br/>status symbol. It was also my introduction to the&lt;br/>world </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="255" v="274">music.&lt;br/>In  those  days,  I  couldn’t  aff o rd  status  symbols.&lt;/span> &lt;/div>&lt;div> &lt;span>L a t e r, I sold the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2449"
+      />
+      <match u="275" v="275">McIntosh </match>
+      <post u="276" v="295">and Marantz lines for two&lt;br/>dealers in Chicago, so I had time to compare the&lt;br/>two  lines.  I  came  down </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="281" v="300">dealers in Chicago, so I had time to compare the&lt;br/>two  lines.  I  came  down solidly  in  favor  of  the&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2449"
+      />
+      <match u="301" v="301">McIntosh </match>
+      <post u="302" v="321">tuners and amplifiers over their Marantz&lt;br/>equivalents, although I favored the Marantz preamps.&lt;br/> I still use a McIntosh MR-71 </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="299" v="318">of  the&lt;br/>McIntosh tuners and amplifiers over their Marantz&lt;br/>equivalents, although I favored the Marantz preamps.&lt;br/> I still use a </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2449"
+      />
+      <match u="319" v="319">McIntosh </match>
+      <post u="320" v="339">MR-71 tube tuner, and&lt;br/>it sounds better than the fabled Marantz – even&lt;br/>though it lacks a “scope.”&lt;/span> &lt;/div>&lt;div> &lt;span>Years have </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... school  of  audiophiles  re g a rd s&lt;br/>McIntosh  products  the  way  some  car&lt;br/>buffs regard Lincolns  ... probably true that lawyers and doctors&lt;/span> &lt;/div>&lt;div> &lt;span>do buy McIntosh products. Worse still, at least one&lt;br/>of my  ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="1.99805"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/3/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_316.pdf/"
+  vertex="349"
+  url="smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/3/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_316.pdf"
+  ct="text/html" la-score="5.89164"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">30346</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380578"
+    u="51"
+  >Jan 3,
+  2008 17:16:18 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">The Absolute Sound - Issue 125</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="93" v="112">amplifiers. And according to the lavishly&lt;br/>produced  owner’s  manual,  this  product  is  also&lt;br/>intended to represent the summation of </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2598"
+      />
+      <match u="113" v="113"><![CDATA[McIntosh<br/>]]></match>
+      <post u="114" v="133">cofounder Sidney Corteman’s half-century career in&lt;br/>vacuum tube design, a career whose previous high&lt;br/>point was the 1967 </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="139" v="158">the MC2000 carries a heavy burden of his-&lt;/span> &lt;/div>&lt;div> &lt;span>tory and must in effect compete with its own predecessors.&lt;br/> The first </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2598"
+      />
+      <match u="159" v="159">McIntosh </match>
+      <post u="160" v="179">amplifier, a 50-watter&lt;br/>designed  by  two  young  radio  engineers,  Frank&lt;br/>McIntosh  and  Gordon  Gow,  was  the  first  audio&lt;br/>amplifier </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="151" v="170">effect compete with its own predecessors.&lt;br/> The first McIntosh amplifier, a 50-watter&lt;br/>designed  by  two  young  radio  engineers,  Frank&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2598"
+      />
+      <match u="171" v="171">McIntosh  </match>
+      <post u="172" v="191">and  Gordon  Gow,  was  the  first  audio&lt;br/>amplifier in the world to produce less than 1 percent&lt;br/>distortion. It also </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="203" v="222">overall technical&lt;br/> performance of any product on the market at the&lt;br/>time  and  long  after.  The  1949  debut  of  the&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2598"
+      />
+      <match u="223" v="223">McIntosh </match>
+      <post u="224" v="243">unity-coupled output was one of the signal&lt;br/>  events  in  the  formation  of  the  high-fidelity&lt;br/>industry, and subsequent models </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="242" v="261">subsequent models bettered the technical&lt;br/> performance of the first right up to the last&lt;br/>model introduced, the lordly MC3500.&lt;/span> &lt;/div>&lt;div> &lt;span>So </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2598"
+      />
+      <match u="262" v="262">McIntosh’</match>
+      <post u="263" v="282">s final assay into the vacuum tube&lt;/span> &lt;/div>&lt;div> &lt;span>business, some 50 years after its first product entry,&lt;br/>is an event of </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="285" v="304">And surely one cannot&lt;br/> be blamed for expecting great things from the&lt;br/>last of the breed.&lt;/span> &lt;/div>&lt;div> &lt;span>Interpreting the Tradition&lt;br/>The </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2598"
+      />
+      <match u="305" v="305">McIntosh </match>
+      <post u="306" v="325">output stage, used in the MC2000&lt;br/>and in all other McIntosh amps, is one of the most&lt;br/>brilliant design innovations </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="296" v="315">the&lt;br/>last of the breed.&lt;/span> &lt;/div>&lt;div> &lt;span>Interpreting the Tradition&lt;br/>The McIntosh output stage, used in the MC2000&lt;br/>and in all other </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2598"
+      />
+      <match u="316" v="316">McIntosh </match>
+      <post u="317" v="336">amps, is one of the most&lt;br/>brilliant design innovations in the history of vacuum&lt;br/>tube circuitry. Like many strokes of </post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="868" v="887"><![CDATA[in the transformer core. Whereas vintage<br/> Macs went out to 80 kHz, this unit is down half</span> </div><div> <span>THE SOUND • </span> </div><div> <span>79</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2598"
+      />
+      <match u="888" v="888">McIntosh </match>
+      <post u="889" v="908"><![CDATA[MC2000</span> </div></div><a/><div> <div> <span>a db by 20 kHz, and shows a significant rise in output<br/> at low frequencies (measurements are discussed<br/>below).</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="932" v="951">most impressive industrial design I’ve ever&lt;br/>seen in an audio component, a marvelous mixture of&lt;br/>old and new, recognizably </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2598"
+      />
+      <match u="952" v="952">McIntosh </match>
+      <post u="953" v="972">but standing&lt;br/>apart from the rest of the product line in the sheer&lt;br/>richness of its appearance. Like the company’</post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="1075" v="1094">MC2000 has&lt;br/>the looks. But does it have the performance?&lt;/span> &lt;/div>&lt;div> &lt;span>Measurements&lt;br/>Ordinarily,  I  don’t  measure  amps  I  review.  But&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2598"
+      />
+      <match u="1095" v="1095">McIntosh </match>
+      <post u="1096" v="1115">always put so much stock in the numbers&lt;br/>they achieve that I thought bench testing was appropriate.&lt;br/> The Audio Precision </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... is  also&lt;br/>intended to represent the summation of McIntosh&lt;br/>cofounder Sidney Corteman’s half-century career in&lt;br/> ... effect compete with its own predecessors.&lt;br/> The first McIntosh amplifier, a 50-watter&lt;br/>designed  by  two  young   ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/7/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_700.pdf/"
+  vertex="292"
+  url="smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/7/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_700.pdf"
+  ct="text/html" la-score="5.89164"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">42640</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380578"
+    u="51"
+  >Jan 3,
+  2008 17:16:18 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">Dynaudio Temptation: An Unabashed Love Letter</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2798" v="2817">Audio, and Pioneer CD/DVD transports; Sony&lt;br/>777ES SACD Player; Perpetual Technology P-1A and P-3A DAC and&lt;br/>processor; </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="62"
+        v="2852"
+      />
+      <match u="2818" v="2818">McIntosh </match>
+      <post u="2819" v="2838">MR-71 tuner; Pass X1 stereo preamp; Krell&lt;br/>MDA300 amplifiers and custom-rebuilt modification of McIntosh tube&lt;br/>amplifier; Thiel 7.2 </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="2814" v="2833">3A DAC and&lt;br/>processor; McIntosh MR-71 tuner; Pass X1 stereo preamp; Krell&lt;br/>MDA300 amplifiers and custom-rebuilt modification of </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="62"
+        v="2852"
+      />
+      <match u="2834" v="2834">McIntosh </match>
+      <post u="2835" v="2852"><![CDATA[tube<br/>amplifier; Thiel 7.2 speakers; Discovery Cable and Kimber XL interconnects<br/> and speaker cables</span> </div><div> <span>www.theabsolutesound.com</span> </div><div> <span>•</span> </div><div> <span>123</span> </div></div>  ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... P-1A and P-3A DAC and&lt;br/>processor; McIntosh MR-71 tuner; Pass X1 stereo preamp; Krell&lt;br/>MDA300 amplifiers and custom-rebuilt modification of McIntosh tube&lt;br/>amplifier; Thiel 7.2 speakers; Discovery Cable and  ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/0/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_057.pdf/"
+  vertex="278"
+  url="smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/0/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_057.pdf"
+  ct="text/html" la-score="5.89164"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">79957</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380577"
+    u="51"
+  >Jan 3,
+  2008 17:16:17 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">Top Performance Today—and Tomorrow</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2253" v="2272"><![CDATA[seven channel), Adcom GFA-7500, Krell</span> </div><div> <span>MDA300, Pass  X600  power  amplifiers;  Polk  SRT</span> </div><div> <span>Reference, Thiel CS 7.2, Revel Salon loudspeakers;</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="2755"
+      />
+      <match u="2273" v="2273">McIntosh </match>
+      <post u="2274" v="2293"><![CDATA[MR-71 tuner; Kimber, Transparent Audio,</span> </div><div> <span>and Discovery interconnects and loudspeaker cable;</span> </div><div> <span>Sony KV-XBR400 36" HDTV monitor; Mitsubishi WS-</span> </div><div> <span>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... SRT</span> </div><div> <span>Reference, Thiel CS 7.2, Revel Salon loudspeakers;</span> </div><div> <span>McIntosh MR-71 tuner; Kimber, Transparent Audio,</span> </div><div> <span>and Discovery  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/3/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_335.pdf/"
+  vertex="351"
+  url="smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/3/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_335.pdf"
+  ct="text/html" la-score="5.89164"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">36012</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380578"
+    u="51"
+  >Jan 3,
+  2008 17:16:18 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">Millennial Expectations: Setting Sail on SOTA’s Flagship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1557" v="1576">systems  in  which  it  was&lt;br/>inserted. Since these systems consisted of MBL and&lt;br/>German  Physiks  loudspeakers  driven  by  Wolcott&lt;br/>Audio, </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="64"
+        v="2798"
+      />
+      <match u="1577" v="1577">McIntosh, </match>
+      <post u="1578" v="1597">and Pathos electronics, that’s saying&lt;br/> something. In the presence of any system augmentation,&lt;br/> as in the addition of Elac </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... and&lt;br/>German  Physiks  loudspeakers  driven  by  Wolcott&lt;br/>Audio, McIntosh, and Pathos electronics, that’s saying&lt;br/> something. In  ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="3.99805"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/2/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_2158.pdf/"
+  vertex="260"
+  url="smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/2/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_2158.pdf"
+  ct="text/html" la-score="0.221763"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">147768</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380578"
+    u="51"
+  >Jan 3,
+  2008 17:16:18 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">Audio Research 300.2, Classé CA-M400, and McIntosh MC 501 Power Amplifiers</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <pre u="56" v="62">Audio Research 300.2, Classé CA-M400, and </pre>
+      <content name="title" output-action="bold" weight="3" u="55" v="67" />
+      <match u="63" v="63">McIntosh </match>
+      <post u="64" v="67">MC 501 Power Amplifiers</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="403" v="422"><![CDATA[which  from  my<br/>research  was  toward  the  high  side  of<br/>average for this level of power. Next, I<br/>tested </span> </div><div> <span>the </span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="4485"
+      />
+      <match u="423" v="423"><![CDATA[McIntosh </span> </div><div> <span>]]></match>
+      <post u="424" v="443"><![CDATA[MC </span> </div><div> <span>501</span> </div><div> <span>monoblock, which is a transistor design</span> </div><div> <span>with the unusual feature of having transformer-coupled<br/> outputs (as you would<br/>]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="612" v="631">dedicated&lt;br/>20-amp circuit. This is relevant only&lt;br/>because many high-powered amplifiers&lt;/span> &lt;/div>&lt;div> &lt;span>Audio Research 300.2, Classé CA-M400, and&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="4485"
+      />
+      <match u="632" v="632">McIntosh </match>
+      <post u="633" v="652"><![CDATA[MC 501 Power Amplifiers</span> </div><div> <span>Why are amplifiers so important?</span> </div><div> <span>Tom Martin</span> </div><div> <span>equipment</span> </div><div> <span>report</span> </div><div> <span>My first thought about these monoblocks was</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="779" v="798">in&lt;br/>longer listening sessions. That isn’t to&lt;br/>imply that the differences were what I&lt;br/>expected.&lt;/span> &lt;/div>&lt;div> &lt;span>First up was the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="4485"
+      />
+      <match u="799" v="799">McIntosh </match>
+      <post u="800" v="819">MC 501.&lt;/span> &lt;/div>&lt;div> &lt;span>The  basic  character  of  the  MC  501&lt;br/>revolves around smoothness. This isn’t&lt;br/>achieved by rolling off the </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="1105" v="1124">the Classé&lt;/span> &lt;/div>&lt;div> &lt;span>CA-M400s.  My  first  thought&lt;br/>about these monoblocks was that&lt;br/>they  sounded  rich,  warm,  and&lt;br/>relaxed.  Like  the  </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="4485"
+      />
+      <match u="1125" v="1125"><![CDATA[McIntosh<br/>]]></match>
+      <post u="1126" v="1145">amplifiers, the CA-M400s sound&lt;br/>smooth,  though  by  comparison&lt;br/>they don’t quite have the sense of&lt;br/>continuousness that the </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="1292" v="1311"><![CDATA[little reserved, particularly in<br/>the high frequencies.</span> </div><div> <span>At this point, I was excited to try</span> </div><div> <span>the  Audio  Research  300.2.  The<br/>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="4485"
+      />
+      <match u="1312" v="1312">McIntosh </match>
+      <post u="1313" v="1332">and the Classé sound different,&lt;br/>but not dramatically so. I figured a completely&lt;br/>  different  amplifier  technology&lt;br/>would shake things up, </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="2001" v="2020">differences in this arena. But, since we’re&lt;br/>talking about tweaking at this stage, I&lt;br/>would also say that the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="4485"
+      />
+      <match u="2021" v="2021">McIntosh </match>
+      <post u="2022" v="2041">and&lt;br/>Musical Fidelity were slightly warmer&lt;br/>sounding than the ARC, for example,&lt;br/>but not much. The Classé had a different&lt;br/></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="2035" v="2054">not much. The Classé had a different&lt;br/>balance as well, with ever so slightly less&lt;br/>treble energy than either the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="4485"
+      />
+      <match u="2055" v="2055"><![CDATA[McIntosh<br/>]]></match>
+      <post u="2056" v="2075">or the Musical Fidelity. Still, across the&lt;br/>spectrum  the  emphasis  on  different&lt;br/>instruments was very similar from amp&lt;br/>to amp. </post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="2112" v="2131">extended&lt;br/>they  seem  to  be  at  the  frequency&lt;br/>extremes. I would say, for example, that&lt;br/>the Musical Fidelity and the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="4485"
+      />
+      <match u="2132" v="2132"><![CDATA[McIntosh<br/>]]></match>
+      <post u="2133" v="2152">have  a  more  rounded  sound,  and  the&lt;br/>Audio Research sounds more extended.&lt;/span> &lt;/div>&lt;div> &lt;span>But before you rush to the conclusion&lt;br/>that </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="2339" v="2358">that some of the amplifiers, particularly the Classé, present a&lt;br/>deep soundstage perspective. In contrast, the Audio Research&lt;br/>and the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="4485"
+      />
+      <match u="2359" v="2359">McIntosh </match>
+      <post u="2360" v="2379">have a more forward presentation. I say forward&lt;br/> here, not in the sense of aggressiveness, but in the sense&lt;br/>that </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... this level of power. Next, I<br/>tested </span> </div><div> <span>the </span> </div><div> <span>McIntosh </span> </div><div> <span>MC </span> </div><div> <span>501</span> </div><div> <span>monoblock, which is a transistor design</span> </div><div> <span> ... amplifiers</span> </div><div> <span>Audio Research 300.2, Classé CA-M400, and<br/>McIntosh MC 501 Power Amplifiers</span> </div><div> <span>Why are amplifiers so  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="3.99805"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_1411.pdf/"
+  vertex="346"
+  url="smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_1411.pdf"
+  ct="text/html" la-score="0.158303"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">773822</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380577"
+    u="51"
+  >Jan 3,
+  2008 17:16:17 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">McIntosh in a New Century</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <pre u="56" v="55"></pre>
+      <content name="title" output-action="bold" weight="3" u="55" v="60" />
+      <match u="56" v="56">McIntosh </match>
+      <post u="57" v="60">in a New Century</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="80" v="99">audiophiles can still get into heated,&lt;br/>  even  acrimonious  arguments&lt;br/>over tubes versus solid-state. With&lt;/span> &lt;/div>&lt;div> &lt;span>long  experience  in  both  camps,&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="3277"
+      />
+      <match u="100" v="100">McIntosh </match>
+      <post u="101" v="120">shows that enthusiasts of both&lt;br/>can happily coexist. Indeed, because this&lt;br/>fifty-five-year-old  company  has  never&lt;br/>forsaken the </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="168" v="187">this spirit, I&lt;br/>thought it might be both fun and instructive to have a listen to&lt;br/>a pair each of </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="3277"
+      />
+      <match u="188" v="188">McIntosh’</match>
+      <post u="189" v="208">s comparably priced tube and solid-state&lt;br/>preamp/amp combinations, especially since the company obviously&lt;br/> has no particular ax to </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="334" v="353">MC402 power amp&lt;br/>($5100)  are  two  of  Mac’s  latest  solid-state  products,  both&lt;br/>designed by Stockholm and Charlie Randall, </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="3277"
+      />
+      <match u="354" v="354">McIntosh’</match>
+      <post u="355" v="374">s presi-&lt;/span> &lt;/div>&lt;div> &lt;span>dent. Chris Bomba, a relative newcomer who’s been with the&lt;br/>company a “mere” five years, is responsible </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="432" v="451">of these amps and preamps&lt;br/>is  so  outstanding—their  features,  function,  and  real-world&lt;/span> &lt;/div>&lt;div> &lt;span>Tubes and Transistors in Happy Harmony&lt;/span> &lt;/div>&lt;div> &lt;span></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="3277"
+      />
+      <match u="452" v="452">McIntosh </match>
+      <post u="453" v="472"><![CDATA[in a New Century</span> </div><div> <span>Paul Seydor</span> </div><div> <span>On most recordings played at moderate<br/>levels, these two pairs of electronics<br/>could easily ]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="588" v="607"><![CDATA[WWW.THEABSOLUTESOUND.COM</span> </div><div> <span>83</span> </div><div> <span>usability so thoroughly thought-through—that it took me only<br/>a few days to understand why ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="3277"
+      />
+      <match u="608" v="608">McIntosh </match>
+      <post u="609" v="628">has inspired such fierce&lt;br/>loyalty among its customers for half a century.&lt;/span> &lt;/div>&lt;div> &lt;span>The  tube  pair,  the  C2200  and  MC2102,  arrived  </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="757" v="776"><![CDATA[with Paul Hillier’s<br/>baritone accompanied by Andrew Lawrence-King on baroque</span> </div><div> <span>H</span> </div><div> <span>ow’s this for a radical notion? ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="3277"
+      />
+      <match u="777" v="777">McIntosh’</match>
+      <post u="778" v="797"><![CDATA[s designers</span> </div><div> <span>actually believe that preamplifiers should do some-</span> </div><div> <span>thing besides raise and lower volume and select</span> </div><div> <span>sources. The C2200 ]]></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="828" v="847">the space to detail every input, output, feature, and con-&lt;/span> &lt;/div>&lt;div> &lt;span>figuration possible. Complete specs, brochures, and manuals are&lt;/span> &lt;/div>&lt;div> &lt;span>available on </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="3277"
+      />
+      <match u="848" v="848">McIntosh’</match>
+      <post u="849" v="868"><![CDATA[s Web site. But here’s a brief rundown.</span> </div><div> <span>Both preamps have eight inputs (one balanced on C46, four bal-</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="895" v="914">two  with  independent&lt;/span> &lt;/div>&lt;div> &lt;span>front-panel muting; a stereo/mono switch; a headphone jack;&lt;/span> &lt;/div>&lt;div> &lt;span>and individual power on/off for two </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="3277"
+      />
+      <match u="915" v="915">McIntosh </match>
+      <post u="916" v="935">amplifiers. A digi-&lt;/span> &lt;/div>&lt;div> &lt;span>tally-controlled master volume control has 214 steps in 0.5dB&lt;/span> &lt;/div>&lt;div> &lt;span>increments with tracking accurate to within </post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="1221" v="1240">duty WBT speaker terminals. The MC2102, which uses&lt;/span> &lt;/div>&lt;div> &lt;span>eight  Russian-sourced  KT88  tubes  to  generate  its  100&lt;/span> &lt;/div>&lt;div> &lt;span>watts/channel, incorporates </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="61"
+        v="3277"
+      />
+      <match u="1241" v="1241">McIntosh’</match>
+      <post u="1242" v="1261">s “Unity Coupled Circuit,”&lt;/span> &lt;/div>&lt;div> &lt;span>patented in 1949 and still going strong today, whereby the tubes&lt;/span> &lt;/div>&lt;div> &lt;span>deliver power from both their </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... solid-state. With&lt;/span> &lt;/div>&lt;div> &lt;span>long  experience  in  both  camps,&lt;br/>McIntosh shows that enthusiasts of both&lt;br/>can happily coexist.  ... have a listen to&lt;br/>a pair each of McIntosh’s comparably priced tube and solid-state&lt;br/>preamp/ ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="3.99805"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_1980.pdf/"
+  vertex="339"
+  url="smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_1980.pdf"
+  ct="text/html" la-score="0.158303"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">364239</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380578"
+    u="51"
+  >Jan 3,
+  2008 17:16:18 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">McIntosh MC275 Series IV Stereo Amplifier and Quad II Classic Monoblock Amplifier</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <pre u="56" v="55"></pre>
+      <content name="title" output-action="bold" weight="3" u="55" v="67" />
+      <match u="56" v="56">McIntosh </match>
+      <post u="57" v="67">MC275 Series IV Stereo Amplifier and Quad II Classic Monoblock Amplifier</post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="198" v="217">were prompted by&lt;/span> &lt;/div>&lt;div> &lt;span>the appearance of two vintage amplifiers&lt;br/>from  manufacturers  that  helped  make&lt;br/>high-end  audio  a  consumer  reality:&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="2564"
+      />
+      <match u="218" v="218">McIntosh  </match>
+      <post u="219" v="238">in  the  States,  and  Quad  in&lt;/span> &lt;/div>&lt;div> &lt;span>England. Over a year ago, the former&lt;br/>reintroduced its MC275 all-tube stereo&lt;br/>amplifier, </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="354" v="373"><![CDATA[and an absence of identifying characteristics</span> </div><div> <span>that made it hard for me to believe I was</span> </div><div> <span>listening to electronic reproduction.</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="2564"
+      />
+      <match u="374" v="374">McIntosh </match>
+      <post u="375" v="394"><![CDATA[MC275 Series IV Stereo Amplifier and<br/>Quad II Classic Monoblock Amplifier</span> </div><div> <span>Vintage retro-classics from McIntosh and Quad.</span> </div><div> <span>Paul Seydor</span> </div></div><a/><div> <div> <span>]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="370" v="389">listening to electronic reproduction.&lt;/span> &lt;/div>&lt;div> &lt;span>McIntosh MC275 Series IV Stereo Amplifier and&lt;br/>Quad II Classic Monoblock Amplifier&lt;/span> &lt;/div>&lt;div> &lt;span>Vintage retro-classics from </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="2564"
+      />
+      <match u="390" v="390">McIntosh </match>
+      <post u="391" v="410"><![CDATA[and Quad.</span> </div><div> <span>Paul Seydor</span> </div></div><a/><div> <div> <span>90</span> </div><div> <span>THE ABSOLUTE SOUND  </span> </div><div> <span>I</span> </div><div> <span>JANUARY 2006</span> </div><div> <span>McIntosh’s Product Manager, the new<br/>MC275 is so ]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="382" v="401"><![CDATA[II Classic Monoblock Amplifier</span> </div><div> <span>Vintage retro-classics from McIntosh and Quad.</span> </div><div> <span>Paul Seydor</span> </div></div><a/><div> <div> <span>90</span> </div><div> <span>THE ABSOLUTE SOUND  </span> </div><div> <span>I</span> </div><div> <span>JANUARY 2006</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="2564"
+      />
+      <match u="402" v="402">McIntosh’</match>
+      <post u="403" v="422">s Product Manager, the new&lt;br/>MC275 is so successful that there are&lt;br/>quarters when it is the company’s highest-</post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="912" v="931">the  company’s  MC402&lt;br/>amplifier (my current reference), it perfectly&lt;br/> mediates detail and warmth. The&lt;br/>midrange is in the finest </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="2564"
+      />
+      <match u="932" v="932">McIntosh </match>
+      <post u="933" v="952">tradition,&lt;br/> and its liveliness doesn’t come at&lt;br/>the expense of bogus projection or sloping&lt;br/> highs and wooly lows. When </post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="1771" v="1790"><![CDATA[Weight: 18.5 lbs. each</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>SME Model 30 turntable; Sumiko</span> </div><div> <span>Celebration and Dynavector 17D II cartrdi-</span> </div><div> <span>ges; Phonomena phonostage; ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="2564"
+      />
+      <match u="1791" v="1791"><![CDATA[McIntosh</span> </div><div> <span>]]></match>
+      <post u="1792" v="1811"><![CDATA[MC2200, C46, and Quad QC-twenty-four</span> </div><div> <span>preamps; McIntosh MC402 and Quad</span> </div><div> <span>909 amplifiers; Sony XA777ES SACD</span> </div><div> <span>player; McIntosh MDA1000 ]]></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="1780" v="1799"><![CDATA[turntable; Sumiko</span> </div><div> <span>Celebration and Dynavector 17D II cartrdi-</span> </div><div> <span>ges; Phonomena phonostage; McIntosh</span> </div><div> <span>MC2200, C46, and Quad QC-twenty-four</span> </div><div> <span>preamps; ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="2564"
+      />
+      <match u="1800" v="1800">McIntosh </match>
+      <post u="1801" v="1820"><![CDATA[MC402 and Quad</span> </div><div> <span>909 amplifiers; Sony XA777ES SACD</span> </div><div> <span>player; McIntosh MDA1000 D/A convert-</span> </div><div> <span>er, MCD 1000 transport, and MPV861</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="1790" v="1809"><![CDATA[phonostage; McIntosh</span> </div><div> <span>MC2200, C46, and Quad QC-twenty-four</span> </div><div> <span>preamps; McIntosh MC402 and Quad</span> </div><div> <span>909 amplifiers; Sony XA777ES SACD</span> </div><div> <span>player; ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="2564"
+      />
+      <match u="1810" v="1810">McIntosh </match>
+      <post u="1811" v="1830"><![CDATA[MDA1000 D/A convert-</span> </div><div> <span>er, MCD 1000 transport, and MPV861</span> </div><div> <span>A/V player; Quad 988, ESL 57, Harbeth</span> </div><div> <span>Compact 7, ]]></post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="1876" v="1895"><![CDATA[its Series</span> </div><div> <span>IV designation, in no sense a literal</span> </div><div> <span>replica of the original. The principal</span> </div><div> <span>design features still consist in</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="2564"
+      />
+      <match u="1896" v="1896">McIntosh’</match>
+      <post u="1897" v="1916"><![CDATA[s Unity-Coupled circuit with</span> </div><div> <span>its uniquely configured output trans-</span> </div><div> <span>formers, but balanced inputs now join</span> </div><div> <span>single-ended; glass-epoxy ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... helped  make<br/>high-end  audio  a  consumer  reality:<br/>McIntosh  in  the  States,  and  Quad  in</span> </div><div> <span>England. Over  ... to believe I was</span> </div><div> <span>listening to electronic reproduction.</span> </div><div> <span>McIntosh MC275 Series IV Stereo Amplifier and<br/>Quad II  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1.98438"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_1961.pdf/"
+  vertex="335"
+  url="smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_1961.pdf"
+  ct="text/html" la-score="0.158303"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">299990</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380578"
+    u="51"
+  >Jan 3,
+  2008 17:16:18 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">The Cutting Edge</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="479" v="498">Neil Gader in Issue 51.&lt;br/>Companies with proven preamps have&lt;br/>begun  transplanting  them  into  their&lt;br/>controllers.  For  instance,  the  $5500&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="59"
+        v="2857"
+      />
+      <match u="499" v="499">McIntosh </match>
+      <post u="500" v="519">MX-119 incorporates a clone&lt;br/>of the firm’s well-regarded C46 preamp.&lt;br/>Manufacturers  whose  reputations  rest&lt;br/>solely on analog </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1252" v="1271">is as good as or better than&lt;br/>you’re likely to find in analog gear at&lt;br/>anywhere near its price.&lt;/span> &lt;/div>&lt;div> &lt;span></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="59"
+        v="2857"
+      />
+      <match u="1272" v="1272">McIntosh </match>
+      <post u="1273" v="1292">MX-119&lt;/span> &lt;/div>&lt;div> &lt;span>Deep inside the MX-119’s sleek exterior&lt;br/>lays a great preamplifier struggling to get&lt;br/>out. You can </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1632" v="1651">internal DAC in&lt;br/>conjunction with a good CD transport or&lt;br/>player’s  coaxial  digital  output  is  a  highly&lt;br/>tenable solution.&lt;/span> &lt;/div>&lt;div> &lt;span></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="59"
+        v="2857"
+      />
+      <match u="1652" v="1652">McIntosh </match>
+      <post u="1653" v="1672"><![CDATA[MX-119</span> </div><div> <span>T</span> </div><div> <span>he MX-119 exhibits all the hallmarks that<br/>give McIntosh products such cachet: a<br/>sexily backlit front ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1645" v="1664"><![CDATA[digital  output  is  a  highly<br/>tenable solution.</span> </div><div> <span>McIntosh MX-119</span> </div><div> <span>T</span> </div><div> <span>he MX-119 exhibits all the hallmarks that<br/>give ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="59"
+        v="2857"
+      />
+      <match u="1665" v="1665">McIntosh </match>
+      <post u="1666" v="1685">products such cachet: a&lt;br/>sexily backlit front panel, beautiful build-&lt;/span> &lt;/div>&lt;div> &lt;span>quality, and  silky, noiseless  operation. Less&lt;br/>obvious but very much </post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="2028" v="2047">sonic objections, the MX-119 delivers&lt;br/> in enough musically important areas&lt;br/>to consistently draw me in. My hope is&lt;br/>that </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="59"
+        v="2857"
+      />
+      <match u="2048" v="2048">McIntosh </match>
+      <post u="2049" v="2068">will address whatever—&lt;br/>insufficient shielding of the analog circuitry&lt;br/> from digital and video noise, perhaps—may&lt;br/> be creating the glaze, </post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="2096" v="2115"><![CDATA[Halcro and Theta. </span> </div><div> <span>&amp;</span> </div><div> <span>MANUFACTURER INFORMATION</span> </div><div> <span>ROTEL OF AMERICA</span> </div><div> <span>54 Concord Street</span> </div><div> <span>North Reading, Massachusetts 01864</span> </div><div> <span>(978) 644-3820</span> </div><div> <span>rotel.com</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="59"
+        v="2857"
+      />
+      <match u="2116" v="2116">MCINTOSH </match>
+      <post u="2117" v="2136"><![CDATA[LABORATORY, INC.</span> </div><div> <span>2 Chambers Street</span> </div><div> <span>Binghamton, New York 13903</span> </div><div> <span>(607) 723-3512</span> </div><div> <span>mcintoshlabls.com</span> </div><div> <span>S P E C I F ]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="2204" v="2223"><![CDATA[composite video (four),</span> </div><div> <span>S-video (four), component video (five)</span> </div><div> <span>Dimensions: 17.01” x 6.46” x 17.13”</span> </div><div> <span>Weight: 34.6 lbs.</span> </div><div> <span>Price: $2999</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="59"
+        v="2857"
+      />
+      <match u="2224" v="2224">MCINTOSH </match>
+      <post u="2225" v="2244"><![CDATA[MX-119</span> </div><div> <span>Decoding Formats: Dolby Digital, Dolby</span> </div><div> <span>Digital EX, DTS, DTS-ES, Dolby Pro Logic II,</span> </div><div> <span>DTS Neo:6, LPCM</span> </div><div> <span>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... them  into  their<br/>controllers.  For  instance,  the  $5500<br/>McIntosh MX-119 incorporates a clone<br/>of the firm’ ... in analog gear at<br/>anywhere near its price.</span> </div><div> <span>McIntosh MX-119</span> </div><div> <span>Deep inside the MX-119’s  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1.875"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/2/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_2330.pdf/"
+  vertex="269"
+  url="smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/2/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_2330.pdf"
+  ct="text/html" la-score="0.221763"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">327785</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380578"
+    u="51"
+  >Jan 3,
+  2008 17:16:18 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">Cayin Audio A-88T Tube Integrated Amplifier and SCD-50T SACD Player</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="260" v="279">to mimic a Marantz 7; a VAS amplifier, a Harman-Kardon Citation&lt;br/>II; the A-88T integrated under review, a </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="1944"
+      />
+      <match u="280" v="280">McIntosh </match>
+      <post u="281" v="300">MC275. When I told a couple of&lt;br/>TAS colleagues about this, one said, “How cool!” The other, rolling his eyes, </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1539" v="1558">the power for&lt;br/>$400 more). But surely it’s fair to ask how&lt;br/>the A-88T stacks up against the </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="1944"
+      />
+      <match u="1559" v="1559"><![CDATA[McIntosh<br/>]]></match>
+      <post u="1560" v="1579">MC275 it’s voiced to resemble. I don’t have&lt;br/>a vintage sample around but I do have the&lt;br/>Series </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1832" v="1851"><![CDATA[1800</span> </div><div> <span><b>Associated</b></span> </div><div> <span><b>Equipment</b></span> </div><div> <span>sME Model 30 turntable; sumiko<br/>Celebration and dynavector 17d II<br/>cartridges; Phonomena phonostage; sony<br/>XA777Es sACd player, ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="1944"
+      />
+      <match u="1852" v="1852">McIntosh </match>
+      <post u="1853" v="1872">MdA1000&lt;br/>d/A converter, MCd 1000 transport, and&lt;br/>861 universal player; Pathos Classic One&lt;br/>integrated amp; Quad 99 and 303 </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1854" v="1873">d/A converter, MCd 1000 transport, and&lt;br/>861 universal player; Pathos Classic One&lt;br/>integrated amp; Quad 99 and 303 preamps;&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="68"
+        v="1944"
+      />
+      <match u="1874" v="1874">McIntosh </match>
+      <post u="1875" v="1894">MC-275 series IV amplifier;&lt;br/>Quad 988, EsL-57, Harbeth Compact 7,&lt;br/>and spendor sP3/5 speakers; Audio Physic&lt;br/>Minos </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... II; the A-88T integrated under review, a McIntosh MC275. When I told a couple of&lt;br/>TAS  ... how&lt;br/>the A-88T stacks up against the McIntosh&lt;br/>MC275 it’s voiced to resemble. I don’ ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/2/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_2198.pdf/"
+  vertex="264"
+  url="smb://VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba_deep/2/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/REVIEW_2198.pdf"
+  ct="text/html" la-score="0.221763"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">225477</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199380578"
+    u="51"
+  >Jan 3,
+  2008 17:16:18 GMT</content>
+  <content name="language" weight="0" action="none" u="53">english</content>
+  <content name="title" output-action="bold" weight="3" u="55">Where does one find a musical, reliable, and full-range tube monoblock for around $2k?</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="381" v="400">but also for its ease of servicing and modifying. It’s&lt;br/>a big reason why so many of the classic </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="71"
+        v="1572"
+      />
+      <match u="401" v="401">McIntosh </match>
+      <post u="402" v="421">and Marantz tube amplifiers are still working rather than being&lt;br/>used as boat anchors. However, just because an amplifier offers </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... big reason why so many of the classic McIntosh and Marantz tube amplifiers are still working rather  ... </content>
+</document>
+</scope>

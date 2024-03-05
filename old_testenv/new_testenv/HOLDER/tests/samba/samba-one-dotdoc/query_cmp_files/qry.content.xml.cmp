@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="1" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="3" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="21" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/SharePointTips.doc"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/SharePointTips.doc/"
+  filetype="doc" vse-base-score="2.99707" la-score="0.1"
+>
+  <content name="title" output-action="bold" weight="3" u="7">Tips and Tricks for Using Microsoft Office SharePoint Portal Server 2003</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.5">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="11803"
+      />
+      <pre u="20" v="37"><![CDATA[   <br/><p><b></b><b></b></p><p><b>Tips and Tricks </b><b>for Using</b><b> Microsoft Office SharePoint Portal Server 2003</b></p><p><b>White Paper</b></p><p>Published: February 2004</p><p><b></b></p><p><b></b></p><p><b></b></p><p><b></b></p><p><b></b></p><br/><p><b>Table of ]]></pre>
+      <match u="38" v="38"><![CDATA[Contents</b></p><p><b></b><b></b><b></b>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p><b></b><b></b></p><br/><p><b></b><b>]]></match>
+      <post u="39" v="58"><![CDATA[Tips and Tricks for Using Microsoft Office SharePoint Portal Server 2</b><b>003</b><b></b></p><p><b>White Paper</b></p><p>Published: February 2004</p><p></p><p>For the latest ]]></post>
+    </solution>
+    <solution rank="1" score="1.5">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="11803"
+      />
+      <pre u="2695" v="2714"><![CDATA[Internet Explorer, go to the page where you want to create a new list.</p></li><li><p>In the <b>Actions </b>list, click <b>Manage ]]></pre>
+      <match u="2715" v="2715"><![CDATA[Content</b>.</p></li><li><p>]]></match>
+      <post u="2716" v="2735"><![CDATA[On the Documents and Lists page, click <b>Create</b>.</p></li> <p><b></b><b></b></p><p><b>Creating a new list</b></p><p>A catalog of lists, pages, and discussion boards ]]></post>
+    </solution>
+    <solution rank="2" score="1.5">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="11803"
+      />
+      <pre u="3098" v="3117"><![CDATA[Internet Explorer, go to the page that contains the list you want to manage.</p></li><li><p>In the <b>Actions </b>list, click <b>Manage ]]></pre>
+      <match u="3118" v="3118"><![CDATA[Content</b>.</p></li> <p>]]></match>
+      <post u="3119" v="3138">A list of all the lists you can manage in the current area appears on the Documents and Lists page. </post>
+    </solution>
+    <solution rank="3" score="1.5">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="11803"
+      />
+      <pre u="3433" v="3452"><![CDATA[Internet Explorer, go to the page that contains the list you want to customize.</p></li><li><p>In the <b>Actions </b>list, click <b>Manage ]]></pre>
+      <match u="3453" v="3453"><![CDATA[Content</b>. ]]></match>
+      <post u="3454" v="3473">A directory of all the lists and information in the current area appears.&lt;/p>&lt;/li>&lt;li>&lt;p>Find the list you want to customize </post>
+    </solution>
+    <solution rank="4" score="1.5">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="11803"
+      />
+      <pre u="3920" v="3939"><![CDATA[Internet Explorer, go to the page that contains the list you want to modify.</p></li><li><p>In the <b>Actions </b>list, click <b>Manage ]]></pre>
+      <match u="3940" v="3940"><![CDATA[Content</b>. ]]></match>
+      <post u="3941" v="3960">A list of all the lists in the current area appears. Find the list you want to customize, and click </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 2003</b></p><p><b>White Paper</b></p><p>Published: February 2004</p><p><b></b></p><p><b></b></p><p><b></b></p><p><b></b></p><p><b></b></p><br/><p><b>Table of Contents</b></p><p><b></b><b></b><b></b>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p><b></b><b></b></p><br/><p><b></b><b>Tips and Tricks for Using Microsoft Office SharePoint  ... new list.</p></li><li><p>In the <b>Actions </b>list, click <b>Manage Content</b>.</p></li><li><p>On the Documents and Lists page, click <b>Create</b>.</p></li> <p><b></b><b></b></p><p><b> ... ]]></content>
+</document>
+</scope>

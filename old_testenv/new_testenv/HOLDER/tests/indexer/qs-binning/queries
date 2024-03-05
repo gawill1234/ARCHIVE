@@ -1,0 +1,29 @@
+#query::collection::number_of_urls::compare_file::new_file
+#
+#   special codes in strings: (yes, I know it is screwy but it greatly
+#                              simplifies processing ...)
+#      <2eq> will become '=='
+#      <eq> will become '='
+#      <empty> will become ''
+#      <cr> will become '\n' (newline)
+#      <sp> will become ' '
+#
+#   To add more changes go in:
+#      $TEST_ROOT/lib/queryObj.py in set_other_opts()
+#
+##############################################
+#
+#   Basic queries
+#
+::qs-binning::0::bin_empty::num=200&profile=true&output-score=true
+::qs-binning::0::ship..Battleship::num=200&binning-state=ship<2eq>Battleship&profile=true&output-score=true
+::qs-binning::0::bin..German..Battleship::num=200&binning-state=ship<2eq>Battleship<cr>nations<2eq>Germany&profile=true&output-score=true
+::qs-binning-tree::0::tree_empty::num=200&profile=true&output-score=true
+::qs-binning-tree::0::tree..US..PA::num=200&binning-state=location<2eq>US<sp><gt><sp>PA&profile=true&output-score=true
+::qs-binning-tree::0::tree..CA::num=200&binning-state=location<2eq>CA&profile=true&output-score=true
+#TODO: calculations check
+::qs-binning-tree::0::tree..price..120000::num=200&binning-state=prices<2eq>120000&profile=true&output-score=true
+::qs-binning-tree::0::tree..price..1200000::num=200&binning-state=prices<2eq>1200000&profile=true&output-score=true
+::qs-binning::0::bin..Japan..AircraftCarrier::num=200&binning-state=ship<2eq>Aircraft<sp>Carrier<cr>nations<2eq>Japan&profile=true&output-score=true
+::qs-binning::0::bin..Cruiser::num=200&binning-state=ship<2eq>Cruiser&profile=true&output-score=true
+#TODO: prune bin check?

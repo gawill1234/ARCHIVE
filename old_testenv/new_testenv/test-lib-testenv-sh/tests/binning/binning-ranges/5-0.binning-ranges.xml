@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<vse-collection name="binning-ranges" modified="1183042474">
+  <vse-config elt-id="3793" max-elt-id="3721">
+    <crawler elt-id="3794">
+      <call-function name="vse-crawler-seed-database-java" elt-id="3795">
+        <with name="database-system" elt-id="3796">oracle</with>
+        <with name="server" elt-id="3797">testbed5.test.vivisimo.com</with>
+        <with name="port" elt-id="3798">1521</with>
+        <with name="database" elt-id="3799">orcl</with>
+        <with name="username" elt-id="3800">gaw</with>
+        <with name="password" elt-id="3801">MOBCJJBHONDLHBCKJCBOFFPDODJFDCINJIIEAMCPNBMFCCPDHIEAFOMEGCEKPLMGABLCFKPLMGABMKPLMGABIMKMPBEGEMBNLAFCFKKBJMFLMK</with>
+        <with name="tables" elt-id="3802">vessel_view</with>
+      </call-function>
+      <crawl-options elt-id="3803">
+        <curl-option name="max-hops" elt-id="3804">15</curl-option>
+        <curl-option name="max-data-size" elt-id="3805">20000000</curl-option>
+        <curl-option name="default-allow" elt-id="3806">disallow</curl-option>
+        <curl-option name="error-expires" elt-id="3807">604800</curl-option>
+        <curl-option name="delay" elt-id="3808">100</curl-option>
+        <crawl-option name="n-fetch-threads" elt-id="3809">50</crawl-option>
+        <curl-option name="user-agent" elt-id="3810">VSE/1.0</curl-option>
+        <curl-option name="connect-timeout" elt-id="3811">30</curl-option>
+        <curl-option name="timeout" elt-id="3812">600</curl-option>
+        <crawl-option name="output-minimum-size" elt-id="3813">1000000000</crawl-option>
+      </crawl-options>
+      <call-function name="vse-crawler-apache-directory-browsing" elt-id="3814"/>
+      <call-function name="vse-crawler-binary-file-extensions" elt-id="3815"/>
+      <call-function name="vse-crawler-bugzilla" elt-id="3816"/>
+      <call-function name="vse-crawler-calendars-forums" elt-id="3817"/>
+      <call-function name="vse-crawler-no-delay-for-files" elt-id="3818"/>
+      <call-function name="vse-crawler-lotus-domino-site" elt-id="3819"/>
+      <call-function name="vse-crawler-session-ids" elt-id="3820"/>
+      <call-function name="vse-crawler-verity-query-service" elt-id="3821"/>
+      <call-function name="vse-crawler-wiki" elt-id="3822"/>
+    </crawler>
+    <vse-index elt-id="3823">
+      <vse-index-option name="fast-index" elt-id="3824">SHIP_TYPE
+title-length|int
+title-length-1
+title-length-2|number
+title-length-3
+title-multi|number</vse-index-option>
+      <vse-index-option name="stem" elt-id="3825">depluralize</vse-index-option>
+      <vse-index-option name="stoplist" elt-id="3826">none</vse-index-option>
+      <vse-index-option name="url-weight" elt-id="3827">1.0</vse-index-option>
+      <vse-index-option name="host-weight" elt-id="3828">1.0</vse-index-option>
+      <vse-index-option name="link-analysis-reps" elt-id="3829">100</vse-index-option>
+      <vse-index-option name="summary-context-words" elt-id="3830">16</vse-index-option>
+      <vse-index-option name="summary-bytes" elt-id="3831">150</vse-index-option>
+      <vse-index-option name="max-content-size" elt-id="3832">1000000</vse-index-option>
+      <vse-url-equivs name="vse-url-equivs" elt-id="3833">
+        <vse-url-equiv old-prefix="smb://" new-prefix="file://///" elt-id="3721"/>
+      </vse-url-equivs>
+      <binning-sets elt-id="3835">
+        <binning-set elt-id="3836">
+          <call-function name="binning-set" elt-id="3837">
+            <with name="select" elt-id="3838">$title-length</with>
+            <with name="label" elt-id="3839">title-length</with>
+          </call-function>
+          <binning-range elt-id="3840">
+            <call-function name="binning-range" elt-id="3841">
+              <with name="low" elt-id="3842">0</with>
+              <with name="high" elt-id="3843">10</with>
+              <with name="interval" elt-id="3844">1</with>
+            </call-function>
+          </binning-range>
+          <binning-range elt-id="3845">
+            <call-function name="binning-range" elt-id="3846">
+              <with name="high" elt-id="3847">0</with>
+            </call-function>
+          </binning-range>
+          <binning-range elt-id="3848">
+            <call-function name="binning-range" elt-id="3849">
+              <with name="number-label-xpath" elt-id="3850">concat('ال', $value, '$', $which)</with>
+              <with name="number-label-connector" elt-id="3851">@@</with>
+              <with name="low" elt-id="3852">10</with>
+              <with name="interval" elt-id="3853">10</with>
+            </call-function>
+          </binning-range>
+        </binning-set>
+        <binning-set elt-id="3854">
+          <call-function name="binning-set" elt-id="3855">
+            <with name="select" elt-id="3856">$title-length-1</with>
+            <with name="label" elt-id="3857">title-length-1</with>
+          </call-function>
+          <binning-range elt-id="3858">
+            <call-function name="binning-range" elt-id="3859">
+              <with name="low" elt-id="3860">0</with>
+              <with name="high" elt-id="3861">10</with>
+              <with name="interval" elt-id="3862">1</with>
+            </call-function>
+          </binning-range>
+          <binning-range elt-id="3863">
+            <call-function name="binning-range" elt-id="3864">
+              <with name="high" elt-id="3865">0</with>
+            </call-function>
+          </binning-range>
+          <binning-range elt-id="3866">
+            <call-function name="binning-range" elt-id="3867">
+              <with name="label-xpath" elt-id="3868">concat($low, ' - ', $high)</with>
+              <with name="low" elt-id="3869">10</with>
+              <with name="interval" elt-id="3870">10</with>
+            </call-function>
+          </binning-range>
+        </binning-set>
+        <binning-set elt-id="3871">
+          <call-function name="binning-set" elt-id="3872">
+            <with name="select" elt-id="3873">$title-length-2</with>
+            <with name="label" elt-id="3874">title-length-2</with>
+          </call-function>
+          <binning-range elt-id="3875">
+            <call-function name="binning-range" elt-id="3876">
+              <with name="low" elt-id="3877">0</with>
+              <with name="high" elt-id="3878">10</with>
+              <with name="interval" elt-id="3879">1</with>
+            </call-function>
+          </binning-range>
+          <binning-range elt-id="3880">
+            <call-function name="binning-range" elt-id="3881">
+              <with name="high" elt-id="3882">0</with>
+            </call-function>
+          </binning-range>
+          <binning-range elt-id="3883">
+            <call-function name="binning-range" elt-id="3884">
+              <with name="number-label-xpath" elt-id="3885">concat('ال', $value, '$', $which)</with>
+              <with name="number-label-connector" elt-id="3886">@@</with>
+              <with name="low" elt-id="3887">10</with>
+              <with name="high" elt-id="3888">100</with>
+              <with name="interval" elt-id="3889">10</with>
+            </call-function>
+          </binning-range>
+          <binning-set elt-id="3890">
+            <call-function name="binning-set" elt-id="3891">
+              <with name="select" elt-id="3892">$title-length-2</with>
+            </call-function>
+            <binning-range elt-id="3893">
+              <call-function name="binning-range" elt-id="3894">
+                <with name="interval" elt-id="3895">5</with>
+              </call-function>
+            </binning-range>
+          </binning-set>
+        </binning-set>
+        <binning-set elt-id="3896">
+          <call-function name="binning-set" elt-id="3897">
+            <with name="select" elt-id="3898">$title-length-3</with>
+            <with name="label" elt-id="3899">title-length-3</with>
+          </call-function>
+          <binning-range elt-id="3900">
+            <call-function name="binning-range" elt-id="3901">
+              <with name="low" elt-id="3902">0</with>
+              <with name="high" elt-id="3903">10</with>
+              <with name="interval" elt-id="3904">1</with>
+            </call-function>
+          </binning-range>
+          <binning-range elt-id="3905">
+            <call-function name="binning-range" elt-id="3906">
+              <with name="high" elt-id="3907">0</with>
+            </call-function>
+          </binning-range>
+          <binning-range elt-id="3908">
+            <call-function name="binning-range" elt-id="3909">
+              <with name="number-label-xpath" elt-id="3910">concat('ال', $value, '$', $which)</with>
+              <with name="number-label-connector" elt-id="3911">@@</with>
+              <with name="low" elt-id="3912">10</with>
+              <with name="interval" elt-id="3913">10</with>
+            </call-function>
+          </binning-range>
+        </binning-set>
+        <binning-set elt-id="3914">
+          <call-function name="binning-set" elt-id="3915">
+            <with name="select" elt-id="3916">$title-multi</with>
+            <with name="label" elt-id="3917">title-multi</with>
+          </call-function>
+        </binning-set>
+        <binning-set elt-id="3918">
+          <call-function name="binning-set" elt-id="3919">
+            <with name="select" elt-id="3920">$title-multi</with>
+            <with name="label" elt-id="3582">title-multi with range</with>
+          </call-function>
+          <binning-range elt-id="3921">
+            <call-function name="binning-range" elt-id="3922">
+              <with name="high" elt-id="3627">0</with>
+              <with name="interval" elt-id="3559">1</with>
+            </call-function>
+          </binning-range>
+          <binning-range elt-id="4056">
+            <call-function name="binning-range" elt-id="4055">
+              <with name="low" elt-id="3696">0</with>
+              <with name="interval" elt-id="3697">10</with>
+            </call-function>
+          </binning-range>
+        </binning-set>
+        <binning-sets last-modified="1183042407" elt-id="3720">
+          <binning-set label="title-length" select="$title-length" elt-id="3701">
+            <binning-range interval="1" low="0" high="10" elt-id="3698"/>
+            <binning-range high="0" elt-id="3699"/>
+            <binning-range interval="10" number-label-xpath="concat('&#x627;&#x644;', $value, '$', $which)" number-label-connector="@@" low="10" elt-id="3700"/>
+          </binning-set>
+          <binning-set label="title-length-1" select="$title-length-1" elt-id="3705">
+            <binning-range interval="1" low="0" high="10" elt-id="3702"/>
+            <binning-range high="0" elt-id="3703"/>
+            <binning-range interval="10" label-xpath="concat($low, ' - ', $high)" low="10" elt-id="3704"/>
+          </binning-set>
+          <binning-set label="title-length-2" select="$title-length-2" elt-id="3711">
+            <binning-range interval="1" low="0" high="10" elt-id="3706"/>
+            <binning-range high="0" elt-id="3707"/>
+            <binning-range interval="10" number-label-xpath="concat('&#x627;&#x644;', $value, '$', $which)" number-label-connector="@@" low="10" high="100" elt-id="3708"/>
+            <binning-set select="$title-length-2" elt-id="3710">
+              <binning-range interval="5" elt-id="3709"/>
+            </binning-set>
+          </binning-set>
+          <binning-set label="title-length-3" select="$title-length-3" elt-id="3715">
+            <binning-range interval="1" low="0" high="10" elt-id="3712"/>
+            <binning-range high="0" elt-id="3713"/>
+            <binning-range interval="10" number-label-xpath="concat('&#x627;&#x644;', $value, '$', $which)" number-label-connector="@@" low="10" elt-id="3714"/>
+          </binning-set>
+          <binning-set label="title-multi" select="$title-multi" elt-id="3716"/>
+          <binning-set label="title-multi with range" select="$title-multi" elt-id="3719">
+            <binning-range interval="1" high="0" elt-id="3717"/>
+            <binning-range interval="10" low="0" elt-id="3718"/>
+          </binning-set>
+        </binning-sets>
+      </binning-sets>
+    </vse-index>
+    <converters elt-id="3944">
+      <call-function name="vse-converter-database" elt-id="3945">
+        <with name="title" elt-id="3946">content[@name="NAME"]</with>
+        <with name="url" elt-id="3947">content[@name="URL_LOCATER"]</with>
+        <with name="action" elt-id="3948">viv:choose(@name='ship_type', 'cluster', none)</with>
+        <with name="output-action" elt-id="3949">viv:choose(@name='ship_type', 'cluster', none)</with>
+      </call-function>
+      <converter type-in="unknown" type-out="dead" elt-id="3950">
+        <call-function name="vse-converter-binary-files-in-archives" elt-id="3951"/>
+      </converter>
+      <converter type-in="unknown" program="%bin/guess-content %source_file" elt-id="3952"/>
+      <converter type-in="application/ms-office" program="%bin/ms-guess %source_file" elt-id="3953"/>
+      <converter type-in="unknown" type-out="text/plain" elt-id="3954">
+        <converter-test how="wc-set" what="path" elt-id="3955">*.txt</converter-test>
+      </converter>
+      <call-function name="vse-converter-type-normalization" elt-id="3956"/>
+      <call-function name="vse-converter-filetypes" elt-id="3957"/>
+      <call-function name="vse-converter-email" elt-id="3958">
+        <with name="cache-parser" elt-id="3959">vse-cache-parser-email</with>
+      </call-function>
+      <call-function name="vse-converter-database" elt-id="3960"/>
+      <converter type-in="application/documentum" type-out="application/vxml-unnormalized" elt-id="3961">
+        <call-function name="vse-converter-documentum-to-xml" elt-id="3962"/>
+      </converter>
+      <converter type-out="application/vxml-unnormalized" type-in="application/lotus" elt-id="3963">
+        <call-function name="vse-converter-lotus-to-xml" elt-id="3964"/>
+      </converter>
+      <call-function name="vse-converter-powerpoint" elt-id="3965"/>
+      <call-function name="vse-converter-1-2-3" elt-id="3966"/>
+      <converter type-in="application/sharepoint" type-out="application/vxml-unnormalized" elt-id="3967">
+        <call-function name="vse-converter-sharepoint-to-xml" elt-id="3968"/>
+      </converter>
+      <converter type-in="application/word" type-out="text/html" elt-id="3969">
+        <call-function name="vse-converter-msword" elt-id="3970"/>
+      </converter>
+      <converter type-in="application/excel" type-out="text/html" elt-id="3971">
+        <call-function name="vse-converter-excel" elt-id="3972"/>
+      </converter>
+      <converter type-in="application/wordperfect" type-out="text/html" elt-id="3973">
+        <call-function name="vse-converter-wordperfect" elt-id="3974"/>
+      </converter>
+      <converter type-in="application/openoffice" type-out="text/html" elt-id="3975">
+        <call-function name="vse-converter-openoffice" elt-id="3976"/>
+      </converter>
+      <converter type-in="application/vnd.ms-project" type-out="application/vxml-unnormalized" elt-id="3977">
+        <call-function name="vse-converter-ms-project" elt-id="3978"/>
+      </converter>
+      <converter type-in="application/ps" type-out="text/plain" elt-id="3979">
+        <call-function name="vse-converter-postscript" elt-id="3980"/>
+      </converter>
+      <converter type-in="application/pdf" type-out="text/html" elt-id="3981">
+        <call-function name="vse-converter-pdf" elt-id="3982"/>
+      </converter>
+      <converter type-in="application/rtf" type-out="text/html" elt-id="3983">
+        <call-function name="vse-converter-rtf" elt-id="3984"/>
+      </converter>
+      <converter type-in="application/outlook-msg" type-out="vivisimo/crawl-data" elt-id="3985">
+        <call-function name="vse-converter-outlook-msg" elt-id="3986"/>
+      </converter>
+      <converter type-in="application/flash" type-out="text/html" elt-id="3987">
+        <call-function name="vse-converter-flash" elt-id="3988"/>
+      </converter>
+      <converter type-in="application/tar" type-out="unknown" elt-id="3989">
+        <call-function name="vse-converter-tar" elt-id="3990"/>
+      </converter>
+      <converter type-in="application/x-gzip" type-out="unknown" elt-id="3991">
+        <call-function name="vse-converter-gunzip" elt-id="3992"/>
+      </converter>
+      <converter type-in="application/zip" type-out="unknown" elt-id="3993">
+        <call-function name="vse-converter-unzip" elt-id="3994"/>
+      </converter>
+      <converter type-in="application/x-compress" type-out="unknown" elt-id="3995">
+        <call-function name="vse-converter-uncompress" elt-id="3996"/>
+      </converter>
+      <converter type-in="text/html" type-out="application/vxml-unnormalized" elt-id="3997">
+        <call-function name="vse-converter-html" elt-id="3998"/>
+      </converter>
+      <converter type-in="text/plain" type-out="application/vxml-unnormalized" elt-id="3999">
+        <call-function name="vse-converter-text" elt-id="4000"/>
+      </converter>
+      <converter type-in="unknown" type-out="application/dbf" elt-id="4001">
+        <converter-test how="wc-set" what="path" elt-id="4002">*.dbf</converter-test>
+      </converter>
+      <converter type-in="application/dbf" type-out="text/csv" elt-id="4003">
+        <call-function name="vse-converter-dbf-to-csv" elt-id="4004"/>
+      </converter>
+      <converter type-in="text/csv" type-out="application/vxml-unnormalized" elt-id="4005">
+        <call-function name="vse-converter-csv-to-vxml" elt-id="4006"/>
+      </converter>
+      <converter type-in="text/xml" type-out="application/vxml-unnormalized" elt-id="4007">
+        <call-function name="vse-converter-xml-to-vxml" elt-id="4008"/>
+      </converter>
+      <converter elt-id="4009" type-in="application/vxml-unnormalized" type-out="application/vxml-unnormalized">
+        <parser type="xsl" elt-id="4010">&lt;xsl:template match="*"&gt;
+  &lt;xsl:copy&gt;
+    &lt;xsl:apply-templates select="*|@*|text()" /&gt;
+  &lt;/xsl:copy&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match="@*|text()"&gt;
+  &lt;xsl:copy /&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match="content[@name='title']"&gt;
+  &lt;content name="title-length" type="text"&gt;&lt;xsl:value-of select="string-length(.)" /&gt;&lt;/content&gt;
+  &lt;content name="title-length-1" type="text"&gt;&lt;xsl:value-of select="1 div (string-length(.) - 5)" /&gt;&lt;/content&gt;
+  &lt;content name="title-length-2" type="text"&gt;&lt;xsl:value-of select="string-length(.) * 1000" /&gt;&lt;/content&gt;
+  &lt;content name="title-length-3" type="text"&gt;&lt;xsl:value-of select="100 - string-length(.)" /&gt;&lt;/content&gt;
+  &lt;content name="title-multi" type="text"&gt;&lt;xsl:value-of select="string-length(.)" /&gt;&lt;/content&gt;
+  &lt;content name="title-multi" type="text"&gt;&lt;xsl:value-of select="1 div (string-length(.) - 5)" /&gt;&lt;/content&gt;
+  &lt;content name="title-multi" type="text"&gt;&lt;xsl:value-of select="string-length(.) * 1000" /&gt;&lt;/content&gt;
+  &lt;content name="title-multi" type="text"&gt;&lt;xsl:value-of select="100 - string-length(.)" /&gt;&lt;/content&gt;
+  &lt;xsl:copy&gt;
+    &lt;xsl:apply-templates select="*|@*|text()" /&gt;
+  &lt;/xsl:copy&gt;
+&lt;/xsl:template&gt;</parser>
+      </converter>
+      <converter type-in="application/vxml-unnormalized" type-out="application/vxml-unnormalized" elt-id="4011">
+        <call-function name="vse-converter-normalize" elt-id="4012"/>
+      </converter>
+      <converter type-in="application/vxml-unnormalized" type-out="application/vxml" elt-id="4013"/>
+    </converters>
+  </vse-config>
+  <vse-meta name="binning-ranges" creator="pawlowski" create-time="1182974142" elt-id="4053">
+    <vse-meta-info name="maintainers" elt-id="4054">gary_testing</vse-meta-info>
+  </vse-meta>
+</vse-collection>

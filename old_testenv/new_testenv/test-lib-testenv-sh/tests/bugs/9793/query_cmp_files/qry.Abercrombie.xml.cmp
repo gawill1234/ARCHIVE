@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="2" />
+<attribute name="admin-url"
+  value="http://oberman.vivisimo.com/vivisimo-oberman/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="60" />
+<attribute name="retrieval-ms" value="3" />
+<attribute name="total-results-with-duplicates" value="2" />
+<document
+  vse-key="sqlserver://testbed5-5.test.vivisimo.com:1433/WWII_Navy/vessel_url/?key-val=2"
+  graph-id-high-water="565" priority="0" ct="application/vxml-unnormalized"
+  vse-base-score="1.5" vertex="567"
+  url="sqlserver://testbed5-5.test.vivisimo.com:1433/WWII_Navy/vessel_url?key-val=2"
+  la-score="6.90174"
+>
+  <content name="size" weight="-1" u="1">260</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="vessel_id" type="text" u="5">2</content>
+  <content name="vessel_name" type="text" u="7">Abercrombie</content>
+  <content name="url_locater" type="text" u="9"><![CDATA[http://en.wikipedia.org/w/index.php?title=HMS_Abercrombie&amp;action=edit]]></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="8" v="7"></pre>
+      <content name="vessel_name" type="TEXT" u="7" v="8" />
+      <match u="8" v="8">Abercrombie</match>
+      <post u="10" v="22"><![CDATA[http://en.wikipedia.org/w/index.php?title=HMS_Abercrombie&amp;amp;action=edit]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="10" v="18">http://en.wikipedia.org/w/index.php?title=HMS_</pre>
+      <content name="url_locater" type="TEXT" u="9" v="22" />
+      <match u="19" v="19"><![CDATA[Abercrombie&amp;]]></match>
+      <post u="20" v="22">amp;action=edit</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="sqlserver://testbed5-5.test.vivisimo.com:1433/WWII_Navy/vessel/?key-val=2"
+  graph-id-high-water="1" priority="0" ct="application/vxml-unnormalized"
+  vse-base-score="1" vertex="3"
+  url="sqlserver://testbed5-5.test.vivisimo.com:1433/WWII_Navy/vessel?key-val=2"
+  la-score="0.842614"
+>
+  <content name="size" weight="-1" u="1">203</content>
+  <content name="language" weight="0" action="none" u="3">unknown</content>
+  <content name="id" type="text" u="5">2</content>
+  <content name="des_code" type="text" u="7">PC</content>
+  <content name="name" type="text" u="9">Abercrombie</content>
+  <content name="nation" type="text" u="11">UK</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="10" v="9"></pre>
+      <content name="name" type="TEXT" u="9" v="10" />
+      <match u="10" v="10">Abercrombie</match>
+      <post u="12" v="12">UK</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<retrieval-performance n-tau="23" n-rho="6" n-uat="0" n-ohr="0" occr-reads="1527"
+  block-reads="52" seeks="12" cache-hits="49" cache-misses="3"
+>
+  <query-performance what="doc-text" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="333" block-reads="8" seeks="4" cache-hits="8" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="333" block-reads="8" seeks="4" cache-hits="8" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="333" block-reads="4" seeks="4" cache-hits="4" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="2" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="4" seeks="0" cache-hits="4" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="430" block-reads="8" seeks="0" cache-hits="6" cache-misses="2"
+  >
+    <query-performance what="3:" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="430" block-reads="8" seeks="0" cache-hits="6" cache-misses="2"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="13" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="395" block-reads="24" seeks="4" cache-hits="23" cache-misses="1"
+  >
+    <query-performance what="not-within" n-tau="13" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="395" block-reads="24" seeks="4" cache-hits="23" cache-misses="1"
+    >
+      <query-performance what="not-containing" n-tau="13" n-rho="13" n-uat="0"
+        n-ohr="0" occr-reads="395" block-reads="20" seeks="4" cache-hits="19"
+        cache-misses="1"
+      >
+        <query-performance what="0:" n-tau="13" n-rho="13" n-uat="0" n-ohr="0"
+          occr-reads="395" block-reads="4" seeks="4" cache-hits="3" cache-misses="1"
+        />
+        <query-performance what="or" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="0" block-reads="16" seeks="0" cache-hits="16" cache-misses="0"
+        >
+          <query-performance what="0:url" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+            occr-reads="0" block-reads="4" seeks="0" cache-hits="4" cache-misses="0"
+          />
+          <query-performance what="0:host" n-tau="2" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="4" seeks="0" cache-hits="4"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-tau="2" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="4" seeks="0" cache-hits="4"
+            cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-tau="2" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="4" seeks="0" cache-hits="4"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-tau="0" n-rho="2" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="4" seeks="0" cache-hits="4" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="2" n-rho="2" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="4" seeks="0" cache-hits="4" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="2" n-rho="2" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="4" seeks="0" cache-hits="4" cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-tau="2" n-rho="2" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="4" seeks="0" cache-hits="4" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="4" n-rho="4" n-uat="0"
+    n-ohr="0" occr-reads="369" block-reads="8" seeks="4" cache-hits="8"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="4" n-rho="4" n-uat="0" n-ohr="0"
+      occr-reads="369" block-reads="8" seeks="4" cache-hits="8" cache-misses="0"
+    >
+      <query-performance what="0:" n-tau="4" n-rho="4" n-uat="0" n-ohr="0"
+        occr-reads="369" block-reads="4" seeks="4" cache-hits="4" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="2" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="4" seeks="0" cache-hits="4" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="5" block-reads="4" seeks="1" cache-hits="3" cache-misses="1"
+>
+  <query-performance what="1:abercrombie" n-tau="4" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="5" block-reads="2" seeks="1" cache-hits="1" cache-misses="1"
+  />
+  <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="2" seeks="0" cache-hits="2" cache-misses="0"
+  />
+</query-performance>
+</scope>

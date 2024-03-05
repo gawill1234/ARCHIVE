@@ -1,0 +1,8 @@
+# This needs to be invoked from the root of the /testenv/ checkout, like this:
+#    source env.setup/win2012-dev
+
+source env.setup/common
+export VIVHOST=testbed-2012-2.bigdatalab.ibm.com
+export VIVTARGETARCH=windows64
+export VIVTARGETOS=windows
+export OSSTRING="Windows Server 2012 Standard"

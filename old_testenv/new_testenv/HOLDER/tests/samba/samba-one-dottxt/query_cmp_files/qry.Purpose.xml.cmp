@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/document/TXT/C_coding_style.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/document/TXT/C_coding_style.txt/"
+  input-at="1191258431" vertex="0" md5="121c3d134d07d103c389adaccde9b176"
+  ct="text/plain" vse-base-score="1.875" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="8" v="13">C Coding Standards
+Vivisimo, Inc.
+
+
+Purpose:
+========
+
+</pre>
+      <content type="text" name="snippet" u="7" v="1125" />
+      <match u="13" v="14">Purpose:
+========
+
+The </match>
+      <post u="13" v="34">Purpose:
+========
+
+The purpose of this document is to provide a general overview of the
+coding standards.  The spirit is to make sure </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="8" v="15">C Coding Standards
+Vivisimo, Inc.
+
+
+Purpose:
+========
+
+The purpose </pre>
+      <content type="text" name="snippet" u="7" v="1125" />
+      <match u="15" v="16">purpose of </match>
+      <post u="15" v="36">purpose of this document is to provide a general overview of the
+coding standards.  The spirit is to make sure that the </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="86" v="107">the start of the block.
+
+
+Comments:
+=========
+
+There should be a comment block at the start of each file that explains
+its purpose.
+
+</pre>
+      <content type="text" name="snippet" u="7" v="1125" />
+      <match u="107" v="108">purpose.
+
+Comments </match>
+      <post u="107" v="128">purpose.
+
+Comments should be placed before the construct which they are
+describing and should describe the whole construct:
+
+    /* change the name of  </post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="400" v="421">returning void).  However, when running in non-production mode,
+it will trigger an assertion failure if condition is not true.
+
+The purpose </pre>
+      <content type="text" name="snippet" u="7" v="1125" />
+      <match u="421" v="422">purpose of </match>
+      <post u="421" v="442">purpose of these macros are two-fold:
+
+  a) ensure that programming errors do not cause core dumps for the customers
+     (the bad </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">C Coding Standards
+Vivisimo, Inc.
+
+
+Purpose:
+========
+
+The purpose of this document is to provide a general overview of the
+coding standards.  The spirit is to make sure  ... </content>
+</document>
+</scope>

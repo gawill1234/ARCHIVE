@@ -1,0 +1,84 @@
+#!/bin/bash
+
+# Install/reinstall Velocity on my target
+
+if [ "${1:0:2}" == "-e" ]; then
+    shift
+    embedded=true
+fi
+
+release=$1
+build=$2			# Optional.
+
+script_dir=$(cd $(dirname $0); /bin/pwd)
+
+if [ -z "$release" ]; then
+    echo "usage: do_install [-embedded] release [build]"
+    echo
+    echo "examples:"
+    echo "do_install 7.5-7"
+    echo "do_install 8.0-beta0-build10"
+    echo "do_install 8.0-beta0 rc22"
+    echo "do_install -embedded 8.0-3-rc22"
+    exit 3
+fi
+
+if [ -z "$VIVHOST" ]; then
+    echo "Please setup a 'testenv' environment for a specific target."
+    exit 3
+fi
+
+tag=$release
+[ "$build" ] && tag=$release-$build
+
+hw=x86_64	# Default to our favorite hardware, then adjust as needed.
+[ "$VIVTARGETARCH" == linux32   ] && hw=i386
+[ "$VIVTARGETARCH" == windows32 ] && hw=i386
+[ "$VIVTARGETARCH" == solaris32 ] && hw=sparc
+[ "$VIVTARGETARCH" == solaris64 ] && hw=sparc64
+
+path="/candidates/velocity/$tag/vivisimo-velocity-$tag-$VIVTARGETOS-$hw"
+
+# Prepare for key-file SSH access to the target.
+Identity_File=$TEST_ROOT/files/ssh_private_key
+chmod 600 $Identity_File
+
+cat >| $TEST_ROOT/files/ssh_config <<EOF
+IdentityFile $Identity_File
+StrictHostKeyChecking no
+EOF
+
+export SSH="/usr/bin/ssh -F $TEST_ROOT/files/ssh_config"
+
+if [ "$VIVTARGETOS" == windows ]; then
+    winpath=${path//\//\\}
+    $script_dir/windows_install $VIVHOST "\\\\netapp1b.bigdatalab.ibm.com$winpath.exe" \
+	'c:\inetpub\wwwroot\Vivisimo' $embedded
+elif [ "$VIVTARGETOS" == solaris ]; then
+    $script_dir/nix_install $VIVHOST $path.tar.gz \
+	/var/apache2/htdocs/vivisimo webservd webservd $embedded
+else
+    # Default to Red Hat family
+    installRoot=/var/www/html/vivisimo
+    apacheGroup=apache
+    apacheUser=apache
+    # Different settings for our SUSE testbed machines
+    if [ ${VIVHOST%%.*} == testbed1 ] \
+	|| [  ${VIVHOST%%.*} == testbed3 ] \
+        || [  ${VIVHOST%%.*} == sles-11-ide-reg ] \
+	|| [  ${VIVHOST%%.*} == testbed6 ]; then
+	installRoot=/srv/www/htdocs/vivisimo
+	apacheGroup=www
+	apacheUser=wwwrun
+    fi
+
+    $script_dir/nix_install $VIVHOST $path.tar.gz \
+	$installRoot $apacheGroup $apacheUser $embedded
+fi
+
+$script_dir/connector_installer.py -c io-sharepoint -v 3.0.5
+$script_dir/connector_installer.py -c eroom -v 1.1.0
+$script_dir/connector_installer.py -c sharepoint -v 3.0.2
+
+
+

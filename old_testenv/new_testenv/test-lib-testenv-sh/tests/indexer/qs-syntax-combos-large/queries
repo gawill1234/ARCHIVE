@@ -1,0 +1,29 @@
+#query::collection::number_of_urls::compare_file::new_file
+#
+#   special codes in strings: (yes, I know it is screwy but it greatly
+#                              simplifies processing ...)
+#      <2eq> will become '=='
+#      <eq> will become '='
+#      <empty> will become ''
+#      <cr> will become '\n' (newline)
+#      <sp> will become ' '
+#
+#   To add more changes go in:
+#      $TEST_ROOT/lib/queryObj.py in set_other_opts()
+#
+##############################################
+#
+#   Basic queries
+#
+yoghurt skaka OR (fankasan OR 9.99)::danone-1::5720::or_or::num=10000&output-score=true&profile=true
+yoghurt skaka AND (fankasan OR low)::danone-1::951::and_or::num=10000&output-score=true&profile=true
+yoghurt skaka OR (fankasan AND low)::danone-1::5369::or_and::num=10000&output-score=true&profile=true
+yoghurt skaka AND (bader AND low)::danone-1::26::and_and::num=10000&output-score=true&profile=true
+NOT 2008 skaka OR (fankasan OR 9.99)::danone-1::13082::nor_or_or::num=15000&output-score=true&profile=true
+NOT 2008 skaka AND (fankasan OR low)::danone-1::930::not_and_or::num=1000&output-score=true&profile=true
+NOT 2008 skaka OR (fankasan AND low)::danone-1::12122::not_or_and::num=15000&output-score=true&profile=true
+NOT 2008 skaka AND (yoghurt AND low)::danone-1::198::not_and_and::num=1000&output-score=true&profile=true
+(skaka OR tabuk) AND (areen OR yoghurt)::danone-1::10255::or_and_or::num=15000&output-score=true&profile=true
+(9.99 OR fankasan) OR (216.60 OR 758.10)::danone-1::7679::or_or_or::num=10000&output-score=true&profile=true
+(tabuk AND 2008) AND (yoghurt AND rawda)::danone-1::65::and_and_and::num=100&output-score=true&profile=true
+(tabuk AND shaker) OR (yoghurt AND rawda)::danone-1::8348::and_or_and::num=10000&output-score=true&profile=true

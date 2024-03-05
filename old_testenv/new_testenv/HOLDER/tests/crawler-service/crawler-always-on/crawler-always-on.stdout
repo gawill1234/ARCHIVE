@@ -1,0 +1,40 @@
+TEST:  crawler-always-on
+TEST DESCRIPTION:  Refresh with concurrent queries
+PING testbed4.test.vivisimo.com (192.168.0.45) 56(84) bytes of data.
+64 bytes from testbed4.test.vivisimo.com (192.168.0.45): icmp_seq=1 ttl=64 time=0.144 ms
+
+--- testbed4.test.vivisimo.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.144/0.144/0.144/0.000 ms
+Test begins ...
+Query service is OK
+COPY: /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/crawler-always-on/6-1.crawler-always-on-postgres.xml
+TO  : /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/crawler-always-on/crawler-always-on-postgres.xml
+COPY: /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/crawler-always-on/6-1.crawler-always-on-sharepoint.xml
+TO  : /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/crawler-always-on/crawler-always-on-sharepoint.xml
+COPY: /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/crawler-always-on/6-1.crawler-always-on-sharepoint.xml.stats
+TO  : /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/crawler-always-on/crawler-always-on-sharepoint.xml.stats
+COPY: /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/crawler-always-on/6-1.crawler-always-on-postgres.xml.stats
+TO  : /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/crawler-always-on/crawler-always-on-postgres.xml.stats
+COPY: /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/crawler-always-on/6-1.crawler-always-on-oracle.xml.stats
+TO  : /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/crawler-always-on/crawler-always-on-oracle.xml.stats
+COPY: /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/crawler-always-on/6-1.crawler-always-on-oracle.xml
+TO  : /home/gaw/TESTENV/working/testenv/testrun/64bit/VTD_19374/VTD_11734/crawler-always-on/crawler-always-on-oracle.xml
+SPEED:  slow
+/testenv is mounted.  We can continue
+ORACLE:  12214
+POSTGRES:  12215
+SHAREPOINT:  12221
+SAMBA:  12224
+Wait for test parts to complete.  This will be awhile
+Even if you said fast, this will still take 25 minutes
+Waiting ...
+oracle refresh:  exit(3)
+postgres refresh:  exit(0)
+sharepoint refresh:  exit(0)
+samba refresh:  exit(4)
+crawler-always-on:  Test Failed
+Stop indexing (admin) for  crawler-always-on-samba
+Stop indexing (admin) for  crawler-always-on-oracle
+Stop indexing (admin) for  crawler-always-on-postgres
+Stop indexing (admin) for  crawler-always-on-sharepoint

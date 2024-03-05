@@ -1,0 +1,21 @@
+<dictionary max-elt-id="13" elt-id="9" should-tokenize="true"
+  modified-by="gary_testing@QA" name="from_file" modified="1281636127"
+>
+  <dictionary-inputs elt-id="1">
+    <call-function elt-id="11" name="dict-input-file">
+      <with name="path" elt-id="12">REPLACE__WITH__TARGET</with>
+    </call-function>
+  </dictionary-inputs>
+  <dictionary-outputs elt-id="8">
+    <call-function name="dict-output-spelling" elt-id="2" />
+    <call-function name="dict-output-wildcard" elt-id="3" />
+    <call-function name="dict-output-stemming" elt-id="5">
+      <with name="stemmer" elt-id="4">depluralize</with>
+    </call-function>
+    <call-function name="dict-output-stemming" elt-id="7">
+      <with name="stemmer" elt-id="6">english+depluralize</with>
+    </call-function>
+
+    <call-function elt-id="13" name="dict-output-autocomplete-collection" />
+  </dictionary-outputs>
+</dictionary>

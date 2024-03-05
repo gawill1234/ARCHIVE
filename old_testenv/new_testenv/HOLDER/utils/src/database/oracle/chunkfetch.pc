@@ -1,0 +1,173 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <libgen.h>
+
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <sqlca.h>
+
+
+#define READSZ 80
+#define UIDINFOSZ 16
+
+int errorval = 0;
+int notfound = 0;
+
+
+//////////////////////////////////////////////////////////////
+//
+//   This program assume the following tables exist in your
+//   oracle database:
+//
+//   file_info:
+//   create table file_info (
+//      file_id number not null,
+//      file_name varchar(64) not null,
+//      file_size number,
+//      data_type varchar(64),
+//      file_location varchar(64));
+//
+//   file_content:
+//   create table file_content (
+//      file_id number not null,
+//      file_name varchar(64) not null,
+//      seg_size number not null,
+//      read_num number not null,
+//      content varchar(80));
+//
+
+//////////////////////////////////////////////////////////////
+//
+//   Oracle implementation of embedded sql program.
+//
+//   Compilation:
+//      proc INAME=table_ins MODE=ORACLE
+//      gcc table_ins.c -I $INCLUDE_PATH -L $LD_LIBRARY_PATH -lsqlplus
+//   where
+//      INCLUDE_PATH=/u01/app/oracle/oracle/product/10.2.0/db_1/precomp/public
+//      LD_LIBRARY_PATH=/u01/app/oracle/oracle/product/10.2.0/db_1/lib
+//
+//   The portion "/u01/app/oracle" may vary with your installation.
+//
+//////////////////////////////////////////////////////////////
+//
+//   Oracle variables
+//
+VARCHAR username[UIDINFOSZ + 1];
+VARCHAR passwd[UIDINFOSZ + 1];
+
+void mysql_error()
+{
+   errorval = 1;
+
+   return;
+}
+
+void notfoundfunc()
+{
+   notfound = 1;
+
+   return;
+}
+
+//////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+//
+//   Open a connection to the database.
+//
+int opendb(char *user, char *psswd)
+{
+
+   strncpy((char *)username.arr, user, UIDINFOSZ);
+   username.len = strlen((char *)username.arr);
+
+   strncpy((char *)passwd.arr, psswd, UIDINFOSZ);
+   passwd.len = strlen((char *)passwd.arr);
+
+   EXEC SQL WHENEVER SQLERROR DO mysql_error();
+
+   EXEC SQL CONNECT :username IDENTIFIED BY :passwd;
+
+   if (errorval == 1) {
+      printf("DB open failed, exiting\n");
+      exit(1);
+   }
+
+   return(0);
+}
+
+//////////////////////////////////////////////////////////////
+//
+//   Select * from a table and fetch 100 rows at a time;
+//
+int readdata()
+{
+struct junk {
+   char col1[24];
+   char col2[64];
+   char col3[24];
+   char col4[24];
+   char col5[80];
+} myrow[10];
+int rows_to_fetch = 1000;
+int rows_before = 0;
+int rows_this_time = 1000;
+int i;
+
+
+   EXEC SQL DECLARE mycursor CURSOR FOR
+      SELECT * FROM file_content;
+   EXEC SQL OPEN mycursor;
+
+   while (rows_this_time == rows_to_fetch) {
+      EXEC SQL FOR :rows_to_fetch
+         FETCH mycursor
+         INTO :myrow;
+      rows_this_time = sqlca.sqlerrd[2] - rows_before;
+      rows_before = sqlca.sqlerrd[2];
+      for (i = 0; i < 10; i++) {
+         printf("%s\n", myrow[i].col1);
+         printf("%s\n", myrow[i].col2);
+         printf("%s\n", myrow[i].col3);
+         printf("%s\n", myrow[i].col4);
+         printf("%s\n", myrow[i].col5);
+      }
+   }
+
+   return(0);
+}
+
+int main(int argc, char *argv[])
+{
+extern char *optarg;
+extern int optind;
+int c;
+char *tablename;
+static char *optstring = "t:";
+
+   while ((c = getopt(argc, argv, optstring)) != EOF) {
+      switch (c) {
+         case 't':
+                    tablename = optarg;
+                    break;
+         default:
+                    printf("Invalid argument:  %c\n", (char)c);
+                    break;
+      }
+   }
+
+   if (tablename == NULL) {
+      printf("Must specify a table to read\n");
+      exit(0);
+   }
+
+   opendb("gaw", "mustang5");
+
+   readdata();
+
+   exit(0);
+}

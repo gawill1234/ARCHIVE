@@ -1,0 +1,1089 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML Transitional//EN"
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="xlhtml">
+<TITLE>/tmp/PghBizTimes_info.xls</TITLE>
+</HEAD>
+
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF"><br>
+<!-- starting sheet 0: 28 x 5 -->
+<CENTER><H1>QuickBooks Export Tips</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><B>Instructions for Exporting QuickBooks data</B></TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD><B>Where did my worksheet go?</B></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>When you export data to a new workbook, your new worksheet containing exported data goes to Sheet 1. When you export to an existing workbook,</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>the new worksheet is placed in front of the last active sheet where it will be named &quot;SheetX&quot; using the next available number in the series.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD><B>How do I make sure this tips sheet isn't exported with the QuickBooks report in the final workbook?</B></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>Before exporting, on the Export Report Basic tab, deselect the option to include the instruction worksheet.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD><B>How can I customize and update my worksheet?</B></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>You can set up Excel links between 2 or more worksheets.  (See Microsoft Excel Help for details about linking in Excel.) You can use this</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>feature to setup links between a QuickBooks summary report and your customized sheet.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><I>&gt;&gt; Choose one sheet as your source worksheet into which you'll export QuickBooks data. Then create another worksheet where you can</I></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><I>customize your data and link the data between that sheet and the source worksheet.</I></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><I>&gt;&gt; Export your source data to an existing worksheet and overwrite the current data so that the new data is used by any Excel links and formulas.</I></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><I>&gt;&gt; Create Excel links between a QuickBooks data worksheet and another worksheet in the workbook.</I></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD><B>Troubleshooting: Why don't my links work correctly after exporting data?</B></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>Be aware that any difference in the structure of the current report from the report that you used when setting up links, can cause mismatch</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>in the links between worksheets. If you are seeing wrong data in your customized worksheet, then you may have:</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><I>&gt;&gt; Moved or deleted elements, or changed the structure of the report in some way?  For example:</I></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>You might have moved or deleted items from item list which gets used in a report like Inventory Valuation report.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>You might have moved or deleted accounts from accounts list which gets used in a report like Profit and Loss standard report.</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><I>&gt;&gt; You are using a report related to accounts and have account(s) with no activity associated and did not choose to display &quot;All rows&quot;.</I></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>TIP: Choose display All rows (available for most of the reports), Select Modify report-&gt;Display-&gt;Advanced-&gt;Diplay row-&gt;All rows</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><I>&gt;&gt; Deleted exported data sheet which serves as data source.</I></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 1: 28 x 5 -->
+<CENTER><H1>Sheet1</H1></CENTER><br>
+<FONT FACE="Arial" SIZE="2">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>Employee</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>Hire Date</B></FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Christopher R. Palmer</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">36698</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Jerome M Pesenti</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">36698</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Raul Valdes-Perez</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">36698</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Dennis M. Brestensky</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">37043</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Peter Pawlowski</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">37460</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Saman Haqqi</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">37809</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Orion J. Wolff</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">37844</FONT></TD>
+</TR>
+<TR VALIGN="bottom">
+<TD><FONT COLOR="FFFFFF">7</FONT></TD>
+<TD><FONT COLOR="FFFFFF">employees as of 9/30/2003</FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Patricia N. Pesenti</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">37937</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Jason Godesky</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38012</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Donald P Taylor</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38027</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">James C Orris</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38054</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Frank A Bilotto</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38103</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Stacy L Monarko</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38117</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Marco D Arment</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38174</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Christopher Gillin</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38252</FONT></TD>
+</TR>
+<TR VALIGN="bottom">
+<TD><FONT COLOR="FFFFFF">15</FONT></TD>
+<TD><FONT COLOR="FFFFFF">employees as of 9/30/2004</FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Anne C McCafferty</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38313</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Andrew Cox</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38327</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Denis Harscoat</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38353</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Paul A Chilensky</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38362</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Edward Brunins</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38397</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Carolyn G Dietrich</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38418</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Philippe G Lequerre</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38443</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">Mamatha Balasubramanian</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38460</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD><FONT SIZE="3">23</FONT></TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF">employees as of 4/30/2005</FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 2: 51 x 10 -->
+<CENTER><H1>Revenue</H1></CENTER><br>
+<FONT FACE="Arial" SIZE="2">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>Oct '02 - Sep 03</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>Oct '03 - Sep 04</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>Oct '04 - Sep 05</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>TOTAL</B></FONT></TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>Ordinary Income/Expense</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>Income</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Grant Income</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">455243</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">124976</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">0</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">580219</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Sales</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">597075</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">940659</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">3580967</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">5118701</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Web Advertising</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">10948</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">456650</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">422949</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">890547</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Total Income</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">1063266</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">1522285</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">4003916</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">6589467</FONT></TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>Expense</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Bank Service Charges</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">147</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">294</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">869</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">1310</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Commissions</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">48768</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">77233</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">497269</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">623270</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Consulting / Subcontractors</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">30800</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">14060</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">44914</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">89774</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Contributions</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">50</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">230</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">0</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">280</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Dues and Subscriptions</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">864</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">1558</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">5266</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">7688</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Employee Benefits</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">37871</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">67537</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">81831</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">187239</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Equipment Rental</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">4163</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">3858</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">2808</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">10829</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Insurance</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">1892</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">5417</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">9006</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">16315</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Internet Access</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">4935</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">1004</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">2022</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">7961</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Licenses and Permits</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">650</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">0</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">0</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">650</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Marketing</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">20167</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">137596</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">216289</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">374052</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Office Expenses</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">7172</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">14730</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">10591</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">32493</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Payroll - Salaries</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">659700</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">750415</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">621271</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">2031386</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Payroll Expenses</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">50953</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">66215</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">62598</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">179766</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Postage and Delivery</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">1130</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">1678</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">2337</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">5145</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Printing and Reproduction</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">1811</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">3509</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">3396</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">8716</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Professional Fees</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">45042</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">26472</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">23392</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">94906</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Recruiting</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">25204</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">8560</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">71483</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">105247</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Rent</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">18000</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">28370</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">19726</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">66096</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Repairs</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">70</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">2674</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">0</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">2744</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Security</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">337</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">913</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">285</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">1535</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Software services</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">2405</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">6025</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">14076</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">22506</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Telephone</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">12588</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">12401</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">9826</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">34815</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Training &amp; Education</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">488</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">0</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">0</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">488</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Travel &amp; Ent</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">28813</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">48934</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">69636</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">147383</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Utilities</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">1952</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">3139</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">2290</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">7381</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Web Hosting/Domain</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">20096</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">31804</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">74172</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">126072</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Web search results</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">0</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">600</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">16932</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">17532</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Workers Comp Ins.</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">5218</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">4026</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">1374</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">10618</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Total Expense</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">1031286</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">1319252</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">1863659</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">4214197</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Net Ordinary Income</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">31980</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">203033</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">2140257</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">2375270</FONT></TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>Other Income/Expense</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>Other Income</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Interest Income</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">3683</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">4390</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">7714</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">15787</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Total Other Income</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">3683</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">4390</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">7714</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">15787</FONT></TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>Other Expense</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Bad Debt Expense</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">104500</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">0</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">0</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">104500</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Depreciation &amp; Amortization</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">5367</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">8017</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">6790</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">20174</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Interest Expense</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">63534</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">38744</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">10043</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">112321</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Taxes - Local</B></FONT></TD>
+<TD><FONT COLOR="FFFFFF">-1256</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">0</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">0</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">-1256</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Total Other Expense</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">172145</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">46761</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">16833</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">235739</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Net Other Income</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">-168462</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">-42371</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">-9119</FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF">-219952</FONT></TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"><FONT COLOR="FFFFFF"><B>Net Income</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>-136482</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>160662</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>2131138</B></FONT></TD>
+<TD>&nbsp;</TD>
+<TD><FONT COLOR="FFFFFF"><B>2155318</B></FONT></TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 3: -1 x -1 -->
+<!-- starting sheet 4: -1 x -1 -->
+</BODY></HTML>

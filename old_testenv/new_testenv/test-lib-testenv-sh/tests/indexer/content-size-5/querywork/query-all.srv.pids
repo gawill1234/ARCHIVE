@@ -1,0 +1,8 @@
+<REMOP>
+   <PIDLIST>
+      <SERVICE>query-service</SERVICE>
+      <PID>1806</PID>
+      <PID>1805</PID>
+   </PIDLIST>
+   <OUTCOME>Success</OUTCOME>
+</REMOP>

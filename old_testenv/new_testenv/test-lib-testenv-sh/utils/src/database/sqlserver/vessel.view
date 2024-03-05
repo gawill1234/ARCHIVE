@@ -1,0 +1,12 @@
+use WWII_Navy
+go
+
+create view vessel_view as
+   select distinct vessel.name, vessel.nation, alignment.aligned,
+                   designation.ship_type, vessel_url.url_locater
+      from vessel, vessel_url, designation, alignment
+      where vessel.name = vessel_url.vessel_name
+      and vessel.des_code = designation.code
+      and vessel.nation = alignment.nation
+
+go

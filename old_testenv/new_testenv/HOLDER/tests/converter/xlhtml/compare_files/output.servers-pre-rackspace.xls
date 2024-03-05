@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML Transitional//EN"
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="xlhtml">
+<TITLE>/tmp/servers-pre-rackspace.xls</TITLE>
+</HEAD>
+
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF"><br>
+<!-- starting sheet 0: 14 x 11 -->
+<CENTER><H1>Sheet1</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD><B>Machine</B></TD>
+<TD><B>IP</B></TD>
+<TD><B>Provider</B></TD>
+<TD><B>Monthly</B></TD>
+<TD><B>Bandwidth</B></TD>
+<TD>&nbsp;</TD>
+<TD><B>Provider</B></TD>
+<TD><B>Monthly</B></TD>
+<TD><B>Login</B></TD>
+<TD><B>Password</B></TD>
+<TD><B>URL</B></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>search1</TD>
+<TD>216.127.88.73</TD>
+<TD>EV1</TD>
+<TD ALIGN="right">126.85</TD>
+<TD ALIGN="right">500</TD>
+<TD>&nbsp;</TD>
+<TD>EV1</TD>
+<TD ALIGN="right">539.38</TD>
+<TD>RS-88430</TD>
+<TD>123BASEBALL</TD>
+<TD><FONT COLOR="blue"><A href="https://members.ev1.net/rsMembers/english/index.asp">https://members.ev1.net/rsMembers/english/index.asp</A></FONT></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>search2</TD>
+<TD>66.139.73.144</TD>
+<TD>Serverbeach</TD>
+<TD ALIGN="right">99</TD>
+<TD ALIGN="right">400</TD>
+<TD>&nbsp;</TD>
+<TD>Serverbeach</TD>
+<TD ALIGN="right">99</TD>
+<TD><FONT COLOR="blue"><A href="mailto:servers@vivisimo.com">servers@vivisimo.com</A></FONT></TD>
+<TD>baseball</TD>
+<TD><FONT COLOR="blue"><A href="https://secure.serverbeach.com/catalog/account_v2.php">https://secure.serverbeach.com/catalog/account_v2.php</A></FONT></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>search3</TD>
+<TD>207.44.202.13</TD>
+<TD>EV1</TD>
+<TD ALIGN="right">137.51</TD>
+<TD ALIGN="right">500</TD>
+<TD>&nbsp;</TD>
+<TD>The Planet</TD>
+<TD ALIGN="right">1104</TD>
+<TD>vivisimo</TD>
+<TD>baseball</TD>
+<TD><FONT COLOR="blue"><A href="https://orbit.theplanet.com">https://orbit.theplanet.com</A></FONT></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>search5</TD>
+<TD>64.5.44.139</TD>
+<TD>The Planet</TD>
+<TD ALIGN="right">149</TD>
+<TD ALIGN="right">500</TD>
+<TD>&nbsp;</TD>
+<TD>Dell</TD>
+<TD ALIGN="right">599</TD>
+<TD>D30034246</TD>
+<TD>baseball66</TD>
+<TD><FONT COLOR="blue"><A href="https://my.dellhost.com">https://my.dellhost.com</A></FONT></TD>
+<TD>?? Can't currently log in!</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>search6</TD>
+<TD>64.5.44.168</TD>
+<TD>The Planet</TD>
+<TD ALIGN="right">149</TD>
+<TD ALIGN="right">1000</TD>
+<TD>&nbsp;</TD>
+<TD>FDC</TD>
+<TD ALIGN="right">99</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>search7</TD>
+<TD>69.93.84.2</TD>
+<TD>The Planet</TD>
+<TD ALIGN="right">179</TD>
+<TD ALIGN="right">1000</TD>
+<TD>&nbsp;</TD>
+<TD><B>Total</B></TD>
+<TD ALIGN="right"><FONT COLOR="blue"><A href="=@sum(h3:h7)">2440.38</A></FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>search8</TD>
+<TD>66.98.190.81</TD>
+<TD>EV1</TD>
+<TD ALIGN="right">137.51</TD>
+<TD ALIGN="right">500</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>search9</TD>
+<TD>66.98.190.82</TD>
+<TD>EV1</TD>
+<TD ALIGN="right">137.51</TD>
+<TD ALIGN="right">1000</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>search10</TD>
+<TD>69.41.247.162</TD>
+<TD>The Planet</TD>
+<TD ALIGN="right">179</TD>
+<TD ALIGN="right">1000</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">search11</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left">The Planet</TD>
+<TD ALIGN="right">179</TD>
+<TD ALIGN="right">1000</TD>
+<TD>&nbsp;</TD>
+<TD><B>Date</B></TD>
+<TD><B>Charge</B></TD>
+<TD><B>Provider</B></TD>
+<TD><B>Reason</B></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">dmoz1</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left">The Planet</TD>
+<TD>269</TD>
+<TD>1000</TD>
+<TD>&nbsp;</TD>
+<TD>9-Jan-04</TD>
+<TD>220.26</TD>
+<TD ALIGN="left">The Planet</TD>
+<TD ALIGN="left">$99 setup + prorated charge for january for search11</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>vse</TD>
+<TD>66.90.81.28</TD>
+<TD>FDC</TD>
+<TD ALIGN="right">99</TD>
+<TD>infinite</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="right">9-Jan-04</TD>
+<TD ALIGN="right">231.23</TD>
+<TD>The Planet</TD>
+<TD>$99 setup + prorated charge for january for dmoz1</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>vivisimo.com</TD>
+<TD>209.196.35.141</TD>
+<TD>Dell</TD>
+<TD ALIGN="right">599</TD>
+<TD>?</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 1: -1 x -1 -->
+<!-- starting sheet 2: -1 x -1 -->
+</BODY></HTML>

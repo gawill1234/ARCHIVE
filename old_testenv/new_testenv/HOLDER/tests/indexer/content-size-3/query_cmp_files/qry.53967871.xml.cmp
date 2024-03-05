@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="1" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="3" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="5" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/test_data/compression/misc/mp44sp25.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/test_data/compression/misc/mp44sp25.txt/"
+  vse-base-score="1" la-score="0.1"
+>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="392342" />
+      <pre u="392322" v="392341">3736908282925046810300252  7140625728174403150237878  3008522944298948449573666  4421686066759841901894439  5094441332788052794489135  8784353427328317557774008  4532316536589655933800424  0418065705980500618708940  9809891002223450271217817  2504983919773937921203719  7051692286732743354727882  3847857441157258951013712  7452030580579730642474710  0659082402812006850418270  5641195433744490808169439  7023499496826726604958937  3225825120726126214431145  3564186958427357744633045  7465821333212445737104635  6920000926590117528801540  </pre>
+      <match u="392342" v="392342">53967871
+</match>
+      <post u="392343" v="392342"></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... 7452030580579730642474710  0659082402812006850418270  5641195433744490808169439  7023499496826726604958937  3225825120726126214431145  3564186958427357744633045  7465821333212445737104635  6920000926590117528801540  53967871
+</content>
+</document>
+</scope>

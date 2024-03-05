@@ -1,0 +1,48 @@
+<testset>
+   <test>
+      <name>
+         vivNodeToStr07
+      </name>
+      <description>
+         two level path with same path name at two levels
+      </description>
+      <funcname argcnt="3" codetemplate="match" tbltemplate="1">
+         viv:node-to-str
+      </funcname>
+      <variable>
+         <name>
+            testNode
+         </name>
+         <value>
+            testnode4/whatrot
+         </value>
+         <type>
+            node
+         </type>
+      </variable>
+      <argument>
+         <value>
+            testNode
+         </value>
+         <type>
+            variable
+         </type>
+      </argument>
+      <argument>
+         <value>
+            true()
+         </value>
+         <type>
+            function
+         </type>
+      </argument>
+      <result>
+         <value>
+            &lt;whatrot> outerrot &lt;/whatrot>
+         </value>
+         <type>
+            string
+         </type>
+      </result>
+   </test>
+</testset>

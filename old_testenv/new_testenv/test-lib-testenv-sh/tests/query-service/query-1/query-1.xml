@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><vse-collection id="Rdn8ZAkqMQJo" name="query-1">
+<vse-meta name="query-1" create-time="1172071360" elt-id="2" max-elt-id="3" push-toggle="push-toggle">
+  <vse-meta-info name="refresh" elt-id="3"><![CDATA[full]]></vse-meta-info>
+</vse-meta>
+<vse-config elt-id="2025" max-elt-id="2355">  <crawler elt-id="2338">
+    <crawl-urls elt-id="2331">
+      <crawl-url url="file:///testenv/test_data/spec_tests/smoke_test/searchdocs" elt-id="2330" /></crawl-urls>
+    <crawl-options elt-id="2334">
+      <curl-option name="enable-acl" elt-id="2115"><![CDATA[false]]></curl-option>
+      <curl-option name="delay" elt-id="2332"><![CDATA[0]]></curl-option><curl-option name="filter-exact-duplicates" elt-id="2355"><![CDATA[false]]></curl-option>
+      <curl-option name="default-allow" elt-id="2333"><![CDATA[allow]]></curl-option>
+    </crawl-options>
+    <if test="math:random() > 0.5" elt-id="2337">
+      <crawl-may-not-have elt-id="2336">
+        <crawl-pattern elt-id="2335"><![CDATA[*/junk*
+*/suffix*]]></crawl-pattern>
+      </crawl-may-not-have>
+    </if>
+  </crawler>
+  <vse-index elt-id="2346">
+    <vse-index-option name="output-contents" elt-id="2339"><![CDATA[title]]></vse-index-option>
+    <vse-index-option name="summarize-contents" elt-id="2340"><![CDATA[snippet]]></vse-index-option>
+    <vse-index-option name="fast-index" elt-id="2341"><![CDATA[last-modified|date]]></vse-index-option>
+    <vse-index-option name="n-build-threads" elt-id="2342"><![CDATA[2]]></vse-index-option>
+    <vse-index-option name="max-indices" elt-id="2343"><![CDATA[10]]></vse-index-option>
+    <vse-url-equivs name="vse-url-equivs" elt-id="2345">
+      <vse-url-equiv old-prefix="smb://" new-prefix="file://///" elt-id="2344" />
+    </vse-url-equivs>
+  </vse-index>
+  <converters elt-id="2354">
+    <converter timing-name="Text to XML" type-in="text/plain" type-out="application/vxml-unnormalized" elt-id="2351">
+      <parser name="text2vxml" elt-id="2350">
+        <match token="..*" goto="#end" elt-id="2349">
+          <add-document elt-id="2347" />
+          <add-content type="text" name="snippet" elt-id="2348" />
+        </match>
+      </parser>
+    </converter>
+    <converter type-in="application/vxml-unnormalized" type-out="application/vxml">
+      <call-function name="vse-converter-normalize"/>
+    </converter>
+    <converter timing-name="Unknown documents" type-in="*" type-out="text/plain" elt-id="2353">
+      <converter-execute elt-id="2352"><![CDATA[vstrings %source_file]]></converter-execute>
+    </converter>
+  </converters>
+</vse-config>
+<vse-run><vse-remote-service /><crawler /><vse-index /></vse-run></vse-collection>

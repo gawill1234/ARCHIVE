@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="3" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="0" />
+<attribute name="retrieval-ms" value="15" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="1" />
+<attribute name="cache-hits-content-retrieval" value="9" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="9" />
+<attribute name="cache-misses-text" value="12" />
+<attribute name="total-results-with-duplicates" value="3" />
+<document status="complete"
+  vse-key="file://:80/C:\smoke_test\searchdocs/Alarm_System.doc/"
+  conversion-time="47"
+  url="file:///C%3a%5csmoke_test%5csearchdocs/Alarm_System.doc"
+  vse-base-score="1.875" la-score="4.18965"
+>
+  <cache u="0" ct="text/plain" acl="+users&#10;+system&#10;+administrators" />
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="1" v="406" />
+      <pre u="214" v="233">have a visitor coming later the door will be left unlocked. You will then be responsible for turning on the </pre>
+      <match u="234" v="234">alarm </match>
+      <post u="235" v="254">system by entering the pass code and pressing “away” on the alarm pad and locking the door when you leave </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="1" v="406" />
+      <pre u="226" v="245">will then be responsible for turning on the alarm system by entering the pass code and pressing “away” on the </pre>
+      <match u="246" v="246">alarm </match>
+      <post u="247" v="266">pad and locking the door when you leave by entering your code and pressing the * (star key) on the key </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="1" v="406" />
+      <pre u="378" v="397">PostalCode0 http://
+om:office:smarttags 
+  1710 Murray Ave, Suite 300
+  Microsoft Office Word
+  Microsoft Corporation
+  1710 Murray Ave, Suite 300  
+  </pre>
+      <match u="398" v="398">alarm </match>
+      <post u="399" v="406">and door system instructions
+  Microsoft Office Word Document 
+</post>
+    </solution>
+    <solution rank="3" score="1">
+      <content action="none" name="url" weight="1" u="407" v="415" />
+      <pre u="408" v="412">file:///C:\smoke_test\searchdocs/</pre>
+      <match u="413" v="413">Alarm_</match>
+      <post u="414" v="415">System.doc</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... will then be responsible for turning on the alarm system by entering the pass code and pressing “ ... away” on the alarm pad and locking the door when you leave  ... </content>
+</document>
+<document status="complete"
+  vse-key="file://:80/C:\smoke_test\searchdocs/msjudge.wpd/" conversion-time="281"
+  url="file:///C%3a%5csmoke_test%5csearchdocs/msjudge.wpd" vse-base-score="1.5"
+  la-score="4.18965"
+>
+  <cache u="0" ct="text/plain" acl="+users&#10;+system&#10;+administrators" />
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="1" v="62364" />
+      <pre u="11476" v="11495">like Navigator, it served as a distribution vehicle for Sun
+ Às Java runtime
+environment.  Then in 1995, Microsoft reacted with </pre>
+      <match u="11496" v="11496">alarm </match>
+      <post u="11497" v="11516">to Intel
+ Às Native Signal Processing
+software, which interacted with the microprocessor independently of the operating system and
+exposed APIs </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="1" v="62364" />
+      <pre u="13821" v="13840">manufacturers, would demonstrate the multimedia capabilities of an Intel
+microprocessor utilizing NSP.
+
+ ÁMicrosoft reacted to Intel
+ Às NSP software with </pre>
+      <match u="13841" v="13841">alarm.  </match>
+      <post u="13842" v="13861">First of all, the software
+threatened to offer ISVs and device manufacturers an alternative to waiting for Windows to
+provide </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... runtime
+environment.  Then in 1995, Microsoft reacted with alarm to Intel
+ Às Native Signal Processing
+software, which  ... ÁMicrosoft reacted to Intel
+ Às NSP software with alarm.  First of all, the software
+threatened to offer  ... </content>
+</document>
+<document status="complete"
+  vse-key="file://:80/C:\smoke_test\searchdocs/xml-edit-otf/"
+  conversion-time="2109" url="file:///C%3a%5csmoke_test%5csearchdocs/xml-edit-otf"
+  vse-base-score="1" la-score="4.18965"
+>
+  <cache u="0" ct="text/plain" acl="+users&#10;+system&#10;+administrators" />
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="1" v="37380" />
+      <pre u="24981" v="25000">4.1 Input domain encoded as `%s'
+ proxy  User-Agent: %s
+
+ %hu.%hu.%hu.%hu SOCKS4 request granted.
+ HTTP Previous </pre>
+      <match u="25001" v="25001">alarm </match>
+      <post u="25002" v="25021">fired off! %255[^:]:%255[^
+] NO_PROXY all_proxy
+FTPS ;type= Port number too large: %lu &lt;url> malformed TFTP ;mode= memory </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... hu.%hu.%hu SOCKS4 request granted.
+ HTTP Previous alarm fired off! %255[^:]:%255[^
+] NO_PROXY all_proxy
+ ... </content>
+</document>
+</scope>

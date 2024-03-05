@@ -1,0 +1,1 @@
+wget --user=williams --password=mustang5 --output-document=xmlOut2 "http://williams.dev2.vivisimo.com/vivisimo/cgi-bin/query-meta?input-form=simple&v%3Asources=All&v%3Aproject=query-meta&query=Furby"

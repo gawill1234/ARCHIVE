@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="query-xml-supported">query-xml-supported</attribute>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="9" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="7" />
+<attribute name="retrieval-ms" value="6" />
+<attribute name="total-results-with-duplicates" value="9" />
+<document
+  url="http://sharepoint2007.vivisimo.com/SiteDirectory/sample/Pictures/Forms/DispForm.aspx?ID=1"
+  ct="application/vxml-unnormalized"
+  vse-key="http://sharepoint2007.vivisimo.com:80/SiteDirectory/sample/Pictures/Forms/DispForm.aspx/?ID=1"
+  graph-id-high-water="732" priority="0" vertex="733" la-score="0.1"
+  vse-base-score="3"
+>
+  <content type="html" name="title" action="cluster" weight="3"
+    output-action="bold" u="29"
+  >Surnise on the lake</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <pre u="30" v="32">Surnise on the </pre>
+      <content type="html" name="title" action="cluster" weight="3"
+        output-action="bold" u="29" v="33"
+      />
+      <match u="33" v="33">lake</match>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"></content>
+</document>
+<document url="http://sharepoint2007/Docs/Documents/Reports/2004.FORTUNE.500.pdf"
+  i="1"
+  vse-key="http://sharepoint2007:80/Docs/Documents/Reports/2004.FORTUNE.500.pdf/"
+  vertex="94" graph-id-high-water="93" priority="0"
+  ct="application/vxml-unnormalized" filetypes="pdf " la-score="0.1"
+  vse-base-score="2.46875"
+>
+  <content type="html" name="title" action="cluster" weight="3"
+    output-action="bold" u="24"
+  >2004 Fortune 500</content>
+  <content type="html" name="title" output-action="bold" weight="3" u="65">F–1 • F O R T U N E April 5, 2004</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.5">
+      <pre u="15983" v="16002"><![CDATA[017.0</b></span> </div><div> <span><b>(38.9)</b></span> </div><div> <span><b>(44.0)</b></span> </div><div> <span>3</span> </div><div> <span>442</span> </div><div> <span><b>—</b></span> </div><div> <span><b>13,838.0 </b>218</span> </div><div> <span><b>1,846.0</b></span> </div><div> <span>329</span> </div><div> <span><b>308 </b>297</span> </div><div> <span><b>LAND O’]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="78" v="28822"
+      />
+      <match u="16003" v="16003"><![CDATA[LAKES</b>]]></match>
+      <post u="16004" v="16023"><![CDATA[Arden Hills, Minn.</span> </div><div> <span>28,34</span> </div><div> <span><b>5,978.1</b></span> </div><div> <span><b>2.2</b></span> </div><div> <span><b>106.5 </b>370</span> </div><div> <span><b>7.7</b></span> </div><div> <span><b>3,070.9</b></span> </div><div> <span>14</span> </div><div> <span>429</span> </div><div> <span><b>]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1091" v="1110"><![CDATA[0</b></span> </div><div> <span><b>(26.1)</b></span> </div><div> <span><b>1,865.0</b></span> </div><div> <span>61</span> </div><div> <span><b>—</b></span> </div><div> <span><b>47,988.0</b></span> </div><div> <span>75</span> </div><div> <span><b>13,956.0</b></span> </div><div> <span>52</span> </div><div> <span><b>41</b></span> </div><div> <span><b>•</b></span> </div><div> <span><b>MEDCO HEALTH SOLUTIONS</b>Franklin ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="78" v="28822"
+      />
+      <match u="1111" v="1111">Lakes, </match>
+      <post u="1112" v="1131"><![CDATA[N.J.</span> </div><div> <span>17</span> </div><div> <span><b>34,264.5</b></span> </div><div> <span><b>—</b></span> </div><div> <span><b>425.8 </b>235</span> </div><div> <span><b>—</b></span> </div><div> <span><b>10,263.0 </b>260</span> </div><div> <span><b>5,080.0</b></span> </div><div> <span>182</span> </div><div> <span><b>42</b></span> </div><div> <span>43</span> </div><div> <span><b>UNITED ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="18951" v="18970"><![CDATA[22.3</b></span> </div><div> <span><b>417.8</b></span> </div><div> <span>239</span> </div><div> <span><b>770.3</b></span> </div><div> <span><b>67,421.2</b></span> </div><div> <span>61</span> </div><div> <span><b>4,947.1</b></span> </div><div> <span>186</span> </div><div> <span><b>375 </b>355</span> </div><div> <span><b>W.W. GRAINGER </b>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="78" v="28822"
+      />
+      <match u="18971" v="18971">Lake </match>
+      <post u="18972" v="18991"><![CDATA[Forest, Ill.</span> </div><div> <span><b>4,667.0</b></span> </div><div> <span><b>0.5</b></span> </div><div> <span><b>227.0 </b>319</span> </div><div> <span><b>7.3</b></span> </div><div> <span><b>2,624.7 </b>449</span> </div><div> <span><b>1,845.1</b></span> </div><div> <span>330</span> </div><div> <span><b>]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="19260" v="19279"><![CDATA[6</b></span> </div><div> <span><b>14.3</b></span> </div><div> <span><b>20.6 </b>426</span> </div><div> <span><b>(67.2)</b></span> </div><div> <span><b>1,795.2 </b>475</span> </div><div> <span><b>521.4</b></span> </div><div> <span>455</span> </div><div> <span><b>388 </b>396</span> </div><div> <span><b>BECTON DICKINSON</b>Franklin ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="78" v="28822"
+      />
+      <match u="19280" v="19280">Lakes, </match>
+      <post u="19281" v="19300"><![CDATA[N.J.</span> </div><div> <span>10</span> </div><div> <span><b>4,527.9</b></span> </div><div> <span><b>12.3</b></span> </div><div> <span><b>547.1</b></span> </div><div> <span>198</span> </div><div> <span><b>14.0</b></span> </div><div> <span><b>5,572.3 </b>346</span> </div><div> <span><b>2,897.0</b></span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="21365" v="21384"><![CDATA[139.8</b></span> </div><div> <span><b>2.7</b></span> </div><div> <span><b>243.7 </b>307</span> </div><div> <span><b>(16.7)</b></span> </div><div> <span><b>10,709.7 </b>253</span> </div><div> <span><b>2,533.8</b></span> </div><div> <span>282</span> </div><div> <span><b>420 </b>430</span> </div><div> <span><b>BRUNSWICK</b>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="78" v="28822"
+      />
+      <match u="21385" v="21385">Lake </match>
+      <post u="21386" v="21405"><![CDATA[Forest, Ill.</span> </div><div> <span><b>4,128.7</b></span> </div><div> <span><b>11.2</b></span> </div><div> <span><b>135.2</b></span> </div><div> <span>350</span> </div><div> <span><b>72.5</b></span> </div><div> <span><b>3,602.5 </b>411</span> </div><div> <span><b>1,323.0</b></span> </div><div> <span>366</span> </div><div> <span><b>]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="22068" v="22087"><![CDATA[8</b></span> </div><div> <span><b>13.9</b></span> </div><div> <span><b>580.1</b></span> </div><div> <span>190</span> </div><div> <span><b>33.5</b></span> </div><div> <span><b>4,603.9 </b>371</span> </div><div> <span><b>1,663.7</b></span> </div><div> <span>339</span> </div><div> <span><b>450 </b>453</span> </div><div> <span><b>TENNECO AUTOMOTIVE </b>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="78" v="28822"
+      />
+      <match u="22088" v="22088">Lake </match>
+      <post u="22089" v="22108"><![CDATA[Forest, Ill.</span> </div><div> <span><b>3,766.0</b></span> </div><div> <span><b>8.9</b></span> </div><div> <span><b>27.0 </b>421</span> </div><div> <span><b>—</b></span> </div><div> <span><b>2,813.0 </b>438</span> </div><div> <span><b>58.0</b></span> </div><div> <span>484</span> </div><div> <span><b>401–450</b></span> </div><div> <span><b>LARGEST ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"><![CDATA[ ... 1,846.0</b></span> </div><div> <span>329</span> </div><div> <span><b>308 </b>297</span> </div><div> <span><b>LAND O’LAKES</b>Arden Hills, Minn.</span> </div><div> <span>28,34</span> </div><div> <span><b>5,978.1</b></span> </div><div> <span><b> ... 947.1</b></span> </div><div> <span>186</span> </div><div> <span><b>375 </b>355</span> </div><div> <span><b>W.W. GRAINGER </b>Lake Forest, Ill.</span> </div><div> <span><b>4,667.0</b></span> </div><div> <span><b>0.5</b></span> </div><div> <span><b>227. ... 521.4</b></span> </div><div> <span>455</span> </div><div> <span><b>388 </b>396</span> </div><div> <span><b>BECTON DICKINSON</b>Franklin Lakes, N.J.</span> </div><div> <span>10</span> </div><div> <span><b>4,527.9</b></span> </div><div> <span><b>12.3</b></span> </div><div> <span><b> ... ]]></content>
+</document>
+<document
+  url="http://sharepoint2007.vivisimo.com/Lists/Calendar/DispForm.aspx?ID=2"
+  ct="application/vxml-unnormalized"
+  vse-key="http://sharepoint2007.vivisimo.com:80/Lists/Calendar/DispForm.aspx/?ID=2"
+  vertex="28" graph-id-high-water="27" priority="0" filetypes="xls " la-score="0.1"
+  vse-base-score="1.99219"
+>
+  <content type="html" name="title" action="cluster" weight="3"
+    output-action="bold" u="27"
+  >Golf outing</content>
+  <content type="html" name="title" output-action="bold" weight="3" u="55">APA UDS</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4474" v="4493"><![CDATA[00001</font></td><td><font>UNKNOWN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00002500000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>IL</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL40258429</font></td><td><font>001000378</font></td><td><font>001000378</font></td><td><font>LEE GLADSTONE  M.D.</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>1212 NORTH ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="58" v="20723"
+      />
+      <match u="4494" v="4494">LAKE </match>
+      <post u="4495" v="4514"><![CDATA[SHORE DRIVE, #</font></td><td><font>CHICAGO,IL</font></td><td><font>CHICAGO</font></td><td><font>IL</font></td><td><font>60610</font></td><td><font>20000801</font></td><td><font>20000801</font></td><td><font>20010801</font></td><td><font>00001</font></td><td><font>UNKNOWN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>IL</font></td><td><font>10</font></td><td><font>]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="4966" v="4985"><![CDATA[DOE</font></td><td><font>JOHN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>IN</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL10265803</font></td><td><font>001000513</font></td><td><font>001000513</font></td><td><font>KEARN D HINCHMAN DO</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>11042 BIRCH ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="58" v="20723"
+      />
+      <match u="4986" v="4986">LAKE </match>
+      <post u="4987" v="5006"><![CDATA[DR</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>GRANGER</font></td><td><font>IN</font></td><td><font>46530</font></td><td><font>20010321</font></td><td><font>20000801</font></td><td><font>20010801</font></td><td><font>00001</font></td><td><font>UNKNOWN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00001500000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>KS</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL20266544</font></td><td><font>001020019</font></td><td><font>]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="8652" v="8671"><![CDATA[S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00005000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>NJ</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL50260606</font></td><td><font>001010525</font></td><td><font>001010525</font></td><td><font>EUI-SUN YOON  MD</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>39 BENTLEY DRIVE</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>FRANKLIN ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="58" v="20723"
+      />
+      <match u="8672" v="8672"><![CDATA[LAKES</font></td><td><font>]]></match>
+      <post u="8673" v="8692"><![CDATA[NJ</font></td><td><font>07417</font></td><td><font>20020625</font></td><td><font>20010801</font></td><td><font>20020801</font></td><td><font>00001</font></td><td><font>LEE</font></td><td><font>SOON UGH</font></td><td><font>C/O KATHY KARAS-PASCIUCCO</font></td><td><font>9-10 SADDLE RIVER ROAD</font></td><td><font>FAIR ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="9441" v="9460"><![CDATA[85 BRYANT WOODS SOUT</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>AMHERST</font></td><td><font>NY</font></td><td><font>14228</font></td><td><font>20020328</font></td><td><font>20010701</font></td><td><font>20020701</font></td><td><font>00001</font></td><td><font>GBUREK</font></td><td><font>JODY</font></td><td><font>C/O LUCIAN PARLATO, ESQ.</font></td><td><font>531 FARBER ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="58" v="20723"
+      />
+      <match u="9461" v="9461">LAKES </match>
+      <post u="9462" v="9481"><![CDATA[DR.</font></td><td><font>WILLIAMSVILLE</font></td><td><font>NY</font></td><td><font>14221</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00001000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>NY</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>GL40277283</font></td><td><font>001010582</font></td><td><font>001010582</font></td><td><font>SUBURBAN PSYCHIATRIC</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>85 BRYANT ]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="10736" v="10755"><![CDATA[S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>NY</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL20265137</font></td><td><font>001000274</font></td><td><font>001000274</font></td><td><font>STEVEN A. WEISBLATT</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>HC 87 BOX 69</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>POCONO ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="58" v="20723"
+      />
+      <match u="10756" v="10756"><![CDATA[LAKE</font></td><td><font>]]></match>
+      <post u="10757" v="10776"><![CDATA[PA</font></td><td><font>18347</font></td><td><font>20001204</font></td><td><font>20000701</font></td><td><font>20010701</font></td><td><font>00001</font></td><td><font>UNKNOWN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>NY</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL20265598</font></td><td><font>001010379</font></td><td><font>001010379</font></td><td><font>SHERI ]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="19156" v="19175"><![CDATA[00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0304</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>TX</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL10264702</font></td><td><font>001990059</font></td><td><font>001990059</font></td><td><font>ROBERT A. WEITZEL  M</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>546 CHIPETA WAY</font></td><td><font>SUITE 2216</font></td><td><font>SALT ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="58" v="20723"
+      />
+      <match u="19176" v="19176">LAKE </match>
+      <post u="19177" v="19196"><![CDATA[CITY UT</font></td><td><font>TX</font></td><td><font>84108</font></td><td><font>19990701</font></td><td><font>19981101</font></td><td><font>19991101</font></td><td><font>00001</font></td><td><font>UNKNOWN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0304</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>TX</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL10266822</font></td><td><font>001010248</font></td><td><font>]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="19677" v="19696"><![CDATA[JONES</font></td><td><font>JOHNNIE</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00005000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0210</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>TX</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL50264265</font></td><td><font>001010509</font></td><td><font>001010509</font></td><td><font>LINEA A MCNEEL MD</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>2023 LAUREN ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="58" v="20723"
+      />
+      <match u="19697" v="19697">LAKE </match>
+      <post u="19698" v="19717"><![CDATA[DR.</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>LEAGUE CITY</font></td><td><font>TX</font></td><td><font>77573</font></td><td><font>20020913</font></td><td><font>20020309</font></td><td><font>20030309</font></td><td><font>00001</font></td><td><font>TYLER</font></td><td><font>KRISTEN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0301</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>UT</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>]]></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="19708" v="19727"><![CDATA[KRISTEN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0301</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>UT</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL20259092</font></td><td><font>001980468</font></td><td><font>001980468</font></td><td><font>LOUISE STONE CLARK</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>PO BOX 17214</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>SALT ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="58" v="20723"
+      />
+      <match u="19728" v="19728">LAKE </match>
+      <post u="19729" v="19748"><![CDATA[CITY</font></td><td><font>UT</font></td><td><font>84117</font></td><td><font>19990518</font></td><td><font>19980801</font></td><td><font>19990801</font></td><td><font>00001</font></td><td><font>UNKNOWN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000500000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>VA</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>GL10277161</font></td><td><font>001010502</font></td><td><font>001010502</font></td><td><font>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"><![CDATA[ ... 001000378</font></td><td><font>001000378</font></td><td><font>LEE GLADSTONE  M.D.</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>1212 NORTH LAKE SHORE DRIVE, #</font></td><td><font>CHICAGO,IL</font></td><td><font>CHICAGO</font></td><td><font>IL</font></td><td><font>60610</font></td><td><font>20000801</font></td><td><font> ... 001000513</font></td><td><font>001000513</font></td><td><font>KEARN D HINCHMAN DO</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>11042 BIRCH LAKE DR</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>GRANGER</font></td><td><font>IN</font></td><td><font>46530</font></td><td><font>20010321</font></td><td><font>20000801</font></td><td><font>20010801</font></td><td><font>00001</font></td><td><font> ... ]]></content>
+</document>
+<document
+  url="http://sharepoint2007.vivisimo.com/Lists/Vivisimo%20list/DispForm.aspx?ID=1"
+  ct="application/vxml-unnormalized"
+  vse-key="http://sharepoint2007.vivisimo.com:80/Lists/Vivisimo list/DispForm.aspx/?ID=1"
+  vertex="47" graph-id-high-water="46" priority="0" filetypes="xls " la-score="0.1"
+  vse-base-score="1.99219"
+>
+  <content type="html" name="title" action="cluster" weight="3"
+    output-action="bold" u="28"
+  >Vivisimo title</content>
+  <content type="html" name="title" output-action="bold" weight="3" u="57">APA UDS</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4476" v="4495"><![CDATA[00001</font></td><td><font>UNKNOWN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00002500000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>IL</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL40258429</font></td><td><font>001000378</font></td><td><font>001000378</font></td><td><font>LEE GLADSTONE  M.D.</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>1212 NORTH ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="60" v="20725"
+      />
+      <match u="4496" v="4496">LAKE </match>
+      <post u="4497" v="4516"><![CDATA[SHORE DRIVE, #</font></td><td><font>CHICAGO,IL</font></td><td><font>CHICAGO</font></td><td><font>IL</font></td><td><font>60610</font></td><td><font>20000801</font></td><td><font>20000801</font></td><td><font>20010801</font></td><td><font>00001</font></td><td><font>UNKNOWN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>IL</font></td><td><font>10</font></td><td><font>]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="4968" v="4987"><![CDATA[DOE</font></td><td><font>JOHN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>IN</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL10265803</font></td><td><font>001000513</font></td><td><font>001000513</font></td><td><font>KEARN D HINCHMAN DO</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>11042 BIRCH ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="60" v="20725"
+      />
+      <match u="4988" v="4988">LAKE </match>
+      <post u="4989" v="5008"><![CDATA[DR</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>GRANGER</font></td><td><font>IN</font></td><td><font>46530</font></td><td><font>20010321</font></td><td><font>20000801</font></td><td><font>20010801</font></td><td><font>00001</font></td><td><font>UNKNOWN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00001500000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>KS</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL20266544</font></td><td><font>001020019</font></td><td><font>]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="8654" v="8673"><![CDATA[S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00005000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>NJ</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL50260606</font></td><td><font>001010525</font></td><td><font>001010525</font></td><td><font>EUI-SUN YOON  MD</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>39 BENTLEY DRIVE</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>FRANKLIN ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="60" v="20725"
+      />
+      <match u="8674" v="8674"><![CDATA[LAKES</font></td><td><font>]]></match>
+      <post u="8675" v="8694"><![CDATA[NJ</font></td><td><font>07417</font></td><td><font>20020625</font></td><td><font>20010801</font></td><td><font>20020801</font></td><td><font>00001</font></td><td><font>LEE</font></td><td><font>SOON UGH</font></td><td><font>C/O KATHY KARAS-PASCIUCCO</font></td><td><font>9-10 SADDLE RIVER ROAD</font></td><td><font>FAIR ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="9443" v="9462"><![CDATA[85 BRYANT WOODS SOUT</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>AMHERST</font></td><td><font>NY</font></td><td><font>14228</font></td><td><font>20020328</font></td><td><font>20010701</font></td><td><font>20020701</font></td><td><font>00001</font></td><td><font>GBUREK</font></td><td><font>JODY</font></td><td><font>C/O LUCIAN PARLATO, ESQ.</font></td><td><font>531 FARBER ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="60" v="20725"
+      />
+      <match u="9463" v="9463">LAKES </match>
+      <post u="9464" v="9483"><![CDATA[DR.</font></td><td><font>WILLIAMSVILLE</font></td><td><font>NY</font></td><td><font>14221</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00001000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>NY</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>GL40277283</font></td><td><font>001010582</font></td><td><font>001010582</font></td><td><font>SUBURBAN PSYCHIATRIC</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>85 BRYANT ]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="10738" v="10757"><![CDATA[S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>NY</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL20265137</font></td><td><font>001000274</font></td><td><font>001000274</font></td><td><font>STEVEN A. WEISBLATT</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>HC 87 BOX 69</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>POCONO ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="60" v="20725"
+      />
+      <match u="10758" v="10758"><![CDATA[LAKE</font></td><td><font>]]></match>
+      <post u="10759" v="10778"><![CDATA[PA</font></td><td><font>18347</font></td><td><font>20001204</font></td><td><font>20000701</font></td><td><font>20010701</font></td><td><font>00001</font></td><td><font>UNKNOWN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>NY</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL20265598</font></td><td><font>001010379</font></td><td><font>001010379</font></td><td><font>SHERI ]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="19158" v="19177"><![CDATA[00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0304</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>TX</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL10264702</font></td><td><font>001990059</font></td><td><font>001990059</font></td><td><font>ROBERT A. WEITZEL  M</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>546 CHIPETA WAY</font></td><td><font>SUITE 2216</font></td><td><font>SALT ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="60" v="20725"
+      />
+      <match u="19178" v="19178">LAKE </match>
+      <post u="19179" v="19198"><![CDATA[CITY UT</font></td><td><font>TX</font></td><td><font>84108</font></td><td><font>19990701</font></td><td><font>19981101</font></td><td><font>19991101</font></td><td><font>00001</font></td><td><font>UNKNOWN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0304</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>TX</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL10266822</font></td><td><font>001010248</font></td><td><font>]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="19679" v="19698"><![CDATA[JONES</font></td><td><font>JOHNNIE</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00005000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0210</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>TX</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL50264265</font></td><td><font>001010509</font></td><td><font>001010509</font></td><td><font>LINEA A MCNEEL MD</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>2023 LAUREN ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="60" v="20725"
+      />
+      <match u="19699" v="19699">LAKE </match>
+      <post u="19700" v="19719"><![CDATA[DR.</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>LEAGUE CITY</font></td><td><font>TX</font></td><td><font>77573</font></td><td><font>20020913</font></td><td><font>20020309</font></td><td><font>20030309</font></td><td><font>00001</font></td><td><font>TYLER</font></td><td><font>KRISTEN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0301</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>UT</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>]]></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="19710" v="19729"><![CDATA[KRISTEN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000000000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0301</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>UT</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>PL20259092</font></td><td><font>001980468</font></td><td><font>001980468</font></td><td><font>LOUISE STONE CLARK</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>PO BOX 17214</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>SALT ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="60" v="20725"
+      />
+      <match u="19730" v="19730">LAKE </match>
+      <post u="19731" v="19750"><![CDATA[CITY</font></td><td><font>UT</font></td><td><font>84117</font></td><td><font>19990518</font></td><td><font>19980801</font></td><td><font>19990801</font></td><td><font>00001</font></td><td><font>UNKNOWN</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>S</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>100</font></td><td><font>00000500000</font></td><td><font>+</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>0306</font></td>  <td><font>A</font></td><td><font>24422</font></td><td><font>VA</font></td><td><font>10</font></td><td><font>845010</font></td><td><font>GL10277161</font></td><td><font>001010502</font></td><td><font>001010502</font></td><td><font>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"><![CDATA[ ... 001000378</font></td><td><font>001000378</font></td><td><font>LEE GLADSTONE  M.D.</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>1212 NORTH LAKE SHORE DRIVE, #</font></td><td><font>CHICAGO,IL</font></td><td><font>CHICAGO</font></td><td><font>IL</font></td><td><font>60610</font></td><td><font>20000801</font></td><td><font> ... 001000513</font></td><td><font>001000513</font></td><td><font>KEARN D HINCHMAN DO</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>11042 BIRCH LAKE DR</font></td><td><font>]]>&#160;<![CDATA[</font></td><td><font>GRANGER</font></td><td><font>IN</font></td><td><font>46530</font></td><td><font>20010321</font></td><td><font>20000801</font></td><td><font>20010801</font></td><td><font>00001</font></td><td><font> ... ]]></content>
+</document>
+<document url="http://sharepoint2007/Docs/Documents/0000009Y.xml" i="1"
+  vse-key="http://sharepoint2007:80/Docs/Documents/0000009Y.xml/" vertex="297"
+  graph-id-high-water="296" priority="0" ct="application/vxml-unnormalized"
+  filetypes="xml " la-score="0.1" vse-base-score="1.75"
+>
+  <content type="html" name="title" action="cluster" weight="3"
+    output-action="bold" u="21"
+  >0000009Y.xml</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="5979" v="5998"><![CDATA[the grid OmniPage lists all the char&lt;/l>
+          &lt;l />
+          &lt;l > acters it did recognise. Users may notice mis-&lt;/l>
+          &lt;l > ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="55"
+        v="20127"
+      />
+      <match u="5999" v="5999">lakes </match>
+      <post u="6000" v="6019"><![CDATA[in this, such as a '9' instead of a 'g'. If they&lt;/l>
+          &lt;l > take the time to correct these, ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="17272" v="17291"><![CDATA[features. ITie&lt;/l>
+          &lt;l >standard edition only supporlsTIF format graph&lt;/l>
+          &lt;l />
+          &lt;l >ics files, so consequently it can't ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="55"
+        v="20127"
+      />
+      <match u="17292" v="17292">lake </match>
+      <post u="17293" v="17312"><![CDATA[input direct&lt;/l>
+          &lt;l />
+          &lt;l >ly from fax programs; it  doesn't use de-peppering&lt;/l>
+          &lt;l >to clear a ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="18367" v="18386"><![CDATA[as Microsoft Mail.&lt;/l>
+          &lt;l >   Tin; only button missing from the Image&lt;/l>
+          &lt;l >.Manager is the button that would ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="55"
+        v="20127"
+      />
+      <match u="18387" v="18387">lake </match>
+      <post u="18388" v="18407"><![CDATA[the usei&lt;/l>
+          &lt;l >                  COMPUTER SHOPPER&lt;/l>
+          &lt;l />
+        &lt;/text>
+      &lt;/object>
+      &lt;object >
+        &lt;link >000000A9.tif&lt;/link>
+        &lt;text >
+          &lt;l />
+          &lt;l >                                                                                   DOCUMENT MANAGEMENT&lt;/]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"><![CDATA[ ... did recognise. Users may notice mis-&lt;/l>
+          &lt;l > lakes in this, such as a '9' instead of  ... l >ics files, so consequently it can't lake input direct&lt;/l>
+          &lt;l />
+          &lt;l >ly from fax  ... ]]></content>
+</document>
+<document
+  url="http://sharepoint2007/Docs/Documents/Reports/NFAIS%202005%20Speaker%20Bios.doc"
+  i="1"
+  vse-key="http://sharepoint2007:80/Docs/Documents/Reports/NFAIS 2005 Speaker Bios.doc/"
+  vertex="106" graph-id-high-water="105" priority="0"
+  ct="application/vxml-unnormalized" filetypes="doc " la-score="0.1"
+  vse-base-score="1"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="64">2005 NFAIS Annual Conference</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2903" v="2922"><![CDATA[mwsmith@iee.org.uk</p><p></p><p>Speakers:</p><p></p><p>Dr. Peter Noerr</p><p>Chief Technology Officer</p><p>MuseGlobal, Inc.</p><p>Suite 220</p><p>4001 South 700 East</p><p>Salt ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="69" v="3900"
+      />
+      <match u="2923" v="2923">Lake </match>
+      <post u="2924" v="2943"><![CDATA[City, UT 84107</p><p>Tel: 801-208-1888</p><p>Fax: 801-208-1889</p><p>Email:  pnoerr@museglobal.com</p><p></p><p>Peter Noerr has a Ph.]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"><![CDATA[ ... Inc.</p><p>Suite 220</p><p>4001 South 700 East</p><p>Salt Lake City, UT 84107</p><p>Tel: 801-208-1888</p><p>Fax:  ... ]]></content>
+</document>
+<document
+  url="http://sharepoint2007/Docs/Documents/Reports/Unstructured%20Information%20Management%20(InfoSphere).pdf"
+  i="1"
+  vse-key="http://sharepoint2007:80/Docs/Documents/Reports/Unstructured Information Management (InfoSphere).pdf/"
+  vertex="174" graph-id-high-water="173" priority="0"
+  ct="application/vxml-unnormalized" filetypes="pdf " la-score="0.1"
+  vse-base-score="1"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="64">Unstructured Information Management</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="31539" v="31558"><![CDATA[M<br/>a<br/>n<br/>a<br/>g<br/>e<br/>m<br/>e<br/>n<br/>t</span> </div><div> <span>8<br/>4</span> </div><div> <span>Contact Information</span> </div><div> <span><b>Headquarters:</b><br/>SRA International, Inc.<br/>4300 Fair ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="68" v="41097"
+      />
+      <match u="31559" v="31559">Lakes </match>
+      <post u="31560" v="31579"><![CDATA[Court<br/>Fairfax, VA 22033<br/>USA<br/>Phone:  +1-(703)-803 1500<br/>Fax:</span> </div><div> <span>+1-(703)-803 1509</span> </div><div> <span><b>Other Locations:</b><br/>All throughout the ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"><![CDATA[ ... Contact Information</span> </div><div> <span><b>Headquarters:</b><br/>SRA International, Inc.<br/>4300 Fair Lakes Court<br/>Fairfax, VA 22033<br/>USA<br/>Phone:  +1-(703)- ... ]]></content>
+</document>
+<document
+  url="http://sharepoint2007/Docs/Documents/EContent%20Search%20Whitepapers%202004.pdf"
+  i="1"
+  vse-key="http://sharepoint2007:80/Docs/Documents/EContent Search Whitepapers 2004.pdf/"
+  vertex="246" graph-id-high-water="245" priority="0"
+  ct="application/vxml-unnormalized" filetypes="pdf " la-score="0.1"
+  vse-base-score="1"
+>
+  <content type="html" name="title" output-action="bold" weight="3" u="61">Leadership Series</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="25794" v="25813"><![CDATA[iphrase.com<br/>E-mail: business@iphrase.com</span> </div><div> <span><b>MuseGlobal, Inc.</b></span> </div><div> <span>4001 South 700 East<br/>The Woodlands, Tower 1, Suite 220<br/>Salt ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" type="html"
+        u="64" v="26148"
+      />
+      <match u="25814" v="25814">Lake </match>
+      <post u="25815" v="25834"><![CDATA[City, UT 84107<br/>Ph: 801.208.1880<br/>Fax : 801.208.1889<br/>Web: www.museglobal.com<br/>E-mail: info@museglobal.com</span> </div><div> <span><b>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"><![CDATA[ ... East<br/>The Woodlands, Tower 1, Suite 220<br/>Salt Lake City, UT 84107<br/>Ph: 801.208.1880<br/>Fax :  ... ]]></content>
+</document>
+<document url="http://sharepoint2007/Docs/Documents/K0002198.xml" i="1"
+  vse-key="http://sharepoint2007:80/Docs/Documents/K0002198.xml/" vertex="381"
+  graph-id-high-water="380" priority="0" ct="application/vxml-unnormalized"
+  filetypes="xml " la-score="0.1" vse-base-score="1"
+>
+  <content type="html" name="title" action="cluster" weight="3"
+    output-action="bold" u="21"
+  >K0002198.xml</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="4497" v="4516"><![CDATA[I've written about in the past also&lt;/l>
+          &lt;l >qualify here. Sliders and Dials from&lt;/l>
+          &lt;l >Golden Technologies (]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="55"
+        v="5471"
+      />
+      <match u="4517" v="4517">Lake </match>
+      <post u="4518" v="4537"><![CDATA[Oswego,&lt;/l>
+          &lt;l >Oreg.; 800/653-2201) gives Microsoft&lt;/l>
+          &lt;l >Excel real forecasting power. And even&lt;/l>
+          &lt;l >screen ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster"><![CDATA[ ... Sliders and Dials from&lt;/l>
+          &lt;l >Golden Technologies (Lake Oswego,&lt;/l>
+          &lt;l >Oreg.; 800/653-2201) gives  ... ]]></content>
+</document>
+<retrieval-performance n-tau="66" n-rho="21" n-uat="18" n-ohr="0"
+  occr-reads="50002" block-reads="145" seeks="8" cache-hits="127" cache-misses="18"
+>
+  <query-performance what="doc-text" n-tau="26" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="1908" block-reads="4" seeks="4" cache-hits="4" cache-misses="0"
+  >
+    <query-performance what="or" n-tau="26" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="1908" block-reads="4" seeks="4" cache-hits="4" cache-misses="0"
+    >
+      <query-performance what="0:0:doc#" n-blocks="1" n-tau="9" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="513" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:1:doc#" n-blocks="1" n-tau="7" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="409" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:2:doc#" n-blocks="1" n-tau="9" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="152" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:3:doc#" n-blocks="2" n-tau="21" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="834" block-reads="4" seeks="4" cache-hits="4"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" />
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="29587" block-reads="137" seeks="0" cache-hits="119" cache-misses="18"
+  >
+    <query-performance what="or" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="29587" block-reads="137" seeks="0" cache-hits="119" cache-misses="18"
+    >
+      <query-performance what="3:0:" n-blocks="821" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="3990" block-reads="14" seeks="0" cache-hits="14"
+        cache-misses="0"
+      />
+      <query-performance what="3:1:" n-blocks="245" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="6886" block-reads="17" seeks="0" cache-hits="17"
+        cache-misses="0"
+      />
+      <query-performance what="3:2:" n-blocks="84" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="2183" block-reads="12" seeks="0" cache-hits="12"
+        cache-misses="0"
+      />
+      <query-performance what="3:3:" n-blocks="1880" n-tau="0" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="16528" block-reads="94" seeks="0" cache-hits="76"
+        cache-misses="18"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="output" n-tau="21" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="1727" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="or" n-tau="21" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="1727" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:0:title" n-blocks="1" n-tau="9" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="449" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:1:title" n-blocks="0" n-tau="2" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:2:title" n-blocks="1" n-tau="7" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="42" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:3:title" n-blocks="1" n-tau="18" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="1236" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="9" n-rho="10" n-uat="9" n-ohr="0"
+    occr-reads="1343" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="or" n-tau="9" n-rho="10" n-uat="9" n-ohr="0"
+      occr-reads="1343" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:0:snippet" n-blocks="1" n-tau="7" n-rho="2"
+        n-uat="7" n-ohr="0" occr-reads="520" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:1:snippet" n-blocks="1" n-tau="6" n-rho="1"
+        n-uat="6" n-ohr="0" occr-reads="413" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:2:snippet" n-blocks="1" n-tau="7" n-rho="2"
+        n-uat="5" n-ohr="0" occr-reads="140" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:3:snippet" n-blocks="1" n-tau="8" n-rho="1"
+        n-uat="8" n-ohr="0" occr-reads="270" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="10" n-rho="11" n-uat="9"
+    n-ohr="0" occr-reads="15437" block-reads="4" seeks="4" cache-hits="4"
+    cache-misses="0"
+  >
+    <query-performance what="or" n-tau="10" n-rho="11" n-uat="9" n-ohr="0"
+      occr-reads="15437" block-reads="4" seeks="4" cache-hits="4" cache-misses="0"
+    >
+      <query-performance what="0:0:" n-blocks="1" n-tau="7" n-rho="2" n-uat="7"
+        n-ohr="0" occr-reads="3944" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:1:" n-blocks="1" n-tau="6" n-rho="1" n-uat="6"
+        n-ohr="0" occr-reads="2813" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:2:" n-blocks="1" n-tau="8" n-rho="2" n-uat="5"
+        n-ohr="0" occr-reads="1060" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:3:" n-blocks="2" n-tau="9" n-rho="0" n-uat="9"
+        n-ohr="0" occr-reads="7620" block-reads="4" seeks="4" cache-hits="4"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<binning id="sharepoint-2007" ndocs="9" skipped-docs="0" mode="normal">
+  <binning-set bs-id="author" select="$author" label="Author" other-ndocs="0"
+    n-output-bins="1" n-total-bins="1" ndocs-not-output="0"
+  >
+    <bin label="SHAREPOINT2007\Administrator" ndocs="9"
+      token="author==SHAREPOINT2007\\Administrator" cndocs="9"
+    />
+  </binning-set>
+  <binning-set bs-id="filetype" select="$filetype" label="Filetype"
+    other-ndocs="1" n-output-bins="4" n-total-bins="4" ndocs-not-output="0"
+  >
+    <bin label="pdf" ndocs="3" token="filetype==pdf" cndocs="3" />
+    <bin label="xls" ndocs="2" token="filetype==xls" cndocs="5" />
+    <bin label="xml" ndocs="2" token="filetype==xml" cndocs="7" />
+    <bin label="doc" ndocs="1" token="filetype==doc" cndocs="8" />
+  </binning-set>
+  <binning-set bs-id="last-modified" select="$last-modified"
+    label="Last Modified Date" other-ndocs="0" n-output-bins="3" n-total-bins="3"
+    ndocs-not-output="0"
+  >
+    <binning-range interval="86400"
+      label-xpath="viv:if-else($high - $low > 86400, concat(date:month-in-year(viv:seconds-to-local-date-time(floor($low))), '/', date:day-in-month(viv:seconds-to-local-date-time(floor($low))), '/', date:year(viv:seconds-to-local-date-time(floor($low))), ' to ', date:month-in-year(viv:seconds-to-local-date-time(floor($high))), '/', date:day-in-month(viv:seconds-to-local-date-time(floor($high))), '/', date:year(viv:seconds-to-local-date-time(floor($high)))), concat(date:month-in-year(viv:seconds-to-local-date-time(floor($low))), '/', date:day-in-month(viv:seconds-to-local-date-time(floor($low))), '/', date:year(viv:seconds-to-local-date-time(floor($low)))))"
+      br-id="|86400|"
+    />
+    <bin label="4/16/2007" br-id="|86400|" ndocs="4" low="1176768000"
+      high="1176854400" token="last-modified=1176768000:1176854400"
+    />
+    <bin label="8/27/2007" br-id="|86400|" ndocs="3" low="1188259200"
+      high="1188345600" token="last-modified=1188259200:1188345600"
+    />
+    <bin label="7/16/2008" br-id="|86400|" ndocs="2" low="1216252800"
+      high="1216339200" token="last-modified=1216252800:1216339200"
+    />
+  </binning-set>
+  <binning-state />
+</binning>
+<query-performance what="or" n-tau="31" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+>
+  <query-performance what="EXTENTS(30)" n-tau="31" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  />
+</query-performance>
+</scope>

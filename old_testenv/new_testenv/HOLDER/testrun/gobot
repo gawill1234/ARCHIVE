@@ -1,0 +1,64 @@
+#!/bin/bash
+
+
+if [ ! $1 ]; then
+   rel="7.5-5"
+else
+   rel=$1
+fi
+
+if [ ! $2 ]; then
+   rc="build16"
+else
+   rc=$2
+fi
+
+dir=`pwd`
+part=`basename $dir`
+
+echo $VIVTARGETOS
+if [ "$VIVTARGETOS" == "windows" ]; then
+   drvlist="winlist.vtd"
+else
+   drvlist="testlist.vtd"
+fi
+
+if [ -f $drvlist ]; then
+   echo "Test list exists:  $drvlist"
+else
+   echo "Test list DOES NOT exist:  $drvlist"
+   exit 1
+fi
+
+DirName="/testenv/NEW_RESULTS/$part"
+
+if [ -d $DirName ]; then
+   echo "Directory exists:  $DirName"
+else
+   echo "Directory DOES NOT exist:  $DirName"
+   exit 1
+fi
+
+CurrentRun="/testenv/NEW_RESULTS/current-run"
+linkname="$part...$rel...$rc.xml"
+linkname=`echo $linkname | sed "s/\.\.\./-/g"`
+FullLink="$CurrentRun/$linkname"
+
+grizzle="$part/$rel...$rc"
+grizzle=`echo $grizzle | sed "s/\.\.\./-/"`
+FileName="/testenv/NEW_RESULTS/$part/$rel...$rc"
+FileName=`echo $FileName | sed "s/\.\.\./-/"`
+
+echo "Result File:  $FileName"
+
+echo "Command:      vtd -i $drvlist -T 4800 -x $FileName"
+
+vtd -i $drvlist -T 4800 -x $FileName &
+
+#sleep 1
+
+echo "Use this ln line"
+echo "ln -s ../$grizzle $linkname"
+#ln -s $FileName $FullLin
+
+echo "VTD is running"

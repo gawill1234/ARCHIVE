@@ -1,0 +1,23 @@
+#query::collection::number_of_urls::compare_file::new_file
+#
+#   special codes in strings: (yes, I know it is screwy but it greatly
+#                              simplifies processing ...)
+#      <2eq> will become '=='
+#      <eq> will become '='
+#      <empty> will become ''
+#      <cr> will become '\n' (newline)
+#      <sp> will become ' '
+#
+#   To add more changes go in:
+#      $TEST_ROOT/lib/queryObj.py in set_other_opts()
+#
+##############################################
+#
+#   Basic queries
+#
+::binning-calc-3::0::calc3_empty::num=200&profile=true&output-score=true
+::binning-calc-3::0::calc3..US..PA::num=200&binning-state=location<2eq>US<sp><gt><sp>PA&profile=true&output-score=true
+::binning-calc-3::0::calc3..CA::num=200&binning-state=location<2eq>CA&profile=true&output-score=true
+::binning-calc-3::0::calc3..price..120000::num=200&binning-state=prices<2eq>120000&profile=true&output-score=true
+::binning-calc-3::0::calc3..price..1200000::num=200&binning-state=prices<2eq>1200000&profile=true&output-score=true
+::binning-calc-3::0::calc3..US..NY::num=200&binning-state=location<2eq>US<sp><gt><sp>NY&profile=true&output-score=true

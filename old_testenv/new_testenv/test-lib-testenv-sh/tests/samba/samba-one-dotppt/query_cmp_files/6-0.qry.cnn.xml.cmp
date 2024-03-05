@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="1" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="3" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="5" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/test_data/document/PPT/BoeingDB1.ppt"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/test_data/document/PPT/BoeingDB1.ppt/"
+  filetype="ppt" vse-base-score="1" la-score="0.1"
+>
+  <content name="title" output-action="bold" weight="3" u="7">The Document Clustering Company</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="snippet" weight="1" output-action="summarize" u="12"
+        v="1264"
+      />
+      <pre u="70" v="89"><![CDATA[visibility. </span><br/><span>Momentum: Paying customers (U.S. and international),                       		       many trials &amp; industry accolades.</span><br/><hr/><span>Vivísimo.com  Creating Market Awareness and Interest</span><br/><p/><span>International recognition</span><br/><span>]]></pre>
+      <match u="90" v="90">CNN (</match>
+      <post u="91" v="110"><![CDATA[Feb)</span><br/><span>Wall Street Journal (Oct)</span><br/><span>#1 web search tool ZDNet SearchIQ</span><br/><span>"Best new search service on web" Yahoo! Internet Life (]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... com  Creating Market Awareness and Interest</span><br/><p/><span>International recognition</span><br/><span>CNN (Feb)</span><br/><span>Wall Street Journal (Oct)</span><br/><span>#1 web search  ... ]]></content>
+</document>
+</scope>

@@ -1,0 +1,10 @@
+ <options name="query-meta" no-override="no-override" elt-id="2" max-elt-id="4"
+  modified="1232640489" modified-by="gary_testing"
+>
+  <load-options name="core" elt-id="1" />
+  <option name="segmenter" elt-id="4">japanese</option>
+  <option name="stoplist" elt-id="4">core+web+english+japanese-letters+japanese+custom</option>
+  <option name="meta.wildcard-expand" elt-id="3">true</option>
+  <option name="meta.wildcard-expand-min-length" elt-id="4">1</option>
+  <option name="meta.wildcard-segmenter" elt-id="4">japanese</option>
+</options>                                           

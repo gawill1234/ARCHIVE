@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testset>
+    <test>
+        <data>１ 人 当たり の 時間 は ３ − ５ 分 。</data>
+        <segmenter>japanese</segmenter>
+        <stemmer>depluralize</stemmer>
+        <kb>japanese-indexing</kb>
+    </test>
+    <test>
+        <data>私はガラスを食べてもいい。 Iつは私を傷つけない。</data>
+        <segmenter>japanese</segmenter>
+        <stemmer>depluralize</stemmer>
+        <kb>japanese-indexing</kb>
+    </test>
+    <test>
+        <data>いろはにほへど　ちりぬるを わがよたれぞ　つねならむ うゐのおくやま　けふこ
+えて あさきゆめみじ　ゑひもせず</data>
+        <segmenter>japanese</segmenter>
+        <stemmer>depluralize</stemmer>
+        <kb>japanese-indexing</kb>
+    </test>
+    <test>
+        <data>約 １ ２ ０ ０ 人 の 乗客 は 車内 に 缶詰め 状態 と なっ た 。</data>
+        <segmenter>japanese</segmenter>
+        <stemmer>depluralize</stemmer>
+        <kb>japanese-indexing</kb>
+    </test>
+    <test>
+        <data>The quick brown fox jumps over the lazy dog.</data>
+        <stemmer>delanguage+english+depluralize</stemmer>
+        <segmenter>none</segmenter>
+        <kb>english</kb>
+    </test>
+    <test>
+        <data>า.แ@ล. ที่อยู่ ที่-อ-ยู่ ในร ะะใ ๑๒๓ ๔๕ ๖๗๘ ๙๐ ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙</data>
+        <kb>none</kb>
+        <segmenter>thai</segmenter>
+        <stemmer>none</stemmer>
+    </test>
+    <test>
+        <data>나는 유리를 먹어서 좋다. I는 저를 아프지 않는다.</data>
+        <kb>none</kb>
+        <segmenter>korean</segmenter>
+        <stemmer>case</stemmer>
+    </test>
+</testset>

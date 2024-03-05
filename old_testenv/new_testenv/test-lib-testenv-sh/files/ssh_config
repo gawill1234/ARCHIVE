@@ -1,0 +1,2 @@
+IdentityFile /home/gaw/new_testenv/test-lib-testenv-sh/files/ssh_private_key
+StrictHostKeyChecking no

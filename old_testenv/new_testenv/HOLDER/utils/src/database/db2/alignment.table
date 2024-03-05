@@ -1,0 +1,36 @@
+connect to WWII_NAV
+
+CREATE TABLE TESTDB.ALIGNMENT ( \
+    NATION VARCHAR (32)  NOT NULL , \
+    ALIGNED VARCHAR (12)  NOT NULL   ) IN USERSPACE1 
+
+insert into alignment values('Germany', 'axis')
+insert into alignment values('Italy', 'axis')
+insert into alignment values('Japan', 'axis')
+insert into alignment values('USA', 'allied')
+insert into alignment values('UK', 'allied')
+insert into alignment values('France', 'allied')
+insert into alignment values('Vichy France', 'axis')
+insert into alignment values('Belgium', 'allied')
+insert into alignment values('Poland', 'allied')
+insert into alignment values('Australia', 'allied')
+insert into alignment values('Greece', 'allied')
+insert into alignment values('Luxemburg', 'allied')
+insert into alignment values('Canada', 'allied')
+insert into alignment values('Austria', 'axis')
+insert into alignment values('Hungary', 'axis')
+insert into alignment values('Romania', 'axis')
+insert into alignment values('Bulgaria', 'axis')
+insert into alignment values('Yugoslavia', 'axis')
+insert into alignment values('USSR', 'allied')
+insert into alignment values('China', 'allied')
+insert into alignment values('India', 'allied')
+insert into alignment values('Norway', 'allied')
+insert into alignment values('Netherlands', 'allied')
+insert into alignment values('New Zealand', 'allied')
+insert into alignment values('Sweden', 'neutral')
+insert into alignment values('Switzerland', 'neutral')
+insert into alignment values('Yemen', 'neutral')
+
+terminate
+

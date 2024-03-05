@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="19" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="2" />
+<attribute name="cache-hits-content-search" value="2" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="1" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="38" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="72" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="19" />
+<document
+  url="http://en.wikipedia.org/wiki/German_pocket_battleship_Admiral_Graf_Spee"
+  vse-key="http://en.wikipedia.org:80/wiki/German_pocket_battleship_Admiral_Graf_Spee/"
+  position="7" la-score="1.09861" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="5">Admiral Graf Spee</content>
+  <content name="NATION" type="text" u="11">Germany</content>
+  <content name="ALIGNED" type="text" u="13">axis</content>
+  <content name="SHIP_TYPE" type="text" u="15">Heavy Cruiser</content>
+  <content type="text" name="title" u="50">Graf Spee</content>
+  <content name="NATION" type="text" u="55">Germany</content>
+  <content name="ALIGNED" type="text" u="57">axis</content>
+  <content name="SHIP_TYPE" type="text" u="59">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="11" v="12" />
+      <pre u="12" v="11"></pre>
+      <match u="12" v="12">Germany</match>
+      <post u="13" v="12"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="NATION" type="text" u="55" v="56" />
+      <pre u="56" v="55"></pre>
+      <match u="56" v="56">Germany</match>
+      <post u="57" v="56"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_pocket_battleship_Deutschland"
+  vse-key="http://en.wikipedia.org:80/wiki/German_pocket_battleship_Deutschland/"
+  position="102" la-score="1.09861" vse-base-score="1.5"
+>
+  <content type="text" name="title" u="5">Deutschland</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Heavy Cruiser</content>
+  <content type="text" name="title" u="44">L¿¿tzow</content>
+  <content name="NATION" type="text" u="49">Germany</content>
+  <content name="ALIGNED" type="text" u="51">axis</content>
+  <content name="SHIP_TYPE" type="text" u="53">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="NATION" type="text" u="49" v="50" />
+      <pre u="50" v="49"></pre>
+      <match u="50" v="50">Germany</match>
+      <post u="51" v="50"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_Admiral_Hipper"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_Admiral_Hipper/"
+  position="8" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Admiral Hipper</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document
+  url="http://en.wikipedia.org/wiki/German_pocket_battleship_Admiral_Scheer"
+  vse-key="http://en.wikipedia.org:80/wiki/German_pocket_battleship_Admiral_Scheer/"
+  position="9" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Admiral Scheer</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_auxiliary_cruiser_Atlantis"
+  vse-key="http://en.wikipedia.org:80/wiki/German_auxiliary_cruiser_Atlantis/"
+  position="43" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Atlantis</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_battleship_Bismarck"
+  vse-key="http://en.wikipedia.org:80/wiki/German_battleship_Bismarck/"
+  position="60" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Bismarck</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://www.battleshipbismarck.com/"
+  vse-key="http://www.battleshipbismarck.com:80/" position="61" la-score="1.09861"
+  vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Bismarck</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_Bl%C3%BCcher"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_Bl%c3%bccher/"
+  position="65" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Bl¿¿cher</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Deutschland_class_cruiser"
+  vse-key="http://en.wikipedia.org:80/wiki/Deutschland_class_cruiser/"
+  position="101" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Deutschland</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_battlecruiser_Gneisenau"
+  vse-key="http://en.wikipedia.org:80/wiki/German_battlecruiser_Gneisenau/"
+  position="140" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Gneisenau</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_Karlsruhe"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_Karlsruhe/"
+  position="182" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Karlsruhe</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Light Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_auxiliary_cruiser_Kormoran"
+  vse-key="http://en.wikipedia.org:80/wiki/German_auxiliary_cruiser_Kormoran/"
+  position="191" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Kormoran</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Light Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_K%C3%B6ln"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_K%c3%b6ln/"
+  position="193" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">K¿¿ln</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Light Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_K%C3%B6nigsberg"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_K%c3%b6nigsberg/"
+  position="194" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">K¿¿nigsberg</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Light Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document
+  url="http://en.wikipedia.org/w/index.php?title=German_ship_Lorelei&amp;amp;action=edit"
+  vse-key="http://en.wikipedia.org:80/w/index.php/?title=German_ship_Lorelei&amp;amp;action=edit"
+  position="203" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Lorelei</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Coastal Patrol Craft</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document
+  url="http://en.wikipedia.org/wiki/German_cruiser_L%C3%BCtzow_%28Hipper_class%29"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_L%c3%bctzow_(Hipper_class)/"
+  position="205" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">L¿¿tzow</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_Prinz_Eugen"
+  vse-key="http://en.wikipedia.org:80/wiki/German_cruiser_Prinz_Eugen/"
+  position="266" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Prinz Eugen</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_battlecruiser_Scharnhorst"
+  vse-key="http://en.wikipedia.org:80/wiki/German_battlecruiser_Scharnhorst/"
+  position="294" la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Scharnhorst</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Tirpitz"
+  vse-key="http://en.wikipedia.org:80/wiki/Tirpitz/" position="320"
+  la-score="1.09861" vse-base-score="1"
+>
+  <content type="text" name="title" u="5">Tirpitz</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<query-performance what="within" n-tau="22" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="299" block-reads="3" seeks="5" cache-hits="3" cache-misses="0"
+>
+  <query-performance what="1:germany" n-tau="22" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="23" block-reads="1" seeks="1" cache-hits="1" cache-misses="0"
+  />
+  <query-performance what="0:NATION" n-tau="0" n-rho="21" n-uat="0" n-ohr="0"
+    occr-reads="276" block-reads="2" seeks="4" cache-hits="2" cache-misses="0"
+  />
+</query-performance>
+</scope>

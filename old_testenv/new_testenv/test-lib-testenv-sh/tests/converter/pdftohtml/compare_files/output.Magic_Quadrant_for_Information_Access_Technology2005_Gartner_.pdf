@@ -1,0 +1,417 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Magic Quadrant for Information Access Technology, 2005</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META name="author" content="Whit Andrews,  Rita E. Knox">
+<META name="date" content="2005-10-24T11:53:53+00:00">
+</HEAD>
+<BODY>
+<STYLE type="text/css">
+.v {WIDTH: 1em; WRITING-MODE: tb-rl}
+</STYLE><!-- Page 1 -->
+<a name="1"></a>
+<DIV style="position:relative;width:918;height:1188;">
+<STYLE type="text/css">
+<!--
+	.ft0{font-size:34px;font-family:Helvetica;color:#000000;}
+	.ft1{font-size:22px;font-family:Helvetica;color:#000000;}
+	.ft2{font-size:13px;font-family:Helvetica;color:#000000;}
+	.ft3{font-size:9px;font-family:Helvetica;color:#000000;}
+	.ft4{font-size:11px;font-family:Helvetica;color:#000000;}
+	.ft5{font-size:14px;font-family:Helvetica;color:#000000;}
+	.ft6{font-size:9px;line-height:13px;font-family:Helvetica;color:#000000;}
+	.ft7{font-size:22px;line-height:27px;font-family:Helvetica;color:#000000;}
+	.ft8{font-size:14px;line-height:18px;font-family:Helvetica;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:101;left:675"><nobr><span class="ft1"><b>Research</b></span></nobr></DIV>
+<DIV style="position:absolute;top:144;left:135"><nobr><span class="ft2"><b>Publication Date: 14 October 2005</b></span></nobr></DIV>
+<DIV style="position:absolute;top:144;left:620"><nobr><span class="ft2"><b>ID Number: G00131678</b></span></nobr></DIV>
+<DIV style="position:absolute;top:1021;left:135"><nobr><span class="ft6">Â© 2005  Gartner, Inc. and/or its Affiliates. All Rights Reserved. Reproduction of this publication in any form without prior<br>written permission is forbidden. The information contained herein has been obtained from sources believed to be reliable.<br>Gartner disclaims all warranties as to the accuracy, completeness or adequacy of such information. Although Gartner's<br>research may discuss legal issues related to the information technology business, Gartner does not provide legal advice or<br>services and its research should not be construed or used as such. Gartner shall have no liability for errors, omissions or<br>inadequacies in the information contained herein or for interpretations thereof. The opinions expressed herein are subject to<br>change without notice.</span></nobr></DIV>
+<DIV style="position:absolute;top:203;left:135"><nobr><span class="ft7"><b>Magic Quadrant for Information Access Technology,</b><br><b>2005</b></span></nobr></DIV>
+<DIV style="position:absolute;top:274;left:135"><nobr><span class="ft4"><b>Whit Andrews,  Rita E. Knox</b></span></nobr></DIV>
+<DIV style="position:absolute;top:308;left:135"><nobr><span class="ft8">Information access technology includes and expands on what Gartner previously called<br>&quot;enterprise search technology.&quot; A new vendor has emerged in the Leader's quadrant,<br>and some vendors have moved, based on market dynamics and changes in how we<br>weight some of the criteria. </span></nobr></DIV>
+</DIV>
+<!-- Page 2 -->
+<a name="2"></a>
+<DIV style="position:relative;width:918;height:1188;">
+<STYLE type="text/css">
+<!--
+	.ft9{font-size:9px;font-family:Helvetica;color:#808080;}
+	.ft10{font-size:3px;font-family:Times;color:#000000;}
+	.ft11{font-size:14px;font-family:Helvetica;color:#000000;}
+	.ft12{font-size:13px;font-family:Helvetica;color:#000000;}
+	.ft13{font-size:13px;line-height:17px;font-family:Helvetica;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:1059;left:137"><nobr><span class="ft3">Publication Date: 14 October 2005/ID Number: G00131678</span></nobr></DIV>
+<DIV style="position:absolute;top:1059;left:715"><nobr><span class="ft3">Page 2 of 13</span></nobr></DIV>
+<DIV style="position:absolute;top:1082;left:137"><nobr><span class="ft3">Â© 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</span></nobr></DIV>
+<DIV style="position:absolute;top:130;left:135"><nobr><span class="ft11"><b>WHAT YOU NEED TO KNOW</b></span></nobr></DIV>
+<DIV style="position:absolute;top:168;left:135"><nobr><span class="ft13">Gartner renamed the &quot;enterprise search&quot; Magic Quadrant to the &quot;information access technology&quot;<br>Magic Quadrant for a number of reasons. Most vendors in this market have capabilities that go<br>beyond search to encompass a collection of technologies, including search; content classification,<br>categorization and clustering; fact and entity extraction; taxonomy creation and management;<br>information presentation (for example, visualization) to support analysis and understanding; and<br>desktop (or personal knowledge) search to address user-controlled repositories to locate and<br>invoke documents, data, e-mail and intelligence.</span></nobr></DIV>
+<DIV style="position:absolute;top:301;left:135"><nobr><span class="ft13">These capabilities and specific support for vertical industries (for example, retail shopping)<br>require a term that properly represents the breadth of features these vendors provide.<br>Unfortunately, the term is not as recognizable or quickly conveyed as &quot;search.&quot; Yet, the specific<br>capabilities an information access technology vendor provides must include search to solve more<br>than the most specific problems. We now consider all enterprise search vendors to be information<br>access technology vendors; however, those who only offer search capabilities (frequently called<br>&quot;keyword search&quot;) are not fully equipped and no longer can be realistically considered candidates<br>for leadership or visionary status.</span></nobr></DIV>
+<DIV style="position:absolute;top:451;left:135"><nobr><span class="ft13">We changed the name because the problems that information access technology solves extend<br>beyond the keyword search solution. Increasingly, end users assume that the Google.com<br>experience can be translated inside enterprises or in larger domains, including some enterprise<br>content and some outside content. The reality is that finding information, and acting on it<br>intelligently, demands increasingly sophisticated and innovative strategies. This has been the<br>case for at least four years. As a result, the terminology change supports the reality. </span></nobr></DIV>
+</DIV>
+<!-- Page 3 -->
+<a name="3"></a>
+<DIV style="position:relative;width:918;height:1188;">
+<STYLE type="text/css">
+<!--
+	.ft14{font-size:9px;font-family:Helvetica;color:#000000;}
+	.ft15{font-size:18px;font-family:Helvetica;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:1059;left:137"><nobr><span class="ft3">Publication Date: 14 October 2005/ID Number: G00131678</span></nobr></DIV>
+<DIV style="position:absolute;top:1059;left:715"><nobr><span class="ft3">Page 3 of 13</span></nobr></DIV>
+<DIV style="position:absolute;top:1082;left:137"><nobr><span class="ft3">Â© 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</span></nobr></DIV>
+<DIV style="position:absolute;top:112;left:135"><nobr><span class="ft11"><b>MAGIC QUADRANT</b></span></nobr></DIV>
+<DIV style="position:absolute;top:156;left:135"><nobr><span class="ft2"><b>Figure 1. Magic Quadrant for Information Access Technology, 2005</b></span></nobr></DIV>
+<DIV style="position:absolute;top:802;left:135"><nobr><span class="ft14"><b>Source: Gartner (October 2005)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:836;left:135"><nobr><span class="ft15"><b>Market Overview</b></span></nobr></DIV>
+<DIV style="position:absolute;top:870;left:135"><nobr><span class="ft13">The first and most mature information access technology is search engine technology, which is<br>typically applied to unstructured data in document repositories. Increasingly, autocategorization,<br>creative visualization and taxonomy support technologies are being added to the category. The<br>market does not include information management applications, such as document management,<br>Web content management or relational database management systems. However, information<br>access technology must be able to discern and retrieve information in such systems and<br>increasingly is expected to address enterprise applications such as customer relationship<br>management and legacy systems. Information access technology often is acquired as an </span></nobr></DIV>
+</DIV>
+<!-- Page 4 -->
+<a name="4"></a>
+<DIV style="position:relative;width:918;height:1188;">
+<STYLE type="text/css">
+<!--
+	.ft16{font-size:16px;font-family:Helvetica;color:#000000;}
+	.ft17{font-size:13px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:1059;left:137"><nobr><span class="ft3">Publication Date: 14 October 2005/ID Number: G00131678</span></nobr></DIV>
+<DIV style="position:absolute;top:1059;left:715"><nobr><span class="ft3">Page 4 of 13</span></nobr></DIV>
+<DIV style="position:absolute;top:1082;left:137"><nobr><span class="ft3">Â© 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</span></nobr></DIV>
+<DIV style="position:absolute;top:111;left:135"><nobr><span class="ft13">embedded aspect of such other applications, and original equipment manufacturer (OEM)<br>arrangements are significant for such vendors.</span></nobr></DIV>
+<DIV style="position:absolute;top:158;left:135"><nobr><span class="ft13">Many vendors seek specific categorical markets, such as legal discovery or publishing. Gartner's<br>Information Access Technology Magic Quadrant addresses enterprise information access.<br>Although many of the vendors offer personal (desktop) search applications as well, that is not a<br>primary focus or requirement for the vendors we've included. Vendors will not have different<br>emphasis because this is now the &quot;information access&quot; market. Rather, the Magic Quadrant<br>describes how vendors excel in search-related functions, as well as emphasizes that other<br>functionality is required to get to the information people are after and deliver it in a form that<br>supports their companies' business goals.</span></nobr></DIV>
+<DIV style="position:absolute;top:308;left:135"><nobr><span class="ft13">The enterprise information access market, as with most technology markets (although not<br>necessarily with many of those that have lived so long), remains in acquisition turmoil. In most<br>cases, vendors outside the Magic Quadrant acquire those inside it (for example, Oracle bought<br>TripleHop). Occasionally, vendors within the Magic Quadrant acquire one another with the<br>intention of bulking up revenue bases or functionality (for example, Inxight Software bought<br>Intelliseek).</span></nobr></DIV>
+<DIV style="position:absolute;top:424;left:135"><nobr><span class="ft16"><b>Market Definition/Description</b></span></nobr></DIV>
+<DIV style="position:absolute;top:456;left:135"><nobr><span class="ft13">Information access technologies collect and condense information or map its native location so<br>that users may actively seek it out, effectively analyze it and remain apprised of it.</span></nobr></DIV>
+<DIV style="position:absolute;top:504;left:135"><nobr><span class="ft15"><b>Inclusion and Exclusion Criteria</b></span></nobr></DIV>
+<DIV style="position:absolute;top:538;left:135"><nobr><span class="ft13">We included only vendors that incorporate search capability in their products, although many also<br>include other capabilities, such as autocategorization, taxonomy functions and clustering. There<br>are open-source search engines; however, none of them are significant enough to threaten the<br>commercial market. A few of the vendors included in the Magic Quadrant use Lucene â€” an open-<br>source search infrastructure â€” in their technology.</span></nobr></DIV>
+<DIV style="position:absolute;top:637;left:135"><nobr><span class="ft13">We excluded vendors that provide services only through an application service provider (ASP)<br>sales and implementation model, such as SLI Systems and Atomz, a subsidiary of<br>WebSideStory. This matches our practice in the past. We have found that nearly every enterprise<br>seeking information access technology decides early in its process whether it prefers an ASP or<br>conventional installation, and few enterprises compare vendors in one model against those in the<br>other. In short, the ASP model for information access technology is its own small market.</span></nobr></DIV>
+<DIV style="position:absolute;top:752;left:135"><nobr><span class="ft13">We also did not include vendors that sell information access technology only as an element of a<br>suite or set of applications that must be acquired to function. This excluded SAP and Microsoft,<br>neither one of which sell their search products separately from their portal products. Oracle was<br>excluded because its new search product is not yet for sale. Oracle acquired TripleHop â€” a<br>vendor that would have been included in the Magic Quadrant â€” and supports TripleHop's<br>customers; however, Oracle no longer sells TripleHop's product.</span></nobr></DIV>
+<DIV style="position:absolute;top:868;left:135"><nobr><span class="ft16"><b>Added</b></span></nobr></DIV>
+<DIV style="position:absolute;top:900;left:135"><nobr><span class="ft13">The shift from a specialist focus on search technology to a broader field of information access<br>technology capabilities resulted in a substantial influx of new vendors. Although search has at<br>many points in the past been declared moribund, new competitors with fresh visions are<br>perennially appearing:</span></nobr></DIV>
+<DIV style="position:absolute;top:978;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:982;left:195"><nobr><span class="ft12">Dieselpoint and Vivisimo recently rose to sufficient prominence to be included. </span></nobr></DIV>
+</DIV>
+<!-- Page 5 -->
+<a name="5"></a>
+<DIV style="position:relative;width:918;height:1188;">
+<STYLE type="text/css">
+<!--
+	.ft18{font-size:11px;font-family:Helvetica;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:1059;left:137"><nobr><span class="ft3">Publication Date: 14 October 2005/ID Number: G00131678</span></nobr></DIV>
+<DIV style="position:absolute;top:1059;left:715"><nobr><span class="ft3">Page 5 of 13</span></nobr></DIV>
+<DIV style="position:absolute;top:1082;left:137"><nobr><span class="ft3">Â© 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</span></nobr></DIV>
+<DIV style="position:absolute;top:108;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:112;left:195"><nobr><span class="ft12">Google is increasing the appetite in enterprises for lower-priced products.</span></nobr></DIV>
+<DIV style="position:absolute;top:138;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:142;left:195"><nobr><span class="ft13">dtSearch is a new addition to the Magic Quadrant. Its inexpensive but stable and<br>scalable product has a significant customer base, and its OEM growth is also increasing,<br>particularly in compliance-related markets.</span></nobr></DIV>
+<DIV style="position:absolute;top:203;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:207;left:195"><nobr><span class="ft12">Inxight bought Intelliseek, bringing it firmly into the information access technology space.</span></nobr></DIV>
+<DIV style="position:absolute;top:233;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:237;left:195"><nobr><span class="ft13">Kaidara Software is included due to its expanded interest in more-traditional enterprise<br>search facility.</span></nobr></DIV>
+<DIV style="position:absolute;top:281;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:285;left:195"><nobr><span class="ft13">IBM introduced OmniFind this year, a new stand-alone search product that leverages,<br>but does not require, other WebSphere technologies.</span></nobr></DIV>
+<DIV style="position:absolute;top:332;left:135"><nobr><span class="ft16"><b>Dropped</b></span></nobr></DIV>
+<DIV style="position:absolute;top:364;left:135"><nobr><span class="ft13">Intelliseek was acquired by Inxight last year. Consequently, only Inxight appears on the 2005<br>Magic Quadrant.</span></nobr></DIV>
+<DIV style="position:absolute;top:412;left:135"><nobr><span class="ft15"><b>Evaluation Criteria</b></span></nobr></DIV>
+<DIV style="position:absolute;top:448;left:135"><nobr><span class="ft16"><b>Ability to Execute</b></span></nobr></DIV>
+<DIV style="position:absolute;top:476;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:480;left:195"><nobr><span class="ft13">The overall viability of vendors was determined by a number of financial indicators, such<br>as revenue, cash equivalents, number of full-time equivalent employees, licenses sold,<br>whether the company is publicly traded and whether the vendor is a subsidiary of<br>another company.</span></nobr></DIV>
+<DIV style="position:absolute;top:558;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:562;left:195"><nobr><span class="ft13">Sales execution/pricing was defined by the ratio of license value to service value which it<br>sold.</span></nobr></DIV>
+<DIV style="position:absolute;top:606;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:610;left:195"><nobr><span class="ft13">Market responsiveness was reflected by the vendor's percentage of hosted installations<br>and the number of OEM installations.</span></nobr></DIV>
+<DIV style="position:absolute;top:653;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:657;left:195"><nobr><span class="ft12">Marketing execution was not incorporated.</span></nobr></DIV>
+<DIV style="position:absolute;top:683;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:688;left:195"><nobr><span class="ft13">Customer experience was based on detailed user interviews (two to three were<br>conducted for each of the 25 vendors included in the Magic Quadrant) and a review of<br>inquiries that provided detailed feedback on specific vendors. Industries represented in<br>user input included retail, financial, pharmaceutical, government, legal,<br>nongovernmental organizations, publishing, education, telecommunications, aerospace,<br>media and the computer industry. The applications support intranets, Internet sites and<br>extranets.</span></nobr></DIV>
+<DIV style="position:absolute;top:817;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:821;left:195"><nobr><span class="ft13">Operations was defined by the number of systems integrators trained on the vendor's<br>technology, and by management performance.</span></nobr></DIV>
+<DIV style="position:absolute;top:874;left:135"><nobr><span class="ft2"><b>Table 1. Ability to Execute Evaluation Criteria</b></span></nobr></DIV>
+<DIV style="position:absolute;top:904;left:143"><nobr><span class="ft4"><b>Evaluation Criteria</b></span></nobr></DIV>
+<DIV style="position:absolute;top:904;left:551"><nobr><span class="ft4"><b>Weighting</b></span></nobr></DIV>
+<DIV style="position:absolute;top:928;left:143"><nobr><span class="ft18">Product/Service</span></nobr></DIV>
+<DIV style="position:absolute;top:928;left:551"><nobr><span class="ft18">no rating</span></nobr></DIV>
+<DIV style="position:absolute;top:952;left:143"><nobr><span class="ft18">Overall Viability (Business Unit, Financial, Strategy, Organization) </span></nobr></DIV>
+<DIV style="position:absolute;top:952;left:551"><nobr><span class="ft18">high</span></nobr></DIV>
+<DIV style="position:absolute;top:976;left:143"><nobr><span class="ft18">Sales Execution/Pricing</span></nobr></DIV>
+<DIV style="position:absolute;top:976;left:551"><nobr><span class="ft18">low</span></nobr></DIV>
+<DIV style="position:absolute;top:1000;left:143"><nobr><span class="ft18">Market Responsiveness and Track Record</span></nobr></DIV>
+<DIV style="position:absolute;top:1000;left:551"><nobr><span class="ft18">low </span></nobr></DIV>
+</DIV>
+<!-- Page 6 -->
+<a name="6"></a>
+<DIV style="position:relative;width:918;height:1188;">
+<STYLE type="text/css">
+<!--
+	.ft19{font-size:13px;font-family:Helvetica;color:#000100;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:1059;left:137"><nobr><span class="ft3">Publication Date: 14 October 2005/ID Number: G00131678</span></nobr></DIV>
+<DIV style="position:absolute;top:1059;left:715"><nobr><span class="ft3">Page 6 of 13</span></nobr></DIV>
+<DIV style="position:absolute;top:1082;left:137"><nobr><span class="ft3">Â© 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</span></nobr></DIV>
+<DIV style="position:absolute;top:115;left:143"><nobr><span class="ft4"><b>Evaluation Criteria</b></span></nobr></DIV>
+<DIV style="position:absolute;top:115;left:551"><nobr><span class="ft4"><b>Weighting</b></span></nobr></DIV>
+<DIV style="position:absolute;top:139;left:143"><nobr><span class="ft18">Marketing Execution</span></nobr></DIV>
+<DIV style="position:absolute;top:139;left:551"><nobr><span class="ft18">no rating</span></nobr></DIV>
+<DIV style="position:absolute;top:163;left:143"><nobr><span class="ft18">Customer Experience</span></nobr></DIV>
+<DIV style="position:absolute;top:163;left:551"><nobr><span class="ft18">high</span></nobr></DIV>
+<DIV style="position:absolute;top:187;left:143"><nobr><span class="ft18">Operations</span></nobr></DIV>
+<DIV style="position:absolute;top:187;left:551"><nobr><span class="ft18">standard</span></nobr></DIV>
+<DIV style="position:absolute;top:207;left:135"><nobr><span class="ft14"><b>Source: Gartner (October 2005)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:240;left:135"><nobr><span class="ft16"><b>Completeness of Vision</b></span></nobr></DIV>
+<DIV style="position:absolute;top:269;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:273;left:195"><nobr><span class="ft13">Offering (product) strategy was assessed by vendor's offering of search as a basic<br>element, determination of relevancy, profiling, indexing span as determined by<br>connectors to content repositories and data types, profiling, scaling and security<br>(protection of access to assets) functions.</span></nobr></DIV>
+<DIV style="position:absolute;top:351;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:355;left:195"><nobr><span class="ft12">Vertical/industry strategy looked at the vendor's variety of vertical market targets.</span></nobr></DIV>
+<DIV style="position:absolute;top:381;left:168"><nobr><span class="ft17">â€¢</span></nobr></DIV>
+<DIV style="position:absolute;top:385;left:195"><nobr><span class="ft13">Innovation was assessed by looking at several diverse factors, such as output formats<br>supported, support of video and audio analysis, presentation functions, taxonomy<br>functions (building and managing), support of personal knowledge search (typically<br>called desktop search),</span></nobr></DIV>
+<DIV style="position:absolute;top:437;left:354"><nobr><span class="ft12">the manipulation of syntax, semantics and ontologies to burrow</span></nobr></DIV>
+<DIV style="position:absolute;top:454;left:195"><nobr><span class="ft12">into information, and the ability to analyze XML markup to find specific information.</span></nobr></DIV>
+<DIV style="position:absolute;top:490;left:135"><nobr><span class="ft2"><b>Table 2. Completeness of Vision Evaluation Criteria</b></span></nobr></DIV>
+<DIV style="position:absolute;top:520;left:143"><nobr><span class="ft4"><b>Evaluation Criteria</b></span></nobr></DIV>
+<DIV style="position:absolute;top:520;left:321"><nobr><span class="ft4"><b>Weighting</b></span></nobr></DIV>
+<DIV style="position:absolute;top:544;left:143"><nobr><span class="ft18">Market Understanding</span></nobr></DIV>
+<DIV style="position:absolute;top:544;left:321"><nobr><span class="ft18">no rating</span></nobr></DIV>
+<DIV style="position:absolute;top:568;left:143"><nobr><span class="ft18">Marketing Strategy</span></nobr></DIV>
+<DIV style="position:absolute;top:568;left:321"><nobr><span class="ft18">no rating</span></nobr></DIV>
+<DIV style="position:absolute;top:592;left:143"><nobr><span class="ft18">Sales Strategy</span></nobr></DIV>
+<DIV style="position:absolute;top:592;left:321"><nobr><span class="ft18">no rating</span></nobr></DIV>
+<DIV style="position:absolute;top:615;left:143"><nobr><span class="ft18">Offering (Product) Strategy </span></nobr></DIV>
+<DIV style="position:absolute;top:615;left:321"><nobr><span class="ft18">high</span></nobr></DIV>
+<DIV style="position:absolute;top:639;left:143"><nobr><span class="ft18">Business Model</span></nobr></DIV>
+<DIV style="position:absolute;top:639;left:321"><nobr><span class="ft18">no rating</span></nobr></DIV>
+<DIV style="position:absolute;top:663;left:143"><nobr><span class="ft18">Vertical/Industry Strategy</span></nobr></DIV>
+<DIV style="position:absolute;top:663;left:321"><nobr><span class="ft18">standard</span></nobr></DIV>
+<DIV style="position:absolute;top:687;left:143"><nobr><span class="ft18">Innovation</span></nobr></DIV>
+<DIV style="position:absolute;top:687;left:321"><nobr><span class="ft18">high</span></nobr></DIV>
+<DIV style="position:absolute;top:710;left:143"><nobr><span class="ft18">Geographic Strategy</span></nobr></DIV>
+<DIV style="position:absolute;top:710;left:321"><nobr><span class="ft18">no rating</span></nobr></DIV>
+<DIV style="position:absolute;top:731;left:135"><nobr><span class="ft14"><b>Source: Gartner (October 2005)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:765;left:135"><nobr><span class="ft15"><b>Leaders</b></span></nobr></DIV>
+<DIV style="position:absolute;top:799;left:135"><nobr><span class="ft13">All leaders have demonstrated significant architectural flexibility. They also have broad means of<br>determining relevancy to return results to users and provide developers with flexibility in how to<br>tune these relevancy settings. They are financially prepared to weather hard times, and they<br>possess sufficient resources to invest inorganically and organically in technology and business<br>growth. They have established sufficient depth and strength to serve as platform vendors, whose<br>software might be used to solve most information access problems.</span></nobr></DIV>
+<DIV style="position:absolute;top:916;left:135"><nobr><span class="ft15"><b>Challengers</b></span></nobr></DIV>
+<DIV style="position:absolute;top:951;left:135"><nobr><span class="ft13">Challengers possess sufficient resources to effectively penetrate the information access<br>technology market. Nevertheless, they typically lack the vision necessary to address all of the<br>information access opportunities. It is significant that, with the exception of ZyLAB â€” which is<br>relatively specialized, with a strong customer base but less vision outside its core customer base </span></nobr></DIV>
+</DIV>
+<!-- Page 7 -->
+<a name="7"></a>
+<DIV style="position:relative;width:918;height:1188;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:1059;left:137"><nobr><span class="ft3">Publication Date: 14 October 2005/ID Number: G00131678</span></nobr></DIV>
+<DIV style="position:absolute;top:1059;left:715"><nobr><span class="ft3">Page 7 of 13</span></nobr></DIV>
+<DIV style="position:absolute;top:1082;left:137"><nobr><span class="ft3">Â© 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</span></nobr></DIV>
+<DIV style="position:absolute;top:111;left:135"><nobr><span class="ft13">â€” information access technology for enterprise use is not a core revenue category for these<br>vendors. All of these vendors could emerge as leaders in less than 24 months if they choose to<br>invest in information access technology and do so adeptly.</span></nobr></DIV>
+<DIV style="position:absolute;top:176;left:135"><nobr><span class="ft15"><b>Visionaries</b></span></nobr></DIV>
+<DIV style="position:absolute;top:211;left:135"><nobr><span class="ft13">Visionaries have demonstrated intelligent approaches to the information access technology<br>market, but lack the resources to prove their leadership and guaranteed strength in the future.<br>They all possess architectural flexibility and creative means of establishing relevancy. Greater<br>manifested financial depth and market traction would improve their positioning. Any could emerge<br>as leaders through stronger market performance.</span></nobr></DIV>
+<DIV style="position:absolute;top:311;left:135"><nobr><span class="ft15"><b>Niche Players</b></span></nobr></DIV>
+<DIV style="position:absolute;top:345;left:135"><nobr><span class="ft13">Niche players possess the attributes necessary to satisfy particular categories of projects, but<br>they lack the depth and breadth to satisfy a variety of projects. They do not have the manifest<br>financial resources that leaders and challengers can point to (this is particularly true of privately<br>held vendors that properly avoid revealing their financial foundation). Nor can they demonstrate<br>the depth of vision that indicates that they are ahead of and leading the market. On the other<br>hand, they are typically right for a particular set of solutions, and they offer attractive pricing,<br>special capabilities and vertical-industry knowledge.</span></nobr></DIV>
+<DIV style="position:absolute;top:480;left:135"><nobr><span class="ft15"><b>Vendor Comments</b></span></nobr></DIV>
+<DIV style="position:absolute;top:515;left:135"><nobr><span class="ft16"><b>Autonomy</b></span></nobr></DIV>
+<DIV style="position:absolute;top:547;left:135"><nobr><span class="ft13">Autonomy continues to expand its IDOL platform to include new capabilities, and it is the most<br>aggressive vendor in addressing video and audio objects in its target capabilities. Its vision and<br>execution status is founded on sound financials, a strong and growing customer list, and a<br>vigorous vision for the burgeoning role of information access. Autonomy's reputation for<br>complexity and sophistication, however, is a cause for concern with some prospects. The<br>company is taking steps to provide less-intimidating packaged versions of its applications, along<br>with improving its depth in professional services.</span></nobr></DIV>
+<DIV style="position:absolute;top:681;left:135"><nobr><span class="ft16"><b>Convera</b></span></nobr></DIV>
+<DIV style="position:absolute;top:712;left:135"><nobr><span class="ft13">Convera's past year was extremely challenging. Some of its revamped strategy appears to be<br>working as it seems to be stopping the major financial losses it has suffered recently. Its major<br>customer is still the U.S. government. Convera has claimed that Excalibur, a comprehensive,<br>secure index of the Web, will serve as a necessary innovation to rescue it from the doldrums;<br>however, it continues to sell RetrievalWare, which is its information access suite of technologies.<br>The prowess of this capability keeps Convera in the Visionaries quadrant, although execution (for<br>example, customer support and sales) must dramatically improve to maintain or improve this<br>position.</span></nobr></DIV>
+<DIV style="position:absolute;top:863;left:135"><nobr><span class="ft16"><b>dtSearch</b></span></nobr></DIV>
+<DIV style="position:absolute;top:895;left:135"><nobr><span class="ft13">dtSearch is still run by its founder, David Thede. Its products are particularly broadly embedded in<br>other vendors' products, thanks to an aggressively priced OEM sales program. Highly<br>customizable relevancy models exploit keywords but do not address less-concrete models, such<br>as pattern-matching. Developers praise its flexibility. dtSearch also possesses particularly strong<br>desktop search tools and forensic search capability. </span></nobr></DIV>
+</DIV>
+<!-- Page 8 -->
+<a name="8"></a>
+<DIV style="position:relative;width:918;height:1188;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:1059;left:137"><nobr><span class="ft3">Publication Date: 14 October 2005/ID Number: G00131678</span></nobr></DIV>
+<DIV style="position:absolute;top:1059;left:715"><nobr><span class="ft3">Page 8 of 13</span></nobr></DIV>
+<DIV style="position:absolute;top:1082;left:137"><nobr><span class="ft3">Â© 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</span></nobr></DIV>
+<DIV style="position:absolute;top:112;left:135"><nobr><span class="ft16"><b>Dieselpoint</b></span></nobr></DIV>
+<DIV style="position:absolute;top:144;left:135"><nobr><span class="ft13">Dieselpoint provides a tool that facilitates the discovery and analysis of structured data through<br>search and navigation interfaces. It should be considered in particular cases where documents or<br>records are fully parametrically comprehensible. The tool also provides traditional enterprise<br>search capabilities for common documents.</span></nobr></DIV>
+<DIV style="position:absolute;top:226;left:135"><nobr><span class="ft16"><b>EasyAsk</b></span></nobr></DIV>
+<DIV style="position:absolute;top:257;left:135"><nobr><span class="ft13">Progress Software acquired EasyAsk in May 2005. The EasyAsk subsidiary's stated direction is<br>to pursue new contracts in its longtime core market of e-commerce and catalog search. However,<br>Progress intends to leverage EasyAsk's core technology of converting plainly worded inquiries<br>into sophisticated database queries for other applications, independent software vendors and<br>customers. EasyAsk substantially improves Progress's long-term viability and ability to execute.<br>The critical question is where the EasyAsk technology will be most vigorously applied and<br>enhanced through year-end 2006.</span></nobr></DIV>
+<DIV style="position:absolute;top:391;left:135"><nobr><span class="ft16"><b>Endeca</b></span></nobr></DIV>
+<DIV style="position:absolute;top:423;left:135"><nobr><span class="ft13">Endeca's specialty of massaging structured data to improve navigability in an enterprise is<br>deliberately expanding to include more-traditional search and document retrieval functions.<br>Endeca also is capable of managing sophisticated solutions for supporting research processes.<br>Because Endeca is not a public company, its finances are inherently unknowable, but the<br>company has developed a substantial customer list that applies its capabilities broadly and<br>deeply. Endeca is architecturally flexible and extensible. It moved into the Leaders quadrant this<br>year due to continued customer growth and manifest success in pursuit of its platform strategy.</span></nobr></DIV>
+<DIV style="position:absolute;top:556;left:135"><nobr><span class="ft16"><b>Entopia</b></span></nobr></DIV>
+<DIV style="position:absolute;top:588;left:135"><nobr><span class="ft13">Entopia has released increasingly innovative means of establishing the relevancy of documents<br>or related objects, such as enterprise user profiles. Its product is intriguing and continues to<br>expand.</span></nobr></DIV>
+<DIV style="position:absolute;top:653;left:135"><nobr><span class="ft16"><b>Fast Search &amp; Transfer</b></span></nobr></DIV>
+<DIV style="position:absolute;top:685;left:135"><nobr><span class="ft13">Fast Search &amp; Transfer's ambition has served it well, as it has cornered a substantial portion of<br>the market for information access technology. The company's architectural facility is a crisp<br>medium for its explosive growth, serving as a promise of flexibility and depth in functionality for<br>enterprises. It focuses on developing applications centered on vertical markets. Its near-term<br>challenge is how to manage reliable and somewhat inorganic growth (its ambitions will demand<br>sales growth from established products, as well as new products that are likely to come via<br>acquisition). In the long term, the question of how to become more than an information access<br>technology vendor is pivotal.</span></nobr></DIV>
+<DIV style="position:absolute;top:836;left:135"><nobr><span class="ft16"><b>Google</b></span></nobr></DIV>
+<DIV style="position:absolute;top:867;left:135"><nobr><span class="ft13">The Google Search Appliance is the best-known search engine on the market. Google, an<br>increasingly ambitious and influential company, has effectively marketed it. Nevertheless, Google<br>does not pursue major enterprise contracts as effectively as its rivals, with such deals as their<br>sole focus, and the appliance lacks sophisticated tuning and customization capabilities. New<br>improvements in security and dynamic document indexing will be critical to the product's future<br>growth, and its desktop search facility is a positive element in its future potential. These functional<br>changes are key if Google is to move beyond being a challenger and have a standing that<br>matches its popularity. </span></nobr></DIV>
+</DIV>
+<!-- Page 9 -->
+<a name="9"></a>
+<DIV style="position:relative;width:918;height:1188;">
+<STYLE type="text/css">
+<!--
+	.ft20{font-size:13px;font-family:Helvetica;color:#167616;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:1059;left:137"><nobr><span class="ft3">Publication Date: 14 October 2005/ID Number: G00131678</span></nobr></DIV>
+<DIV style="position:absolute;top:1059;left:715"><nobr><span class="ft3">Page 9 of 13</span></nobr></DIV>
+<DIV style="position:absolute;top:1082;left:137"><nobr><span class="ft3">Â© 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</span></nobr></DIV>
+<DIV style="position:absolute;top:112;left:135"><nobr><span class="ft16"><b>Hummingbird</b></span></nobr></DIV>
+<DIV style="position:absolute;top:144;left:135"><nobr><span class="ft13">Hummingbird sells its solid information access applications as independent products; however, it<br>has not aggressively marketed them separately from its core content and document management<br>technologies. Growth for the vendor is in those content-centric categories.</span></nobr></DIV>
+<DIV style="position:absolute;top:208;left:135"><nobr><span class="ft16"><b>iPhrase Technologies</b></span></nobr></DIV>
+<DIV style="position:absolute;top:240;left:135"><nobr><span class="ft13">iPhrase Technologies competes aggressively on price in the submarket of natural language<br>processing-driven search. It has survived as a relatively prominent vendor in information access<br>technologies through the long technology slump that erased many of its competitors. Crisp<br>administration tools, ease of use, and functional specialty in call centers and self-service are<br>drivers of its success.</span></nobr></DIV>
+<DIV style="position:absolute;top:339;left:135"><nobr><span class="ft16"><b>IBM</b></span></nobr></DIV>
+<DIV style="position:absolute;top:371;left:135"><nobr><span class="ft13">IBM stopped selling its Lotus Discovery Server as an independent product in 2003; however, it<br>began to offer its new stand-alone OmniFind product this year. OmniFind is targeted at simple<br>projects for now, but IBM's ambitions for search are clear in its full-product road map and open<br>specifications for intercommunication among information access technology elements.</span></nobr></DIV>
+<DIV style="position:absolute;top:453;left:135"><nobr><span class="ft16"><b>InQuira</b></span></nobr></DIV>
+<DIV style="position:absolute;top:485;left:135"><nobr><span class="ft13">InQuira is using its strong natural language processing technologies to support processes<br>focused on addressing customer service. It is particularly adept at handling external Web sites<br>(for pre- or post-sale relationships) and service environments where questions are likely to be<br>fully realized with syntax and sentiment.</span></nobr></DIV>
+<DIV style="position:absolute;top:567;left:135"><nobr><span class="ft16"><b>Inxight Software</b></span></nobr></DIV>
+<DIV style="position:absolute;top:599;left:135"><nobr><span class="ft13">Inxight's technologies are founded in extracting entities and facts and analyzing documents to<br>grasp natural language. Its visualization and analysis capabilities are broadly embedded in a<br>variety of information access applications. Last year, it became established as a fully developed<br>information access application vendor with the acquisition of the enterprise search assets from<br>Intelliseek, which enable it to improve its federated search capabilities. Effective intellectual<br>execution could make it a visionary in the short term.</span></nobr></DIV>
+<DIV style="position:absolute;top:715;left:135"><nobr><span class="ft16"><b>ISYS Search Software</b></span></nobr></DIV>
+<DIV style="position:absolute;top:747;left:135"><nobr><span class="ft13">ISYS Search Software has developed the more-complex functions (for example, categorization<br>and analytics) of its enterprise search, and has marketed a mature, intelligently designed desktop<br>search tool for years. ISYS is known for strong attention to its customers, and it is a favorite in<br>government, law enforcement and legal environments. This focused strategy may help it over the<br>longer term.</span></nobr></DIV>
+<DIV style="position:absolute;top:846;left:135"><nobr><span class="ft16"><b>Kaidara Software</b></span></nobr></DIV>
+<DIV style="position:absolute;top:878;left:135"><nobr><span class="ft13">Kaidara Software uses case-based reasoning technology to navigate and comprehend patterns in<br>structured data. It has specialized in enabling enterprises to expand their understanding of<br>customer experience with their products, and improve case resolution through analysis and<br>exploration of experiences.</span></nobr></DIV>
+<DIV style="position:absolute;top:959;left:135"><nobr><span class="ft16"><b>Knova Software</b></span></nobr></DIV>
+<DIV style="position:absolute;top:991;left:135"><nobr><span class="ft12">Knova Software, the result of Kanisa's merger with ServiceWare Technologies</span></nobr></DIV>
+<DIV style="position:absolute;top:991;left:654"><nobr><span class="ft20"><b>,</b></span></nobr></DIV>
+<DIV style="position:absolute;top:991;left:658"><nobr><span class="ft12"> specializes in</span></nobr></DIV>
+<DIV style="position:absolute;top:1009;left:135"><nobr><span class="ft12">supporting and enhancing customer interaction processes through the application of information </span></nobr></DIV>
+</DIV>
+<!-- Page 10 -->
+<a name="10"></a>
+<DIV style="position:relative;width:918;height:1188;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:1059;left:137"><nobr><span class="ft3">Publication Date: 14 October 2005/ID Number: G00131678</span></nobr></DIV>
+<DIV style="position:absolute;top:1059;left:709"><nobr><span class="ft3">Page 10 of 13</span></nobr></DIV>
+<DIV style="position:absolute;top:1082;left:137"><nobr><span class="ft3">Â© 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</span></nobr></DIV>
+<DIV style="position:absolute;top:111;left:135"><nobr><span class="ft13">access technology. Knova manages customer interaction processes, with a specific focus on<br>finding appropriate information and storing insights about the interaction initiations and results.</span></nobr></DIV>
+<DIV style="position:absolute;top:158;left:135"><nobr><span class="ft16"><b>Mercado</b></span></nobr></DIV>
+<DIV style="position:absolute;top:190;left:135"><nobr><span class="ft13">Mercado Software has developed a tighter business strategy, a targeted vision and better<br>marketing as it has refocused on its initial strength in e-commerce search. Its Uniclass technology<br>to identify and extract attributes helps business-to-consumer and business-to-business retailers<br>present product offerings for parametric search, selection and purchase. Its administrative tools<br>stand out in their clarity. Mercado is used to effectively power a number of well-known vendors'<br>dot-com sites. Its niche position is largely due to its highly specialized target market.</span></nobr></DIV>
+<DIV style="position:absolute;top:307;left:135"><nobr><span class="ft16"><b>Mondosoft</b></span></nobr></DIV>
+<DIV style="position:absolute;top:338;left:135"><nobr><span class="ft13">Mondosoft has invested substantially in its information access technology's strategic compatibility<br>with Microsoft products. This has given Mondosoft a strong position, because Microsoft has not<br>developed a stand-alone search product.</span></nobr></DIV>
+<DIV style="position:absolute;top:403;left:135"><nobr><span class="ft16"><b>Open Text</b></span></nobr></DIV>
+<DIV style="position:absolute;top:435;left:135"><nobr><span class="ft13">Open Text continues to market a solid, scalable platform for developing enterprise search.<br>However, despite choosing to re-release its Livelink Discovery Server as an independent<br>application two years ago, it has not gained substantial market presence. Enterprises will find it<br>appealing for conventional search projects.</span></nobr></DIV>
+<DIV style="position:absolute;top:517;left:135"><nobr><span class="ft16"><b>Recommind</b></span></nobr></DIV>
+<DIV style="position:absolute;top:549;left:135"><nobr><span class="ft13">Recommind's sophistication in determining document relevancy is significant, and the vendor has<br>effectively succeeded with law firms that have developed applications to address their needs.<br>Recommind's solid focus here has been a factor in its movement to become a niche player, a<br>reflection not of lack of vision, but rather, of particular strength in a relatively smaller market. Its<br>ambitions include a broader expansion in the near term. Recommind does pursue business<br>outside the legal vertical market.</span></nobr></DIV>
+<DIV style="position:absolute;top:665;left:135"><nobr><span class="ft16"><b>Thunderstone</b></span></nobr></DIV>
+<DIV style="position:absolute;top:697;left:135"><nobr><span class="ft13">Thunderstone offers an appliance that competes with Google's. Thunderstone's options for<br>managing relevancy do not substantially exceed its competitors'; however, they're &quot;good enough&quot;<br>for many conventional projects. Thunderstone's search engine software supports the broadest<br>range of operating systems of any vendor. The product has demonstrated substantial scale (it is<br>eBay's former search engine). Thunderstone, which was founded in 1981, has demonstrated<br>long-term stability.</span></nobr></DIV>
+<DIV style="position:absolute;top:813;left:135"><nobr><span class="ft16"><b>Verity</b></span></nobr></DIV>
+<DIV style="position:absolute;top:845;left:135"><nobr><span class="ft13">Verity's purchases of a business process management vendor and an e-form vendor telegraph its<br>vision for an expanded role for information access technology as a smart process management<br>capability. Verity's vision of its software as an intelligent manipulator of processes is critical to its<br>leadership status and what distinguishes it most significantly. Its ownership of a low-cost, simple<br>search product (Ultraseek) and a stronger product (Verity K2), which is targeted at larger<br>companies, uniquely place Verity at both ends of the information access technology spectrum.<br>Prospects report that Verity's sales processes are problematic, but the vendor is seeking to<br>improve sales through repositioning and reorganization. Verity has revised how it packages its<br>products â€” including an intended desktop search integrated to its enterprise products â€” and<br>could overcome these challenges. </span></nobr></DIV>
+</DIV>
+<!-- Page 11 -->
+<a name="11"></a>
+<DIV style="position:relative;width:918;height:1188;">
+<STYLE type="text/css">
+<!--
+	.ft21{font-size:13px;line-height:17px;font-family:Helvetica;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:1059;left:137"><nobr><span class="ft3">Publication Date: 14 October 2005/ID Number: G00131678</span></nobr></DIV>
+<DIV style="position:absolute;top:1059;left:709"><nobr><span class="ft3">Page 11 of 13</span></nobr></DIV>
+<DIV style="position:absolute;top:1082;left:137"><nobr><span class="ft3">Â© 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</span></nobr></DIV>
+<DIV style="position:absolute;top:112;left:135"><nobr><span class="ft16"><b>Vivisimo</b></span></nobr></DIV>
+<DIV style="position:absolute;top:144;left:135"><nobr><span class="ft13">Vivisimo operates a popular online search site called Clusty.com. It sells its foundation as a<br>package of information access technology with search capabilities, but focuses on the clustering<br>of documents for visualizing areas of interest. Vivisimo is seeking to elevate the visibility of its<br>inexpensive enterprise product to a broader audience.</span></nobr></DIV>
+<DIV style="position:absolute;top:226;left:135"><nobr><span class="ft16"><b>ZyLAB</b></span></nobr></DIV>
+<DIV style="position:absolute;top:257;left:135"><nobr><span class="ft13">ZyLAB's historical focus on managing paper documents to make them effectively searchable<br>lends it particular strength in the compliance and legal discovery categories. It offers native<br>desktop search as an element of its enterprise strategy or it can be purchased separately. It has a<br>particularly large customer base and seeks to fulfill platform aspirations.</span></nobr></DIV>
+<DIV style="position:absolute;top:345;left:135"><nobr><span class="ft11"><b>RECOMMENDED READING</b></span></nobr></DIV>
+<DIV style="position:absolute;top:384;left:135"><nobr><span class="ft12">&quot;Open-Source Search Platform May Entice Committed Users&quot;</span></nobr></DIV>
+<DIV style="position:absolute;top:413;left:135"><nobr><span class="ft12">&quot;Magic Quadrant for Enterprise Search, 2004&quot;</span></nobr></DIV>
+<DIV style="position:absolute;top:442;left:135"><nobr><span class="ft12">&quot;Magic Quadrants and MarketScopes: How Gartner Evaluates Vendors Within a Market&quot;</span></nobr></DIV>
+<DIV style="position:absolute;top:505;left:135"><nobr><span class="ft11"><b>Evaluation Criteria Definitions</b></span></nobr></DIV>
+<DIV style="position:absolute;top:535;left:135"><nobr><span class="ft2"><b>Ability to Execute</b></span></nobr></DIV>
+<DIV style="position:absolute;top:565;left:135"><nobr><span class="ft21"><b>Product/Service: </b>Core goods and services offered by the vendor that compete in/serve the<br>defined market. This includes current product/service capabilities, quality, feature sets, skills, etc.,<br>whether offered natively or through OEM agreements/partnerships as defined in the market<br>definition and detailed in the subcriteria.</span></nobr></DIV>
+<DIV style="position:absolute;top:646;left:135"><nobr><span class="ft21"><b>Overall Viability (Business Unit, Financial, Strategy, Organization): </b>Viability includes an<br>assessment of the overall organization's financial health, the financial and practical success of<br>the business unit, and the likelihood of the individual business unit to continue investing in the<br>product, to continue offering the product and to advance the state of the art within the<br>organization's portfolio of products.</span></nobr></DIV>
+<DIV style="position:absolute;top:744;left:135"><nobr><span class="ft21"><b>Sales Execution/Pricing: </b>The vendor's capabilities in all pre-sales activities and the structure<br>that supports them. This includes deal management, pricing and negotiation, pre-sales support<br>and the overall effectiveness of the sales channel.</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:135"><nobr><span class="ft21"><b>Market Responsiveness and Track Record: </b>Ability to respond, change direction, be flexible<br>and achieve competitive success as opportunities develop, competitors act, customer needs<br>evolve and market dynamics change. This criterion also considers the vendor's history of<br>responsiveness.</span></nobr></DIV>
+<DIV style="position:absolute;top:889;left:135"><nobr><span class="ft21"><b>Marketing Execution: </b>The clarity, quality, creativity and efficacy of programs designed to deliver<br>the organization's message in order to influence the market, promote the brand and business,<br>increase awareness of the products, and establish a positive identification with the product/brand<br>and organization in the minds of buyers. This &quot;mind share&quot; can be driven by a combination of<br>publicity, promotional, thought leadership, word-of-mouth and sales activities.</span></nobr></DIV>
+<DIV style="position:absolute;top:987;left:135"><nobr><span class="ft21"><b>Customer Experience: </b>Relationships, products and services/programs that enable clients to be<br>successful with the products evaluated. Specifically, this includes the ways customers receive </span></nobr></DIV>
+</DIV>
+<!-- Page 12 -->
+<a name="12"></a>
+<DIV style="position:relative;width:918;height:1188;">
+<STYLE type="text/css">
+<!--
+	.ft22{font-size:-1px;font-family:Helvetica;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:1059;left:137"><nobr><span class="ft3">Publication Date: 14 October 2005/ID Number: G00131678</span></nobr></DIV>
+<DIV style="position:absolute;top:1059;left:709"><nobr><span class="ft3">Page 12 of 13</span></nobr></DIV>
+<DIV style="position:absolute;top:1082;left:137"><nobr><span class="ft3">Â© 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</span></nobr></DIV>
+<DIV style="position:absolute;top:111;left:135"><nobr><span class="ft13">technical support or account support. This can also include ancillary tools, customer support<br>programs (and the quality thereof), availability of user groups, service-level agreements, etc.</span></nobr></DIV>
+<DIV style="position:absolute;top:158;left:135"><nobr><span class="ft21"><b>Operations: </b>The ability of the organization to meet its goals and commitments. Factors include<br>the quality of the organizational structure including skills, experiences, programs, systems and<br>other vehicles that enable the organization to operate effectively and efficiently on an ongoing<br>basis.</span></nobr></DIV>
+<DIV style="position:absolute;top:239;left:135"><nobr><span class="ft2"><b>Completeness of Vision</b></span></nobr></DIV>
+<DIV style="position:absolute;top:268;left:135"><nobr><span class="ft21"><b>Market Understanding: </b>Ability of the vendor to understand buyers' wants and needs and to<br>translate those into products and services. Vendors that show the highest degree of vision listen<br>and understand buyers' wants and needs, and can shape or enhance those with their added<br>vision.</span></nobr></DIV>
+<DIV style="position:absolute;top:349;left:135"><nobr><span class="ft21"><b>Marketing Strategy: </b>A clear, differentiated set of messages consistently communicated<br>throughout the organization and externalized through the Web site, advertising, customer<br>programs and positioning statements.</span></nobr></DIV>
+<DIV style="position:absolute;top:412;left:135"><nobr><span class="ft21"><b>Sales Strategy: </b>The strategy for selling product that uses the appropriate network of direct and<br>indirect sales, marketing, service and communication affiliates that extend the scope and depth of<br>market reach, skills, expertise, technologies, services and the customer base.</span></nobr></DIV>
+<DIV style="position:absolute;top:476;left:135"><nobr><span class="ft21"><b>Offering (Product) Strategy: </b>The vendor's approach to product development and delivery that<br>emphasizes differentiation, functionality, methodology and feature set as they map to current and<br>future requirements.</span></nobr></DIV>
+<DIV style="position:absolute;top:540;left:135"><nobr><span class="ft2"><b>Business Model: </b>The soundness and logic of the vendor's underlying business proposition.</span></nobr></DIV>
+<DIV style="position:absolute;top:569;left:135"><nobr><span class="ft21"><b>Vertical/Industry Strategy: </b>The vendor's strategy to direct resources, skills and offerings to<br>meet the specific needs of individual market segments, including verticals.</span></nobr></DIV>
+<DIV style="position:absolute;top:616;left:135"><nobr><span class="ft21"><b>Innovation: </b>Direct, related, complementary and synergistic layouts of resources, expertise or<br>capital for investment, consolidation, defensive or pre-emptive purposes.</span></nobr></DIV>
+<DIV style="position:absolute;top:662;left:135"><nobr><span class="ft21"><b>Geographic Strategy: </b>The vendor's strategy to direct resources, skills and offerings to meet the<br>specific needs of geographies outside the &quot;home&quot; or native geography, either directly or through<br>partners, channels and subsidiaries as appropriate for that geography and market. </span></nobr></DIV>
+</DIV>
+<!-- Page 13 -->
+<a name="13"></a>
+<DIV style="position:relative;width:918;height:1188;">
+<STYLE type="text/css">
+<!--
+	.ft23{font-size:9px;line-height:13px;font-family:Helvetica;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:1059;left:137"><nobr><span class="ft3">Publication Date: 14 October 2005/ID Number: G00131678</span></nobr></DIV>
+<DIV style="position:absolute;top:1059;left:709"><nobr><span class="ft3">Page 13 of 13</span></nobr></DIV>
+<DIV style="position:absolute;top:1082;left:137"><nobr><span class="ft3">Â© 2005 Gartner, Inc. and/or its Affiliates. All Rights Reserved.</span></nobr></DIV>
+<DIV style="position:absolute;top:112;left:135"><nobr><span class="ft11"><b>REGIONAL HEADQUARTERS</b></span></nobr></DIV>
+<DIV style="position:absolute;top:162;left:135"><nobr><span class="ft23"><b>Corporate Headquarters</b><br>56 Top Gallant Road<br>Stamford, CT 06902-7700<br>U.S.A.<br>+1 203 964 0096</span></nobr></DIV>
+<DIV style="position:absolute;top:243;left:135"><nobr><span class="ft23"><b>European Headquarters</b><br>Tamesis<br>The Glanty<br>Egham<br>Surrey, TW20 9AW<br>UNITED KINGDOM<br>+44 1784 431611</span></nobr></DIV>
+<DIV style="position:absolute;top:351;left:135"><nobr><span class="ft23"><b>Asia/Pacific Headquarters</b><br>Gartner Australasia Pty. Ltd.<br>Level 9, 141 Walker Street<br>North Sydney<br>New South Wales 2060<br>AUSTRALIA<br>+61 2 9459 4600</span></nobr></DIV>
+<DIV style="position:absolute;top:460;left:135"><nobr><span class="ft23"><b>Japan Headquarters</b><br>Gartner Japan Ltd.<br>Aobadai Hills, 6F<br>7-7, Aobadai, 4-chome<br>Meguro-ku, Tokyo 153-0042<br>JAPAN<br>+81 3 3481 3670</span></nobr></DIV>
+<DIV style="position:absolute;top:568;left:135"><nobr><span class="ft23"><b>Latin America Headquarters</b><br>Gartner do Brazil<br>Av. das NaÃ§Ãµes Unidas, 12551<br>9Â° andarâ€”World Trade Center<br>04578-903â€”SÃ£o Paulo SP<br>BRAZIL<br>+55 11 3443 1509 </span></nobr></DIV>
+</DIV>
+<hr>
+<A name="outline"></a><h1>Document Outline</h1>
+<ul><li><A href="#2">þÿ</A>
+<li><A href="#3">þÿ</A>
+<ul><li><A href="#3">þÿ</A>
+<ul><li><A href="#4">þÿ</A>
+</ul><li><A href="#4">þÿ</A>
+<ul><li><A href="#4">þÿ</A>
+<li><A href="#5">þÿ</A>
+</ul><li><A href="#5">þÿ</A>
+<ul><li><A href="#5">þÿ</A>
+<li><A href="#6">þÿ</A>
+</ul><li><A href="#6">þÿ</A>
+<li><A href="#6">þÿ</A>
+<li><A href="#7">þÿ</A>
+<li><A href="#7">þÿ</A>
+<li><A href="#7">þÿ</A>
+<ul><li><A href="#7">þÿ</A>
+<li><A href="#7">þÿ</A>
+<li><A href="#7">þÿ</A>
+<li><A href="#8">þÿ</A>
+<li><A href="#8">þÿ</A>
+<li><A href="#8">þÿ</A>
+<li><A href="#8">þÿ</A>
+<li><A href="#8">þÿ</A>
+<li><A href="#8">þÿ</A>
+<li><A href="#9">þÿ</A>
+<li><A href="#9">þÿ</A>
+<li><A href="#9">þÿ</A>
+<li><A href="#9">þÿ</A>
+<li><A href="#9">þÿ</A>
+<li><A href="#9">þÿ</A>
+<li><A href="#9">þÿ</A>
+<li><A href="#9">þÿ</A>
+<li><A href="#10">þÿ</A>
+<li><A href="#10">þÿ</A>
+<li><A href="#10">þÿ</A>
+<li><A href="#10">þÿ</A>
+<li><A href="#10">þÿ</A>
+<li><A href="#10">þÿ</A>
+<li><A href="#11">þÿ</A>
+<li><A href="#11">þÿ</A>
+</ul></ul><li><A href="#11">þÿ</A>
+</ul></BODY>
+</HTML>

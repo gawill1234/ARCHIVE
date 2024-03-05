@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="27" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="0" />
+<attribute name="retrieval-ms" value="3" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="1" />
+<attribute name="cache-hits-content-retrieval" value="12" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="42" />
+<attribute name="cache-misses-text" value="63" />
+<attribute name="total-results-with-duplicates" value="27" />
+<document url="http://192.168.0.27:9000/teamsite2/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/teamsite2/Lists/Contacts/AllItems.aspx/"
+  la-score="2.55981" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="39" />
+      <pre u="32" v="36">http://192.168.0.27:9000/teamsite2/Lists/</pre>
+      <match u="37" v="37">Contacts/</match>
+      <post u="38" v="39">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/teamsite1/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/teamsite1/Lists/Contacts/AllItems.aspx/"
+  la-score="2.55981" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="39" />
+      <pre u="32" v="36">http://192.168.0.27:9000/teamsite1/Lists/</pre>
+      <match u="37" v="37">Contacts/</match>
+      <post u="38" v="39">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  url="http://192.168.0.27:9000/sites/aas223333/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/aas223333/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/aas223333/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  url="http://192.168.0.27:9000/sites/aas2233333/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/aas2233333/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/aas2233333/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  url="http://192.168.0.27:9000/sites/aas22333333/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/aas22333333/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/aas22333333/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  url="http://192.168.0.27:9000/sites/aas223333333/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/aas223333333/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/aas223333333/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  url="http://192.168.0.27:9000/sites/aas2233333334/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/aas2233333334/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/aas2233333334/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/b/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/b/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/b/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/bingo/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/bingo/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/bingo/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/bla/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/bla/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/bla/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/bouba/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/bouba/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/bouba/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  url="http://192.168.0.27:9000/sites/aas22333/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/aas22333/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/aas22333/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/d/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/d/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/d/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/e/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/e/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/e/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/f/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/f/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/f/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/g/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/g/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/g/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/h/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/h/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/h/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/i/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/i/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/i/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/c/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/c/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/c/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/aas2/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/aas2/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/aas2/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  url="http://192.168.0.27:9000/personal/GOUGOU/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/personal/GOUGOU/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/personal/GOUGOU/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  url="http://192.168.0.27:9000/sites/aas2233/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/aas2233/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/aas2233/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/v/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/v/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/v/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/q/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/q/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/q/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/j/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/j/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/j/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/sites/r/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/sites/r/Lists/Contacts/AllItems.aspx/"
+  la-score="1.64352" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="20"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="20">list for information about people that your team works with.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="31" v="40" />
+      <pre u="32" v="37">http://192.168.0.27:9000/sites/r/Lists/</pre>
+      <match u="38" v="38">Contacts/</match>
+      <post u="39" v="40">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://192.168.0.27:9000/Lists/Contacts/AllItems.aspx"
+  vse-key="http://192.168.0.27:9000/Lists/Contacts/AllItems.aspx/"
+  la-score="0.333384" vse-base-score="3.75"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="5">Contacts</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <content name="title" action="cluster" weight="3" output-action="bold"
+        u="5" v="6"
+      />
+      <pre u="6" v="5"></pre>
+      <match u="6" v="6">Contacts</match>
+      <post u="7" v="6"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="description" action="cluster" weight="1"
+        output-action="bold" u="7" v="19"
+      />
+      <pre u="8" v="9">Use the </pre>
+      <match u="10" v="10">Contacts </match>
+      <post u="11" v="19">list for information about people related to this area.</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content action="none" name="url" weight="1" u="30" v="37" />
+      <pre u="31" v="34">http://192.168.0.27:9000/Lists/</pre>
+      <match u="35" v="35">Contacts/</match>
+      <post u="36" v="37">AllItems.aspx</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+</scope>

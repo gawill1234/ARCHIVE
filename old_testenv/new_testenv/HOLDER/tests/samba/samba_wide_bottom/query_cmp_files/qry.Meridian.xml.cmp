@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="22" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="6" />
+<attribute name="retrieval-ms" value="11" />
+<attribute name="total-results-with-duplicates" value="22" />
+<document filetypes="pdf " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_1407.pdf/"
+  vertex="250"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_1407.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">464979</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906581"
+    u="29"
+  >Jan 9,
+  2008 19:23:01 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33"><![CDATA[B&W 704 Loudspeaker]]></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="728" v="747">it would&lt;br/>be control. Poised and confident at even&lt;br/>the  loudest  playback  levels,  the  704&lt;br/>partnered  toothsomely  with  both  the&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="1590"
+      />
+      <match u="748" v="748">Meridian </match>
+      <post u="749" v="768">559 solid-state and BAT 75SE&lt;br/>tube amplifiers. Dipping down to 40Hz&lt;br/>in the bottom octaves, it didn’t have </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1480" v="1499"><![CDATA[Response: 40Hz–25kHz ±3dB</span> </div><div> <span>Impedance: 8 ohms</span> </div><div> <span>Sensitivity: 90dB</span> </div><div> <span>Dimensions: 8.7" x 37.7" x 12.6"</span> </div><div> <span>Weight: 46 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="1590"
+      />
+      <match u="1500" v="1500">Meridian </match>
+      <post u="1501" v="1520"><![CDATA[588 compact disc player; BAT VK-</span> </div><div> <span>3i, Atma-Sphere MP-3, and Meridian 502 pre-</span> </div><div> <span>amps; BAT VK-75SE, Atma-]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1493" v="1512"><![CDATA[x 12.6"</span> </div><div> <span>Weight: 46 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>Meridian 588 compact disc player; BAT VK-</span> </div><div> <span>3i, Atma-Sphere MP-3, and ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="1590"
+      />
+      <match u="1513" v="1513">Meridian </match>
+      <post u="1514" v="1533"><![CDATA[502 pre-</span> </div><div> <span>amps; BAT VK-75SE, Atma-Sphere MA-1, and</span> </div><div> <span>Meridian 559 amps; Coincident Total Eclipse</span> </div><div> <span>speakers; Coincident Total ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1505" v="1524"><![CDATA[BAT VK-</span> </div><div> <span>3i, Atma-Sphere MP-3, and Meridian 502 pre-</span> </div><div> <span>amps; BAT VK-75SE, Atma-Sphere MA-1, and</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="1590"
+      />
+      <match u="1525" v="1525">Meridian </match>
+      <post u="1526" v="1545"><![CDATA[559 amps; Coincident Total Eclipse</span> </div><div> <span>speakers; Coincident Total Reference speak-</span> </div><div> <span>er cable; Harmonic Technology Pro Silway II</span> </div><div> <span>and Purist Audio ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... levels,  the  704<br/>partnered  toothsomely  with  both  the<br/>Meridian 559 solid-state and BAT 75SE<br/>tube amplifiers.  ... 37.7" x 12.6"</span> </div><div> <span>Weight: 46 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>Meridian 588 compact disc player; BAT VK-</span> </div><div> <span>3i, Atma- ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1.875"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_1407.pdf/"
+  vertex="2792"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_1407.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">464979</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906592"
+    u="29"
+  >Jan 9,
+  2008 19:23:12 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33"><![CDATA[B&W 704 Loudspeaker]]></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="728" v="747">it would&lt;br/>be control. Poised and confident at even&lt;br/>the  loudest  playback  levels,  the  704&lt;br/>partnered  toothsomely  with  both  the&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="1590"
+      />
+      <match u="748" v="748">Meridian </match>
+      <post u="749" v="768">559 solid-state and BAT 75SE&lt;br/>tube amplifiers. Dipping down to 40Hz&lt;br/>in the bottom octaves, it didn’t have </post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1480" v="1499"><![CDATA[Response: 40Hz–25kHz ±3dB</span> </div><div> <span>Impedance: 8 ohms</span> </div><div> <span>Sensitivity: 90dB</span> </div><div> <span>Dimensions: 8.7" x 37.7" x 12.6"</span> </div><div> <span>Weight: 46 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="1590"
+      />
+      <match u="1500" v="1500">Meridian </match>
+      <post u="1501" v="1520"><![CDATA[588 compact disc player; BAT VK-</span> </div><div> <span>3i, Atma-Sphere MP-3, and Meridian 502 pre-</span> </div><div> <span>amps; BAT VK-75SE, Atma-]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1493" v="1512"><![CDATA[x 12.6"</span> </div><div> <span>Weight: 46 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>Meridian 588 compact disc player; BAT VK-</span> </div><div> <span>3i, Atma-Sphere MP-3, and ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="1590"
+      />
+      <match u="1513" v="1513">Meridian </match>
+      <post u="1514" v="1533"><![CDATA[502 pre-</span> </div><div> <span>amps; BAT VK-75SE, Atma-Sphere MA-1, and</span> </div><div> <span>Meridian 559 amps; Coincident Total Eclipse</span> </div><div> <span>speakers; Coincident Total ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="1505" v="1524"><![CDATA[BAT VK-</span> </div><div> <span>3i, Atma-Sphere MP-3, and Meridian 502 pre-</span> </div><div> <span>amps; BAT VK-75SE, Atma-Sphere MA-1, and</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="1590"
+      />
+      <match u="1525" v="1525">Meridian </match>
+      <post u="1526" v="1545"><![CDATA[559 amps; Coincident Total Eclipse</span> </div><div> <span>speakers; Coincident Total Reference speak-</span> </div><div> <span>er cable; Harmonic Technology Pro Silway II</span> </div><div> <span>and Purist Audio ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... levels,  the  704<br/>partnered  toothsomely  with  both  the<br/>Meridian 559 solid-state and BAT 75SE<br/>tube amplifiers.  ... 37.7" x 12.6"</span> </div><div> <span>Weight: 46 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>Meridian 588 compact disc player; BAT VK-</span> </div><div> <span>3i, Atma- ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_1666.pdf/"
+  vertex="2725"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_1666.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">586833</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906592"
+    u="29"
+  >Jan 9,
+  2008 19:23:12 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Von Schweikert Audio VR-4jr Loudspeaker</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1460" v="1479"><![CDATA[20"),</span> </div><div> <span>System (8" x 38.5" x 20")</span> </div><div> <span>Weight: Woofer module: 52 lbs.; M/T mod-</span> </div><div> <span>ule: 26 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="1757"
+      />
+      <match u="1480" v="1480">Meridian </match>
+      <post u="1481" v="1500"><![CDATA[588 compact disc player; Edge G1,</span> </div><div> <span>Atma-Sphere MP-3, and Meridian 502</span> </div><div> <span>Preamps; Edge NL-10, Atma-Sphere MA-]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1472" v="1491"><![CDATA[M/T mod-</span> </div><div> <span>ule: 26 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>Meridian 588 compact disc player; Edge G1,</span> </div><div> <span>Atma-Sphere MP-3, and ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="1757"
+      />
+      <match u="1492" v="1492">Meridian </match>
+      <post u="1493" v="1512"><![CDATA[502</span> </div><div> <span>Preamps; Edge NL-10, Atma-Sphere MA-1,</span> </div><div> <span>and Meridian 559 amps; Tube Audio Design</span> </div><div> <span>TA-30 integrated amp; ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1483" v="1502"><![CDATA[disc player; Edge G1,</span> </div><div> <span>Atma-Sphere MP-3, and Meridian 502</span> </div><div> <span>Preamps; Edge NL-10, Atma-Sphere MA-1,</span> </div><div> <span>and ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="1757"
+      />
+      <match u="1503" v="1503">Meridian </match>
+      <post u="1504" v="1523"><![CDATA[559 amps; Tube Audio Design</span> </div><div> <span>TA-30 integrated amp; B&amp;W 704 and</span> </div><div> <span>Coincident Total Eclipse speakers;</span> </div><div> <span>Coincident TRS and ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... M/T mod-</span> </div><div> <span>ule: 26 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>Meridian 588 compact disc player; Edge G1,</span> </div><div> <span>Atma-Sphere MP-3, and Meridian 502</span> </div><div> <span>Preamps; Edge NL-10, Atma-Sphere MA- ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1.75"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_1666.pdf/"
+  vertex="164"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_1666.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">586833</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906582"
+    u="29"
+  >Jan 9,
+  2008 19:23:02 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Von Schweikert Audio VR-4jr Loudspeaker</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1460" v="1479"><![CDATA[20"),</span> </div><div> <span>System (8" x 38.5" x 20")</span> </div><div> <span>Weight: Woofer module: 52 lbs.; M/T mod-</span> </div><div> <span>ule: 26 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="1757"
+      />
+      <match u="1480" v="1480">Meridian </match>
+      <post u="1481" v="1500"><![CDATA[588 compact disc player; Edge G1,</span> </div><div> <span>Atma-Sphere MP-3, and Meridian 502</span> </div><div> <span>Preamps; Edge NL-10, Atma-Sphere MA-]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1472" v="1491"><![CDATA[M/T mod-</span> </div><div> <span>ule: 26 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>Meridian 588 compact disc player; Edge G1,</span> </div><div> <span>Atma-Sphere MP-3, and ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="1757"
+      />
+      <match u="1492" v="1492">Meridian </match>
+      <post u="1493" v="1512"><![CDATA[502</span> </div><div> <span>Preamps; Edge NL-10, Atma-Sphere MA-1,</span> </div><div> <span>and Meridian 559 amps; Tube Audio Design</span> </div><div> <span>TA-30 integrated amp; ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="1483" v="1502"><![CDATA[disc player; Edge G1,</span> </div><div> <span>Atma-Sphere MP-3, and Meridian 502</span> </div><div> <span>Preamps; Edge NL-10, Atma-Sphere MA-1,</span> </div><div> <span>and ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="40"
+        v="1757"
+      />
+      <match u="1503" v="1503">Meridian </match>
+      <post u="1504" v="1523"><![CDATA[559 amps; Tube Audio Design</span> </div><div> <span>TA-30 integrated amp; B&amp;W 704 and</span> </div><div> <span>Coincident Total Eclipse speakers;</span> </div><div> <span>Coincident TRS and ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... M/T mod-</span> </div><div> <span>ule: 26 lbs.</span> </div><div> <span>ASSOCIATED EQUIPMENT</span> </div><div> <span>Meridian 588 compact disc player; Edge G1,</span> </div><div> <span>Atma-Sphere MP-3, and Meridian 502</span> </div><div> <span>Preamps; Edge NL-10, Atma-Sphere MA- ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_139.pdf/"
+  vertex="173"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_139.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">51706</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906581"
+    u="29"
+  >Jan 9,
+  2008 19:23:01 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">A True High-End A/V Processor for $1,800</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1307" v="1326">Kable wires, and a&lt;br/>Theta Voyager DVD/laserdisc deck. I&lt;br/>compared  it  to  the  Lexicon  MC-1,&lt;br/>Theta Casablanca, and </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="43"
+        v="1956"
+      />
+      <match u="1327" v="1327">Meridian </match>
+      <post u="1328" v="1347">861&lt;br/>processors. I also compared it to Sony&lt;br/>and  Onkyo  receivers  in  an  upstairs&lt;br/>audio/video  set-up  using  moderately&lt;br/></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1354" v="1373">what: You don’t get $10,000-&lt;/span> &lt;/div>&lt;div> &lt;span>plus worth of sound quality for $1,800.&lt;br/>The  really  high  priced  units  like  the&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="43"
+        v="1956"
+      />
+      <match u="1374" v="1374">Meridian </match>
+      <post u="1375" v="1394">and Theta are cleaner sounding&lt;br/> and have more detail. The Lexicon&lt;br/>has more features and allows you to tailor&lt;br/> the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... to  the  Lexicon  MC-1,&lt;br/>Theta Casablanca, and Meridian 861&lt;br/>processors. I also compared it to Sony&lt;br/> ... 1,800.&lt;br/>The  really  high  priced  units  like  the&lt;br/>Meridian and Theta are cleaner sounding&lt;br/> and have more  ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_2179.pdf/"
+  vertex="138"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_2179.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">279415</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906582"
+    u="29"
+  >Jan 9,
+  2008 19:23:02 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Cary Audio Design A 306</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.5">
+      <pre u="994" v="1013"><![CDATA[PRICE</span> </div><div> <span><b>CARy AUDIO DESIGN</b><br/><b>1020 Goodworth Drive</b><br/><b>Apex, North Carolina 27539</b><br/><b>(919) 355-0010</b><br/><b>caryaudio.com</b></span> </div><div> <span>DISTRIBuTOR</span> </div><div> <span><b>Cary CD 306, ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="39"
+        v="1065"
+      />
+      <match u="1014" v="1014">Meridian </match>
+      <post u="1015" v="1034"><![CDATA[808, and</b><br/><b>Esoteric P-03 and D-03 digital</b><br/><b>playback; Mark Levinson No.326S</b><br/><b>preamp; Wilson Audio MAXX 2</b><br/><b>loudspeakers; ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 355-0010</b><br/><b>caryaudio.com</b></span> </div><div> <span>DISTRIBuTOR</span> </div><div> <span><b>Cary CD 306, Meridian 808, and</b><br/><b>Esoteric P-03 and D-03  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_057.pdf/"
+  vertex="148"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_057.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">79957</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906580"
+    u="29"
+  >Jan 9,
+  2008 19:23:00 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Top Performance Today—and Tomorrow</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2200" v="2219">Audio, Theta David DVD/DVD-A/CD, and&lt;/span> &lt;/div>&lt;div> &lt;span>Pioneer CD/DVD transports; Sony SCD-777ES SACD&lt;/span> &lt;/div>&lt;div> &lt;span>Player; Theta Casablanca II, </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="39"
+        v="2733"
+      />
+      <match u="2220" v="2220">Meridian </match>
+      <post u="2221" v="2240"><![CDATA[861, Lexicon</span> </div><div> <span>MC-1,</span> </div><div> <span>Adcom </span> </div><div> <span>GTP-760 </span> </div><div> <span>controllers; </span> </div><div> <span>Theta</span> </div><div> <span>Dreadnaught (seven channel), Adcom GFA-7500, Krell</span> </div><div> <span>MDA300, Pass  X600  power  ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="2539" v="2558">transport  for  CD,  Dolby  Digital,&lt;br/>MPEG, other PCM systems, and DTS&lt;br/>playback through the RDC-7, Theta&lt;br/>Casablanca II, and </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="39"
+        v="2733"
+      />
+      <match u="2559" v="2559">Meridian </match>
+      <post u="2560" v="2579">861 digital&lt;br/> controllers. The analog stages of&lt;br/>the RDV-1 had the same clear open&lt;br/>sound I’ve described earlier.  </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Sony SCD-777ES SACD</span> </div><div> <span>Player; Theta Casablanca II, Meridian 861, Lexicon</span> </div><div> <span>MC-1,</span> </div><div> <span>Adcom </span> </div><div> <span>GTP-760 </span> </div><div> <span>controllers; </span> </div><div> <span> ... through the RDC-7, Theta<br/>Casablanca II, and Meridian 861 digital<br/> controllers. The analog stages of<br/>the  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_057.pdf/"
+  vertex="2720"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_057.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">79957</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906592"
+    u="29"
+  >Jan 9,
+  2008 19:23:12 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Top Performance Today—and Tomorrow</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2200" v="2219">Audio, Theta David DVD/DVD-A/CD, and&lt;/span> &lt;/div>&lt;div> &lt;span>Pioneer CD/DVD transports; Sony SCD-777ES SACD&lt;/span> &lt;/div>&lt;div> &lt;span>Player; Theta Casablanca II, </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="39"
+        v="2733"
+      />
+      <match u="2220" v="2220">Meridian </match>
+      <post u="2221" v="2240"><![CDATA[861, Lexicon</span> </div><div> <span>MC-1,</span> </div><div> <span>Adcom </span> </div><div> <span>GTP-760 </span> </div><div> <span>controllers; </span> </div><div> <span>Theta</span> </div><div> <span>Dreadnaught (seven channel), Adcom GFA-7500, Krell</span> </div><div> <span>MDA300, Pass  X600  power  ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="2539" v="2558">transport  for  CD,  Dolby  Digital,&lt;br/>MPEG, other PCM systems, and DTS&lt;br/>playback through the RDC-7, Theta&lt;br/>Casablanca II, and </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="39"
+        v="2733"
+      />
+      <match u="2559" v="2559">Meridian </match>
+      <post u="2560" v="2579">861 digital&lt;br/> controllers. The analog stages of&lt;br/>the RDV-1 had the same clear open&lt;br/>sound I’ve described earlier.  </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Sony SCD-777ES SACD</span> </div><div> <span>Player; Theta Casablanca II, Meridian 861, Lexicon</span> </div><div> <span>MC-1,</span> </div><div> <span>Adcom </span> </div><div> <span>GTP-760 </span> </div><div> <span>controllers; </span> </div><div> <span> ... through the RDC-7, Theta<br/>Casablanca II, and Meridian 861 digital<br/> controllers. The analog stages of<br/>the  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_139.pdf/"
+  vertex="2734"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_139.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">51706</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906592"
+    u="29"
+  >Jan 9,
+  2008 19:23:12 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">A True High-End A/V Processor for $1,800</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1307" v="1326">Kable wires, and a&lt;br/>Theta Voyager DVD/laserdisc deck. I&lt;br/>compared  it  to  the  Lexicon  MC-1,&lt;br/>Theta Casablanca, and </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="43"
+        v="1956"
+      />
+      <match u="1327" v="1327">Meridian </match>
+      <post u="1328" v="1347">861&lt;br/>processors. I also compared it to Sony&lt;br/>and  Onkyo  receivers  in  an  upstairs&lt;br/>audio/video  set-up  using  moderately&lt;br/></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="1354" v="1373">what: You don’t get $10,000-&lt;/span> &lt;/div>&lt;div> &lt;span>plus worth of sound quality for $1,800.&lt;br/>The  really  high  priced  units  like  the&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="43"
+        v="1956"
+      />
+      <match u="1374" v="1374">Meridian </match>
+      <post u="1375" v="1394">and Theta are cleaner sounding&lt;br/> and have more detail. The Lexicon&lt;br/>has more features and allows you to tailor&lt;br/> the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... to  the  Lexicon  MC-1,&lt;br/>Theta Casablanca, and Meridian 861&lt;br/>processors. I also compared it to Sony&lt;br/> ... 1,800.&lt;br/>The  really  high  priced  units  like  the&lt;br/>Meridian and Theta are cleaner sounding&lt;br/> and have more  ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="1.5"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_2179.pdf/"
+  vertex="2710"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_2179.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">279415</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906592"
+    u="29"
+  >Jan 9,
+  2008 19:23:12 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Cary Audio Design A 306</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.5">
+      <pre u="994" v="1013"><![CDATA[PRICE</span> </div><div> <span><b>CARy AUDIO DESIGN</b><br/><b>1020 Goodworth Drive</b><br/><b>Apex, North Carolina 27539</b><br/><b>(919) 355-0010</b><br/><b>caryaudio.com</b></span> </div><div> <span>DISTRIBuTOR</span> </div><div> <span><b>Cary CD 306, ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="39"
+        v="1065"
+      />
+      <match u="1014" v="1014">Meridian </match>
+      <post u="1015" v="1034"><![CDATA[808, and</b><br/><b>Esoteric P-03 and D-03 digital</b><br/><b>playback; Mark Levinson No.326S</b><br/><b>preamp; Wilson Audio MAXX 2</b><br/><b>loudspeakers; ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 355-0010</b><br/><b>caryaudio.com</b></span> </div><div> <span>DISTRIBuTOR</span> </div><div> <span><b>Cary CD 306, Meridian 808, and</b><br/><b>Esoteric P-03 and D-03  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_874.pdf/"
+  vertex="182"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_874.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">441530</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906582"
+    u="29"
+  >Jan 9,
+  2008 19:23:02 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Plinius CD-LAD, Rogue Audio 99, and Marsh Sound Design P2000</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1772" v="1791"><![CDATA[O C I ATED EQUIPMENT</span> </div><div> <span>VPI Aries turntable/JMW pick-up arm with</span> </div><div> <span>Synchronous Drive System; Grado Reference</span> </div><div> <span>phono cartridge; ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="45"
+        v="2893"
+      />
+      <match u="1792" v="1792">Meridian </match>
+      <post u="1793" v="1812"><![CDATA[508.24 and Wadia</span> </div><div> <span>861 CD players; VAC Renaissance 30/30 Mk</span> </div><div> <span>III and Innersound Electrostatic amplifiers;</span> </div><div> <span>Von Schweikert VR-4 ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... with</span> </div><div> <span>Synchronous Drive System; Grado Reference</span> </div><div> <span>phono cartridge; Meridian 508.24 and Wadia</span> </div><div> <span>861 CD players; VAC Renaissance  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_1171.pdf/"
+  vertex="205"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_1171.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">415726</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906581"
+    u="29"
+  >Jan 9,
+  2008 19:23:01 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Wilson Audio Specialties WATT/Puppy 7 Loudspeaker System</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2602" v="2621"><![CDATA[14.125" x 16.5" (WATT); 12.25" x 26.5" x</span> </div><div> <span>18.5" (Puppy)</span> </div><div> <span>Weight: 65 lbs (WATT); 105 lbs (Puppy) (net)</span> </div><div> <span>ASSOCIATED COMPONENTS</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="42"
+        v="3844"
+      />
+      <match u="2622" v="2622">Meridian </match>
+      <post u="2623" v="2642">800 upsampling CD and DVD-A player; Ayre CX-7 and Naim&lt;/span> &lt;/div>&lt;div> &lt;span>CD5 CD players; Audio Reasearch SP16, VTL TL7.</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... lbs (WATT); 105 lbs (Puppy) (net)&lt;/span> &lt;/div>&lt;div> &lt;span>ASSOCIATED COMPONENTS&lt;/span> &lt;/div>&lt;div> &lt;span>Meridian 800 upsampling CD and DVD-A player; Ayre  ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_1805.pdf/"
+  vertex="186"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_1805.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">1024333</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906582"
+    u="29"
+  >Jan 9,
+  2008 19:23:02 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Cambridge Audio Azur 540D DVD-A/V player</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="43" v="46"><![CDATA[   <a/><div> <div> <span>B</span> </div><div> <span>ritish companies like ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="42"
+        v="1979"
+      />
+      <match u="47" v="47"><![CDATA[Meridian<br/>]]></match>
+      <post u="48" v="67">and Arcam have used their&lt;br/>extensive experience in high-&lt;/span> &lt;/div>&lt;div> &lt;span>performance audio to springboard into&lt;br/>leadership positions in home theater&lt;br/>electronics—</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>B</span> </div><div> <span>ritish companies like Meridian<br/>and Arcam have used their<br/>extensive experience in high-</span> </div><div> <span>performance audio to springboard into<br/>leadership positions in home theater<br/>electronics— ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_170.pdf/"
+  vertex="178"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_170.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">29256</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906582"
+    u="29"
+  >Jan 9,
+  2008 19:23:02 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">The Absolute Sound Issue 127</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2117" v="2136">850 ohms&lt;/span> &lt;/div>&lt;div> &lt;span>ASSOCIATED EQUIPMENT&lt;br/>VPI Aries turntable/JMW arm with Synchronous&lt;br/>Drive System; Grado Reference cartridge;&lt;br/>Parasound CDP-2000 and </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="39"
+        v="2201"
+      />
+      <match u="2137" v="2137">Meridian </match>
+      <post u="2138" v="2157">508.24 CD&lt;br/>Players; Conrad-Johnson Premier 15 and Herron&lt;br/>Audio VTPH-1 phono; Preamplifiers; VAC&lt;br/>Renaissance 30/30 Mk III </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... System; Grado Reference cartridge;&lt;br/>Parasound CDP-2000 and Meridian 508.24 CD&lt;br/>Players; Conrad-Johnson Premier 15 and  ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_2090.pdf/"
+  vertex="130"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_2090.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">363153</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906582"
+    u="29"
+  >Jan 9,
+  2008 19:23:02 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">The Goldmund SR System</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="585" v="604"><![CDATA[of zealously preserving analog<br/>in its natural state.</span> </div><div> <span>There are partial examples of this</span> </div><div> <span>new approach on the market today—<br/>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="3892"
+      />
+      <match u="605" v="605">Meridian </match>
+      <post u="606" v="625"><![CDATA[products come first to mind—<br/>and more are coming from companies<br/>such as Theta. But none is as comprehensive<br/></span> </div><div> <span>or </span> </div><div> <span>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... of this&lt;/span> &lt;/div>&lt;div> &lt;span>new approach on the market today—&lt;br/>Meridian products come first to mind—&lt;br/>and more are  ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_1662.pdf/"
+  vertex="162"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/a00/REVIEW_1662.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">423634</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906582"
+    u="29"
+  >Jan 9,
+  2008 19:23:02 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Conrad-Johnson Premier 18LS Preamp and Premier 350 Stereo Power Amplifier</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2323" v="2342">TNT HRX-X turntable and HWJr 12.6 arm;&lt;/span> &lt;/div>&lt;div> &lt;span>Van den Hul Black Beauty, Sumiko Celebra-&lt;/span> &lt;/div>&lt;div> &lt;span>tion, and Koetsu Onyx Cartridges; </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="45"
+        v="2397"
+      />
+      <match u="2343" v="2343"><![CDATA[Meridian</span> </div><div> <span>]]></match>
+      <post u="2344" v="2363"><![CDATA[G08 CD player; Sony SCD-XA9000ES</span> </div><div> <span>SACD/CD player; Pass Xono phono preamp;</span> </div><div> <span>Pass X0.2 preamp; Tact 2.2x ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Beauty, Sumiko Celebra-</span> </div><div> <span>tion, and Koetsu Onyx Cartridges; Meridian</span> </div><div> <span>G08 CD player; Sony SCD-XA9000ES</span> </div><div> <span>SACD/CD  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_2090.pdf/"
+  vertex="2702"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_2090.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">363153</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906592"
+    u="29"
+  >Jan 9,
+  2008 19:23:12 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">The Goldmund SR System</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="585" v="604"><![CDATA[of zealously preserving analog<br/>in its natural state.</span> </div><div> <span>There are partial examples of this</span> </div><div> <span>new approach on the market today—<br/>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="38"
+        v="3892"
+      />
+      <match u="605" v="605">Meridian </match>
+      <post u="606" v="625"><![CDATA[products come first to mind—<br/>and more are coming from companies<br/>such as Theta. But none is as comprehensive<br/></span> </div><div> <span>or </span> </div><div> <span>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... of this&lt;/span> &lt;/div>&lt;div> &lt;span>new approach on the market today—&lt;br/>Meridian products come first to mind—&lt;br/>and more are  ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_1662.pdf/"
+  vertex="2723"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_1662.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">423634</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906592"
+    u="29"
+  >Jan 9,
+  2008 19:23:12 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Conrad-Johnson Premier 18LS Preamp and Premier 350 Stereo Power Amplifier</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2323" v="2342">TNT HRX-X turntable and HWJr 12.6 arm;&lt;/span> &lt;/div>&lt;div> &lt;span>Van den Hul Black Beauty, Sumiko Celebra-&lt;/span> &lt;/div>&lt;div> &lt;span>tion, and Koetsu Onyx Cartridges; </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="45"
+        v="2397"
+      />
+      <match u="2343" v="2343"><![CDATA[Meridian</span> </div><div> <span>]]></match>
+      <post u="2344" v="2363"><![CDATA[G08 CD player; Sony SCD-XA9000ES</span> </div><div> <span>SACD/CD player; Pass Xono phono preamp;</span> </div><div> <span>Pass X0.2 preamp; Tact 2.2x ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Beauty, Sumiko Celebra-</span> </div><div> <span>tion, and Koetsu Onyx Cartridges; Meridian</span> </div><div> <span>G08 CD player; Sony SCD-XA9000ES</span> </div><div> <span>SACD/CD  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_1171.pdf/"
+  vertex="2753"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_1171.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">415726</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906592"
+    u="29"
+  >Jan 9,
+  2008 19:23:12 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Wilson Audio Specialties WATT/Puppy 7 Loudspeaker System</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2602" v="2621"><![CDATA[14.125" x 16.5" (WATT); 12.25" x 26.5" x</span> </div><div> <span>18.5" (Puppy)</span> </div><div> <span>Weight: 65 lbs (WATT); 105 lbs (Puppy) (net)</span> </div><div> <span>ASSOCIATED COMPONENTS</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="42"
+        v="3844"
+      />
+      <match u="2622" v="2622">Meridian </match>
+      <post u="2623" v="2642">800 upsampling CD and DVD-A player; Ayre CX-7 and Naim&lt;/span> &lt;/div>&lt;div> &lt;span>CD5 CD players; Audio Reasearch SP16, VTL TL7.</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... lbs (WATT); 105 lbs (Puppy) (net)&lt;/span> &lt;/div>&lt;div> &lt;span>ASSOCIATED COMPONENTS&lt;/span> &lt;/div>&lt;div> &lt;span>Meridian 800 upsampling CD and DVD-A player; Ayre  ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_170.pdf/"
+  vertex="2739"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_170.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">29256</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906592"
+    u="29"
+  >Jan 9,
+  2008 19:23:12 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">The Absolute Sound Issue 127</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2117" v="2136">850 ohms&lt;/span> &lt;/div>&lt;div> &lt;span>ASSOCIATED EQUIPMENT&lt;br/>VPI Aries turntable/JMW arm with Synchronous&lt;br/>Drive System; Grado Reference cartridge;&lt;br/>Parasound CDP-2000 and </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="39"
+        v="2201"
+      />
+      <match u="2137" v="2137">Meridian </match>
+      <post u="2138" v="2157">508.24 CD&lt;br/>Players; Conrad-Johnson Premier 15 and Herron&lt;br/>Audio VTPH-1 phono; Preamplifiers; VAC&lt;br/>Renaissance 30/30 Mk III </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... System; Grado Reference cartridge;&lt;br/>Parasound CDP-2000 and Meridian 508.24 CD&lt;br/>Players; Conrad-Johnson Premier 15 and  ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_874.pdf/"
+  vertex="2743"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_874.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">441530</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906592"
+    u="29"
+  >Jan 9,
+  2008 19:23:12 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Plinius CD-LAD, Rogue Audio 99, and Marsh Sound Design P2000</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="1772" v="1791"><![CDATA[O C I ATED EQUIPMENT</span> </div><div> <span>VPI Aries turntable/JMW pick-up arm with</span> </div><div> <span>Synchronous Drive System; Grado Reference</span> </div><div> <span>phono cartridge; ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="45"
+        v="2893"
+      />
+      <match u="1792" v="1792">Meridian </match>
+      <post u="1793" v="1812"><![CDATA[508.24 and Wadia</span> </div><div> <span>861 CD players; VAC Renaissance 30/30 Mk</span> </div><div> <span>III and Innersound Electrostatic amplifiers;</span> </div><div> <span>Von Schweikert VR-4 ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... with</span> </div><div> <span>Synchronous Drive System; Grado Reference</span> </div><div> <span>phono cartridge; Meridian 508.24 and Wadia</span> </div><div> <span>861 CD players; VAC Renaissance  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_1805.pdf/"
+  vertex="2747"
+  url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-wide-bottom/crawl_dirs/z99/REVIEW_1805.pdf"
+  ct="text/html" la-score="7.2453"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">1024333</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1199906592"
+    u="29"
+  >Jan 9,
+  2008 19:23:12 GMT</content>
+  <content name="language" weight="0" action="none" u="31">english</content>
+  <content name="title" output-action="bold" weight="3" u="33">Cambridge Audio Azur 540D DVD-A/V player</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="43" v="46"><![CDATA[   <a/><div> <div> <span>B</span> </div><div> <span>ritish companies like ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="42"
+        v="1979"
+      />
+      <match u="47" v="47"><![CDATA[Meridian<br/>]]></match>
+      <post u="48" v="67">and Arcam have used their&lt;br/>extensive experience in high-&lt;/span> &lt;/div>&lt;div> &lt;span>performance audio to springboard into&lt;br/>leadership positions in home theater&lt;br/>electronics—</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span>B</span> </div><div> <span>ritish companies like Meridian<br/>and Arcam have used their<br/>extensive experience in high-</span> </div><div> <span>performance audio to springboard into<br/>leadership positions in home theater<br/>electronics— ... ]]></content>
+</document>
+</scope>

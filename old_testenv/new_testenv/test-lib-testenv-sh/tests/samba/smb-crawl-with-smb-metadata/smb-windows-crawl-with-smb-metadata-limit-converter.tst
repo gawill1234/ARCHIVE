@@ -1,0 +1,69 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'misc'
+require 'collection'
+require 'nokogiri'
+
+###################################
+#
+#   Fixed Data
+#
+queries = {"Hamilton"         => 1,
+           "Hamilton Madison" => 1,
+           "Linux"            => 6,
+           "QueryThatWillNotMatchAnyDocuments"     => 0,
+           "Administrator"     => 47,
+           "2009"     => 2,
+           "2010"     => 47,
+           "We the people"    => 9}
+
+crawler_config =  <<"WINXML"
+     <crawl-options>
+       <crawl-option name="n-fetch-threads">10</crawl-option>
+       <curl-option name="filter-exact-duplicates"><![CDATA[false]]></curl-option>
+       <curl-option name="converter-max-memory">512</curl-option>
+     </crawl-options>
+     <call-function name="vse-crawler-seed-smb">
+       <with name="host"><![CDATA[testbed8.bigdatalab.ibm.com]]></with>
+       <with name="shares"><![CDATA[/exported/samba_test_data/samba-1/doc]]></with>
+       <with name="username"><![CDATA[administrator]]></with>
+       <with name="password"><![CDATA[{vcrypt}TMWiymi8UsQ9QvtqWkxuhw==]]></with>
+       <with name="crawl-fs-metadata">true</with>
+     </call-function>
+     <call-function elt-id="126" name="vse-crawler-smb-control-crawled-content-by-url">
+        <with name="by-default-crawl" elt-id="127">metadata only</with>
+        <with name="patterns" elt-id="128">smb://*.pdf</with>
+     </call-function>
+
+WINXML
+
+#
+###################################
+
+test_results = TestResults.new("Samba crawl of samba data AND metadata for windows with limit converter")
+
+collection = Collection.new(TESTENV.test_name)
+test_results.associate(collection)
+
+collection.delete
+collection.create("default")
+
+xml = collection.xml
+xml.xpath("/vse-collection/vse-config/crawler").children.before(crawler_config)
+collection.set_xml(xml)
+
+msg "Starting crawl"
+collection.clean
+collection.crawler_start
+collection.wait_until_crawler_stopped
+msg "Crawl finished"
+
+queries.each do | query, expected |
+   source_xpath = "/query-results/added-source"
+   result = collection.search(query, {:output_duplicates => true})
+   n_returned = result.xpath(source_xpath).first['total-results'].to_i
+   test_results.add_number_equals(expected, n_returned, "'#{query}' result")
+end
+
+test_results.cleanup_and_exit!

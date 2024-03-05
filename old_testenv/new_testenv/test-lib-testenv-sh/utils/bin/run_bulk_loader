@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source $TEST_ROOT/lib/java/bulkLoader/bload_classpath
+#source $TEST_ROOT/lib/java/saveBL/bload_classpath
+
+export CLASSPATH=$CLASSPATH:$TEST_ROOT/lib/java/bulkLoader
+#export CLASSPATH=$CLASSPATH:$TEST_ROOT/lib/java/saveBL
+
+#java $TEST_ROOT/lib/java/bulkLoader/myBulkLoader $*
+#echo "java -classpath $CLASSPATH myBulkLoader $*"
+java -classpath $CLASSPATH myBulkLoader $*
+
+exit $?

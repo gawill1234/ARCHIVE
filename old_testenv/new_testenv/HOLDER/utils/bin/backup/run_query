@@ -1,0 +1,117 @@
+#!/bin/bash
+#
+#   Pyed
+#
+
+export PATH=$PATH:$TEST_ROOT/utils/bin:$TEST_ROOT/bin
+
+dumpit=0
+timeit=0
+VUSER=$VIVUSER
+VPW=$VIVPW
+VCOLLECTION=$VIVCOLLECTION
+SHOST=$VIVHOST
+PORT=$VIVPORT
+QUERY=$VIVQUERY
+DEFOUTPUT=$VIVQUERYOUTPUT
+LOGFILE=$VIVLOGFILE
+TARGETOS="$VIVTARGETOS"
+BINMODE="normal"
+
+ADMINCMD="search"
+#if [ "$TARGETOS" == "windows" ]; then
+#   ADMINCMD="search.exe"
+#fi
+
+
+while getopts "DC:U:P:Q:H:p:O:L:TB:" flag; do
+  case "$flag" in
+     C) VCOLLECTION=$OPTARG;;
+     U) VUSER=$OPTARG;;
+     P) VPW=$OPTARG;;
+     Q) QUERY=$OPTARG;;
+     H) SHOST=$OPTARG;;
+     p) PORT=$OPTARG;;
+     O) DEFOUTPUT=$OPTARG;;
+     L) LOGFILE=$OPTARG;;
+     B) BINMODE=$OPTARG;;
+     D) dumpit=1;;
+     T) timeit=1;;
+     *) echo "Usage: run_query -C <collection> -U <user> -P <password>"
+        echo "                 -Q <query> -H <hostid> -p <port>"
+        echo "                 -O <query-output-file> -L <query-log-file>"
+        exit 1;;
+  esac
+done
+
+if [ "$VCOLLECTION" == "" ]; then
+   echo "Collection name must be specified"
+   echo "Use the -C <collection> option"
+   exit 1
+fi
+
+if [ "$PORT" == "" ]; then
+   PORT=7205
+fi
+
+if [ "$SHOST" == "" ]; then
+   SHOST=127.0.0.1
+fi
+
+if [ "$LOGFILE" == "" ]; then
+   LOGFILE=/dev/null
+fi
+
+if [ "$DEFOUTPUT" == "" ]; then
+   DEFOUTPUT="query_results"
+fi
+
+if [ "$dumpit" -eq 1 ]; then
+   echo "Collection = $VCOLLECTION  (-C option) or (VIVCOLLECTION env var)"
+   echo "Query = $QUERY             (-Q option) or (VIVQUERY env var)"
+   echo "Output file = $DEFOUTPUT   (-O option) or (VIVQUERYOUTPUT env var)"
+   echo "Log file = $LOGFILE        (-L option) or (VIVLOGFILE env var)"
+   echo "Host = $SHOST               (-H option) or (VIVHOST env var)"
+   echo "Port = $PORT               (-p option) or (VIVPORT env var)"
+   echo "User = $VUSER              (-U option) or (VIVUSER env var)"
+   echo "Password = $VPW            (-P option) or (VIVCOLLECTION env var)"
+   exit 0
+fi
+
+if [ "$QUERY" != "" ]; then
+   mainstring="query=$QUERY&binning-mode=$BINMODE&num=200&staging=0&collection=$VCOLLECTION&show-duplicates=1&gen-key=0&score=0&cache=0&conversion-time=0&summarize=1&r-o-p=0&debug=1&xml-pretty=1"
+else
+   mainstring="binning-mode=$BINMODE&num=200&staging=0&collection=$VCOLLECTION&show-duplicates=1&gen-key=0&score=0&cache=0&conversion-time=0&summarize=1&r-o-p=0&debug=1&xml-pretty=1"
+fi
+
+if [ "$VUSER" != "" ]; then
+   if [ "$VPW" != "" ]; then
+      rstring="wget 'http://$SHOST:$PORT/$ADMINCMD?$mainstring&username=$VUSER&epassword=$VPW' -o $LOGFILE -O $DEFOUTPUT"
+   else
+      rstring="wget 'http://$SHOST:$PORT/$ADMINCMD?$mainstring' -o $LOGFILE -O $DEFOUTPUT"
+   fi
+else
+   rstring="wget 'http://$SHOST:$PORT/$ADMINCMD?$mainstring' -o $LOGFILE -O $DEFOUTPUT"
+fi
+
+#query_service_status -H $SHOST
+#xx=$?
+#if [ $xx -eq 0 ]; then
+#   echo "Query service not running:  starting (1 attempt)"
+#   start_query_service -H $SHOST
+#   query_service_status -H $SHOST
+#   xx=$?
+#   if [ $xx -eq 0 ]; then
+#      echo "No query service.  Exiting"
+#      exit 1
+#   fi
+#fi
+
+if [ $timeit -eq 1 ]; then
+   time `eval $rstring`
+else
+   #echo $rstring
+   eval $rstring
+fi
+
+exit 0

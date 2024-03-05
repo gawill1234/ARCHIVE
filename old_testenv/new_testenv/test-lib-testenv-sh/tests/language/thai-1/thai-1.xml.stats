@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><vse-collection><vse-status version="6.0" which="live" token="SlJLOQAHA22L" config-md5="a895eee2f4a4c07266b343d63d84e976" crawler-config-md5="3fb84d77d789c0490fdc8e37442a2a9d" indexer-config-md5="a3c1c17d71a02d8a2f3dfcac8fc670ec"><crawler-status config-md5="3fb84d77d789c0490fdc8e37442a2a9d" time="1246915949" elapsed="864" this-elapsed="864" host="all" n-input="0" n-output="0" n-errors="0" n-http-errors="0" n-http-location="0" n-filtered="0" n-robots="0" conversion-time="0" n-sub="0" n-bytes="0.000000" n-dl-bytes="0.000000" converted-size="0.000000" n-pending="0" n-redirect="0" n-duplicates="0" n-deleted="0" n-cache-complete="0" n-awaiting-index-input="0" n-awaiting-index-reply="0" n-pending-internal="0" n-awaiting-gate="0" n-awaiting-input="0" complete="complete" idle="idle" version="7.5" id="SlJqDQOCOwoe" service-status="running"><converter-timings total-ms="135"><converter-timing timing-name="text/xml -> application/vxml-unnormalized" n="10" ms="47" bytes-in="34482" bytes-out="35608" /><converter-timing timing-name="Normalization" n="10" ms="85" bytes-in="35608" bytes-out="37249" /></converter-timings><crawl-thread name="dns" ms="864472" state="idle" /><crawl-thread name="output" ms="864380" state="idle" /><crawl-thread name="reorder" ms="864479" state="initialized" /><crawl-thread name="converter" ms="864381" state="idle" /><crawl-thread name="input" ms="864472" state="idle" /><crawl-thread name="converter" ms="864479" state="initialized" /><crawl-thread name="delay" ms="864479" state="nothing delayed." /><crawl-thread name="fetcher" ms="864479" state="initialized" /><crawl-thread name="fetcher" ms="864479" state="initialized" /><crawl-thread name="fetcher" ms="864479" state="initialized" /><crawl-thread name="fetcher" ms="864479" state="initialized" /><crawl-thread name="fetcher" ms="864479" state="initialized" /><crawl-thread name="fetcher" ms="864479" state="initialized" /><crawl-thread name="fetcher" ms="864478" state="initialized" /><crawl-thread name="fetcher" ms="864478" state="initialized" /><crawl-thread name="fetcher" ms="864478" state="initialized" /><crawl-thread name="fetcher" ms="864478" state="initialized" /><crawl-thread name="manager" ms="872" state="idle" /><crawl-thread name="dns" ms="864474" state="idle" /><crawl-thread name="delay-w" ms="4" state="nothing is delayed." /><crawl-thread name="dns" ms="864474" state="idle" /><crawl-thread name="indexer output" ms="862465" state="idle" /><crawl-thread name="exec" ms="864479" state="initialized" /><crawl-thread name="gatekeeper" ms="864479" state="idle" /><crawl-thread name="dns" ms="864476" state="idle" /><crawl-thread name="dns" ms="864476" state="idle" /><crawl-thread name="converter" ms="864381" state="idle" /><crawl-thread name="fe-listener" ms="864479" state="idle" /><crawl-thread name="indexer input" ms="426" state="idle" /><crawl-hops-output><crawl-hop hop="0" n="0" /></crawl-hops-output><crawl-hops-input><crawl-hop hop="0" n="0" /></crawl-hops-input><queues><request-queue name="inputs" n="0" size="-1" total-insert="10" n-entering="1" n-producers="0" /><request-queue name="dns" n="0" size="-1" total-insert="10" n-entering="5" n-producers="0" /><request-queue name="host delay" n="0" size="10" total-insert="0" n-entering="1" n-producers="0" /><request-queue name="reordering" n="0" size="10" total-insert="0" n-entering="1" n-producers="0" /><request-queue name="url fetcher" n="0" size="10" total-insert="0" n-entering="10" n-producers="0" /><request-queue name="link extractor" n="0" size="10" total-insert="10" n-entering="3" n-producers="0" /><request-queue name="output" n="0" size="2" total-insert="20" n-entering="1" n-producers="0" /><request-queue name="indexer output" n="0" size="2" total-insert="11" n-entering="1" n-producers="0" /></queues></crawler-status><vse-index-status identifier="SlJqDwV4hApO" slice="0" n-slices="1" version="7.5" service-version="7.5" start-time="1246915085" indexing-time="864" indexed-urls="10" indexed-datas="10" indexed-docs="10" indexed-contents="140" indexed-bytes="30959" error-datas="0" error-items="0" n-docs="10" max-docs="10" config-md5="a3c1c17d71a02d8a2f3dfcac8fc670ec" running-time="864" input-port="61233" input-token="SlJqDQWRuwpO" channel-port="53695" channel-token="SlJqDQWSegpO" idle="idle" idle-time="608" idle-exit="86400" service-status="running"><vse-serving port="64366" n-queries="10" n-cached-queries="0" n-pings="0" n-documents="30" n-no-documents="2" ms-queries="45" n-threads="2" n-idle-threads="2" q-p-s-1="0" q-p-s-5="0" q-p-s-15="0.0111111" /><vse-index-file name="viv_idx_WVkbuz" fname="./viv_idx_WVkbuz" type="index" size="75264" at="1246915087" n-docs="10" max-docs="10" min-docid="0" max-docid="9"><vse-index-content name="location" n="10" words="100" /><vse-index-content name="natc" n="10" words="10" /><vse-index-content name="doc#" n="10" words="0" /><vse-index-content name="anum" n="10" words="10" /><vse-index-content name="text" n="10" words="2303" /><vse-index-content name="msgid" n="10" words="70" /><vse-index-content name="name" n="10" words="40" /><vse-index-content name="flags" n="10" words="10" /><vse-index-content name="modified" n="10" words="50" /><vse-index-content name="sensitivity" n="10" words="10" /><vse-index-content name="dtyp" n="10" words="10" /><vse-index-content name="created" n="10" words="50" /><vse-index-content name="url" n="10" words="20" /><vse-index-content name="url#" n="10" words="2853" /><vse-index-content name="importance" n="10" words="10" /><vse-index-content name="size" n="10" words="10" /></vse-index-file><vse-index-cache-statuses block-size="8192"><vse-index-cache-status fname="./viv_idx_WVkbuz" core-size="512"><vse-index-cache-status-segment i="0" size="8192" allocated="8192" last="0" /><vse-index-cache-status-segment i="1" size="40960" allocated="40960" last="0" /><vse-index-cache-status-segment i="2" size="16384" allocated="16384" last="0" /><vse-index-info max-uncompressed-size="0" multi-stream="multi-stream"><vse-index-stream stem="case" kb="none" segmenter="none" id="0" delanguage="1" wildcard-stem="case" wildcard-delanguage="1"><vse-tokenizer name="simple" /></vse-index-stream><vse-index-stream stem="depluralize" segmenter="thai" kb="none" delanguage="1" wildcard-stem="case" wildcard-delanguage="1" id="2"><vse-tokenizer name="simple" /></vse-index-stream></vse-index-info></vse-index-cache-status></vse-index-cache-statuses><vse-index-merging-status><vse-index-merger-status max-size="100" total-ms="19"><vse-index-merge-status n-segments="1" n-indices="1" start="1246915087" to-read="98304" read="98304" written="65536" end="1246915087" /><vse-index-merge-status n-segments="1" n-indices="0" start="1246915087" to-read="32768" read="32768" written="32768" end="1246915087" /></vse-index-merger-status><vse-index-merger-status min-size="100" max-size="1000" /><vse-index-merger-status min-size="1000" max-size="50000" /><vse-index-merger-status min-size="50000" /></vse-index-merging-status><reconstructor-statuses ms="11" n-pending="0"><reconstructor-status n-to-do="6" n-done="6" start="1246915087" end="1246915087" /><reconstructor-status n-to-do="4" n-done="4" start="1246915087" end="1246915087" /></reconstructor-statuses><la-scores-statuses /><vse-index-streams><vse-index-stream stem="case" kb="none" segmenter="none" id="0" delanguage="1" wildcard-stem="case" wildcard-delanguage="1"><vse-tokenizer name="simple" /></vse-index-stream><vse-index-stream stem="depluralize" segmenter="thai" kb="none" delanguage="1" wildcard-stem="case" wildcard-delanguage="1" id="2"><vse-tokenizer name="simple" /></vse-index-stream></vse-index-streams><vse-index-builder-status elapsed="831.352" n-urls="0" n-segments="0" ms="45" /><vse-index-builder-status elapsed="831.352" n-urls="0" n-segments="0" ms="34" /></vse-index-status></vse-status><vse-run which="live"><crawler><run pid="2590" path="/usr/local/vivisimo-7.5//data/collections/thai-1/crawl1" cmd="/raid0/installs/7.5/bin/crawler-service" start-time="1246915085" pipe-name="/raid0/installs/7.5/data/collections/thai-1/crawl1/crawler-service.pipe" /></crawler><vse-index><run pid="2638" path="/usr/local/vivisimo-7.5//data/collections/thai-1/crawl1" cmd="/raid0/installs/7.5/bin/indexer-service" start-time="1246915085" pipe-name="/raid0/installs/7.5/data/collections/thai-1/crawl1/indexer-service.pipe" /></vse-index></vse-run><vse-meta name="thai-1" modified="1246915077" which="staging" /><vse-meta name="thai-1" modified="1246915077" which="live" /><vse-test-it-values><test-it-values name="SlJngQHVe0IV" last-accessed="1246914435"><with name="test-xml"><![CDATA[<crawl-url url="thai:///4" status="complete" elt-id="213">
+  <crawl-data encoding="xml" content-type="text/xml" elt-id="189">
+    <document elt-id="212">
+      <msgid elt-id="190">Google คืออะไร.msg</msgid>
+      <anum elt-id="191">0</anum>
+      <location elt-id="192">D:\CDCData\THA\Google คืออะไร.msg</location>
+      <created elt-id="193">2008-07-02T04:24:29</created>
+      <modified elt-id="194">2008-07-02T11:38:11</modified>
+      <size elt-id="195">0</size>
+      <dtyp elt-id="196">msg</dtyp>
+      <importance elt-id="197">1</importance>
+      <sensitivity elt-id="198">0</sensitivity>
+      <flags elt-id="199">2</flags>
+      <text elt-id="202">
+        <subj elt-id="200">Google คืออะไร</subj>
+        <cont elt-id="201">Googol เป็นศัพท์คณิตศาสตร์ หมายถึง 1 ตามด้วยศูนย์ 100 ตัว คำนี้บัญญัติขึ้นโดย Milton Sirotta หลานของนักคณิตศาสตร์ชาวอเมริกา Edward Kasner และได้รับการยอมรับในหนังสือ "Mathematics and the Imagination" โดย Kasner และ James Newman Google แปลงมาจากคำนี้ เพื่อสะท้อนถึงพันธกิจของบริษัทที่จะจัดระเบียบข้อมูลซึ่งสามารถใช้ได้บน เว็บที่มีปริมาณมหาศาลและดูเหมือนจะไม่มีที่สิ้นสุด
+</cont>
+      </text>
+      <name elt-id="210">
+        <auth elt-id="204">
+          <dn elt-id="203">Vault Admin</dn>
+        </auth>
+        <recp elt-id="209">
+          <reto elt-id="206">
+            <dn elt-id="205">Zhi Ci Wu</dn>
+          </reto>
+          <recc elt-id="207" />
+          <rbcc elt-id="208" />
+        </recp>
+      </name>
+      <natc elt-id="211">0</natc>
+    </document>
+  </crawl-data>
+
+</crawl-url>
+]]></with></test-it-values><test-it-values name="SlJnXgb46EHj" last-accessed="1246914400"><with name="test-xml"><![CDATA[<crawl-url url="thai:///4" status="complete" elt-id="213">
+  <crawl-data encoding="xml" content-type="text/xml" elt-id="189">
+</crawl-data>
+  <document elt-id="212">
+    <msgid elt-id="190">Google คืออะไร.msg</msgid>
+    <anum elt-id="191">0</anum>
+    <location elt-id="192">D:\CDCData\THA\Google คืออะไร.msg</location>
+    <created elt-id="193">2008-07-02T04:24:29</created>
+    <modified elt-id="194">2008-07-02T11:38:11</modified>
+    <size elt-id="195">0</size>
+    <dtyp elt-id="196">msg</dtyp>
+    <importance elt-id="197">1</importance>
+    <sensitivity elt-id="198">0</sensitivity>
+    <flags elt-id="199">2</flags>
+    <text elt-id="202">
+      <subj elt-id="200">Google คืออะไร</subj>
+      <cont elt-id="201">Googol เป็นศัพท์คณิตศาสตร์ หมายถึง 1 ตามด้วยศูนย์ 100 ตัว คำนี้บัญญัติขึ้นโดย Milton Sirotta หลานของนักคณิตศาสตร์ชาวอเมริกา Edward Kasner และได้รับการยอมรับในหนังสือ "Mathematics and the Imagination" โดย Kasner และ James Newman Google แปลงมาจากคำนี้ เพื่อสะท้อนถึงพันธกิจของบริษัทที่จะจัดระเบียบข้อมูลซึ่งสามารถใช้ได้บน เว็บที่มีปริมาณมหาศาลและดูเหมือนจะไม่มีที่สิ้นสุด
+</cont>
+    </text>
+    <name elt-id="210">
+      <auth elt-id="204">
+        <dn elt-id="203">Vault Admin</dn>
+      </auth>
+      <recp elt-id="209">
+        <reto elt-id="206">
+          <dn elt-id="205">Zhi Ci Wu</dn>
+        </reto>
+        <recc elt-id="207"/>
+        <rbcc elt-id="208"/>
+      </recp>
+    </name>
+    <natc elt-id="211">0</natc>
+  </document>
+</crawl-url>]]></with></test-it-values><test-it-values name="SlJfYwdFNn6-" last-accessed="1246912399"><with name="test-xml"><![CDATA[<crawl-url url="thai:///5" status="complete" elt-id="238">
+  <crawl-data encoding="xml" content-type="text/xml" elt-id="237">
+    <document elt-id="236">
+      <msgid elt-id="214">google toolbar.msg</msgid>
+      <anum elt-id="215">0</anum>
+      <location elt-id="216">D:\CDCData\THA\google toolbar.msg</location>
+      <created elt-id="217">2008-07-02T04:27:56</created>
+      <modified elt-id="218">2008-07-02T11:38:11</modified>
+      <size elt-id="219">0</size>
+      <dtyp elt-id="220">msg</dtyp>
+      <importance elt-id="221">1</importance>
+      <sensitivity elt-id="222">0</sensitivity>
+      <flags elt-id="223">2</flags>
+      <text elt-id="226">
+        <subj elt-id="224">google toolbar</subj>
+        <cont elt-id="225">]]>&#160;<![CDATA[
+เมื่อคุณเข้าสู่ www.google.com หรือโดเมนอื่นๆ ของ Google คุณจะสามารถค้นหาข้อมูลในภาษาต่างๆ มากมาย ตรวจสอบราคาหุ้น แผนที่ และพาดหัวข่าว ค้นหารายชื่อในสมุดโทรศัพท์สำหรับทุกเมืองในสหรัฐอเมริกา ค้นหา รูปภาพ นับพันล้านรูป และพิจารณาคลังข้อความ Usenet ที่ใหญ่ที่สุดในโลก คือมากกว่า 1 พันล้านบทความนับตั้งแต่ปี 1981
+
+เรายังมีวิธีการเข้าถึงข้อมูลเหล่านี้ทั้งหมด โดยไม่ต้องเสียเวลาไปที่หน้าแรกของ Google Google Toolbar ช่วยให้คุณค้นหากับ Google จากที่ใดก็ได้ในเว็บ และสำหรับกรณีที่คุณไม่อยู่ใกล้คอมพิวเตอร์ คุณยังสามารถใช้ Google จากแพลตฟอร์มไร้สาย รวมถึงโทรศัพท์ WAP และ i-mode
+
+
+</cont>
+      </text>
+      <name elt-id="234">
+        <auth elt-id="228">
+          <dn elt-id="227">Vault Admin</dn>
+        </auth>
+        <recp elt-id="233">
+          <reto elt-id="230">
+            <dn elt-id="229">Zhi Ci Wu</dn>
+          </reto>
+          <recc elt-id="231"/>
+          <rbcc elt-id="232"/>
+        </recp>
+      </name>
+      <natc elt-id="235">0</natc>
+    </document>
+  </crawl-data>
+</crawl-url>]]></with></test-it-values><test-it-values name="SlJfiAjte38i" last-accessed="1246912394"><with name="test-xml"><![CDATA[<crawl-url url="thai:///5" status="complete" elt-id="238">
+  <crawl-data encoding="xml" content-type="text/xml" elt-id="237">
+    <document elt-id="236">
+      <msgid elt-id="214">google toolbar.msg</msgid>
+      <anum elt-id="215">0</anum>
+      <location elt-id="216">D:\CDCData\THA\google toolbar.msg</location>
+      <created elt-id="217">2008-07-02T04:27:56</created>
+      <modified elt-id="218">2008-07-02T11:38:11</modified>
+      <size elt-id="219">0</size>
+      <dtyp elt-id="220">msg</dtyp>
+      <importance elt-id="221">1</importance>
+      <sensitivity elt-id="222">0</sensitivity>
+      <flags elt-id="223">2</flags>
+      <text elt-id="226">
+        <subj elt-id="224">google toolbar</subj>
+        <cont elt-id="225"><![CDATA[]]]><![CDATA[]>&#160;<![CDATA[
+เมื่อคุณเข้าสู่ www.google.com หรือโดเมนอื่นๆ ของ Google คุณจะสามารถค้นหาข้อมูลในภาษาต่างๆ มากมาย ตรวจสอบราคาหุ้น แผนที่ และพาดหัวข่าว ค้นหารายชื่อในสมุดโทรศัพท์สำหรับทุกเมืองในสหรัฐอเมริกา ค้นหา รูปภาพ นับพันล้านรูป และพิจารณาคลังข้อความ Usenet ที่ใหญ่ที่สุดในโลก คือมากกว่า 1 พันล้านบทความนับตั้งแต่ปี 1981
+
+เรายังมีวิธีการเข้าถึงข้อมูลเหล่านี้ทั้งหมด โดยไม่ต้องเสียเวลาไปที่หน้าแรกของ Google Google Toolbar ช่วยให้คุณค้นหากับ Google จากที่ใดก็ได้ในเว็บ และสำหรับกรณีที่คุณไม่อยู่ใกล้คอมพิวเตอร์ คุณยังสามารถใช้ Google จากแพลตฟอร์มไร้สาย รวมถึงโทรศัพท์ WAP และ i-mode
+
+
+]]]><![CDATA[]></cont>
+      </text>
+      <name elt-id="234">
+        <auth elt-id="228">
+          <dn elt-id="227">Vault Admin</dn>
+        </auth>
+        <recp elt-id="233">
+          <reto elt-id="230">
+            <dn elt-id="229">Zhi Ci Wu</dn>
+          </reto>
+          <recc elt-id="231" />
+          <rbcc elt-id="232" />
+        </recp>
+      </name>
+      <natc elt-id="235">0</natc>
+    </document>
+  </crawl-data>
+</crawl-url>
+]]></with></test-it-values><test-it-values name="SlJQJAHnz29Y" last-accessed="1246908462"><with name="test-xml"><![CDATA[<crawl-url url="thai:///9" status="complete" elt-id="338">
+  <crawl-data encoding="xml" content-type="text/xml" elt-id="337">
+    <document elt-id="336">
+      <msgid elt-id="314">ภาพรวมของบริษัท.msg</msgid>
+      <anum elt-id="315">0</anum>
+      <location elt-id="316">D:\CDCData\THA\ภาพรวมของบริษัท.msg</location>
+      <created elt-id="317">2008-07-02T04:34:44</created>
+      <modified elt-id="318">2008-07-02T11:38:12</modified>
+      <size elt-id="319">0</size>
+      <dtyp elt-id="320">msg</dtyp>
+      <importance elt-id="321">1</importance>
+      <sensitivity elt-id="322">0</sensitivity>
+      <flags elt-id="323">2</flags>
+      <text elt-id="326">
+        <subj elt-id="324">ภาพรวมของบริษัท</subj>
+        <cont elt-id="325">พันธกิจของ Google คือการจัดระเบียบข้อมูลของโลกให้สามารถเข้าถึงได้และมีประโยชน์ต่อทุกคน
+
+สำหรับขั้นแรกในการปฏิบัติตามพันธกิจนี้ ผู้ก่อตั้ง Google คือ Larry Page และ Sergey Brin ได้พัฒนาแนวทางใหม่ในการค้นหาออนไลน์จากห้องพักใน Stanford University และแพร่หลายไปสู่ผู้แสวงหาข้อมูลทั่วโลกอย่างรวดเร็ว ปัจจุบัน Google ได้รับการยอมรับว่าเป็นเครื่องมือค้นหาที่ใหญ่ที่สุดในเว็บ เป็นบริการฟรีที่ใช้งานง่าย และมักจะให้ผลลัพธ์ที่เกี่ยวข้องในเวลาเพียงเสี้ยววินาที
+
+เมื่อคุณเข้าสู่ www.google.com หรือโดเมนอื่นๆ ของ Google คุณจะสามารถค้นหาข้อมูลในภาษาต่างๆ มากมาย ตรวจสอบราคาหุ้น แผนที่ และพาดหัวข่าว ค้นหารายชื่อในสมุดโทรศัพท์สำหรับทุกเมืองในสหรัฐอเมริกา ค้นหา รูปภาพ นับพันล้านรูป และพิจารณาคลังข้อความ Usenet ที่ใหญ่ที่สุดในโลก คือมากกว่า 1 พันล้านบทความนับตั้งแต่ปี 1981
+
+เรายังมีวิธีการเข้าถึงข้อมูลเหล่านี้ทั้งหมด โดยไม่ต้องเสียเวลาไปที่หน้าแรกของ Google Google Toolbar ช่วยให้คุณค้นหากับ Google จากที่ใดก็ได้ในเว็บ และสำหรับกรณีที่คุณไม่อยู่ใกล้คอมพิวเตอร์ คุณยังสามารถใช้ Google จากแพลตฟอร์มไร้สาย รวมถึงโทรศัพท์ WAP และ i-mode
+
+เครื่องมือของ Google และการใช้งานที่แสนสะดวกทำให้ชื่อนี้ที่เป็นที่รู้จักมากที่สุดในโลก ผ่านทางคำแนะนำจากผู้ใช้ที่พึงพอใจ ในฐานะที่เป็นธุรกิจ Google สร้างรายได้จากการให้โฆษณาพร้อมด้วยโอกาสในการแสดงโฆษณาออนไลน์ที่วัดผลได้ และมีความเกี่ยวข้องกับข้อมูลที่แสดงอยู่บนหน้าเว็บต่างๆ ทำให้โฆษณามีประโยชน์ต่อคุณ และผู้โฆษณาที่แสดงโฆษณานั้น เราเชื่อว่าคุณคงทราบเมื่อมีคนจ่ายเงินเพื่อแสดงข้อความต่อหน้าคุณ เราจึงแยกความแตกต่างของโฆษณาจากผลลัพธ์การค้นหา หรือเนื้อหาอื่นๆ บนหน้าเว็บ เราไม่ขายตำแหน่งการโฆษณาในผลลัพธ์การค้นหา หรือยอมให้มีการจ่ายเงินเพื่อให้ได้อันดับที่ดีกว่า
+
+ผู้โฆษณานับพันๆ รายใช้โปรแกรม Google AdWords ของเราเพื่อส่งเสริมการขายผลิตภัณฑ์ของตน เราเชื่อมั่นว่า AdWords เป็นโปรแกรมที่ใหญ่ที่สุดในประเภทเดียวกัน นอกจากนี้ ผู้จัดการเว็บไซต์นับพันๆ รายใช้ประโยชน์จากโปรแกรม Google AdSense ของเราเพื่อแสดงโฆษณาที่เกี่ยวข้องกับเนื้อหาบนเว็บไซต์ของตน ทำให้สามารถสร้างรายได้และปรับปรุงประสบการณ์ในการใช้งานของผู้ใช้ได้ดียิ่ง ขึ้น
+
+Google คืออะไร 
+
+Googol เป็นศัพท์คณิตศาสตร์ หมายถึง 1 ตามด้วยศูนย์ 100 ตัว คำนี้บัญญัติขึ้นโดย Milton Sirotta หลานของนักคณิตศาสตร์ชาวอเมริกา Edward Kasner และได้รับการยอมรับในหนังสือ "Mathematics and the Imagination" โดย Kasner และ James Newman Google แปลงมาจากคำนี้ เพื่อสะท้อนถึงพันธกิจของบริษัทที่จะจัดระเบียบข้อมูลซึ่งสามารถใช้ได้บน เว็บที่มีปริมาณมหาศาลและดูเหมือนจะไม่มีที่สิ้นสุด
+
+ 
+</cont>
+      </text>
+      <name elt-id="334">
+        <auth elt-id="328">
+          <dn elt-id="327">Vault Admin</dn>
+        </auth>
+        <recp elt-id="333">
+          <reto elt-id="330">
+            <dn elt-id="329">Zhi Ci Wu</dn>
+          </reto>
+          <recc elt-id="331"/>
+          <rbcc elt-id="332"/>
+        </recp>
+      </name>
+      <natc elt-id="335">0</natc>
+    </document>
+  </crawl-data>
+</crawl-url>]]></with></test-it-values></vse-test-it-values><collection-service-status><remote-status user="palmer" password="FGLLBDBHPOANHKMOPMPHKHJMBFMFKGJNPJOOHINDHEMHAKDOCCCNEKHFNINNOINBKMBCMNOINBKMLNOINBKMFLCOLGOLOLEPNBCFBMGBOE" email="palmer@vivisimo.com" admin-url="http://pt.vivisimo.com/7.5/cgi-bin/admin" /></collection-service-status></vse-collection>

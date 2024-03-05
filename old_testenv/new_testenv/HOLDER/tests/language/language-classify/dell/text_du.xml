@@ -1,0 +1,952 @@
+<testset>
+<test>
+<data>
+INSPIRON
+INSTALLATIE HANDLEIDING
+
+™
+
+INSPIRON
+INSTALLATIE HANDLEIDING
+
+™
+
+Regelgevingsmodel: D03U-serie
+
+Regelgevingstype: D03U001
+
+Opmerkingen, waarschuwingen en gevaar-kennisgevingen
+N.B.: Duidt belangrijke informatie aan voor een beter gebruik van de computer. WAARSCHUWINGEN: Duidt potentiële schade aan hardware of potentieel gegevensverlies aan en vertelt u hoe het probleem kan worden vermeden. GEVAAR: Duidt een risico aan van schade aan eigendommen, lichamelijk letsel of overlijden.
+Als u een Dell™-computer uit de n-serie hebt aangeschaft, zijn de verwijzingen naar de Microsoft® Windows®besturingssystemen in dit document niet van toepassing. __________________ De informatie in dit document kan zonder voorafgaande kennisgeving worden gewijzigd. © 2010 Dell Inc. Alle rechten voorbehouden. Verveelvoudiging van deze materialen op welke wijze dan ook zonder schriftelijke toestemming van Dell Inc. is strikt verboden. In deze tekst worden de volgende handelsmerken gebruikt: Dell, het DELL-logo, YOURS IS HERE, Solution Station, Inspiron, en DellConnect zijn handelsmerken van Dell Inc.; AMD, AMD Athlon, AMD Turion, AMD Phenom, en ATI Mobility Radeon zijn handelsmerken van Advanced Micro Devices, Inc.; Microsoft, Windows, en het logo van de Windows-startknop zijn (gedeponeerde) handelsmerken van Microsoft Corporation in de Verenigde Staten en/of andere landen; Blu-ray Disc is een handelsmerk van de Blu-ray Disc Association; Ubuntu is een gedeponeerd handelsmerk van Canonical Ltd. Overige handelsmerken en handelsnamen kunnen in dit document worden gebruikt om naar entiteiten te verwijzen die het eigendomsrecht op die merken en de namen van hun producten claimen. Dell Inc. claimt op geen enkele wijze enig eigendomsrecht ten aanzien van andere handelsmerken of handelsnamen dan haar eigen handelsmerken en handelsnamen.
+
+Mei 2010
+
+P/N 8KNT4
+
+Rev. A00
+
+Inhoud
+Uw Inspiron-desktop installeren . . . . . . . . . . .5
+Voordat u de computer installeert . . . . . . . . . . . 5 Het beeldscherm aansluiten . . . . . . . . . . . . . . . . 6 Thuisbioscoop instellen (optioneel) . . . . . . . . . . 8 Het toetsenbord en de muis aansluiten . . . . . . 13 De netwerkkabel aansluiten (optioneel) . . . . . 14 De netadapter aansluiten. . . . . . . . . . . . . . . . . . 15 Druk op de aan/uitknop. . . . . . . . . . . . . . . . . . . . 16 Het besturingssysteem installeren . . . . . . . . . . 17 Middelen voor systeemherstel maken (aanbevolen) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 Verbinding maken met internet (optioneel) . . . 19 Software-onderdelen . . . . . . . . . . . . . . . . . . . . . 29 Dell Dock . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 Dell DataSafe Online Backup. . . . . . . . . . . . . . . 32
+
+Problemen oplossen . . . . . . . . . . . . . . . . . . . . .33
+Pieptooncodes . . . . . . . . . . . . . . . . . . . . . . . . . . . 33 Netwerkproblemen . . . . . . . . . . . . . . . . . . . . . . . 34 Voedingsproblemen. . . . . . . . . . . . . . . . . . . . . . . 35 Geheugenproblemen . . . . . . . . . . . . . . . . . . . . . 37 Vastlopen en softwareproblemen . . . . . . . . . . 38
+
+Ondersteuningshulpmiddelen gebruiken . . .40
+Dell Support Center . . . . . . . . . . . . . . . . . . . . . . . 40 My Dell Downloads . . . . . . . . . . . . . . . . . . . . . . . 41 Systeemberichten . . . . . . . . . . . . . . . . . . . . . . . . 41 Probleemoplosser voor hardware . . . . . . . . . . 44 Dell Diagnostics (Dell Diagnostiek) . . . . . . . . . 44
+
+De Inspiron-desktop gebruiken. . . . . . . . . . . .22
+Onderdelen voorzijde . . . . . . . . . . . . . . . . . . . . . 22 Bovenaanzicht . . . . . . . . . . . . . . . . . . . . . . . . . . . 24 Functies aan de achterzijde. . . . . . . . . . . . . . . . 26
+
+3
+
+Inhoud
+
+Het besturingssysteem herstellen . . . . . . . . .49
+Systeemherstel. . . . . . . . . . . . . . . . . . . . . . . . . . . 50 Dell DataSafe Local Backup . . . . . . . . . . . . . . . 51 Middelen voor systeemherstel . . . . . . . . . . . . . 54 Dell Factory Image Restore . . . . . . . . . . . . . . . . 55
+
+Meer informatie en bronnen. . . . . . . . . . . . . . .66 Specificaties . . . . . . . . . . . . . . . . . . . . . . . . . . . .69 Bijlage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .74
+Kennisgeving over Macrovision . . . . . . . . . . . . 74 Informatie over de officiële Mexicaanse NOM-norm (alleen voor Mexico) . . . . . . . . . . . 75
+
+Hulp verkrijgen . . . . . . . . . . . . . . . . . . . . . . . . . .57
+Technische ondersteuning en klantenservice . . . . . . . . . . . . . . . . . . . . . . . . . . . 58 DellConnect . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59 Online services. . . . . . . . . . . . . . . . . . . . . . . . . . . 59 Geautomatiseerde bestelstatusservice. . . . . . 60 Productinformatie . . . . . . . . . . . . . . . . . . . . . . . . 61 Items retourneren voor reparatie of restitutie onder de garantie. . . . . . . . . . . . . . . . . . . . . . . . . 61 Voordat u belt . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63 Contact opnemen met Dell. . . . . . . . . . . . . . . . . 65
+
+Index . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .76
+
+4
+
+INSPIRON
+
+Uw Inspiron-desktop installeren
+In dit gedeelte vindt u informatie over het installeren van uw Dell™ Inspiron™-desktop. GEVAAR: Voordat u aan een van de procedures in dit gedeelte begint, dient u de veiligheidsinstructies te lezen die bij de computer zijn meegeleverd. Raadpleeg voor meer informatie over aanbevolen procedures op het gebied van veiligheid onze website over de naleving van wet- en regelgeving op www.dell.com/regulatory_compliance.
+
+Voordat u de computer installeert
+Let er bij het plaatsen van de computer op dat zich een stroombron in de buurt bevindt, dat er voldoende ventilatie is en een vlakke ondergrond om de computer op te plaatsen. Als de luchtstroom rond uw computer wordt gehinderd, kan dit leiden tot oververhitting. Om oververhitting te voorkomen, dient u ten minste 10,2 cm ruimte vrij te laten aan de achterzijde van de computer en minimaal 5,1 cm aan alle overige zijden. U mag de computer nooit ingeschakeld in een afgesloten ruimte, zoals een kast of een lade, plaatsen.
+
+5
+
+Uw Inspiron-desktop installeren
+
+Het beeldscherm aansluiten
+N.B.: U kunt uw computer ook op de tv aansluiten. Zie voor meer informatie “Thuisbioscoop instellen (optioneel) ” op pagina 8.
+Sluit de kabel van het beeldscherm aan op de ingebouwde VGA-connector of de HDMI-connector. Voor de beste prestaties sluit u het beeldscherm aan op de HDMI-connector. U kunt een HDMI-DVI-adapter en extra HDMI-kabels aanschaffen op www.dell.com.
+
+Gebruik de juiste kabel voor de beschikbare connectors van uw computer en beeldscherm. De gegevens over de connectors van uw computer en beeldscherm staan beschreven in de volgende tabel. N.B.: Als u één beeldscherm wilt gebruiken, moet u dit op SLECHTS ÉÉN van de connectors van uw computer aansluiten.
+
+6
+
+Uw Inspiron-desktop installeren
+
+Type aansluiting VGA-naar-VGA (VGA-kabel) HDMI-naar-HDMI (HDMI-kabel) HDMI-naar-DVI (HDMI-DVI-adapter + DVI-kabel)
+
+Computer
+
+Kabel
+
+Beeldscherm
+
+7
+
+Uw Inspiron-desktop installeren
+
+Thuisbioscoop instellen (optioneel)
+U kunt de thuisbioscoop instellen door uw computer rechtstreeks aan te sluiten op een flatscreenmonitor of dit te doen via een audio/video-ontvanger met HDMI-kabel(s).
+
+N.B.: De HDMI-kabel(s) voor het draadloze beeldscherm wordt/worden niet bij de computer geleverd en moet/moeten apart worden aangeschaft. U kunt een HDMI-kabel kopen op www.dell.com.
+
+Rechtstreeks aansluiten op de flatscreenmonitor
+1. Sluit het toetsenbord en de muis aan (zie “Het toetsenbord en de muis aansluiten” op pagina 13) 2. Voor audio- en video-output: Sluit het ene uiteinde van de HDMI-kabel aan op de HDMIconnector op uw computer en het andere op een beschikbare HDMI-connector op uw flatscreenmonitor. 3. Voor extra audio-uitvoer (optioneel): sluit de analoge 2.1-audiokabel aan op de line-outconnector op uw computer en leg de juiste verbindingen naar uw 2.1 kanaals luidsprekers.
+
+8
+
+Uw Inspiron-desktop installeren
+
+Audio/Video Flatscreenmonitor Line-out Analoge 2.1-audio Optioneel
+
+2.1 kanaals luidsprekers
+
+9
+
+Uw Inspiron-desktop installeren
+
+Verbind de flatscreenmonitor via de audio/video-ontvanger
+1. Sluit het toetsenbord en de muis aan (zie “Het toetsenbord en de muis aansluiten” op pagina 13) 2. Voor audio- en video-uitvoer: a. sluit het ene uiteinde van de HDMI-kabel aan op de HDMI-connector op uw computer en het andere op een beschikbare HDMI-connector op uw audio/video-ontvanger. b. sluit het ene uiteinde van de HDMI-kabel aan op de HDMI-uitvoerconnector op uw audio/ video-ontvanger en het andere op een beschikbare HDMI-connector op uw flatscreenmonitor. 3. Voor extra audio-uitvoer (optioneel): – Analoge 2.1-audio: Sluit de analoge 2.1-audiokabel aan op de line-outconnector op uw computer en leg de juiste verbindingen naar uw 2.1-kanaals luidsprekers. – Digitale 7.1-audio: a. Sluit het ene uiteinde van de optische S/PDIF-kabel aan op de optische S/PDIF-connector op uw computer en het andere op een beschikbare optische S/PDIF-connector op uw audio/video-ontvanger. b. Sluit de 7.1 kanaals audiokabels van de audio/video-ontvanger aan op de 7.1 kanaals luidsprekers.
+
+10
+
+Uw Inspiron-desktop installeren
+
+Audio/Video Optische S/PDIF digitale 7.1-audio Line-out analoge 2.1-audio A/V-ontvanger
+
+Audio/Video Flatscreenmonitor
+
+Optioneel
+
+7.1 kanaals luidsprekers 7.1 kanaals luidsprekers
+
+Optioneel
+
+11
+
+Uw Inspiron-desktop installeren
+
+De scherminstelling wijzigen
+Met de scherminstelling kunt u het beeld aanpassen aan uw beeldscherm. U past de scherminstelling als volgt aan: 1. Zorg ervoor dat de computer aan staat. 2. Klik op Starten → Alle Programma’s → Catalyst Control Center → CCC. 3. Klik in het venster Catalyst™ Control Center op Graphics → Desktops & Displays. 4. In het venster Desktops & Displays klikt u op het beeld dat u wilt configureren. 5. Selecteer Configure.... 6. Selecteer in het venster dat verschijnt het tabblad Scaling Options. 7. Pas de vormgeving zodanig aan dat het beeld op het scherm past. 8. Klik op OK.
+
+12
+
+Uw Inspiron-desktop installeren
+
+Het toetsenbord en de muis aansluiten
+Sluit het USB-toetsenbord en de USB-muis aan op de USB-connectors op de achterzijde van de computer. N.B.: Als u een Wireless Trackball Keyboard van Dell hebt gekocht, raadpleegt u de documentatie die is meegestuurd om het draadloze toetsenbord te installeren.
+
+13
+
+Uw Inspiron-desktop installeren
+
+De netwerkkabel aansluiten (optioneel)
+Voor het voltooien van de installatie van uw computer is geen netwerkverbinding vereist, maar als u een bestaand netwerk of een bestaande internetverbinding gebruikt via een vaste verbinding (zoals een breedbandservice of ethernetaansluiting) kunt u deze nu aansluiten. N.B.: Gebruik alleen een ethernetkabel voor aansluiting op de netwerkconnector (RJ45connector). Sluit geen telefoonkabel (RJ11-connector) aan op de netwerkconnector. U sluit de computer aan op een netwerk- of breedbandapparaat door het ene uiteinde van een netwerkkabel aan te sluiten op de netwerkpoort of het breedbandapparaat. Sluit het andere uiteinde van de netwerkkabel aan op de netwerkconnector (RJ45-connector) op de achterzijde van de computer. Een klikgeluid geeft aan dat de netwerkkabel goed vastzit.
+
+14
+
+Uw Inspiron-desktop installeren
+
+De netadapter aansluiten
+
+15
+
+Uw Inspiron-desktop installeren
+
+Druk op de aan/uitknop
+
+16
+
+Uw Inspiron-desktop installeren
+
+Het besturingssysteem installeren
+Uw computer is vooraf geconfigureerd met het besturingssysteem dat u bij de bestelling hebt uitgekozen.
+
+WAARSCHUWINGEN: Onderbreek het installatieproces van het besturingssysteem niet. Als u dit wel doet, kan uw computer onbruikbaar worden en moet u het besturingssysteem opnieuw installeren. N.B.: Het wordt aanbevolen om de nieuwste BIOS en stuurprogramma's te downloaden voor uw computer, die beschikbaar zijn op support.dell.com. N.B.: Kijk op support.dell.com/MyNewDell voor meer informatie over het besturingssysteem en functies.
+
+Microsoft Windows configureren
+Volg de instructies op het scherm om Microsoft® Windows® voor het eerst te installeren. Deze stappen zijn vereist en het kan enige tijd duren voordat ze zijn voltooid. De instellingsschermen van Windows leiden u door verschillende procedures, zoals het accepteren van licentieovereenkomsten, het instellen van voorkeuren en het instellen van een internetverbinding.
+
+Ubuntu Linux installeren
+Volg de instructies op het scherm om Ubuntu Linux voor de eerste keer te configureren.
+
+17
+
+Uw Inspiron-desktop installeren
+
+Middelen voor systeemherstel maken (aanbevolen)
+N.B.: Aanbevolen wordt om middelen voor systeemherstel te maken voordat u Microsoft Windows installeert. De middelen voor systeemherstel kunnen worden gebruikt om het systeem terug te zetten naar de status waarin het verkeerde toen u de computer kocht, terwijl gegevensbestanden behouden blijven (zonder de schijf met het besturingssysteem te gebruiken). Middelen voor systeemherstel kunnen van pas komen als de computer niet meer goed functioneert na wijzigingen aan de hardware, software, stuurprogramma's of andere systeeminstellingen. Om middelen voor systeemherstel te maken, hebt u het volgende nodig: •	Dell DataSafe Local Backup •	USB-stick met een minimumcapaciteit van 8 GB of een DVD-R/DVD+R/Blu-ray Disc™
+
+N.B.: Dell DataSafe Local Backup ondersteunt geen herschrijfbare schijven. Een middel voor systeemherstel maken: 1. Zorg ervoor dat de computer aan staat. 2. Plaats de schijf in de computer of steek de USB-stick in een vrije poort. → Programma's→ Dell 3. Klik op Start DataSafe Local Backup. 4. Klik opMiddelen voor systeemherstel maken. 5. Volg de aanwijzingen op het scherm. N.B.: Zie “Middelen voor systeemherstel” op pagina 54 voor meer informatie over middelen voor systeemherstel.
+
+18
+
+Uw Inspiron-desktop installeren
+
+Verbinding maken met internet (optioneel)
+Als u verbinding met internet wilt maken, hebt u een externe modem of netwerkverbinding en een internetaanbieder (ISP) nodig. Als u aanvankelijk geen externe USB-modem of WLAN-adapter hebt aangeschaft, kunt u deze aanschaffen op www.dell.com.
+
+U voltooit de instelling van de vaste internetverbinding door de instructies te volgen in “De internetverbinding instellen” op pagina 20.
+
+Een draadloze verbinding instellen
+N.B.: Voor het instellen van uw draadloze router raadpleegt u de documentatie die bij uw router werd geleverd. Voordat u de draadloze internetverbinding kunt gebruiken, moet u de computer aansluiten op uw draadloze router. Verbinding met een draadloze router instellen:
+
+Een kabelverbinding instellen
+•	Als u een inbelverbinding gebruikt, sluit u het telefoonsnoer aan op de externe USB-modem (optioneel) en op de telefoonaansluiting voordat u de internetverbinding instelt. •	Als u een ADSL- of kabel-/satellietmodem gebruikt, moet u contact opnemen met uw internetprovider of uw aanbieder voor mobiele telefonie voor installatie-instructies.
+
+Windows® 7
+1. Sla eventueel geopende bestanden op en sluit deze bestanden en eventueel geopende programma's af. 2. Klik op Start → Configuratiescherm. 3. In het zoekvak typt u netwerk; klik vervolgens op Netwerkcentrum→ Verbinding met een netwerk maken.
+
+19
+
+Uw Inspiron-desktop installeren
+
+4. Volg de instructies op het scherm om de instelling te voltooien.
+
+Windows Vista®
+1. Sla eventueel geopende bestanden op en sluit deze bestanden en eventueel geopende programma's af. 2. Klik op Start → Verbinding maken. 3. Volg de instructies op het scherm om de instelling te voltooien.
+
+Zorg dat u de informatie van uw internetprovider bij de hand hebt. Als u geen internetprovider hebt, kan de wizard Verbinding maken met het Internet u helpen om een internetaanbieder te vinden. De internetverbinding instellen:
+
+Windows 7
+1. Sla eventueel geopende bestanden op en sluit deze bestanden en eventueel geopende programma's af. 2. Klik op Start → Configuratiescherm. 3. In het zoekvak typt u netwerk; klik vervolgens op Netwerkcentrum→ Een nieuwe verbinding of een nieuw netwerk instellen→ Verbinding met internet maken. Het venster Verbinding met internet maken verschijnt. N.B.: Als u niet weet welk type verbinding u moet selecteren, klikt u op Help me bij het selecteren of neemt u contact op met uw internetaanbieder.
+
+De internetverbinding instellen
+Internetaanbieders en hun aanbod zijn per land verschillend. Neem contact op met uw internetaanbieder voor informatie over het aanbod in uw land. Als u nu geen verbinding met internet kunt maken, maar dit eerder wel is gelukt, is er mogelijk een storing bij de internetprovider. Neem contact op met uw internetaanbieder of probeer het later nog eens.
+
+20
+
+Uw Inspiron-desktop installeren
+
+4. Volg de instructies op het scherm en gebruik de installatie-informatie van uw internetprovider om de installatie te voltooien.
+
+4. Volg de instructies op het scherm en gebruik de installatie-informatie van uw internetprovider om de installatie te voltooien.
+
+Windows Vista
+1. Sla eventueel geopende bestanden op en sluit deze bestanden en eventueel geopende programma's af. 2. Klik op Start → Configuratiescherm. 3. In het zoekvak typt u netwerk; klik vervolgens op Netwerkcentrum→ Een verbinding of netwerk instellen→ Verbinding met internet maken. Het venster Verbinding met internet maken verschijnt. N.B.: Als u niet weet welk type verbinding u moet selecteren, klikt u op Help me bij het selecteren of neemt u contact op met uw internetaanbieder.
+
+21
+
+INSPIRON
+
+De Inspiron-desktop gebruiken
+In dit gedeelte vindt u informatie over de onderdelen van de Inspiron™-desktop.
+
+Onderdelen voorzijde
+1 2
+
+6
+
+5
+
+4
+
+3
+
+22
+
+De Inspiron-desktop gebruiken
+
+1 Optische schijf (optie): voor het afspelen of opnemen van standaard (12 cm) cd's, dvd's, en Blu-ray Discs. Wilt u een schijf plaatsen of verwijderen, druk dan op de uitwerpknop van het optisch station zodat de lade opent. 2 Uitwerpknop optisch station: hiermee kan de schijflade van het optische station worden geopend. 3 IR-sensor (optie): detecteert apparaten die met infraroodsignalen werken (zoals afstandsbedieningen). 4 4-in-1-geheugenkaartlezer: biedt een snelle en handige manier om digitale foto's, muziek, video's en documenten weer te geven en te delen die zijn opgeslagen op geheugenkaarten. N.B.: Uw computer wordt geleverd met een plastic dummykaart in de mediakaartsleuf. Deze beschermt ongebruikte sleuven tegen stof en andere deeltjes. Bewaar de dummykaart en gebruik deze wanneer er geen mediakaart in de sleuf is geplaatst. Dummykaarten van andere computers passen mogelijk niet in uw computer. USB 2.0-connectors (2): deze dienen voor de aansluiting van USB-apparaten zoals geheugensticks, digitale camera's en mp3-spelers. Hoofdtelefoonconnector: hierop kunt een hoofdtelefoon aansluiten. N.B.: Voor de aansluiting van een luidspreker of geluidssysteem met voeding gebruikt u de audio out- of S/PDIF-connector aan de achterzijde van uw computer.
+
+5
+
+6
+
+23
+
+De Inspiron-desktop gebruiken
+
+Bovenaanzicht
+
+1
+
+24
+
+De Inspiron-desktop gebruiken
+
+1
+
+Aan/uit-knop en -lampje: indrukken om de computer aan of uit te schakelen. Het lampje in het midden van de knop geeft de volgende voedingsstatussen aan: •	Uit: de computer is geheel uitgeschakeld, staat in de slaapstand, of krijgt geen stroom. •	Continu wit: de computer staat aan. •	Continu oranje: de computer staat in de slaapstand of stand-bystand of er is mogelijk een probleem met het moederbord of de voeding. •	Knipperend amberkleurig lampje: meldt een probleem met het moederbord of de voeding. N.B.: Zie “Voedingsproblemen” op pagina 35 voor informatie over problemen met de voeding.
+
+25
+
+De Inspiron-desktop gebruiken
+
+Functies aan de achterzijde
+
+1 2 3 4
+
+5
+
+6 7
+
+11
+
+10 9
+
+8
+
+26
+
+De Inspiron-desktop gebruiken
+
+1 2
+
+Ontgrendelingstoets kap: opent de bovenste kap van de computer. eSATA-connectors (2): voor het aansluiten van SATA en eSATA compatibele opslagapparaten (zoals externe vaste schijven of optische stations) of USB-apparaten (zoals een muis, toetsenbord, printer, extern station of mp3-speler). VGA-connector: voor het aansluiten van videoapparatuur, zoals een monitor of een projector. Netwerkconnector: hiermee kunt u de computer aansluiten op een netwerk of (breedband) kabelmodem. Line-outconnector: hierop kunt u een hoofdtelefoon of luidsprekers met ingebouwde versterker aansluiten. Microfoonconnector: hierop kunt u een microfoon voor spraak- of audio-invoer voor een geluids- of telefoonprogramma aansluiten.
+
+3 4 5 6
+
+7 Optische S/PDIF-connector: hierop kunt u versterkers, luidsprekers of tv's aansluiten, voor een digitale audio-uitvoer via optische digitale kabels. Dit formaat draagt een audiosignaal zonder via een analoog audioconversieproces te werken.
+
+27
+
+De Inspiron-desktop gebruiken
+
+8 9 10
+
+USB 2.0-connectors (2): hierop kunt u USB-apparaten aansluiten, zoals een muis, toetsenbord, printer, extern station of mp3-speler. Netadapter connector: hiermee sluit u de voedingskabel van de adapter aan op de computer. HDMI-connector: hierop kunt u een tv voor zowel 2.1-audio- als videosignalen aansluiten. N.B.: Als zowel de HDMI- als de line-outconnectors aangesloten zijn, loopt het audiosignaal via de analoge line-outconnectors en niet via de HDMI-connector.
+
+11
+
+Activiteitslampje voor vaste schijf : brandt wanneer de computer gegevens leest of schrijft. Een wit lampje geeft aan dat de harde schijf in werking is. WAARSCHUWINGEN: Schakel de computer nooit uit als het lampje knippert. Hiermee voorkomt u gegevensverlies.
+
+28
+
+De Inspiron-desktop gebruiken
+
+Software-onderdelen
+N.B.: Zie voor meer informatie over beeldschermen de Technologiegids van Dell op support.dell.com/manuals of op de volgende plek:
+
+Entertainment en multimedia
+U kunt uw computer gebruiken om video's te bekijken, spelletjes te spelen, uw eigen cd's te maken en naar muziek- en internetradiostations te luisteren. Uw optisch station biedt mogelijk ondersteuning voor meerdere discsoorten, waaronder cd's, Blu-ray Discs (als deze optie wordt gekozen bij aankoop) en dvd's. U kunt afbeeldingen en videobestanden downloaden of kopiëren van draagbare apparaten, zoals digitale camera's en mobiele telefoons. Met optionele softwaretoepassingen kunt u muziek- en videobestanden ordenen en maken, opnemen op een schijf, opslaan op draagbare apparaten zoals mp3-spelers en handheld-entertainmentapparaten of afspelen en weergeven op aangesloten tv's, projectors en thuisbioscoopapparatuur.
+
+Windows® 7: Start → Alle programma's→ Help-bestanden van Dell. Windows Vista®: Start → Help en ondersteuning→ Dell EDocs.
+
+Productiviteit en communicatie
+U kunt uw computer gebruiken om presentaties, brochures, wenskaarten, folders en spreadsheets te maken. Ook kunt u digitale foto's en afbeeldingen bewerken en weergeven. Kijk op uw aankoopbon welke software op uw computer is geïnstalleerd. Nadat u verbinding met internet hebt gemaakt, kunt u websites bekijken, een e-mailaccount instellen en bestanden uploaden of downloaden.
+
+29
+
+De Inspiron-desktop gebruiken
+
+Dell Dock
+Het Dell Dock is een groep pictogrammen waarmee u op eenvoudige wijze toegang kunt krijgen tot veelgebruikte toepassingen, bestanden en mappen. U kunt het Dock aan uw persoonlijke voorkeur aanpassen door het volgende te doen: •	Pictogrammen toevoegen of verwijderen. •	De kleur en locatie van het Dock wijzigen •	Verwante pictogrammen groeperen in categorieën. •	Het gedrag van de pictogrammen wijzigen
+
+30
+
+De Inspiron-desktop gebruiken
+
+Een categorie toevoegen
+1. Klik met de rechtermuisknop op het Dock, klik op Toevoegen→ Categorie. Het venster Categorie toevoegen/bewerken wordt weergegeven. 2. Voer de naam van de categorie in het veld Titel in. 3. Selecteer een pictogram voor de categorie uit het vak Een afbeelding selecteren: . 4. Klik op Opslaan.
+
+Een categorie of pictogram verwijderen
+1. Klik met de rechtermuisknop op een categorie of pictogram op het Dock en klik op Snelkoppeling verwijderen of Categorie verwijderen. 2. Volg de aanwijzingen op het scherm.
+
+Het Dock aan uw persoonlijke voorkeur aanpassen
+1. Klik met de rechtermuisknop op het Dock en klik op Geavanceerde instelling.... 2. Kies de gewenste optie om het Dock aan uw persoonlijke voorkeur aan te passen.
+
+Een pictogram toevoegen
+Sleep het pictogram naar het Dock of een categorie.
+
+31
+
+De Inspiron-desktop gebruiken
+
+Dell DataSafe Online Backup
+N.B.: Dell DataSafe Online is mogelijk niet in alle regio's beschikbaar. N.B.: Voor een hoge upload- of downloadsnelheid wordt een breedbandverbinding aanbevolen. Dell DataSafe Online is een automatische back-up- en herstelservice, die helpt om uw gegevens en andere belangrijke bestanden te beschermen tegen ernstige problemen zoals diefstal, brand of natuurrampen. U krijgt toegang tot deze service via een account met wachtwoord-bescherming. Meer informatie vindt u op delldatasafe.com. Back-ups plannen: 1. Dubbelklik op het pictogram voor Dell DataSafe Online op de taakbalk. 2. Volg de instructies die op het scherm verschijnen.
+
+32
+
+INSPIRON
+
+Problemen oplossen
+Dit gedeelte bevat informatie over het oplossen van problemen met uw computer. Zie “Ondersteuningshulpmiddelen gebruiken” op pagina 40 of “Contact opnemen met Dell” op pagina 65 als u het probleem niet kunt oplossen met de volgende richtlijnen. GEVAAR: Alleen opgeleid onderhoudspersoneel mag de computerkap verwijderen. Raadpleeg de Onderhoudshandleiding op support.dell.com/manuals voor geavanceerde service-aanwijzingen.
+
+Pieptooncodes
+De computer kan tijdens het opstarten een reeks pieptonen laten horen als er fouten of problemen zijn. Deze pieptonen, ook wel een piepcode genaamd, identificeren een probleem. Schrijf de piepcode op en neem contact op met Dell (zie 'Contact opnemen met Dell' op pagina 65). N.B.: Raadpleeg voor het vervangen van onderdelen de Onderhoudshandleiding op support.dell.com/manuals.
+
+33
+
+Problemen oplossen
+
+Pieptooncode Eén
+
+Mogelijk probleem Mogelijke fout met het moederbord: fout in de BIOS ROM-checksum Geen RAM-geheugen gedetecteerd N.B.: Als u een geheugenmodule hebt geïnstalleerd of vervangen, moet u controleren of de geheugenmodule correct geplaatst is.
+
+Netwerkproblemen
+Draadloze verbindingen
+Als de netwerkverbinding is verbroken, is de draadloze router offline of is draadloos uitgeschakeld op de computer. •	Controleer of uw draadloze router is ingeschakeld en verbonden met uw gegevensbron (kabelmodem of netwerkhub). •	Maak opnieuw een verbinding met de draadloze router (zie “Een draadloze verbinding instellen” op pagina 19).
+
+Twee
+
+Drie Vier Vijf Zes
+
+Mogelijke moederbordfout: chipsetfout RAM-lees-/schrijffout Fout met realtimeklok. Fout met videokaart of chipset
+
+Vaste verbindingen
+Als de netwerkverbinding verbroken is: •	Controleer of de kabel is aangesloten en of deze niet is beschadigd. •	Controleer de status van het lampje voor de verbindingsintegriteit.
+
+34
+
+Problemen oplossen
+
+Het verbindingslampje op de geïntegreerde netwerkconnector geeft aan of de verbinding werkt en geeft informatie over de status: •	Uit: de computer detecteert geen fysieke verbinding met het netwerk. •	Groen: er is een goede verbinding tussen een 10/100-Mbps-netwerk en de computer. •	Oranje: er is een goede verbinding tussen een 1000-Mbps netwerk en de computer. N.B.: Het verbindingslampje op de netwerkaansluiting is alleen van toepassing op een vaste netwerkverbinding. Het lampje voor de verbindingsintegriteit geeft geen informatie over de status van draadloze verbindingen.
+
+Voedingsproblemen
+Als het aan/uit-lampje uit is, is de computer in de slaapstand of uitgeschakeld, of krijgt de computer geen stroom. •	Druk op de aan/uit-knop. De uitgeschakelde computer keert terug naar de normale werking als deze uit staat of in de slaapstand staat. •	Duw de netadapter goed vast in de voedingsaansluiting van de netadapter en het stopcontact. •	Als de netadapter is aangesloten op een stekkerdoos, gaat u na of de stekkerdoos is aangesloten op een stopcontact en of de stekkerdoos is ingeschakeld. •	Omzeil voedingsbeschermingsapparaten, stekkerdozen en verlengkabels om te controleren of de computer kan worden ingeschakeld.
+
+35
+
+Problemen oplossen
+
+•	Controleer de stroomvoorziening van het stopcontact door er een ander apparaat, zoals een lamp, op aan te sluiten. •	Als het probleem aanhoudt, neemt u contact op met Dell (zie “Contact opnemen met Dell” op pagina 65). Als het aan/uit-lampje continu wit brandt en de computer niet reageert, is het beeldscherm mogelijk niet aangesloten of ingeschakeld. •	Controleer of het beeldscherm op de juiste wijze is aangesloten en schakel het uit en daarna weer in. •	Als het probleem aanhoudt, neemt u contact op met Dell (zie “Contact opnemen met Dell” op pagina 65). Als het aan/uit-lampje continu oranje brandt: •	De computer staat in de slaapstand of stand-bystand. Druk op een toets op het toetsenbord, beweeg de aangesloten muis of druk op de aan/uit-knop om de normale werking van de computer te hervatten.
+
+•	Er kan een probleem zijn met het moederbord of met de voeding. Neem voor hulp contact op met Dell (zie “Contact opnemen met Dell” op pagina 65). Als het aan/uit-lampje oranje knippert, kan er een probleem zijn met het moederbord of met de stroomvoorziening. Neem voor hulp contact op met Dell (zie “Contact opnemen met Dell” op pagina 65). Als er interferentie optreedt die de ontvangst op uw computer belemmert: een ongewenst signaal veroorzaakt interferentie door andere signalen te onderbreken of blokkeren. Interferentie kan worden veroorzaakt door: •	Verlengsnoeren voor voeding, toetsenbord of muis. •	Te veel apparaten aangesloten op één stekkerdoos. •	Meerdere stekkerdozen aangesloten op hetzelfde stopcontact.
+
+36
+
+Problemen oplossen
+
+Geheugenproblemen
+Als er een bericht wordt weergegeven met de meldingdat er onvoldoende geheugen is: •	Bewaar en sluit alle geopende bestanden of programma's die u niet gebruikt om erachter te komen of het probleem daarmee is opgelost. •	Raadpleeg de documentatie bij de software voor de minimale geheugenvereisten. Installeer zo nodig extra geheugen (zie de Onderhoudshandleiding op support.dell.com/manuals). •	Verwijder de geheugenmodules en plaats deze opnieuw (zie de Onderhoudshandleiding op support.dell.com/manuals) om er zeker van te zijn dat de computer goed met het geheugen communiceert. •	Als het probleem aanhoudt, neemt u contact op met Dell (zie “Contact opnemen met Dell” op pagina 65).
+
+Als er andere problemen met het geheugen zijn: •	Volg de installatierichtlijnen voor het geheugen (zie de Onderhoudshandleiding op support.dell.com/manuals). •	Controleer of de geheugenmodule compatibel is met uw computer Uw computer ondersteunt DDR3-geheugen. Zie “Basisspecificaties” op pagina 69 voor meer informatie over het type geheugen dat door uw computer wordt ondersteund. •	 Voer Dell-diagnostiek uit (zie “Dell Diagnostics (Dell-diagnostiek)” op pagina 44). •	Verwijder de geheugenmodules en plaats deze opnieuw (zie de Onderhoudshandleiding op support.dell.com/manuals) om er zeker van te zijn dat de computer goed met het geheugen communiceert. •	Als het probleem aanhoudt, neemt u contact op met Dell (zie “Contact opnemen met Dell” op pagina 65).
+
+37
+
+Problemen oplossen
+
+Vastlopen en softwareproblemen
+Als de computer niet opstart: controleer of de netadapter goed op de computer en het stopcontact is aangesloten. Als een programma niet meer reageert, beëindigt u het programma: 1. Druk tegelijkertijd op &lt;Ctrl&gt;&lt;Shift&gt;&lt;Esc&gt;. 2. Klik op Toepassingen. 3. Klik op het programma dat niet meer reageert. 4. Klik op Taak beëindigen. Als een programma blijft vastlopen: raadpleeg de softwaredocumentatie. Indien nodig maakt u de installatie van het programma ongedaan en installeert u het opnieuw. N.B.: Bij software worden normaliter installatie-instructies geleverd in de vorm van een installatiehandleiding of op een cd.
+
+Als de computer niet meer reageert of het beeldscherm onafgebroken blauw is: WAARSCHUWINGEN: U loopt het risico gegevens te verliezen als u het besturingssysteem niet afsluit. Als het niet lukt om een reactie te krijgen door op een toets op het toetsenbord te drukken of de muis te bewegen, dient u de aan/uit-knop in te drukken en deze minstens 8 - 10 seconden ingedrukt te houden tot de computer uit gaat. Start de computer vervolgens opnieuw. Als een programma werd ontworpen voor een eerder Microsoft Windows-besturingssysteem: voer de Wizard programmacompatibiliteit uit. Met de wizard Programmacompatibiliteit kunt u een programma configureren zodat het werkt in een omgeving die overeenstemt met een eerdere versie van het Microsoft® Windows®besturingssysteem.
+
+38
+
+Problemen oplossen
+
+Windows® 7:
+→ Configuratiescherm→ 1. Klik op Start Programma's→ Programma's gebruiken die voor eerdere versies van Windows zijn gemaakt. 2. Klik in het welkomstscherm op Volgende. 3. Volg de aanwijzingen op het scherm.
+
+•	Raadpleeg de softwaredocumentatie of neem contact op met de softwareleverancier voor informatie over het oplossen van problemen: – Controleer of het programma compatibel is met het besturingssysteem dat op de computer is geïnstalleerd. – Controleer of de computer aan de minimale hardwarevereisten voor de software voldoet. Raadpleeg de softwaredocumentatie voor informatie. – Controleer of het programma op juiste wijze is geïnstalleerd en geconfigureerd. – Controleer of de apparaatstuurprogramma's geen conflict veroorzaken met het programma. – Zo nodig verwijdert u het programma en installeert u het opnieuw.
+
+Windows Vista®:
+→ Configuratiescherm→ 1. Klik op Start Programma's→ Een ouder programma met deze versie van Windows gebruiken. 2. Klik in het welkomstscherm op Volgende. 3. Volg de aanwijzingen op het scherm Als u andere softwareproblemen hebt : •	Maak direct een back-up van uw bestanden. •	Gebruik een virusscanner om de vaste schijf of cd's te scannen. •	Bewaar en sluit alle geopende bestanden of programma's en sluit de computer af via het menu Start .
+
+39
+
+INSPIRON
+
+Ondersteuningshulpmiddelen gebruiken
+Dell Support Center
+Het Dell Support Center biedt de service, ondersteuning en systeemspecifieke informatie die u nodig heeft. Klik op het pictogram toepassing te starten. op de taakbalk om de Waarschuwingen (waarschuwingen van technische ondersteuning die relevant zijn voor uw computer) Ondersteuning door Dell (Technische ondersteuning met DellConnect™, Klantenservice, Training en zelfstudie, Helpinformatie met Solution Station™ en Online scan met PC CheckUp) Over uw computer (Eigenaarshandleiding, Garantie-informatie, Systeeminformatie, Upgrades & accessoires) Voor meer informatie over het Dell Support Center en de beschikbare ondersteuningshulpmiddelen, klikt u op de tab Services op support.dell.com.
+
+De startpagina van het Dell Support Center toont het modelnummer van uw computer, het serviceplaatje, de code voor express-service en contactinformatie. De startpagina biedt tevens koppelingen naar de volgende onderdelen: Zelfhulp (probleemoplossing, beveiliging, systeemprestaties, netwerk/internet, back-up/ herstel en Windowsbesturingssysteem)
+
+40
+
+Ondersteuningshulpmiddelen gebruiken
+
+My Dell Downloads
+N.B.: My Dell Downloads is mogelijk niet in alle regio's beschikbaar. Van sommige software die vooraf op uw nieuwe computer is geïnstalleerd, wordt geen cd of dvd meegeleverd. Deze software is beschikbaar op My Dell Downloads. Vanaf deze website kunt u beschikbare software downloaden om het systeem opnieuw te installeren of eigen backupmedia te maken. My Dell Downloads registreren en gebruiken: 1. Ga naar downloadstore.dell.com/media. 2. Volg de instructies op het scherm om de software te registreren en te downloaden. 3. Opnieuw installeren of back-upmedia van de software maken voor toekomstig gebruik.
+
+Systeemberichten
+Als er een probleem of fout op uw computer optreedt, kan er een systeembericht worden weergegeven dat u helpt de oorzaak vast te stellen en aangeeft wat u moet doen om het probleem op te lossen. N.B.: Als het weergegeven bericht niet in de volgende voorbeelden wordt vermeld, raadpleegt u de documentatie bij het besturingssysteem of het programma dat werd uitgevoerd toen het bericht verscheen. U kunt ook de Technologiegids van Dell op uw vaste schijf of de Dell Support-website op support.dell.com/manuals raadplegen of “Contact opnemen Dell” op pagina 65 lezen voor ondersteuning.
+
+41
+
+Ondersteuningshulpmiddelen gebruiken
+
+Waarschuwing! Previous attempts at booting this system have failed at checkpoint [nnnn]. (Waarschuwing! Eerdere pogingen om het systeem op te starten, zijn mislukt op het controlepunt [nnnn].) Noteer dit controlepunt en neem contact op met de technische ondersteuning van Dell om dit probleem op te lossen. De computer is er drie keer achtereen niet in geslaagd om de opstartprocedure uit te voeren vanwege dezelfde fout. Zie “Contact opnemen met Dell” op pagina 65 voor ondersteuning. CMOS checksum error (Fout in CMOScontrolesom): mogelijke fout met het moederbord of de RTC-batterij is bijna leeg. Batterij moet worden vervangen. Zie de Onderhoudshandleiding op support.dell.com/manuals of “Contact opnemen met Dell” op pagina 65 voor ondersteuning.
+
+CPU fan failure (Defecte processorventilator): de processorventilator is defect. De processorventilator moet worden vervangen. Zie de Onderhoudshandleiding op support.dell.com/manuals. Hard-disk drive failure (Storing in de vaste schijf): mogelijke storing in de vaste schijf tijdens POST. Zie “Contact opnemen met Dell” op pagina 65 voor ondersteuning. Storing bij het lezen van de vaste schijf(Storing bij het lezen van de vaste schijf): mogelijke storing in de vaste schijf tijdens de opstarttest van de vaste schijf. Zie “Contact opnemen met Dell” op pagina 65 voor ondersteuning. Keyboard failure (Toetsenbord werkt niet): vervang toetsenbord of controleer of de kabel goed aangesloten zit. No boot device available (Geen opstartapparaat beschikbaar): de vaste schijf bevat geen opstartpartitie, de kabel van de vaste schijf is los of er is geen opstartapparaat.
+
+42
+
+Ondersteuningshulpmiddelen gebruiken
+
+•	Als de vaste schijf als opstartapparaat is ingesteld, moet u controleren of alle kabels correct zijn aangesloten en of de schijf correct is geïnstalleerd en als opstartapparaat is gepartitioneerd. •	Open het systeemsetupprogramma en controleer of de opstartvolgorde juist is. Zie de Onderhoudshandleiding op support.dell.com/manuals. No timer tick interrupt (Geen timertikonderbreking): mogelijk is een chip op het moederbord of het moederbord zelf defect. Zie de Onderhoudshandleiding op support.dell.com/manuals of “Contact opnemen met Dell” op pagina 65 voor ondersteuning.
+
+USB over current error (USB gebruikt te veel stroom): koppel het USB-apparaat los. Het USB-apparaat heeft meer stroom nodig voor een optimale werking. Als uw apparaat twee USB-kabels heeft, sluit u beide aan. Anders sluit u een externe stroombron op het USB-apparaat aan. LET OP: het ZELFCONTROLEREND SYSTEEM van de vaste schijf heeft aangegeven dat een van de parameters het normale gebruiksbereik heeft overschreden. Dell beveelt aan om regelmatig een back-up van uw gegevens te maken. Een parameter die buiten het bereik ligt, kan al dan niet duiden op een probleem met de vaste schijf : S.M.A.R.T.-fout, mogelijke fout in de vaste schijf. Zie “Contact opnemen met Dell” op pagina 65 voor ondersteuning.
+
+43
+
+Ondersteuningshulpmiddelen gebruiken
+
+Probleemoplosser voor hardware
+Als een apparaat tijdens de installatie van het besturingssysteem niet wordt gedetecteerd of als het wel wordt gedetecteerd maar niet juist wordt geconfigureerd, kunt u de Probleemoplosser voor hardware gebruiken om het compatibiliteitsprobleem op te lossen. U start de probleemoplosser voor hardware als volgt: 1. Klik op Start → Help en ondersteuning. 2. Typ probleemoplosser voor hardware in het zoekveld en druk op &lt;Enter&gt; om de zoekactie te starten. 3. Selecteer in de zoekresultaten de optie die het probleem het beste omschrijft en volg de overige stappen om het probleem op te lossen.
+
+Dell Diagnostics (Dell Diagnostiek)
+Als er zich een probleem met uw computer voordoet, voert u eerst de controles uit die in “Vastlopen en softwareproblemen” op pagina 38 worden beschreven en voert u Dell Diagnostics (Dell-diagnostiek) uit voordat u contact met Dell opneemt voor technische ondersteuning. Het verdient de aanbeveling om deze procedures af te drukken voordat u begint. N.B.: Dell Diagnostics (Dell-diagnostiek) werkt alleen op Dell-computers. N.B.: De schijf Drivers and Utilities (Stuuren hulpprogramma's) is mogelijk niet met uw computer meegeleverd. Zie de sectie System Setup (systeemsetup) in de Onderhoudshandleiding om de configuratie voor uw computer door te nemen en om ervoor te zorgen dat het apparaat dat u wilt testen in het systeemsetupprogramma wordt weergegeven en actief is.
+
+44
+
+Ondersteuningshulpmiddelen gebruiken
+
+Start Dell Diagnostics (Dell-diagnostiek) vanaf de vaste schijf of vanaf de schijf Drivers and Utilities (Stuur- en hulpprogramma's).
+
+Dell Diagnostics (Dell-diagnostiek) starten vanaf de vaste schijf
+Het hulpprogramma Dell Diagnostics (Delldiagnostiek) bevindt zich op een verborgen partitie op de vaste schijf. N.B.: Zie “Contact opnemen met Dell” op pagina 65 als uw computer geen beeld geeft. 1. Controleer of de computer is aangesloten op een werkend stopcontact. 2. Start de computer (opnieuw) op. 3. Druk op &lt;F12&gt; zodra het DELL™-logo verschijnt. Selecteer Diagnostics (Diagnostiek) in het opstartmenu en druk op &lt;Enter&gt;. Hierdoor wordt op uw computer mogelijk de PSA (Pre-Boot System Assessment) opgeroepen.
+
+N.B.: Als u te lang wacht en het logo van het besturingssysteem wordt weergegeven, moet u blijven wachten totdat het bureaublad van Microsoft® Windows® wordt weergegeven. Daarna schakelt u de computer uit en probeert u het opnieuw. N.B.: Als een bericht wordt weergegeven dat er geen partitie met een diagnostisch hulpprogramma is gevonden, voert u Dell Diagnostics (Dell-diagnostiek) uit vanaf de schijf Drivers and Utilities (Stuur- en hulpprogramma's).
+
+Als PSA (Systeemherstel) wordt geopend:
+a. De PSA begint met het uitvoeren van tests. b. Als de PSA (Systeemherstel) succesvol is, wordt het volgende bericht getoond: 'No problems have been found with this system so far. Do you want to run the remaining memory tests? This will take about 30 minutes
+
+45
+
+Ondersteuningshulpmiddelen gebruiken
+
+c. Als er problemen met het geheugen zijn, drukt u op &lt;y&gt;, kies anders &lt;n&gt;. De volgende melding wordt afgebeeld “Booting Dell Diagnostic Utility Partition. Press any key to continue.” (Opstarten vanaf partitie met Dell Diagnostics (Delldiagnostiek). Druk op een willekeurige toets om door te gaan).
+
+or more. Do you want to continue? (Recommended).” (Er zijn tot dusverre geen problemen gevonden met dit systeem. Wilt u de resterende geheugentests uitvoeren? Dit neemt 30 minuten of meer in beslag. Wilt u doorgaan? (Aanbevolen).)
+
+d. Druk op een willekeurige toets om het venster Choose An Option (Een optie kiezen) te openen.
+
+Als PSA (Systeemherstel) niet wordt geopend:
+Druk op een toets om Dell Diagnostics (Delldiagnostiek) vanaf de verborgen partitie op de vaste schijf te starten. Ga vervolgens naar het venster Choose An Option (Een optie kiezen). 4. Selecteer de test die u wilt uitvoeren. 5. Als er tijdens een test een probleem wordt gedetecteerd, wordt er een bericht weergegeven met de foutcode en een beschrijving van het probleem. Schrijf de foutcode en een beschrijving van het probleem op en neem contact op met Dell (zie “Contact opnemen met Dell” op pagina 65). N.B.: Het serviceplaatje voor de computer wordt bovenaan in elk testscherm weergegeven. U kunt uw computer aan de hand van de servicetag identificeren als u contact opneemt met Dell.
+
+46
+
+Ondersteuningshulpmiddelen gebruiken
+
+6. Wanneer de tests voltooid zijn, sluit u het testscherm om terug te keren naar het scherm Choose An Option (Een optie kiezen). 7. Als u Dell Diagnostics (Dell-diagnostiek) wilt afsluiten en de computer opnieuw wilt opstarten, klikt u op Exit (Afsluiten).
+
+N.B.: Als u te lang wacht en het logo van het besturingssysteem wordt weergegeven, moet u blijven wachten totdat het bureaublad van Microsoft® Windows® wordt weergegeven. Daarna schakelt u de computer uit en probeert u het opnieuw. N.B.: Met de volgende stappen wordt de opstartvolgorde eenmalig gewijzigd. De volgende keer wordt de computer opgestart volgens de apparaten die zijn opgegeven in het programma voor systeeminstellingen. 3. Wanneer de lijst met opstartbronnen verschijnt, markeert u het cd/dvd/cd-rwstation en drukt u op Enter. 4. Kies in het menu dat wordt weergegeven, de optie Boot from CD-ROM (Opstarten vanaf cd) en druk op &lt;Enter&gt;. 5. Typ 1 om het cd-menu te starten, en druk op &lt;Enter&gt; om verder te gaan.
+
+Dell Diagnostics (Dell-diagnostiek) starten vanaf de schijf Drivers and Utilities (Stuur- en hulpprogramma's)
+N.B.: De schijf Drivers and Utilities (Stuuren hulpprogramma's) is mogelijk niet met uw computer meegeleverd. 1. Plaats de schijf Drivers and Utilities (Stuuren hulpprogramma's) in het station. 2. Zet de computer uit en start deze opnieuw. Wanneer het DELL™-logo verschijnt, drukt u direct op &lt;F12&gt;.
+
+47
+
+Ondersteuningshulpmiddelen gebruiken
+
+6. Selecteer Run the Dell 32-bit Diagnostics (32-bits Dell-diagnostiek uitvoeren) in de genummerde lijst. Als er meerdere versies worden aangegeven, moet u de versie selecteren die op uw computer van toepassing is. 7. Selecteer de test die u wilt uitvoeren. 8. Als er tijdens een test een probleem wordt gedetecteerd, wordt er een bericht weergegeven met de foutcode en een beschrijving van het probleem. Schrijf de foutcode en een beschrijving van het probleem op en neem contact op met Dell (zie “Contact opnemen met Dell” op pagina 65). N.B.: Het serviceplaatje voor de computer wordt bovenaan in elk testscherm weergegeven. U kunt uw computer aan de hand van de servicetag identificeren als u contact opneemt met Dell.
+
+9. Wanneer de tests voltooid zijn, sluit u het testscherm om terug te keren naar het scherm Choose An Option (Een optie kiezen). 10. Als u Dell Diagnostics (Dell-diagnostiek) wilt afsluiten en de computer opnieuw wilt opstarten, klikt u op Exit (Afsluiten). 11. Verwijder de schijf Drivers and Utilities (Stuur- en hulpprogramma's).
+
+48
+
+INSPIRON
+
+Het besturingssysteem herstellen
+U kunt het besturingssysteem van uw computer herstellen door een van de volgende opties te kiezen: WAARSCHUWINGEN: Als u Dell Factory Image Restore of de schijf van het besturingssysteem gebruikt, worden alle gegevensbestanden van uw computer verwijderd. Maak indien mogelijk een back-up van uw gegevensbestanden voordat u deze opties gebruikt. Optie Systeemherstel Dell DataSafe Local Backup Middelen voor systeemherstel Gebruiken als eerste oplossing als het probleem niet met systeemherstel kan worden opgelost als het gebruik van systeemherstel en DataSafe Local Backup onmogelijk is door een fout in het besturingssysteem als u het fabrieksimage op een nieuw geïnstalleerde vaste schijf installeert om de computer terug te zetten in de toestand waarin deze verkeerde toen u de computer kreeg om alleen het besturingssysteem opnieuw op uw computer te installeren
+
+Dell Factory Image Restore
+
+Schijf Besturingssysteem
+
+N.B.: De schijf Operating System (Besturingssysteem) is mogelijk niet met uw computer meegeleverd.
+
+49
+
+Het besturingssysteem herstellen
+
+Systeemherstel
+
+Systeemherstel starten
+1. Klik op Start . 2. Typ Systeemherstel in het vak Zoekopdracht starten en druk op &lt;Enter&gt;. N.B.: Het venster Gebruikersaccountbeheer wordt mogelijk weergegeven. Als u een beheerder op de computer bent, klikt u op Doorgaan; neem anders contact op met de beheerder om met de gewenste actie door te gaan. 3. Klik op Volgende en volg de instructies op het scherm. Als het probleem niet kan worden verholpen met Systeemherstel, moet u mogelijk het laatste systeemherstel ongedaan maken.
+
+De besturingssystemen van Windows bieden een optie Systeemherstel, waarmee u uw computer terug kunt zetten naar een eerdere besturingsstatus (zonder dat dit van invloed is op uw gegevensbestanden) als de computer niet meer goed functioneert na wijzigingen aan de hardware, software of andere systeeminstellingen. Alle wijzigingen die Systeemherstel in uw computer aanbrengt, kunnen volledig ongedaan worden gemaakt. WAARSCHUWINGEN: Maak regelmatig een back-up van uw gegevensbestanden. Uw gegevensbestanden worden door Systeemherstel niet gecontroleerd of hersteld. N.B.: De procedures in dit document zijn van toepassing op de standaardweergave van Windows, dus mogelijk zijn ze niet van toepassing als u op uw Dell™ computer voor de klassieke weergave hebt gekozen.
+
+50
+
+Het besturingssysteem herstellen
+
+Het laatste systeemherstel ongedaan maken
+N.B.: Voordat u het laatste systeemherstel ongedaan maakt, dient u alle geopende bestanden en programma's af te sluiten. Wijzig, open en verwijder geen bestanden of programma's totdat het systeemherstel is voltooid. 1. Klik op Start . 2. Typ Systeemherstel in het vak Zoekopdracht starten en druk op &lt;Enter&gt;. 3. Klik op Systeemherstel ongedaan maken en klik op Volgende.
+
+Dell DataSafe Local Backup
+WAARSCHUWINGEN: Als u Dell DataSafe Local Backup gebruikt, worden alle toepassingen en stuurprogramma's verwijderd die u na aanschaf van uw computer hebt geïnstalleerd. Maak reservekopieën van toepassingen die op uw computer zijn geïnstalleerd voordat u Dell DataSafe Local Backup gebruikt. Gebruik Dell DataSafe Local Backup alleen als Systeemherstel het probleem met het besturingssysteem niet heeft opgelost. WAARSCHUWINGEN: Hoewel Dell Datasafe Local Backup de gegevensbestanden op uw computer ongemoeid zou moeten laten, wordt aanbevolen een reservekopie van uw gegevensbestanden te maken voordat u Dell DataSafe Local Backup gebruikt.
+
+51
+
+Het besturingssysteem herstellen
+
+N.B.: Dell DataSafe Local Backup is mogelijk niet in alle regio's beschikbaar. N.B.: Indien Dell DataSafe Local Backup niet op uw computer is geïnstalleerd, gebruikt u Dell Factory Image Restore (zie 'Dell Factory Image Restore' op pagina 55) om het besturingssysteem te herstellen. U kunt Dell DataSafe Local Backup gebruiken om de oorspronkelijke status van uw vaste schijf te herstellen met behoud van de gegevensbestanden. Dit is de status op het moment dat u de computer kocht. Met Dell DataSafe Local Backup kunt u: •	een reservekopie maken en uw computer naar een eerdere status terugzetten; •	middelen voor systeemherstel maken.
+
+Dell DataSafe Local Backup Basic
+Het fabrieksimage herstellen met behoud van de gegevensbestanden: 1. Schakel de computer uit. 2. Koppel alle apparaten (USB-station, printer, etc.) los die op de computer zijn aangesloten en verwijder alle onlangs toegevoegde interne hardware. N.B.: Koppel het beeldscherm, het toetsenbord, de muis of de netadapter niet los. 3. Zet de computer aan. 4. Druk wanneer het DELL™-logo verschijnt herhaaldelijk op &lt;F8&gt; om het venster Geavanceerde opstartopties te openen. N.B.: Als u te lang wacht en het logo van het besturingssysteem wordt weergegeven, moet u blijven wachten totdat het bureaublad van Microsoft® Windows® wordt weergegeven. Daarna schakelt u de computer uit en probeert u het opnieuw.
+
+52
+
+Het besturingssysteem herstellen
+
+5. Selecteer Repair Your Computer (Uw computer herstellen). 6. Selecteer Dell DataSafe Restore and Emergency Backup in het menu System Recovery Options (Opties voor systeemherstel) en volg de instructies op het scherm. N.B.: Het herstelproces kan een uur of langer in beslag nemen, afhankelijk van de hoeveelheid gegevens die moet worden hersteld. N.B.: Raadpleeg voor meer informatie het Knowledge Base-artikel 353560 op support.dell.com.
+
+Opwaarderen naar Dell DataSafe Local Backup Professional
+N.B.: Mogelijk is Dell DataSafe Local Backup Professional op uw computer geïnstalleerd indien u dit bij aankoop van de computer hebt besteld. Dell DataSafe Local Backup Professional biedt aanvullende functies waarmee u: •	reservekopieën kunt maken en uw computer kunt herstellen op basis van bestandstypen; •	reservekopieën van bestanden op een lokaal opslagapparaat kunt bewaren; •	automatische back-ups kunt plannen. Opwaarderen naar Dell DataSafe Local Backup Professional: 1. Dubbelklik op het pictogram voor Dell DataSafe Local Backup op de taakbalk. 2. Klik op UPGRADE NOW! 3. Volg de instructies op het scherm om de upgrade te voltooien.
+
+53
+
+Het besturingssysteem herstellen
+
+Middelen voor systeemherstel
+WAARSCHUWINGEN: Hoewel middelen voor systeemherstel de gegevensbestanden op uw computer ongemoeid zouden moeten laten, wordt aanbevolen een reservekopie van uw gegevensbestanden te maken voordat u de middelen voor systeemherstel gebruikt. U kunt de middelen voor systeemherstel gebruiken (gemaakt tijdens Dell DataSafe Local Backup) om de oorspronkelijke status van uw vaste schijf te herstellen met behoud van de gegevensbestanden. Dit is de status op het moment dat u de computer kocht. Gebruik de middelen voor systeemherstel indien: •	de herstelopties die op uw computersysteem zijn geïnstalleerd, niet kunnen worden gebruikt vanwege een fout in het besturingssysteem; •	gegevens niet kunnen worden hersteld vanwege een storing aan de vaste schijf.
+
+Het fabrieksimage van uw computer herstellen met behulp van middelen voor systeemherstel: 1. Plaats de schijf voor systeemherstel in de computer of steek de USB-stick in een vrije poort. Start de computer vervolgens op. 2. Druk op &lt;F12&gt; zodra het DELL™-logo verschijnt. N.B.: Als u te lang wacht en het logo van het besturingssysteem wordt weergegeven, moet u blijven wachten totdat het bureaublad van Microsoft® Windows® wordt weergegeven. Daarna schakelt u de computer uit en probeert u het opnieuw. 3. Selecteer het gewenste opstartapparaat uit de lijst en druk op &lt;Enter&gt;. 4. Volg de instructies op het scherm om het herstelproces te voltooien.
+
+54
+
+Het besturingssysteem herstellen
+
+Dell Factory Image Restore
+WAARSCHUWINGEN: Met Dell Factory Image Restore worden alle gegevens op de harde schijf permanent verwijderd. Ook worden alle toepassingen en stuurprogramma's verwijderd die u hebt geïnstalleerd nadat u de computer hebt ontvangen. Maak, indien mogelijk, een back-up van de gegevens voordat u deze optie gebruikt. Gebruik Dell Factory Image Restore alleen als Systeemherstel het probleem met het besturingssysteem niet heeft opgelost. N.B.: Dell Factory Image Restore is in sommige landen of op sommige computers mogelijk niet beschikbaar. N.B.: Indien Dell Factory Image Restore niet op uw computer is geïnstalleerd, gebruikt u Dell DataSafe Local Backup (zie “Dell DataSafe Local Backup” op pagina 51) om het besturingssysteem te herstellen.
+
+Gebruik Dell Factory Image Restore alleen als laatste redmiddel om uw besturingssysteem te herstellen. Met deze optie herstelt u de staat van de vaste schijf waarin deze verkeerde toen u de computer kocht. Alle programma's en bestanden die u hebt toegevoegd nadat u de computer hebt gekocht —inclusief gegevensbestanden— worden permanent van de vaste schijf verwijderd. Gegevensbestanden zijn onder andere documenten, spreadsheets, e-mailberichten, digitale foto's en muziekbestanden. Maak zo mogelijk een backup van alle gegevens voordat u Factory Image Restore gebruikt.
+
+Dell Factory Image Restore uitvoeren
+1. Zet de computer aan. 2. Druk wanneer het DELL™-logo verschijnt herhaaldelijk op &lt;F8&gt; om het venster Geavanceerde opstartopties te openen.
+
+55
+
+Het besturingssysteem herstellen
+
+N.B.: Als u te lang wacht en het logo van het besturingssysteem wordt weergegeven, moet u blijven wachten totdat het bureaublad van Microsoft® Windows® wordt weergegeven. Daarna schakelt u de computer uit en probeert u het opnieuw. 3. Selecteer Uw computer herstellen. Het venster Opties voor systeemherstel wordt weergegeven. 4. Selecteer een toetsenbordindeling en klik op Volgende. 5. Als u toegang wilt tot de herstelopties, moet u zich aanmelden als een lokale gebruiker. Als u toegang wilt tot de opdrachtprompt, typt u administrator in het veld Gebruikersnaam en klikt u op OK. 6. Klik op Dell Factory Image Restore. Het welkomstscherm van Dell Factory Image Restore wordt weergegeven.
+
+N.B.: Afhankelijk van uw configuratie moet u mogelijk eerst Dell Factory Tools kiezen en pas daarna Dell Factory Image Restore. 7. Klik op Volgende. Het scherm Confirm Data Deletion (Verwijderen van gegevens bevestigen) wordt weergegeven. N.B.: Als u niet verder wilt gaan met Factory Image Restore, klikt u op Cancel (Annuleren). 8. Klik op het selectievakje om te bevestigen dat u wilt doorgaan met het opnieuw formatteren van de vaste schijf en het herstel van de fabrieksinstellingen van de systeemsoftware, en klik op Next (Volgende). Het herstelproces begint en kan vijf minuten of meer in beslag nemen. Er wordt een bericht weergegeven wanneer het besturingssysteem en de standaardfabriekstoepassingen zijn hersteld. 9. Klik op Finish (Voltooien) om de computer opnieuw op te starten.
+
+56
+
+INSPIRON
+
+Hulp verkrijgen
+Als u een probleem met de computer ondervindt, kunt u de volgende stappen uitvoeren om een diagnose van het probleem te stellen en het op te lossen: 1. Zie “Problemen oplossen” op pagina 33 voor informatie en procedures met betrekking tot uw computerprobleem. 2. Zie “Dell Diagnostics (Dell-diagnostiek)” op pagina 44 voor procedures voor het uitvoeren van Dell Diagnostics (Delldiagnostiek). 3. Vul de diagnostische checklist in op pagina 64. 4. Gebruik het uitgebreide scala aan online services van Dell (op support.dell.com) voor hulp tijdens de installatie en bij het oplossen van problemen. Zie “Online Services” op pagina 59 voor een uitgebreidere lijst met online services van Dell Support. 5. Als het probleem niet met behulp van de voorgaande stappen kan worden opgelost, gaat u naar “Contact opnemen met Dell” op pagina 65. N.B.: Bel Dell Support vanaf een telefoon in de buurt van de computer, zodat de ondersteuningsmedewerkers u kunnen assisteren tijdens de benodigde procedures. N.B.: De code voor express-service is mogelijk niet in alle landen beschikbaar. Wanneer het automatische telefoonsysteem van Dell u daarom vraagt, voert u de code voor express-service in om het gesprek rechtstreeks naar de juiste ondersteuningsmedewerker te leiden. Als u niet over een code voor express-service beschikt, opent u de map Dell Accessories (Dell-accessoires), dubbelklikt u op het pictogram Express Service Code (Code
+
+57
+
+Hulp verkrijgen
+
+voor express-service) en volgt u de instructies op het scherm. N.B.: Sommige van de onderstaande services zijn mogelijk niet beschikbaar in locaties buiten de Verenigde Staten. Bel uw plaatselijke vertegenwoordiger van Dell voor informatie over beschikbaarheid van deze services.
+
+Technische ondersteuning en klantenservice
+De technische ondersteuning van Dell staat klaar voor al uw vragen met betrekking tot hardware van Dell. Onze ondersteuningsmedewerkers maken gebruik van diagnostische functionaliteit op de computer voor snelle, nauwkeurige antwoorden. Zie “Voordat u belt” op pagina 63 als u contact wilt opnemen met de ondersteuningsafdeling van Dell en raadpleeg vervolgens de contactgegevens voor uw regio, of ga naar support.dell.com.
+
+58
+
+Hulp verkrijgen
+
+DellConnect
+DellConnect™ is een eenvoudig hulpmiddel waarmee de ondersteuningsmedewerkers van Dell met een breedbandverbinding online toegang krijgen tot uw computer, zodat zij het probleem onder uw toezicht kunnen diagnosticeren en herstellen. Ga voor meer informatie naar support.dell.com/dellconnect.
+
+Online services
+Meer informatie over de producten en diensten van Dell is beschikbaar op de volgende websites: •	www.dell.com •	www.dell.com/ap (alleen landen in Azië/aan de Grote Oceaan) •	www.dell.com/jp (alleen Japan) •	www.euro.dell.com (alleen Europa) •	www.dell.com/la (landen in Latijns-Amerika en het Caribisch gebied) •	www.dell.ca (alleen Canada) Via de volgende websites en e-mailadressen kunt u contact opnemen met Dell Support:
+
+Dell Support-websites
+•	support.dell.com •	support.jp.dell.com (alleen Japan) •	support.euro.dell.com (alleen Europa)
+
+59
+
+Hulp verkrijgen
+
+E-mailadressen voor Dell Support
+•	mobile_support@us.dell.com •	support@us.dell.com •	la-techsupport@dell.com (alleen landen in Latijns-Amerika en het Caribisch gebied) •	apsupport@dell.com (alleen landen in Azië/ aan de Grote Oceaan)
+
+Geautomatiseerde bestelstatusservice
+U kunt de status van de door u bestelde Dellproducten raadplegen via support.dell.com of bellen met de geautomatiseerde bestelstatusservice. Via een opgenomen boodschap wordt u gevraagd de gegevens in te voeren die nodig zijn om uw bestelling en de status ervan te vinden. Zie 'Contact opnemen met Dell' op pagina 65 voor het telefoonnummer voor uw regio. Als er problemen met uw bestelling zijn, zoals ontbrekende onderdelen, verkeerde onderdelen of onjuiste facturering, neemt u contact op met Dell. Houd uw factuur of pakbon bij de hand wanneer u belt. Zie 'Contact opnemen met Dell' op pagina 65 voor het telefoonnummer voor uw regio.
+
+E-mailadressen van Dell Marketing en Sales
+•	apmarketing@dell.com (alleen landen in Azië/aan de Grote Oceaan) •	sales_canada@dell.com (alleen Canada)
+
+Anonieme FTP (File Transfer Protocol)
+•	ftp.dell.com Meld u aan als gebruiker: anonymous en gebruik uw e-mailadres als wachtwoord.
+
+60
+
+Hulp verkrijgen
+
+Productinformatie
+Als u informatie over andere Dell-producten nodig hebt of een bestelling wilt plaatsen, kunt u de website van Dell bezoeken op www.dell.com. Zie 'Contact opnemen met Dell' op pagina 65 voor het telefoonnummer voor uw regio of het nummer van een verkoopspecialist.
+
+Items retourneren voor reparatie of restitutie onder de garantie
+Bereid alle items die voor reparatie of restitutie worden teruggezonden als volgt voor: N.B.: denk eraan om een back-up te maken van alle gegevens op de vaste schijf en op eventuele andere opslagapparaten in het product voordat u het product naar Dell terugstuurt. Verwijder alle vertrouwelijke, particuliere en persoonlijke gegevens evenals verwisselbare media, zoals cd's en mediakaarten. Dell is niet verantwoordelijk voor vertrouwelijke, particuliere of persoonlijke gegevens, verloren of beschadigde gegevens of beschadigde of verloren verwijderbare media die zich op/ in de teruggestuurde computer bevinden.
+
+61
+
+Hulp verkrijgen
+
+1. Neem telefonisch contact op met Dell voor een RMA-nummer voor toegestane artikelretour. Noteer dit nummer op een duidelijk zichtbare plaats op de doos. Zie 'Contact opnemen met Dell' op pagina 65 voor het telefoonnummer voor uw regio. 2. Voeg een kopie van de factuur toe en een brief waarin u de reden voor de retournering beschrijft. 3. Voeg een kopie van de diagnostische checklist toe (zie 'Diagnostische checklist' op pagina 64) om aan te geven welke tests u hebt uitgevoerd en welke foutberichten door Dell Diagnostics (Dell-diagnostiek) werden gerapporteerd (zie 'Dell Diagnostics' op pagina 44). 4. Stuur alle accessoires mee die bij het geretourneerde item/de geretourneerde items behoren, zoals netadapter, software, handleidingen en dergelijke, als u voor restitutie in aanmerking wilt komen.
+
+5. Verpak de apparatuur die u terugstuurt in de oorspronkelijke of een vergelijkbare verpakking. N.B.: De verzendkosten zijn voor uw rekening. U bent ook verantwoordelijk voor het verzekeren van de geretourneerde producten en aansprakelijk voor het risico van eventueel verlies tijdens het retourneren van de items naar Dell. Pakketten die onder rembours worden verzonden, worden niet geaccepteerd. N.B.: Als niet aan de bovenstaande voorwaarden wordt voldaan, zullen de geretourneerde producten bij het magazijn van Dell worden geweigerd en aan u worden geretourneerd.
+
+62
+
+Hulp verkrijgen
+
+Voordat u belt
+N.B.: Zorg ervoor dat u uw code voor express-service bij de hand hebt wanneer u telefonisch contact met Dell opneemt. Met behulp van deze code kan het geautomatiseerde telefoonsysteem van Dell Support uw gesprek efficiënter naar de juiste persoon doorschakelen. Mogelijk wordt u gevraagd naar uw servicetag.
+
+Het serviceplaatje zoeken
+Het serviceplaatje voor uw computer is te vinden op een label onder aan de computer.
+
+1
+
+1
+
+Servicetag/code voor express-service
+
+63
+
+Hulp verkrijgen
+
+Vergeet niet de diagnostische checklist in te vullen. Zet indien mogelijk uw pc aan voordat u contact met Dell opneemt voor ondersteuning en bel vanaf een locatie in de buurt van de computer. Mogelijk wordt u gevraagd om enkele opdrachten in te voeren via het toetsenbord, informatie op te geven tijdens het uitvoeren van procedures of andere stappen op het gebied van probleemoplossing uit te voeren die alleen mogelijk zijn vanaf de pc in kwestie. Zorg ervoor dat u de documentatie van de computer bij de hand hebt.
+
+Diagnostische controlelijst •	Naam: •	Datum: •	Adres: •	Telefoonnummer: •	Servicetag en code voor express-service (bevinden zich op een sticker aan de onderzijde van uw computer): •	RMA-nummer voor artikelretour (indien verstrekt door een ondersteuningsmedewerker van Dell): •	Besturingssysteem en versie: •	Apparaten: •	Uitbreidingskaarten: •	Bent u op een netwerk aangesloten? Ja/Nee •	Netwerk, versie en netwerkadapter: •	Programma's en versies:
+
+64
+
+Hulp verkrijgen
+
+Raadpleeg de documentatie die bij uw besturingssysteem werd geleverd om de inhoud van de opstartbestanden van de computer te bepalen. Als de pc op een printer is aangesloten, kunt u de bestanden afdrukken. Als dit niet het geval is, noteert u de inhoud van elk bestand voordat u telefonisch contact met Dell opneemt. •	Foutbericht, pieptooncode of diagnostische code: •	Beschrijving van probleem en uitgevoerde probleemoplossingsprocedures:
+
+Contact opnemen met Dell
+Klanten in de VS kunnen bellen met 800-WWWDELL (800-999-3355). N.B.: Als u niet over een actieve internetverbinding beschikt, kunt u contactgegevens vinden op de factuur, de pakbon of in de productcatalogus van Dell. Dell biedt verschillende online en telefonische ondersteuningsservices en -mogelijkheden. De beschikbaarheid hiervan verschilt per land en product. Sommige services zijn mogelijk niet in uw regio beschikbaar. U neemt als volgt contact op met Dell voor zaken op het gebied van verkoop, ondersteuning of klantenservice: 1. Ga naar www.dell.com/contactdell. 2. Selecteer uw land of regio. 3. Selecteer de koppeling van de gewenste dienst of ondersteuning. 4. Selecteer de gewenste methode om contact op te nemen met Dell.
+
+65
+
+INSPIRON
+
+Meer informatie en bronnen
+Als u het volgende wilt doen:
+het besturingssysteem opnieuw installeren. een diagnostisch programma voor de computer uitvoeren systeemsoftware opnieuw installeren meer informatie krijgen over het Microsoft® Windows®-besturingssysteem en -functies de computer upgraden met nieuwe of extra geheugenmodules of een nieuwe vaste schijf installeren. een versleten of defect onderdeel vervangen.
+
+Gebruikt of raadpleegt u:
+“Middelen voor systeemherstel” op pagina 54. “Dell Diagnostics (Dell-diagnostiek)” op pagina 44 “My Dell Downloads” op pagina 41 support.dell.com de Onderhoudshandleiding op support.dell.com/manuals N.B.: In sommige landen is de garantie niet meer geldig als u de computer openmaakt en onderdelen vervangt. Controleer de garantievoorwaarden en het retourbeleid voordat u de computer openmaakt.
+
+66
+
+Meer informatie en bronnen
+
+Als u het volgende wilt doen:
+informatie zoeken over de aanbevolen procedures op het gebied van veiligheid voor uw computer. garantiegegevens, voorwaarden (alleen VS), veiligheidsinstructies, informatie over regelgeving en ergonomie en de gebruiksrechtovereenkomst bekijken.
+
+Gebruikt of raadpleegt u:
+de documentatie over veiligheid en regelgeving die bij uw computer is geleverd en de startpagina over naleving van de wet op: www.dell.com/regulatory_compliance.
+
+servicetag/code voor express-service zoeken: u de onderzijde van uw computer hebt de servicetag nodig om uw computer aan het Dell Support Center zoeken. U start het Dell te melden op support.dell.com of om contact op Support Center door te klikken op het pictogram te nemen met de technische ondersteuning. op de taakbalk.
+
+67
+
+Meer informatie en bronnen
+
+Als u het volgende wilt doen:
+stuurprogramma's en downloads zoeken; readme-bestanden. technische ondersteuning en productondersteuning inroepen de bestelstatus van nieuwe aankopen controleren oplossingen en antwoorden op algemene vragen zoeken de meeste recente informatie voor technische wijzigingen in de computer of geavanceerde technische naslaginformatie voor computertechnici en ervaren gebruikers zoeken.
+
+Gebruikt of raadpleegt u:
+support.dell.com
+
+68
+
+INSPIRON
+
+Specificaties
+Dit gedeelte bevat informatie die u mogelijk nodig hebt als u de computer installeert, stuurprogramma's bijwerkt of de computer uitbreidt. N.B.: Aanbiedingen kunnen per regio verschillen. Zie voor meer informatie over de configuratie van de computer de computerdocumentatie op de volgende locatie:
+
+Windows® 7: Start
+®
+
+→ Alle programma's→ Help-bestanden van Dell. → Help en ondersteuning→ Dell EDocs.
+
+Windows Vista : Start
+
+Computermodel
+Inspiron 410
+™
+
+Geheugen
+Connectors Type geheugen twee intern toegankelijke SODIMM-connectors 1066-MHz DDR3 SODIMMs; alleen nietECC-geheugen
+
+Computergegevens
+Processor typen AMD™ Athlon™ II Dual Core AMD Turion™ II Dual Core AMD Phenom™ II Triple Core AMD Phenom II Quad Core AMD V Series Single Core RS880M+SB820M
+
+Systeemchipset
+
+69
+
+Specificaties
+
+Geheugen
+Capaciteit geheugenmodules Mogelijke configuraties 1 GB, 2 GB en 4 GB 1 GB, 2 GB, 3 GB, 4 GB, 6 GB en 8 GB
+
+Audio
+Type geïntegreerd 2.1 kanaals High Definition-audio maximaal 7.1 kanaals digitale audio van S/PDIF (optisch)
+
+N.B.: Zie de Onderhoudshandleiding op support.dell.com/manuals voor instructies over het upgraden van het geheugen.
+
+Communicatie
+Draadloos (optioneel)
+Netwerkadapter
+
+802.11 a/b/g/n; b/g/n 10/100/1000 Ethernet LAN op systeemkaart
+
+Stations
+Extern toegankelijk (optie) één compartiment van 5,25 inch voor een SATA dvd+/-rw Super Multi Drive of Blu-ray Disc™ combo met lade 12,7 mm (optie)
+
+Video
+Geïntegreerd Afzonderlijk (optie) ATI Mobility Radeon™ HD 4250 ATI Mobility Radeon™ HD 5450, 1GB
+
+Intern toegankelijk één 3,5-inch compartiment voor een SATA harde schijf
+
+70
+
+Specificaties
+
+Geheugenkaartlezer
+Ondersteunde kaarten Secure Digital-kaarten (SD) MicroSD-kaarten MiniSD-kaarten SDHC-kaarten (Secure Digital High Capacity) MultiMedia Card (MMC) xD-Picture-kaarten Memory Stick PRO/Duokaarten
+
+Externe connectors
+Geheugenkaartlezer IR-sensor (optie) Netwerkadapter USB Audio S/PDIF eSATA VGA HDMI één 4-in-1-kaartsleuf één
+
+Connectors op de achterkant: één RJ45-connector twee USB 2.0-compatibele connectors één microfoon- en één line-outconnector één digitale (optische) S/ PDIF-connector twee 7-pins connectors één 15-gatsconnector één 19-pins connector
+
+Externe connectors
+Connectors voorpaneel: USB Audio twee USB 2.0-compatibele connectors een hoofdtelefoonconnector
+
+71
+
+Specificaties
+
+Netadapter
+90 W (E-serie): N.B.: Ondersteund op modellen met een afzonderlijke grafische kaart (optie). Ingangsspanning Ingangsstroom Ingangsfrequentie Uitgangsstroom Uitvoerstroom Nominale uitgangsspanning 65 W (E-serie): Ingangsspanning Ingangsstroom Ingangsfrequentie 100-240 V wisselstroom 1,5/1,6/1,7 A 50-60 Hz 100-240 V wisselstroom 1,5 A 50-60 Hz 90 W 4,62 A 19,5 VDC
+
+Netadapter
+Uitgangsstroom Uitvoerstroom Nominale uitgangsspanning 65 W 3,34 A 19,5 VDC
+
+Batterij
+Knoopcelbatterij 3 V CR2032 lithiumknoopcel
+
+Fysieke specificaties
+Hoogte Breedte Diepte Gewicht 197,6 mm 197,6 mm 89 mm 2,0 kg
+
+72
+
+Specificaties
+
+Computeromgeving
+Temperatuurbereik: Gebruik Opslag Relatieve vochtigheid (maximaal) 10°C tot 35°C –40°C tot 65°C 20% tot 80% (nietcondenserend)
+
+Computeromgeving
+Maximale schok (in bedrijf: gemeten met Dell Diagnostics op de vaste schijf en een halve sinuspuls van 2 ms; of niet in bedrijf: gemeten met vaste schijf met geparkeerde koppen en een halve sinuspuls van 26 ms): Gebruik 40 G gedurende 2 ms met een snelheidsverandering van 51 cm/s 45 G gedurende 26 ms met een snelheidsverandering van 731,52 cm/s –15,2 tot 3048 m –15,2 tot 10,668 m G2 of lager, zoals gedefinieerd in ISA-S71.04-1985
+
+Maximale trilling (met behulp van een willekeurig vibrerend spectrum dat de gebruikersomgeving simuleert): Gebruik Opslag 0,26 GRMS 2,2 GRMS
+
+Niet in bedrijf
+
+Hoogte (maximum): Gebruik Opslag Contaminatieniveau in de lucht
+
+73
+
+INSPIRON
+
+Bijlage
+Kennisgeving over Macrovision
+Dit product bevat technologie voor bescherming van het auteursrecht, dat wordt beschermd door methodische claims van bepaalde octrooien in de V.S. en andere rechten voor intellectueel eigendom die in handen zijn van Macrovision Corporation en andere houders van rechten. Gebruik van deze technologie voor bescherming van het auteursrecht moet worden goedgekeurd door Macrovision Corporation en is bestemd voor thuisgebruik en overige vertoning in beperkte kring, tenzij Macrovision Corporation toestemming heeft gegeven voor andere toepassingen. Reverseengineering of demontage is verboden.
+
+74
+
+Bijlage
+
+Informatie over de officiële Mexicaanse NOM-norm (alleen voor Mexico)
+De volgende informatie wordt verstrekt in het apparaat/de apparaten die in dit document wordt/ worden beschreven overeenkomstig de vereisten van de officiële Mexicaanse norm (NOM): Importeur: Dell México S.A. de C.V. Paseo de la Reforma 2620 – Flat 11° Col. Lomas Altas 11950 México, D.F. Nominale uitgangsstroom 3,34/4,62 A
+
+Regelgevingsmodelnummer D03U
+
+Ingangsspanning 100-240 V
+
+Ingangsfrequentie 50-60 Hz
+
+Raadpleeg voor meer informatie de veiligheidsgegevens die bij uw computer zijn geleverd. Raadpleeg voor meer informatie over veiligheidsrichtlijnen onze website over wet- en regelgeving op www.dell.com/regulatory_compliance.
+
+75
+
+INSPIRON
+
+Index
+A
+aan/uitknop en -lampje 25 Dell Diagnostics (Dell-diagnostiek) 44 de schijf uitwerpen 23 diagnostische controlelijst 64 draadloze netwerkverbinding 34 dvd’s, afspelen en maken 29
+
+B
+bellen met Dell 63 bestelstatus 60
+
+C
+cd’s, afspelen en maken 29 chipset 69 code voor express-service 57 computermogelijkheden 29 contact opnemen met Dell 65
+
+E
+e-mailadressen voor technische ondersteuning 60 e-mailadressen voor ondersteuning 60 eSATA-connector 27
+
+F
+fabrieksimage herstellen 55 FTP, anoniem aanmelden 60
+
+D
+DataSafe Local Backup 51 DellConnect 59
+
+76
+
+Index
+
+G
+garantie, retourneren 61 Geheugenkaartlezer 23 geheugenondersteuning 69 geheugenproblemen oplossen 37
+
+K
+klantenservice 58
+
+L
+lampje van vaste schijf 28
+
+N
+netwerkconnector locatie 27 netwerkverbinding oplossen 34
+
+H
+hardwareproblemen diagnose 44 HDMI-connector 28 Het serviceplaatje zoeken 63
+
+O
+onderdelen voorzijde 22 optische audioconnector S/PDIF 27
+
+I
+internetverbinding 19 ISP (internetaanbieder) internetprovider 19
+
+77
+
+Index
+
+P
+probleemoplosser voor hardware 44 problemen oplossen 33 problemen, oplossen 33 processor 69 producten informatie en aanschaf 61
+
+U
+uitwerpknop 23 USB 2.0 connectors op achterkant 28 connectors op voorkant 23
+
+V
+vaste schijf type 70 verbinding maken optionele netwerkkabel 14 verzenden van producten voor retour of reparatie 61 voedingsproblemen, oplossen 35
+
+S
+Serviceplaatje 63 softwareonderdelen 29 softwareproblemen 38 stuurprogramma’s en downloads 68 systeemberichten 41
+
+T
+technische ondersteuning 58
+
+78
+
+Index
+
+W
+websites voor ondersteuning wereldwijd 59 Windows Programmacompatibiliteit, wizard 38 Windows, opnieuw installeren 49
+
+79
+
+Gedrukt in Ierland
+
+www.dell.com | support.dell.com
+
+</data>
+<stemmer>delanguage+dutch+depluralize</stemmer>
+<kb>dutch</kb>
+<expected>dutch</expected>
+<basis>Yes</basis>
+</test>
+</testset>
+

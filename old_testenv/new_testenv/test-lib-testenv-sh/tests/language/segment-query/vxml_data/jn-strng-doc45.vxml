@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vce>
+        <document vse-key="document://JN1/doc45">
+           <vse-index-stream segmenter="japanese" stem="depluralize" kb="japanese-indexing"/>
+           <content name="title">Boomiは2000年創業の米ペンシルベニア州バーウィンに拠点を置く非公開企業。異なるSaaS製品間やデータセンターのオンプレミスアプリとクラウドアプリを統合し、同社によると、月当たり数百万のトランザクションを処理しており、これまでに幅広い業種の数百企業において数万のクラウド統合を手掛けたという。Dellはこの買収で、企業のクラウド移行の障害となっている既存のアプリやデータベースとクラウドアプリの統合という課題を解決する機能を同社のクラウドポートフォリオに加える。DellはPC事業から企業向けサーバ事業へとシフトしている。</content>
+           <content name="qid-list">JN1-1::ALL</content>
+        </document>
+</vce>

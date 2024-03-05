@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="5" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="4" />
+<attribute name="total-results-with-duplicates" value="5" />
+<document filetypes="text " vse-base-score="1.33203"
+  vse-key="file://:80/testenv/samba_test_data/samba-1/doc/fedpaper.txt/"
+  priority="0" vertex="48" graph-id-high-water="47" ct="text/plain"
+  url="file:///testenv/samba_test_data/samba-1/doc/fedpaper.txt" la-score="2.63906"
+>
+  <content name="filetype" action="none" u="1">text</content>
+  <content name="size" weight="-1" u="3">1205851</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067665"
+    u="16"
+  >Feb 21,
+  2007 14:21:05 GMT</content>
+  <content name="language" weight="0" action="none" u="18">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.666667">
+      <pre u="35936" v="35955">No. 18
+
+The Same Subject Continued
+(The Insufficiency of the Present Confederation to Preserve the
+ Union)
+For the Independent Journal.
+
+</pre>
+      <content type="TEXT" name="snippet" u="20" v="197306" />
+      <match u="35956" v="35958">HAMILTON AND MADISON
+
+</match>
+      <post u="35959" v="35978">To the People of the State of New York:
+AMONG the confederacies of antiquity, the most considerable was
+ that of </post>
+    </solution>
+    <solution rank="1" score="0.666667">
+      <pre u="38075" v="38094">No. 19
+
+The Same Subject Continued
+(The Insufficiency of the Present Confederation to Preserve the
+ Union)
+For the Independent Journal.
+
+</pre>
+      <content type="TEXT" name="snippet" u="20" v="197306" />
+      <match u="38095" v="38097">HAMILTON AND MADISON
+
+</match>
+      <post u="38098" v="38117">To the People of the State of New York:
+THE examples of ancient confederacies, cited in my last paper,
+ have </post>
+    </solution>
+    <solution rank="2" score="0.666667">
+      <pre u="40162" v="40181">Continued
+(The Insufficiency fo the Present Confederation to Preserve the
+ Union)
+From the New York Packet.
+Tuesday, December 11, 1787.
+
+</pre>
+      <content type="TEXT" name="snippet" u="20" v="197306" />
+      <match u="40182" v="40184">HAMILTON AND MADISON
+
+</match>
+      <post u="40185" v="40204">To the People of the State of New York:
+THE United Netherlands are a confederacy of republics, or rather
+ of </post>
+    </solution>
+    <solution rank="3" score="0.666667">
+      <pre u="109352" v="109371">Department of Government by Appealing to the People Through a
+Convention
+From the New York Packet. Tuesday, February 5, 1788. 
+
+</pre>
+      <content type="TEXT" name="snippet" u="20" v="197306" />
+      <match u="109372" v="109374">HAMILTON OR MADISON
+
+</match>
+      <post u="109375" v="109394">To the People of the State of New York:
+THE author of the ``Notes on the State of Virginia,'' quoted </post>
+    </solution>
+    <solution rank="4" score="0.666667">
+      <pre u="111030" v="111049">precision. PUBLIUS. 
+
+
+FEDERALIST No. 50
+
+Periodical Appeals to the People Considered
+From the New York Packet. Tuesday, February 5, 1788. 
+
+</pre>
+      <content type="TEXT" name="snippet" u="20" v="197306" />
+      <match u="111050" v="111052">HAMILTON OR MADISON
+
+</match>
+      <post u="111053" v="111072">To the People of the State of New York:
+IT MAY be contended, perhaps, that instead of OCCASIONAL appeals
+to </post>
+    </solution>
+    <solution rank="5" score="0.666667">
+      <pre u="112174" v="112193">Must Furnish the Proper Checks
+and Balances Between the Different Departments
+From the New York Packet. Friday, February 8, 1788. 
+
+</pre>
+      <content type="TEXT" name="snippet" u="20" v="197306" />
+      <match u="112194" v="112196">HAMILTON OR MADISON
+
+</match>
+      <post u="112197" v="112216">To the People of the State of New York:
+TO WHAT expedient, then, shall we finally resort, for maintaining
+in </post>
+    </solution>
+    <solution rank="6" score="0.666667">
+      <pre u="114117" v="114136">the FEDERAL PRINCIPLE.
+PUBLIUS. 
+
+
+FEDERALIST No. 52
+
+The House of Representatives
+From the New York Packet. Friday, February 8, 1788. 
+
+</pre>
+      <content type="TEXT" name="snippet" u="20" v="197306" />
+      <match u="114137" v="114139">HAMILTON OR MADISON
+
+</match>
+      <post u="114140" v="114159">To the People of the State of New York:
+FROM the more general inquiries pursued in the four last papers,
+</post>
+    </solution>
+    <solution rank="7" score="0.666667">
+      <pre u="115994" v="116013">FEDERALIST No. 53
+
+The Same Subject Continued(The House of Representatives)
+From the New York Packet. Tuesday, February 12, 1788. 
+
+</pre>
+      <content type="TEXT" name="snippet" u="20" v="197306" />
+      <match u="116014" v="116016">HAMILTON OR MADISON
+
+</match>
+      <post u="116017" v="116036">To the People of the State of New York:
+I SHALL here, perhaps, be reminded of a current observation,
+``that </post>
+    </solution>
+    <solution rank="8" score="0.666667">
+      <pre u="118192" v="118211">PUBLIUS. 
+
+
+FEDERALIST No. 54
+
+The Apportionment of Members Among the States
+
+From the New York Packet. Tuesday, February 12, 1788. 
+
+</pre>
+      <content type="TEXT" name="snippet" u="20" v="197306" />
+      <match u="118212" v="118214">HAMILTON OR MADISON
+
+</match>
+      <post u="118215" v="118234">To the People of the State of New York:
+THE next view which I shall take of the House of </post>
+    </solution>
+    <solution rank="9" score="0.666667">
+      <pre u="120221" v="120240">FEDERALIST No. 55
+
+The Total Number of the House of Representatives
+From the New York Packet. Friday, February 15, 1788. 
+
+</pre>
+      <content type="TEXT" name="snippet" u="20" v="197306" />
+      <match u="120241" v="120243">HAMILTON OR MADISON
+
+</match>
+      <post u="120244" v="120263">To the People of the State of New York:
+THE number of which the House of Representatives is to consist,
+</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... to Preserve the
+ Union)
+For the Independent Journal.
+
+HAMILTON AND MADISON
+
+To the People of the State of New  ... to Preserve the
+ Union)
+For the Independent Journal.
+
+HAMILTON AND MADISON
+
+To the People of the State of New  ... </content>
+</document>
+<document filetypes="html " vse-base-score="0.791667"
+  vse-key="file://:80/testenv/samba_test_data/samba-1/doc/federa00.htm/"
+  priority="0" vertex="46" graph-id-high-water="45" ct="text/html"
+  url="file:///testenv/samba_test_data/samba-1/doc/federa00.htm" la-score="2.63906"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">39291</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="16"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="language" weight="0" action="none" u="18">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="20">The Federalist - Contents</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.666667">
+      <pre u="25" v="25"><![CDATA[       <td>  </td><td>  </td><td>  </td>  <td>Alexander ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="24"
+        v="1596"
+      />
+      <match u="26" v="28"><![CDATA[Hamilton</td><td> James Madison</td><td>]]></match>
+      <post u="29" v="48"><![CDATA[John Jay</td>   <br/><h1>The Federalist</h1> <p>The text of this version is primarily taken from the first collected
+		1788 "McLean edition", but ]]></post>
+    </solution>
+    <solution rank="1" score="0.25">
+      <pre u="234" v="253">McLean,  Federalist II . We have followed the consensus of
+		scholars on attribution of each paper to its primary author, James </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="24"
+        v="1596"
+      />
+      <match u="254" v="261"><![CDATA[Madison
+		[<b>M</b>], John Jay [<b>J</b>], or Alexander Hamilton [<b>]]></match>
+      <post u="262" v="281"><![CDATA[H</b>], which is
+		shown following the date. Please email comments or corrections to
+		<a>jon.roland@constitution.org</a>.
+		</p><hr/><h2>Contents</h2>   <td><a>1</a></td><td>J</td><td>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[       <td>  </td><td>  </td><td>  </td>  <td>Alexander Hamilton</td><td> James Madison</td><td>John Jay</td>   <br/><h1>The Federalist</h1> <p>The text of this version is primarily taken from the first collected
+		1788 " ... of each paper to its primary author, James Madison
+		[<b>M</b>], John Jay [<b>J</b>], or Alexander Hamilton [<b>H</b>], which is
+		shown following the date. Please  ... ]]></content>
+</document>
+<document filetypes="text " vse-base-score="0.0592199"
+  vse-key="file://:80/testenv/samba_test_data/samba-1/doc/arizona.txt/"
+  priority="0" vertex="6" graph-id-high-water="5" ct="text/plain"
+  url="file:///testenv/samba_test_data/samba-1/doc/arizona.txt" la-score="2.63906"
+>
+  <content name="filetype" action="none" u="1">text</content>
+  <content name="size" weight="-1" u="3">53141</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="16"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="language" weight="0" action="none" u="18">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0425532">
+      <pre u="4571" v="4590">John Dickinson 
+Richard Bassett 
+Jaco: Broom 
+
+MARYLAND 
+
+James McHenry 
+Dan of St. Thos. Jenifer 
+Danl Carroll 
+
+VIRGINIA 
+
+John Blair-
+James </pre>
+      <content type="TEXT" name="snippet" u="20" v="8741" />
+      <match u="4591" v="4637">Madison Jr. 
+
+
+NORTH CAROLINA 
+
+Wm. Blount 
+Richd. Dobbs Spaight 
+Hu Williamson 
+
+SOUTH CAROLINA 
+
+J. Rutledge 
+Charles Cotesworth Pinckney 
+Charles Pinckney 
+Pierce Butler 
+GEORGIA 
+
+William Few
+Abr Baldwin 
+
+
+Attest William Jackson Secretary 
+
+In Convention Monday 
+September 17th, 1787. 
+Present 
+The States of 
+New Hampshire, Massachusetts, Connecticut, Mr. Hamilton </match>
+      <post u="4638" v="4657">from New York, New Jersey, Pennsylvania, Delaware, 
+Maryland, Virginia, North Carolina, South Carolina and 
+Georgia. 
+
+Resolved, 
+That the preceeding Constitution </post>
+    </solution>
+    <solution rank="1" score="0.0333333">
+      <pre u="4512" v="4531">NEW HAMPSHIRE 
+
+John Langdon 
+Nicholas Gilman
+
+
+MASSACHUSETTS 
+
+Nathaniel Gorham
+Rufus King
+
+
+CONNECTICUT 
+
+Wm. Saml. Johnson
+Roger Sherman 
+
+
+NEW YORK 
+
+Alexander </pre>
+      <content type="TEXT" name="snippet" u="20" v="8741" />
+      <match u="4532" v="4591">Hamilton 
+
+NEW JERSEY 
+
+Wil: Livingston
+David Brearley
+Wm. Paterson
+Jona: Dayton 
+
+
+PENNSYLVANIA 
+
+B Franklin
+Thomas Mifflin
+Robt Morris
+Geo. Clymer
+Thos. FitzSimons
+Jared Ingersoll
+James Wilson
+Gouv Morris 
+
+
+CONSTITUTION OF THE UNITED STATES 
+
+ 
+DELAWARE 
+
+Geo: Read 
+Gunning Bedford jun 
+John Dickinson 
+Richard Bassett 
+Jaco: Broom 
+
+MARYLAND 
+
+James McHenry 
+Dan of St. Thos. Jenifer 
+Danl Carroll 
+
+VIRGINIA 
+
+John Blair-
+James Madison </match>
+      <post u="4592" v="4611">Jr. 
+
+
+NORTH CAROLINA 
+
+Wm. Blount 
+Richd. Dobbs Spaight 
+Hu Williamson 
+
+SOUTH CAROLINA 
+
+J. Rutledge 
+Charles Cotesworth Pinckney 
+Charles Pinckney 
+Pierce </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Thos. Jenifer 
+Danl Carroll 
+
+VIRGINIA 
+
+John Blair-
+James Madison Jr. 
+
+
+NORTH ...  Mr. Hamilton from New York, New Jersey, Pennsylvania, Delaware, 
+Maryland,  ... </content>
+</document>
+<document filetypes="text " vse-base-score="0.0592199"
+  vse-key="file://:80/testenv/samba_test_data/samba-1/doc/constitution.txt/"
+  priority="0" vertex="44" graph-id-high-water="43" ct="text/plain"
+  url="file:///testenv/samba_test_data/samba-1/doc/constitution.txt"
+  la-score="2.63906"
+>
+  <content name="filetype" action="none" u="1">text</content>
+  <content name="size" weight="-1" u="3">53141</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="16"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="language" weight="0" action="none" u="18">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0425532">
+      <pre u="4571" v="4590">John Dickinson 
+Richard Bassett 
+Jaco: Broom 
+
+MARYLAND 
+
+James McHenry 
+Dan of St. Thos. Jenifer 
+Danl Carroll 
+
+VIRGINIA 
+
+John Blair-
+James </pre>
+      <content type="TEXT" name="snippet" u="20" v="8741" />
+      <match u="4591" v="4637">Madison Jr. 
+
+
+NORTH CAROLINA 
+
+Wm. Blount 
+Richd. Dobbs Spaight 
+Hu Williamson 
+
+SOUTH CAROLINA 
+
+J. Rutledge 
+Charles Cotesworth Pinckney 
+Charles Pinckney 
+Pierce Butler 
+GEORGIA 
+
+William Few
+Abr Baldwin 
+
+
+Attest William Jackson Secretary 
+
+In Convention Monday 
+September 17th, 1787. 
+Present 
+The States of 
+New Hampshire, Massachusetts, Connecticut, Mr. Hamilton </match>
+      <post u="4638" v="4657">from New York, New Jersey, Pennsylvania, Delaware, 
+Maryland, Virginia, North Carolina, South Carolina and 
+Georgia. 
+
+Resolved, 
+That the preceeding Constitution </post>
+    </solution>
+    <solution rank="1" score="0.0333333">
+      <pre u="4512" v="4531">NEW HAMPSHIRE 
+
+John Langdon 
+Nicholas Gilman
+
+
+MASSACHUSETTS 
+
+Nathaniel Gorham
+Rufus King
+
+
+CONNECTICUT 
+
+Wm. Saml. Johnson
+Roger Sherman 
+
+
+NEW YORK 
+
+Alexander </pre>
+      <content type="TEXT" name="snippet" u="20" v="8741" />
+      <match u="4532" v="4591">Hamilton 
+
+NEW JERSEY 
+
+Wil: Livingston
+David Brearley
+Wm. Paterson
+Jona: Dayton 
+
+
+PENNSYLVANIA 
+
+B Franklin
+Thomas Mifflin
+Robt Morris
+Geo. Clymer
+Thos. FitzSimons
+Jared Ingersoll
+James Wilson
+Gouv Morris 
+
+
+CONSTITUTION OF THE UNITED STATES 
+
+ 
+DELAWARE 
+
+Geo: Read 
+Gunning Bedford jun 
+John Dickinson 
+Richard Bassett 
+Jaco: Broom 
+
+MARYLAND 
+
+James McHenry 
+Dan of St. Thos. Jenifer 
+Danl Carroll 
+
+VIRGINIA 
+
+John Blair-
+James Madison </match>
+      <post u="4592" v="4611">Jr. 
+
+
+NORTH CAROLINA 
+
+Wm. Blount 
+Richd. Dobbs Spaight 
+Hu Williamson 
+
+SOUTH CAROLINA 
+
+J. Rutledge 
+Charles Cotesworth Pinckney 
+Charles Pinckney 
+Pierce </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Thos. Jenifer 
+Danl Carroll 
+
+VIRGINIA 
+
+John Blair-
+James Madison Jr. 
+
+
+NORTH ...  Mr. Hamilton from New York, New Jersey, Pennsylvania, Delaware, 
+Maryland,  ... </content>
+</document>
+<document filetypes="pdf " vse-base-score="0.0589466"
+  vse-key="file://:80/testenv/samba_test_data/samba-1/doc/constitution.pdf/"
+  priority="0" vertex="43" graph-id-high-water="42" ct="text/html"
+  url="file:///testenv/samba_test_data/samba-1/doc/constitution.pdf"
+  la-score="2.63906"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">389617</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="16"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="language" weight="0" action="none" u="18">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="20">CONSTITUTION</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0425532">
+      <pre u="4655" v="4674"><![CDATA[jun<br/>John Dickinson<br/>Richard Bassett<br/>Jaco: Broom</span> </div><div> <span>MARYLAND</span> </div><div> <span>James McHenry<br/>Dan of St. Thos. Jenifer<br/>Danl Carroll</span> </div><div> <span>VIRGINIA</span> </div><div> <span>John BlairJames<br/> ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="22"
+        v="8912"
+      />
+      <match u="4675" v="4721"><![CDATA[Madison Jr.</span> </div><div> <span>NORTH CAROLINA</span> </div><div> <span>Wm. Blount<br/>Richd. Dobbs Spaight<br/>Hu Williamson</span> </div><div> <span>SOUTH CAROLINA</span> </div><div> <span>J. Rutledge<br/>Charles Cotesworth Pinckney<br/>Charles Pinckney<br/>Pierce Butler</span> </div><div> <span>GEORGIA</span> </div><div> <span>William Few<br/>Abr Baldwin</span> </div><div> <span>Attest William Jackson Secretary</span> </div><div> <span>In Convention Monday<br/>September 17th, 1787.<br/>Present<br/>The States of<br/>New Hampshire, Massachusetts, Connecticut, Mr. Hamilton<br/> ]]></match>
+      <post u="4722" v="4741"><![CDATA[from New York, New Jersey, Pennsylvania, Delaware,<br/>Maryland, Virginia, North Carolina, South Carolina and<br/>Georgia.</span> </div><div> <span>Resolved,<br/>That the preceeding Constitution ]]></post>
+    </solution>
+    <solution rank="1" score="0.0327869">
+      <pre u="4595" v="4614"><![CDATA[NEW HAMPSHIRE</span> </div><div> <span>John Langdon<br/>Nicholas Gilman</span> </div><div> <span>MASSACHUSETTS</span> </div><div> <span>Nathaniel Gorham<br/>Rufus King</span> </div><div> <span>CONNECTICUT</span> </div><div> <span>Wm. Saml. Johnson<br/>Roger Sherman</span> </div><div> <span>NEW YORK</span> </div><div> <span>Alexander ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="22"
+        v="8912"
+      />
+      <match u="4615" v="4675"><![CDATA[Hamilton</span> </div><div> <span>NEW JERSEY</span> </div><div> <span>Wil: Livingston<br/>David Brearley<br/>Wm. Paterson<br/>Jona: Dayton</span> </div><div> <span>PENNSYLVANIA</span> </div><div> <span>B Franklin</span> </div><div> <span>Thomas Miffl in</span> </div><div> <span>Robt Morris<br/>Geo. Clymer</span> </div><div> <span>Thos. FitzSimons</span> </div><div> <span>Jared Ingersoll<br/>James Wilson<br/>Gouv Morris</span> </div><div> <span>9</span> </div></div><a/><div> <div> <span>CONSTITUTION OF THE UNITED STATES</span> </div><div> <span>DELAWARE</span> </div><div> <span>Geo: Read<br/>Gunning Bedford jun<br/>John Dickinson<br/>Richard Bassett<br/>Jaco: Broom</span> </div><div> <span>MARYLAND</span> </div><div> <span>James McHenry<br/>Dan of St. Thos. Jenifer<br/>Danl Carroll</span> </div><div> <span>VIRGINIA</span> </div><div> <span>John BlairJames<br/> Madison ]]></match>
+      <post u="4676" v="4695"><![CDATA[Jr.</span> </div><div> <span>NORTH CAROLINA</span> </div><div> <span>Wm. Blount<br/>Richd. Dobbs Spaight<br/>Hu Williamson</span> </div><div> <span>SOUTH CAROLINA</span> </div><div> <span>J. Rutledge<br/>Charles Cotesworth Pinckney<br/>Charles Pinckney<br/>Pierce ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... St. Thos. Jenifer<br/>Danl Carroll</span> </div><div> <span>VIRGINIA</span> </div><div> <span>John BlairJames<br/> Madison ...  Hampshire, Massachusetts, Connecticut, Mr. Hamilton<br/> from New York, New Jersey, Pennsylvania, Delaware,<br/>Maryland,  ... ]]></content>
+</document>
+<retrieval-performance n-tau="45" n-rho="11" n-uat="0" n-ohr="0"
+  occr-reads="29200" block-reads="76" seeks="7" cache-hits="76" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="10" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="74" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="10" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="74" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-tau="10" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="74" block-reads="3" seeks="2" cache-hits="3" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="27973" block-reads="62" seeks="0" cache-hits="62" cache-misses="0"
+  >
+    <query-performance what="3:" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="27973" block-reads="62" seeks="0" cache-hits="62" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="27" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="646" block-reads="6" seeks="3" cache-hits="6" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="27" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="646" block-reads="6" seeks="3" cache-hits="6" cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="27" n-rho="27" n-uat="0"
+        n-ohr="0" occr-reads="646" block-reads="5" seeks="3" cache-hits="5"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-tau="27" n-rho="37" n-uat="0" n-ohr="0"
+          occr-reads="487" block-reads="1" seeks="1" cache-hits="1" cache-misses="0"
+        />
+        <query-performance what="or" n-tau="15" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="159" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+        >
+          <query-performance what="0:url" n-tau="10" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="83" block-reads="1" seeks="1" cache-hits="1"
+            cache-misses="0"
+          />
+          <query-performance what="0:host" n-tau="1" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-tau="1" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+            cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-tau="10" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="76" block-reads="1" seeks="1" cache-hits="1"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="4" n-rho="4" n-uat="0" n-ohr="0"
+    occr-reads="67" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="4" n-rho="4" n-uat="0" n-ohr="0"
+      occr-reads="67" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-tau="4" n-rho="4" n-uat="0" n-ohr="0"
+        occr-reads="67" block-reads="1" seeks="1" cache-hits="1" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="4" n-rho="7" n-uat="0"
+    n-ohr="0" occr-reads="440" block-reads="2" seeks="1" cache-hits="2"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="4" n-rho="7" n-uat="0" n-ohr="0"
+      occr-reads="440" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+    >
+      <query-performance what="0:" n-tau="4" n-rho="7" n-uat="0" n-ohr="0"
+        occr-reads="440" block-reads="1" seeks="1" cache-hits="1" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="and" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="197" block-reads="4" seeks="2" cache-hits="3" cache-misses="1"
+>
+  <query-performance what="not-within" n-tau="27" n-rho="0" n-uat="21" n-ohr="0"
+    occr-reads="118" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+  >
+    <query-performance what="1:hamilton" n-tau="27" n-rho="0" n-uat="21"
+      n-ohr="0" occr-reads="118" block-reads="1" seeks="1" cache-hits="1"
+      cache-misses="0"
+    />
+    <query-performance what="0:del#" n-tau="1" n-rho="1" n-uat="0" n-ohr="1"
+      occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="not-within" n-tau="23" n-rho="0" n-uat="21" n-ohr="0"
+    occr-reads="79" block-reads="2" seeks="1" cache-hits="1" cache-misses="1"
+  >
+    <query-performance what="1:madison" n-tau="23" n-rho="0" n-uat="21" n-ohr="0"
+      occr-reads="79" block-reads="1" seeks="1" cache-hits="0" cache-misses="1"
+    />
+    <query-performance what="0:del#" n-tau="1" n-rho="1" n-uat="0" n-ohr="1"
+      occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+    />
+  </query-performance>
+</query-performance>
+</scope>

@@ -1,0 +1,140 @@
+#
+# "$Id: Makefile.in 370 2008-12-06 04:20:38Z mike $"
+#
+# Makefile for Mini-XML, a small XML-like file parsing library.
+#
+# Copyright 2003-2008 by Michael Sweet.
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Library General Public
+# License as published by the Free Software Foundation; either
+# version 2, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+
+#
+# Compiler tools definitions...
+#
+
+AR		=	/usr/bin/ar
+ARFLAGS		=	crvs
+ARCHFLAGS	=	
+CC		=	gcc
+CFLAGS		=	$(OPTIM) $(ARCHFLAGS) -Wall   -D_THREAD_SAFE -D_REENTRANT -DPLATFORM_WINDOWS -mno-cygwin -mwindows
+CP		=	cp
+DSO		=	:
+DSOFLAGS	=	
+LDFLAGS		=	$(OPTIM) $(ARCHFLAGS) 
+INSTALL		=	/usr/bin/install -c
+LIBMXML		=	libmxml.a
+#LIBS		=	 -lpthread
+LN		=	ln -s
+MKDIR		=	mkdir
+OPTIM		=	-Os -g
+RANLIB		=	ranlib
+RM		=	rm -f
+SHELL		=	/bin/sh
+
+
+#
+# Configured directories...
+#
+
+prefix		=	/usr/local
+exec_prefix	=	/usr/local
+bindir		=	${exec_prefix}/bin
+datarootdir	=	${prefix}/share
+includedir	=	${prefix}/include
+libdir		=	${exec_prefix}/lib
+mandir		=	${datarootdir}/man
+docdir		=	${datarootdir}/doc/mxml
+BUILDROOT	=	$(DSTROOT)
+
+
+#
+# Install commands...
+#
+
+INSTALL_BIN	=	$(LIBTOOL) $(INSTALL) -m 755 -s
+INSTALL_DATA	=	$(INSTALL) -m 644
+INSTALL_DIR	=	$(INSTALL) -d
+INSTALL_LIB	=	$(LIBTOOL) $(INSTALL) -m 755
+INSTALL_MAN	=	$(INSTALL) -m 644
+INSTALL_SCRIPT	=	$(INSTALL) -m 755
+
+
+#
+# Rules...
+#
+
+.SUFFIXES:	.c .man .o
+.c.o:
+	$(CC) $(CFLAGS) -c $<
+
+
+#
+# Targets...
+#
+
+PUBLIBOBJS	=	mxml-attr.o mxml-entity.o mxml-file.o mxml-index.o \
+			mxml-node.o mxml-search.o mxml-set.o
+LIBOBJS		=	$(PUBLIBOBJS) mxml-private.o mxml-string.o
+OBJS		=	$(LIBOBJS)
+TARGETS		=	$(LIBMXML)
+
+
+#
+# Make everything...
+#
+
+all:		Makefile config.h $(TARGETS)
+
+
+#
+# Clean everything...
+#
+
+clean:
+	$(RM) $(OBJS) $(TARGETS)
+	$(RM) mxmldoc-static libmxml.a
+
+
+#
+# Really clean everything...
+#
+
+distclean:	clean
+	$(RM) config.cache config.log config.status
+	$(RM) Makefile config.h
+	$(RM) -r autom4te*.cache
+	$(RM) *.bck *.bak
+	$(RM) -r clang
+
+
+#
+# Run the clang.llvm.org static code analysis tool on the C sources.
+#
+
+.PHONY: clang
+clang:
+	$(RM) -r clang
+	scan-build -k -V -o `pwd`/clang $(MAKE) $(MFLAGS) CC=ccc-analyzer clean all
+
+
+
+#
+# libmxml.a
+#
+
+libmxml.a:	$(LIBOBJS)
+	$(RM) $@
+	$(AR) $(ARFLAGS) $@ $(LIBOBJS)
+	$(RANLIB) $@
+
+$(LIBOBJS):	mxml.h
+mxml-entity.o mxml-file.o mxml-private.o: mxml-private.h
+

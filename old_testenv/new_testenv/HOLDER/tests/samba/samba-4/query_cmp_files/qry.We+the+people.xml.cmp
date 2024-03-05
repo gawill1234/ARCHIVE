@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="19" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="6" />
+<attribute name="retrieval-ms" value="8" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="42" />
+<attribute name="cache-misses-word" value="43" />
+<attribute name="cache-hits-content-retrieval" value="18" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="192" />
+<attribute name="cache-misses-text" value="85" />
+<attribute name="total-results-with-duplicates" value="19" />
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/fedpaper.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/fedpaper.txt/"
+  status="complete" vse-base-score="1.70788" conversion-time="194"
+  la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/fedpaper.txt"
+    ct="text/plain" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:54</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content action="none" name="url" weight="1" u="165950">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/fedpaper.txt</content>
+  <content action="none" name="host" weight="1" u="165965"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="159420" v="159439">displeasure.
+But however inclined we might be to insist upon an unbounded
+ complaisance in the Executive to the inclinations of </pre>
+      <match u="159440" v="159442">the people, we
+ </match>
+      <post u="159443" v="159462">can with no propriety contend for a like complaisance to the humors
+ of the legislature. The latter may sometimes stand </post>
+    </solution>
+    <solution rank="1" score="0.75">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="55764" v="55783">inexplicitness of the distinction between internal and
+ external, let us inquire what ground there is to presuppose that
+ disinclination in </pre>
+      <match u="55784" v="55787">the people. Unless we </match>
+      <post u="55788" v="55807">presume at the same time
+ that the powers of the general government will be worse administered
+ than those of the </post>
+    </solution>
+    <solution rank="2" score="0.75">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="124308" v="124327">of birth, of religious faith, or of civil profession is
+permitted to fetter the judgement or disappoint the inclination
+of </pre>
+      <match u="124328" v="124331">the people. If we </match>
+      <post u="124332" v="124351">consider the situation of the men on whom
+the free suffrages of their fellow-citizens may confer the
+representative trust, </post>
+    </solution>
+    <solution rank="3" score="0.6">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="24340" v="24359">will appear more immediate
+ and decisive. It is evident from the state of the country, from the
+ habits of the </pre>
+      <match u="24360" v="24364">people, from the experience we </match>
+      <post u="24365" v="24384">have had on the point
+ itself, that it is impracticable to raise any very considerable sums
+ by direct taxation. Tax </post>
+    </solution>
+    <solution rank="4" score="0.6">
+      <content type="text" name="snippet" u="7" v="165949" />
+      <pre u="124309" v="124328">birth, of religious faith, or of civil profession is
+permitted to fetter the judgement or disappoint the inclination
+of the </pre>
+      <match u="124329" v="124333">people. If we consider the </match>
+      <post u="124334" v="124353">situation of the men on whom
+the free suffrages of their fellow-citizens may confer the
+representative trust, we shall </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... fetter the judgement or disappoint the inclination
+of the people. If we consider the situation of the men on whom
+ ... complaisance in the Executive to the inclinations of the people, we
+ can with no propriety contend for a like  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/arizona.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/arizona.txt/"
+  status="complete" vse-base-score="1" conversion-time="8" la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/arizona.txt"
+    ct="text/plain" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:52</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content action="none" name="url" weight="1" u="8729">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/arizona.txt</content>
+  <content action="none" name="host" weight="1" u="8744"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="8728" />
+      <pre u="8" v="16">THE
+
+
+CONSTITUTION
+
+
+oftheUnitedStates
+
+
+
+NATIONAL CONSTITUTION CENTER 
+ 
+</pre>
+      <match u="17" v="19">We the People </match>
+      <post u="20" v="39">of the United States, in Order to form a 
+more perfect Union, establish Justice, insure domestic 
+Tranquility, provide for the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... CONSTITUTION
+
+
+oftheUnitedStates
+
+
+
+NATIONAL CONSTITUTION CENTER 
+ 
+We the People of the United States, in Order to form  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/Preambe_and_Bill_of_Rights.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/Preambe_and_Bill_of_Rights.pdf/"
+  status="complete" vse-base-score="1" filetype="pdf" conversion-time="195"
+  la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/Preambe_and_Bill_of_Rights.pdf"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:53</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">Preamble &amp; Bill of Rights.pdf</content>
+  <content action="none" name="url" weight="1" u="942">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/Preambe_and_Bill_of_Rights.pdf</content>
+  <content action="none" name="host" weight="1" u="961"></content>
+  <content name="filetype" action="none" u="962">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="snippet" weight="1" output-action="summarize" u="13" v="941" />
+      <pre u="14" v="21"><![CDATA[   <a/><div> <div> <span><b>Preamble of the Constitution & Bill of Rights</b></span> </div><div> <span><b>Preamble:</b><br/>]]></pre>
+      <match u="22" v="24">We the People </match>
+      <post u="25" v="44">of the United States, in order to form a more perfect Union, establish justice,&lt;br/>ensure domestic tranquility [peace], provide for </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <a/><div> <div> <span><b>Preamble of the Constitution & Bill of Rights</b></span> </div><div> <span><b>Preamble:</b><br/>We the People of the United States, in order to form  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/constitution.doc"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/constitution.doc/"
+  status="complete" vse-base-score="1" filetype="rtf" conversion-time="107"
+  la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/constitution.doc"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:54</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content action="none" name="url" weight="1" u="7622">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/constitution.doc</content>
+  <content action="none" name="host" weight="1" u="7637"></content>
+  <content name="filetype" action="none" u="7638">rtf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="snippet" weight="1" output-action="summarize" u="7" v="7621" />
+      <pre u="8" v="14">  
+[Constitution for the United States of America]&lt;p/>&lt;p>
+</pre>
+      <match u="15" v="17">We the People </match>
+      <post u="18" v="37">of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">  
+[Constitution for the United States of America]&lt;p/>&lt;p>
+We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/constitution.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/constitution.pdf/"
+  status="complete" vse-base-score="1" filetype="pdf" conversion-time="2223"
+  la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/constitution.pdf"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:54</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">CONSTITUTION</content>
+  <content action="none" name="url" weight="1" u="8909">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/constitution.pdf</content>
+  <content action="none" name="host" weight="1" u="8924"></content>
+  <content name="filetype" action="none" u="8925">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="snippet" weight="1" output-action="summarize" u="9" v="8908" />
+      <pre u="10" v="23"><![CDATA[   <a/><div> <div> <span>THE</span> </div><div> <span>CONSTITUTION</span> </div><div> <span>oftheUnitedStates</span> </div><div> <span>NATIONAL CONSTITUTION CENTER</span> </div></div><a/><div> <div> <span>CONSTITUTION OF THE UNITED STATES</span> </div><div> <span>]]></pre>
+      <match u="24" v="26">We the People </match>
+      <post u="27" v="46">of the United States, in Order to form a&lt;br/>more perfect Union, establish Justice, insure domestic&lt;br/>Tranquility, provide for the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... NATIONAL CONSTITUTION CENTER</span> </div></div><a/><div> <div> <span>CONSTITUTION OF THE UNITED STATES</span> </div><div> <span>We the People of the United States, in Order to form  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/constitution.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/constitution.txt/"
+  status="complete" vse-base-score="1" conversion-time="14" la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/constitution.txt"
+    ct="text/plain" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:54</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content action="none" name="url" weight="1" u="8729">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/constitution.txt</content>
+  <content action="none" name="host" weight="1" u="8744"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="8728" />
+      <pre u="8" v="16">THE
+
+
+CONSTITUTION
+
+
+oftheUnitedStates
+
+
+
+NATIONAL CONSTITUTION CENTER 
+ 
+</pre>
+      <match u="17" v="19">We the People </match>
+      <post u="20" v="39">of the United States, in Order to form a 
+more perfect Union, establish Justice, insure domestic 
+Tranquility, provide for the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... CONSTITUTION
+
+
+oftheUnitedStates
+
+
+
+NATIONAL CONSTITUTION CENTER 
+ 
+We the People of the United States, in Order to form  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/iroquois.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/iroquois.txt/"
+  status="complete" vse-base-score="0.921235" conversion-time="26"
+  la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/iroquois.txt"
+    ct="text/plain" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:54</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content action="none" name="url" weight="1" u="12617">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/iroquois.txt</content>
+  <content action="none" name="host" weight="1" u="12632"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.6">
+      <content type="text" name="snippet" u="7" v="12616" />
+      <pre u="12038" v="12057">is 
+the same as the address at the funeral of a Lord).
+
+113.  At the funeral of a woman of </pre>
+      <match u="12058" v="12062">the people, say:
+      "Now we </match>
+      <post u="12063" v="12082">become reconciled as you start away.  You were 
+once a woman in the flower of life and the bloom is </post>
+    </solution>
+    <solution rank="1" score="0.428571">
+      <content type="text" name="snippet" u="7" v="12616" />
+      <pre u="11459" v="11478">say:  Now we 
+become reconciled as you start away.  You were once a Lord of 
+the Five Nations' Confederacy and </pre>
+      <match u="11479" v="11485">the United People trusted 
+you. Now we </match>
+      <post u="11486" v="11505">release you for it is true that it is no longer 
+possible for us to walk about together on the </post>
+    </solution>
+    <solution rank="2" score="0.272727">
+      <content type="text" name="snippet" u="7" v="12616" />
+      <pre u="2162" v="2181">discharged you so you are now 
+no longer Lord.  You shall now go your way alone, the rest of 
+the </pre>
+      <match u="2182" v="2192">people of the Confederacy will not go with you, for we </match>
+      <post u="2193" v="2212">know 
+not the kind of mind that possesses you.  As the Creator has 
+nothing to do with wrong so he </post>
+    </solution>
+    <solution rank="3" score="0.176471">
+      <content type="text" name="snippet" u="7" v="12616" />
+      <pre u="12039" v="12058">the same as the address at the funeral of a Lord).
+
+113.  At the funeral of a woman of the </pre>
+      <match u="12059" v="12075">people, say:
+      "Now we become reconciled as you start away.  You were 
+once a woman in the </match>
+      <post u="12076" v="12095">flower of life and the bloom is now 
+withered away.  You once held a sacred position as a mother 
+of </post>
+    </solution>
+    <solution rank="4" score="0.142857">
+      <content type="text" name="snippet" u="7" v="12616" />
+      <pre u="11441" v="11460">away as his business will 
+permit.
+
+
+                      Funeral Addresses
+
+108.  At the funeral of a Lord of the Confederacy, say:  Now </pre>
+      <match u="11461" v="11481">we 
+become reconciled as you start away.  You were once a Lord of 
+the Five Nations' Confederacy and the United People </match>
+      <post u="11482" v="11501">trusted 
+you. Now we release you for it is true that it is no longer 
+possible for us to walk </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... 113.  At the funeral of a woman of the people, say:
+      "Now we become reconciled as you start away.  You were 
+ ... At the funeral of a woman of the people, say:
+      "Now we become reconciled as you start away.  You were 
+once a woman in the flower of life and the bloom is now 
+ ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/doi_rough.htm"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/doi_rough.htm/"
+  status="complete" vse-base-score="0.461831" conversion-time="75"
+  la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/doi_rough.htm"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:52</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">Thomas Jefferson: Original Rough Draft of the Declaration of Independence</content>
+  <content action="none" name="url" weight="1" u="1749">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/doi_rough.htm</content>
+  <content action="none" name="host" weight="1" u="1765"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.3">
+      <content name="snippet" weight="1" output-action="summarize" u="18"
+        v="1748"
+      />
+      <pre u="1645" v="1664">by, through, or under
+them; we utterly dissolve &amp; break off all political connection which may
+have heretofore subsisted between us &amp; </pre>
+      <match u="1665" v="1674">the people or parliament of Great
+Britain; and finally we </match>
+      <post u="1675" v="1694">do assert and declare these a colonies to be free and
+independant states, and that as free &amp; independant states they </post>
+    </solution>
+    <solution rank="1" score="0.176471">
+      <content name="snippet" weight="1" output-action="summarize" u="18"
+        v="1748"
+      />
+      <pre u="1630" v="1649">all allegiance &amp; subjection to the kings
+of Great Britain &amp; all others who may hereafter claim by, through, or under
+them; </pre>
+      <match u="1650" v="1666">we utterly dissolve &amp; break off all political connection which may
+have heretofore subsisted between us &amp; the people </match>
+      <post u="1667" v="1686">or parliament of Great
+Britain; and finally we do assert and declare these a colonies to be free and
+independant </post>
+    </solution>
+    <solution rank="2" score="0.166667">
+      <content name="snippet" weight="1" output-action="summarize" u="18"
+        v="1748"
+      />
+      <pre u="1512" v="1531">these unfeeling
+brethren. we must endeavor to forget our former love for them, and to hold them
+as we hold </pre>
+      <match u="1532" v="1549">the rest of mankind, enemies in war, in peace friends. we might have
+been a free &amp; great people </match>
+      <post u="1550" v="1569">together; but a communication of grandeur &amp;
+of freedom it seems is below their dignity. be it so, since they will </post>
+    </solution>
+    <solution rank="3" score="0.142857">
+      <content name="snippet" weight="1" output-action="summarize" u="18"
+        v="1748"
+      />
+      <pre u="1138" v="1157">murdering
+the people upon whom he also obtruded them; thus paying off former crimes
+committed against the &lt;b>liberties&lt;/b> of one </pre>
+      <match u="1158" v="1178">people, with crimes which
+he urges them to commit against the &lt;b>lives&lt;/b> of another .&lt;/p>&lt;p>in every stage of these oppressions we </match>
+      <post u="1179" v="1198">have petitioned for redress in the
+most humble terms; our repeated petitions have been answered by repeated
+injury. a prince </post>
+    </solution>
+    <solution rank="4" score="0.125">
+      <content name="snippet" weight="1" output-action="summarize" u="18"
+        v="1748"
+      />
+      <pre u="1580" v="1599">us too; we will climb it in a
+separate state, and acquiesce in the necessity which pronounces our everlasting
+Adieu!&lt;/p>&lt;p></pre>
+      <match u="1600" v="1623">We therefore the representatives of the United States of America in General
+Congress assembled do, in the name &amp; by authority of the good people </match>
+      <post u="1624" v="1643">of
+these states, reject and renounce all allegiance &amp; subjection to the kings
+of Great Britain &amp; all others who may hereafter </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... connection which may
+have heretofore subsisted between us &amp; the people or parliament of Great
+Britain; and finally we do assert and declare these a colonies to  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/us_doi.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/us_doi.pdf/"
+  status="complete" vse-base-score="0.403445" filetype="pdf" conversion-time="358"
+  la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/us_doi.pdf"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:52</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">Declaration of Independence</content>
+  <content action="none" name="url" weight="1" u="1519">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/us_doi.pdf</content>
+  <content action="none" name="host" weight="1" u="1535"></content>
+  <content name="filetype" action="none" u="1536">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.333333">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="1518"
+      />
+      <pre u="1053" v="1072">injury. A Prince whose character is&lt;br/>thus marked by every act which may define a Tyrant, is unfit to be </pre>
+      <match u="1073" v="1081">the ruler of a free people.&lt;br/>Nor have We </match>
+      <post u="1082" v="1101">been wanting in attentions to our Brittish brethren. We have warned them from&lt;br/>time to time of attempts by their </post>
+    </solution>
+    <solution rank="1" score="0.0789474">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="1518"
+      />
+      <pre u="1058" v="1077">is&lt;br/>thus marked by every act which may define a Tyrant, is unfit to be the ruler of a free </pre>
+      <match u="1078" v="1115">people.&lt;br/>Nor have We been wanting in attentions to our Brittish brethren. We have warned them from&lt;br/>time to time of attempts by their legislature to extend an unwarrantable jurisdiction over us. We&lt;br/>have reminded them of the </match>
+      <post u="1116" v="1135">circumstances of our emigration and settlement here. We have&lt;br/>appealed to their native justice and magnanimity, and we have conjured </post>
+    </solution>
+    <solution rank="2" score="0.0769231">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="1518"
+      />
+      <pre u="1176" v="1195">which denounces our Separation,&lt;br/>and hold them, as we hold the rest of mankind, Enemies in War, in Peace Friends.&lt;/span> &lt;/div>&lt;div> &lt;span></pre>
+      <match u="1196" v="1234">We, therefore, the Representatives of the united States of America, in General Congress,&lt;br/>Assembled, appealing to the Supreme Judge of the world for the rectitude of our intentions, do,&lt;br/>in the Name, and by Authority of the good People </match>
+      <post u="1235" v="1254">of these Colonies, solemnly publish and&lt;br/>declare, That these United Colonies are, and of Right ought to be Free and </post>
+    </solution>
+    <solution rank="3" score="0.0666667">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="1518"
+      />
+      <pre u="1014" v="1033">known&lt;br/>rule of warfare, is an undistinguished destruction of all ages, sexes and conditions.&lt;/span> &lt;/div>&lt;div> &lt;span>In every stage of these Oppressions </pre>
+      <match u="1034" v="1078">We have Petitioned for Redress in the most humble terms:&lt;br/>Our repeated Petitions have been answered only by repeated injury. A Prince whose character is&lt;br/>thus marked by every act which may define a Tyrant, is unfit to be the ruler of a free people.&lt;br/></match>
+      <post u="1079" v="1098">Nor have We been wanting in attentions to our Brittish brethren. We have warned them from&lt;br/>time to time of </post>
+    </solution>
+    <solution rank="4" score="0.0491803">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="1518"
+      />
+      <pre u="22" v="41">Declaration of the thirteen united States of America,&lt;/b>&lt;/span> &lt;/div>&lt;div> &lt;span>When in the Course of human events, it becomes necessary for one </pre>
+      <match u="42" v="102">people to dissolve the&lt;br/>political bands which have connected them with another, and to assume among the powers of the&lt;br/>earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle&lt;br/>them, a decent respect to the opinions of mankind requires that they should declare the causes&lt;br/>which impel them to the separation.&lt;/span> &lt;/div>&lt;div> &lt;span>We </match>
+      <post u="103" v="122">hold these truths to be self-evident, that all men are created equal, that they are endowed by&lt;br/>their Creator </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... may define a Tyrant, is unfit to be the ruler of a free people.&lt;br/>Nor have We been wanting in attentions to our Brittish brethren.  ... We have warned them from&lt;br/>time to time of attempts by their legislature to ...  reminded them of the circumstances of our emigration and settlement here. We  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/gncaddress.htm"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/gncaddress.htm/"
+  status="complete" vse-base-score="0.103448" conversion-time="22"
+  la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/gncaddress.htm"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:53</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">The Gettysburg Address</content>
+  <content action="none" name="url" weight="1" u="333">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/gncaddress.htm</content>
+  <content action="none" name="host" weight="1" u="348"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.103448">
+      <content name="snippet" weight="1" output-action="summarize" u="11" v="332" />
+      <pre u="233" v="252">we take in-&lt;br/>creased devotion to that cause for which&lt;br/>they here, gave the last full measure of devotion-&lt;br/> that </pre>
+      <match u="253" v="281">we here highly resolve these&lt;br/>dead shall not have died in vain, that&lt;br/>the nation, shall have a new birth of free-&lt;br/>dom, and that government of the people </match>
+      <post u="282" v="301"><![CDATA[by<br/>the people for the people shall not perish<br/>from the earth.</p></font></td>   <p>]]>&#160;<![CDATA[</p><p>The original copy of this version, written on ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... gave the last full measure of devotion-&lt;br/> that we here highly resolve these&lt;br/>dead shall not have died in vain, that&lt;br/>the nation, shall have a new birth of free-&lt;br/>dom, and that government of the people by&lt;br/>the people for the people shall not  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/Magic_Quadrant_for_Information_Access_Technology2005_Gartner_.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/Magic_Quadrant_for_Information_Access_Technology2005_Gartner_.pdf/"
+  status="complete" vse-base-score="0.0681818" filetype="pdf"
+  conversion-time="1046" la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/Magic_Quadrant_for_Information_Access_Technology2005_Gartner_.pdf"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:53</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">Magic Quadrant for Information Access Technology, 2005</content>
+  <content action="none" name="url" weight="1" u="4621">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/Magic_Quadrant_for_Information_Access_Technology2005_Gartner_.pdf</content>
+  <content action="none" name="host" weight="1" u="4642"></content>
+  <content name="filetype" action="none" u="4643">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0681818">
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="4620"
+      />
+      <pre u="679" v="698">the vendors offer personal (desktop) search applications as well, that is not a&lt;br/>primary focus or requirement for the vendors </pre>
+      <match u="699" v="742">we've included. Vendors will not have different&lt;br/>emphasis because this is now the "information access" market. Rather, the Magic Quadrant&lt;br/>describes how vendors excel in search-related functions, as well as emphasizes that other&lt;br/>functionality is required to get to the information people </match>
+      <post u="743" v="762">are after and deliver it in a form that&lt;br/>supports their companies' business goals.&lt;/span> &lt;/div>&lt;div> &lt;span>The enterprise information access market, as </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... a&lt;br/>primary focus or requirement for the vendors we've included. Vendors ...  required to get to the information people are after and deliver it in a form  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/const_quotes.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/const_quotes.txt/"
+  status="complete" vse-base-score="0.0517241" conversion-time="5"
+  la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/const_quotes.txt"
+    ct="text/plain" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:53</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content action="none" name="url" weight="1" u="1660">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/const_quotes.txt</content>
+  <content action="none" name="host" weight="1" u="1676"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0517241">
+      <content type="text" name="snippet" u="7" v="1659" />
+      <pre u="836" v="855">encroachments thereon. -- Boyd v. 
+
+U.S., 116 U.S. 635.
+
+
+
+It cannot be assumed that the framers of the constitution and the </pre>
+      <match u="856" v="913">people who 
+
+adopted it, did not intend that which is the plain import of the language 
+
+used. When the language of the constitution is positive and free of all 
+
+ambiguity, all courts are not at liberty, by a resort to the refinements of 
+
+legal learning, to restrict its obvious meaning to avoid the hardships of 
+
+particular cases. We </match>
+      <post u="914" v="933">must accept the constitution as it reads when its 
+
+language is unambiguous, for it is the mandate of the sovereign </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... that the framers of the constitution and the people who 
+
+adopted it, did not ...  of 
+
+particular cases. We must accept the constitution as it reads when  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/03-AccessB.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/03-AccessB.pdf/"
+  status="complete" vse-base-score="0.0227971" filetype="pdf"
+  conversion-time="1390" la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/03-AccessB.pdf"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:54</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">Data Structures, Algorithms and Implementation Issues Overview</content>
+  <content action="none" name="url" weight="1" u="3370">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/03-AccessB.pdf</content>
+  <content action="none" name="host" weight="1" u="3386"></content>
+  <content name="filetype" action="none" u="3387">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0134617">
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="3369"
+      />
+      <pre u="891" v="910">rules that define the document format&lt;br/>– You write C code that does something when a rule is matched&lt;br/>– yacc generates </pre>
+      <match u="911" v="914">the parser&lt;br/>– Few people </match>
+      <post u="915" v="934"><![CDATA[can write a parser that is faster than a yacc parser</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>13</span> </div><div> <span><b>Stopword Recognition</b></span> </div><div> <span>•</span> </div><div> <span><b>There are usually ]]></post>
+    </solution>
+    <solution rank="1" score="0.0134617">
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="3369"
+      />
+      <pre u="1313" v="1332"><![CDATA[Title, author, id, creation date, …</b></span> </div><div> <span>– Good idea, but none of these support content-based retrieval</span> </div><div> <span>•</span> </div><div> <span><b>IR Problem:Can’t predict ]]></pre>
+      <match u="1333" v="1336">the keys that people </match>
+      <post u="1337" v="1356"><![CDATA[will use in queries</b></span> </div><div> <span>– Every word in a document is a potential search term</span> </div><div> <span>•</span> </div><div> <span><b>IR Solution:Index by </b></span> </div><div> <span>– “full text ]]></post>
+    </solution>
+    <solution rank="2" score="0.00897448">
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="3369"
+      />
+      <pre u="796" v="815">write grammar rules that identify tokens&lt;br/>– You write C code that does something when a token is found&lt;br/>– lex generates </pre>
+      <match u="816" v="821">the finite state automata&lt;br/>– Few people </match>
+      <post u="822" v="841"><![CDATA[can write a scanner that is faster than a lex scanner</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>12</span> </div><div> <span><b>Document Parsing:</b></span> </div><div> <span><b>Document Grammar</b></span> </div><div> <span>•</span> </div><div> <span><b>Finite ]]></post>
+    </solution>
+    <solution rank="3" score="0.0019231">
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="3369"
+      />
+      <pre u="1316" v="1335"><![CDATA[creation date, …</b></span> </div><div> <span>– Good idea, but none of these support content-based retrieval</span> </div><div> <span>•</span> </div><div> <span><b>IR Problem:Can’t predict the keys that ]]></pre>
+      <match u="1336" v="1363"><![CDATA[people will use in queries</b></span> </div><div> <span>– Every word in a document is a potential search term</span> </div><div> <span>•</span> </div><div> <span><b>IR Solution:Index by </b></span> </div><div> <span>– “full text indexing”</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>18</span> </div><div> <span><b>Indexes</b></span> </div><div> <span><b>The ]]></match>
+      <post u="1364" v="1383"><![CDATA[index is accessed by the atoms of a query language</b></span> </div><div> <span>•</span> </div><div> <span><b>The atoms are called “features” or “keys” or “terms”</b></span> </div><div> <span>•</span> </div><div> <span><b>Most ]]></post>
+    </solution>
+    <solution rank="4" score="0.00145532">
+      <content name="snippet" weight="1" output-action="summarize" u="15"
+        v="3369"
+      />
+      <pre u="894" v="913">the document format&lt;br/>– You write C code that does something when a rule is matched&lt;br/>– yacc generates the parser&lt;br/>– Few </pre>
+      <match u="914" v="950"><![CDATA[people can write a parser that is faster than a yacc parser</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>13</span> </div><div> <span><b>Stopword Recognition</b></span> </div><div> <span>•</span> </div><div> <span><b>There are usually fewer than 500 stopwords</b></span> </div><div> <span>– Some systems have very few</span> </div><div> <span>•</span> </div><div> <span><b>Every word token is checked, so the ]]></match>
+      <post u="951" v="970"><![CDATA[test must be very fast</b></span> </div><div> <span>•</span> </div><div> <span><b>Store the stopword list in a hash table</b></span> </div><div> <span>– Since stopword lists evolve slowly, calculate a ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... something when a rule is matched<br/>– yacc generates the parser<br/>– Few people can write a parser that is faster than  ... content-based retrieval</span> </div><div> <span>•</span> </div><div> <span><b>IR Problem:Can’t predict the keys that people will use in queries</b></span> </div><div> <span>– Every word in a  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/federa00.htm"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/federa00.htm/"
+  status="complete" vse-base-score="0.0155754" conversion-time="6"
+  la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/federa00.htm"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:54</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">The Federalist - Contents</content>
+  <content action="none" name="url" weight="1" u="1584">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/federa00.htm</content>
+  <content action="none" name="host" weight="1" u="1599"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.00897448">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="1583"
+      />
+      <pre u="1018" v="1037"><![CDATA[J</td><td>1788</td><td>Feb</td><td>2</td><td>M</td><td>Method of Guarding Against the Encroachments of Any One Department
+			 of Government by Appealing to ]]></pre>
+      <match u="1038" v="1039">the People </match>
+      <post u="1040" v="1059"><![CDATA[Through a Convention</td>  <td><a>50</a></td><td>P</td><td>1788</td><td>Feb</td><td>5</td><td>M</td><td>Periodical Appeals to the People Considered</td>  <td><a>51</a></td><td>J</td><td>1788</td><td>Feb</td><td>6</td><td>]]></post>
+    </solution>
+    <solution rank="1" score="0.00897448">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="1583"
+      />
+      <pre u="1032" v="1051"><![CDATA[Department
+			 of Government by Appealing to the People Through a Convention</td>  <td><a>50</a></td><td>P</td><td>1788</td><td>Feb</td><td>5</td><td>M</td><td>Periodical Appeals to ]]></pre>
+      <match u="1052" v="1053">the People </match>
+      <post u="1054" v="1073"><![CDATA[Considered</td>  <td><a>51</a></td><td>J</td><td>1788</td><td>Feb</td><td>6</td><td>M</td><td>The Structure of the Government Must Furnish the Proper Checks and
+			 Balances Between ]]></post>
+    </solution>
+    <solution rank="2" score="0.00458052">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="1583"
+      />
+      <pre u="59" v="78">taken from that edition and a few later ones, except where
+		the head was something like "The Same Subject Continued" </pre>
+      <match u="79" v="82">we have repeated the
+		</match>
+      <post u="83" v="102">previous heading and appended "(continued)", so that each document can better
+		stand alone. We have been guided by the excellent </post>
+    </solution>
+    <solution rank="3" score="0.00458052">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="1583"
+      />
+      <pre u="204" v="223">78-85 actually first appeared May 28, 1788, in a bound volume published by
+		J. and A. McLean,  Federalist II . </pre>
+      <match u="224" v="227">We have followed the </match>
+      <post u="228" v="247">consensus of
+		scholars on attribution of each paper to its primary author, James Madison
+		[&lt;b>M&lt;/b>], John Jay [&lt;b>J&lt;/b>], or Alexander </post>
+    </solution>
+    <solution rank="4" score="0.00366442">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="1583"
+      />
+      <pre u="55" v="74">heads have also been taken from that edition and a few later ones, except where
+		the head was something like "</pre>
+      <match u="75" v="79">The Same Subject Continued" we </match>
+      <post u="80" v="99">have repeated the
+		previous heading and appended "(continued)", so that each document can better
+		stand alone. We have been guided </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Any One Department
+			 of Government by Appealing to the People Through a Convention</td>  <td><a>50</a></td><td>P</td><td>1788</td><td>Feb</td><td>5</td><td> ... M</td><td>Periodical Appeals to the People Considered</td>  <td><a>51</a></td><td>J</td><td>1788</td><td>Feb</td><td>6</td><td>M</td><td>The  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/edaoob.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/edaoob.pdf/"
+  status="complete" vse-base-score="0.0101114" filetype="pdf"
+  conversion-time="8104" la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/edaoob.pdf"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:53</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">Easysoft Data Access</content>
+  <content action="none" name="url" weight="1" u="50441">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/edaoob.pdf</content>
+  <content action="none" name="host" weight="1" u="50456"></content>
+  <content name="filetype" action="none" u="50457">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.00610736">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="50440"
+      />
+      <pre u="10583" v="10602"><![CDATA[Administrator anyway.</span> </div><div> <span>•</span> </div><div> <span>--enable-readline=no</span> </div><div> <span>This disablesreadline</span> </div><div> <span>support inisql</span> </div><div> <span>. We disabled this</span> </div><div> <span>because it tiesisql</span> </div><div> <span>to the version oflibreadline</span> </div><div> <span>on ]]></pre>
+      <match u="10603" v="10605"><![CDATA[the</span> </div><div> <span>machine we ]]></match>
+      <post u="10606" v="10625"><![CDATA[build on. We build on as old a version of the</span> </div><div> <span>Operating System as we can for upwards compatibility. Many</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="1" score="0.00458052">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="50440"
+      />
+      <pre u="12679" v="12698"><![CDATA[licenses</span> </div><div> <span>.</span> </div><div> <span>If during this process any warnings or errors are output, please mail<br/>the output to</span> </div><div> <span><b>support@easysoft.com</b></span> </div><div> <span>and ]]></pre>
+      <match u="12699" v="12702"><![CDATA[we will rectify the</span> </div><div> <span>]]></match>
+      <post u="12703" v="12722">problem.&lt;/span> &lt;/div>&lt;div> &lt;span>If you ran the License Client, the install script will detect whether any&lt;br/>licenses were automatically obtained and ask </post>
+    </solution>
+    <solution rank="2" score="0.00366442">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="50440"
+      />
+      <pre u="10596" v="10615"><![CDATA[it tiesisql</span> </div><div> <span>to the version oflibreadline</span> </div><div> <span>on the</span> </div><div> <span>machine we build on. We build on as old a version of ]]></pre>
+      <match u="10616" v="10620"><![CDATA[the</span> </div><div> <span>Operating System as we ]]></match>
+      <post u="10621" v="10640"><![CDATA[can for upwards compatibility. Many</span> </div><div> <span>newer Linux machines no longer come with the olderreadline</span> </div><div> <span>libraries and so enabling</span> </div><div> <span>readline</span> </div><div> <span>support ]]></post>
+    </solution>
+    <solution rank="3" score="0.00351331">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="50440"
+      />
+      <pre u="9884" v="9903">Before you run the installer, make sure you have read the"Before&lt;/span> &lt;/div>&lt;div> &lt;span>&lt;b>You Install"section. If you are considering running </pre>
+      <match u="9904" v="9910"><![CDATA[the installation</b></span> </div><div> <span>as a nonroot</span> </div><div> <span>user, we ]]></match>
+      <post u="9911" v="9930"><![CDATA[suggest you review this carefully as you will</span> </div><div> <span>have to get aroot</span> </div><div> <span>user to manually complete some parts of the</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="4" score="0.00305368">
+      <content name="snippet" weight="1" output-action="summarize" u="11"
+        v="50440"
+      />
+      <pre u="12190" v="12209">will then run a program that was installed for that&lt;br/>product which generates a key which is used to identify </pre>
+      <match u="12210" v="12215">the product&lt;br/>and operating system (we </match>
+      <post u="12216" v="12235">need this key to license you).&lt;/span> &lt;/div>&lt;div> &lt;span>Assuming you have picked a product which is installed (or in the&lt;br/>process of </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... because it tiesisql</span> </div><div> <span>to the version oflibreadline</span> </div><div> <span>on the</span> </div><div> <span>machine we build on. We build on as old a  ... mail<br/>the output to</span> </div><div> <span><b>support@easysoft.com</b></span> </div><div> <span>and we will rectify the</span> </div><div> <span>problem.</span> </div><div> <span>If you ran the License Client, the  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/SuSE-Linux-Userguide-9.2.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/SuSE-Linux-Userguide-9.2.pdf/"
+  status="complete" vse-base-score="0.00808542" filetype="pdf"
+  conversion-time="13989" la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/SuSE-Linux-Userguide-9.2.pdf"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:53</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">SUSE LINUX</content>
+  <content action="none" name="url" weight="1" u="77022">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/SuSE-Linux-Userguide-9.2.pdf</content>
+  <content action="none" name="host" weight="1" u="77040"></content>
+  <content name="filetype" action="none" u="77041">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.00448724">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="77021"
+      />
+      <pre u="71978" v="71997">mouse driver.&lt;/span> &lt;/div>&lt;div> &lt;span>Make sure you adjust the acceleration and double-click adjustment of the&lt;br/>mouse to your own preferences. Some </pre>
+      <match u="71998" v="72001">people work with the </match>
+      <post u="72002" v="72021">mouse from&lt;br/>the hand joint. Others prefer moving their complete forearm.&lt;/span> &lt;/div>&lt;div> &lt;span>An alternative to the mouse is a trackball. Here, </post>
+    </solution>
+    <solution rank="1" score="0.00366442">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="77021"
+      />
+      <pre u="2375" v="2394"><![CDATA[key to press</span> </div><div> <span>‘File’: menu items, buttons</span> </div><div> <span>Acknowledgements</span> </div><div> <span>With a lot of personal commitment, the Linux developers continue to promote ]]></pre>
+      <match u="2395" v="2399">the&lt;br/>development of Linux. We </match>
+      <post u="2400" v="2419">would like to express our sincere gratitude for their&lt;br/>efforts. Without them, this distribution would not exist. Additional thanks go </post>
+    </solution>
+    <solution rank="2" score="0.00358979">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="77021"
+      />
+      <pre u="30996" v="31015">export your public key to one of&lt;br/>these server. Similarly, KGpg enables you to search one of these servers for </pre>
+      <match u="31016" v="31020">the&lt;br/>keys of certain people </match>
+      <post u="31021" v="31040"><![CDATA[and import their public keys from the server.</span> </div><div> <span>11.2.1</span> </div><div> <span>Importing a Key from a Key Server</span> </div><div> <span>By means of the ‘]]></post>
+    </solution>
+    <solution rank="3" score="0.00358979">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="77021"
+      />
+      <pre u="69656" v="69675">or neutral white is&lt;br/>recommended.&lt;/span> &lt;/div>&lt;div> &lt;span>The light requirement depends not only on the working task, but also on&lt;br/>age: older </pre>
+      <match u="69676" v="69680">people need more light. The </match>
+      <post u="69681" v="69700">fact that older people often have&lt;br/>only a small lamp in their homes has nothing to do with their light </post>
+    </solution>
+    <solution rank="4" score="0.00358979">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="77021"
+      />
+      <pre u="69660" v="69679">recommended.&lt;/span> &lt;/div>&lt;div> &lt;span>The light requirement depends not only on the working task, but also on&lt;br/>age: older people need more light. </pre>
+      <match u="69680" v="69684">The fact that older people </match>
+      <post u="69685" v="69704">often have&lt;br/>only a small lamp in their homes has nothing to do with their light requirement, but rather with </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... you to search one of these servers for the&lt;br/>keys of certain people and import their public keys from the server.&lt;/span> &lt;/div>&lt;div> &lt;span> ... of the&lt;br/>mouse to your own preferences. Some people work with the mouse from&lt;br/>the hand joint. Others prefer moving  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/SuSE-Linux-Adminguide-9.2.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/SuSE-Linux-Adminguide-9.2.pdf/"
+  status="complete" vse-base-score="0.00757306" filetype="pdf"
+  conversion-time="17540" la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/SuSE-Linux-Adminguide-9.2.pdf"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:53</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">SUSE LINUX</content>
+  <content action="none" name="url" weight="1" u="101417">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/SuSE-Linux-Adminguide-9.2.pdf</content>
+  <content action="none" name="host" weight="1" u="101435"></content>
+  <content name="filetype" action="none" u="101436">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.00448724">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="101416"
+      />
+      <pre u="101236" v="101255"><![CDATA[many Linux users.</span> </div><div> <span><b>Solidity</b></span> </div><div> <span>Being quite an “old-timer,” Ext2 underwent many improvements and</span> </div><div> <span>was heavily tested. This may be ]]></pre>
+      <match u="101256" v="101259">the reason why people </match>
+      <post u="101260" v="101279">often refer to it as&lt;br/>rock-solid. After a system outage when the ﬁle system could not be cleanly&lt;br/>unmounted, </post>
+    </solution>
+    <solution rank="1" score="0.00366442">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="101416"
+      />
+      <pre u="4170" v="4189">text block.&lt;/span> &lt;/div>&lt;div> &lt;span>Acknowledgment&lt;/span> &lt;/div>&lt;div> &lt;span>With a lot of voluntary commitment, the developers of Linux cooperate on a&lt;br/>global scale to promote </pre>
+      <match u="4190" v="4194">the development of Linux. We </match>
+      <post u="4195" v="4214">thank them for their efforts — this distribution would not exist without them. Furthermore, we thank&lt;br/>Frank Zappa and Pawar. Special </post>
+    </solution>
+    <solution rank="2" score="0.00305368">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="101416"
+      />
+      <pre u="3673" v="3692">printed on the CD case.&lt;/span> &lt;/div>&lt;div> &lt;span>To make sure your system is always in a secure and up-to-date state, </pre>
+      <match u="3693" v="3698">we recommend regular updates with the </match>
+      <post u="3699" v="3718">comfortable YaST Online Update. Moreover, we&lt;br/>offer a free e-newsletter featuring security-relevant information and tips and&lt;br/>tricks for </post>
+    </solution>
+    <solution rank="3" score="0.00261744">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="101416"
+      />
+      <pre u="3678" v="3697">To make sure your system is always in a secure and up-to-date state, we recommend regular updates with </pre>
+      <match u="3698" v="3704">the comfortable YaST Online Update. Moreover, we&lt;br/></match>
+      <post u="3705" v="3724">offer a free e-newsletter featuring security-relevant information and tips and&lt;br/>tricks for SUSE LINUX. Simply subscribe by entering </post>
+    </solution>
+    <solution rank="4" score="0.00149575">
+      <content name="snippet" weight="1" output-action="summarize" u="10"
+        v="101416"
+      />
+      <pre u="75904" v="75923"><![CDATA[chapter.</span> </div><div> <span>13.1</span> </div><div> <span>Laptops . . . . . . . . . . . . . . . . . . . . . . . . . . . . 286</span> </div><div> <span>13.2</span> </div><div> <span>Mobile Hardware . . . . . . . . . . . . . . . . . . . . . . 292</span> </div><div> <span>13.3</span> </div><div> <span>Cellular Phones and PDAs . . . . . . . . . . . . . . . . . 293</span> </div><div> <span>13.4</span> </div><div> <span>For More Information . . . . . . . . . . . . . . . . . . . . 293</span> </div></div><a/><div> <div> <span>Most ]]></pre>
+      <match u="75924" v="75935">people associate mobile computing with laptops, PDAs, and cellular&lt;br/>phones and the </match>
+      <post u="75936" v="75955">data exchange between them. This chapter extends the focus to&lt;br/>mobile hardware components, such as external hard disks, ﬂash drives, </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... free e-newsletter featuring security-relevant  ... improvements and&lt;/span> &lt;/div>&lt;div> &lt;span>was heavily tested. This may be the reason why people often refer to it as&lt;br/>rock-solid. After  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/SharePointTips.doc"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/SharePointTips.doc/"
+  status="complete" vse-base-score="0.00588906" filetype="doc"
+  conversion-time="1420" la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/SharePointTips.doc"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:52</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">Tips and Tricks for Using Microsoft Office SharePoint Portal Server 2003</content>
+  <content action="none" name="url" weight="1" u="11804">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/SharePointTips.doc</content>
+  <content action="none" name="host" weight="1" u="11819"></content>
+  <content name="filetype" action="none" u="11820">doc</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.00305368">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="11803"
+      />
+      <pre u="3532" v="3551">columns containing information. For example, a list of links will typically contain columns for the name, URL, and description of </pre>
+      <match u="3552" v="3557">the links. In this exercise, we </match>
+      <post u="3558" v="3577"><![CDATA[create a new column.</p> <li><p>To add a column to the list, in the <b>Columns</b>section, click <b>Add a new column</b>.</p></li> <p><b></b><b></b></p><p><b>]]></post>
+    </solution>
+    <solution rank="1" score="0.00299149">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="11803"
+      />
+      <pre u="850" v="869">organizational term such as a category, product, business unit, etc.&lt;/p>&lt;/li>&lt;li>&lt;p>If you want your site included in search results when </pre>
+      <match u="870" v="875">people search for information through the </match>
+      <post u="876" v="895"><![CDATA[portal site, select the <b>Include in search </b><b>results</b> check box in the <b>Search Results </b>section.</p></li><li><p>If you want to specify ]]></post>
+    </solution>
+    <solution rank="2" score="0.00299149">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="11803"
+      />
+      <pre u="5475" v="5494"><![CDATA[new SharePoint list.</p></li> <p></p><p><b></b><b></b></p><p><b>Importing a spreadsheet</b></p> <li><p>In the <b>Name and Description</b> section, in the <b>Name</b>, type a simple name for ]]></pre>
+      <match u="5495" v="5500">the new list that helps people </match>
+      <post u="5501" v="5520"><![CDATA[understand what information it contains.</p></li><li><p>In the <b>Description </b>box, type a longer description of your list.</p></li><li><p>In the <b>Import from ]]></post>
+    </solution>
+    <solution rank="3" score="0.00256414">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="11803"
+      />
+      <pre u="712" v="731">in the &lt;b>Owner&lt;/b> box. If you are not the site owner, type the site owner's name. This field tells </pre>
+      <match u="732" v="738">people who is in charge of the </match>
+      <post u="739" v="758">site. &lt;/p>&lt;/li>&lt;li>&lt;p>If you want to categorize your site by specific criteria, such as company division or region, click the appropriate </post>
+    </solution>
+    <solution rank="4" score="0.00224362">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="11803"
+      />
+      <pre u="339" v="358">to find your site.&lt;/p>&lt;/li>&lt;li>&lt;p>In the &lt;b>Description&lt;/b> box, type a brief description of your site. It should explain who uses </pre>
+      <match u="359" v="366">the site, and what kind of content people </match>
+      <post u="367" v="386"><![CDATA[can expect to find there.</p></li><li><p>In the <b>Web Site </b><b>Address </b>section, in the<b> URL name</b> section, of the area, type ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... columns for the name, URL, and description of the links. In this exercise, we create a new column.</p> <li><p>To add a column  ... in the <b>Name</b>, type a simple name for the new list that helps people understand what information it contains.</p></li><li><p>In the <b>Description </b> ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/04-AccessB.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-4/doc/04-AccessB.pdf/"
+  status="complete" vse-base-score="0.00174332" filetype="pdf"
+  conversion-time="621" la-score="1.21302"
+>
+  <cache
+    url="smb://testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/04-AccessB.pdf"
+    ct="text/html" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 18:29:22</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:28:53</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content name="title" output-action="bold" weight="3" u="7">Data Structures, Algorithms and Implementation Issues Inverted List Indexes: Access Methods</content>
+  <content action="none" name="url" weight="1" u="2364">file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-4/doc/04-AccessB.pdf</content>
+  <content action="none" name="host" weight="1" u="2380"></content>
+  <content name="filetype" action="none" u="2381">pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.00100917">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="2363"
+      />
+      <pre u="1367" v="1386"><![CDATA[Title, date, author, …<br/>– Chapter, section, subsection, paragraph, sentence, references, …</span> </div><div> <span>•</span> </div><div> <span><b>Research systems have tended to ignore structure</b></span> </div><div> <span>– Some studies suggest that ]]></pre>
+      <match u="1387" v="1410"><![CDATA[people don’t use it much</span> </div><div> <span>•</span> </div><div> <span><b>Commercial systems have tended to support some structure</b></span> </div><div> <span>– Especially title, date, author, sentence</span> </div><div> <span>•</span> </div><div> <span><b>Some current trends suggest the ]]></match>
+      <post u="1411" v="1430"><![CDATA[document structure will be</b><br/><b>increasingly important in the future</b></span> </div><div> <span>– XML<br/>– Use of IR systems as “back-ends” for other language ]]></post>
+    </solution>
+    <solution rank="1" score="0.0009688">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="2363"
+      />
+      <pre u="1844" v="1863"><![CDATA[provide effective retrieval</b></span> </div><div> <span>•</span> </div><div> <span><b>How to make it easy for people to use</b></span> </div><div> <span>– Or, maybe not primarily intended for use by ]]></pre>
+      <match u="1864" v="1888"><![CDATA[people</span> </div><div> <span>•</span> </div><div> <span><b>What is necessary/useful to support other language tasks?</b></span> </div><div> <span>•</span> </div><div> <span><b>How to support complex user models</b></span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>26</span> </div><div> <span><b>Document Term Lists</b></span> </div><div> <span>•</span> </div><div> <span><b>Sometimes the ]]></match>
+      <post u="1889" v="1908"><![CDATA[IR system needs to know what terms are in the</b><br/><b>document</b></span> </div><div> <span>– E.g., for query expansion, relevance feedback, …</span> </div><div> <span>•</span> </div><div> <span><b>How does ]]></post>
+    </solution>
+    <solution rank="2" score="0.000832822">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="2363"
+      />
+      <pre u="728" v="747"><![CDATA[pot” returns 2<br/>» “OR” returns 2</span> </div><div> <span>– Now ask the tree to:</span> </div><div> <span>» Evaluate the query only for document 2, and<br/>» Return ]]></pre>
+      <match u="748" v="769"><![CDATA[the next document id</span> </div><div> <span>•</span> </div><div> <span><b>This probably looks foolish, but</b></span> </div><div> <span>– It’s faster than you think (because it allows some optimizations)<br/>– Now we ]]></match>
+      <post u="770" v="789"><![CDATA[don’t need to keep entire inverted lists in memory</span> </div><div> <span><b>OR</b></span> </div><div> <span><b>AND</b></span> </div><div> <span>4<br/>5</span> </div><div> <span>1<br/>4</span> </div><div> <span>2<br/>5</span> </div><div> <span>pot</span> </div><div> <span><b>Inverted ]]></post>
+    </solution>
+    <solution rank="3" score="0.000332388">
+      <content name="snippet" weight="1" output-action="summarize" u="19"
+        v="2363"
+      />
+      <pre u="1314" v="1333">It’s not necessarily easy to update a document&lt;/b>&lt;/span> &lt;/div>&lt;div> &lt;span>– Many lists affected&lt;br/>– Changes in the middle of lists means rewriting </pre>
+      <match u="1334" v="1387"><![CDATA[the entire list</span> </div><div> <span>•</span> </div><div> <span><b>Nearly impossible to find adjacent terms in a document</b></span> </div><div> <span>– “apple” is a location 12…what’s at location 13?</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>18</span> </div><div> <span><b>Storing Structure</b></span> </div><div> <span>•</span> </div><div> <span><b>Many documents have internal structure</b></span> </div><div> <span>– Title, date, author, …<br/>– Chapter, section, subsection, paragraph, sentence, references, …</span> </div><div> <span>•</span> </div><div> <span><b>Research systems have tended to ignore structure</b></span> </div><div> <span>– Some studies suggest that people ]]></match>
+      <post u="1388" v="1407"><![CDATA[don’t use it much</span> </div><div> <span>•</span> </div><div> <span><b>Commercial systems have tended to support some structure</b></span> </div><div> <span>– Especially title, date, author, sentence</span> </div><div> <span>•</span> </div><div> <span><b>Some current ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... tended to ignore structure</b></span> </div><div> <span>– Some studies suggest that people don’t use it much</span> </div><div> <span>•</span> </div><div> <span><b>Commercial systems have tended to support some structure</b></span> </div><div> <span>– Especially title, date, author, sentence</span> </div><div> <span>•</span> </div><div> <span><b>Some current trends suggest the document structure will be</b><br/><b>increasingly important in the  ... ]]></content>
+</document>
+</scope>

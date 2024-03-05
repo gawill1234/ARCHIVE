@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="1" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="0" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="8" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document vse-key="http://testbed4.test.vivisimo.com:80/pages/never_again.htm/"
+  url="http://testbed4.test.vivisimo.com/pages/never_again.htm"
+  vse-base-score="2.5" la-score="1.32176"
+>
+  <content name="title" output-action="bold" weight="3" u="7">Companies That Will Never See My</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2">
+      <content name="snippet" weight="1" output-action="summarize" u="14" v="443" />
+      <pre u="278" v="297">this time would have cost as &amp;#13;
+		much as buying a new camera.&#160; I'll stick with Nikon, thank you.&lt;/p> &lt;/div>&lt;div>&lt;b> </pre>
+      <match u="298" v="298">Midas </match>
+      <post u="299" v="318">Muffler &lt;/b> &lt;p>Not because they do bad work.&#160; Because they're kind of slimy.&#160; &amp;#13;
+		If you walk in and ask </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="snippet" weight="1" output-action="summarize" u="14" v="443" />
+      <pre u="408" v="427">it apart and tell &amp;#13;
+		what else will be required.&#160; In other words, if you are going to &amp;#13;
+		use </pre>
+      <match u="428" v="428">Midas, </match>
+      <post u="429" v="443">get an estimate before they take anything apart.&#160; &amp;#13;
+		Personally, I'll never go back.&lt;/p> &lt;/div>  </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... camera.&#160; I'll stick with Nikon, thank you.&lt;/p> &lt;/div>&lt;div>&lt;b> Midas Muffler &lt;/b> &lt;p>Not because they do bad work.&#160; Because  ... words, if you are going to &amp;#13;
+		use Midas, get an estimate before they take anything apart.&#160; &amp;# ... </content>
+</document>
+</scope>

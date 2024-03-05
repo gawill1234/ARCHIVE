@@ -1,0 +1,11 @@
+# This needs to be invoked from the root of the /testenv/ checkout, like this:
+#    source env.setup/testbed6
+
+source env.setup/common
+export VIVHOST=telligent-dev
+export VIVHTTPPORT=443
+export VIVTARGETARCH=windows64
+export VIVTARGETOS=windows
+export OSSTRING="Windows ..."
+export VIVUSER=testuser
+export VIVPW=Baseball123

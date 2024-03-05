@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="24" />
+<attribute name="stem" value="case" />
+<attribute name="stem2" value="english+depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="17" />
+<attribute name="cache-hits-content-search" value="4" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="16" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="175" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="24" />
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/programming_basics.ppt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/programming_basics.ppt/"
+  filetype="ppt" vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Basic Programming</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <span>Basic Programming</span><br/><p/><span>What constitutes a “program”</span><br/><span>Basic program commands</span><br/><span>Basic programming pointers</span><br/><span>Common programming errors</span><br/><hr/><span>What is a program</span><br/><p/><span>A program is a sequence of instructions designed to accomplish a task.</span><br/><span>Simple.  Right?</span><br/><hr/><span>What kinds of programs are there?</span><br/><p/><span>Assembled</span><br/><span>Compiled</span><br/><span>Scripts</span><br/><hr/><span>Assembled</span><br/><p/><span>CAL, Compass, Assembler</span><br/><span>Generally fast execution</span><br/><span>Each program step is very small - user is responsible for all data flow, even from register to register</span><br/><span>Good control of hardware</span><br/><span>Difficult to write</span><br/><hr/><span>Compiled</span><br/><p/><span>C, C++, FORTRAN, Ada, COBOL</span><br/><span>Generally fast execution</span><br/><span>Size of program step varies with language and statement</span><br/><span>Hardware control varies with language (C - good, FORTRAN - Bad)</span><br/><span>Easier to write</span><br/><hr/><span>Scripts</span><br/><p/><span>csh, tsh, tcl, ksh</span><br/><span>Much slower execution</span><br/><span>A program step may itself be a program</span><br/><span>Hardware control can be provided by other programs</span><br/><span>Easy to write</span><br/><span>Easy to extend</span><br/><hr/><span>Basic Programming Commands</span><br/><p/><span>We won’t get into that here.  Those will come with the languages that we will learn.</span><br/><span>For future reference, the language will be tcl. Our variant is called ftag.</span><br/><hr/><span>Basic Programming Pointers</span><br/><p/><span>Only 2 big tips</span><br/><span>Do one thing at a time, finish it, and move on to the next thing.</span><br/><span>Keep it simple.  Fancy stuff is cool, but if the application does not call for it, you are just making it hard to maintain.</span><br/><hr/><span>What is a Good Design?</span><br/><p/><span>Clearly structured code</span><br/><span>Understandable code</span><br/><span>Maintainable</span><br/><span>Easy to modify</span><br/><span>Sufficient error &amp; status logging</span><br/><span>It should work</span><br/><span>It should do what was intended</span><br/><hr/><span>What is Good Code?</span><br/><p/><span>Lots of things go into it.  Here are  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/us_doi.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/us_doi.pdf/"
+  filetype="pdf" vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Declaration of Independence</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <a/><div> <div> <span>Declaration of Independence</span> </div><div> <span>IN CONGRESS, July 4, 1776.</span> </div><div> <span><b>The unanimous Declaration of the thirteen united States of America,</b></span> </div><div> <span>When in the Course of human events, it becomes necessary for one people to dissolve the<br/>political bands which have connected them with another, and to assume among the powers of the<br/>earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle<br/>them, a decent respect to the opinions of mankind requires that they should declare the causes<br/>which impel them to the separation.</span> </div><div> <span>We hold these truths to be self-evident, that all men are created equal, that they are endowed by<br/>their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit<br/>of Happiness.— That to secure these rights, Governments are instituted among Men, deriving<br/>their just powers from the consent of the governed,—  That whenever any Form of Government<br/>becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to<br/>institute new Government, laying its foundation on such principles and organizing its powers in<br/>such form, as to them shall seem most likely to effect their Safety and Happiness. Prudence,<br/>indeed, will dictate that Governments long established should not be changed for light and<br/>transient causes; and accordingly all experience hath shewn, that mankind are more disposed to</span> </div><div> <span>suffer, while evils are sufferable, than to right themselves by abolishing the forms to which they<br/>are accustomed. But  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/reunion_info.doc"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/reunion_info.doc/"
+  filetype="doc" vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Gary Williams 1219 Lakevue Dr. Butler, PA 16002 (724)586-9022 gaw@zoominternet.net</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <br/><p><b>Gary Williams</b></p><p><b>1219 Lakevue Dr.</b></p><p><b>Butler, PA 16002</b></p><p><b>(724)586-9022</b></p><p><b> gaw@zoominternet.net </b></p><p><b></b></p><p><b></b></p><p><b>What did you do immediately after high school?  </b>College.  Berkshire Community College, followed by time off and work then North Adams State College.  BS Computer Science.</p><p><b>What kind of work to you do?  Where do you work?  </b>Director of Quality Assurance (Programming) at Vivisimo.</p><p><b>(A)Where have you live since high school graduation?  (B)Do you still have family in the area?  (A)</b>Remained in Berkshire County until 1985.  Moved to St. Paul, MN until 1995. Currently in Butler, PA.  <b>(B)</b>Parents still live in Lenox.</p><p><b>Name of significant other and/or children?  Tell us about them.  </b>Tammy - wife, Lyndsey - daughter (21), Clayton - son (17), Taylor - daughter (13).</p><p><b>What is your favorite high school memory?  </b>Graduation.</p><p><b>If you could have a “do over” what would you change about your high school experience?</b> Nobody's business but mine ...</p><p><b>What are your hobbies and interests?  </b>Road bicycling, mountain bicycling, fishing, golf shooting (target), ATVing, canoeing, hiking/camping.</p><p><b>Have you achieved your dream?  What was/is it?  </b>No.  Independently wealthy and retired somewhere in the Blue Ridge Mountains.</p>  ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/README"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/README/"
+  vse-base-score="0" la-score="2.73003"
+>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5">This is a basic samba crawl with no bad data.  It is just a medium
+sized data set.
+</content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/SharePointTips.doc"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/SharePointTips.doc/"
+  filetype="doc" vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Tips and Tricks for Using Microsoft Office SharePoint Portal Server 2003</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <br/><p><b></b><b></b></p><p><b>Tips and Tricks </b><b>for Using</b><b> Microsoft Office SharePoint Portal Server 2003</b></p><p><b>White Paper</b></p><p>Published: February 2004</p><p><b></b></p><p><b></b></p><p><b></b></p><p><b></b></p><p><b></b></p><br/><p><b>Table of Contents</b></p><p><b></b><b></b><b></b>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>              </p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p>              </p><p>    <b></b>  <b>  </b>    <b></b><b></b><b></b><b></b><b></b><b></b><b></b>  <b></b></p><p><b></b><b></b></p><br/><p><b></b><b>Tips and Tricks for Using Microsoft Office SharePoint Portal Server 2</b><b>003</b><b></b></p><p><b>White Paper</b></p><p>Published: February 2004</p><p></p><p>For the latest information, please see the <a/> SharePoint Portal Server site  on Microsoft Office Online.</p><p><b>Introduction</b></p><p>These Tips and Tricks show how to perform a number of basic tasks in a Microsoft® Office SharePoint™ Portal Server 2003 environment. They can help you learn to use SharePoint Portal Server]]>&#160;<![CDATA[and will introduce you to the basic features and principles of portal site navigation and customization. This document is intended to be a desktop reference, but it can also form the basis for self-paced or instructor-led training. </p><p>Some SharePoint Portal Server features, such as My Sites and the ability to create new SharePoint sites, may not be available due to your company's IT policies. SharePoint Portal Server security can be used to limit the actions that each user can perform. In many cases, you need the correct rights in order to perform certain tasks. Check with your IT department for clarification of individual issues.</p><p><b>Create a New SharePoint Site</b></p><p>SharePoint Portal Server makes it easy to create SharePoint sites. SharePoint sites can serve a variety of purposes, such as the team Web site for a particular team or division, or for collaboration on a particular task or project. These steps show you how to create a SharePoint site fro ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/edaoob.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/edaoob.pdf/"
+  filetype="pdf" vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Easysoft Data Access</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <a/><div> <div> <span>Easysoft Data Access</span> </div><div> <span><b>Installation Guide and User</b></span> </div><div> <span><b>Manual</b></span> </div><div> <span>ODBC-ODBC Bridge</span> </div></div><a/><div> <div> <span>Version 20.</span> </div><div> <span>This manual documents version 2.0.n of the Easysoft ODBC-ODBC<br/>Bridge.</span> </div><div> <span>Publisher: Easysoft Limited</span> </div><div> <span>Thorp Arch Grange</span> </div><div> <span>Thorp Arch</span> </div><div> <span>Wetherby</span> </div><div> <span>LS23 7BA</span> </div><div> <span>United Kingdom</span> </div><div> <span>Copyright © 1993-2005 by Easysoft Limited.</span> </div><div> <span>All rights reserved.</span> </div><div> <span>You may not reverse engineer, decompile or disassemble this<br/>manual. Information in this document is subject to change without<br/>notice. Companies, names, and data used in examples are fictitious<br/>unless otherwise noted.</span> </div><div> <span>The names of companies referred to herein, their corporate logos,<br/>the names of their hardware and software may be trade names,<br/>trademarks or registered trademarks of their respective owners.</span> </div><div> <span>Easysoft and the Easysoft logo are registered trademarks of<br/>Easysoft Limited.</span> </div><div> <span>The software described in this document is provided under a licence<br/>agreement and may be used only in accordance with the terms of<br/>that agreement (see the</span> </div><div> <span><b>Easysoft License Agreement).</b></span> </div></div><a/><div> <div> <span><b>3</b></span> </div><div> <span><b>C O N T E N T S</b></span> </div><div> <span> Easysoft ODBC-ODBC Bridge </span> </div><div> <span><b>CONTENTS</b></span> </div><div> <span><b>List of Figures. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7</b></span> </div><div> <span><b>Chapter 1</b></span> </div><div> <span><b>Preface. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11</b></span> </div><div> <span>Intended Audience . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12<br/>Displaying the Manual . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12<br/>Notational Conventions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13<br/>Typographical Conventions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14<br/>Contents . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15<br/>Trademarks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16</span> </div><div> <span><b>Chapter 2</b></span> </div><div> <span><b>Introduction. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17</b></span> </div><div> <span>Why ODBC? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18<br/>Driver Managers. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20<br/>Why the Easysoft ODBC-ODBC Bridge? . . . . . . . . . . . . . . . . . . . 21<br/>Where the Easysoft ODBC-ODBC Bridge fits in . . . . . . . . . . . . . 22</span> </div><div> <span><b>Chapter 3</b></span> </div><div> <span><b>Installation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27</b></span> </div><div> <span>Obtaining the Easysoft ODBC-ODBC Bridge . . . . . . . . . . . . . . . . 28<br/>What to install. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29<br/>Installing on Windows. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33<br/>Uninstalling on Windows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55<br/>Installing on  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/vse-crawler-seed-smb.xml"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/vse-crawler-seed-smb.xml/"
+  filetype="rtf" vse-base-score="0" la-score="2.73003"
+>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[  
+&lt;function name="vse-crawler-seed-smb" modified-by="nichols@Vivisimo, Inc." max-elt-id="82" modified="1158353712" type="crawl-seed" products="vivisimo" section="common"&gt;<p>
+ &lt;prototype&gt;</p><p/><p/><p>
+   &lt;declare required="required" name="host" type="string"&gt;</p><p>
+     &lt;label name="label"&gt;Host&lt;/label&gt;</p><p>
+     &lt;description name="description"&gt;The hostname or IP address of the server you want to crawl.</p><p>
+&lt;p /&gt;</p><p>
+&lt;b&gt;Example:&lt;/b&gt;</p><p>
+&lt;ul&gt;</p><p>
+         &lt;li&gt;</p><p>
+           &lt;incode&gt;example.com&lt;/incode&gt;</p><p>
+         &lt;/li&gt;</p><p>
+         &lt;li&gt;</p><p>
+           &lt;incode&gt;192.168.0.10&lt;/incode&gt;</p><p>
+         &lt;/li&gt;</p><p>
+         &lt;li&gt;</p><p>
+           &lt;incode&gt;redblue&lt;/incode&gt;</p><p>
+         &lt;/li&gt;</p><p>
+       &lt;/ul&gt;</p><p>
+&lt;/description&gt;</p><p>
+   &lt;/declare&gt;</p><p>
+   &lt;declare type="string" name="port"&gt;</p><p>
+     &lt;label name="label"&gt;Port&lt;/label&gt;</p><p>
+     &lt;description name="description"&gt;If the server operates on a different port than the default SMB port, it can be specified here.&lt;/description&gt;</p><p>
+   &lt;/declare&gt;</p><p>
+   &lt;declare required="required" name="shares" type="separated-set" type-separator="&amp;#10;"&gt;</p><p>
+     &lt;label name="label"&gt;Shares&lt;/label&gt;</p><p>
+     &lt;description name="description"&gt;A newline-separated list of shares to crawl.</p><p>
+&lt;p /&gt;</p><p>
+&lt;b&gt;Example:&lt;/b&gt;</p><p>
+&lt;ul&gt;</p><p>
+         &lt;li&gt;</p><p>
+           &lt;incode&gt;office&lt;/incode&gt;</p><p>
+         &lt;/li&gt;</p><p>
+         &lt;li&gt;</p><p>
+           &lt;incode&gt;cash/money/change&lt;/incode&gt;</p><p>
+         &lt;/li&gt;</p><p>
+         &lt;li&gt;</p><p>
+           &lt;incode&gt;C$/Program Files&lt;/incode&gt;</p><p>
+         &lt;/li&gt;</p><p>
+       &lt;/ul&gt;</p><p>
+&lt;/description&gt;</p><p>
+   &lt;/declare&gt;</p><p>
+   &lt;declare type="string" name="domain"&gt;</p><p>
+     &lt;label name="label"&gt;Domain&lt;/label&gt;</p><p>
+     &lt;description name="description"&gt;The SMB domain to authenticate with. If the username is provided, this is required.&lt;/description&gt;</p><p>
+   &lt;/ ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/emancipation-proclamation.html"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/emancipation-proclamation.html/"
+  vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Featured Documents</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <div>   <td><a>  </a></td>  <td>  </td>  <td>   <td><font>]]>&#160;<![CDATA[<a><span>www.archives.gov</span></a></font></td><td><font>
+							November 15, 2006]]>&#160;<![CDATA[						</font></td>   </td>  <td>  </td>  <td>  </td>  <td>  </td>      <td><span>The Emancipation Proclamation</span><br/><b>January 1, 1863</b><p><b>A Transcription</b></p><p>By the President of the United States of America:</p><p>A Proclamation.</p><p>Whereas, on the twenty-second day of September, in the year of our
+Lord one thousand eight hundred and sixty-two, a proclamation was
+issued by the President of the United States, containing, among other
+things, the following, to wit:</p><p>"That on the first day of January, in the year of our Lord one
+thousand eight hundred and sixty-three, all persons held as slaves
+within any State or designated part of a State, the people whereof
+shall then be in rebellion against the United States, shall be then,
+thenceforward, and forever free; and the Executive Government of the
+United States, including the military and naval authority thereof, will
+recognize and maintain the freedom of such persons, and will do no act
+or acts to repress such persons, or any of them, in any efforts they
+may make for their actual freedom.</p><p>"That the Executive will, on the first day of January aforesaid, by
+proclamation, designate the States and parts of States, if any, in
+which the people thereof, respectively, shall then be in rebellion
+against the United States; and the fact that any State, or the people
+thereof, shall on that day be, in good faith, represented in the
+Congress of the United States by members chosen thereto at elections
+wherein a majority of the qualified voters of such State shall have
+participated, shall, in the absence of strong co ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/gncaddress.htm"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/gncaddress.htm/"
+  vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">The Gettysburg Address</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <h1> The Gettysburg Address </h1><hr/><p>  On
+November 19, 1863, President Abraham Lincoln delivered his immortal
+address to the crowd gathered at Gettysburg to dedicate the newly
+established "Soldiers National Cemetery". Here is the first draft of
+his speech:</p><p>]]>&#160;<![CDATA[</p>   <td><font><p>]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[
+]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[Executive
+Mansion,</p><p>]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[Washington,
+, 186 .</p><p>Four score and seven years ago our fathers brought<br/>forth, upon this continent, a new nation, conceived<br/>in liberty, and dedicated to the proposition that<br/>"all men are created equal"</p><p>Now we are engaged in a great civil war, testing<br/>whether that nation, or any nation so conceived,<br/>and so dedicated, can long endure. We are met<br/>on a great battle field of that war. We have<br/>come to dedicate a portion ot it, as a final rest-<br/>ing place for those who died here, that the nation<br/>might live. This we may, in all propriety do. But, in a<br/>larger sense, we can not dedicate- we can not<br/>consecrate- we can not hallow this ground-<br/>The brave men, living and dead, who struggled<br/>here, have hallowed it, far above our poor power<br/>to add or detract. The world will little note, nor long<br/>remember what we say here; while it can never<br/>forget what they did here.</p><p>It is rather for us, the living, to be here dedicated<br/>to the great task remaining before us-<br/>that, from these honored dead we take in-<br/>creased devotion to that cause for which<br/>they here, gave the last full measure of devotion-<br/> that we here highly resolve these<br/>dead shall not have died in vain, that<br/>the nation, shall have a new birth of free-<br/>dom, and that government o ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/automation.ppt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/automation.ppt/"
+  filetype="ppt" vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Automation</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <span>Automation</span><br/><p/><span>What is it?</span><br/><span>How does it help?</span><br/><span>How is it done?</span><br/><span>What does it cost?</span><br/><hr/><span>What is an automated test?</span><br/><p/><span>In its’ simplest terms, an automated test</span><br/><span>is a program.  The program performs a</span><br/><span>sequence of actions followed by an</span><br/><span>evaluation of the actions.  The evaluation</span><br/><span>is compared to an expected result and</span><br/><span>a test result is issued based on the test</span><br/><span>comparisons.</span><br/><hr/><span>Automation support tools</span><br/><p/><span>Code analyzers</span><br/><span>test drivers/test harnesses</span><br/><span>coverage analyzers</span><br/><span>memory analyzers</span><br/><span>load/performance tools</span><br/><span>other</span><br/><hr/><span>Code Analyzers</span><br/><p/><span>Monitor code complexity</span><br/><span>Adherence to standards</span><br/><hr/><span>Test Drivers/Harnesses</span><br/><p/><span>Run tests</span><br/><span>Screen captures</span><br/><span>Result captures</span><br/><span>Test control</span><br/><hr/><span>Coverage Analyzers</span><br/><p/><span>Code statement coverage</span><br/><span>Path coverage</span><br/><span>Condition coverage</span><br/><hr/><span>Memory Analyzers</span><br/><p/><span>Bounds checking</span><br/><span>Memory leaks</span><br/><hr/><span>Load/Performance Tools</span><br/><p/><span>Resource consumption</span><br/><span>Sustained resource use</span><br/><span>Memory, CPU, File access speed</span><br/><span>Transmission speed</span><br/><hr/><span>Other Support Tools</span><br/><p/><span>Test case management</span><br/><span>Documentation management</span><br/><span>Configuration management</span><br/><span>Result tracking</span><br/><span>Database management systems</span><br/><span>SNMP/CMIP</span><br/><hr/><span>How does it help?</span><br/><p/><span>Speeds up testing (accelerate releases)</span><br/><span>Allows more frequent testing</span><br/><span>May reduce costs by reducing manual labor</span><br/><span>Improve test coverage</span><br/><span>Help test consistency</span><br/><hr/><span>How does it help? (cont’d)</span><br/><p/><span>Improve testing reliability</span><br/><span>Allow testing to be done with less skilled tester</span><br/><hr/><span>How is it done?</span><br/><p/><span>You supply:</span><br/><span>Inputs or actions</span><br/><span>Expected outputs/results</span><br/><span>You perform:</span><br/><span>SUT configuration</span><br/><span>Run test</span><br/><span>You get:</span><br/><span>Actual results which are compared to expected results</span><br/><hr/><span>What are the expected results?</span><br/><p/><span>Fixed data</span><br/><span> ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/Preambe_and_Bill_of_Rights.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/Preambe_and_Bill_of_Rights.pdf/"
+  filetype="pdf" vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Preamble &amp; Bill of Rights.pdf</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <a/><div> <div> <span><b>Preamble of the Constitution &amp; Bill of Rights</b></span> </div><div> <span><b>Preamble:</b><br/>We the People of the United States, in order to form a more perfect Union, establish justice,<br/>ensure domestic tranquility [peace], provide for the common defense, promote the general<br/>welfare, &amp; secure the blessings of liberty to ourselves and our posterity, do ordain and establish<br/>this Constitution for the United States of America.</span> </div><div> <span><b>Bill of Rights</b></span> </div><div> <span>ACTUAL TEXT</span> </div><div> <span>MEANING</span> </div><div> <span>1.  Congress shall make no law respecting</span> </div><div> <span>Congress cannot set up an official</span> </div><div> <span>an establishment of religion, or</span> </div><div> <span>religion for the country or pass laws</span> </div><div> <span>prohibiting the free exercise thereof;</span> </div><div> <span>to stop people from following their</span> </div><div> <span>or abridging the freedom of speech, or</span> </div><div> <span>own religion.</span> </div><div> <span>of the press; or the right of the people</span> </div><div> <span>Congress cannot make laws that stop</span> </div><div> <span>peaceably to assemble, &amp; to petition</span> </div><div> <span>people from speaking &amp; writing</span> </div><div> <span>the government for a redress of</span> </div><div> <span>what they wish.  Congress cannot</span> </div><div> <span>grievances.</span> </div><div> <span>make laws that stop people from<br/>holding peaceful meetings or from<br/>asking the government to correct a<br/>wrong action.</span> </div><div> <span>2.  A well regulated militia being necessary</span> </div><div> <span>The people have the right to protect</span> </div><div> <span>to the security of a free state, the right of</span> </div><div> <span>themselves by serving as armed</span> </div><div> <span>of the people to keep and bear arms shall</span> </div><div> <span>citizens (militia) and Congress</span> </div><div> <span>not be infringed.</span> </div><div> <span>cannot stop them.</span> </div><div> <span>3.  No soldier shall, in time of peace be</span> </div><div> <span>In peacetime, citizens cannot be</span> </div><div> <span>quartered in any house, without the consent</span> </div><div> <span>forced to give soldiers a place to</span> </div><div> <span>of the owner, nor in time of war, but in a</span> </div><div> <span>sleep  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/dfc_0000.htm"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/dfc_0000.htm/"
+  vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Debates in the Federal Convention</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[    <b><font>T</font>he <font>D</font>ebates in the
+		<font>F</font>ederal <font>C</font>onvention of 1787<br/> by
+		<font>J</font>ames <font>M</font>adison</b>     <td>   <td><b>May</b></td>  <td><b>Sun</b></td><td><b>Mon</b></td><td><b>Tue</b></td><td><b>Wed</b></td><td><b>Thr</b></td><td><b>Fri</b></td><td><b>Sat</b></td>  <td/><td/><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>  <td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>  <td>13</td><td><a>14</a></td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td>  <td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td><a>25</a></td><td>26</td>  <td>27</td><td><a>28</a></td><td><a>29</a></td><td><a>30</a></td><td><a>31</a></td><td/><td/>   </td><td>   <td><b>June</b></td>  <td><b>Sun</b></td><td><b>Mon</b></td><td><b>Tue</b></td><td><b>Wed</b></td><td><b>Thr</b></td><td><b>Fri</b></td><td><b>Sat</b></td>  <td/><td/><td/><td/><td/><td><a>1</a></td><td><a>2</a></td>  <td>3</td><td><a>4</a></td><td><a>5</a></td><td><a>6</a></td><td><a>7</a></td><td><a>8</a></td><td><a>9</a></td>  <td>10</td><td><a>11</a></td><td><a>12</a></td><td><a>13</a></td><td><a>14</a></td><td><a>15</a></td><td><a>16</a></td>  <td>17</td><td><a>18</a></td><td><a>19</a></td><td><a>20</a></td><td><a>21</a></td><td><a>22</a></td><td><a>23</a></td>  <td>24</td><td><a>25</a></td><td><a>26</a></td><td><a>27</a></td><td><a>28</a></td><td><a>29</a></td><td><a>30</a></td>   </td><td>   <td><b>July</b></td>  <td><b>Sun</b></td><td><b>Mon</b></td><td><b>Tue</b></td><td><b>Wed</b></td><td><b>Thr</b></td><td><b>Fri</b></td><td><b>Sat</b></td>  <td>1</td><td><a>2</a></td><td>3</td><td>4</td><td><a>5</a></td><td><a>6</a></td><td><a>7</a></td>  <td>8</td><td><a>9</a></td><td><a>10</a></td><td><a>11</a></td><td><a>12</a></td><td><a>13</a></td><td><a>14</a></td>  <td>15</td><td><a>16</a></td><td><a>17</a></td><td><a>18</a></td><td><a>19</a></td><td><a>20</a></td><td><a>21</a></td>  <td>22</td><td><a>23</a></td><td><a>24</a></td><td><a>25</a></td><td><a>26</a></td><td>27</td><td>28</td>  <td>29</td><td>30</td><td>31</td><td/><td/><td/><td/>   </td>  <td>   <td><b>August</b></td>  <td><b>Sun</b></td><td><b>Mon</b></td><td><b>Tue</b></td><td><b>Wed</b></td><td><b>Thr</b></td><td><b>Fri</b></td><td><b>Sat</b></td>  <td/><td/><td/><td>1</td><td>2</td><td>3</td><td>4</td>  <td>5</td><td><a>6</a></td><td><a>7</a></td><td><a>8</a></td><td><a>9</a></td><td><a>10</a></td><td><a>11</a></td>  <td>12</td><td><a>13</a></td><td><a>14</a></td><td><a>15</a></td><td><a>16</a></td><td><a>17</a></td><td><a>18</a></td>  <td>19</td><td><a>20</a></td><td><a>21</a></td><td><a>22</a></td><td><a>23</a></td><td><a>24</a></td><td><a>25</a></td>  <td>26</td><td><a>27</a></td><td><a>28</a></td><td><a>29</a></td><td><a>30</a></td><td><a>31</a></td><td/>   </td><td>   <td><b>September</b></td>  <td><b>Sun</b></td><td><b>Mon</b></td><td><b>Tue</b></td><td><b>Wed</b></td><td><b>Thr</b></td><td><b>Fri</b></td><td><b>Sat</b></td>  <td/><td/><td/><td/><td/><td/><td><a>1</a></td>  <td>2</td><td><a>3</a></td><td><a>4</a></td><td><a>5</a></td><td><a>6</a></td><td><a>7</a></td><td><a>8</a></td>  <td>9</td><td><a>10</a></td><td><a>11</a></td><td><a>12</a></td><td><a>13</a></td><td><a>14</a></td><td><a>15</a></td>  <td>16</td><td><a>17</a></td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td>  <td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td>   </td><td>   <td><b>October</b></td>  <td><b>Sun</b></td><td><b>Mon</b></td><td><b>Tue</b></td><td><b>Wed</b></td><td><b>Thr</b></td><td><b>Fri</b></td><td><b>Sat</b></td>  <td>30</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>  <td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>  <td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>  <td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>  <td>28</td><td>29</td><td>30</td><td>31</td><td/><td/><td/>   </td>      <td><a>Constitution Society Home
+				Page</a></td><td><a>Madison's
+				Introduction</a></td><td><a>Editor's
+				Introduction</a></td><td><a>First Day</a></td><td><a>Index</a></td>    <hr/> <h4>Search this subsite</h4>    <td><font><a> Search this
+			 site</a> or <a> the
+			 web</a>]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[]]>&#160;<![CDATA[Powered by <a>FreeFind</a><br/></font></td>  <td> <font/>             <p><font>   Debates in the Federal Convention
+					    Entire site   Entire web </font></p>  </td>   <hr/>  ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/SuSE-Linux-Userguide-9.2.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/SuSE-Linux-Userguide-9.2.pdf/"
+  filetype="pdf" vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">SUSE LINUX</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <a/><div> <div> <span>SUSE LINUX</span> </div><div> <span>USERGUIDE</span> </div></div><a/><div> <div> <span>10. Edition 2004</span> </div><div> <span>Copyright ©</span> </div><div> <span>This publication is intellectual property of Novell Inc.</span> </div><div> <span>Its contents can be duplicated, either in part or in whole, provided that a copyright label is<br/>visibly located on each copy.</span> </div><div> <span>All information found in this book has been compiled with utmost attention to detail.<br/>However, this does not guarantee complete accuracy. Neither SuSE Linux GmbH, the<br/>authors, nor the translators shall be held liable for possible errors or the consequences<br/>thereof.</span> </div><div> <span>Many of the software and hardware descriptions cited in this book are registered trademarks.<br/> All trade names are subject to copyright restrictions and may be registered trade<br/>marks. SUSE LINUX GmbH essentially adheres to the manufacturer’s spelling. Names of<br/>products and trademarks appearing in this book (with or without speciﬁc notation) are<br/>likewise subject to trademark and trade protection laws and may thus fall under copyright<br/>restrictions.</span> </div><div> <span>Please direct suggestions and comments todocumentation@suse.de</span> </div><div> <span>.</span> </div><div> <span>Authors:</span> </div><div> <span>Jörg Bartsch, Gernot Hillier, Marcel Hilzinger, Johannes Meixner, Matthias<br/>Nagorny, Siegfried Olschner, Marcus Schäfer, Jens Daniel Schmidt, Arvin<br/>Schnell, Christian Schuszter, Adrian Schröter Rebecca Walter</span> </div><div> <span>Translators:Daniel Pisano, Tino Tanner</span> </div><div> <span>Editors:</span> </div><div> <span>Jörg Arndt, Antje Faber, Karl Eichwalder, Berthold Gunreben, Roland<br/>Haidl, Jana Jaeger, Edith Parzefall, Inés Pozo, Thomas Rölz, Thomas<br/>Schraitle, Rebecca Walter</span> </div><div> <span>Layout:</span> </div><div> <span>Manuela Piotrowski, Thomas Schraitle</span> </div><div> <span>Setting:</span> </div><div> <span>DocBook-XML,  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/constitution.doc"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/constitution.doc/"
+  filetype="rtf" vse-base-score="0" la-score="2.73003"
+>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[  
+[Constitution for the United States of America]<p/><p>
+We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</p><p/><p>
+Article. I.</p><p/><p>
+Section. 1. All legislative Powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives.</p><p/><p>
+Section. 2. The House of Representatives shall be composed of Members chosen every second Year by the People of the several States, and the Electors in each State shall have the Qualifications requisite for Electors of the most numerous Branch of the State Legislature.</p><p/><p>
+No Person shall be a Representative who shall not have attained to the Age of twenty five Years, and been seven Years a Citizen of the United States, and who shall not, when elected, be an Inhabitant of that State in which he shall be chosen.</p><p/><p>
+Representatives and direct Taxes shall be apportioned among the several States which may be included within this Union, according to their respective Numbers, which shall be determined by adding to the whole Number of free Persons, including those bound to Service for a Term of Years, and excluding Indians not taxed, three fifths of all other Persons. The actual Enumeration shall be made within three Years after the first Meeting of  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/constitution.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/constitution.pdf/"
+  filetype="pdf" vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">CONSTITUTION</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <a/><div> <div> <span>THE</span> </div><div> <span>CONSTITUTION</span> </div><div> <span>oftheUnitedStates</span> </div><div> <span>NATIONAL CONSTITUTION CENTER</span> </div></div><a/><div> <div> <span>CONSTITUTION OF THE UNITED STATES</span> </div><div> <span>We the People of the United States, in Order to form a<br/>more perfect Union, establish Justice, insure domestic<br/>Tranquility, provide for the common defence, promote<br/>the general Welfare, and secure the Blessings of Liberty to<br/>ourselves and our Posterity, do ordain and establish this<br/>Constitution for the United States of America.</span> </div><div> <span>Article.I.</span> </div><div> <span>SECTION. 1.</span> </div><div> <span>All legislative Powers herein granted shall be vested in a<br/>Congress of the United States, which shall consist of a Senate<br/> and House of Representatives.</span> </div><div> <span>SECTION. 2.</span> </div><div> <span>The House of Representatives shall be composed of Members<br/> chosen every second Year by the People of the several<br/>States, and the Electors in each State shall have the Qualifi -<br/>cations requisite for Electors of the most numerous Branch<br/>of the State Legislature.</span> </div><div> <span>No Person shall be a Representative who shall not have<br/>attained to the Age of twenty fi ve Years, and been seven<br/>Years a Citizen of the United States, and who shall not,<br/>when elected, be an Inhabitant of that State in which he<br/>shall be chosen.</span> </div><div> <span>[Representatives and direct Taxes shall be apportioned<br/>among the several States which may be included within<br/>this Union, according to their respective Numbers, which<br/>shall be determined by adding to the whole Number of<br/>free Persons, including those bound to Service for a Term<br/>of Years, and excluding Indians not taxed, three fi fths of<br/>all other Persons.]* The actual Enumeration  ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/federa00.htm"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/federa00.htm/"
+  vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">The Federalist - Contents</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[       <td>  </td><td>  </td><td>  </td>  <td>Alexander Hamilton</td><td> James Madison</td><td>John Jay</td>   <br/><h1>The Federalist</h1> <p>The text of this version is primarily taken from the first collected
+		1788 "McLean edition", but spelling and punctuation have been modernized, and
+		some glaring errors -- mainly printer's lapses -- have been corrected. The main
+		heads have also been taken from that edition and a few later ones, except where
+		the head was something like "The Same Subject Continued" we have repeated the
+		previous heading and appended "(continued)", so that each document can better
+		stand alone. We have been guided by the excellent edition by Jacob E. Cooke,
+		Wesleyan University Press, 1961. The footnotes are those of the authors, except
+		where the original edition used a variety of special typographical symbols for
+		superscripts, we use numerals. Editors's footnotes are indicated by being
+		preceded by the letter "E". The original typography used for emphasis, such as
+		all caps or italics, has been used here. We have tried to identify the date of
+		earliest appearance in a newspaper. The newspapers were the Independent
+		Journal  [<b>J</b>], the  New-York Packet  [<b>P</b>], and the  Daily
+		Advertiser  [<b>A</b>], all based in New York, shown preceding the date.
+		Nos. 78-85 actually first appeared May 28, 1788, in a bound volume published by
+		J. and A. McLean,  Federalist II . We have followed the consensus of
+		scholars on attribution of each paper to its primary author, James Madison
+		[<b>M</b>], John Jay [<b>J</b>], or Alexander Hamilton [<b>H</b>], which is
+		shown following the date. Please email comments or corrections to
+		<a>jon.roland@ ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/Files_that_failed_to_crawl"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/Files_that_failed_to_crawl/"
+  vse-base-score="0" la-score="2.73003"
+>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5">Return-Path: &lt;gando@groupnet.co.jp>
+Received: from murder ([unix socket]) by mail.office.vivisimo.com (Cyrus
+	v2.2.12-Invoca-RPM-2.2.12-3.RHEL4.1) with LMTPA; Mon, 27 Nov 2006 05:40:19
+	-0500
+X-Sieve: CMU Sieve 2.2
+Received: from localhost (localhost.localdomain [127.0.0.1]) by
+	mail.office.vivisimo.com (Postfix) with ESMTP id D026635E53E; Mon, 27 Nov
+	2006 05:40:17 -0500 (EST)
+X-Virus-Scanned: amavisd-new at vivisimo.com
+X-Spam-Score: -
+X-Spam-Level: 
+X-Spam-Status: No, score=x required=4 tests=[]
+Received: from mail.office.vivisimo.com ([127.0.0.1]) by localhost
+	(office.mail.vivisimo.com [127.0.0.1]) (amavisd-new, port 10024) with ESMTP
+	id sukOHwH0FZ4n; Mon, 27 Nov 2006 05:40:15 -0500 (EST)
+Received: from mail.vivisimo.com (mail.vivisimo.com [69.93.152.138]) by
+	mail.office.vivisimo.com (Postfix) with ESMTP id C1C7F35E53D; Mon, 27 Nov
+	2006 05:39:41 -0500 (EST)
+Received: from relay.shared-server.net (gw.shared-server.net
+	[211.13.204.1]) by mail.vivisimo.com (8.12.11.20060308/8.12.11) with ESMTP
+	id kARAdDHw029807; Mon, 27 Nov 2006 05:39:13 -0500
+Received: from mx01-blue.in.shared-server.net
+	(mx01-blue.in.shared-server.net [192.168.3.21]) by
+	relay02.in.shared-server.net (Postfix) with ESMTP id 721FF3B50D4; Mon, 27
+	Nov 2006 19:39:05 +0900 (JST)
+Received: from v01-blue.in.shared-server.net (v01-blue.in.shared-server.net
+	[192.168.0.53]) by mx01-blue.in.shared-server.net (Postfix) with ESMTP id
+	E97722300CD; Mon, 27 Nov 2006 19:39:03 +0900 (JST)
+Received: from m02-blue.in.shared-server.net (m02-blue.in.shared-server.net
+	[ ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/03-AccessB.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/03-AccessB.pdf/"
+  filetype="pdf" vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">Data Structures, Algorithms and Implementation Issues Overview</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <a/><div> <div> <span><b>Data Structures, Algorithms and</b></span> </div><div> <span><b>Implementation Issues</b></span> </div><div> <span>Jamie Callan</span> </div><div> <span>Carnegie Mellon University</span> </div><div> <span>callan@cs.cmu.edu</span> </div><div> <span><b>11-741:</b></span> </div><div> <span><b>Information Retrieval</b></span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>2</span> </div><div> <span><b>Overview</b></span> </div><div> <span>•</span> </div><div> <span><b>Document Parsing</b></span> </div><div> <span>•</span> </div><div> <span><b>Document Indexing</b></span> </div><div> <span>– What to index</span> </div><div> <span>– Inverted lists</span> </div><div> <span>•</span> </div><div> <span><b>Inverted Files</b></span> </div><div> <span>– Access</span> </div><div> <span>» Permuterm indexes</span> </div><div> <span>– Building</span> </div><div> <span>– Compression</span> </div><div> <span>•</span> </div><div> <span><b>Query Evaluation</b></span> </div><div> <span>– Ranking documents</span> </div><div> <span>– Optimizations</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>3</span> </div><div> <span><b>Basic Facts That Affect Search Engine Design</b></span> </div><div> <span>•</span> </div><div> <span><b>Computational efficiency is really important</b></span> </div><div> <span>– Speed and space</span> </div><div> <span>– A research search engine on a research corpus typically</span> </div><div> <span>processes several hundred million words</span> </div><div> <span>» Small inefficiencies × 200,000,000 = slow/bloated program</span> </div><div> <span>•</span> </div><div> <span><b>Integers are often preferred over strings</b></span> </div><div> <span>– Integers almost always take less space</span> </div><div> <span>– Integers can be compared more quickly</span> </div><div> <span><b>So…convert strings to integers whenever possible</b></span> </div><div> <span>•</span> </div><div> <span><b>You may not care about efficiency…</b></span> </div><div> <span><b>but you need to understand how it affects search engine design</b></span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>4</span> </div><div> <span><b>Parsing and Indexing:</b></span> </div><div> <span><b>Overview</b></span> </div><div> <span>•</span> </div><div> <span><b>Tasks:</b></span> </div><div> <span>– Build a set of indexes</span> </div><div> <span>» Inverted list, document ID, document location, fields, ….</span> </div><div> <span>– Possibly compress the documents</span> </div><div> <span>•</span> </div><div> <span><b>Speed:</b></span> </div><div> <span>– 2-3 gigabyte per processor hour is respectable (but not fast)</span> </div><div> <span>– “Fast” in 1998 was 4.7 GB per processor hour, on a PC</span> </div><div> <span>– “Fast” in 2004 was 33 GB per processing hour, on a PC</span> </div><div> <span>•</span> </div><div> <span><b>Memory:</b></span> </div><div> <span>– 1-5% the size of the total uncompressed documents</span> </div><div> <span>» E.g.,  128 MB RAM for 2 GB text, 1 GB RAM for 100 GB text</span> </div></div><a/><div> <div> <span>© 2006, Jamie Callan</span> </div><div> <span>5</span> </div><div> <span><b>Parsing and Indexing:</b></span> </div><div> <span><b>Overview</b></span> </div><div> <span><b>Document</b></span> </div><div> <span><b>Parser</b></span> </div><div> <span><b>Indexer</b></span> </div><div> <span><b>Document Vectors</b></span> </div><div> <span><b>Term Dictionary</b></span> </div><div> <span><b>Inverted Lists</b></span> </div><div> <span><b>Field Masks</b></span> </div><div> <span><b>Document A ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/Worldwide_Content_Access_Tools_Search_and_Retrieval_2005-2009_Forecast_and_2004_Vendor_Shares_IDC_.pdf"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/Worldwide_Content_Access_Tools_Search_and_Retrieval_2005-2009_Forecast_and_2004_Vendor_Shares_IDC_.pdf/"
+  filetype="pdf" vse-base-score="0" la-score="2.73003"
+>
+  <content name="title" output-action="bold" weight="3" u="13">MARKET ANALYSIS Worldwide Content Access Tools (Search and Retrieval) 2005–2009 Forecast and 2004 Vendor Shares</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5"><![CDATA[   <a/><div> <div> <span>Filing Information: March 2005, IDC #33102, Volume: 1, Tab: Markets<br/>Content Management and Retrieval Solutions: Market Analysis</span> </div><div> <span><b>MARKET ANALYSIS</b></span> </div><div> <span><b>Worldwide Content Access Tools (Search and Retrieval)</b><br/><b>2005–2009 Forecast and 2004 Vendor Shares</b></span> </div><div> <span>Susan Feldman</span> </div><div> <span><b>IDC OPINION</b></span> </div><div> <span>Search engines at the end of 2004 bear little resemblance to their forebears. No<br/>longer just keyword search engines, today's search systems are more rich in user<br/>features and in administrative tools. Many are designed to solve specific problems<br/>such as technical support or ecommerce search. Customers of enterprise search will<br/>have a difficult time choosing a search engine, based on IDC's survey of leading<br/>search vendors in the fourth quarter of 2004. All vendors have extended their range of<br/>features. Trends that IDC finds include:</span> </div><div> <span>! </span> </div><div> <span>Emergence of information access platforms, which include search but have<br/>added  related  features  that  improve  access  to  both  content  and  data,  and<br/>integration of all kinds of search — intranet, extranet, external content sources,<br/>desktop, and Web — into a single platform</span> </div><div> <span>! </span> </div><div> <span>Splitting of the market into platforms versus focused, vertically oriented, or taskbased<br/> applications for technical support, ecommerce, intranet, desktop, and Web<br/>search</span> </div><div> <span>! </span> </div><div> <span>Hybrid applications that often include several kinds of search technologies that<br/>work in tandem to yield better results</span> </div><div> <span>! </span> </div><div> <span>Search and its allied technologies embedded in other applications for customer<br/>relationship management (CRM), business intelligence, conten ... ]]></content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/emancipation-proclamation_files/styles.css"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/emancipation-proclamation_files/styles.css/"
+  vse-base-score="0" la-score="3.13549"
+>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5">td { font-size: 12px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+th { font-size: 12px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; font-weight: bold }
+p { font-size: 12px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+ol { font-size: 12px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+ul { font-size: 12px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+li { font-size: 12px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+dir { font-size: 12px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+
+b { font-weight: bold }
+i {font-style: italic}
+
+a:link { color: #000066 }
+a:visited { color: #663366}
+a:hover { color: #003399}
+a:active { color: #b32317}
+
+a.skipnavblue,a.skipnavblue:hover,a.skipnavblue:active,a.skipnavblue:visited {color: #000066; font-size: 1px; text-decoration: none}
+a.skipnavwhite,a.skipnavwhite:hover,a.skipnavwhite:active,a.skipnavwhite:visited {color: #ffffff; font-size: 1px; text-decoration: none}
+
+.heading { font-weight: bold; font-size: 14px; line-height: 14px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.datetext    { color: white; font-weight: bold; font-size: 10px; line-height: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.smaller { font-weight: normal; font-size: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.red { color: #cc0000; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular}
+.white { color: white; font-family: Arial, Helvetica,  ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/const_quotes.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/const_quotes.txt/"
+  vse-base-score="0" la-score="2.60269"
+>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5">Constitutional Quotes
+
+
+
+The following quotes make some important points about the principles of 
+
+constitutional republican government:
+
+
+
+The Constitution was written to be understood by the voters; its words and 
+
+phrases were used in their normal and ordinary, as distinguished from 
+
+technical meaning; where the intention is clear, there is no room for 
+
+construction, and no excuse for interpolation or addition. -- Martin v. 
+
+Hunter's Lessee, 1 Wheat 304; Gibbons v. Ogden, 9 Wheat 419; Brown v. 
+
+Maryland, 12 Wheat 419; Craig v. Missouri, 4 Pet 10; Tennessee v. Whitworth, 
+
+117 U.S. 139; Lake County v. Rollins, 130 U.S. 662; Hodges v. United States, 
+
+203 U.S. 1; Edwards v. Cuba R. Co., 268 U.S. 628; The Pocket Veto Case, 279 
+
+U.S. 655; (Justice) Story on the Constitution, 5th ed., Sec 451; Cooley's 
+
+Constitutional Limitations, 2nd ed., p. 61, 70.
+
+
+
+It cannot be presumed that any clause in the constitution is intended to be 
+
+without effect;... -- Marbury v. Madison, 5 U.S. 137, 174 (1803). 
+
+
+
+The Constitution is a written instrument. As such, its meaning does not 
+
+alter. That which it meant when it was adopted, it means now. -- South 
+
+Carolina v. United States, 199 U.S. 437, 448 (1905).
+
+
+
+History is clear that the first ten amendments to the Constitution were 
+
+adopted to secure certain common law rights of the people, against invasion 
+
+by the Federal Government. -- Bell v. Hood, 71 F. Supp., 813, 816 (1947) 
+
+U.S.D.C., So. Dist. CA.
+
+
+
+In the United States, Sovereignty resides in the people, who act through the 
+
+organs establis ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/magnacar.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/magnacar.txt/"
+  vse-base-score="0" la-score="2.60269"
+>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5">THE MAGNA CARTA
+
+(The Great Charter)
+
+
+
+
+
+Preamble:
+
+
+
+John, by the grace of God, king of England, lord of Ireland, duke of
+
+Normandy and Aquitaine, and count of Anjou, to the archbishop, bishops,
+
+abbots, earls, barons, justiciaries, foresters, sheriffs, stewards,
+
+servants, and to all his bailiffs and liege subjects, greetings. Know
+
+that, having regard to God and for the salvation of our soul, and those
+
+of all our ancestors and heirs, and unto the honor of God and the
+
+advancement of his holy Church and for the rectifying of our realm, we
+
+have granted as underwritten by advice of our venerable fathers,
+
+Stephen, archbishop of Canterbury, primate of all England and cardinal
+
+of the holy Roman Church, Henry, archbishop of Dublin, William of
+
+London, Peter of Winchester, Jocelyn of Bath and Glastonbury, Hugh of
+
+Lincoln, Walter of Worcester, William of Coventry, Benedict of
+
+Rochester, bishops; of Master Pandulf, subdeacon and member of the
+
+household of our lord the Pope, of brother Aymeric (master of the
+
+Knights of the Temple in England), and of the illustrious men William
+
+Marshal, earl of Pembroke, William, earl of Salisbury, William, earl of
+
+Warenne, William, earl of Arundel, Alan of Galloway (constable of
+
+Scotland), Waren Fitz Gerold, Peter Fitz Herbert, Hubert De Burgh
+
+(seneschal of Poitou), Hugh de Neville, Matthew Fitz Herbert, Thomas
+
+Basset, Alan Basset, Philip d'Aubigny, Robert of Roppesley, John
+
+Marshal, John Fitz Hugh, and others, our liegemen.
+
+
+
+1. In the first place we have granted to Go ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/fedpaper.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/fedpaper.txt/"
+  vse-base-score="0" la-score="2.60269"
+>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5">*This is the Project Gutenberg Etext of The Federalist Papers.*
+*****This file should be named feder16.txt or feder16.zip******
+The release date of this Project Gutenberg Etext:  June 6, 1992
+
+Corrected EDITIONS of our etexts get a new NUMBER, feder17.txt.
+VERSIONS based on separate sources get new LETTER, feder10a.txt.
+
+Information about Project Gutenberg (one page)
+
+We produce about one million dollars for each hour we work.  One
+hundred hours is a conservative estimate for how long it we take
+to get any etext selected, entered, proofread, edited, copyright
+searched and analyzed, the copyright letters written, etc.  This
+projected audience is one hundred million readers.  If our value
+per text is nominally estimated at one dollar, then we produce a
+million dollars per hour; next year we will have to do four text
+files per month, thus upping our productivity to two million/hr.
+The Goal of Project Gutenberg is to Give Away One Trillion Etext
+Files by the December 31, 2001.  [10,000 x 100,000,000=Trillion]
+This is ten thousand titles each to one hundred million readers.
+
+We need your donations more than ever!
+
+All donations should be made to "Project Gutenberg/IBC", and are
+tax deductible to the extent allowable by law ("IBC" is Illinois
+Benedictine College).  (Subscriptions to our paper newsletter go
+to IBC, too)
+
+Send to:
+
+David Turner, Project Gutenberg
+Illinois  Benedictine  College
+5700  College  Road
+Lisle, IL 60532-0900
+
+All communication to Project Gutenberg should be carried out via
+Illinois Bene ... </content>
+</document>
+<document
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/samba-2/doc/iroquois.txt"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/samba-2/doc/iroquois.txt/"
+  vse-base-score="0" la-score="2.60269"
+>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="summarize" weight="5">
+
+THE CONSTITUTION OF THE IROQUOIS NATIONS:
+
+
+
+           THE GREAT BINDING LAW, GAYANASHAGOWA
+
+
+ 1.  I am Dekanawidah and with the Five Nations' Confederate 
+Lords I plant the Tree of Great Peace.  I plant it in your 
+territory, Adodarhoh, and the Onondaga Nation, in the territory 
+of you who are Firekeepers.
+     I name the tree the Tree of the Great Long Leaves.  Under 
+the shade of this Tree of the Great Peace we spread the soft 
+white feathery down of the globe thistle as seats for you, 
+Adodarhoh, and your cousin Lords.
+     We place you upon those seats, spread soft with the 
+feathery down of the globe thistle, there beneath the shade of 
+the spreading branches of the Tree of Peace.  There shall you 
+sit and watch the Council Fire of the Confederacy of the Five 
+Nations, and all the affairs of the Five Nations shall be 
+transacted at this place before you, Adodarhoh, and your cousin 
+Lords, by the Confederate Lords of the Five Nations.
+
+ 2.  Roots have spread out from the Tree of the Great Peace, 
+one to the north, one to the east, one to the south and one to 
+the west.  The name of these roots is The Great White Roots and 
+their nature is Peace and Strength.
+     If any man or any nation outside the Five Nations shall 
+obey the laws of the Great Peace and make known their 
+disposition to the Lords of the Confederacy, they may trace the 
+Roots to the Tree and if their minds are clean and they are 
+obedient and promise to obey the wishes of the Confederate 
+Council, they shall be welcomed to take shelter beneath the 
+Tree of the Lo ... </content>
+</document>
+</scope>

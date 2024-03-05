@@ -1,0 +1,6 @@
+<vce>
+              <document url="http://vivisimo.com?braces">
+                <content name="text">container 3 {}</content>
+                <content name="type">odd characters</content>
+              </document>
+</vce>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="21" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="4" />
+<attribute name="cache-hits-content-search" value="2" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="1" />
+<attribute name="cache-hits-content-retrieval" value="15" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="43" />
+<attribute name="cache-misses-text" value="26" />
+<attribute name="total-results-with-duplicates" value="21" />
+<document
+  url="http://en.wikipedia.org/wiki/German_pocket_battleship_Admiral_Graf_Spee"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#7"
+  status="complete" conversion-time="574" position="7" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="7" u="0"
+  />
+  <content name="title" type="text" u="5">Admiral Graf Spee</content>
+  <content name="NATION" type="text" u="11">Germany</content>
+  <content name="ALIGNED" type="text" u="13">axis</content>
+  <content name="SHIP_TYPE" type="text" u="15">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="11" v="12" />
+      <pre u="12" v="11"></pre>
+      <match u="12" v="12">Germany</match>
+      <post u="13" v="12"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_Admiral_Hipper"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#8"
+  status="complete" conversion-time="574" position="8" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="8" u="0"
+  />
+  <content name="title" type="text" u="5">Admiral Hipper</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document
+  url="http://en.wikipedia.org/wiki/German_pocket_battleship_Admiral_Scheer"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#9"
+  status="complete" conversion-time="574" position="9" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="9" u="0"
+  />
+  <content name="title" type="text" u="5">Admiral Scheer</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_auxiliary_cruiser_Atlantis"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#43"
+  status="complete" conversion-time="574" position="43" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="43" u="0"
+  />
+  <content name="title" type="text" u="5">Atlantis</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_battleship_Bismarck"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#60"
+  status="complete" conversion-time="574" position="60" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="60" u="0"
+  />
+  <content name="title" type="text" u="5">Bismarck</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://www.battleshipbismarck.com/"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#61"
+  status="complete" conversion-time="574" position="61" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="61" u="0"
+  />
+  <content name="title" type="text" u="5">Bismarck</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_Bl%C3%BCcher"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#65"
+  status="complete" conversion-time="574" position="65" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="65" u="0"
+  />
+  <content name="title" type="text" u="5">Bl¿¿cher</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Deutschland_class_cruiser"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#101"
+  status="complete" conversion-time="574" position="101" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="101" u="0"
+  />
+  <content name="title" type="text" u="5">Deutschland</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_pocket_battleship_Deutschland"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#102"
+  status="complete" conversion-time="574" position="102" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="102" u="0"
+  />
+  <content name="title" type="text" u="5">Deutschland</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_battlecruiser_Gneisenau"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#140"
+  status="complete" conversion-time="574" position="140" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="140" u="0"
+  />
+  <content name="title" type="text" u="5">Gneisenau</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document
+  url="http://en.wikipedia.org/wiki/German_pocket_battleship_Admiral_Graf_Spee"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#143"
+  status="complete" conversion-time="574" position="143" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="143" u="0"
+  />
+  <content name="title" type="text" u="5">Graf Spee</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_Karlsruhe"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#182"
+  status="complete" conversion-time="574" position="182" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="182" u="0"
+  />
+  <content name="title" type="text" u="5">Karlsruhe</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Light Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_auxiliary_cruiser_Kormoran"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#191"
+  status="complete" conversion-time="574" position="191" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="191" u="0"
+  />
+  <content name="title" type="text" u="5">Kormoran</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Light Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_K%C3%B6ln"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#193"
+  status="complete" conversion-time="574" position="193" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="193" u="0"
+  />
+  <content name="title" type="text" u="5">K¿¿ln</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Light Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_K%C3%B6nigsberg"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#194"
+  status="complete" conversion-time="574" position="194" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="194" u="0"
+  />
+  <content name="title" type="text" u="5">K¿¿nigsberg</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Light Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document
+  url="http://en.wikipedia.org/w/index.php?title=German_ship_Lorelei&amp;amp;action=edit"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#203"
+  status="complete" conversion-time="574" position="203" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="203" u="0"
+  />
+  <content name="title" type="text" u="5">Lorelei</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Coastal Patrol Craft</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document
+  url="http://en.wikipedia.org/wiki/German_cruiser_L%C3%BCtzow_%28Hipper_class%29"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#205"
+  status="complete" conversion-time="574" position="205" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="205" u="0"
+  />
+  <content name="title" type="text" u="5">L¿¿tzow</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_pocket_battleship_Deutschland"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#206"
+  status="complete" conversion-time="574" position="206" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="206" u="0"
+  />
+  <content name="title" type="text" u="5">L¿¿tzow</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_cruiser_Prinz_Eugen"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#266"
+  status="complete" conversion-time="574" position="266" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="266" u="0"
+  />
+  <content name="title" type="text" u="5">Prinz Eugen</content>
+  <content name="NATION" type="text" u="10">Germany</content>
+  <content name="ALIGNED" type="text" u="12">axis</content>
+  <content name="SHIP_TYPE" type="text" u="14">Heavy Cruiser</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="10" v="11" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="11">Germany</match>
+      <post u="12" v="11"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/German_battlecruiser_Scharnhorst"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#294"
+  status="complete" conversion-time="574" position="294" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="294" u="0"
+  />
+  <content name="title" type="text" u="5">Scharnhorst</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<document url="http://en.wikipedia.org/wiki/Tirpitz"
+  vse-key="oracle://testbed5:1521/orcl/vessel_view/?per=1000&amp;start=0#320"
+  status="complete" conversion-time="574" position="320" la-score="1.09861"
+  vse-base-score="1"
+>
+  <cache url="oracle://testbed5:1521/orcl/vessel_view?per=1000&amp;start=0"
+    ct="application/vxml-unnormalized" i="320" u="0"
+  />
+  <content name="title" type="text" u="5">Tirpitz</content>
+  <content name="NATION" type="text" u="9">Germany</content>
+  <content name="ALIGNED" type="text" u="11">axis</content>
+  <content name="SHIP_TYPE" type="text" u="13">Battleship</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="NATION" type="text" u="9" v="10" />
+      <pre u="10" v="9"></pre>
+      <match u="10" v="10">Germany</match>
+      <post u="11" v="10"></post>
+    </solution>
+  </content>
+</document>
+<binning id="binning-2" mode="normal">
+  <binning-set bs-id="shit" select="$SHIP_TYPE" label="myshit" elt-id="2206"
+    other-ndocs="0" n-output-bins="5" n-total-bins="5" ndocs-not-output="0"
+  >
+    <bin label="Heavy Cruiser" ndocs="10" token="shit==Heavy Cruiser" cndocs="10">
+      <binning-set bs-id="nations" select="$NATION" label="mynations"
+        elt-id="2205" other-ndocs="0" n-output-bins="1" n-total-bins="5"
+        ndocs-not-output="0"
+      >
+        <bin label="Germany" ndocs="10" token="nations==Germany" cndocs="10" />
+      </binning-set>
+    </bin>
+    <bin label="Battleship" ndocs="4" token="shit==Battleship" cndocs="14">
+      <binning-set bs-id="nations" select="$NATION" label="mynations"
+        elt-id="2205" other-ndocs="0" n-output-bins="1" n-total-bins="3"
+        ndocs-not-output="0"
+      >
+        <bin label="Germany" ndocs="4" token="nations==Germany" cndocs="4" />
+      </binning-set>
+    </bin>
+    <bin label="Light Cruiser" ndocs="4" token="shit==Light Cruiser" cndocs="18">
+      <binning-set bs-id="nations" select="$NATION" label="mynations"
+        elt-id="2205" other-ndocs="0" n-output-bins="1" n-total-bins="4"
+        ndocs-not-output="0"
+      >
+        <bin label="Germany" ndocs="4" token="nations==Germany" cndocs="4" />
+      </binning-set>
+    </bin>
+    <bin label="Cruiser" ndocs="2" token="shit==Cruiser" cndocs="20">
+      <binning-set bs-id="nations" select="$NATION" label="mynations"
+        elt-id="2205" other-ndocs="0" n-output-bins="1" n-total-bins="2"
+        ndocs-not-output="0"
+      >
+        <bin label="Germany" ndocs="2" token="nations==Germany" cndocs="2" />
+      </binning-set>
+    </bin>
+    <bin label="Coastal Patrol Craft" ndocs="1"
+      token="shit==Coastal Patrol Craft" cndocs="21"
+    >
+      <binning-set bs-id="nations" select="$NATION" label="mynations"
+        elt-id="2205" other-ndocs="0" n-output-bins="1" n-total-bins="1"
+        ndocs-not-output="0"
+      >
+        <bin label="Germany" ndocs="1" token="nations==Germany" cndocs="1" />
+      </binning-set>
+    </bin>
+  </binning-set>
+  <binning-state />
+</binning>
+</scope>

@@ -1,0 +1,1044 @@
+<testset>
+<test>
+<data>
+INSPIRON
+GHID DE CONFIGURARE
+
+™
+
+INSPIRON
+GHID DE CONFIGURARE
+
+™
+
+Model de reglementare: seria D03U
+
+Tip de reglementare: D03U001
+
+Note, atenţionări şi avertismente
+
+NOTĂ: O NOTĂ indică informaţii importante care vă ajută să optimizaţi utilizarea computerului. ATENŢIONARE: O ATENŢIONARE indică un pericol potenţial de deteriorare a echipamentului hardware sau de pierdere de date şi vă arată cum să evitaţi problema. AVERTISMENT: Un AVERTISMENT indică un pericol potenţial de deteriorare a bunurilor, de vătămare corporală sau de deces.
+
+Dacă aţi achiziţionat un computer Dell™ seria n, orice referinţe din prezentul document la sistemele de operare Microsoft® Windows® nu sunt aplicabile. __________________ Informaţiile din acest document pot fi modificate fără notificare. © 2010 Dell Inc. Toate drepturile rezervate. Este strict interzisă reproducerea sub orice formă a acestor materiale, fără autorizaţia scrisă a Dell Inc. Mărcile comerciale utilizate în acest text: Dell, logo-ul DELL, YOURS IS HERE, Solution Station, Inspiron şi DellConnect sunt mărci comerciale ale Dell Inc.; AMD, AMD Athlon, AMD Turion, AMD Phenom şi ATI Mobility Radeon sunt mărci comerciale ale Advanced Micro Devices, Inc.; Microsoft, Windows şi logo-ul butonului de start din Windows sunt fie mărci comerciale, fie mărci comerciale înregistrate ale Microsoft Corporation în Statele Unite ale Americii şi/sau în alte ţări; Blu-ray Disc este marcă comercială a Blu-ray Disc Association; Ubuntu este marcă comercială înregistrată a Canonical Ltd. Alte mărci comerciale şi denumiri comerciale pot fi utilizate în acest document pentru referire fie la entităţile care au drepturi asupra mărcilor şi denumirilor, fie la produsele acestora. Dell Inc. neagă orice interes de proprietate asupra mărcilor comerciale şi denumirilor comerciale, cu excepţia celor care îi aparţin.
+
+Mai 2010
+
+Cod produs 770HT
+
+Rev. A00
+
+Cuprins
+Configurarea desktopului Inspiron . . .5
+Înainte de configurarea computerului . . . . 5 Conectarea afişajului . . . . . . . . . . . . . . . . . 6 Configurarea sistemului Home Theatre (opţional) . . . . . . . . . . . . . . . . . . . . . . . . . .8 Conectarea tastaturii şi a mouse-ului . . . 13 Conectarea cablului de reţea (opţional) . . .14 Conectarea adaptorului de c.a. . . . . . . . .15 Apăsaţi butonul de alimentare . . . . . . . . .16 Configurarea sistemului de operare . . . . 17 Crearea suportului media pentru recuperarea sistemului (recomandat) . . . 18 Conectarea la Internet (opţional) . . . . . . .19 Vedere a caracteristicilor din partea de sus . . . . . . . . . . . . . . . . . .26 Vedere a caracteristicilor din partea din spate . . . . . . . . . . . . . . . . . . . . . . . . .28 Caracteristici software . . . . . . . . . . . . . . .31 Dell Dock (Bara de andocare Dell) . . . . . 32 Dell DataSafe Online Backup (Copie de rezervă online Dell DataSafe). . . . . . .33
+
+Rezolvarea problemelor . . . . . . . . . . .34
+Coduri sonore . . . . . . . . . . . . . . . . . . . . .34 Probleme de reţea . . . . . . . . . . . . . . . . . .35 Probleme de alimentare. . . . . . . . . . . . . .37 Probleme de memorie . . . . . . . . . . . . . .39 Blocări şi probleme de software . . . . . . .40
+
+Utilizarea desktopului Inspiron. . . . . .24
+Vedere a caracteristicilor din partea din faţă . . . . . . . . . . . . . . . . . . . . .24
+
+3
+
+Cuprins
+
+Utilizarea instrumentelor de asistenţă. . . . . . . . . . . . . . . . . . . . . .43
+Centrul de asistenţă Dell . . . . . . . . . . . . .43 My Dell Downloads (Descărcările mele Dell) . . . . . . . . . . . . .44 Mesaje de sistem. . . . . . . . . . . . . . . . . . .45 Hardware Troubleshooter (Depanator hardware) . . . . . . . . . . . . . . .48 Dell Diagnostics . . . . . . . . . . . . . . . . . . .48
+
+DellConnect . . . . . . . . . . . . . . . . . . . . . .66 Servicii online. . . . . . . . . . . . . . . . . . . . . .66 Serviciul automat de stare a comenzii. . .67 Informaţii produs . . . . . . . . . . . . . . . . . . .68 Returnarea pentru reparaţii a produselor în garanţie sau pentru ramburs . . . . . . . . .68 Înaintede a apela . . . . . . . . . . . . . . . . . . .70 Cum se poate contacta Dell. . . . . . . . . . .72
+
+Restabilirea sistemului de operare . . . .53
+System Restore (Restabilire sistem) . . . .55 Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe). . . . . . .56 System Recovery Media (Suport media pentru recuperarea sistemului) . . . . . . . . 60 Dell Factory Image Restore (Restabilire imagine de sistem Dell) . . . . 61
+
+Găsirea mai multor informaţii şi resurse . . . . . . . . . . . . . . . . . . . . . . .74 Specificaţii . . . . . . . . . . . . . . . . . . . . . .77 Anexă. . . . . . . . . . . . . . . . . . . . . . . . . . .83
+Menţiune produs Macrovision . . . . . . . . .83 Informare pentru NOM sau standardul mexican oficial (doar pentru Mexic). . . . .84
+
+Obţinerea de ajutor . . . . . . . . . . . . . . .64
+Asistenţa tehnică şi serviciul pentru clienţi. . . . . . . . . . . . . . . . . . . . . . .65
+
+Index . . . . . . . . . . . . . . . . . . . . . . . . . . .85
+
+4
+
+INSPIRON
+
+Configurarea desktopului Inspiron
+Această secţiune conţine informaţii despre configurarea desktopului dvs. Dell™ Inspiron™. AVERTISMENT: Înainte de a iniţia oricare dintre procedurile indicate în această secţiune, citiţi instrucţiunile de siguranţă livrate împreună cu computerul. Pentru informaţii suplimentare despre cele mai bune practici privind siguranţa, consultaţi pagina de start privind conformitatea cu reglementările, la adresa www.dell.com/regulatory_compliance.
+
+Înainte de configurarea computerului
+
+Înainte de poziţionarea computerului, asiguraţi-vă că dispuneţi de acces uşor la o sursă de alimentare, de ventilaţie adecvată şi de o suprafaţă orizontală pe care să amplasaţi computerul. Restricţionarea fluxului de aer în jurul computerului poate cauza supraîncălzirea acestuia. Pentru a preveni supraîncălzirea, asiguraţi-vă că lăsaţi cel puţin 10,2 cm (4 inchi) în spatele computerului şi cel puţin 5,1 cm (2 inchi) pe toate celelalte părţi. Nu amplasaţi niciodată computerul într-un spaţiu închis, cum ar fi un dulap sau un sertar, când acesta este alimentat.
+
+5
+
+Configurarea desktopului Inspiron
+
+Conectarea afişajului
+
+NOTĂ: Puteţi conecta computerul şi la televizor. Pentru informaţii suplimentare, consultaţi capitolul „Configurarea sistemului Home Theatre (opţional)” de la pagina 8.
+
+Conectaţi afişajul utilizând conectorul VGA încorporat sau conectorul HDMI. Pentru o performanţă mai bună se recomandă conectarea afişajului utilizând conectorul HDMI. Puteţi achiziţiona adaptorul HDMI-la-DVI şi alte cabluri HDMI de la adresa www.dell.com.
+
+Utilizaţi cablurile potrivite cu conectorii disponibili pentru computer şi pentru afişaj. Consultaţi tabelul de mai jos pentru a identifica conectorii pentru computer şi pentru afişaj. NOTĂ: La conectarea la un singur afişaj, conectaţi afişajul DOAR LA UN SINGUR conector al computerului.
+
+6
+
+Configurarea desktopului Inspiron
+
+Tip de conexiune VGA-la-VGA (cablu VGA) HDMI-la-HDMI (cablu HDMI) HDMI-la-DVI (adaptor HDMI-laDVI şi cablu DVI)
+
+Computer
+
+Cablu
+
+Afişajul
+
+7
+
+Configurarea desktopului Inspiron
+
+Configurarea sistemului Home Theatre (opţional)
+NOTĂ: Cablurile HDMI nu sunt livrate împreună cu computerul şi trebuie să fie achiziţionate separat. Puteţi achiziţiona cablurile HDMI de la www.dell.com.
+
+Puteţi configura sistemul Home Theatre conectând computerul la un monitor cu ecran plat fie direct, fie printr-un receiver audio/video utilizând cabluri HDMI.
+
+Conectarea directă la monitorul cu ecran plat
+1. Conectaţi tastatura şi mouse-ul (consultaţi „Conectarea tastaturii şi a mouse-ului” de la pagina 13). 2. Pentru ieşirile audio şi video: conectaţi un capăt al cablului HDMI la conectorul HDMI al computerului şi celălalt capăt la un conector HDMI liber al monitorului cu ecran plat. 3. Pentru ieşirea audio suplimentară (opţional): conectaţi cablul audio analogic pentru sistemul audio 2.1 la conectorul liniei de ieşire al computerului şi realizaţi conexiunile corespunzătoare la difuzoarele pe 2.1 canale.
+
+8
+
+Configurarea desktopului Inspiron
+
+Audio/Video
+
+Monitor cu ecran plat
+
+Linie de ieşire audio Sistem audio analogic 2.1 Opţional Difuzoare pe 2.1 canale
+
+9
+
+Configurarea desktopului Inspiron
+
+Conectarea la un monitor cu ecran plat prin receiverul audio/video
+1. Conectaţi tastatura şi mouse-ul (consultaţi „Conectarea tastaturii şi a mouse-ului” de la pagina 13). 2. Pentru ieşirile audio şi video: a. Conectaţi un capăt al cablului HDMI la conectorul HDMI al computerului şi celălalt capăt la un conector HDMI liber al receiverului audio/video. b. Conectaţi un capăt al cablului HDMI la conectorul de ieşire HDMI al receiverului audio/video şi celălalt capăt la un conector HDMI liber al monitorului cu ecran plat. 3. Pentru ieşirea audio suplimentară (opţional): – Sistem audio analogic 2.1: conectaţi cablul audio analogic pentru sistemul audio 2.1 la conectorul liniei de ieşire al computerului şi realizaţi conexiunile corespunzătoare la difuzoarele pe 2.1 canale. – Sistem audio digital 7.1: a. Conectaţi un capăt al cablului optic S/PDIF la conectorul optic S/PDIF al computerului şi celălalt capăt la un conector S/PDIF liber al receiverului audio/ video. b. Conectaţi cablurile pentru sistemul audio pe 7.1 canale al receiverului audio/ video la difuzoarele pe 7.1 canale.
+
+10
+
+Configurarea desktopului Inspiron
+
+Audio/Video Receiver A/V
+
+Audio/Video Monitor cu ecran plat
+
+Conector optic S/ PDIF pentru sistem audio digital 7.1
+
+Linie de ieşire pentru sistem audio analogic pe 2.1 canale.
+
+Opţional
+
+Difuzoare pe 7.1 canale Difuzoare pe 2.1 canale
+
+Opţional
+
+11
+
+Configurarea desktopului Inspiron
+
+Ajustarea setărilor de scalare a monitorului
+Setarea scalării vă permite să încadraţi imaginea în ecranul monitorului. Pentru a ajusta setarea scalării: 1. Asiguraţi-vă că aţi pornit computerul. → All Programs (Toate programele) → Catalyst Control Center 2. Faceţi clic pe Start (Centru de control Catalyst) → CCC. 3. În fereastra Catalyst™ Control Center (Centrul de control Catalyst), faceţi clic pe Graphics (Elemente grafice) → Desktops & Displays (Desktopuri şi monitoare). 4. În fereastra Desktops & Displays (Desktopuri şi monitoare), faceţi clic dreapta pe monitorul pe care doriţi să-l configuraţi. 5. Selectaţi Configure... (Configurare...). 6. În fereastra care apare, selectaţi fila Scaling Options (Opţiuni scalare). 7. Ajustaţi scalarea pentru a vă asigura că imaginea se încadrează în ecranul monitorului. 8. Faceţi clic pe OK.
+
+12
+
+Configurarea desktopului Inspiron
+
+Conectarea tastaturii şi a mouse-ului
+
+Conectaţi tastatura şi mouse-ul USB la conectorii USB de pe partea din spate a computerului. NOTĂ: Dacă aţi achiziţionat o tastatură Dell wireless cu trackball, pentru a o configura, consultaţi documentaţia livrată împreună cu aceasta.
+
+13
+
+Configurarea desktopului Inspiron
+
+Conectarea cablului de reţea (opţional)
+
+Nu este necesară o conexiune de reţea pentru a finaliza configurarea computerului, însă, dacă aveţi o conexiune de reţea sau la Internet ce utilizează conexiunea prin cablu (cum ar fi un dispozitiv de bandă largă sau un jack Ethernet), o puteţi conecta acum. NOTĂ: Utilizaţi doar un cablu Ethernet pentru conectarea la mufa de reţea (conector de tip RJ45). Nu conectaţi un cablu telefonic (conector de tip RJ11) la conectorul de reţea. Pentru a conecta computerul la un dispozitiv de bandă largă sau de reţea, conectaţi un capăt al cablului de reţea fie la un port de reţea, fie la un dispozitiv de bandă largă. Conectaţi celălalt capăt al cablului de reţea la conectorul de reţea (conector de tip RJ45) de pe partea din spate a computerului dvs. Un clic indică o conectare în siguranţă a cablului de reţea.
+
+14
+
+Configurarea desktopului Inspiron
+
+Conectarea adaptorului de c.a.
+
+15
+
+Configurarea desktopului Inspiron
+
+Apăsaţi butonul de alimentare
+
+16
+
+Configurarea desktopului Inspiron
+
+Configurarea sistemului de operare
+Configurarea Microsoft Windows
+
+Computerul dvs. este preconfigurat pentru sistemul de operare selectat în momentul achiziţiei. Pentru a configura Microsoft® Windows® pentru prima dată, urmaţi instrucţiunile afişate pe ecran. Aceste etape sunt obligatorii şi parcurgerea lor poate să dureze mai mult timp. Ecranele de configurare pentru Windows vă vor purta prin mai multe proceduri, inclusiv acceptarea acordurilor de licenţă, setarea preferinţelor şi configurarea unei conexiuni la Internet.
+
+ATENŢIONARE: Nu întrerupeţi procesul de configurare a sistemului de operare. În caz contrar, computerul poate deveni inutilizabil şi poate fi necesară reinstalarea sistemului de operare. NOTĂ: Este recomandat să descărcaţi şi să instalaţi cele mai recente variante de BIOS şi de drivere pentru computerul dvs., disponibile la adresa support.dell.com. NOTĂ: Pentru informaţii suplimentare privind sistemul de operare şi caracteristicile acestuia, accesaţi support.dell.com/MyNewDell.
+
+Configurarea Ubuntu Linux
+Pentru a configura Ubuntu Linux pentru prima oară, urmaţi instrucţiunile afişate pe ecran.
+
+17
+
+Configurarea desktopului Inspiron
+
+Crearea suportului media pentru recuperarea sistemului (recomandat)
+NOTĂ: Se recomandă crearea unui suport media pentru recuperarea sistemului, imediat după configurarea Microsoft Windows.
+
+La crearea suportului media pentru recuperarea sistemului vă vor fi necesare următoarele: •	Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe) •	Cheie USB cu o capacitate de minim 8 GO sau un DVD-R/DVD+R/Blu-ray Disc™ NOTĂ: Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe) nu acceptă discuri reinscripţionabile.
+
+Suportul media pentru recuperarea sistemului poate fi utilizat pentru a readuce computerul în starea de funcţionare în care se afla atunci când l-aţi cumpărat, cu păstrarea fişierelor de date (fără a fi necesar discul Operating System (Sistem de operare)). Puteţi utiliza suportul media pentru recuperarea sistemului în cazul în care modificări ale echipamentului hardware, ale software-ului, ale driverelor sau ale altor setări de sistem au lăsat computerul într-o stare de funcţionare nedorită.
+
+18
+
+Configurarea desktopului Inspiron
+
+Pentru a crea un suport media pentru recuperarea sistemului: 1. Asiguraţi-vă că aţi pornit computerul. 2. Introduceţi discul sau cheia USB în computer. → Programs 3. Faceţi clic pe Start (Programe)→ Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe). 4. Faceţi clic pe Create Recovery Media (Creare suport media pentru recuperare). 5. Urmaţi instrucţiunile afişate pe ecran. NOTĂ: Pentru informaţii privind utilizarea suportului media pentru recuperarea sistemului, consultaţi „Suport media pentru recuperarea sistemului”, la pagina 60.
+
+Conectarea la Internet (opţional)
+
+Pentru a vă conecta la Internet, este necesară o conexiune printr-un modem extern sau o conexiune la reţea şi un furnizor de servicii Internet (ISP). Dacă în comanda iniţială nu este inclus şi un modem USB extern sau un adaptor WLAN, puteţi achiziţiona unul de la adresa www.dell.com.
+
+19
+
+Configurarea desktopului Inspiron
+
+Configurarea unei conexiuni prin cablu
+•	Dacă utilizaţi o conexiune pe linie comutată, conectaţi linia telefonică la modemul USB extern (opţional) şi la jack-ul de perete al telefonului înainte de a configura conexiunea la Internet. •	Dacă utilizaţi o conexiune DSL sau prin modem de cablu/satelit, contactaţi ISP-ul sau serviciul de telefonie celulară pentru instrucţiuni privind configurarea. Pentru a finaliza configurarea conexiunii prin cablu la Internet, urmaţi instrucţiunile din „Configurarea conexiunii la Internet”, de la pagina 21.
+
+Configurarea unei conexiuni wireless
+NOTĂ: Pentru a configura un router wireless, consultaţi documentaţia expediată împreună cu acesta. Înainte de a putea utiliza conexiunea wireless la Internet, trebuie să vă conectaţi la routerul wireless. Pentru a configura conexiunea la un router wireless:
+
+Windows® 7
+1. Salvaţi şi închideţi toate fişierele deschise şi părăsiţi toate programele deschise. 2. Faceţi clic pe Start → Control Panel (Panou de control). 3. În caseta de căutare, introduceţi network, apoi faceţi clic pe Network and Sharing Center (Centru reţea şi partajare) → Connect to a network (Conectare la reţea). 4. Urmaţi instrucţiunile afişate pe ecran pentru a finaliza configurarea.
+
+20
+
+Configurarea desktopului Inspiron
+
+Windows Vista®
+1. Salvaţi şi închideţi toate fişierele deschise şi părăsiţi toate programele deschise. 2. Faceţi clic pe Start (Conectare la). → Connect To
+
+Configurarea conexiunii la Internet
+Furnizorii ISP şi ofertele acestora variază în funcţie de ţară. Contactaţi ISP-ul local pentru ofertele disponibile în ţara dvs. Dacă nu vă puteţi conecta la Internet, dar v-aţi putut conecta în trecut, este posibil ca furnizorul de servicii Internet (ISP) să aibă o disfuncţionalitate a serviciului. Contactaţi furnizorul dvs. ISP pentru a verifica starea serviciului sau încercaţi să vă conectaţi din nou mai târziu. Să aveţi pregătite informaţiile despre furnizorul dvs. ISP. Dacă nu aveţi un ISP, asistentul Connect to the Internet (Conectare la Internet) vă poate ajuta să obţineţi unul. Pentru a vă configura conexiunea la Internet:
+
+3. Urmaţi instrucţiunile afişate pe ecran pentru a finaliza configurarea.
+
+Windows 7
+1. Salvaţi şi închideţi toate fişierele deschise şi părăsiţi toate programele deschise.
+
+21
+
+Configurarea desktopului Inspiron
+
+2. Faceţi clic pe Start → Control Panel (Panou de control). 3. În caseta de căutare, introduceţi network, apoi faceţi clic pe Network and Sharing Center (Centru reţea şi partajare)→ Set up a new connection or network (Configurare reţea sau conexiune nouă)→ Connect to the Internet (Conectare la Internet). Se afişează fereastra Connect to the Internet (Conectare la Internet). NOTĂ: Dacă nu ştiţi ce tip de conexiune să selectaţi, faceţi clic pe Help me choose (Ajutor pentru alegere) sau contactaţi furnizorul dvs. ISP. 4. Urmaţi instrucţiunile afişate pe ecran şi utilizaţi informaţiile de configurare furnizate de furnizorul dvs. ISP pentru a finaliza configurarea.
+
+Windows Vista
+1. Salvaţi şi închideţi toate fişierele deschise şi părăsiţi toate programele deschise. 2. Faceţi clic pe Start → Control Panel (Panou de control). 3. În caseta de căutare, introduceţi network, apoi faceţi clic pe Network and Sharing Center (Centru reţea şi partajare)→ Set up a connection or Network (Configurare conexiune sau reţea)→ Connect to the Internet (Conectare la Internet). Se afişează fereastra Connect to the Internet (Conectare la Internet). NOTĂ: Dacă nu ştiţi ce tip de conexiune să selectaţi, faceţi clic pe Help me choose (Ajutor pentru alegere) sau contactaţi furnizorul dvs. ISP. 4. Urmaţi instrucţiunile afişate pe ecran şi utilizaţi informaţiile de configurare furnizate de furnizorul dvs. ISP pentru a finaliza configurarea.
+
+22
+
+Configurarea desktopului Inspiron
+
+23
+
+INSPIRON
+
+Utilizarea desktopului Inspiron
+Această secţiune oferă informaţii despre caracteristicile disponibile pentru desktopul Inspiron™.
+
+Vedere a caracteristicilor din partea din faţă
+1 2
+
+6
+
+5
+
+4
+
+3
+
+24
+
+Utilizarea desktopului Inspiron
+
+1 Unitate optică (opţional) – Redă sau înregistrează CD-uri, DVD-uri şi discuri Blu-ray de dimensiune standard (12 cm). Pentru a introduce sau a scoate un disc, apăsaţi pe butonul de scoatere al unităţii optice, apoi scoateţi sertarul pentru discuri al unităţii optice. 2 Buton de scoatere a unităţii optice – Scoate sertarul pentru discuri al unităţii optice, atunci când este apăsat. 3 Senzor IR (opţional) – Detectează dispozitive (cum ar fi telecomenzi) care utilizează semnale în infraroşu. 4 Cititor de carduri media 4-în-1 – Oferă o modalitate rapidă şi convenabilă pentru a vizualiza şi a partaja fotografii digitale, muzică, conţinut video şi documente stocate pe carduri de memorie. NOTĂ: Computerul este livrat cu un card fictiv din plastic instalat în slotul pentru carduri media. Aceste carduri fictive protejează sloturile neutilizate de praf şi de alte particule. Păstraţi cardul fictiv pentru a-l utiliza când în slot nu este instalat niciun card media; este posibil ca aceste carduri fictive de la alte computere să nu se potrivească. 5 6 Conectori USB 2.0 (2) – Conectează dispozitive USB utilizate ocazional, de exemplu, stickuri de memorie, camere digitale sau playere MP3. Conector de căşti – Se conectează căştile. NOTĂ: Pentru a conecta un difuzor cu alimentare sau un sistem audio, utilizaţi conectorul de ieşire audio sau S/PDIF de pe partea din spate a computerului.
+
+25
+
+Utilizarea desktopului Inspiron
+
+Vedere a caracteristicilor din partea de sus
+
+1
+
+26
+
+Utilizarea desktopului Inspiron
+
+1
+
+Buton şi indicator luminos de alimentare – Porneşte sau opreşte alimentarea atunci când este apăsat. Indicatorul luminos din centrul acestui buton indică următoarele stări ale alimentării: •	Stins – Computerul este fie oprit, fie în modul hibernare sau nu este alimentat. •	Alb continuu – Computerul este pornit. •	Galben continuu – Computerul este în stare inactivă sau în standby, sau este posibil să existe o problemă fie cu placa de sistem, fie cu sursa de alimentare. •	Galben intermitent – Indică o problemă a plăcii de sistem sau a sursei de alimentare. NOTĂ: Pentru informaţii privind problemele de alimentare, consultaţi „Probleme de alimentare”, la pagina 37.
+
+27
+
+Utilizarea desktopului Inspiron
+
+Vedere a caracteristicilor din partea din spate
+
+1 2 3 4
+
+5
+
+6 7
+
+11
+
+10 9
+
+8
+
+28
+
+Utilizarea desktopului Inspiron
+
+1 2
+
+Buton de deblocare a capacului superior – Deschide capacul computerului. Conectori unitate eSATA/ (2) – Conectează dispozitive de stocare compatibile SATA sau eSATA (cum ar fi unităţi de hard disk externe sau unităţi optice) sau dispozitive USB (cum ar fi un mouse, o tastatură, o imprimantă, o unitate externă sau un player MP3). Conector VGA – Conectează dispozitive video, cum ar fi un monitor sau un proiector. Conector de reţea – Conectează computerul la un dispozitiv de reţea sau de bandă largă. Conector de ieşire audio – Conectează căşti şi difuzoare cu amplificatoare încorporate. Conector pentru microfon – Conectează un microfon pentru intrare de voce sau audio într-un program de telefonie sau de sunet.
+
+3 4 5 6
+
+7 Conector optic S/PDIF – Conectează amplificatoare, difuzoare sau televizoare pentru ieşire audio digitală prin cabluri optice digitale. Acest format transmite semnal audio fără a trece printr-un proces de conversie audio analogic.
+
+29
+
+Utilizarea desktopului Inspiron
+
+8 9 10
+
+Conectori USB 2.0 (2) – Conectează dispozitive USB, cum ar fi un mouse, o tastatură, o imprimantă, o unitate externă sau un player MP3. Conector pentru adaptor de c.a. – Conectează adaptorul de c.a. pentru a alimenta computerul. Conector HDMI – Conectează un TV atât pentru semnal audio pe 2.1 canale, cât şi pentru semnal video. NOTĂ: Când atât conectorul HDMI, cât şi cel de ieşire audio sunt conectaţi, conţinutul audio este dirijat prin conectorii (analogici) de ieşire şi nu prin conectorul HDMI.
+
+11
+
+Indicator luminos de activitate a unităţii de hard disk – Se aprinde atunci când computerul citeşte sau scrie date. O lumină albă indică o activitate a unităţii de hard disk. ATENŢIONARE: Pentru a evita pierderile de date, nu opriţi niciodată computerul atunci când indicatorul luminos de activitate al unităţii de hard disk se aprinde intermitent.
+
+30
+
+Utilizarea desktopului Inspiron
+
+Caracteristici software
+
+NOTĂ: Pentru informaţii suplimentare despre caracteristicile descrise în această secţiune, consultaţi Ghidul tehnologic Dell de la adresa support.dell.com/manuals sau din următoarea locaţie:
+
+După conectarea la Internet, puteţi accesa site-uri Web, configura conturi de e-mail şi încărca sau descărca fişiere.
+
+Divertisment şi multimedia
+Puteţi utiliza computerul pentru a viziona conţinut video, pentru jocuri, pentru a crea propriile CD-uri, pentru a asculta muzică şi posturi de radio. Unitatea optică acceptă mai multe formate de discuri media, incluzând CD-uri, DVD-uri şi discuri Blu-ray (dacă opţiunea este selectată la momentul cumpărării). Puteţi descărca sau copia imagini şi fişiere video de pe dispozitivele portabile, cum ar fi camere digitale sau telefoane mobile. Aplicaţii software opţionale vă permit să organizaţi şi să creaţi fişiere de muzică şi video care pot fi înregistrate pe un disc, salvate pe dispozitive portabile, cum ar fi playerele MP3 şi dispozitive de divertisment portabile, sau redate şi vizualizate direct pe televizoare, proiectoare şi echipament „home theater” conectat.
+
+Windows® 7: Start → All Programs (Toate programele)→ Dell Help Documentation (Documentaţie de ajutor Dell) Windows Vista®: Start → Help and Support (Ajutor şi asistenţă)→ Dell EDocs.
+
+Productivitate şi comunicare
+Puteţi utiliza computerul pentru a crea prezentări, broşuri, felicitări, pliante şi foi de calcul. Puteţi, de asemenea, edita şi vizualiza fotografii şi imagini digitale. Consultaţi comanda de achiziţie pentru informaţii privind software-ul instalat pe computer.
+
+31
+
+Utilizarea desktopului Inspiron
+
+Dell Dock (Bara de andocare Dell)
+
+Dell Dock (Bara de andocare Dell) este un grup de pictograme care asigură accesul rapid la aplicaţii, fişiere şi foldere utilizate frecvent. Puteţi personaliza bara de andocare astfel: •	Adăugând sau eliminând pictograme •	Modificând culoarea şi locaţia pentru bara de andocare •	Grupând pictogramele corelate în categorii •	Modificând comportamentul pictogramelor
+
+Adăugarea unei categorii
+1. Faceţi clic dreapta pe bara de andocare, apoi faceţi clic pe Add (Adăugare)→ Category (Categorie). Este afişată fereastra Add/Edit Category (Adăugare/Editare categorie). 2. Introduceţi un titlu pentru categorie în câmpul Title (Titlu).
+
+3. Selectaţi o pictogramă pentru categorie din caseta Select an image: (Selectare imagine:) . 4. Faceţi clic pe Save (Salvare).
+
+Adăugarea unei pictograme
+Glisaţi şi fixaţi pictograma pe bara de andocare sau într-o categorie.
+
+32
+
+Utilizarea desktopului Inspiron
+
+Eliminarea unei categorii sau a unei pictograme
+1. Faceţi clic dreapta pe categoria sau pictograma din bara de andocare, apoi faceţi clic pe Delete shortcut (Ştergere comandă rapidă) sau pe Delete category (Ştergere categorie). 2. Urmaţi instrucţiunile afişate pe ecran.
+
+Personalizarea barei de andocare
+1. Faceţi clic dreapta pe bara de andocare, apoi faceţi clic pe Advanced Setting... (Setări avansate...). 2. Alegeţi opţiunea dorită pentru a personaliza bara de andocare.
+
+NOTĂ: Este posibil ca serviciul Dell DataSafe Online să nu fie disponibil în toate regiunile. NOTĂ: Pentru viteze ridicate de încărcare şi de descărcare se recomandă o conexiune de bandă largă. Dell DataSafe Online este un serviciu automat de efectuare de copii de rezervă şi de restabilire care vă protejează datele şi alte fişiere importante de incidente grave, cum ar fi furtul, incendiile sau dezastrele naturale. Puteţi accesa serviciul de pe computer utilizând un cont protejat cu parolă. Pentru informaţii suplimentare, accesaţi delldatasafe.com. Programarea efectuării de copii de rezervă: 1. Faceţi dublu clic pe pictograma Dell DataSafe Online din bara de activităţi. 2. Urmaţi instrucţiunile care se afişează pe ecran.
+
+Dell DataSafe Online Backup (Copie de rezervă online Dell DataSafe)
+
+33
+
+INSPIRON
+
+Rezolvarea problemelor
+Această secţiune conţine informaţii de depanare pentru computerul dvs. Dacă nu puteţi rezolva problemele utilizând indicaţiile de mai jos, consultaţi „Utilizarea instrumentelor de asistenţă”, la pagina 43 sau „Cum se poate contacta Dell”, la pagina 72. AVERTISMENT: Doar personalul de întreţinere instruit poate să demonteze carcasa computerului. Consultaţi Manualul de service de la adresa support.dell.com/manuals pentru instrucţiuni detaliate de întreţinere.
+
+Coduri sonore
+
+Computerul dvs. poate emite o serie de sunete în timpul pornirii în cazul în care există erori sau probleme. Această serie de sunete, numită cod sonor, identifică o problemă. Notaţi codul sonor şi contactaţi Dell (consultaţi „Cum se poate contacta Dell”, la pagina 72). NOTĂ: Pentru a înlocui componente, consultaţi Manualul de service de la adresa support.dell.com/manuals.
+
+34
+
+Rezolvarea problemelor
+
+Cod sonor Unul
+
+Problemă posibilă Posibilă eroare a plăcii de sistem – eroare sumă de verificare BIOS ROM Memorie RAM nedetectată NOTĂ: Dacă aţi instalat sau aţi înlocuit modulul de memorie, asiguraţi-vă că acesta este montat corect.
+
+Probleme de reţea
+Conexiuni wireless
+În cazul în care conexiunea la reţea este întreruptă – Routerul wireless este oprit sau caracteristica wireless a fost dezactivată pe computerul dvs. •	Verificaţi routerul wireless pentru a vă asigura că este alimentat şi conectat la sursa de date (modem cu cablu sau hub de reţea). •	Restabiliţi conexiunea cu routerul wireless (consultaţi „Configurarea unei conexiuni wireless”, la pagina 20).
+
+Două
+
+Trei Patru Cinci Şase
+
+Posibilă eroare a plăcii de sistem – eroare chipset Eroare citire/scriere RAM Eroare ceas în timp real Eroare placă video sau cip
+
+35
+
+Rezolvarea problemelor
+
+Conexiuni prin cablu
+În cazul în care conexiunea reţelei este întreruptă – •	Verificaţi cablul pentru a vă asigura că este conectat şi nedeteriorat. •	Verificaţi starea indicatorului luminos de integritate a legăturii. Indicatorul luminos de integritate a legăturii, al conectorului de reţea încorporat, vă permite verificarea funcţionării conexiunii şi vă oferă informaţii despre stare: •	Stins – Computerul nu detectează o conexiune fizică la reţea. •	Verde – Există o conexiune bună între o reţea de 10/100 Mbps şi computer.
+
+•	Galben – Există o conexiune bună între o reţea de 1000 Mbps şi computer. NOTĂ: Indicatorul de integritate a legăturii, al conectorului de reţea, oferă informaţii doar pentru conexiunile prin cablu la reţea. Indicatorul luminos de integritate a legăturii nu oferă informaţii privind conexiunile wireless.
+
+36
+
+Rezolvarea problemelor
+
+Probleme de alimentare
+
+Dacă indicatorul luminos de alimentare este stins – Computerul este fie oprit, fie în modul hibernare sau nu este alimentat. •	 Apăsaţi butonul de alimentare. Dacă este oprit sau în modul hibernare, computerul îşi reia operarea normală. •	 Rearanjaţi cablul adaptorului de c.a. la conectorul de alimentare al computerului şi la priza de perete. •	 În cazul în care adaptorul de c.a este conectat la un cablu de alimentare multiplă, asiguraţi-vă că acesta este conectat la o sursă electrică şi că este pornit. •	 Eliminaţi dispozitivele de protecţie a alimentării, cablurile de alimentare multiplă şi cablurile prelungitoare pentru a verifica pornirea corectă a computerului. •	 Asiguraţi-vă că sursa electrică funcţionează, testând-o pe un alt dispozitiv, cum ar fi o lampă.
+
+•	 Dacă problema persistă, contactaţi Dell (consultaţi „Cum se poate contacta Dell”, la pagina 72). Dacă indicatorul luminos de alimentare este alb continuu, iar computerul nu răspunde – Este posibil ca afişajul să nu fie conectat sau pornit. •	 Asiguraţi-vă că afişajul este conectat corespunzător, apoi opriţi-l şi porniţi-l din nou. •	 Dacă problema persistă, contactaţi Dell (consultaţi „Cum se poate contacta Dell”, la pagina 72). Dacă indicatorul luminos de alimentare este galben continuu – •	 Computerul este în starea inactivă sau de repaus. Apăsaţi un buton de pe tastatură, deplasaţi mouse-ul conectat sau apăsaţi pe butonul de alimentare pentru a relua funcţionarea normală.
+
+37
+
+Rezolvarea problemelor
+
+•	 Este posibil să existe o problemă fie cu placa de sistem, fie cu sursa de alimentare. Pentru asistenţă, contactaţi Dell (consultaţi „Cum se poate contacta Dell”, la pagina 72). Dacă indicatorul luminos de alimentare este galben intermitent – Este posibil să existe o problemă cu placa de sistem sau cu sursa de alimentare. Pentru asistenţă, contactaţi Dell (consultaţi „Cum se poate contacta Dell”, la pagina 72). Dacă întâmpinaţi interferenţe care împiedică recepţia pe computer – Un semnal nedorit creează interferenţe prin întreruperea sau prin blocarea celorlalte semnale. Unele cauze posibile de interferenţă sunt:
+
+•	 Cablurile prelungitoare pentru alimentare, tastatură şi mouse. •	Conectarea prea multor dispozitive la acelaşi cablu de alimentare multiplă. •	Conectarea mai multor cabluri de alimentare multiplă la aceeaşi sursă electrică.
+
+38
+
+Rezolvarea problemelor
+
+Probleme de memorie
+Dacă primiţi un mesaj de memorie insuficientă – •	Salvaţi şi închideţi toate fişierele deschise şi părăsiţi toate programele deschise pe care nu le utilizaţi pentru a vedea dacă acest lucru rezolvă problema. •	Consultaţi documentaţia software-ului pentru informaţii privind cerinţele minime de memorie. Dacă este necesar, instalaţi memorie suplimentară (consultaţi Manualul de service la adresa support.dell.com/manuals). •	Reinstalaţi modulele de memorie (consultaţi Manualul de service la adresa support.dell.com/manuals) pentru a vă asigura de comunicarea corectă dintre computer şi memorie. •	Dacă problema persistă, contactaţi Dell (consultaţi „Cum se poate contacta Dell”, la pagina 72).
+
+Dacă întâmpinaţi alte probleme de memorie – •	 Asiguraţi-vă că urmaţi instrucţiunile de instalare a memoriei (consultaţi Manualul de service la adresa support.dell.com/manuals). •	 Verificaţi dacă modulele de memorie sunt compatibile cu computerul dvs. Computerul dvs. acceptă memorie de tip DDR3. Pentru informaţii suplimentare legate de tipul de memorie acceptat de computerul dvs., consultaţi „Specificaţii” la pagina 77. •	 Rulaţi programul Dell Diagnostics (consultaţi „Dell Diagnostics”, la pagina 48). •	 Reinstalaţi modulele de memorie (consultaţi Manualul de service la adresa support.dell.com/manuals) pentru a vă asigura de comunicarea corectă dintre computer şi memorie. •	 Dacă problema persistă, contactaţi Dell (consultaţi „Cum se poate contacta Dell”, la pagina 72).
+
+39
+
+Rezolvarea problemelor
+
+Blocări şi probleme de software
+Dacă un program încetează să mai răspundă – Închideţi programul: 1. Apăsaţi simultan tastele &lt;Ctrl&gt;&lt;Shift&gt;&lt;Esc&gt;.
+
+NOTĂ: Software-ul conţine, de obicei, instrucţiuni de instalare în documentaţie sau pe CD. În cazul în care computerul încetează să mai răspundă sau apare un ecran albastru continuu – ATENŢIONARE: Este posibil să pierdeţi date dacă nu reuşiţi să efectuaţi o închidere a sistemului de operare. Dacă nu reuşiţi să obţineţi un răspuns prin apăsarea unui buton pe tastatură sau prin deplasarea mouse-ului, apăsaţi continuu pe butonul de alimentare pentru cel puţin 8 până la 10 secunde până când computerul se opreşte. Apoi reporniţi computerul.
+
+În cazul în care computerul nu porneşte – Asiguraţi-vă că aţi conectat corect adaptorul de c.a. la computer şi la sursa electrică.
+
+2. Faceţi clic pe Applications (Aplicaţii). 3. Faceţi clic pe programul care nu mai răspunde 4. Faceţi clic pe End Task (Închidere activitate). În cazul în care un program se blochează în mod repetat – Verificaţi documentaţia software-ului. Dacă este necesar, dezinstalaţi şi reinstalaţi programul.
+
+40
+
+Rezolvarea problemelor
+
+Dacă un program este proiectat pentru o versiune anterioară a sistemului de operare Microsoft Windows – Lansaţi expertul Program Compatibility (Compatibilitate programe). Expertul Program Compatibility (Compatibilitate programe) configurează un program astfel încât să fie executat într-un mediu similar cu versiunile anterioare ale sistemului de operare Microsoft® Windows®.
+
+Windows® 7:
+→ Control 1. Faceţi clic pe Start Panel (Panou de control)→ Programs (Programe)→ Run programs made for previous versions of Windows (Se execută programe realizate pentru versiunile anterioare de Windows). 2. În ecranul de bun venit, faceţi clic pe Next (Următorul). 3. Urmaţi instrucţiunile afişate pe ecran.
+
+Windows Vista®:
+→ Control 1. Faceţi clic pe Start Panel (Panou de control)→ Programs (Programe)→ Use an older program with this version of Windows (Utilizare program mai vechi cu această versiune de Windows). 2. În ecranul de bun venit, faceţi clic pe Next (Următorul). 3. Urmaţi instrucţiunile afişate pe ecran
+
+41
+
+Rezolvarea problemelor
+
+Dacă aveţi alte probleme de software – •	Realizaţi imediat o copie de rezervă a fişierelor. •	Utilizaţi un program de scanare antivirus pentru verificarea unităţii de hard disk şi a CD-urilor. •	Salvaţi şi închideţi toate fişierele sau programele deschise şi închideţi computerul din meniul Start . •	Verificaţi documentaţia software-ului sau contactaţi producătorul software-ului pentru informaţii despre depanare: – Asiguraţi-vă că programul este compatibil cu sistemul de operare instalat pe computerul dvs. – Asiguraţi-vă că sunt îndeplinite cerinţele minime de hardware pentru executarea programului. Pentru informaţii, consultaţi documentaţia programului.
+
+– Asiguraţi-vă că programul este instalat şi configurat corect. – Verificaţi dacă driverele dispozitivului intră în conflict cu programul. – Dacă este necesar, dezinstalaţi şi reinstalaţi programul.
+
+42
+
+INSPIRON
+
+Utilizarea instrumentelor de asistenţă
+Centrul de asistenţă Dell
+Centrul de asistenţă Dell vă ajută să găsiţi informaţiile necesare legate de service sau de asistenţă şi informaţii specifice sistemului. Pentru a lansa aplicaţia, faceţi clic pe pictograma din bara de activităţi. Pagina de start pentru Centrul de asistenţă Dell afişează numărul de model, eticheta de service, codul de service expres ale computerului dvs. şi informaţii de contact pentru service. Pagina de start oferă, de asemenea, linkuri pentru a accesa: Ajutor automat (Depanare, Securitate, Performanţă sistem, Reţea/Internet, Copie de rezervă/ Recuperare şi Sistem de operare Windows) Alerte (alerte de asistenţă tehnică relevante pentru computerul dvs.) Asistenţă Dell (Asistenţă tehnică prin DellConnect™, Serviciul clienţi, Instruire şi tutoriale, Ajutor Cum să prin Solution Station™ şi Scanare online prin PC CheckUp)
+
+43
+
+Utilizarea instrumentelor de asistenţă
+
+Despre sistemul dvs. (Documentaţie sistem, Informaţii despre garanţie, Informaţii despre sistem, Upgrade-uri şi accesorii) Pentru informaţii suplimentare despre Centrul de asistenţă Dell şi despre instrumentele de asistenţă disponibile, faceţi clic pe fila Services (Servicii) la adresa support.dell.com.
+
+NOTĂ: Este posibil ca serviciul My Dell Downloads (Descărcările mele Dell) să nu fie disponibil în toate regiunile. O parte din software-ul preinstalat pe noul dvs. computer nu include un CD sau un DVD cu o copie de rezervă. Acest software este disponibil la My Dell Downloads (Descărcările mele Dell). De pe acest site puteţi descărca software disponibil pentru reinstalarea sau pentru crearea propriului suport media cu o copie de rezervă. Pentru a vă înregistra şi a utiliza My Dell Downloads (Descărcările mele Dell): 1. Accesaţi downloadstore.dell.com/media. 2. Urmaţi instrucţiunile afişate pe ecran pentru a vă înregistra şi a descărca software-ul. 3. Reinstalaţi sau creaţi un suport media cu o copie de rezervă a software-ului pentru utilizare ulterioară.
+
+My Dell Downloads (Descărcările mele Dell)
+
+44
+
+Utilizarea instrumentelor de asistenţă
+
+Mesaje de sistem
+
+În cazul în care computerul întâmpină o problemă sau o eroare, va afişa un mesaj de sistem ce vă va ajuta la identificarea cauzei şi a acţiunii necesare pentru a rezolva problema. NOTĂ: Dacă mesajul afişat nu este specificat în exemplele de mai jos, consultaţi documentaţia pentru sistemul de operare sau pentru programul ce se executa la apariţia mesajului. Sau puteţi consulta Ghidul tehnologic Dell disponibil pe unitatea de hard disk sau la adresa support.dell.com/manuals sau consultaţi „Cum se poate contacta Dell” la pagina 72 pentru asistenţă.
+
+Alert! Previous attempts at booting this system have failed at checkpoint [nnnn]. For help in resolving this problem, please note this checkpoint and contact Dell Technical Support (Alertă! Încercări anterioare de pornire a sistemului nu au reuşit la punctul de control [nnnn]. Pentru ajutor la rezolvarea acestei probleme, notaţi acest punct de control şi contactaţi Asistenţa tehnică Dell) – Computerul nu a reuşit completarea rutinei de pornire de trei ori consecutiv din cauza aceleiaşi erori (pentru asistenţă, consultaţi „Cum se poate contacta Dell”, la pagina 72). CMOS checksum error (Eroare sumă de verificare CMOS) – Posibilă eroare a plăcii de sistem sau nivelul scăzut al bateriei RTC. Bateria trebuie să fie înlocuită. Consultaţi Manualul de service la adresa support.dell.com/manuals sau consultaţi „Cum se poate contacta Dell”, la pagina 72 pentru asistenţă).
+
+45
+
+Utilizarea instrumentelor de asistenţă
+
+CPU fan failure (Eroare ventilator CPU) – Ventilatorul CPU este defect. Ventilatorul CPU trebuie să fie înlocuit. Consultaţi Manualul de service la adresa support.dell.com/manuals. Hard-disk drive failure (Eroare unitate de hard disk) – Posibilă eroare a unităţii de hard disk în timpul secvenţei HDD POST. Consultaţi „Cum se poate contacta Dell” la pagina 72 pentru asistenţă. Hard-disk drive read failure (Eroare la citirea unităţii de hard disk) – Posibilă eroare a unităţii de hard disk în timpul testului de pornire a unităţii HDD. Consultaţi „Cum se poate contacta Dell” la pagina 72 pentru asistenţă. Keyboard failure (Eroare de tastatură) – Înlocuiţi tastatura sau verificaţi dacă este conectat corect cablul.
+
+No boot device available (Niciun dispozitiv de pornire disponibil) – Nicio partiţie de pornire pe unitatea de hard disk, cablul unităţii de hard disk este deconectat sau nu există niciun dispozitiv de pornire. •	Dacă unitatea de hard disk este dispozitivul de pornire, asiguraţi-vă că aţi conectat cablurile şi că unitatea este instalată corect şi partiţionată ca dispozitiv de pornire. •	Accesaţi configurarea sistemului şi asiguraţi-vă că informaţiile referitoare la secvenţa de pornire sunt corecte. Consultaţi Manualul de service la adresa support.dell.com/manuals.
+
+46
+
+Utilizarea instrumentelor de asistenţă
+
+No timer tick interrupt (Nicio întrerupere de ceas) – Un cip de pe placa de sistem poate să funcţioneze defectuos sau s-a produs o eroare la placa de sistem. Consultaţi Manualul de service la adresa support.dell.com/manuals sau consultaţi „Cum se poate contacta Dell”, la pagina 72 pentru asistenţă). USB over current error (Eroare de alimentare USB) – Deconectaţi dispozitivul USB. Dispozitivul USB necesită mai multă energie pentru a funcţiona corect. Utilizaţi o sursă externă de alimentare pentru a conecta dispozitivul USB sau dacă dispozitivul are două cabluri pentru USB conectaţi-le pe amândouă.
+
+NOTICE - Hard Drive SELF MONITORING SYSTEM has reported that a parameter has exceeded its normal operating range. Dell recommends that you back up your data regularly. A parameter out of range may or may not indicate a potential hard drive problem (ATENŢIONARE SISTEMUL AUTOMAT DE MONITORIZARE a unităţii de hard disk a raportat faptul că un parametru a depăşit intervalul normal de operare. Dell recomandă să efectuaţi regulat copii de rezervă a datelor dvs. Un parametru în afara intervalului poate indica o posibilă problemă a unităţii de hard disk) – Eroare S.M.A.R.T, posibilă eroare a unităţii de hard disk. Consultaţi „Cum se poate contacta Dell” la pagina 72 pentru asistenţă.
+
+47
+
+Utilizarea instrumentelor de asistenţă
+
+Hardware Troubleshooter Dell Diagnostics Dacă aveţi o problemă cu computerul, (Depanator hardware)
+Dacă un dispozitiv nu este detectat în timpul configurării sistemului de operare sau este detectat, dar incorect configurat, puteţi utiliza aplicaţia Hardware Troubleshooter (Depanator hardware) pentru a rezolva incompatibilitatea. Pentru a porni Hardware Troubleshooter (Depanator hardware): 1. Faceţi clic pe Start → Help and Support (Ajutor şi asistenţă). 2. Tastaţi hardware troubleshooter în câmpul de căutare şi apăsaţi tasta &lt;Enter&gt; pentru a porni căutarea. 3. În rezultatele căutării, selectaţi opţiunea care descrie cel mai bine problema şi parcurgeţi paşii de depanare rămaşi.
+
+efectuaţi verificările indicate în secţiunea „Blocări şi probleme de software” de la pagina 40 şi rulaţi programul Dell Diagnostics înainte de a contacta Dell pentru asistenţă tehnică. Este recomandat să imprimaţi aceste proceduri înainte să începeţi. NOTĂ: Dell Diagnostics funcţionează doar pe computerele Dell. NOTĂ: Discul Drivers and Utilities (Drivere şi utilitare) este opţional şi este posibil să nu fie expediat împreună cu computerul.
+
+Consultaţi secţiunea Configurarea sistemului din Manualul de service pentru a revedea informaţiile de configurare ale computerului şi pentru a vă asigura că dispozitivul pe care doriţi să îl testaţi apare în programul de configurare al sistemului şi că este activ.
+
+48
+
+Utilizarea instrumentelor de asistenţă
+
+Porniţi programul Dell Diagnostics de pe unitatea de hard disk sau de pe discul Drivers and Utilities (Drivere şi utilitare).
+
+Pentru computerul dvs. se lansează Pre-boot System Assessment (PSA – Evaluare a sistemului înainte de pornire). NOTĂ: Dacă aşteptaţi prea mult şi apare logo-ul sistemului de operare, aşteptaţi în continuare până când vedeţi desktopul Microsoft® Windows®, apoi opriţi computerul şi încercaţi din nou. NOTĂ: Dacă vedeţi un mesaj ce menţionează faptul că nu a fost găsită nicio partiţie de utilitare de diagnostic, executaţi Dell Diagnostics de pe discul Drivers and Utilities (Drivere şi utilitare).
+
+Iniţierea Dell Diagnostics de pe unitatea de hard disk
+Dell Diagnostics este localizat pe o partiţie utilitară ascunsă de pe unitatea de hard disk. NOTĂ: În cazul în care computerul nu poate afişa o imagine a ecranului, contactaţi Dell (consultaţi „Cum se poate contacta Dell”, la pagina 72). 1. Asiguraţi-vă că aţi conectat computerul la o sursă electrică testată că funcţionează corect. 2. Porniţi (sau reporniţi) computerul. 3. Când apare logo-ul DELL™, apăsaţi imediat pe &lt;F12&gt;. Selectaţi Diagnostics din meniul de pornire şi apăsaţi pe &lt;Enter&gt;.
+
+Dacă este invocat PSA:
+a. PSA iniţiază executarea de teste. b. Dacă PSA finalizează operaţiunea cu succes, va fi afişat următorul mesaj: „No problems have been found with this system so
+
+49
+
+Utilizarea instrumentelor de asistenţă
+
+c. Dacă întâmpinaţi probleme de memorie, apăsaţi pe &lt;y&gt;, dacă nu, apăsaţi pe &lt;n&gt;. Este afişat următorul mesaj: „Booting Dell Diagnostic Utility Partition. Press any key to continue.” (Se iniţiază partiţia utilitară Dell Diagnostics. Apăsaţi orice tastă pentru a continua.)
+
+far. Do you want to run the remaining memory tests? This will take about 30 minutes or more. Do you want to continue? (Recommended)” (Nu au fost identificate probleme pentru acest sistem. Doriţi executarea testelor de memorie rămase? Această operaţie va dura aproximativ 30 de minute. Continuaţi? (Recomandat)).
+
+d. Apăsaţi pe oricare tastă pentru a ajunge la fereastra Choose An Option (Selectare opţiune).
+
+Dacă nu este invocat PSA:
+Apăsaţi orice tastă pentru a porni Dell Diagnostics de pe partiţia utilitară de diagnostic a unităţii de hard disk şi accesaţi fereastra Choose An Option (Selectare opţiune). 4. Selectaţi testul pe care doriţi să îl rulaţi. 5. Dacă o problemă este întâlnită în timpul unui test, un mesaj apare cu un cod de eroare şi o descriere a problemei. Notaţi codul de eroare şi descrierea problemei şi contactaţi Dell (consultaţi „Cum se poate contacta Dell”, la pagina 72).
+
+50
+
+Utilizarea instrumentelor de asistenţă
+
+NOTĂ: Eticheta de service a computerului este localizată în partea superioară a fiecărui ecran de testare. Eticheta de service vă ajută să vă identificaţi computerul atunci când contactaţi Dell. 6. Atunci când testele sunt finalizate, închideţi ecranul de test pentru a reveni la fereastra Choose An Option (Selectare opţiune). 7. Pentru a părăsi aplicaţia Dell Diagnostics şi a reporni computerul, faceţi clic pe Exit (Ieşire).
+
+Iniţierea Dell Diagnostics de pe discul Drivers and Utilities (Drivere şi utilitare)
+
+NOTĂ: Discul Drivers and Utilities (Drivere şi utilitare) este opţional şi este posibil să nu fie expediat împreună cu computerul. 1. Introduceţi discul Drivers and Utilities (Drivere şi utilitare). 2. Opriţi şi reporniţi computerul. La apariţia logo-ului DELL™, apăsaţi imediat pe &lt;F12&gt;. NOTĂ: Dacă aşteptaţi prea mult şi apare logo-ul sistemului de operare, aşteptaţi în continuare până când vedeţi desktopul Microsoft® Windows®, apoi opriţi computerul şi încercaţi din nou. NOTĂ: Următoarele etape modifică secvenţa de pornire doar pentru o singură dată. La următoarea pornire, computerul porneşte conform dispozitivelor specificate în programul de configurare a sistemului.
+
+51
+
+Utilizarea instrumentelor de asistenţă
+
+3. Când este afişată lista dispozitivelor de pornire, selectaţi opţiunea CD/DVD/CDRW şi apăsaţi &lt;Enter&gt;. 4. Selectaţi opţiunea Boot from CD-ROM (Pornire de pe CD-ROM) din meniul care apare şi apăsaţi &lt;Enter&gt;. 5. Tastaţi 1 pentru a iniţia meniul CD-ului şi apăsaţi &lt;Enter&gt; pentru a continua. 6. Din lista numerotată, selectaţi Run the 32 Bit Dell Diagnostics (Executare Dell Diagnostics pe 32 de biţi). Dacă sunt listate mai multe versiuni, selectaţi versiunea adecvată pentru computerul dvs. 7. Selectaţi testul pe care doriţi să îl rulaţi. 8. Dacă o problemă este întâlnită în timpul unui test, un mesaj apare cu un cod de eroare şi o descriere a problemei. Notaţi codul de eroare şi descrierea problemei şi contactaţi Dell (consultaţi „Cum se poate contacta Dell”, la pagina 72).
+
+NOTĂ: Eticheta de service a computerului este localizată în partea superioară a fiecărui ecran de testare. Eticheta de service vă ajută să vă identificaţi computerul atunci când contactaţi Dell. 9. Atunci când testele sunt finalizate, închideţi ecranul de test pentru a reveni la fereastra Choose An Option (Selectare opţiune). 10. Pentru a părăsi aplicaţia Dell Diagnostics şi a reporni computerul, faceţi clic pe Exit (Ieşire). 11. Scoateţi discul Drivers and Utilities (Drivere şi utilitare).
+
+52
+
+INSPIRON
+
+Restabilirea sistemului de operare
+Puteţi restabili sistemul de operare al computerului utilizând una dintre următoarele opţiuni: ATENŢIONARE: Utilizarea Dell Factory Image Restore (Restabilire imagine de sistem Dell) sau a discului Operating System (Sistem de operare) şterge definitiv toate fişierele de date de pe computer. Dacă este posibil, realizaţi copii de rezervă ale fişierelor de date înainte să utilizaţi aceste opţiuni. Opţiune System Restore (Restabilire sistem) Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe) System recovery media (Suport media pentru recuperarea sistemului) Utilizare ca primă soluţie când System Restore (Restabilire sistem) nu rezolvă problema când eroarea sistemului de operare împiedică utilizarea opţiunilor System Restore (Restabilire sistem) sau DataSafe Local Backup (Copie de rezervă locală DataSafe) la instalarea imaginii din fabrică pe o unitate de hard disk nou instalată
+
+53
+
+Restabilirea sistemului de operare
+
+Opţiune Dell Factory Image Restore (Restabilire imagine de sistem Dell).
+
+Utilizare pentru a restabili computerul la starea de funcţionare în care se afla atunci când l-aţi achiziţionat pentru a reinstala doar sistemul de operare pe computer
+
+Discul Operating System (Sistem de operare)
+
+NOTĂ: Discul Drivers and Utilities (Drivere şi utilitare) este posibil să nu fie expediat împreună cu computerul.
+
+54
+
+Restabilirea sistemului de operare
+
+System Restore (Restabilire sistem)
+
+Iniţierea System Restore (Restabilire sistem)
+1. Faceţi clic pe Start . 2. În caseta de căutare, tastaţi System Restore şi apăsaţi pe &lt;Enter&gt;.
+
+Sistemul de operare Windows oferă o opţiune System Restore (Restabilire sistem) ce vă permite restabilirea computerului la o stare de operare anterioară (fără a afecta fişierele de date) în cazul în care modificări ale hardware-ului, ale software-ului sau ale altor setări de sistem au lăsat computerul într-o stare de funcţionare nedorită. Toate modificările pe care System Restore (Restabilire sistem) le face pe computerul dvs. sunt complet reversibile. ATENŢIONARE: Efectuaţi în mod regulat copii de rezervă ale fişierelor de date. System Restore (Restabilire sistem) nu monitorizează şi nici nu recuperează fişierele de date. NOTĂ: Procedurile din acest document sunt aplicabile pentru vizualizarea implicită Windows, deci este posibil să nu se aplice dacă setaţi computerul Dell™ la vizualizarea Windows Classic.
+
+NOTĂ: Este posibil să apară fereastra User Account Control (Control cont utilizator). Dacă sunteţi administrator pe computer, faceţi clic pe Continue (Continuare), în caz contrar, contactaţi administratorul pentru a continua acţiunea dorită.
+
+3. Faceţi clic pe Next (Următorul) şi urmaţi solicitările rămase de pe ecran. În cazul în care System Restore (Restabilire sistem) nu a rezolvat problema, puteţi să anulaţi ultima restabilire a sistemului.
+
+55
+
+Restabilirea sistemului de operare
+
+Anularea ultimei restabiliri a sistemului
+NOTĂ: Înainte de a anula ultima restabilire a sistemului, salvaţi şi închideţi toate fişierele deschise şi părăsiţi toate programele deschise. Nu modificaţi, nu deschideţi şi nu ştergeţi niciun fişier sau program până când restabilirea sistemului nu este completă. 1. Faceţi clic pe Start . 2. În caseta de căutare, tastaţi System Restore şi apăsaţi pe &lt;Enter&gt;.
+
+Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe)
+ATENŢIONARE: Utilizarea Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe) elimină definitiv toate programele sau driverele instalate după ce aţi primit computerul. Înainte de utilizarea Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe), creaţi suporturi media cu copii de rezervă ale aplicaţiilor pe care trebuie să le instalaţi pe computer. Utilizaţi Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe) numai dacă System Restore (Restabilire sistem) nu a rezolvat problema sistemului de operare.
+
+3. Faceţi clic pe Undo my last restoration (Anulare ultima restabilire) şi faceţi clic pe Next (Următorul).
+
+56
+
+Restabilirea sistemului de operare
+
+ATENŢIONARE: Cu toate că Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe) este proiectat să păstreze fişierele de date pe computer, se recomandă să realizaţi o copie de rezervă a acestora înainte de a utiliza Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe). NOTĂ: Este posibil ca Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe) să nu fie disponibilă în toate regiunile. NOTĂ: Dacă Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe) nu este disponibilă pe computerul dvs., utilizaţi Dell Factory Image Restore (Restabilire imagine de sistem Dell) (consultaţi „Dell Factory Image Restore” (Restabilire imagine de sistem Dell) la pagina 61) pentru a vă restabili sistemul de operare.
+
+Puteţi utiliza Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe) pentru a restabili unitatea de hard disk la starea de funcţionare în care se afla când aţi achiziţionat computerul, fără a şterge fişierele de date. Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe) vă permite următoarele: •	Realizarea unei copii de rezervă şi restabilirea computerului la o stare anterioară de funcţionare •	Crearea suporturilor media pentru recuperarea sistemului
+
+57
+
+Restabilirea sistemului de operare
+
+Dell DataSafe Local Backup Basic (Copie de rezervă locală Dell DataSafe Basic)
+Pentru a restabili imaginea din fabrică păstrând fişierele de date: 1. Opriţi computerul. 2. Deconectaţi toate dispozitivele (unitate USB, imprimantă etc.) conectate la computer şi înlăturaţi orice echipament hardware adăugat recent. NOTĂ: Nu deconectaţi afişajul, tastatura, mouse-ul sau adaptorul de c.a. 3. Porniţi computerul. 4. Când apare logo-ul DELL™, apăsaţi &lt;F8&gt; de mai multe ori pentru a accesa fereastra Advanced Boot Options (Opţiuni de pornire avansate).
+
+NOTĂ: Dacă aşteptaţi prea mult şi apare logo-ul sistemului de operare, aşteptaţi în continuare până când vedeţi desktopul Microsoft® Windows®, apoi opriţi computerul şi încercaţi din nou. 5. Selectaţi Repair Your Computer (Reparare computer). 6. Selectaţi Dell DataSafe Restore and Emergency Backup (Copie de rezervă de urgenţă pentru restabilire Dell DataSafe) din meniul System Recovery Options (Opţiuni recuperare sistem) şi urmaţi instrucţiunile afişate pe ecran. NOTĂ: Procesul de restabilire poate dura o oră sau mai mult, în funcţie de volumul de date care urmează a fi restabilite. NOTĂ: Pentru informaţii suplimentare, consultaţi articolul 353560 din baza de cunoştinţe, de la adresa support.dell.com.
+
+58
+
+Restabilirea sistemului de operare
+
+Efectuarea unui upgrade la Dell DataSafe Local Backup Professional (Copie de rezervă locală Dell DataSafe Professional)
+NOTĂ: Dacă l-aţi comandat în momentul achiziţiei, este posibil ca Dell DataSafe Local Backup Professional (Copie de rezervă locală Dell DataSafe Professional) să fie instalat pe computerul dvs. Dell DataSafe Local Backup Professional (Copie de rezervă locală Dell DataSafe Professional) vă oferă caracteristici suplimentare care vă permit: •	Realizarea unei copii de rezervă şi restabilirea computerului în funcţie de tipurile de fişiere •	Realizarea unei copii de rezervă a fişierelor pe un dispozitiv de stocare local
+
+•	Programarea copiilor de rezervă automate Pentru a efectua un upgrade la Dell DataSafe Local Backup Professional (Copie de rezervă locală Dell DataSafe Professional): 1. Faceţi dublu clic pe pictograma Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe) din bara de activităţi. 2. Faceţi clic pe UPGRADE NOW! (UPGRADE IMEDIAT!) 3. Urmaţi instrucţiunile afişate pe ecran pentru a finaliza upgrade-ul.
+
+59
+
+Restabilirea sistemului de operare
+
+System Recovery Media (Suport media pentru recuperarea sistemului)
+
+•	 Eroarea sistemului de operare care împiedică utilizarea opţiunilor de recuperare instalate pe computer. •	 Eroarea unităţii de hard disk care împiedică recuperarea datelor. Pentru a restabili imaginea din fabrică a computerului utilizând suportul media pentru recuperarea sistemului: 1. Introduceţi discul pentru recuperarea sistemului sau cheia USB şi reporniţi computerul. 2. Când apare logo-ul DELL™, apăsaţi imediat pe &lt;F12&gt;. NOTĂ: Dacă aşteptaţi prea mult şi apare logo-ul sistemului de operare, aşteptaţi în continuare până când vedeţi desktopul Microsoft® Windows®, apoi opriţi computerul şi încercaţi din nou. 3. Selectaţi din listă dispozitivul de pornire corespunzător şi apăsaţi pe &lt;Enter&gt;. 4. Urmaţi instrucţiunile afişate pe ecran pentru a finaliza procesul de recuperare.
+
+ATENŢIONARE: Cu toate că suportul media pentru recuperarea sistemului este proiectat să păstreze fişierele de date pe computer, se recomandă să realizaţi o copie de rezervă a acestora înainte de a utiliza suportul media pentru recuperarea sistemului.
+
+Puteţi utiliza suportul media pentru recuperarea sistemului, creat cu Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe), pentru a restabili unitatea de hard disk la starea de funcţionare în care se afla când aţi achiziţionat computerul, fără a şterge fişierele de date. Utilizaţi suportul media pentru recuperarea sistemului în următoarele cazuri:
+
+60
+
+Restabilirea sistemului de operare
+
+Dell Factory Image Restore (Restabilire imagine de sistem Dell)
+
+ATENŢIONARE: Utilizarea programului Dell Factory Image Restore (Restabilire imagine de sistem Dell) şterge permanent toate datele de pe unitatea de hard disk şi elimină toate programele sau driverele instalate după ce aţi primit computerul. Dacă este posibil, realizaţi copii de rezervă ale datelor înainte să utilizaţi această opţiune. Utilizaţi Dell Factory Image Restore (Restabilire imagine de sistem Dell) numai dacă System Restore (Restabilire sistem) nu a rezolvat problema sistemului de operare. NOTĂ: Este posibil ca Dell Factory Image Restore (Restabilire imagine de sistem Dell) să nu fie disponibilă în anumite ţări sau pe anumite computere.
+
+NOTĂ: Dacă Dell Factory Image Restore (Restabilire imagine de sistem Dell) nu este disponibilă pe computerul dvs., utilizaţi Dell DataSafe Local Backup (Copie de rezervă locală Dell DataSafe) (consultaţi „Dell DataSafe Local Backup” (Copie de rezervă locală Dell DataSafe) la pagina 56) pentru a vă restabili sistemul de operare. Utilizaţi Dell Factory Image Restore (Restabilire imagine de sistem Dell) doar ca ultimă metodă pentru restabilirea sistemului de operare. Această opţiune readuce unitatea de hard disk la starea de funcţionare în care se afla când aţi achiziţionat computerul. Toate programele sau fişierele adăugate de când aţi primit computerul – inclusiv fişierele de date – sunt şterse permanent de pe unitatea de hard disk. Fişierele de date includ documente, foi de calcul, mesaje de e-mail, fotografii digitale, fişiere de muzică şi altele. Dacă este posibil, realizaţi copii de rezervă ale tuturor datelor înainte să utilizaţi Dell Factory Image Restore (Restabilire imagine de sistem Dell).
+
+61
+
+Restabilirea sistemului de operare
+
+Lansarea Dell Factory Image Restore (Restabilire imagine de sistem Dell)
+1. Porniţi computerul. 2. Când apare logo-ul DELL™, apăsaţi &lt;F8&gt; de mai multe ori pentru a accesa fereastra Advanced Boot Options (Opţiuni de pornire avansate). NOTĂ: Dacă aşteptaţi prea mult şi apare logo-ul sistemului de operare, aşteptaţi în continuare până când vedeţi desktopul Microsoft® Windows®, apoi opriţi computerul şi încercaţi din nou. 3. Selectaţi Repair Your Computer (Reparare computer). Apare fereastra System Recovery Options (Opţiuni recuperare sistem). 4. Selectaţi o configuraţie de tastatură şi faceţi clic pe Next (Următorul).
+
+5. Pentru a accesa opţiunile de recuperare, conectaţi-vă ca un utilizator local. Pentru a accesa linia de comandă, tastaţi administrator în câmpul User name (Utilizator), apoi faceţi clic pe OK. 6. Faceţi clic pe Dell Factory Image Restore (Restabilire imagine de sistem Dell). Apare ecranul de întâmpinare Dell Factory Image Restore (Restabilire imagine de sistem Dell). NOTĂ: În funcţie de configuraţie, este posibil să fie necesar să selectaţi Dell Factory Tools (Instrumente de sistem Dell), apoi Dell Factory Image Restore (Restabilire imagine de sistem Dell).
+
+62
+
+Restabilirea sistemului de operare
+
+7. Faceţi clic pe Next (Următorul). Apare ecranul Confirm Data Deletion (Confirmare ştergere date). NOTĂ: Dacă nu doriţi să continuaţi cu Factory Image Restore (Restabilire imagine de sistem Dell), faceţi clic pe Cancel (Revocare). 8. Faceţi clic pe caseta de selectare pentru a confirma că doriţi să continuaţi reformatarea unităţii de hard disk şi restabilirea software-ului sistemului la starea din fabrică, apoi faceţi clic pe Next (Următorul). Procesul de restabilire începe şi poate dura cinci sau mai multe minute până la finalizare. Când sistemul de operare şi aplicaţiile instalate din fabrică au fost restabilite la starea iniţială, se va afişa un mesaj. 9. Faceţi clic pe Finish (Terminare) pentru a reporni computerul.
+
+63
+
+INSPIRON
+
+Obţinerea de ajutor
+Dacă întâmpinaţi o problemă cu computerul, puteţi să efectuaţi următorii paşi pentru a diagnostica şi a depana problema: 1. Consultaţi „Rezolvarea problemelor”, la pagina 34 pentru informaţii şi proceduri legate de problema întâlnită de computerul dvs. 2. Consultaţi „Dell Diagnostics” la pagina 48 pentru proceduri de executare a Dell Diagnostics. 3. Completaţi „Diagnostic Checklist” (Listă de verificări pentru diagnosticare), la pagina 71. 4. Utilizaţi suita extinsă de servicii online disponibile la Dell Support (support.dell.com) pentru ajutor în procedurile de instalare şi de depanare. Consultaţi „Serviciile online” la pagina 66 pentru o listă detaliată a serviciilor online oferite de Dell Support. 5. Dacă etapele precedente nu au rezolvat problema, consultaţi „Cum se poate contacta Dell” la pagina 72. NOTĂ: Contactaţi Dell Support de la un telefon apropiat de computer astfel încât personalul de suport să vă poată asista în orice procedură necesară. NOTĂ: Este posibil ca sistemul Cod de service expres Dell să nu fie disponibil în toate ţările.
+
+64
+
+Obţinerea de ajutor
+
+Când vi se solicită de către sistemul telefonic automat Dell, introduceţi codul de service expres pentru a dirija apelul direct către personalul de service adecvat. Dacă nu aveţi un Cod de service expres, deschideţi folderul Dell Accessories (Accesorii Dell), faceţi dublu clic pe pictograma Express Service Code (Cod de service expres) şi urmaţi instrucţiunile. NOTĂ: Unele dintre serviciile următoare nu sunt întotdeauna disponibile în toate locaţiile din afara zonei continentale a S.U.A. Contactaţi reprezentantul Dell local pentru informaţii despre disponibilitate.
+
+Asistenţa tehnică şi serviciul pentru clienţi
+
+Serviciul de asistenţă Dell este disponibil pentru a răspunde întrebărilor legate de hardware-ul Dell. Personalul de asistenţă utilizează diagnosticarea bazată pe computer pentru a furniza răspunsuri rapide şi precise. Pentru a contacta serviciul de asistenţă Dell, consultaţi „Înainte de a apela” la pagina 70, apoi consultaţi informaţiile de contact pentru regiunea dvs. sau vizitaţi support.dell.com.
+
+65
+
+Obţinerea de ajutor
+
+DellConnect
+
+DellConnect™ este un instrument simplu de acces online ce îi permite unui reprezentant de asistenţă şi service Dell să acceseze computerul dvs. printr-o conexiune de bandă largă, să diagnosticheze problema şi să o repare, totul sub supravegherea dvs. Pentru mai multe informaţii, accesaţi support.dell.com/dellconnect.
+
+Servicii online
+•	www.dell.com
+
+Puteţi afla despre produsele şi serviciile Dell pe următoarele site-uri Web: •	www.dell.com/ap (doar ţările din Asia/ Pacific) •	www.dell.com/jp (doar Japonia) •	www.euro.dell.com (doar Europa) •	www.dell.com/la (ţările din America Latină şi Caraibe) •	www.dell.ca (doar Canada) Puteţi să accesaţi Dell Support prin intermediul următoarelor site-uri Web şi adrese de e-mail:
+
+Site-uri web Dell Support
+•	support.dell.com •	support.jp.dell.com (doar Japonia) •	support.euro.dell.com (doar Europa)
+
+66
+
+Obţinerea de ajutor
+
+Adrese de e-mail Dell Support
+•	mobile_support@us.dell.com •	support@us.dell.com •	la-techsupport@dell.com (doar ţările din America Latină şi Caraibe) •	apsupport@dell.com (doar ţările din Asia/Pacific)
+
+Serviciul automat de stare a comenzii
+
+Adrese de e-mail Dell Marketing and Sales
+•	apmarketing@dell.com (doar ţările din Asia/Pacific) •	sales_canada@dell.com (doar Canada)
+
+Pentru a verifica starea oricărui produs Dell comandat, puteţi vizita support.dell.com sau puteţi apela serviciul automat de verificare a stării comenzii. Un serviciu de înregistrare vă solicită informaţiile necesare pentru a localiza şi a raporta informaţiile despre comanda dvs. Pentru numărul de telefon corespunzător regiunii dvs., consultaţi „Cum se poate contacta Dell”, la pagina 72. Dacă aveţi o problemă cu comanda dvs., cum ar fi componente lipsă, componente greşite sau facturare incorectă, contactaţi Dell pentru asistenţă clienţi. Să aveţi factura sau bonul de livrare la îndemână atunci când efectuaţi apelul. Pentru numărul de telefon de apelat pentru regiunea dvs., consultaţi „Cum se poate contacta Dell”, la pagina 72.
+
+Protocol de transfer fişiere anonim (FTP)
+•	ftp.dell.com Conectaţi-vă ca utilizator: anonymous şi utilizaţi adresa dvs. de e-mail ca parolă.
+
+67
+
+Obţinerea de ajutor
+
+Informaţii produs
+
+Dacă aveţi nevoie de informaţii despre produse suplimentare disponibile de la Dell sau dacă doriţi să plasaţi o comandă, vizitaţi site-ul Web Dell la adresa www.dell.com. Pentru numărul de telefon de apelat pentru regiunea dvs. sau pentru a discuta cu un specialist în vânzări, consultaţi „Cum se poate contacta Dell”, la pagina 72.
+
+Returnarea pentru reparaţii a produselor în garanţie sau pentru ramburs
+Pregătiţi toate articolele care sunt restituite, atât pentru reparaţie cât şi pentru ramburs, după cum urmează: NOTĂ: Înainte să returnaţi produsul la Dell, faceţi copii de rezervă ale informaţiilor de pe unitatea de hard disk şi de pe orice alt dispozitiv de stocare al produsului. Eliminaţi toate informaţiile confidenţiale, cu drepturi de proprietate sau personale, precum şi suporturile amovibile, cum ar fi CD-urile sau cardurile media. Dell nu îşi asumă răspunderea pentru nicio informaţie confidenţială, cu drepturi de proprietate sau personală, date pierdute sau deteriorate sau suporturi amovibile deteriorate sau pierdute ce au fost incluse în returnare.
+
+68
+
+Obţinerea de ajutor
+
+1. Apelaţi Dell pentru a obţine un Număr de autorizaţie pentru restituirea materialului şi scrieţi-l clar şi la vedere pe exteriorul cutiei. Pentru numărul de telefon de apelat pentru regiunea dvs., consultaţi „Cum se poate contacta Dell”, la pagina 72. 2. Includeţi o copie a facturii şi o scrisoare care descrie motivul restituirii. 3. Includeţi o copie a Diagnostics Checklist (Listă de verificări pentru diagnosticare) (consultaţi „Diagnostics Checklist” (Listă de verificări pentru diagnosticare), la pagina 71), indicând testele rulate şi mesajele de eroare raportate de Dell Diagnostics (consultaţi „Dell Diagnostics”, la pagina 48). 4. Dacă restituirea se face în scopul rambursării, includeţi toate accesoriile care aparţin articolelor restituite (adaptor de c.a., software, ghiduri etc.).
+
+5. Ambalaţi echipamentul care va fi restituit în materialele de ambalare originale (sau echivalent). NOTĂ: Dvs. vă revine plata cheltuielilor de expediere. De asemenea, vă revine răspunderea asigurării oricărui produs restituit şi vă asumaţi riscul de pierdere în timpul expedierii către Dell. Coletele cu plata ramburs (C.O.D.) nu vor fi acceptate. NOTĂ: Coletele returnate care nu vor respecta toate cerinţele de mai sus vor fi refuzate la depozitul de recepţie Dell şi vă vor fi înapoiate.
+
+69
+
+Obţinerea de ajutor
+
+Înaintede a apela
+
+NOTĂ: Fiţi pregătit cu Codul de service expres atunci când apelaţi. Codul ajută sistemul telefonic de asistenţă automat al Dell să direcţioneze apelul dvs. mult mai eficient. Este posibil să vi se ceară şi Eticheta de service.
+
+Localizarea etichetei de service
+Eticheta de service a computerului se află pe o etichetă de pe baza acestuia.
+
+1
+
+1
+
+Eticheta de service/Codul de service expres
+
+70
+
+Obţinerea de ajutor
+
+Nu uitaţi să completaţi următoarea listă Diagnostics Checklist (Listă de verificări pentru diagnosticare). Dacă este posibil, porniţi computerul înainte să apelaţi la Dell pentru asistenţă şi efectuaţi apelul de la un telefon aflat în apropierea computerului. Este posibil să vi se solicite să introduceţi unele comenzi de la tastatură, să oferiţi informaţii detaliate în timpul operaţiilor sau să încercaţi alţi paşi de depanare posibili doar de la computer. Asiguraţi-vă că documentaţia computerului este disponibilă.
+
+Diagnostic Checklist (Listă de verificări pentru diagnosticare) •	Nume: •	Dată: •	Adresă: •	Număr de telefon: •	Eticheta de service şi Codul de service expres (localizate pe o etichetă în partea de jos a computerului): •	Număr de autorizaţie pentru returnarea materialelor (dacă este furnizat de tehnicianul de asistenţă Dell): •	Sistem de operare şi versiune: •	Dispozitive: •	Carduri de extensie: •	Sunteţi conectat la o reţea? Da/Nu •	Reţea, versiune şi adaptor de reţea: •	Programe şi versiuni:
+
+71
+
+Obţinerea de ajutor
+
+Consultaţi documentaţia sistemului dvs. de operare pentru a determina conţinutul fişierelor de iniţializare a computerului. În cazul în care computerul este conectat la o imprimantă, imprimaţi toate fişierele. În caz contrar, notaţi conţinutul fiecărui fişier înainte să apelaţi Dell. •	Mesaj de eroare, cod sonor sau cod de diagnosticare: •	Descrierea problemei şi a procedurilor pe care le-aţi efectuat:
+
+Cum se poate contacta Dell
+
+Pentru clienţii din Statele Unite ale Americii, apelaţi 800-WWW-DELL (800-999-3355). NOTĂ: Dacă nu dispuneţi de o conexiune activă la Internet, puteţi găsi informaţii de contact pe factura de achiziţie, pe bonul de livrare, pe foaia de expediţie sau în catalogul de produse Dell. Dell oferă mai multe opţiuni de asistenţă şi service online şi telefonic. Disponibilitatea variază în funcţie de ţară şi produs, iar unele servicii s-ar putea să nu fie disponibile în regiunea dvs.
+
+72
+
+Obţinerea de ajutor
+
+Pentru a contacta Dell referitor la probleme de vânzări, asistenţă tehnică sau service pentru clienţi: 1. Vizitaţi www.dell.com/contactdell. 2. Selectaţi ţara sau regiunea dvs. 3. Selectaţi serviciul sau legătura de asistenţă tehnică adecvată, în funcţie de necesităţile dvs. 4. Alegeţi metoda convenabilă pentru a contacta Dell.
+
+73
+
+INSPIRON
+
+Găsirea mai multor informaţii şi resurse
+Dacă aveţi nevoie să:
+reinstalaţi sistemul de operare să executaţi un program de diagnosticare pentru computerul dvs. să reinstalaţi software-ul de sistem să găsiţi informaţii suplimentare despre caracteristicile şi sistemul de operare Microsoft® Windows® să efectuaţi un upgrade al computerului cu memorie nouă sau suplimentară, sau cu o unitate de hard disk nouă să reinstalaţi sau să înlocuiţi o componentă uzată sau defectă
+
+Consultaţi:
+„Suport media pentru recuperarea sistemului”, la pagina 60 „Dell Diagnostics”, la pagina 48 „My Dell Downloads” (Descărcările mele Dell), la pagina 44 support.dell.com
+
+Manualul de service la support.dell.com/manuals NOTĂ: În unele ţări, este posibil ca desfacerea computerului şi înlocuirea componentelor acestuia să anuleze garanţia. Verificaţi condiţiile de garanţie şi returnare înainte de a interveni în interiorul computerului.
+
+74
+
+Găsirea mai multor informaţii şi resurse
+
+Dacă aveţi nevoie să:
+să găsiţi informaţii privind cele mai bune practici de siguranţă pentru computerul dvs. să revedeţi informaţiile legate de Garanţie, Termeni şi condiţii (doar pentru S.U.A), Instrucţiuni de siguranţă, Informaţii de reglementare, Informaţii de ergonomie şi Acordul de licenţă al utilizatorului final să găsiţi Eticheta de service/Codul de service expres – Trebuie să utilizaţi Eticheta de service pentru a identifica computerul la adresa support.dell.com sau pentru a contacta suportul tehnic
+
+Consultaţi:
+documentele privind siguranţa şi reglementările livrate împreună cu computerul dvs. şi pagina de start pentru conformitatea cu reglementările de la adresa www.dell.com/regulatory_compliance.
+
+partea de jos a computerului Centrul de asistenţă Dell. Pentru a lansa Centrul de asistenţă Dell, faceţi clic pe pictograma din bara de activităţi.
+
+75
+
+Găsirea mai multor informaţii şi resurse
+
+Dacă aveţi nevoie să:
+să găsiţi drivere şi descărcări; fişiere readme să accesaţi asistenţa tehnică şi ajutorul pentru produs să verificaţi starea comenzilor pentru comenzi noi să găsiţi soluţii şi răspunsuri la întrebări frecvente să localizaţi informaţii despre actualizările de ultimă oră privind modificările tehnice ale computerului sau materiale de referinţă avansate pentru tehnicieni şi utilizatori experimentaţi
+
+Consultaţi:
+support.dell.com
+
+76
+
+INSPIRON
+
+Specificaţii
+Această secţiune oferă informaţii de care puteţi avea nevoie când configuraţi, actualizaţi driverele sau efectuaţi un upgrade la computer. NOTĂ: Este posibil ca oferta să varieze în funcţie de regiune. Pentru informaţii suplimentare despre configuraţia computerului dvs. consultaţi documentaţia computerului din următoarea locaţie:
+
+Windows® 7: Start → All Programs (Toate programele)→ Dell Help Documentation (Documentaţie de ajutor Dell). Windows Vista®: Start
+→ Help and Support (Ajutor şi asistenţă)→ Dell EDocs.
+
+Model de computer
+Inspiron™ 410
+
+Informaţii despre computer
+Chipset sistem RS880M+SB820M
+
+Informaţii despre computer
+Tipuri de procesor AMD™ Athlon™ II Dual Core AMD Turion™ II Dual Core AMD Phenom™ II Triple Core AMD Phenom II Quad Core AMD V Series Single Core
+
+Memorie
+Conectori Tip memorie doi conectori SODIMM accesibili din interior SODIMM 1066 MHz DDR3; doar memorie non-ECC
+
+77
+
+Specificaţii
+
+Memorie
+Capacităţi modul de memorie Configuraţii posibile 1 GO, 2 GO şi 4 GO
+
+Placă audio
+Tip sistem integrat pe 2.1 canale, High Definition Audio sunet digital până la 7.1 canale cu S/PDIF (optic)
+
+1 GO, 2 GO, 3 GO, 4 GO, 6 GO şi 8 GO
+
+NOTĂ: Pentru instrucţiuni despre efectuarea upgrade-ului de memorie, consultaţi Manual de service la support.dell.com/manuals.
+
+Comunicaţii
+Wireless (opţional) Adaptor de reţea 802.11 a/b/g/n; b/g/n 10/100/1000 Ethernet LAN pe placa de sistem
+
+Unităţi
+Accesibile din exterior (opţional) un compartiment de 5,25 inchi pentru unitate SATA cu sertar de 12,7 mm DVD+/-RW Super Multi Drive sau unitate combo Blu-ray Disc™ (opţional) un compartiment de 3,5 inchi pentru unitate de hard disk SATA
+
+Placă video
+Integrată Discretă (opţională) ATI Mobility Radeon™ HD 4250 ATI Mobility Radeon™ HD 5450, 1GO
+
+Accesibile din interior
+
+78
+
+Specificaţii
+
+Cititor de carduri de memorie
+Carduri acceptate card Secure Digital (SD) card MicroSD card MiniSD card Secure Digital High Capacity (SDHC) card Multimedia (MMC) card xD-Picture card Memory Stick PRO/Duo
+
+Conectori externi
+Cititor de carduri de memorie Senzor IR (opţional) Adaptor de reţea USB Placă audio S/PDIF eSATA VGA HDMI un slot de carduri 4-în-1
+
+unul
+
+Conectori pe panoul din spate: un conector RJ45 doi conectori compatibili cu USB 2.0 un microfon şi un conector de ieşire audio un conector digital S/ PDIF (optic) doi conectori cu 7 de pini un conector cu 15 orificii un conector cu 19 pini
+
+Conectori externi
+Conectori pe panoul frontal: USB Placă audio doi conectori compatibili cu USB 2.0 un conector de căşti
+
+79
+
+Specificaţii
+
+Adaptor de c.a.
+90 W (seria E): NOTĂ: Acceptat pe modele cu placă video discretă (opţională). Tensiune de intrare Curent de intrare Frecvenţă de intrare Putere de ieşire Curent de ieşire Tensiune de ieşire nominală 100 - 240 V c.a. 1,5 A 50 - 60 Hz 90 W 4,62 A 19,5 V c.c.
+
+Adaptor de c.a.
+65 W (seria E): Tensiune de intrare Curent de intrare Frecvenţă de intrare Putere de ieşire Curent de ieşire Tensiune de ieşire nominală 100 - 240 V c.a. 1,5/1,6/1,7 A 50 - 60 Hz 65 W 3,34 A 19,5 V c.c.
+
+80
+
+Specificaţii
+
+Bateria
+Baterie rotundă baterie rotundă cu litiu CR2032 de 3 V
+
+Mediul ambiant al computerului
+Interval de temperatură: În stare de funcţionare Depozitare Umiditate relativă (maximă) între 10 °C şi 35 °C (între 50 °F şi 95 °F) între –40 °C şi 65 °C (între –40 °F şi 149 °F) între 20% şi 80% (fără condens)
+
+Date fizice
+Înălţime Lăţime Adâncime Greutate 197,6 mm (7,77 inchi) 197,6 mm (7,77 inchi) 89 mm (3,50 inchi) 2,0 kg (4,41 livre)
+
+Vibraţie maximă (utilizând un spectru de vibraţie aleator care simulează mediul utilizatorului): În stare de funcţionare Depozitare 0,26 GRMS 2,2 GRMS
+
+81
+
+Specificaţii
+
+Mediul ambiant al computerului
+Şoc maxim (pentru funcţionare – măsurat cu Dell Diagnostics rulând pe unitatea de hard disk şi un impuls semisinusoidal de 2 ms; pentru nefuncţionare – măsurat cu unitatea de hard disk în poziţie de parcare şi un impuls semisinusoidal de 26 ms): În stare de funcţionare 40 G pentru 2 ms cu o schimbare de velocitate de 20 inchi/s (51 cm/s) 45 G pentru 26 ms cu o schimbare de velocitate de 288 inchi/s (732 cm/s)
+
+Mediul ambiant al computerului
+Altitudine (maximă): În stare de funcţionare Depozitare între -15,2 şi 3.048 m (între -50 şi 10.000 picioare) între -15,2 şi 10.668 m (între -50 şi 35.000 picioare) G2 sau inferior, aşa cum este definit de ISA-S71.04-1985
+
+Nivel contaminant în suspensie
+
+Nefuncţionare
+
+82
+
+INSPIRON
+
+Anexă
+Menţiune produs Macrovision
+Acest produs încorporează tehnologie protejată de drepturi de autor prin metode revendicate de S.U.A. prin anumite brevete şi de alte drepturi de proprietate intelectuală deţinute de Macrovision Corporation şi alţi deţinători de drept. Utilizarea tehnologiei de protecţie a drepturilor de proprietate intelectuală trebuie aprobată de Corporaţia Macrovision, fiind destinată exclusiv utilizării domestice sau în alte medii restrânse, în absenţa unei autorizaţii extinse oferite de către Corporaţia Macrovision. Dezasamblarea şi modificarea echipamentului sunt interzise.
+
+83
+
+Anexă
+
+Informare pentru NOM sau standardul mexican oficial (doar pentru Mexic)
+Importator: Dell México S.A. de C.V. Paseo de la Reforma 2620 – Flat 11° Col. Lomas Altas 11950 México, D.F. Numărul modelului de reglementare D03U Tensiune de intrare 100 - 240 V Frecvenţă de intrare 50 - 60 Hz
+
+Următoarele informaţii sunt înscrise pe dispozitivele prezentate în acest document, conform reglementărilor Standardului Oficial Mexican (NOM):
+
+Curent de ieşire nominal 3,34/4,62 A
+
+Pentru detalii, citiţi informaţiile de siguranţă livrate împreună cu computerul. Pentru informaţii suplimentare despre cele mai bune practici privind siguranţa, consultaţi pagina de start pentru conformitatea cu reglementările, la adresa www.dell.com/regulatory_compliance.
+
+84
+
+INSPIRON
+
+Index
+A
+Cod de service expres 64 compatibilitate memorie 77 conectare cablu de reţea opţional 14 conectare FTP, anonimă 67 conector audio optic S/PDIF 29 conector de reţea locaţie 29 conector eSATA 29 conector HDMI 30 conexiune Internet 19 conexiune la reţea reparare 36 conexiune la reţea wireless 35 Cum se poate contacta Dell 72 adresă de e-mail pentru asistenţă tehnică 67 adrese de e-mail pentru asistenţă 67 apelare Dell 70 asistenţă tehnică 65
+
+B C
+
+buton scoatere 25 buton şi indicator luminos de alimentare 27
+
+caracteristici computer 31 caracteristici software 31 CD-uri, redare şi creare 31 chipset 77 Cititor de carduri de memorie 25
+
+85
+
+Index
+
+D
+
+ISP furnizor de servicii de Internet 19
+
+DataSafe Local Backup (Copie de rezervă locală DataSafe) 56 DellConnect 66 Dell Diagnostics 48 Diagnostic Checklist (Listă de verificări pentru diagnosticare) 71 drivere şi descărcări 76 DVD-uri, redare şi creare 31
+
+L
+
+livrare produse pentru returnare sau reparare 68 Localizarea etichetei de service 70
+
+M P
+
+E
+
+Mesaje de sistem 45
+
+Etichetă de service 70
+
+H I
+
+probleme de alimentare, rezolvare 37 probleme de memorie rezolvare 39 probleme hardware diagnosticare 48 probleme, rezolvare 34 probleme software 40
+
+Hardware Troubleshooter (Depanator hardware) 48
+
+indicator luminos de activitate al unităţii de hard disk 30
+
+86
+
+Index
+
+procesor 77 produse informaţii şi achiziţionare 68
+
+USB 2.0 conectori pe partea din spate 30 conectori pe partea frontală 25
+
+R
+
+V
+
+restabilire imagine de sistem 61 returnări în garanţie 68 rezolvarea problemelor 34
+
+vedere a caracteristicilor din partea din faţă 24
+
+S
+
+W
+
+Windows expert Program Compatibility (Compatibilitate programe) 41 Windows, reinstalare 54
+
+scoatere disc 25 serviciu clienţi 65 site-uri pentru asistenţă internaţional 66 stare comandă 67
+
+U
+
+unitate de hard disk tip 78
+
+87
+
+Tipărit în Irlanda
+
+www.dell.com | support.dell.com
+
+</data>
+<stemmer>case</stemmer>
+<kb>none</kb>
+<basis>Yes></basis>
+<expected>romanian</expected>
+</test>
+</testset>
+

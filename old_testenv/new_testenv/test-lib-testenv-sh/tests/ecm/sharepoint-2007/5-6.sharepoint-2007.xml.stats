@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><vse-collection><vse-status version="6.0" which="live" token="RxmrxgdgSSOb" config-md5="52bbde95715f0dcd59f8da6363ecbae7"><crawler-status config-md5="52bbde95715f0dcd59f8da6363ecbae7" time="1192864925" elapsed="215" this-elapsed="215" host="all" n-input="691" n-output="685" n-errors="6" n-http-errors="6" n-http-location="0" n-filtered="0" n-robots="0" conversion-time="65642" n-sub="824" n-bytes="118980959.000000" n-dl-bytes="118980959.000000" converted-size="16889604.000000" n-pending="0" n-redirect="0" n-duplicates="0" n-deleted="0" n-cache-complete="0" n-awaiting-index-input="0" n-awaiting-index-reply="0" complete="complete" idle="idle" final="final"><converter-timings total-ms="89753"><converter-timing timing-name="Postscript (ps) to text" n="1" ms="803" bytes-in="1151730" bytes-out="1" /><converter-timing timing-name="PPT to XML" n="8" ms="1233" bytes-in="31078400" bytes-out="2229954" /><converter-timing timing-name="HTML to XML" n="139" ms="15607" bytes-in="14019667" bytes-out="13352655" /><converter-timing timing-name="Filetype generator" n="142" ms="3397" bytes-in="113197892" bytes-out="7383" /><converter-timing timing-name="XML to Vivisimo XML" n="130" ms="1095" bytes-in="2686419" bytes-out="3134321" /><converter-timing timing-name="Microsoft Excel" n="1" ms="16" bytes-in="39424" bytes-out="33363" /><converter-timing timing-name="Text to XML" n="1" ms="1" bytes-in="1" bytes-out="167" /><converter-timing timing-name="Type normalization" n-check="32" ms-check="147" bytes-in-check="5530112" /><converter-timing timing-name="PPT XML to HTML" n="8" ms="446" bytes-in="2229954" bytes-out="55003" /><converter-timing timing-name="Normalization" n="682" ms="7335" bytes-in="16663277" bytes-out="12916672" /><converter-timing timing-name="PDF to HTML" n="99" ms="51107" bytes-in="74525547" bytes-out="12615291" n-errors="1" ms-errors="43" bytes-in-errors="872679" /><converter-timing timing-name="Sharepoint Documents" n="412" ms="4609" bytes-in="1503662" bytes-out="176134" /><converter-timing timing-name="Microsoft Word to HTML" n="31" ms="3051" bytes-in="5144576" bytes-out="1316010" n-errors="1" ms-errors="18" bytes-in-errors="385536" /></converter-timings><crawl-hops-output><crawl-hop hop="0" n="1" /><crawl-hop hop="1" n="22" /><crawl-hop hop="2" n="46" /><crawl-hop hop="3" n="333" /><crawl-hop hop="4" n="282" /><crawl-hop hop="5" n="1" /></crawl-hops-output><crawl-hops-input><crawl-hop hop="0" n="0" /><crawl-hop hop="1" n="0" /><crawl-hop hop="2" n="0" /><crawl-hop hop="3" n="0" /><crawl-hop hop="4" n="0" /><crawl-hop hop="5" n="0" /></crawl-hops-input></crawler-status><vse-index-status identifier="Rxmsngny9iP8" slice="0" n-slices="1" version="6.0-0" start-time="1192864710" indexing-time="1548" indexed-urls="691" indexed-datas="826" indexed-docs="682" indexed-contents="4725" indexed-bytes="10006454" error-datas="0" error-items="0" n-docs="413" max-docs="413" config-md5="52bbde95715f0dcd59f8da6363ecbae7" running-time="1548" input-port="32491" input-token="RxmrxgvjmCP8" channel-port="1620" channel-token="Rxmrxgvj3SP8" idle="idle"><vse-serving port="28260" n-queries="6" n-cached-queries="0" n-pings="0" n-documents="288" n-no-documents="0" ms-queries="226" n-threads="2" n-idle-threads="2" /><vse-index-file name="viv_idx_6ANshO" fname="./viv_idx_6ANshO" type="index" size="8937472" at="1192864883" n-docs="401" max-docs="401" min-docid="0" max-docid="400"><vse-index-content name="doc#" n="494" words="0" /><vse-index-content name="last-modified" n="494" words="2154" /><vse-index-content name="host" n="494" words="704" /><vse-index-content name="description" n="60" words="918" /><vse-index-content name="acl#" n="1361" words="1553297" /><vse-index-content name="snippet" n="100" words="512155" /><vse-index-content name="url" n="494" words="4603" /><vse-index-content name="url#" n="496" words="527078" /><vse-index-content name="crawled-date" n="494" words="494" /><vse-index-content name="filetype" n="96" words="96" /><vse-index-content name="author" n="400" words="800" /><vse-index-content name="language" n="494" words="494" /><vse-index-content name="title" n="362" words="1174" /></vse-index-file><vse-index-file name="viv_idx_pIMVqc" fname="./viv_idx_pIMVqc" type="index" size="3603456" at="1192864900" n-docs="401" max-docs="401" min-docid="166" max-docid="279"><vse-index-content name="doc#" n="97" words="0" /><vse-index-content name="last-modified" n="97" words="97" /><vse-index-content name="host" n="97" words="97" /><vse-index-content name="acl#" n="290" words="736746" /><vse-index-content name="snippet" n="97" words="243640" /><vse-index-content name="url" n="97" words="797" /><vse-index-content name="url#" n="97" words="245776" /><vse-index-content name="crawled-date" n="97" words="97" /><vse-index-content name="filetype" n="45" words="45" /><vse-index-content name="language" n="97" words="97" /><vse-index-content name="title" n="42" words="237" /></vse-index-file><vse-index-file name="viv_idx_dMXBCk" fname="./viv_idx_dMXBCk" type="index" size="2085376" at="1192864925" n-docs="413" max-docs="413" min-docid="280" max-docid="412"><vse-index-content name="doc#" n="91" words="0" /><vse-index-content name="last-modified" n="91" words="145" /><vse-index-content name="host" n="91" words="115" /><vse-index-content name="description" n="6" words="93" /><vse-index-content name="acl#" n="261" words="345169" /><vse-index-content name="snippet" n="81" words="113521" /><vse-index-content name="url" n="91" words="661" /><vse-index-content name="url#" n="91" words="115340" /><vse-index-content name="crawled-date" n="91" words="91" /><vse-index-content name="filetype" n="1" words="1" /><vse-index-content name="author" n="12" words="24" /><vse-index-content name="language" n="91" words="91" /><vse-index-content name="title" n="13" words="30" /></vse-index-file><vse-index-cache-statuses block-size="8192"><vse-index-cache-status fname="./viv_idx_dMXBCk" core-size="4096"><vse-index-cache-status-segment i="0" size="8192" allocated="8192" last="0" /><vse-index-cache-status-segment i="1" size="1646592" allocated="1646592" last="0" /><vse-index-cache-status-segment i="2" size="417792" allocated="417792" last="0" /></vse-index-cache-status><vse-index-cache-status fname="./viv_idx_6ANshO" core-size="15872"><vse-index-cache-status-segment i="0" size="40960" allocated="40960" last="40960" /><vse-index-cache-status-segment i="1" size="7299072" allocated="7299072" last="7299072" /><vse-index-cache-status-segment i="2" size="1572864" allocated="1572864" last="1572864" /></vse-index-cache-status><vse-index-cache-status fname="./viv_idx_pIMVqc" core-size="6656"><vse-index-cache-status-segment i="0" size="8192" allocated="8192" last="8192" /><vse-index-cache-status-segment i="1" size="2891776" allocated="2891776" last="2891776" /><vse-index-cache-status-segment i="2" size="688128" allocated="688128" last="688128" /></vse-index-cache-status></vse-index-cache-statuses><vse-index-merge-status n-segments="1" n-indices="0" start="1192864925" to-read="2064384" read="2064384" written="2072576" end="1192864925" total-ms="1061" /><vse-index-merge-status n-segments="1" n-indices="0" start="1192864900" to-read="3571712" read="3571712" written="3588096" end="1192864900" total-ms="974" /><vse-index-merge-status n-segments="2" n-indices="1" start="1192864883" to-read="8945664" read="8945664" written="8912896" end="1192864884" total-ms="796" /><vse-index-merge-status n-segments="1" n-indices="2" start="1192864843" to-read="598016" read="598016" written="557056" end="1192864843" total-ms="119" /><vse-index-merge-status n-segments="1" n-indices="0" start="1192864831" to-read="131072" read="131072" written="139264" end="1192864831" total-ms="84" /><reconstructor-statuses ms="6320" n-pending="0"><reconstructor-status n-to-do="79" n-done="79" start="1192864925" end="1192864926" /><reconstructor-status n-to-do="12" n-done="12" start="1192864925" end="1192864925" /><reconstructor-status n-to-do="88" n-done="88" start="1192864900" end="1192864903" /><reconstructor-status n-to-do="9" n-done="9" start="1192864900" end="1192864900" /><reconstructor-status n-to-do="80" n-done="80" start="1192864884" end="1192864885" /><value-set-field name="last-modified" type="date" n-instances="682" data-bytes="3410" meta-bytes="0" /><value-set-field name="author" type="set" n-values="2" n-instances="412" data-bytes="824" meta-bytes="97" /><value-set-field name="filetype" type="set" n-values="5" n-instances="142" data-bytes="284" meta-bytes="139" /></reconstructor-statuses><la-scores-statuses><la-scores-status start="1192864926" pct="0.99" end="1192864926" /></la-scores-statuses><vse-index-builder-status elapsed="1300.32" n-urls="0" n-segments="0" ms="7737" /></vse-index-status></vse-status><vse-run which="live"><vse-index><run pid="9212" port="63571" path="/srv/www/htdocs/vivisimo//data/collections/sharepoint-2007/crawl0" cmd="/srv/www/htdocs/vivisimo/bin/services/indexer-service" /></vse-index></vse-run><vse-meta name="sharepoint-2007" creator="wall" create-time="1176754512" elt-id="1" max-elt-id="1" modified="1192864710" which="staging" push-toggle="push-toggle" /><vse-meta name="sharepoint-2007" creator="wall" create-time="1176754512" elt-id="1" max-elt-id="1" modified="1192864710" which="live" push-toggle="push-toggle" /><vse-test-it-values><test-it-values name="Rng9mQfCNko9" last-accessed="1182285211"><with name="test-xml"><![CDATA[<crawl-url url="http://sharepoint2007.vivisimo.com/Docs/Documents/Reports/Convera+Professional+Search+Survey+Summary+2006.pdf">
+  <curl-options>
+    <curl-option name="default-allow">allow</curl-option>
+    <curl-option name="default-acl"/>
+  </curl-options>
+</crawl-url>]]></with></test-it-values><test-it-values name="Rng9iASrK0nG" last-accessed="1182285197"><with name="test-xml"><![CDATA[<crawl-url url="sharepoint://sharepoint2007.vivisimo.com/Docs/?list=%7bB63C28C5-F568-4851-9949-E7BDE4AD6BDA%7d&amp;item=33">
+  <crawl-data acl="" content-type="application/sharepoint" encoding="xml" vse-key="http://sharepoint2007.vivisimo.com/Docs/Documents/Reports/Convera%2BProfessional%2BSearch%2BSurvey%2BSummary%2B2006.pdf">
+    <document url="http://sharepoint2007.vivisimo.com/Docs/Documents/Reports/Convera%2BProfessional%2BSearch%2BSurvey%2BSummary%2B2006.pdf">
+      <content name="ows_Author">1;#SHAREPOINT2007\Administrator</content>
+      <content name="ows_BaseName">Convera+Professional+Search+Survey+Summary+2006</content>
+      <content name="ows_CheckedOutTitle">33;#</content>
+      <content name="ows_CheckedOutUserId">33;#</content>
+      <content name="ows_Combine">0</content>
+      <content name="ows_ContentType">Document</content>
+      <content name="ows_ContentTypeId">0x01010056D04A33820770428BF88C146E772F6B</content>
+      <content name="ows_Created">2007-04-17T19:41:54Z</content>
+      <content name="ows_Created_x0020_By">SHAREPOINT2007\administrator</content>
+      <content name="ows_Created_x0020_Date">33;#2007-04-17T19:41:55Z</content>
+      <content name="ows_DocIcon">pdf</content>
+      <content name="ows_Edit">0</content>
+      <content name="ows_Editor">1;#SHAREPOINT2007\Administrator</content>
+      <content name="ows_EncodedAbsUrl">http://sharepoint2007.vivisimo.com/Docs/Documents/Reports/Convera+Professional+Search+Survey+Summary+2006.pdf</content>
+      <content name="ows_FSObjType">33;#0</content>
+      <content name="ows_FileDirRef">33;#Docs/Documents/Reports</content>
+      <content name="ows_FileLeafRef">33;#Convera+Professional+Search+Survey+Summary+2006.pdf</content>
+      <content name="ows_FileRef">33;#Docs/Documents/Reports/Convera+Professional+Search+Survey+Summary+2006.pdf</content>
+      <content name="ows_FileSizeDisplay">42555</content>
+      <content name="ows_File_x0020_Size">33;#42555</content>
+      <content name="ows_File_x0020_Type">pdf</content>
+      <content name="ows_GUID">{6718BCB9-131B-4DDE-A557-A3F0096620D4}</content>
+      <content name="ows_ID">33</content>
+      <content name="ows_IsCheckedoutToLocal">33;#0</content>
+      <content name="ows_Last_x0020_Modified">33;#2007-04-17T20:49:48Z</content>
+      <content name="ows_LinkFilename">Convera+Professional+Search+Survey+Summary+2006.pdf</content>
+      <content name="ows_LinkFilenameNoMenu">Convera+Professional+Search+Survey+Summary+2006.pdf</content>
+      <content name="ows_MetaInfo">33;#vti_parserversion:SR|12.0.0.4518 vti_modifiedby:SR|SHAREPOINT2007\\administrator ContentTypeId:SW|0x01010056D04A33820770428BF88C146E772F6B vti_author:SR|SHAREPOINT2007\\administrator </content>
+      <content name="ows_Modified">2007-04-17T20:49:48Z</content>
+      <content name="ows_Modified_x0020_By">SHAREPOINT2007\administrator</content>
+      <content name="ows_Order">3300.00000000000</content>
+      <content name="ows_ParentLeafName">33;#</content>
+      <content name="ows_ParentVersionString">33;#</content>
+      <content name="ows_PermMask">0x7fffffffffffffff</content>
+      <content name="ows_ProgId">33;#</content>
+      <content name="ows_RepairDocument">0</content>
+      <content name="ows_ScopeId">33;#{244A08AE-4A8C-4BA3-B14F-6593FDA3B6A5}</content>
+      <content name="ows_SelectFilename">33</content>
+      <content name="ows_SelectTitle">33</content>
+      <content name="ows_ServerUrl">/Docs/Documents/Reports/Convera+Professional+Search+Survey+Summary+2006.pdf</content>
+      <content name="ows_UniqueId">33;#{AB05BFAB-3562-491A-A9C0-4D4B9609437B}</content>
+      <content name="ows_VirusStatus">33;#42555</content>
+      <content name="ows_WorkflowVersion">1</content>
+      <content name="ows__CheckinComment">33;#</content>
+      <content name="ows__EditMenuTableEnd">33</content>
+      <content name="ows__EditMenuTableStart">Convera+Professional+Search+Survey+Summary+2006.pdf</content>
+      <content name="ows__IsCurrentVersion">1</content>
+      <content name="ows__Level">2</content>
+      <content name="ows__ModerationStatus">3</content>
+      <content name="ows__UIVersion">1</content>
+      <content name="ows__UIVersionString">0.1</content>
+      <content name="ows_owshiddenversion">2</content>
+    </document>
+  </crawl-data>
+</crawl-url>]]></with></test-it-values><test-it-values name="Rng9JghYk0gs" last-accessed="1182285101"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/Docs/?list=%7bB63C28C5-F568-4851-9949-E7BDE4AD6BDA%7d]]></with><with name="test-force"><![CDATA[test-force]]></with><with name="no-limit-enqueued"><![CDATA[no-limit-enqueued]]></with></test-it-values><test-it-values name="Rng81w18Akei" last-accessed="1182285024"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/Docs/?list=%7bB63C28C5-F568-4851-9949-E7BDE4AD6BDA%7d]]></with><with name="test-force"><![CDATA[test-force]]></with><with name="no-limit-enqueued"><![CDATA[no-limit-enqueued]]></with></test-it-values><test-it-values name="Rng8EQv4BkX8" last-accessed="1182284839"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/Docs/?list=%7bB63C28C5-F568-4851-9949-E7BDE4AD6BDA%7d]]></with><with name="test-force"><![CDATA[test-force]]></with><with name="no-limit-enqueued"><![CDATA[no-limit-enqueued]]></with></test-it-values><test-it-values name="Rng5xQosPDPj" last-accessed="1182284236"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/Docs/?list=%7bB63C28C5-F568-4851-9949-E7BDE4AD6BDA%7d]]></with><with name="test-force"><![CDATA[test-force]]></with><with name="no-limit-enqueued"><![CDATA[no-limit-enqueued]]></with></test-it-values><test-it-values name="Rng5XAC0hzHJ" last-accessed="1182284138"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/Docs/?list=%7bB63C28C5-F568-4851-9949-E7BDE4AD6BDA%7d]]></with></test-it-values><test-it-values name="Rng5UAy9JTHG" last-accessed="1182284112" /><test-it-values name="Rngo4QY3NH72" last-accessed="1182279917"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/]]></with></test-it-values><test-it-values name="RnfiVArl-R+O" last-accessed="1182261850" /><test-it-values name="RnffSwFfvGlf" last-accessed="1182261072"><with name="test-xml"><![CDATA[<crawl-url
+  url="sharepoint://sharepoint2007.vivisimo.com/News/?list=%7b9D1BD953-FDEB-43C4-84CC-32A3FC302DAB%7d&amp;item=2"
+>
+  <crawl-data acl="" content-type="application/sharepoint" encoding="xml"
+    vse-key="http://sharepoint2007.vivisimo.com/News/Pages/Article1.aspx"
+  >
+    <document url="http://sharepoint2007.vivisimo.com/News/Pages/Article1.aspx">
+      <content name="ows_Author">1;#SHAREPOINT2007\Administrator</content>
+      <content name="ows_BaseName">Article1</content>
+      <content name="ows_CheckedOutTitle">2;#</content>
+      <content name="ows_CheckedOutUserId">2;#</content>
+      <content name="ows_Combine">0</content>
+      <content name="ows_ContentType">Article Page</content>
+      <content name="ows_ContentTypeId">0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E973722919F0FC479BC7C36334696A6B</content>
+      <content name="ows_Created">2007-04-17T17:56:08Z</content>
+      <content name="ows_Created_x0020_Date">2;#2007-04-17T17:56:10Z</content>
+      <content name="ows_DocIcon">aspx</content>
+      <content name="ows_Edit">0</content>
+      <content name="ows_Editor">1;#SHAREPOINT2007\Administrator</content>
+      <content name="ows_EncodedAbsUrl">http://sharepoint2007.vivisimo.com/News/Pages/Article1.aspx</content>
+      <content name="ows_FSObjType">2;#0</content>
+      <content name="ows_FileDirRef">2;#News/Pages</content>
+      <content name="ows_FileLeafRef">2;#Article1.aspx</content>
+      <content name="ows_FileRef">2;#News/Pages/Article1.aspx</content>
+      <content name="ows_FileSizeDisplay">3135</content>
+      <content name="ows_File_x0020_Size">2;#3135</content>
+      <content name="ows_File_x0020_Type">aspx</content>
+      <content name="ows_GUID">{C224D3D9-3D95-400A-8D95-77E522A9090E}</content>
+      <content name="ows_ID">2</content>
+      <content name="ows_IsCheckedoutToLocal">2;#0</content>
+      <content name="ows_Last_x0020_Modified">2;#2007-04-17T17:56:10Z</content>
+      <content name="ows_LinkFilename">Article1.aspx</content>
+      <content name="ows_LinkFilenameNoMenu">Article1.aspx</content>
+      <content name="ows_MetaInfo"><![CDATA[2;#PublishingPageContent:SW|Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem vti_parserversion:SR|12.0.0.4518 ContentType:SW|Article Page vti_title:SR|Sample News Article vti_cachedtitle:SR|Sample News Article vti_charset:SR|utf-8 ContentTypeId:SW|0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E973722919F0FC479BC7C36334696A6B Comments:SW| vti_author:SR| vti_setuppath:SX|SiteTemplates\\SPSNHOME\\Article1.aspx PublishingPageLayout:SW|/_catalogs/masterpage/articleleft.aspx, Article page with image on left PublishingPageImage:SW|<img class="Align=&amp;&amp;Src=%2FPublishingImages%2Fnewsarticleimage%2Ejpg&amp;Href=&amp;Height=143&amp;Width=170&amp;HSpace=0&amp;VSpace=0&amp;Border=0&amp;"  border="0" hspace="0" src="/PublishingImages/newsarticleimage.jpg" vspace="0" Alt=""> vti_cachedneedsrewrite:BR|false vti_modifiedby:SR|SHAREPOINT2007\\administrator vti_cachedhastheme:BR|false vti_cachedcustomprops:VX|PublishingPageContent PublishingPageImage ContentType vti_title PublishingPageLayout Comments ]]]><![CDATA[]></content>
+      <content name="ows_Modified">2007-04-17T17:56:08Z</content>
+      <content name="ows_Modified_x0020_By">SHAREPOINT2007\administrator</content>
+      <content name="ows_Order">200.000000000000</content>
+      <content name="ows_ParentLeafName">2;#</content>
+      <content name="ows_ParentVersionString">2;#</content>
+      <content name="ows_PermMask">0x7fffffffffffffff</content>
+      <content name="ows_ProgId">2;#</content>
+      <content name="ows_PublishingPageContent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem</content>
+      <content name="ows_PublishingPageImage" />
+      <content name="ows_PublishingPageLayout">http://sharepoint2007.vivisimo.com/_catalogs/masterpage/articleleft.aspx, Article page with image on left</content>
+      <content name="ows_RepairDocument">0</content>
+      <content name="ows_ScopeId">2;#{244A08AE-4A8C-4BA3-B14F-6593FDA3B6A5}</content>
+      <content name="ows_SelectFilename">2</content>
+      <content name="ows_SelectTitle">2</content>
+      <content name="ows_ServerUrl">/News/Pages/Article1.aspx</content>
+      <content name="ows_Title">Sample News Article</content>
+      <content name="ows_UniqueId">2;#{C3F57992-082A-48F3-9FA4-DA6AE1ABEA5A}</content>
+      <content name="ows_VirusStatus">2;#3135</content>
+      <content name="ows_WorkflowVersion">1</content>
+      <content name="ows__CheckinComment">2;#</content>
+      <content name="ows__EditMenuTableEnd">2</content>
+      <content name="ows__EditMenuTableStart">Article1.aspx</content>
+      <content name="ows__IsCurrentVersion">1</content>
+      <content name="ows__Level">1</content>
+      <content name="ows__ModerationStatus">0</content>
+      <content name="ows__UIVersion">512</content>
+      <content name="ows__UIVersionString">1.0</content>
+      <content name="ows_owshiddenversion">2</content>
+    </document>
+  </crawl-data>
+</crawl-url>
+]]></with><with name="test-force"><![CDATA[test-force]]></with></test-it-values><test-it-values name="RnfdzgCI7GNh" last-accessed="1182260692"><with name="test-xml"><![CDATA[<crawl-url url="sharepoint://sharepoint2007.vivisimo.com/News/?list=%7b9D1BD953-FDEB-43C4-84CC-32A3FC302DAB%7d&amp;item=2">
+  <crawl-data acl="" content-type="application/sharepoint" encoding="xml" vse-key="http://sharepoint2007.vivisimo.com/News/Pages/Article1.aspx">
+    <document url="http://sharepoint2007.vivisimo.com/News/Pages/Article1.aspx">
+      <content name="ows_Author">1;#SHAREPOINT2007\Administrator</content>
+      <content name="ows_BaseName">Article1</content>
+      <content name="ows_CheckedOutTitle">2;#</content>
+      <content name="ows_CheckedOutUserId">2;#</content>
+      <content name="ows_Combine">0</content>
+      <content name="ows_ContentType">Article Page</content>
+      <content name="ows_ContentTypeId">0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E973722919F0FC479BC7C36334696A6B</content>
+      <content name="ows_Created">2007-04-17T17:56:08Z</content>
+      <content name="ows_Created_x0020_Date">2;#2007-04-17T17:56:10Z</content>
+      <content name="ows_DocIcon">aspx</content>
+      <content name="ows_Edit">0</content>
+      <content name="ows_Editor">1;#SHAREPOINT2007\Administrator</content>
+      <content name="ows_EncodedAbsUrl">http://sharepoint2007.vivisimo.com/News/Pages/Article1.aspx</content>
+      <content name="ows_FSObjType">2;#0</content>
+      <content name="ows_FileDirRef">2;#News/Pages</content>
+      <content name="ows_FileLeafRef">2;#Article1.aspx</content>
+      <content name="ows_FileRef">2;#News/Pages/Article1.aspx</content>
+      <content name="ows_FileSizeDisplay">3135</content>
+      <content name="ows_File_x0020_Size">2;#3135</content>
+      <content name="ows_File_x0020_Type">aspx</content>
+      <content name="ows_GUID">{C224D3D9-3D95-400A-8D95-77E522A9090E}</content>
+      <content name="ows_ID">2</content>
+      <content name="ows_IsCheckedoutToLocal">2;#0</content>
+      <content name="ows_Last_x0020_Modified">2;#2007-04-17T17:56:10Z</content>
+      <content name="ows_LinkFilename">Article1.aspx</content>
+      <content name="ows_LinkFilenameNoMenu">Article1.aspx</content>
+      <content name="ows_MetaInfo">2;#PublishingPageContent:SW|Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem vti_parserversion:SR|12.0.0.4518 ContentType:SW|Article Page vti_title:SR|Sample News Article vti_cachedtitle:SR|Sample News Article vti_charset:SR|utf-8 ContentTypeId:SW|0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D00E973722919F0FC479BC7C36334696A6B Comments:SW| vti_author:SR| vti_setuppath:SX|SiteTemplates\\SPSNHOME\\Article1.aspx PublishingPageLayout:SW|/_catalogs/masterpage/articleleft.aspx, Article page with image on left PublishingPageImage:SW|&lt;img class="Align=&amp;amp;&amp;amp;Src=%2FPublishingImages%2Fnewsarticleimage%2Ejpg&amp;amp;Href=&amp;amp;Height=143&amp;amp;Width=170&amp;amp;HSpace=0&amp;amp;VSpace=0&amp;amp;Border=0&amp;amp;"  border="0" hspace="0" src="/PublishingImages/newsarticleimage.jpg" vspace="0" Alt=""&gt; vti_cachedneedsrewrite:BR|false vti_modifiedby:SR|SHAREPOINT2007\\administrator vti_cachedhastheme:BR|false vti_cachedcustomprops:VX|PublishingPageContent PublishingPageImage ContentType vti_title PublishingPageLayout Comments </content>
+      <content name="ows_Modified">2007-04-17T17:56:08Z</content>
+      <content name="ows_Modified_x0020_By">SHAREPOINT2007\administrator</content>
+      <content name="ows_Order">200.000000000000</content>
+      <content name="ows_ParentLeafName">2;#</content>
+      <content name="ows_ParentVersionString">2;#</content>
+      <content name="ows_PermMask">0x7fffffffffffffff</content>
+      <content name="ows_ProgId">2;#</content>
+      <content name="ows_PublishingPageContent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem</content>
+      <content name="ows_PublishingPageImage"/>
+      <content name="ows_PublishingPageLayout">http://sharepoint2007.vivisimo.com/_catalogs/masterpage/articleleft.aspx, Article page with image on left</content>
+      <content name="ows_RepairDocument">0</content>
+      <content name="ows_ScopeId">2;#{244A08AE-4A8C-4BA3-B14F-6593FDA3B6A5}</content>
+      <content name="ows_SelectFilename">2</content>
+      <content name="ows_SelectTitle">2</content>
+      <content name="ows_ServerUrl">/News/Pages/Article1.aspx</content>
+      <content name="ows_Title">Sample News Article</content>
+      <content name="ows_UniqueId">2;#{C3F57992-082A-48F3-9FA4-DA6AE1ABEA5A}</content>
+      <content name="ows_VirusStatus">2;#3135</content>
+      <content name="ows_WorkflowVersion">1</content>
+      <content name="ows__CheckinComment">2;#</content>
+      <content name="ows__EditMenuTableEnd">2</content>
+      <content name="ows__EditMenuTableStart">Article1.aspx</content>
+      <content name="ows__IsCurrentVersion">1</content>
+      <content name="ows__Level">1</content>
+      <content name="ows__ModerationStatus">0</content>
+      <content name="ows__UIVersion">512</content>
+      <content name="ows__UIVersionString">1.0</content>
+      <content name="ows_owshiddenversion">2</content>
+    </document>
+  </crawl-data>
+</crawl-url>]]></with></test-it-values><test-it-values name="RnfdmQYB+2Ln" last-accessed="1182260648"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/News/?list=%7b9D1BD953-FDEB-43C4-84CC-32A3FC302DAB%7d]]></with><with name="test-force"><![CDATA[test-force]]></with></test-it-values><test-it-values name="RnfdjQc3HGLa" last-accessed="1182260622"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/News/?list=%7b9D1BD953-FDEB-43C4-84CC-32A3FC302DAB%7d]]></with></test-it-values><test-it-values name="RnfdgQo68WLP" last-accessed="1182260609" /><test-it-values name="Rnb6wwwTeRVt" last-accessed="1182202568"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/News/?list=%7b9D1BD953-FDEB-43C4-84CC-32A3FC302DAB%7d]]></with><with name="test-force"><![CDATA[test-force]]></with></test-it-values><test-it-values name="Rnb5mQYZ-xB4" last-accessed="1182202269"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/News/?list=%7b9D1BD953-FDEB-43C4-84CC-32A3FC302DAB%7d]]></with><with name="test-force"><![CDATA[test-force]]></with></test-it-values><test-it-values name="Rnb3NgP+SAhw" last-accessed="1182201658"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/News/?list=%7b9D1BD953-FDEB-43C4-84CC-32A3FC302DAB%7d]]></with><with name="test-force"><![CDATA[test-force]]></with></test-it-values><test-it-values name="Rnb26gBPDQc+" last-accessed="1182201583"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/News/?list=%7b9D1BD953-FDEB-43C4-84CC-32A3FC302DAB%7d]]></with><with name="test-force"><![CDATA[test-force]]></with></test-it-values><test-it-values name="Rnb2bgpkH30L" last-accessed="1182201460"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/News/?list=%7b9D1BD953-FDEB-43C4-84CC-32A3FC302DAB%7d]]></with><with name="test-force"><![CDATA[test-force]]></with></test-it-values><test-it-values name="RnbzZwCQCmem" last-accessed="1182200680"><with name="test-url"><![CDATA[sharepoint://sharepoint2007.vivisimo.com/News/?list=%7b9D1BD953-FDEB-43C4-84CC-32A3FC302DAB%7d]]></with></test-it-values><test-it-values name="RnbzYQIf3Geh" last-accessed="1182200673" /></vse-test-it-values><collection-service-status><remote-status user="gary_testing" password="{vcrypt}TMWiymi8UsQ9QvtqWkxuhw==" email="williams@vivisimo.com" admin-url="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin" /></collection-service-status></vse-collection>

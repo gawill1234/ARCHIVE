@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="6" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="0" />
+<attribute name="retrieval-ms" value="16" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="1" />
+<attribute name="cache-hits-content-retrieval" value="0" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="15" />
+<attribute name="cache-misses-text" value="22" />
+<attribute name="total-results-with-duplicates" value="6" />
+<document status="complete"
+  vse-key="file://:80/C:\smoke_test\searchdocs/freetds-0.63.tar/"
+  conversion-time="3906"
+  url="file:///C%3a%5csmoke_test%5csearchdocs/freetds-0.63.tar"
+  vse-base-score="1.99805" la-score="4.18965"
+>
+  <cache u="0" ct="text/plain" acl="+users&#10;+system&#10;+administrators" />
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="1" v="153002" />
+      <pre u="146" v="165">h_
+
+static const char rcsid_bkpublic_h[] = "$Id: freetds-0.63.tar,v 1.1 2006/10/02 19:49:41 </pre>
+      <match u="166" v="166">williams </match>
+      <post u="167" v="186">Exp $";
+static const void *const no_unused_bkpublic_h_warn[] = { rcsid_bkpublic_h, no_unused_bkpublic_h_warn };
+
+/* seperate this </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="1" v="153002" />
+      <pre u="662" v="681">endif
+
+static const char rcsid_cspublic_h[] = "$Id: freetds-0.63.tar,v 1.1 2006/10/02 19:49:41 </pre>
+      <match u="682" v="682">williams </match>
+      <post u="683" v="702">Exp $";
+static const void *const no_unused_cspublic_h_warn[] = { rcsid_cspublic_h, no_unused_cspublic_h_warn };
+
+typedef int </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="1" v="153002" />
+      <pre u="4239" v="4258">endif
+
+static const char rcsid_cstypes_h[] = "$Id: freetds-0.63.tar,v 1.1 2006/10/02 19:49:41 </pre>
+      <match u="4259" v="4259">williams </match>
+      <post u="4260" v="4279">Exp $";
+static const void *const no_unused_cstypes_h_warn[] = { rcsid_cstypes_h, no_unused_cstypes_h_warn };
+
+
+#ifdef __cplusplus
+#</post>
+    </solution>
+    <solution rank="3" score="1">
+      <content type="text" name="snippet" u="1" v="153002" />
+      <pre u="4440" v="4459">endif
+
+static const char rcsid_ctpublic_h[] = "$Id: freetds-0.63.tar,v 1.1 2006/10/02 19:49:41 </pre>
+      <match u="4460" v="4460">williams </match>
+      <post u="4461" v="4480">Exp $";
+static const void *const no_unused_ctpublic_h_warn[] = { rcsid_ctpublic_h, no_unused_ctpublic_h_warn };
+
+
+CS_RETCODE </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content type="text" name="snippet" u="1" v="153002" />
+      <pre u="5215" v="5234">h>
+
+
+static const char rcsid_sqldb_h[] = "$Id: freetds-0.63.tar,v 1.1 2006/10/02 19:49:41 </pre>
+      <match u="5235" v="5235">williams </match>
+      <post u="5236" v="5255">Exp $";
+static const void *const no_unused_sqldb_h_warn[] = { rcsid_sqldb_h, no_unused_sqldb_h_warn };
+
+
+#endif
+
+   664    </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... v 1.1 2006/10/02 19:49:41 williams Exp $";
+static const void *const no_unused_bkpublic_ ... v 1.1 2006/10/02 19:49:41 williams Exp $";
+static const void *const no_unused_cspublic_ ... </content>
+</document>
+<document status="complete"
+  vse-key="file://:80/C:\smoke_test\searchdocs/junk.rtf/" conversion-time="156"
+  url="file:///C%3a%5csmoke_test%5csearchdocs/junk.rtf" vse-base-score="1"
+  la-score="4.18965"
+>
+  <cache u="0" ct="text/plain" acl="+users&#10;+system&#10;+administrators" />
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="1" v="3740" />
+      <pre u="615" v="634">launching new business channels.  Ed holds a BA from the University of Maryland and an MBA from the College of </pre>
+      <match u="635" v="635">William </match>
+      <post u="636" v="655">and Mary.
+
+Andrew Cox, Software Engineer
+Andrew graduated from James Madison University in Virginia in 2001 with a B.S. in </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Maryland and an MBA from the College of William and Mary.
+
+Andrew Cox, Software Engineer
+Andrew graduated  ... </content>
+</document>
+<document status="complete"
+  vse-key="file://:80/C:\smoke_test\searchdocs/junk2.rtf/" conversion-time="141"
+  url="file:///C%3a%5csmoke_test%5csearchdocs/junk2.rtf" vse-base-score="1"
+  la-score="4.18965"
+>
+  <cache u="0" ct="text/plain" acl="+users&#10;+system&#10;+administrators" />
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="1" v="3818" />
+      <pre u="615" v="634">launching new business channels.  Ed holds a BA from the University of Maryland and an MBA from the College of </pre>
+      <match u="635" v="635">William </match>
+      <post u="636" v="655">and Mary.
+
+Andrew Cox, Software Engineer
+Andrew graduated from James Madison University in Virginia in 2001 with a B.S. in </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Maryland and an MBA from the College of William and Mary.
+
+Andrew Cox, Software Engineer
+Andrew graduated  ... </content>
+</document>
+<document status="complete"
+  vse-key="file://:80/C:\smoke_test\searchdocs/junk3.rtf/" conversion-time="109"
+  url="file:///C%3a%5csmoke_test%5csearchdocs/junk3.rtf" vse-base-score="1"
+  la-score="4.18965"
+>
+  <cache u="0" ct="text/plain" acl="+users&#10;+system&#10;+administrators" />
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="1" v="3723" />
+      <pre u="615" v="634">launching new business channels.  Ed holds a BA from the University of Maryland and an MBA from the College of </pre>
+      <match u="635" v="635">William </match>
+      <post u="636" v="655">and Mary.
+
+Andrew Cox, Software Engineer
+Andrew graduated from James Madison University in Virginia in 2001 with a B.S. in </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Maryland and an MBA from the College of William and Mary.
+
+Andrew Cox, Software Engineer
+Andrew graduated  ... </content>
+</document>
+<document status="complete"
+  vse-key="file://:80/C:\smoke_test\searchdocs/Vivisimo_Bios.rtf/"
+  conversion-time="188"
+  url="file:///C%3a%5csmoke_test%5csearchdocs/Vivisimo_Bios.rtf" vse-base-score="1"
+  la-score="4.18965"
+>
+  <cache u="0" ct="text/plain" acl="+users&#10;+system&#10;+administrators" />
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="1" v="3723" />
+      <pre u="615" v="634">launching new business channels.  Ed holds a BA from the University of Maryland and an MBA from the College of </pre>
+      <match u="635" v="635">William </match>
+      <post u="636" v="655">and Mary.
+
+Andrew Cox, Software Engineer
+Andrew graduated from James Madison University in Virginia in 2001 with a B.S. in </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Maryland and an MBA from the College of William and Mary.
+
+Andrew Cox, Software Engineer
+Andrew graduated  ... </content>
+</document>
+<document status="complete"
+  vse-key="file://:80/C:\smoke_test\searchdocs/xml-edit-otf/"
+  conversion-time="2109" url="file:///C%3a%5csmoke_test%5csearchdocs/xml-edit-otf"
+  vse-base-score="1" la-score="4.18965"
+>
+  <cache u="0" ct="text/plain" acl="+users&#10;+system&#10;+administrators" />
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="1" v="37380" />
+      <pre u="26130" v="26149">built on: %s Wed Aug 30 15:10:03 EDT 2006 compiler: %s platform: %s linux-x86_64
+  OPENSSLDIR: "/checkouts/</pre>
+      <match u="26150" v="26150">williams
+</match>
+      <post u="26151" v="26170">o/openssl/ssl"  gcc -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -DOPENSSL_NO_KRB5 -fPIC -m64 -DL_ENDIAN -</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... s platform: %s linux-x86_64
+  OPENSSLDIR: "/checkouts/williams
+o/openssl/ssl"  gcc -DOPENSSL_THREADS -D_REENTRANT - ... </content>
+</document>
+</scope>

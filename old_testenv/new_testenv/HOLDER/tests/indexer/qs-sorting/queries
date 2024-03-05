@@ -1,0 +1,24 @@
+#query::collection::number_of_urls::compare_file::new_file
+#
+#   special codes in strings: (yes, I know it is screwy but it greatly
+#                              simplifies processing ...)
+#      <2eq> will become '=='
+#      <eq> will become '='
+#      <empty> will become ''
+#      <cr> will become '\n' (newline)
+#      <sp> will become ' '
+#
+#   To add more changes go in:
+#      $TEST_ROOT/lib/queryObj.py in set_other_opts()
+#
+##############################################
+#
+#   Basic queries
+#
+::qs-sorting::1000::sorted..field1::num=1000&sort-by=field1&output-score=true&profile=true
+filler 0::qs-sorting::13::0..sorted..score::num=1000&sort-by=score&output-score=true&profile=true
+data 23::qs-sorting::12::sorted..url::num=1000&sort-by=url&output-score=true&profile=true
+::qs-sorting::1000::sorted..date::num=1000&sort-by=date&output-score=true&profile=true
+::qs-sorting::1000::score..sorted::num=1000&sort-score-xpath=$score+string-length($url)&output-score=true&profile=true
+much 60::qs-sorting::14::much..sorted..xpath..date::num=1000&sort-xpaths=sortxpath1.xml&output-score=true&profile=true
+::qs-sorting::1000::sorted..multiple..xpaths::num=1000&sort-xpaths=sortxpath2.xml&output-score=true&profile=true

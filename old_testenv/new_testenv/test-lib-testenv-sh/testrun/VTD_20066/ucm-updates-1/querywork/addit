@@ -1,0 +1,37 @@
+Going no ports route
+myConnection:UCM
+UCM, here I come ...
+PORT: 4444
+SITE: wcc-qa.bigdatalab.ibm.com
+[2013-09-16 09:22:14,138] [main] INFO  (com.stellent.cis.impl.CISApplicationFactory) - Initialized CIS logging using log file: [default]
+[2013-09-16 09:22:14,138] [main] INFO  (com.stellent.cis.impl.CISApplicationFactory) - 
++-----------------
+| CIS using IsolatedJarClassLoader
+| Location: /tmp/tmp-mgr-449007409507157904.tmp/cis-loader8353470281034843750.tmp
++-----------------
+[2013-09-16 09:22:14,169] [main] WARN  (com.stellent.cis.impl.CISApplication) - No adapter config specified at property 'cis.config.server.adapterconfig'
+[2013-09-16 09:22:15,032] [main] INFO  (com.stellent.cis.impl.CISApplication) - 
+ +------------------------------ 
+ | Initialized Content Integration Suite 10g Release 3 (10.1.3.3.3) [server] 
+ |  	Version: 8.0.0.3 (Build 2007.1031.1353) 
+ |  	Server Type: standalone [ejb=false, rmi=false] 
+ |  	Server Configuration: [/META-INF/resources/server/cis-services.jxml] 
+ |  	Adapter Configuration: null 
+ |  	Temporary File Location: /tmp/generic/cis-8.0.0.3 
+ +------------------------------
+[2013-09-16 09:22:15,197] [main] WARN  (com.stellent.cis.server.api.scs.event.impl.SCSEventPoller) - Event poller for adapter '588e07b9-b93f-4db9-ae04-30e1c76b9447' not enabled, no events will be generated
+log4j:WARN No appenders could be found for logger (net.entropysoft.eci.oracle.ucm.util.Properties).
+log4j:WARN Please initialize the log4j system properly.
+Desc: Folder
+UID:  folderType
+Base: folder
+Desc: Folder Shortcut
+UID:  linkType=1
+Base: folder
+WORKING ON: /Contribution Folders/testenv/test_data/document/PPTX
+WORKING ON-2: /Contribution Folders/testenv/test_data/document/PPTX
+Interwoven.pptx
+   Deleting(B) /Contribution Folders/testenv/test_data/document/PPTX
+HANGER /Contribution Folders/testenv/test_data/document
+MYPATH:/Contribution Folders/testenv/test_data/document/PPTX:
+Deleting:  /Contribution Folders/testenv/test_data/document/PPTX

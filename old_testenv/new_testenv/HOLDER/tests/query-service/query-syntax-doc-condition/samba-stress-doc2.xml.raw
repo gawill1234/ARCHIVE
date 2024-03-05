@@ -1,0 +1,14 @@
+<source name="samba-stress-doc2" maintainers="gary_testing" test-strictly="test-strictly" modified-by="gary_testing" max-elt-id="22" modified="1225915257">
+  <submit>
+
+    <form>
+      <call-function name="vse_form">
+        <with name="collection">samba-stress</with>
+        <with name="doc-condition-xml">language:+spanish</with>
+      </call-function>
+    </form>
+  </submit>
+  <tests/>
+  <help/>
+  <description/>
+</source>

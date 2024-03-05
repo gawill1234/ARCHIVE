@@ -1,0 +1,44 @@
+#
+#   Do not change
+#   These must be set or nothing will work.
+#
+export TEST_ROOT=`pwd`
+export PATH=$PATH:$TEST_ROOT/bin:$TEST_ROOT/utils/bin
+export PYTHONPATH=$PYTHONPATH:$TEST_ROOT/lib
+
+#######################################
+#
+#   Change to match your setup.
+#   After, type ". setup"
+#   RUN THIS IN THE DIRECTORY THIS FILE IS IN.
+#
+#   Your target host
+#   Default is 127.0.0.1
+#
+export VIVHOST=pawlowski-bugfix.dev.vivisimo.com
+#
+#   Your target search port
+#   Default is 7205
+#
+export VIVPORT=7299
+#
+#   Your target host operating system
+#   Default is linux
+#
+export VIVTARGETOS=linux
+#
+#   Your Vivisimo user id
+#   No default.  Must be set.
+#
+export VIVUSER=pawlowski
+#
+#   Your Vivisimo password
+#   No default.  Must be set.
+#
+export VIVPW=gom08537
+#
+#   Your Vivisimo virtual directory
+#   Default is vivisimo.
+#
+export VIVVIRTUALDIR=vivisimo
+

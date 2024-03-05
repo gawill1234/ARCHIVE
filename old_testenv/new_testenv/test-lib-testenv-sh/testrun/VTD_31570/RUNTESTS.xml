@@ -1,0 +1,49 @@
+<pid>31570</pid>
+<sdate>2013-09-09</sdate>
+<stime>1378755217</stime>
+<test>
+<pid>31572</pid>
+<stime>1378755217</stime>
+<name>wcc-continuous-1</name>
+<parent>/UNKNOWN/UNKNOWN</parent>
+<loc>/home/gaw/new_testenv/test-lib-testenv-sh/testrun/VTD_31570/wcc-continuous-1</loc>
+<path>/home/gaw/new_testenv/test-lib-testenv-sh/tests/connector/OracleUCM/wcc-continuous-update-1</path>
+<info>./wcc-continuous-1.tst</info>
+<result>Test Passed</result>
+<etime>1378757423</etime>
+</test>
+<test>
+<pid>10924</pid>
+<stime>1378757423</stime>
+<name>ucm-updates-1</name>
+<parent>/UNKNOWN/UNKNOWN</parent>
+<loc>/home/gaw/new_testenv/test-lib-testenv-sh/testrun/VTD_31570/ucm-updates-1</loc>
+<path>/home/gaw/new_testenv/test-lib-testenv-sh/tests/connector/OracleUCM/ucm-updates-1</path>
+<info>./ucm-updates-1.tst -v WCC</info>
+<result>Test Passed</result>
+<etime>1378758309</etime>
+</test>
+<test>
+<pid>8455</pid>
+<stime>1378758309</stime>
+<name>wcc-continuous-2</name>
+<parent>/UNKNOWN/UNKNOWN</parent>
+<loc>/home/gaw/new_testenv/test-lib-testenv-sh/testrun/VTD_31570/wcc-continuous-2</loc>
+<path>/home/gaw/new_testenv/test-lib-testenv-sh/tests/connector/OracleUCM/wcc-continuous-update-2</path>
+<info>./wcc-continuous-2.tst</info>
+<result>Test Passed</result>
+<etime>1378761409</etime>
+</test>
+<test>
+<pid>14148</pid>
+<stime>1378761409</stime>
+<name>ucm-basic-1</name>
+<parent>/UNKNOWN/UNKNOWN</parent>
+<loc>/home/gaw/new_testenv/test-lib-testenv-sh/testrun/VTD_31570/ucm-basic-1</loc>
+<path>/home/gaw/new_testenv/test-lib-testenv-sh/tests/connector/OracleUCM/ucm-basic-1</path>
+<info>./ucm-basic-1.tst -v WCC</info>
+<result>Test Failed</result>
+<etime>1378784729</etime>
+</test>
+<edate>2013-09-09</edate>
+<etime>1378784729</etime>

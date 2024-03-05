@@ -1,0 +1,1340 @@
+update vessel_url
+   set vessel_id = 0;
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Abdiel')
+where vessel_name = 'Abdiel';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Abercrombie')
+where vessel_name = 'Abercrombie';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Acasta')
+where vessel_name = 'Acasta';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Achates')
+where vessel_name = 'Achates';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Acheron')
+where vessel_name = 'Acheron';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Active')
+where vessel_name = 'Active';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Activity')
+where vessel_name = 'Activity';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Admiral Graf Spee')
+where vessel_name = 'Admiral Graf Spee';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Admiral Hipper')
+where vessel_name = 'Admiral Hipper';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Admiral Scheer')
+where vessel_name = 'Admiral Scheer';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Afridi')
+where vessel_name = 'Afridi';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Agano')
+where vessel_name = 'Agano';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Akagi')
+where vessel_name = 'Akagi';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Alan A. Dale')
+where vessel_name = 'Alan A. Dale';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Alaska')
+where vessel_name = 'Alaska';
+update vessel_url
+set vessel_id = (
+    select distinct(vessel_id) from vessel 
+    where vessel_name = 'Alden' and nation = 'Chile')
+where vessel_name = 'Alden';
+update vessel_url
+set vessel_id = (
+    select distinct(vessel_id) from vessel 
+    where vessel_name = 'Alden' and nation = 'USA')
+where vessel_name = 'Alden' and not vessel_id = 0;
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Algérie')
+where vessel_name = 'Algérie';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Almirante Brown')
+where vessel_name = 'Almirante Brown';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Almirante Condell')
+where vessel_name = 'Almirante Condell';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Almirante Latorre')
+where vessel_name = 'Almirante Latorre';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Almirante Lynch')
+where vessel_name = 'Almirante Lynch';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Almirante Simpson')
+where vessel_name = 'Almirante Simpson';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Amagi')
+where vessel_name = 'Amagi';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Amazon')
+where vessel_name = 'Amazon';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ambuscade')
+where vessel_name = 'Ambuscade';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ameer')
+where vessel_name = 'Ameer';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Andrea Doria')
+where vessel_name = 'Andrea Doria';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Anson')
+where vessel_name = 'Anson';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Antelope')
+where vessel_name = 'Antelope';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Anthony')
+where vessel_name = 'Anthony';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Antioquia')
+where vessel_name = 'Antioquia';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Apollo')
+where vessel_name = 'Apollo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Aquila')
+where vessel_name = 'Aquila';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Arbiter')
+where vessel_name = 'Arbiter';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Archer')
+where vessel_name = 'Archer';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ardent')
+where vessel_name = 'Ardent';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Argus')
+where vessel_name = 'Argus';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ariadne')
+where vessel_name = 'Ariadne';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Arizona')
+where vessel_name = 'Arizona';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Arkansas')
+where vessel_name = 'Arkansas';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ark Royal')
+where vessel_name = 'Ark Royal';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Arrow')
+where vessel_name = 'Arrow';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Arteveld')
+where vessel_name = 'Arteveld';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Arunta')
+where vessel_name = 'Arunta';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ashanti')
+where vessel_name = 'Ashanti';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Athabaskan')
+where vessel_name = 'Athabaskan';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Athabaskan')
+where vessel_name = 'Athabaskan';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Atheling')
+where vessel_name = 'Atheling';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Atlantis')
+where vessel_name = 'Atlantis';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Attacker')
+where vessel_name = 'Attacker';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Attacker')
+where vessel_name = 'Attacker';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Attilio Regolo')
+where vessel_name = 'Attilio Regolo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Audacity')
+where vessel_name = 'Audacity';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Avenger')
+where vessel_name = 'Avenger';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ayanami')
+where vessel_name = 'Ayanami';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Bahia')
+where vessel_name = 'Bahia';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Baltimore')
+where vessel_name = 'Baltimore';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Barbara')
+where vessel_name = 'Barbara';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Barham')
+where vessel_name = 'Barham';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Basilisk')
+where vessel_name = 'Basilisk';
+update vessel_url
+set vessel_id = (
+    select distinct(vessel_id) from vessel 
+    where vessel_name = 'Bataan' and des_code = 'CVL')
+where vessel_name = 'Bataan';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Beagle')
+where vessel_name = 'Beagle';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Béarn')
+where vessel_name = 'Béarn';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Bedouin')
+where vessel_name = 'Bedouin';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Begum')
+where vessel_name = 'Begum';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Bermuda')
+where vessel_name = 'Bermuda';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Birmingham')
+where vessel_name = 'Birmingham';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Bismarck')
+where vessel_name = 'Bismarck';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Biter')
+where vessel_name = 'Biter';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Blanche')
+where vessel_name = 'Blanche';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Blanco Encalada')
+where vessel_name = 'Blanco Encalada';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Block Island')
+where vessel_name = 'Block Island';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Blücher')
+where vessel_name = 'Blücher';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Błyskawica')
+where vessel_name = 'Błyskawica';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Boadicea')
+where vessel_name = 'Boadicea';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Bogue')
+where vessel_name = 'Bogue';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Boreas')
+where vessel_name = 'Boreas';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Brazen')
+where vessel_name = 'Brazen';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Breese')
+where vessel_name = 'Breese';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Bretagne')
+where vessel_name = 'Bretagne';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Brilliant')
+where vessel_name = 'Brilliant';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Brooklyn')
+where vessel_name = 'Brooklyn';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Buenos Aires')
+where vessel_name = 'Buenos Aires';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Bulldog')
+where vessel_name = 'Bulldog';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Burza')
+where vessel_name = 'Burza';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Caldas')
+where vessel_name = 'Caldas';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'California')
+where vessel_name = 'California';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Campania')
+where vessel_name = 'Campania';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Capetown')
+where vessel_name = 'Capetown';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Capitan O''Brien')
+where vessel_name = 'Capitan O''Brien';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Capitan Thompson')
+where vessel_name = 'Capitan Thompson';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Casablanca')
+where vessel_name = 'Casablanca';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Catamarca')
+where vessel_name = 'Catamarca';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Cayuga')
+where vessel_name = 'Cayuga';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ceres')
+where vessel_name = 'Ceres';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Cervantes')
+where vessel_name = 'Cervantes';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ceylon')
+where vessel_name = 'Ceylon';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Chacabuco')
+where vessel_name = 'Chacabuco';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Chao Ho')
+where vessel_name = 'Chao Ho';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Charger')
+where vessel_name = 'Charger';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Chitose')
+where vessel_name = 'Chitose';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Chiyoda')
+where vessel_name = 'Chiyoda';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Clemson')
+where vessel_name = 'Clemson';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Cleveland')
+where vessel_name = 'Cleveland';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Codrington')
+where vessel_name = 'Codrington';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Colbert')
+where vessel_name = 'Colbert';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Colhoun')
+where vessel_name = 'Colhoun';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Colossus')
+where vessel_name = 'Colossus';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Commencement Bay')
+where vessel_name = 'Commencement Bay';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Conte di Cavour')
+where vessel_name = 'Conte di Cavour';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Corrientes')
+where vessel_name = 'Corrientes';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Cossack')
+where vessel_name = 'Cossack';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Cossatot')
+where vessel_name = 'Cossatot';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Courageous')
+where vessel_name = 'Courageous';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Dahlgren')
+where vessel_name = 'Dahlgren';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Dannebrog')
+where vessel_name = 'Dannebrog';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Dasher')
+where vessel_name = 'Dasher';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Deutschland')
+where vessel_name = 'Deutschland';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Deutschland')
+where vessel_name = 'Deutschland';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Devonshire')
+where vessel_name = 'Devonshire';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Duguay-Trouin')
+where vessel_name = 'Duguay-Trouin';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Duke of York')
+where vessel_name = 'Duke of York';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Dunkerque')
+where vessel_name = 'Dunkerque';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Dupleix')
+where vessel_name = 'Dupleix';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Eagle')
+where vessel_name = 'Eagle';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Edinburgh')
+where vessel_name = 'Edinburgh';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Eidsvold')
+where vessel_name = 'Eidsvold';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'El Amir Farouq')
+where vessel_name = 'El Amir Farouq';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Emerald')
+where vessel_name = 'Emerald';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Emile Bertin')
+where vessel_name = 'Emile Bertin';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Emperor')
+where vessel_name = 'Emperor';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Empire MacAlpine')
+where vessel_name = 'Empire MacAlpine';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Empire MacAndrew')
+where vessel_name = 'Empire MacAndrew';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Empire MacCabe')
+where vessel_name = 'Empire MacCabe';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Empire MacCallum')
+where vessel_name = 'Empire MacCallum';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Empire MacColl')
+where vessel_name = 'Empire MacColl';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Empire MacDermott')
+where vessel_name = 'Empire MacDermott';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Empire MacKay')
+where vessel_name = 'Empire MacKay';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Empire MacKendrick')
+where vessel_name = 'Empire MacKendrick';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Empire MacMahon')
+where vessel_name = 'Empire MacMahon';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Empire MacRae')
+where vessel_name = 'Empire MacRae';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Empress')
+where vessel_name = 'Empress';
+update vessel_url
+set vessel_id = (
+    select distinct(vessel_id) from vessel 
+    where vessel_name = 'Enterprise' and des_code = 'CV')
+where vessel_name = 'Enterprise';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Entre Rios')
+where vessel_name = 'Entre Rios';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Erebus')
+where vessel_name = 'Erebus';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Eskimo')
+where vessel_name = 'Eskimo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Exeter')
+where vessel_name = 'Exeter';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Fiji')
+where vessel_name = 'Fiji';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Flores')
+where vessel_name = 'Flores';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Foch')
+where vessel_name = 'Foch';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Formidable')
+where vessel_name = 'Formidable';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Fu An')
+where vessel_name = 'Fu An';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Furious')
+where vessel_name = 'Furious';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Fuso')
+where vessel_name = 'Fuso';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Fyen')
+where vessel_name = 'Fyen';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Gadila')
+where vessel_name = 'Gadila';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Gambia')
+where vessel_name = 'Gambia';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'General Belgrano')
+where vessel_name = 'General Belgrano';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'General Pueyrredon')
+where vessel_name = 'General Pueyrredon';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'George Leygues')
+where vessel_name = 'George Leygues';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Giulio Cesare')
+where vessel_name = 'Giulio Cesare';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Gloire')
+where vessel_name = 'Gloire';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Glorious')
+where vessel_name = 'Glorious';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Glory')
+where vessel_name = 'Glory';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Gneisenau')
+where vessel_name = 'Gneisenau';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Goldsborough')
+where vessel_name = 'Goldsborough';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Goodall')
+where vessel_name = 'Goodall';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Graf Spee')
+where vessel_name = 'Graf Spee';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Greenhalgh')
+where vessel_name = 'Greenhalgh';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Grom')
+where vessel_name = 'Grom';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Guam')
+where vessel_name = 'Guam';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Gurkha')
+where vessel_name = 'Gurkha';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hai Chao')
+where vessel_name = 'Hai Chao';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hai Chen')
+where vessel_name = 'Hai Chen';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hai Chi')
+where vessel_name = 'Hai Chi';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hai Chou')
+where vessel_name = 'Hai Chou';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Haida')
+where vessel_name = 'Haida';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hai Yung')
+where vessel_name = 'Hai Yung';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hawaii')
+where vessel_name = 'Hawaii';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hayatake')
+where vessel_name = 'Hayatake';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hekla')
+where vessel_name = 'Hekla';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hermes')
+where vessel_name = 'Hermes';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hiei')
+where vessel_name = 'Hiei';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hiryu')
+where vessel_name = 'Hiryu';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hiyo')
+where vessel_name = 'Hiyo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hobart')
+where vessel_name = 'Hobart';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hood')
+where vessel_name = 'Hood';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hosho')
+where vessel_name = 'Hosho';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Howe')
+where vessel_name = 'Howe';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Huascar')
+where vessel_name = 'Huascar';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Humaito')
+where vessel_name = 'Humaito';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Huron')
+where vessel_name = 'Huron';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hvidbjørnen')
+where vessel_name = 'Hvidbjørnen';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hyatt')
+where vessel_name = 'Hyatt';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hyuga')
+where vessel_name = 'Hyuga';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Illustrious')
+where vessel_name = 'Illustrious';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ilmarinen')
+where vessel_name = 'Ilmarinen';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Implacable')
+where vessel_name = 'Implacable';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Indefatigable')
+where vessel_name = 'Indefatigable';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Independencia')
+where vessel_name = 'Independencia';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Indianapolis')
+where vessel_name = 'Indianapolis';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Indomitable')
+where vessel_name = 'Indomitable';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ingolf')
+where vessel_name = 'Ingolf';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Iowa')
+where vessel_name = 'Iowa';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Iroquois')
+where vessel_name = 'Iroquois';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ise')
+where vessel_name = 'Ise';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Jaguaribe')
+where vessel_name = 'Jaguaribe';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Jamaica')
+where vessel_name = 'Jamaica';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Japura')
+where vessel_name = 'Japura';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Javary')
+where vessel_name = 'Javary';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Jean de Vienne')
+where vessel_name = 'Jean de Vienne';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Jeanne D''Arc')
+where vessel_name = 'Jeanne D''Arc';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Jivoochyi')
+where vessel_name = 'Jivoochyi';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Juan de Garay')
+where vessel_name = 'Juan de Garay';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Jujuy')
+where vessel_name = 'Jujuy';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Junyo')
+where vessel_name = 'Junyo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Jurua')
+where vessel_name = 'Jurua';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Juruena')
+where vessel_name = 'Juruena';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Jutahy')
+where vessel_name = 'Jutahy';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Kaga')
+where vessel_name = 'Kaga';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Kaganovich')
+where vessel_name = 'Kaganovich';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Kaiyo')
+where vessel_name = 'Kaiyo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Kalinin')
+where vessel_name = 'Kalinin';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Karlsruhe')
+where vessel_name = 'Karlsruhe';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Keith')
+where vessel_name = 'Keith';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Kent')
+where vessel_name = 'Kent';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Kenya')
+where vessel_name = 'Kenya';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Khedive')
+where vessel_name = 'Khedive';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'King George V')
+where vessel_name = 'King George V';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Kirishima')
+where vessel_name = 'Kirishima';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Kirov')
+where vessel_name = 'Kirov';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Köln')
+where vessel_name = 'Köln';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Kongo')
+where vessel_name = 'Kongo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Königsberg')
+where vessel_name = 'Königsberg';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Kormoran')
+where vessel_name = 'Kormoran';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Kuma')
+where vessel_name = 'Kuma';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'La Argentina')
+where vessel_name = 'La Argentina';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'La Galissonniere')
+where vessel_name = 'La Galissonniere';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'La Rioja')
+where vessel_name = 'La Rioja';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Latona')
+where vessel_name = 'Latona';
+
+update vessel_url
+set vessel_id =
+    (select distinct(vessel_id) from vessel
+     where vessel_name = 'Leander' and des_code = 'CL')
+where vessel_name = 'Leander';
+
+update vessel_url
+set vessel_id =
+    (select distinct(vessel_id) from vessel 
+     where vessel_name = 'Leander' and des_code = 'CC')
+where vessel_name = 'Leander';
+
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Libertad')
+where vessel_name = 'Libertad';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Littorio')
+where vessel_name = 'Littorio';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'London')
+where vessel_name = 'London';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Lorelei')
+where vessel_name = 'Lorelei';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Lorraine')
+where vessel_name = 'Lorraine';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Lützow')
+where vessel_name = 'Lützow';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Lützow')
+where vessel_name = 'Lützow';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Macoma')
+where vessel_name = 'Macoma';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Mahroussa')
+where vessel_name = 'Mahroussa';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Malaya')
+where vessel_name = 'Malaya';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Manxman')
+where vessel_name = 'Manxman';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Maori')
+where vessel_name = 'Maori';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Marcilio Dias')
+where vessel_name = 'Marcilio Dias';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Mariz e Barros')
+where vessel_name = 'Mariz e Barros';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Marseillaise')
+where vessel_name = 'Marseillaise';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Marshall Soult')
+where vessel_name = 'Marshall Soult';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Maryland')
+where vessel_name = 'Maryland';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Mashona')
+where vessel_name = 'Mashona';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Massachusetts')
+where vessel_name = 'Massachusetts';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Matabele')
+where vessel_name = 'Matabele';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Mauritius')
+where vessel_name = 'Mauritius';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Maxim Gorkiy')
+where vessel_name = 'Maxim Gorkiy';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'McKean')
+where vessel_name = 'McKean';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Meigs')
+where vessel_name = 'Meigs';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Mendoza')
+where vessel_name = 'Mendoza';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Micmac')
+where vessel_name = 'Micmac';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Minegumo')
+where vessel_name = 'Minegumo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Misiones')
+where vessel_name = 'Misiones';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Missouri')
+where vessel_name = 'Missouri';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Mogami')
+where vessel_name = 'Mogami';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Mohawk')
+where vessel_name = 'Mohawk';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Molotov')
+where vessel_name = 'Molotov';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Montcalm')
+where vessel_name = 'Montcalm';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Montrose')
+where vessel_name = 'Montrose';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Moreno')
+where vessel_name = 'Moreno';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Murasame')
+where vessel_name = 'Murasame';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Musashi')
+where vessel_name = 'Musashi';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Mutsu')
+where vessel_name = 'Mutsu';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Myoko')
+where vessel_name = 'Myoko';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Nabob')
+where vessel_name = 'Nabob';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Nachi')
+where vessel_name = 'Nachi';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Nagara')
+where vessel_name = 'Nagara';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Nagato')
+where vessel_name = 'Nagato';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Nairana')
+where vessel_name = 'Nairana';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Nelson')
+where vessel_name = 'Nelson';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Neptune')
+where vessel_name = 'Neptune';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Nevada')
+where vessel_name = 'Nevada';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Newark')
+where vessel_name = 'Newark';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Newfoundland')
+where vessel_name = 'Newfoundland';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Newmarket')
+where vessel_name = 'Newmarket';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'New Mexico')
+where vessel_name = 'New Mexico';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'New York')
+where vessel_name = 'New York';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Niels Juel')
+where vessel_name = 'Niels Juel';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Nigeria')
+where vessel_name = 'Nigeria';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ning Hai')
+where vessel_name = 'Ning Hai';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Norge')
+where vessel_name = 'Norge';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Northampton')
+where vessel_name = 'Northampton';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'North Carolina')
+where vessel_name = 'North Carolina';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Noshiro')
+where vessel_name = 'Noshiro';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Nubian')
+where vessel_name = 'Nubian';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ocean')
+where vessel_name = 'Ocean';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'O''Higgins')
+where vessel_name = 'O''Higgins';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Oklahoma')
+where vessel_name = 'Oklahoma';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Omaha')
+where vessel_name = 'Omaha';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Orella')
+where vessel_name = 'Orella';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Orion')
+where vessel_name = 'Orion';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Orkan')
+where vessel_name = 'Orkan';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Parana')
+where vessel_name = 'Parana';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Patria')
+where vessel_name = 'Patria';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Patroller')
+where vessel_name = 'Patroller';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Peder Skram')
+where vessel_name = 'Peder Skram';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Pennsylvania')
+where vessel_name = 'Pennsylvania';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Perseus')
+where vessel_name = 'Perseus';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Perth')
+where vessel_name = 'Perth';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Philippines')
+where vessel_name = 'Philippines';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ping Hai')
+where vessel_name = 'Ping Hai';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Pioneer')
+where vessel_name = 'Pioneer';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Piorun')
+where vessel_name = 'Piorun';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Poltava')
+where vessel_name = 'Poltava';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Premier')
+where vessel_name = 'Premier';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Presidente Sarmiento')
+where vessel_name = 'Presidente Sarmiento';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Primauguet')
+where vessel_name = 'Primauguet';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Prince of Wales')
+where vessel_name = 'Prince of Wales';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Prinz Eugen')
+where vessel_name = 'Prinz Eugen';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Puerto Rico')
+where vessel_name = 'Puerto Rico';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Puncher')
+where vessel_name = 'Puncher';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Punjabi')
+where vessel_name = 'Punjabi';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Queen Elizabeth')
+where vessel_name = 'Queen Elizabeth';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Queen')
+where vessel_name = 'Queen';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Rajah')
+where vessel_name = 'Rajah';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ranee')
+where vessel_name = 'Ranee';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ravager')
+where vessel_name = 'Ravager';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Reaper')
+where vessel_name = 'Reaper';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Redmill')
+where vessel_name = 'Redmill';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Renown')
+where vessel_name = 'Renown';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Repulse')
+where vessel_name = 'Repulse';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Resolution')
+where vessel_name = 'Resolution';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Revenge')
+where vessel_name = 'Revenge';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Riachuelo')
+where vessel_name = 'Riachuelo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Richelieu')
+where vessel_name = 'Richelieu';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Richmond')
+where vessel_name = 'Richmond';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Rio Grande do Sul')
+where vessel_name = 'Rio Grande do Sul';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Riquelme')
+where vessel_name = 'Riquelme';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Rivadavia')
+where vessel_name = 'Rivadavia';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Roberts')
+where vessel_name = 'Roberts';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Rodney')
+where vessel_name = 'Rodney';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Roma')
+where vessel_name = 'Roma';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Rosario')
+where vessel_name = 'Rosario';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Royal Oak')
+where vessel_name = 'Royal Oak';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Royal Sovereign')
+where vessel_name = 'Royal Sovereign';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ruler')
+where vessel_name = 'Ruler';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ryuho')
+where vessel_name = 'Ryuho';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ryujo')
+where vessel_name = 'Ryujo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Sakawa')
+where vessel_name = 'Sakawa';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Salamis')
+where vessel_name = 'Salamis';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Samoa')
+where vessel_name = 'Samoa';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Saumarez')
+where vessel_name = 'Saumarez';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Scharnhorst')
+where vessel_name = 'Scharnhorst';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Searcher')
+where vessel_name = 'Searcher';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Semmes')
+where vessel_name = 'Semmes';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Serrano')
+where vessel_name = 'Serrano';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Shah')
+where vessel_name = 'Shah';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Shinyo')
+where vessel_name = 'Shinyo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Shoho')
+where vessel_name = 'Shoho';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Shokaku')
+where vessel_name = 'Shokaku';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Sikh')
+where vessel_name = 'Sikh';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Skeena')
+where vessel_name = 'Skeena';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Slinger')
+where vessel_name = 'Slinger';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Smiter')
+where vessel_name = 'Smiter';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Soemba')
+where vessel_name = 'Soemba';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Sollum')
+where vessel_name = 'Sollum';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Somali')
+where vessel_name = 'Somali';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Soryu')
+where vessel_name = 'Soryu';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Southampton')
+where vessel_name = 'Southampton';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'South Dakota')
+where vessel_name = 'South Dakota';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Speaker')
+where vessel_name = 'Speaker';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'SS Cap Arcona')
+where vessel_name = 'SS Cap Arcona';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Suffren')
+where vessel_name = 'Suffren';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Sydney')
+where vessel_name = 'Sydney';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Taiho')
+where vessel_name = 'Taiho';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Taiyo')
+where vessel_name = 'Taiyo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Takao')
+where vessel_name = 'Takao';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Tarmo')
+where vessel_name = 'Tarmo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Tartar')
+where vessel_name = 'Tartar';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Terror')
+where vessel_name = 'Terror';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Texas')
+where vessel_name = 'Texas';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Thane')
+where vessel_name = 'Thane';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Theseus')
+where vessel_name = 'Theseus';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Tirpitz')
+where vessel_name = 'Tirpitz';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Tracker')
+where vessel_name = 'Tracker';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Trento')
+where vessel_name = 'Trento';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Trinidad')
+where vessel_name = 'Trinidad';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Triumph')
+where vessel_name = 'Triumph';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Trouncer')
+where vessel_name = 'Trouncer';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Trumpeter')
+where vessel_name = 'Trumpeter';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Tucuman')
+where vessel_name = 'Tucuman';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Tung Chi')
+where vessel_name = 'Tung Chi';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Uganda')
+where vessel_name = 'Uganda';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Underhill')
+where vessel_name = 'Underhill';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Unicorn')
+where vessel_name = 'Unicorn';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Unryu')
+where vessel_name = 'Unryu';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Unyo')
+where vessel_name = 'Unyo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Väinämöinen')
+where vessel_name = 'Väinämöinen';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Valiant')
+where vessel_name = 'Valiant';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Veinticinco de Mayo')
+where vessel_name = 'Veinticinco de Mayo';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Venerable')
+where vessel_name = 'Venerable';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Vengeance')
+where vessel_name = 'Vengeance';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Venus')
+where vessel_name = 'Venus';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Verulam')
+where vessel_name = 'Verulam';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Victorious')
+where vessel_name = 'Victorious';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Videla')
+where vessel_name = 'Videla';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Vindex')
+where vessel_name = 'Vindex';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Virago')
+where vessel_name = 'Virago';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Vittorio Veneto')
+where vessel_name = 'Vittorio Veneto';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Voroshilov')
+where vessel_name = 'Voroshilov';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Warramunga')
+where vessel_name = 'Warramunga';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Warrior')
+where vessel_name = 'Warrior';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Warspite')
+where vessel_name = 'Warspite';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Welshman')
+where vessel_name = 'Welshman';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'West Virginia')
+where vessel_name = 'West Virginia';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Whaddon')
+where vessel_name = 'Whaddon';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Wicher')
+where vessel_name = 'Wicher';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Wisconsin')
+where vessel_name = 'Wisconsin';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Yahagi')
+where vessel_name = 'Yahagi';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Yamashiro')
+where vessel_name = 'Yamashiro';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Yamato')
+where vessel_name = 'Yamato';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Yat Sen')
+where vessel_name = 'Yat Sen';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Ying Swei')
+where vessel_name = 'Ying Swei';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Yura')
+where vessel_name = 'Yura';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Zara')
+where vessel_name = 'Zara';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Zuiho')
+where vessel_name = 'Zuiho';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Zulu')
+where vessel_name = 'Zulu';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Bismarck')
+where vessel_name = 'Bismarck';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Hood')
+where vessel_name = 'Hood';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Yamato')
+where vessel_name = 'Yamato';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Missouri')
+where vessel_name = 'Missouri';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Arizona')
+where vessel_name = 'Arizona';
+update vessel_url
+set vessel_id = (select distinct(vessel_id) from vessel where vessel_name = 'Arizona')
+where vessel_name = 'Arizona';

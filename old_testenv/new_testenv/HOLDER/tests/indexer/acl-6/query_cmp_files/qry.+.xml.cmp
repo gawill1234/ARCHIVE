@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="2" />
+<attribute name="admin-url"
+  value="http://crpalmer.dev2.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="2" />
+<attribute name="total-results-with-duplicates" value="2" />
+<document url="http://bogus/1" vse-key="http://bogus:80/1/" encoding="xml"
+  input-at="1196365712" ct="application/vxml" vertex="0" la-score="0.1"
+  vse-base-score="2.32831e-10"
+>
+  <content name="a" u="1">acltest</content>
+  <content name="b" u="3">acltest</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document url="http://bogus/2" vse-key="http://bogus:80/2/" encoding="xml"
+  input-at="1196365712" ct="application/vxml" vertex="0" la-score="0.1"
+  vse-base-score="2.32831e-10"
+>
+  <content name="a" u="1">acltest</content>
+  <content name="b" u="3">acltest</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="2.32831e-10" />
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+</scope>

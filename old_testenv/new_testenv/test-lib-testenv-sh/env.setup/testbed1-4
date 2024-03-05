@@ -1,0 +1,8 @@
+# This needs to be invoked from the root of the /testenv/ checkout, like this:
+#    source env.setup/testbed10
+
+source env.setup/common
+export VIVHOST=testbed1-4.bigdatalab.ibm.com
+export VIVTARGETARCH=linux32
+export VIVTARGETOS=linux
+export OSSTRING="Suse Linux 10.1"

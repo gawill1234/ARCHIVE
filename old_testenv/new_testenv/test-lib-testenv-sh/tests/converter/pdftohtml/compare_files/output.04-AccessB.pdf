@@ -1,0 +1,1143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Microsoft PowerPoint - 03-and-04-Access</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META name="author" content="callan">
+<META name="date" content="2006-01-26T13:24:49+00:00">
+</HEAD>
+<BODY>
+<STYLE type="text/css">
+.v {WIDTH: 1em; WRITING-MODE: tb-rl}
+</STYLE><!-- Page 1 -->
+<a name="1"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft0{font-size:40px;font-family:Times;color:#000000;}
+	.ft1{font-size:27px;font-family:Times;color:#3333cc;}
+	.ft2{font-size:34px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:345;left:300"><nobr><span class="ft0"><b>Data Structures, Algorithms and</b></span></nobr></DIV>
+<DIV style="position:absolute;top:391;left:391"><nobr><span class="ft0"><b>Implementation Issues</b></span></nobr></DIV>
+<DIV style="position:absolute;top:518;left:516"><nobr><span class="ft1">Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:561;left:426"><nobr><span class="ft1">Carnegie Mellon University</span></nobr></DIV>
+<DIV style="position:absolute;top:604;left:477"><nobr><span class="ft1">callan@cs.cmu.edu</span></nobr></DIV>
+<DIV style="position:absolute;top:253;left:537"><nobr><span class="ft2"><b>11-741:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:292;left:425"><nobr><span class="ft2"><b>Information Retrieval</b></span></nobr></DIV>
+</DIV>
+<!-- Page 2 -->
+<a name="2"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft3{font-size:9px;font-family:Times;color:#000000;}
+	.ft4{font-size:18px;font-family:Times;color:#000000;}
+	.ft5{font-size:27px;font-family:Times;color:#3333cc;}
+	.ft6{font-size:34px;font-family:Helvetica;color:#3333cc;}
+	.ft7{font-size:27px;font-family:Times;color:#000000;}
+	.ft8{font-size:27px;font-family:Times;color:#000000;}
+	.ft9{font-size:27px;line-height:43px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:512"><nobr><span class="ft4">2</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:393"><nobr><span class="ft0"><b>Inverted List Indexes:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:449"><nobr><span class="ft0"><b>Access Methods</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:182"><nobr><span class="ft5"><b>How is a file of inverted lists accessed?</b></span></nobr></DIV>
+<DIV style="position:absolute;top:337;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:336;left:216"><nobr><span class="ft5"><b>B-Tree (B+ Tree, B* Tree, etc)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:379;left:236"><nobr><span class="ft7">– Supports exact-match and range-based lookup</span></nobr></DIV>
+<DIV style="position:absolute;top:423;left:290"><nobr><span class="ft7">» “apple”, “apple – apples”, “appl*”</span></nobr></DIV>
+<DIV style="position:absolute;top:466;left:236"><nobr><span class="ft9">– <i>O</i>(log n) lookups to find a list<br>– Usually easy to expand</span></nobr></DIV>
+<DIV style="position:absolute;top:553;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:553;left:216"><nobr><span class="ft5"><b>Hash table</b></span></nobr></DIV>
+<DIV style="position:absolute;top:596;left:236"><nobr><span class="ft7">– Supports exact-match lookup</span></nobr></DIV>
+<DIV style="position:absolute;top:639;left:290"><nobr><span class="ft7">» “apple”</span></nobr></DIV>
+<DIV style="position:absolute;top:683;left:236"><nobr><span class="ft9">– O(1) lookups to find a list<br>– May be complex to expand</span></nobr></DIV>
+</DIV>
+<!-- Page 3 -->
+<a name="3"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft10{font-size:27px;font-family:Times;color:#3333cc;}
+	.ft11{font-size:25px;font-family:Times;color:#000000;}
+	.ft12{font-size:25px;font-family:Times;color:#000000;}
+	.ft13{font-size:27px;font-family:Times;color:#cf0e30;}
+	.ft14{font-size:25px;line-height:32px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:512"><nobr><span class="ft4">3</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:393"><nobr><span class="ft0"><b>Inverted List Indexes:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:449"><nobr><span class="ft0"><b>Access Methods</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:182"><nobr><span class="ft5"><b>Task:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:312"><nobr><span class="ft5"><b>Enable accurate and <i>efficient</i>document retrieval</b></span></nobr></DIV>
+<DIV style="position:absolute;top:336;left:182"><nobr><span class="ft5"><b>Solution:  Database of inverted lists, different access methods</b></span></nobr></DIV>
+<DIV style="position:absolute;top:532;left:657"><nobr><span class="ft11"><b>. . . .</b></span></nobr></DIV>
+<DIV style="position:absolute;top:532;left:891"><nobr><span class="ft11"><b>. . . .</b></span></nobr></DIV>
+<DIV style="position:absolute;top:469;left:765"><nobr><span class="ft11"><b>. . . .</b></span></nobr></DIV>
+<DIV style="position:absolute;top:555;left:551"><nobr><span class="ft12">apple</span></nobr></DIV>
+<DIV style="position:absolute;top:560;left:990"><nobr><span class="ft12">zebra</span></nobr></DIV>
+<DIV style="position:absolute;top:391;left:686"><nobr><span class="ft13"><b>B-Tree-style Access</b></span></nobr></DIV>
+<DIV style="position:absolute;top:391;left:173"><nobr><span class="ft13"><b>Hash Table Access</b></span></nobr></DIV>
+<DIV style="position:absolute;top:550;left:220"><nobr><span class="ft12">apple</span></nobr></DIV>
+<DIV style="position:absolute;top:461;left:220"><nobr><span class="ft12">zebra</span></nobr></DIV>
+<DIV style="position:absolute;top:487;left:229"><nobr><span class="ft14"><b>:   :</b><br><b>:   :</b></span></nobr></DIV>
+<DIV style="position:absolute;top:672;left:542"><nobr><span class="ft14"><b>. . . .</b><br><b>. . . .</b><br><b>. . . .</b></span></nobr></DIV>
+<DIV style="position:absolute;top:688;left:757"><nobr><span class="ft13"><b>Database of</b></span></nobr></DIV>
+<DIV style="position:absolute;top:724;left:743"><nobr><span class="ft13"><b>Inverted Lists</b></span></nobr></DIV>
+</DIV>
+<!-- Page 4 -->
+<a name="4"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft15{font-size:34px;font-family:Helvetica;color:#000000;}
+	.ft16{font-size:27px;line-height:43px;font-family:Times;color:#3333cc;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:512"><nobr><span class="ft4">4</span></nobr></DIV>
+<DIV style="position:absolute;top:136;left:324"><nobr><span class="ft0"><b>Document Retrieval Revisited</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:182"><nobr><span class="ft16"><b>Task:  Determine a score for each document (<i>quickly</i>)</b><br><b>Solution:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:182"><nobr><span class="ft15">•</span></nobr></DIV>
+<DIV style="position:absolute;top:379;left:216"><nobr><span class="ft7">Depth-first evaluation of query tree</span></nobr></DIV>
+<DIV style="position:absolute;top:424;left:182"><nobr><span class="ft15">•</span></nobr></DIV>
+<DIV style="position:absolute;top:423;left:216"><nobr><span class="ft7">Each internal node represents query operators</span></nobr></DIV>
+<DIV style="position:absolute;top:467;left:182"><nobr><span class="ft15">•</span></nobr></DIV>
+<DIV style="position:absolute;top:466;left:216"><nobr><span class="ft7">Each leaf node represents a database access (lookup inverted list)</span></nobr></DIV>
+<DIV style="position:absolute;top:494;left:547"><nobr><span class="ft7">OR</span></nobr></DIV>
+<DIV style="position:absolute;top:593;left:421"><nobr><span class="ft7">AND</span></nobr></DIV>
+<DIV style="position:absolute;top:593;left:664"><nobr><span class="ft7">PHRASE</span></nobr></DIV>
+<DIV style="position:absolute;top:687;left:610"><nobr><span class="ft7">major  oil  spill</span></nobr></DIV>
+<DIV style="position:absolute;top:687;left:362"><nobr><span class="ft7">Exxon   Valdiz</span></nobr></DIV>
+<DIV style="position:absolute;top:737;left:106"><nobr><span class="ft13"><b>Database of</b></span></nobr></DIV>
+<DIV style="position:absolute;top:773;left:92"><nobr><span class="ft13"><b>Inverted Lists</b></span></nobr></DIV>
+<DIV style="position:absolute;top:521;left:907"><nobr><span class="ft13"><b>Query</b></span></nobr></DIV>
+<DIV style="position:absolute;top:557;left:794"><nobr><span class="ft7">(Exxon AND Valdiz) OR</span></nobr></DIV>
+<DIV style="position:absolute;top:593;left:850"><nobr><span class="ft7">“major oil spill”</span></nobr></DIV>
+</DIV>
+<!-- Page 5 -->
+<a name="5"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:512"><nobr><span class="ft4">5</span></nobr></DIV>
+<DIV style="position:absolute;top:136;left:465"><nobr><span class="ft0"><b>Optimizations</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:182"><nobr><span class="ft5"><b>What happens when databases get large?</b></span></nobr></DIV>
+<DIV style="position:absolute;top:337;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:336;left:216"><nobr><span class="ft5"><b>Boolean query processing</b></span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:379;left:216"><nobr><span class="ft5"><b>Term-at-a-time vs. Document-at-a-time</b></span></nobr></DIV>
+<DIV style="position:absolute;top:424;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:423;left:216"><nobr><span class="ft5"><b>Skip lists</b></span></nobr></DIV>
+<DIV style="position:absolute;top:467;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:466;left:216"><nobr><span class="ft5"><b>Top-docs lists</b></span></nobr></DIV>
+<DIV style="position:absolute;top:510;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:509;left:216"><nobr><span class="ft5"><b>Separating data</b></span></nobr></DIV>
+</DIV>
+<!-- Page 6 -->
+<a name="6"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft17{font-size:18px;font-family:Times;color:#000000;}
+	.ft18{font-size:25px;font-family:Times;color:#3333cc;}
+	.ft19{font-size:25px;font-family:Times;color:#3333cc;}
+	.ft20{font-size:18px;line-height:25px;font-family:Times;color:#000000;}
+	.ft21{font-size:25px;line-height:32px;font-family:Times;color:#3333cc;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:512"><nobr><span class="ft4">6</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:374"><nobr><span class="ft0"><b>Implementation Details:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:333"><nobr><span class="ft0"><b>Boolean Query Optimization</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:182"><nobr><span class="ft5"><b>Goal:  </b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:268"><nobr><span class="ft7">Lower average cost of evaluating query</span></nobr></DIV>
+<DIV style="position:absolute;top:348;left:288"><nobr><span class="ft11"><b>AND (2.2%, 9.30)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:402;left:171"><nobr><span class="ft11"><b>OR (34.7%, 8.26)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:505;left:101"><nobr><span class="ft17"><b>DIAGNOSIS</b></span></nobr></DIV>
+<DIV style="position:absolute;top:530;left:122"><nobr><span class="ft17"><b>(1.1%, 3)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:505;left:245"><nobr><span class="ft17"><b>MEDICINE</b></span></nobr></DIV>
+<DIV style="position:absolute;top:530;left:261"><nobr><span class="ft17"><b>(22.6%, 3)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:505;left:380"><nobr><span class="ft17"><b>DISEASE</b></span></nobr></DIV>
+<DIV style="position:absolute;top:530;left:385"><nobr><span class="ft17"><b>(14.7%, 3)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:409;left:389"><nobr><span class="ft17"><b>COMPUTER</b></span></nobr></DIV>
+<DIV style="position:absolute;top:434;left:405"><nobr><span class="ft17"><b>(6.4%, 3)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:348;left:731"><nobr><span class="ft11"><b>AND (2.2%, 3.47)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:411;left:616"><nobr><span class="ft17"><b>COMPUTER</b></span></nobr></DIV>
+<DIV style="position:absolute;top:436;left:626"><nobr><span class="ft17"><b>(6.4%, 3)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:402;left:785"><nobr><span class="ft11"><b>OR (34.7%,7.30)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:510;left:965"><nobr><span class="ft17"><b>DIAGNOSIS</b></span></nobr></DIV>
+<DIV style="position:absolute;top:535;left:975"><nobr><span class="ft17"><b>(1.1%, 3)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:510;left:722"><nobr><span class="ft17"><b>MEDICINE</b></span></nobr></DIV>
+<DIV style="position:absolute;top:535;left:732"><nobr><span class="ft17"><b>(22.6%, 3)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:510;left:857"><nobr><span class="ft20"><b>DISEASE</b><br><b>(14.7%, 3)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:610;left:371"><nobr><span class="ft18"><b>Expected</b></span></nobr></DIV>
+<DIV style="position:absolute;top:643;left:387"><nobr><span class="ft18"><b>cost of</b></span></nobr></DIV>
+<DIV style="position:absolute;top:675;left:364"><nobr><span class="ft18"><b>evaluating</b></span></nobr></DIV>
+<DIV style="position:absolute;top:708;left:372"><nobr><span class="ft18"><b>this node</b></span></nobr></DIV>
+<DIV style="position:absolute;top:610;left:123"><nobr><span class="ft18"><b>Probability</b></span></nobr></DIV>
+<DIV style="position:absolute;top:643;left:136"><nobr><span class="ft18"><b>this node</b></span></nobr></DIV>
+<DIV style="position:absolute;top:675;left:120"><nobr><span class="ft18"><b>evaluates to</b></span></nobr></DIV>
+<DIV style="position:absolute;top:708;left:160"><nobr><span class="ft18"><b>True</b></span></nobr></DIV>
+<DIV style="position:absolute;top:601;left:587"><nobr><span class="ft19">• <b>For “intersection” query operators</b></span></nobr></DIV>
+<DIV style="position:absolute;top:634;left:614"><nobr><span class="ft21"><b>such as AND nodes</b><br><b>the optimal strategy is “fail early”.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:699;left:587"><nobr><span class="ft19">• <b>For “union” query operators</b></span></nobr></DIV>
+<DIV style="position:absolute;top:731;left:614"><nobr><span class="ft21"><b>such as OR nodes</b><br><b>the optimal strategy is “succeed early”.</b></span></nobr></DIV>
+</DIV>
+<!-- Page 7 -->
+<a name="7"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft22{font-size:16px;font-family:Times;color:#000000;}
+	.ft23{font-size:29px;font-family:Times;color:#000000;}
+	.ft24{font-size:29px;font-family:Times;color:#000000;}
+	.ft25{font-size:16px;font-family:Times;color:#000000;}
+	.ft26{font-size:28px;font-family:Times;color:#000000;}
+	.ft27{font-size:15px;font-family:Times;color:#000000;}
+	.ft28{font-size:15px;font-family:Times;color:#000000;}
+	.ft29{font-size:28px;font-family:Times;color:#000000;}
+	.ft30{font-size:13px;font-family:Times;color:#000000;}
+	.ft31{font-size:24px;font-family:Times;color:#000000;}
+	.ft32{font-size:24px;font-family:Times;color:#000000;}
+	.ft33{font-size:13px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:512"><nobr><span class="ft4">7</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:374"><nobr><span class="ft0"><b>Implementation Details:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:333"><nobr><span class="ft0"><b>Boolean Query Optimization</b></span></nobr></DIV>
+<DIV style="position:absolute;top:294;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:216"><nobr><span class="ft16"><b>AND probability:</b><br><b>AND cost:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:379;left:216"><nobr><span class="ft16"><b>OR probability:</b><br><b>OR cost:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:509;left:182"><nobr><span class="ft5"><b>Minimize cost by reordering nodes, such that:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:553;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:553;left:216"><nobr><span class="ft5"><b>AND satisfies:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:640;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:639;left:216"><nobr><span class="ft5"><b>OR satisfies:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:315;left:578"><nobr><span class="ft22"><i>n</i></span></nobr></DIV>
+<DIV style="position:absolute;top:298;left:561"><nobr><span class="ft23"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:298;left:508"><nobr><span class="ft23"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:298;left:477"><nobr><span class="ft23"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:298;left:450"><nobr><span class="ft23"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:291;left:535"><nobr><span class="ft24">...</span></nobr></DIV>
+<DIV style="position:absolute;top:311;left:524"><nobr><span class="ft25">3</span></nobr></DIV>
+<DIV style="position:absolute;top:311;left:493"><nobr><span class="ft25">2</span></nobr></DIV>
+<DIV style="position:absolute;top:311;left:464"><nobr><span class="ft25">1</span></nobr></DIV>
+<DIV style="position:absolute;top:337;left:857"><nobr><span class="ft24">)...)))</span></nobr></DIV>
+<DIV style="position:absolute;top:337;left:723"><nobr><span class="ft24">(...(</span></nobr></DIV>
+<DIV style="position:absolute;top:337;left:626"><nobr><span class="ft24">(</span></nobr></DIV>
+<DIV style="position:absolute;top:337;left:527"><nobr><span class="ft24">(</span></nobr></DIV>
+<DIV style="position:absolute;top:357;left:711"><nobr><span class="ft25">3</span></nobr></DIV>
+<DIV style="position:absolute;top:357;left:651"><nobr><span class="ft25">3</span></nobr></DIV>
+<DIV style="position:absolute;top:357;left:613"><nobr><span class="ft25">2</span></nobr></DIV>
+<DIV style="position:absolute;top:357;left:552"><nobr><span class="ft25">2</span></nobr></DIV>
+<DIV style="position:absolute;top:357;left:515"><nobr><span class="ft25">1</span></nobr></DIV>
+<DIV style="position:absolute;top:357;left:457"><nobr><span class="ft25">1</span></nobr></DIV>
+<DIV style="position:absolute;top:361;left:844"><nobr><span class="ft22"><i>n</i></span></nobr></DIV>
+<DIV style="position:absolute;top:361;left:782"><nobr><span class="ft22"><i>n</i></span></nobr></DIV>
+<DIV style="position:absolute;top:344;left:827"><nobr><span class="ft23"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:344;left:768"><nobr><span class="ft23"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:344;left:695"><nobr><span class="ft23"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:344;left:637"><nobr><span class="ft23"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:344;left:597"><nobr><span class="ft23"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:344;left:538"><nobr><span class="ft23"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:344;left:501"><nobr><span class="ft23"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:344;left:445"><nobr><span class="ft23"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:334;left:800"><nobr><span class="ft24">+</span></nobr></DIV>
+<DIV style="position:absolute;top:334;left:668"><nobr><span class="ft24">+</span></nobr></DIV>
+<DIV style="position:absolute;top:334;left:570"><nobr><span class="ft24">+</span></nobr></DIV>
+<DIV style="position:absolute;top:334;left:474"><nobr><span class="ft24">+</span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:849"><nobr><span class="ft26">)</span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:777"><nobr><span class="ft26">1</span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:736"><nobr><span class="ft26">)...(</span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:665"><nobr><span class="ft26">1</span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:648"><nobr><span class="ft26">)(</span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:576"><nobr><span class="ft26">1</span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:558"><nobr><span class="ft26">)(</span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:489"><nobr><span class="ft26">1</span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:482"><nobr><span class="ft26">(</span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:442"><nobr><span class="ft26">1</span></nobr></DIV>
+<DIV style="position:absolute;top:399;left:724"><nobr><span class="ft27">3</span></nobr></DIV>
+<DIV style="position:absolute;top:399;left:635"><nobr><span class="ft27">2</span></nobr></DIV>
+<DIV style="position:absolute;top:399;left:547"><nobr><span class="ft27">1</span></nobr></DIV>
+<DIV style="position:absolute;top:403;left:837"><nobr><span class="ft28"><i>n</i></span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:821"><nobr><span class="ft29"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:709"><nobr><span class="ft29"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:619"><nobr><span class="ft29"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:533"><nobr><span class="ft29"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:377;left:795"><nobr><span class="ft26">−</span></nobr></DIV>
+<DIV style="position:absolute;top:377;left:683"><nobr><span class="ft26">−</span></nobr></DIV>
+<DIV style="position:absolute;top:377;left:594"><nobr><span class="ft26">−</span></nobr></DIV>
+<DIV style="position:absolute;top:377;left:507"><nobr><span class="ft26">−</span></nobr></DIV>
+<DIV style="position:absolute;top:377;left:460"><nobr><span class="ft26">−</span></nobr></DIV>
+<DIV style="position:absolute;top:420;left:1015"><nobr><span class="ft26">))...)))</span></nobr></DIV>
+<DIV style="position:absolute;top:420;left:948"><nobr><span class="ft26">1</span></nobr></DIV>
+<DIV style="position:absolute;top:420;left:941"><nobr><span class="ft26">(</span></nobr></DIV>
+<DIV style="position:absolute;top:420;left:842"><nobr><span class="ft26">)(...(</span></nobr></DIV>
+<DIV style="position:absolute;top:420;left:777"><nobr><span class="ft26">1</span></nobr></DIV>
+<DIV style="position:absolute;top:420;left:770"><nobr><span class="ft26">(</span></nobr></DIV>
+<DIV style="position:absolute;top:420;left:703"><nobr><span class="ft26">)(</span></nobr></DIV>
+<DIV style="position:absolute;top:420;left:636"><nobr><span class="ft26">1</span></nobr></DIV>
+<DIV style="position:absolute;top:420;left:629"><nobr><span class="ft26">(</span></nobr></DIV>
+<DIV style="position:absolute;top:420;left:561"><nobr><span class="ft26">)(</span></nobr></DIV>
+<DIV style="position:absolute;top:420;left:498"><nobr><span class="ft26">1</span></nobr></DIV>
+<DIV style="position:absolute;top:420;left:491"><nobr><span class="ft26">(</span></nobr></DIV>
+<DIV style="position:absolute;top:440;left:831"><nobr><span class="ft25">3</span></nobr></DIV>
+<DIV style="position:absolute;top:440;left:734"><nobr><span class="ft25">3</span></nobr></DIV>
+<DIV style="position:absolute;top:440;left:691"><nobr><span class="ft25">2</span></nobr></DIV>
+<DIV style="position:absolute;top:440;left:593"><nobr><span class="ft25">2</span></nobr></DIV>
+<DIV style="position:absolute;top:440;left:551"><nobr><span class="ft25">1</span></nobr></DIV>
+<DIV style="position:absolute;top:440;left:456"><nobr><span class="ft25">1</span></nobr></DIV>
+<DIV style="position:absolute;top:443;left:1003"><nobr><span class="ft22"><i>n</i></span></nobr></DIV>
+<DIV style="position:absolute;top:443;left:905"><nobr><span class="ft22"><i>n</i></span></nobr></DIV>
+<DIV style="position:absolute;top:427;left:989"><nobr><span class="ft29"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:427;left:892"><nobr><span class="ft29"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:427;left:817"><nobr><span class="ft29"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:427;left:722"><nobr><span class="ft29"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:427;left:677"><nobr><span class="ft29"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:427;left:580"><nobr><span class="ft29"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:427;left:538"><nobr><span class="ft29"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:427;left:445"><nobr><span class="ft29"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:417;left:965"><nobr><span class="ft26">−</span></nobr></DIV>
+<DIV style="position:absolute;top:417;left:921"><nobr><span class="ft26">+</span></nobr></DIV>
+<DIV style="position:absolute;top:417;left:793"><nobr><span class="ft26">−</span></nobr></DIV>
+<DIV style="position:absolute;top:417;left:750"><nobr><span class="ft26">+</span></nobr></DIV>
+<DIV style="position:absolute;top:417;left:653"><nobr><span class="ft26">−</span></nobr></DIV>
+<DIV style="position:absolute;top:417;left:609"><nobr><span class="ft26">+</span></nobr></DIV>
+<DIV style="position:absolute;top:417;left:514"><nobr><span class="ft26">−</span></nobr></DIV>
+<DIV style="position:absolute;top:417;left:470"><nobr><span class="ft26">+</span></nobr></DIV>
+<DIV style="position:absolute;top:598;left:703"><nobr><span class="ft30"><i>n</i></span></nobr></DIV>
+<DIV style="position:absolute;top:561;left:684"><nobr><span class="ft30"><i>n</i></span></nobr></DIV>
+<DIV style="position:absolute;top:584;left:689"><nobr><span class="ft31"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:547;left:673"><nobr><span class="ft31"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:584;left:558"><nobr><span class="ft31"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:547;left:542"><nobr><span class="ft31"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:584;left:472"><nobr><span class="ft31"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:547;left:456"><nobr><span class="ft31"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:576;left:667"><nobr><span class="ft32">−</span></nobr></DIV>
+<DIV style="position:absolute;top:555;left:632"><nobr><span class="ft32">&lt;</span></nobr></DIV>
+<DIV style="position:absolute;top:555;left:590"><nobr><span class="ft32">&lt;</span></nobr></DIV>
+<DIV style="position:absolute;top:576;left:536"><nobr><span class="ft32">−</span></nobr></DIV>
+<DIV style="position:absolute;top:555;left:501"><nobr><span class="ft32">&lt;</span></nobr></DIV>
+<DIV style="position:absolute;top:576;left:450"><nobr><span class="ft32">−</span></nobr></DIV>
+<DIV style="position:absolute;top:579;left:652"><nobr><span class="ft32">1</span></nobr></DIV>
+<DIV style="position:absolute;top:558;left:608"><nobr><span class="ft32">...</span></nobr></DIV>
+<DIV style="position:absolute;top:579;left:521"><nobr><span class="ft32">1</span></nobr></DIV>
+<DIV style="position:absolute;top:579;left:435"><nobr><span class="ft32">1</span></nobr></DIV>
+<DIV style="position:absolute;top:595;left:572"><nobr><span class="ft33">2</span></nobr></DIV>
+<DIV style="position:absolute;top:558;left:553"><nobr><span class="ft33">2</span></nobr></DIV>
+<DIV style="position:absolute;top:595;left:484"><nobr><span class="ft33">1</span></nobr></DIV>
+<DIV style="position:absolute;top:558;left:466"><nobr><span class="ft33">1</span></nobr></DIV>
+<DIV style="position:absolute;top:680;left:622"><nobr><span class="ft30"><i>n</i></span></nobr></DIV>
+<DIV style="position:absolute;top:642;left:619"><nobr><span class="ft30"><i>n</i></span></nobr></DIV>
+<DIV style="position:absolute;top:666;left:608"><nobr><span class="ft31"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:628;left:607"><nobr><span class="ft31"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:666;left:506"><nobr><span class="ft31"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:628;left:505"><nobr><span class="ft31"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:666;left:451"><nobr><span class="ft31"><i>p</i></span></nobr></DIV>
+<DIV style="position:absolute;top:628;left:450"><nobr><span class="ft31"><i>c</i></span></nobr></DIV>
+<DIV style="position:absolute;top:637;left:582"><nobr><span class="ft32">&lt;</span></nobr></DIV>
+<DIV style="position:absolute;top:637;left:538"><nobr><span class="ft32">&lt;</span></nobr></DIV>
+<DIV style="position:absolute;top:637;left:480"><nobr><span class="ft32">&lt;</span></nobr></DIV>
+<DIV style="position:absolute;top:640;left:558"><nobr><span class="ft32">...</span></nobr></DIV>
+<DIV style="position:absolute;top:677;left:520"><nobr><span class="ft33">2</span></nobr></DIV>
+<DIV style="position:absolute;top:639;left:517"><nobr><span class="ft33">2</span></nobr></DIV>
+<DIV style="position:absolute;top:677;left:463"><nobr><span class="ft33">1</span></nobr></DIV>
+<DIV style="position:absolute;top:639;left:460"><nobr><span class="ft33">1</span></nobr></DIV>
+</DIV>
+<!-- Page 8 -->
+<a name="8"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft34{font-size:27px;font-family:Times;color:#000000;}
+	.ft35{font-size:27px;line-height:32px;font-family:Times;color:#3333cc;}
+	.ft36{font-size:27px;line-height:35px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:512"><nobr><span class="ft4">8</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:402"><nobr><span class="ft0"><b>Ranking Documents:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:343"><nobr><span class="ft0"><b>Term-at-a-Time Evaluation</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:569"><nobr><span class="ft5"><b>How should this query be evaluated?</b></span></nobr></DIV>
+<DIV style="position:absolute;top:337;left:569"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:336;left:603"><nobr><span class="ft5"><b>Term-at-a-time</b></span></nobr></DIV>
+<DIV style="position:absolute;top:379;left:623"><nobr><span class="ft9">– Read inverted list for “like”<br>– Read inverted list for “hot”<br>– Merge them<br>– Read the inverted list for “pot”<br>– Merge it</span></nobr></DIV>
+<DIV style="position:absolute;top:597;left:569"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:596;left:603"><nobr><span class="ft35"><b>This strategy is simple &amp; popular for</b><br><b>small systems</b></span></nobr></DIV>
+<DIV style="position:absolute;top:672;left:623"><nobr><span class="ft7">– It is not practical in big systems</span></nobr></DIV>
+<DIV style="position:absolute;top:377;left:317"><nobr><span class="ft34"><b>OR</b></span></nobr></DIV>
+<DIV style="position:absolute;top:467;left:236"><nobr><span class="ft34"><b>AND</b></span></nobr></DIV>
+<DIV style="position:absolute;top:503;left:183"><nobr><span class="ft36">4<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:503;left:327"><nobr><span class="ft36">1<br>4</span></nobr></DIV>
+<DIV style="position:absolute;top:377;left:426"><nobr><span class="ft36">2<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:467;left:425"><nobr><span class="ft7">pot</span></nobr></DIV>
+<DIV style="position:absolute;top:782;left:204"><nobr><span class="ft34"><b>Inverted List Database</b></span></nobr></DIV>
+<DIV style="position:absolute;top:602;left:182"><nobr><span class="ft7">like</span></nobr></DIV>
+<DIV style="position:absolute;top:602;left:297"><nobr><span class="ft7">hot</span></nobr></DIV>
+<DIV style="position:absolute;top:692;left:190"><nobr><span class="ft36">4<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:692;left:316"><nobr><span class="ft36">1<br>4</span></nobr></DIV>
+<DIV style="position:absolute;top:692;left:442"><nobr><span class="ft36">2<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:404;left:264"><nobr><span class="ft7">4</span></nobr></DIV>
+<DIV style="position:absolute;top:260;left:336"><nobr><span class="ft36">2<br>4<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:602;left:146"><nobr><span class="ft5"><b>1.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:602;left:263"><nobr><span class="ft5"><b>2.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:449;left:209"><nobr><span class="ft5"><b>3.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:467;left:389"><nobr><span class="ft5"><b>4.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:350;left:281"><nobr><span class="ft5"><b>5.</b></span></nobr></DIV>
+</DIV>
+<!-- Page 9 -->
+<a name="9"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft37{font-size:16px;font-family:Times;color:#000000;}
+	.ft38{font-size:16px;font-family:Times;color:#3333cc;}
+	.ft39{font-size:16px;line-height:22px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:512"><nobr><span class="ft4">9</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:402"><nobr><span class="ft0"><b>Ranking Documents:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:343"><nobr><span class="ft0"><b>Term-at-a-Time Evaluation</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:164"><nobr><span class="ft5"><b>Problems for the term-at-a-time approach</b></span></nobr></DIV>
+<DIV style="position:absolute;top:337;left:164"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:336;left:198"><nobr><span class="ft5"><b>Inverted lists too big to fit in memory</b></span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:164"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:379;left:198"><nobr><span class="ft5"><b>Deeply nested queries</b></span></nobr></DIV>
+<DIV style="position:absolute;top:423;left:218"><nobr><span class="ft7">– Worst case is D+1 inverted lists kept in memory</span></nobr></DIV>
+<DIV style="position:absolute;top:455;left:245"><nobr><span class="ft7">simultaneously</span></nobr></DIV>
+<DIV style="position:absolute;top:499;left:164"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:498;left:198"><nobr><span class="ft5"><b>Systems that process queries in parallel</b></span></nobr></DIV>
+<DIV style="position:absolute;top:542;left:218"><nobr><span class="ft7">– In some studies 3-4 query parallelism is optimal</span></nobr></DIV>
+<DIV style="position:absolute;top:585;left:272"><nobr><span class="ft9">» Some processes wait for I/O<br>» Some processes use the CPU</span></nobr></DIV>
+<DIV style="position:absolute;top:672;left:218"><nobr><span class="ft7">– But…the complexity of one query affects the</span></nobr></DIV>
+<DIV style="position:absolute;top:704;left:245"><nobr><span class="ft7">amount of memory available to other queries</span></nobr></DIV>
+<DIV style="position:absolute;top:330;left:969"><nobr><span class="ft37"><b>OR</b></span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:918"><nobr><span class="ft37"><b>AND</b></span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:885"><nobr><span class="ft39">4<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:975"><nobr><span class="ft39">1<br>4</span></nobr></DIV>
+<DIV style="position:absolute;top:331;left:1037"><nobr><span class="ft39">2<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:1036"><nobr><span class="ft25">pot</span></nobr></DIV>
+<DIV style="position:absolute;top:584;left:898"><nobr><span class="ft37"><b>Inverted List Database</b></span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:884"><nobr><span class="ft25">like</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:956"><nobr><span class="ft25">hot</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:889"><nobr><span class="ft39">4<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:968"><nobr><span class="ft39">1<br>4</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:1047"><nobr><span class="ft39">2<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:348;left:936"><nobr><span class="ft25">4</span></nobr></DIV>
+<DIV style="position:absolute;top:258;left:981"><nobr><span class="ft39">2<br>4<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:862"><nobr><span class="ft38"><b>1.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:935"><nobr><span class="ft38"><b>2.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:376;left:901"><nobr><span class="ft38"><b>3.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:1014"><nobr><span class="ft38"><b>4.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:313;left:946"><nobr><span class="ft38"><b>5.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:330;left:969"><nobr><span class="ft37"><b>OR</b></span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:918"><nobr><span class="ft37"><b>AND</b></span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:885"><nobr><span class="ft39">4<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:885"><nobr><span class="ft25">4</span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:975"><nobr><span class="ft39">1<br>4</span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:975"><nobr><span class="ft25">1</span></nobr></DIV>
+<DIV style="position:absolute;top:331;left:1037"><nobr><span class="ft39">2<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:331;left:1037"><nobr><span class="ft25">2</span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:1036"><nobr><span class="ft25">pot</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:884"><nobr><span class="ft25">like</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:956"><nobr><span class="ft25">hot</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:889"><nobr><span class="ft25">4</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:968"><nobr><span class="ft25">1</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:1047"><nobr><span class="ft25">2</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:884"><nobr><span class="ft25">like</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:956"><nobr><span class="ft25">hot</span></nobr></DIV>
+<DIV style="position:absolute;top:348;left:936"><nobr><span class="ft25">4</span></nobr></DIV>
+<DIV style="position:absolute;top:258;left:981"><nobr><span class="ft39">2<br>4<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:258;left:981"><nobr><span class="ft39">2<br>4</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:862"><nobr><span class="ft38"><b>1.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:935"><nobr><span class="ft38"><b>2.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:376;left:901"><nobr><span class="ft38"><b>3.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:1014"><nobr><span class="ft38"><b>4.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:313;left:946"><nobr><span class="ft38"><b>5.</b></span></nobr></DIV>
+</DIV>
+<!-- Page 10 -->
+<a name="10"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft40{font-size:27px;line-height:39px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">10</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:402"><nobr><span class="ft0"><b>Ranking Documents:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:300"><nobr><span class="ft0"><b>Document-at-a-Time Evaluation</b></span></nobr></DIV>
+<DIV style="position:absolute;top:291;left:146"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:290;left:180"><nobr><span class="ft5"><b>An alternative is to evaluate the query repeatedly</b></span></nobr></DIV>
+<DIV style="position:absolute;top:330;left:200"><nobr><span class="ft7">– Ask the tree what the next document is</span></nobr></DIV>
+<DIV style="position:absolute;top:369;left:254"><nobr><span class="ft40">» “like” returns 4, “hot” returns 1<br>» “AND” returns 4<br>» “pot” returns 2<br>» “OR” returns 2</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:200"><nobr><span class="ft7">– Now ask the tree to:</span></nobr></DIV>
+<DIV style="position:absolute;top:568;left:254"><nobr><span class="ft40">» Evaluate the query only for document 2, and<br>» Return the next document id</span></nobr></DIV>
+<DIV style="position:absolute;top:648;left:146"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:647;left:180"><nobr><span class="ft5"><b>This probably looks foolish, but</b></span></nobr></DIV>
+<DIV style="position:absolute;top:687;left:200"><nobr><span class="ft40">– It’s faster than you think (because it allows some optimizations)<br>– Now we don’t need to keep entire inverted lists in memory</span></nobr></DIV>
+<DIV style="position:absolute;top:330;left:969"><nobr><span class="ft37"><b>OR</b></span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:918"><nobr><span class="ft37"><b>AND</b></span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:885"><nobr><span class="ft39">4<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:975"><nobr><span class="ft39">1<br>4</span></nobr></DIV>
+<DIV style="position:absolute;top:331;left:1037"><nobr><span class="ft39">2<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:1036"><nobr><span class="ft25">pot</span></nobr></DIV>
+<DIV style="position:absolute;top:584;left:898"><nobr><span class="ft37"><b>Inverted List Database</b></span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:884"><nobr><span class="ft25">like</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:956"><nobr><span class="ft25">hot</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:889"><nobr><span class="ft39">4<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:968"><nobr><span class="ft39">1<br>4</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:1047"><nobr><span class="ft39">2<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:348;left:936"><nobr><span class="ft25">4</span></nobr></DIV>
+<DIV style="position:absolute;top:258;left:981"><nobr><span class="ft39">2<br>4<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:862"><nobr><span class="ft38"><b>1.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:935"><nobr><span class="ft38"><b>2.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:376;left:901"><nobr><span class="ft38"><b>3.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:1014"><nobr><span class="ft38"><b>4.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:313;left:946"><nobr><span class="ft38"><b>5.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:330;left:969"><nobr><span class="ft37"><b>OR</b></span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:918"><nobr><span class="ft37"><b>AND</b></span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:885"><nobr><span class="ft39">4<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:885"><nobr><span class="ft25">4</span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:975"><nobr><span class="ft39">1<br>4</span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:975"><nobr><span class="ft25">1</span></nobr></DIV>
+<DIV style="position:absolute;top:331;left:1037"><nobr><span class="ft39">2<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:331;left:1037"><nobr><span class="ft25">2</span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:1036"><nobr><span class="ft25">pot</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:884"><nobr><span class="ft25">like</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:956"><nobr><span class="ft25">hot</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:889"><nobr><span class="ft25">4</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:968"><nobr><span class="ft25">1</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:1047"><nobr><span class="ft25">2</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:884"><nobr><span class="ft25">like</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:956"><nobr><span class="ft25">hot</span></nobr></DIV>
+<DIV style="position:absolute;top:348;left:936"><nobr><span class="ft25">4</span></nobr></DIV>
+<DIV style="position:absolute;top:258;left:981"><nobr><span class="ft39">2<br>4<br>5</span></nobr></DIV>
+<DIV style="position:absolute;top:258;left:981"><nobr><span class="ft39">2<br>4</span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:862"><nobr><span class="ft38"><b>1.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:471;left:935"><nobr><span class="ft38"><b>2.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:376;left:901"><nobr><span class="ft38"><b>3.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:387;left:1014"><nobr><span class="ft38"><b>4.</b></span></nobr></DIV>
+<DIV style="position:absolute;top:313;left:946"><nobr><span class="ft38"><b>5.</b></span></nobr></DIV>
+</DIV>
+<!-- Page 11 -->
+<a name="11"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">11</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:402"><nobr><span class="ft0"><b>Ranking Documents:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:300"><nobr><span class="ft0"><b>Document-at-a-Time Evaluation</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:182"><nobr><span class="ft5"><b>Document-at-a-time optimizations</b></span></nobr></DIV>
+<DIV style="position:absolute;top:337;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:336;left:216"><nobr><span class="ft35"><b>Next-doc processing allows large parts of inverted lists to be</b><br><b>skipped</b></span></nobr></DIV>
+<DIV style="position:absolute;top:412;left:236"><nobr><span class="ft7">– E.g., AND operators apply a MAX function to the next-doc ids</span></nobr></DIV>
+<DIV style="position:absolute;top:444;left:263"><nobr><span class="ft7">of their children</span></nobr></DIV>
+<DIV style="position:absolute;top:488;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:488;left:216"><nobr><span class="ft5"><b>Typically processing isn’t actually one document at a time</b></span></nobr></DIV>
+<DIV style="position:absolute;top:531;left:236"><nobr><span class="ft9">– More likely several thousand documents at a time<br>– The chunk size depends on the memory available right now</span></nobr></DIV>
+<DIV style="position:absolute;top:618;left:290"><nobr><span class="ft9">» If the system is busy, process smaller chunks of documents<br>» If the system is idle and the query small, may default to</span></nobr></DIV>
+<DIV style="position:absolute;top:693;left:317"><nobr><span class="ft7">term-at-a-time</span></nobr></DIV>
+</DIV>
+<!-- Page 12 -->
+<a name="12"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft41{font-size:22px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">12</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:402"><nobr><span class="ft0"><b>Ranking Documents:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:286"><nobr><span class="ft0"><b>Term-at-a-Time vs Doc-at-a-Time</b></span></nobr></DIV>
+<DIV style="position:absolute;top:442;left:783"><nobr><span class="ft11"><b>. . . .</b></span></nobr></DIV>
+<DIV style="position:absolute;top:374;left:803"><nobr><span class="ft12">OR</span></nobr></DIV>
+<DIV style="position:absolute;top:474;left:677"><nobr><span class="ft12">AND</span></nobr></DIV>
+<DIV style="position:absolute;top:474;left:920"><nobr><span class="ft12">PHRASE</span></nobr></DIV>
+<DIV style="position:absolute;top:564;left:884"><nobr><span class="ft41">major oil spill</span></nobr></DIV>
+<DIV style="position:absolute;top:564;left:632"><nobr><span class="ft41">Exxon Valdiz</span></nobr></DIV>
+<DIV style="position:absolute;top:442;left:288"><nobr><span class="ft11"><b>. . . .</b></span></nobr></DIV>
+<DIV style="position:absolute;top:374;left:308"><nobr><span class="ft12">OR</span></nobr></DIV>
+<DIV style="position:absolute;top:474;left:182"><nobr><span class="ft12">AND</span></nobr></DIV>
+<DIV style="position:absolute;top:474;left:425"><nobr><span class="ft12">PHRASE</span></nobr></DIV>
+<DIV style="position:absolute;top:564;left:389"><nobr><span class="ft41">major oil spill</span></nobr></DIV>
+<DIV style="position:absolute;top:564;left:137"><nobr><span class="ft41">Exxon Valdiz</span></nobr></DIV>
+<DIV style="position:absolute;top:632;left:711"><nobr><span class="ft12">Inverted List Buffer</span></nobr></DIV>
+</DIV>
+<!-- Page 13 -->
+<a name="13"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft42{font-size:31px;font-family:Helvetica;color:#3333cc;}
+	.ft43{font-size:25px;font-family:Times;color:#000000;}
+	.ft44{font-size:25px;line-height:38px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">13</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:402"><nobr><span class="ft0"><b>Ranking Documents:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:234"><nobr><span class="ft0"><b>Term at a Time vs. Document at a Time</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:146"><nobr><span class="ft18"><b>Term at a Time:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:332;left:146"><nobr><span class="ft42">•</span></nobr></DIV>
+<DIV style="position:absolute;top:332;left:180"><nobr><span class="ft18"><b>Minimizes I/O</b></span></nobr></DIV>
+<DIV style="position:absolute;top:371;left:200"><nobr><span class="ft12">– 1 lookup per query term</span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:146"><nobr><span class="ft42">•</span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:180"><nobr><span class="ft18"><b>Bookkeeping:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:449;left:200"><nobr><span class="ft44">– List of candidate documents<br>– A partial score per candidate</span></nobr></DIV>
+<DIV style="position:absolute;top:517;left:227"><nobr><span class="ft12">document</span></nobr></DIV>
+<DIV style="position:absolute;top:556;left:146"><nobr><span class="ft42">•</span></nobr></DIV>
+<DIV style="position:absolute;top:556;left:180"><nobr><span class="ft18"><b>Unpredictable memory usage</b></span></nobr></DIV>
+<DIV style="position:absolute;top:595;left:200"><nobr><span class="ft12">– Grows with query size</span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:614"><nobr><span class="ft18"><b>Document at a Time:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:332;left:614"><nobr><span class="ft42">•</span></nobr></DIV>
+<DIV style="position:absolute;top:332;left:648"><nobr><span class="ft18"><b>Unpredictable I/O</b></span></nobr></DIV>
+<DIV style="position:absolute;top:371;left:668"><nobr><span class="ft44">– Grows with query length<br>– Grows with query term <i>df</i></span></nobr></DIV>
+<DIV style="position:absolute;top:449;left:614"><nobr><span class="ft42">•</span></nobr></DIV>
+<DIV style="position:absolute;top:449;left:648"><nobr><span class="ft18"><b>Bookkeeping:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:488;left:668"><nobr><span class="ft44">– Matched documents<br>– A complete score matched</span></nobr></DIV>
+<DIV style="position:absolute;top:556;left:695"><nobr><span class="ft12">document</span></nobr></DIV>
+<DIV style="position:absolute;top:595;left:668"><nobr><span class="ft12">– Partial score for current</span></nobr></DIV>
+<DIV style="position:absolute;top:624;left:695"><nobr><span class="ft12">document</span></nobr></DIV>
+<DIV style="position:absolute;top:663;left:668"><nobr><span class="ft12">– Inverted list fragments</span></nobr></DIV>
+<DIV style="position:absolute;top:703;left:614"><nobr><span class="ft42">•</span></nobr></DIV>
+<DIV style="position:absolute;top:702;left:648"><nobr><span class="ft18"><b>Constant memory usage</b></span></nobr></DIV>
+<DIV style="position:absolute;top:682;left:155"><nobr><span class="ft21"><b>Both strategies are used</b><br><b>Hybrids are also used</b></span></nobr></DIV>
+</DIV>
+<!-- Page 14 -->
+<a name="14"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft45{font-size:27px;line-height:32px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">14</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:335"><nobr><span class="ft0"><b>Inverted List Optimizations:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:502"><nobr><span class="ft0"><b>Skip Lists</b></span></nobr></DIV>
+<DIV style="position:absolute;top:285;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:284;left:216"><nobr><span class="ft35"><b>Pointers that allow parts</b><br><b>of the list to be skipped</b></span></nobr></DIV>
+<DIV style="position:absolute;top:360;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:360;left:216"><nobr><span class="ft35"><b>Gives no improvement</b><br><b>unless tuned carefully</b></span></nobr></DIV>
+<DIV style="position:absolute;top:436;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:435;left:216"><nobr><span class="ft5"><b>Common problems</b></span></nobr></DIV>
+<DIV style="position:absolute;top:479;left:236"><nobr><span class="ft7">– No I/O improvement,</span></nobr></DIV>
+<DIV style="position:absolute;top:511;left:263"><nobr><span class="ft45">because each block is<br>examined anyway</span></nobr></DIV>
+<DIV style="position:absolute;top:587;left:236"><nobr><span class="ft7">– Interferes with</span></nobr></DIV>
+<DIV style="position:absolute;top:619;left:263"><nobr><span class="ft7">compression</span></nobr></DIV>
+<DIV style="position:absolute;top:609;left:659"><nobr><span class="ft2"><b>: : :</b></span></nobr></DIV>
+<DIV style="position:absolute;top:609;left:839"><nobr><span class="ft2"><b>: : :</b></span></nobr></DIV>
+<DIV style="position:absolute;top:250;left:812"><nobr><span class="ft21"><b>Table of</b><br><b>Contents</b></span></nobr></DIV>
+<DIV style="position:absolute;top:250;left:632"><nobr><span class="ft21"><b>Embedded</b><br><b>Pointers</b></span></nobr></DIV>
+</DIV>
+<!-- Page 15 -->
+<a name="15"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft46{font-size:25px;line-height:32px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">15</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:335"><nobr><span class="ft0"><b>Inverted List Optimizations:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:465"><nobr><span class="ft0"><b>Top-Docs List</b></span></nobr></DIV>
+<DIV style="position:absolute;top:267;left:146"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:266;left:180"><nobr><span class="ft35"><b>Most inverted lists point to</b><br><b>many documents</b></span></nobr></DIV>
+<DIV style="position:absolute;top:342;left:146"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:342;left:180"><nobr><span class="ft35"><b>Most queries need to return</b><br><b>100 documents or less</b></span></nobr></DIV>
+<DIV style="position:absolute;top:418;left:146"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:417;left:180"><nobr><span class="ft35"><b>Why rank 500,000 documents</b><br><b>if only 100 are needed?</b></span></nobr></DIV>
+<DIV style="position:absolute;top:494;left:146"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:493;left:180"><nobr><span class="ft5"><b>Top-docs lists:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:536;left:200"><nobr><span class="ft9">– Points to only the best docs<br>– Sorted by doc score</span></nobr></DIV>
+<DIV style="position:absolute;top:624;left:146"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:623;left:180"><nobr><span class="ft5"><b>Much faster on long queries</b></span></nobr></DIV>
+<DIV style="position:absolute;top:667;left:146"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:666;left:180"><nobr><span class="ft5"><b>Lower recall</b></span></nobr></DIV>
+<DIV style="position:absolute;top:710;left:200"><nobr><span class="ft7">– Maybe lower precision</span></nobr></DIV>
+<DIV style="position:absolute;top:754;left:146"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:753;left:180"><nobr><span class="ft5"><b>Can’t use with some queries</b></span></nobr></DIV>
+<DIV style="position:absolute;top:690;left:886"><nobr><span class="ft18"><b>1,000 documents</b></span></nobr></DIV>
+<DIV style="position:absolute;top:722;left:839"><nobr><span class="ft18"><b>1,025,430 documents</b></span></nobr></DIV>
+<DIV style="position:absolute;top:332;left:864"><nobr><span class="ft12">Doc 1025429</span></nobr></DIV>
+<DIV style="position:absolute;top:365;left:914"><nobr><span class="ft12">0.75</span></nobr></DIV>
+<DIV style="position:absolute;top:397;left:871"><nobr><span class="ft12">Doc 258393</span></nobr></DIV>
+<DIV style="position:absolute;top:429;left:914"><nobr><span class="ft12">0.73</span></nobr></DIV>
+<DIV style="position:absolute;top:462;left:910"><nobr><span class="ft11"><b>: : :</b></span></nobr></DIV>
+<DIV style="position:absolute;top:494;left:905"><nobr><span class="ft12">Doc 2</span></nobr></DIV>
+<DIV style="position:absolute;top:527;left:907"><nobr><span class="ft12">0.572</span></nobr></DIV>
+<DIV style="position:absolute;top:559;left:864"><nobr><span class="ft12">Doc 1025430</span></nobr></DIV>
+<DIV style="position:absolute;top:592;left:907"><nobr><span class="ft12">0.571</span></nobr></DIV>
+<DIV style="position:absolute;top:251;left:897"><nobr><span class="ft5"><b>“apple”</b></span></nobr></DIV>
+<DIV style="position:absolute;top:287;left:857"><nobr><span class="ft5"><b>Top-Docs List</b></span></nobr></DIV>
+<DIV style="position:absolute;top:332;left:671"><nobr><span class="ft12">Doc 1</span></nobr></DIV>
+<DIV style="position:absolute;top:365;left:680"><nobr><span class="ft12">0.42</span></nobr></DIV>
+<DIV style="position:absolute;top:397;left:671"><nobr><span class="ft12">Doc 2</span></nobr></DIV>
+<DIV style="position:absolute;top:429;left:673"><nobr><span class="ft12">0.572</span></nobr></DIV>
+<DIV style="position:absolute;top:462;left:677"><nobr><span class="ft11"><b>: : :</b></span></nobr></DIV>
+<DIV style="position:absolute;top:494;left:637"><nobr><span class="ft12">Doc 258392</span></nobr></DIV>
+<DIV style="position:absolute;top:527;left:680"><nobr><span class="ft12">0.44</span></nobr></DIV>
+<DIV style="position:absolute;top:559;left:637"><nobr><span class="ft12">Doc 258393</span></nobr></DIV>
+<DIV style="position:absolute;top:592;left:680"><nobr><span class="ft46">0.73<br><b>: : :</b></span></nobr></DIV>
+<DIV style="position:absolute;top:657;left:630"><nobr><span class="ft12">Doc 1025429</span></nobr></DIV>
+<DIV style="position:absolute;top:689;left:680"><nobr><span class="ft12">0.75</span></nobr></DIV>
+<DIV style="position:absolute;top:721;left:630"><nobr><span class="ft12">Doc 1025430</span></nobr></DIV>
+<DIV style="position:absolute;top:754;left:673"><nobr><span class="ft12">0.571</span></nobr></DIV>
+<DIV style="position:absolute;top:251;left:647"><nobr><span class="ft5"><b>“apple”</b></span></nobr></DIV>
+<DIV style="position:absolute;top:287;left:614"><nobr><span class="ft5"><b>Inverted List</b></span></nobr></DIV>
+</DIV>
+<!-- Page 16 -->
+<a name="16"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">16</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:335"><nobr><span class="ft0"><b>Inverted List Optimizations:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:445"><nobr><span class="ft0"><b>Separating Data</b></span></nobr></DIV>
+<DIV style="position:absolute;top:284;left:182"><nobr><span class="ft5"><b>Separating presence information from location information</b></span></nobr></DIV>
+<DIV style="position:absolute;top:328;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:327;left:216"><nobr><span class="ft5"><b>Many operators only need presence information</b></span></nobr></DIV>
+<DIV style="position:absolute;top:371;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:370;left:216"><nobr><span class="ft5"><b>Location information takes substantial space (I/O)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:415;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:414;left:216"><nobr><span class="ft5"><b>If split,</b></span></nobr></DIV>
+<DIV style="position:absolute;top:457;left:236"><nobr><span class="ft9">– reduced I/O for presence operators<br>– increased I/O for location operators (or larger index)</span></nobr></DIV>
+<DIV style="position:absolute;top:544;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:544;left:216"><nobr><span class="ft5"><b>Common in CD-ROM implementations</b></span></nobr></DIV>
+</DIV>
+<!-- Page 17 -->
+<a name="17"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">17</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:403"><nobr><span class="ft0"><b>Inverted List Access:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:354"><nobr><span class="ft0"><b>Strengths and Weaknesses</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:182"><nobr><span class="ft5"><b>Strengths:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:337;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:336;left:216"><nobr><span class="ft5"><b>Simple to create</b></span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:379;left:216"><nobr><span class="ft5"><b>Space efficient</b></span></nobr></DIV>
+<DIV style="position:absolute;top:424;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:423;left:216"><nobr><span class="ft5"><b>Given a term, very efficient access to postings</b></span></nobr></DIV>
+<DIV style="position:absolute;top:466;left:182"><nobr><span class="ft5"><b>Weaknesses:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:510;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:509;left:216"><nobr><span class="ft5"><b>It’s not necessarily easy to update a document</b></span></nobr></DIV>
+<DIV style="position:absolute;top:553;left:236"><nobr><span class="ft9">– Many lists affected<br>– Changes in the middle of lists means rewriting the entire list</span></nobr></DIV>
+<DIV style="position:absolute;top:640;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:639;left:216"><nobr><span class="ft5"><b>Nearly impossible to find adjacent terms in a document</b></span></nobr></DIV>
+<DIV style="position:absolute;top:683;left:236"><nobr><span class="ft7">– “apple” is a location 12…what’s at location 13?</span></nobr></DIV>
+</DIV>
+<!-- Page 18 -->
+<a name="18"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft47{font-size:27px;line-height:28px;font-family:Times;color:#3333cc;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">18</span></nobr></DIV>
+<DIV style="position:absolute;top:136;left:434"><nobr><span class="ft0"><b>Storing Structure</b></span></nobr></DIV>
+<DIV style="position:absolute;top:291;left:137"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:290;left:171"><nobr><span class="ft5"><b>Many documents have internal structure</b></span></nobr></DIV>
+<DIV style="position:absolute;top:330;left:191"><nobr><span class="ft40">– Title, date, author, …<br>– Chapter, section, subsection, paragraph, sentence, references, …</span></nobr></DIV>
+<DIV style="position:absolute;top:410;left:137"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:409;left:171"><nobr><span class="ft5"><b>Research systems have tended to ignore structure</b></span></nobr></DIV>
+<DIV style="position:absolute;top:449;left:191"><nobr><span class="ft7">– Some studies suggest that people don’t use it much</span></nobr></DIV>
+<DIV style="position:absolute;top:489;left:137"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:489;left:171"><nobr><span class="ft5"><b>Commercial systems have tended to support some structure</b></span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:191"><nobr><span class="ft7">– Especially title, date, author, sentence</span></nobr></DIV>
+<DIV style="position:absolute;top:569;left:137"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:568;left:171"><nobr><span class="ft47"><b>Some current trends suggest the document structure will be</b><br><b>increasingly important in the future</b></span></nobr></DIV>
+<DIV style="position:absolute;top:637;left:191"><nobr><span class="ft40">– XML<br>– Use of IR systems as “back-ends” for other language processing tasks<br>– Document markup such as POS, named-entity, syntax, …</span></nobr></DIV>
+</DIV>
+<!-- Page 19 -->
+<a name="19"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">19</span></nobr></DIV>
+<DIV style="position:absolute;top:136;left:420"><nobr><span class="ft0"><b>Document Markup</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:128"><nobr><span class="ft42">•</span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:162"><nobr><span class="ft18"><b>XML markup</b></span></nobr></DIV>
+<DIV style="position:absolute;top:333;left:182"><nobr><span class="ft9">&lt;newsitem itemid=&quot;100000&quot; id=&quot;root&quot; date=&quot;1996-10-07&quot; xml:lang=&quot;en&quot;&gt;<br>&lt;title&gt;USA: NYCE cotton closes up on Tropical Storm Josephine.&lt;/title&gt;<br>&lt;headline&gt;NYCE cotton closes up on Tropical Storm</span></nobr></DIV>
+<DIV style="position:absolute;top:452;left:209"><nobr><span class="ft7">Josephine.&lt;/headline&gt;</span></nobr></DIV>
+<DIV style="position:absolute;top:495;left:182"><nobr><span class="ft9">&lt;dateline&gt;NEW YORK 1996-10-07&lt;/dateline&gt;<br>&lt;text&gt;<br>&lt;p&gt;Light speculative buying buoyed NYCE cotton futures to a higher close</span></nobr></DIV>
+<DIV style="position:absolute;top:614;left:209"><nobr><span class="ft7">as Tropical Storm Josephine was poised to deluge an already soaked …</span></nobr></DIV>
+<DIV style="position:absolute;top:658;left:182"><nobr><span class="ft9">&lt;p&gt;--Suzanne Rostler, New York Commodities 212-859-1646&lt;/p&gt;<br>&lt;/text&gt;<br>&lt;copyright&gt;(c) Reuters Limited 1996&lt;/copyright&gt;</span></nobr></DIV>
+</DIV>
+<!-- Page 20 -->
+<a name="20"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">20</span></nobr></DIV>
+<DIV style="position:absolute;top:136;left:420"><nobr><span class="ft0"><b>Document Markup</b></span></nobr></DIV>
+<DIV style="position:absolute;top:294;left:155"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:189"><nobr><span class="ft5"><b>Part of speech markup</b></span></nobr></DIV>
+<DIV style="position:absolute;top:336;left:209"><nobr><span class="ft7">– “The/AT chief/NN of/PRF these/DT spies/NN is/VBZ</span></nobr></DIV>
+<DIV style="position:absolute;top:369;left:236"><nobr><span class="ft7">the/AT celebrated/AJ0 Belle/NP Boyd/NP ./.”</span></nobr></DIV>
+<DIV style="position:absolute;top:413;left:155"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:412;left:189"><nobr><span class="ft5"><b>Named-entity markup</b></span></nobr></DIV>
+<DIV style="position:absolute;top:455;left:209"><nobr><span class="ft7">– “The chief of these spies is the celebrated</span></nobr></DIV>
+<DIV style="position:absolute;top:488;left:236"><nobr><span class="ft7">&lt;ENAMEX TYPE=PERSON&gt;Belle Boyd&lt;/ENAMEX&gt;”</span></nobr></DIV>
+</DIV>
+<!-- Page 21 -->
+<a name="21"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">21</span></nobr></DIV>
+<DIV style="position:absolute;top:136;left:420"><nobr><span class="ft0"><b>Document Markup</b></span></nobr></DIV>
+<DIV style="position:absolute;top:294;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:216"><nobr><span class="ft5"><b>Syntactic markup</b></span></nobr></DIV>
+<DIV style="position:absolute;top:705;left:360"><nobr><span class="ft7">The  pumpkin    is    moving horizontally with  the man</span></nobr></DIV>
+<DIV style="position:absolute;top:667;left:353"><nobr><span class="ft7">DET</span></nobr></DIV>
+<DIV style="position:absolute;top:667;left:466"><nobr><span class="ft7">N</span></nobr></DIV>
+<DIV style="position:absolute;top:667;left:530"><nobr><span class="ft7">AUX</span></nobr></DIV>
+<DIV style="position:absolute;top:667;left:646"><nobr><span class="ft7">V</span></nobr></DIV>
+<DIV style="position:absolute;top:667;left:740"><nobr><span class="ft7">ADV</span></nobr></DIV>
+<DIV style="position:absolute;top:667;left:888"><nobr><span class="ft7">P DET N</span></nobr></DIV>
+<DIV style="position:absolute;top:589;left:416"><nobr><span class="ft7">NP</span></nobr></DIV>
+<DIV style="position:absolute;top:589;left:646"><nobr><span class="ft7">V’</span></nobr></DIV>
+<DIV style="position:absolute;top:589;left:947"><nobr><span class="ft7">NP</span></nobr></DIV>
+<DIV style="position:absolute;top:512;left:646"><nobr><span class="ft7">V’</span></nobr></DIV>
+<DIV style="position:absolute;top:512;left:895"><nobr><span class="ft7">PP</span></nobr></DIV>
+<DIV style="position:absolute;top:421;left:650"><nobr><span class="ft7">V’</span></nobr></DIV>
+<DIV style="position:absolute;top:333;left:612"><nobr><span class="ft7">VP</span></nobr></DIV>
+<DIV style="position:absolute;top:266;left:558"><nobr><span class="ft7">S</span></nobr></DIV>
+<DIV style="position:absolute;top:763;left:821"><nobr><span class="ft41">(Carolyn Penstein Rose)</span></nobr></DIV>
+</DIV>
+<!-- Page 22 -->
+<a name="22"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">22</span></nobr></DIV>
+<DIV style="position:absolute;top:136;left:371"><nobr><span class="ft0"><b>Storing Term Properties</b></span></nobr></DIV>
+<DIV style="position:absolute;top:294;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:216"><nobr><span class="ft5"><b>One of the simplest approaches is to store meta-terms</b></span></nobr></DIV>
+<DIV style="position:absolute;top:336;left:236"><nobr><span class="ft9">– &lt;Apple, Doc 23, Location 18&gt;<br>– &lt;Property:Organization, Doc 23, Location 18&gt;</span></nobr></DIV>
+<DIV style="position:absolute;top:424;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:423;left:216"><nobr><span class="ft5"><b>The meta-term is stored just like any other indexing term</b></span></nobr></DIV>
+<DIV style="position:absolute;top:466;left:236"><nobr><span class="ft7">– Usual inverted list indexing</span></nobr></DIV>
+<DIV style="position:absolute;top:510;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:509;left:216"><nobr><span class="ft5"><b>Query operators associate terms with properties</b></span></nobr></DIV>
+<DIV style="position:absolute;top:553;left:236"><nobr><span class="ft7">– The query operator “Property (Apple, Organization)” is</span></nobr></DIV>
+<DIV style="position:absolute;top:585;left:263"><nobr><span class="ft7">implemented as “Apple Near/0 Property:Organization”</span></nobr></DIV>
+<DIV style="position:absolute;top:628;left:236"><nobr><span class="ft7">– Seems crude, but very effective for single-term properties</span></nobr></DIV>
+<DIV style="position:absolute;top:673;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:672;left:216"><nobr><span class="ft35"><b>For multi-term properties, use Begin/End tags and slightly</b><br><b>more sophisticated query operator</b></span></nobr></DIV>
+<DIV style="position:absolute;top:747;left:236"><nobr><span class="ft7">– E.g., Property:Organization:Begin, Property:Organization:End</span></nobr></DIV>
+</DIV>
+<!-- Page 23 -->
+<a name="23"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft48{font-size:25px;line-height:35px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">23</span></nobr></DIV>
+<DIV style="position:absolute;top:136;left:336"><nobr><span class="ft0"><b>Storing Fields and Structure</b></span></nobr></DIV>
+<DIV style="position:absolute;top:291;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:290;left:216"><nobr><span class="ft5"><b>Very easy to do for shallow, “hard-wired” fields</b></span></nobr></DIV>
+<DIV style="position:absolute;top:330;left:236"><nobr><span class="ft7">– E.g., treat Title:Apple and Text:Apple as different index terms</span></nobr></DIV>
+<DIV style="position:absolute;top:370;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:369;left:216"><nobr><span class="ft5"><b>More “interesting” for deep, dynamic fields</b></span></nobr></DIV>
+<DIV style="position:absolute;top:409;left:236"><nobr><span class="ft40">– E.g., XML documents<br>– Terms in “Subsection” should also appear in “Section”</span></nobr></DIV>
+<DIV style="position:absolute;top:489;left:290"><nobr><span class="ft7">» But, don’t want to store them twice</span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:236"><nobr><span class="ft1">– <b>Solution:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:528;left:394"><nobr><span class="ft7">Include additional data structures to store document</span></nobr></DIV>
+<DIV style="position:absolute;top:557;left:263"><nobr><span class="ft7">structure explicitly</span></nobr></DIV>
+<DIV style="position:absolute;top:597;left:290"><nobr><span class="ft7">» Essentially store the parse tree…</span></nobr></DIV>
+<DIV style="position:absolute;top:637;left:317"><nobr><span class="ft7">…perhaps with additional information</span></nobr></DIV>
+<DIV style="position:absolute;top:676;left:344"><nobr><span class="ft48">• E.g., the length of the field<br>• E.g., pointers to its parent or children</span></nobr></DIV>
+</DIV>
+<!-- Page 24 -->
+<a name="24"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft49{font-size:27px;line-height:35px;font-family:Times;color:#3333cc;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">24</span></nobr></DIV>
+<DIV style="position:absolute;top:136;left:336"><nobr><span class="ft0"><b>Storing Fields and Structure</b></span></nobr></DIV>
+<DIV style="position:absolute;top:278;left:98"><nobr><span class="ft13"><b>Traditional</b></span></nobr></DIV>
+<DIV style="position:absolute;top:314;left:95"><nobr><span class="ft13"><b>inverted list</b></span></nobr></DIV>
+<DIV style="position:absolute;top:359;left:119"><nobr><span class="ft40">Doc: 28<br>TF: 3<br>Loc: 6<br>Loc: 27<br>Loc: 5442<br>Doc: 92</span></nobr></DIV>
+<DIV style="position:absolute;top:596;left:149"><nobr><span class="ft40">:<br>:</span></nobr></DIV>
+<DIV style="position:absolute;top:278;left:304"><nobr><span class="ft13"><b>Inverted list with</b></span></nobr></DIV>
+<DIV style="position:absolute;top:317;left:278"><nobr><span class="ft13"><b>support for structure</b></span></nobr></DIV>
+<DIV style="position:absolute;top:359;left:344"><nobr><span class="ft40">Doc: 28<br>Struct:<br>TF: 3<br>Loc: 6<br>Loc: 27<br>Loc: 5442<br>Doc: 92</span></nobr></DIV>
+<DIV style="position:absolute;top:636;left:374"><nobr><span class="ft40">:<br>:</span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:740"><nobr><span class="ft7">Doc</span></nobr></DIV>
+<DIV style="position:absolute;top:383;left:535"><nobr><span class="ft7">Title</span></nobr></DIV>
+<DIV style="position:absolute;top:419;left:513"><nobr><span class="ft7">&lt;1, 7&gt;</span></nobr></DIV>
+<DIV style="position:absolute;top:473;left:516"><nobr><span class="ft7">Author</span></nobr></DIV>
+<DIV style="position:absolute;top:509;left:513"><nobr><span class="ft7">&lt;8, 9&gt;</span></nobr></DIV>
+<DIV style="position:absolute;top:572;left:505"><nobr><span class="ft7">Abstract</span></nobr></DIV>
+<DIV style="position:absolute;top:608;left:484"><nobr><span class="ft7">&lt;10, 111&gt;</span></nobr></DIV>
+<DIV style="position:absolute;top:383;left:688"><nobr><span class="ft7">Sections</span></nobr></DIV>
+<DIV style="position:absolute;top:419;left:649"><nobr><span class="ft7">&lt;112, 5104&gt;</span></nobr></DIV>
+<DIV style="position:absolute;top:383;left:898"><nobr><span class="ft7">References</span></nobr></DIV>
+<DIV style="position:absolute;top:419;left:869"><nobr><span class="ft7">&lt;5104, 5508&gt;</span></nobr></DIV>
+<DIV style="position:absolute;top:482;left:718"><nobr><span class="ft7">Section</span></nobr></DIV>
+<DIV style="position:absolute;top:518;left:672"><nobr><span class="ft7">&lt;897, 1403&gt;</span></nobr></DIV>
+<DIV style="position:absolute;top:590;left:701"><nobr><span class="ft7">Subsection</span></nobr></DIV>
+<DIV style="position:absolute;top:626;left:681"><nobr><span class="ft7">&lt;992, 1104&gt;</span></nobr></DIV>
+<DIV style="position:absolute;top:689;left:715"><nobr><span class="ft7">Paragraph</span></nobr></DIV>
+<DIV style="position:absolute;top:725;left:680"><nobr><span class="ft7">&lt;1012, 1104&gt;</span></nobr></DIV>
+<DIV style="position:absolute;top:710;left:110"><nobr><span class="ft49"><b>This looks messy, but it gives query-time</b><br><b>control over which term locations are</b><br><b>used for matching and scoring</b></span></nobr></DIV>
+</DIV>
+<!-- Page 25 -->
+<a name="25"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">25</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:329"><nobr><span class="ft0"><b>Storing Fields and Structure:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:538"><nobr><span class="ft0"><b>Issues</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:182"><nobr><span class="ft5"><b>This is an active area of research</b></span></nobr></DIV>
+<DIV style="position:absolute;top:337;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:336;left:216"><nobr><span class="ft5"><b>How to do it efficiently</b></span></nobr></DIV>
+<DIV style="position:absolute;top:380;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:379;left:216"><nobr><span class="ft5"><b>How to provide effective retrieval</b></span></nobr></DIV>
+<DIV style="position:absolute;top:424;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:423;left:216"><nobr><span class="ft5"><b>How to make it easy for people to use</b></span></nobr></DIV>
+<DIV style="position:absolute;top:466;left:236"><nobr><span class="ft7">– Or, maybe not primarily intended for use by people</span></nobr></DIV>
+<DIV style="position:absolute;top:510;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:509;left:216"><nobr><span class="ft5"><b>What is necessary/useful to support other language tasks?</b></span></nobr></DIV>
+<DIV style="position:absolute;top:553;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:553;left:216"><nobr><span class="ft5"><b>How to support complex user models</b></span></nobr></DIV>
+</DIV>
+<!-- Page 26 -->
+<a name="26"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">26</span></nobr></DIV>
+<DIV style="position:absolute;top:136;left:396"><nobr><span class="ft0"><b>Document Term Lists</b></span></nobr></DIV>
+<DIV style="position:absolute;top:294;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:216"><nobr><span class="ft35"><b>Sometimes the IR system needs to know what terms are in the</b><br><b>document</b></span></nobr></DIV>
+<DIV style="position:absolute;top:369;left:236"><nobr><span class="ft7">– E.g., for query expansion, relevance feedback, …</span></nobr></DIV>
+<DIV style="position:absolute;top:413;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:412;left:216"><nobr><span class="ft5"><b>How does it find out?</b></span></nobr></DIV>
+<DIV style="position:absolute;top:455;left:236"><nobr><span class="ft7">– Parse the document again?</span></nobr></DIV>
+<DIV style="position:absolute;top:498;left:290"><nobr><span class="ft9">» A little slow (although not as bad as you would think)<br>» Done when disk space is expensive<br>» But it’s very hard to guarantee the exact same parse</span></nobr></DIV>
+<DIV style="position:absolute;top:628;left:236"><nobr><span class="ft7">– Store the parsed document?</span></nobr></DIV>
+<DIV style="position:absolute;top:672;left:290"><nobr><span class="ft9">» Guaranteed to be accurate, but it takes a lot of space<br>» Done when disk space is cheap</span></nobr></DIV>
+</DIV>
+<!-- Page 27 -->
+<a name="27"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft50{font-size:27px;line-height:35px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">27</span></nobr></DIV>
+<DIV style="position:absolute;top:136;left:396"><nobr><span class="ft0"><b>Document Term Lists</b></span></nobr></DIV>
+<DIV style="position:absolute;top:276;left:344"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:275;left:378"><nobr><span class="ft5"><b>Length:  Number of words in the surface text</b></span></nobr></DIV>
+<DIV style="position:absolute;top:319;left:344"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:318;left:378"><nobr><span class="ft35"><b>Postings:  Number of elements in the document</b><br><b>term list</b></span></nobr></DIV>
+<DIV style="position:absolute;top:394;left:398"><nobr><span class="ft7">– Includes annotations, e.g., named-entity, POS</span></nobr></DIV>
+<DIV style="position:absolute;top:438;left:344"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:437;left:378"><nobr><span class="ft5"><b>Term 3 is missing…it was a stopword</b></span></nobr></DIV>
+<DIV style="position:absolute;top:481;left:344"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:480;left:378"><nobr><span class="ft5"><b>Term 4 was annotated</b></span></nobr></DIV>
+<DIV style="position:absolute;top:524;left:398"><nobr><span class="ft7">– Use small term ids for common terms</span></nobr></DIV>
+<DIV style="position:absolute;top:567;left:452"><nobr><span class="ft7">» Because they compress more effectively</span></nobr></DIV>
+<DIV style="position:absolute;top:611;left:344"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:610;left:378"><nobr><span class="ft5"><b>A big data structure</b></span></nobr></DIV>
+<DIV style="position:absolute;top:654;left:398"><nobr><span class="ft7">– But locations compress very well</span></nobr></DIV>
+<DIV style="position:absolute;top:278;left:137"><nobr><span class="ft50"><b>Doc: 21</b><br><b>Length:  433</b><br><b>Postings: 492</b><br><b>&lt;1, 41318&gt;</b><br><b>&lt;2, 39122&gt;</b><br><b>&lt;4, 55823&gt;</b><br><b>&lt;4, 28&gt;</b><br><b>&lt;5, 9975&gt;</b></span></nobr></DIV>
+<DIV style="position:absolute;top:566;left:159"><nobr><span class="ft34"><b>:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:566;left:207"><nobr><span class="ft34"><b>:</b></span></nobr></DIV>
+</DIV>
+<!-- Page 28 -->
+<a name="28"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">28</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:457"><nobr><span class="ft0"><b>Other Indexes:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:415"><nobr><span class="ft0"><b>Wildcard Matching</b></span></nobr></DIV>
+<DIV style="position:absolute;top:291;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:290;left:216"><nobr><span class="ft5"><b>Historically wildcard matching was important</b></span></nobr></DIV>
+<DIV style="position:absolute;top:330;left:236"><nobr><span class="ft7">– Partly as a substitute for good morphological processing</span></nobr></DIV>
+<DIV style="position:absolute;top:369;left:290"><nobr><span class="ft7">» computer* matched “computer”, “computers”</span></nobr></DIV>
+<DIV style="position:absolute;top:409;left:236"><nobr><span class="ft7">– As better morphological processing was introduced, wildcard</span></nobr></DIV>
+<DIV style="position:absolute;top:438;left:263"><nobr><span class="ft7">matching mostly disappeared from text search systems</span></nobr></DIV>
+<DIV style="position:absolute;top:479;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:478;left:216"><nobr><span class="ft5"><b>Wildcard matching remains important in some applications</b></span></nobr></DIV>
+<DIV style="position:absolute;top:517;left:236"><nobr><span class="ft7">– Names with inconsistent spellings</span></nobr></DIV>
+<DIV style="position:absolute;top:557;left:290"><nobr><span class="ft7">» Qaddafi, Kaddafi, …</span></nobr></DIV>
+<DIV style="position:absolute;top:597;left:236"><nobr><span class="ft7">– Languages with very flexible morphology</span></nobr></DIV>
+<DIV style="position:absolute;top:637;left:290"><nobr><span class="ft7">» E.g., Arabic</span></nobr></DIV>
+<DIV style="position:absolute;top:676;left:236"><nobr><span class="ft7">– Domains where spelling is still in flux</span></nobr></DIV>
+<DIV style="position:absolute;top:716;left:290"><nobr><span class="ft7">» E.g., bioinformatics</span></nobr></DIV>
+</DIV>
+<!-- Page 29 -->
+<a name="29"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">29</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:457"><nobr><span class="ft0"><b>Other Indexes:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:415"><nobr><span class="ft0"><b>Wildcard Matching</b></span></nobr></DIV>
+<DIV style="position:absolute;top:257;left:146"><nobr><span class="ft42">•</span></nobr></DIV>
+<DIV style="position:absolute;top:257;left:180"><nobr><span class="ft18"><b>X* is easy, but *X, *X*, and X*Y are hard (why?)</b></span></nobr></DIV>
+<DIV style="position:absolute;top:296;left:146"><nobr><span class="ft42">•</span></nobr></DIV>
+<DIV style="position:absolute;top:296;left:180"><nobr><span class="ft18"><b>“Permuterm” Index on Inverted Lists:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:335;left:200"><nobr><span class="ft44">– Prefix each term X with a “B”<br>– Rotate each augmented term cyclically (with wraparound) by one</span></nobr></DIV>
+<DIV style="position:absolute;top:403;left:227"><nobr><span class="ft12">character, to produce n new terms</span></nobr></DIV>
+<DIV style="position:absolute;top:442;left:200"><nobr><span class="ft12">– Insert all forms into the dictionary</span></nobr></DIV>
+<DIV style="position:absolute;top:481;left:254"><nobr><span class="ft12">» Any data structure supporting lexically-adjacent lookup, e.g., B+ Tree</span></nobr></DIV>
+<DIV style="position:absolute;top:520;left:146"><nobr><span class="ft42">•</span></nobr></DIV>
+<DIV style="position:absolute;top:520;left:180"><nobr><span class="ft18"><b>Lookup:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:520;left:794"><nobr><span class="ft18"><b>Term</b></span></nobr></DIV>
+<DIV style="position:absolute;top:520;left:902"><nobr><span class="ft18"><b>Key</b></span></nobr></DIV>
+<DIV style="position:absolute;top:559;left:200"><nobr><span class="ft12">– X:      Match ◘X exactly</span></nobr></DIV>
+<DIV style="position:absolute;top:559;left:794"><nobr><span class="ft19">sled</span></nobr></DIV>
+<DIV style="position:absolute;top:559;left:909"><nobr><span class="ft19">◘sled</span></nobr></DIV>
+<DIV style="position:absolute;top:598;left:200"><nobr><span class="ft12">– X*:    Match all terms beginning with ◘X</span></nobr></DIV>
+<DIV style="position:absolute;top:598;left:794"><nobr><span class="ft19">sled*</span></nobr></DIV>
+<DIV style="position:absolute;top:598;left:909"><nobr><span class="ft19">◘sled…</span></nobr></DIV>
+<DIV style="position:absolute;top:637;left:200"><nobr><span class="ft12">– *X:    Match all terms beginning with X◘</span></nobr></DIV>
+<DIV style="position:absolute;top:637;left:794"><nobr><span class="ft19">*sled</span></nobr></DIV>
+<DIV style="position:absolute;top:637;left:902"><nobr><span class="ft19">sled◘…</span></nobr></DIV>
+<DIV style="position:absolute;top:676;left:200"><nobr><span class="ft12">– *X*:  Match all terms beginning with X</span></nobr></DIV>
+<DIV style="position:absolute;top:676;left:794"><nobr><span class="ft19">*sled</span></nobr></DIV>
+<DIV style="position:absolute;top:676;left:851"><nobr><span class="ft12">*</span></nobr></DIV>
+<DIV style="position:absolute;top:676;left:902"><nobr><span class="ft19">sled…</span></nobr></DIV>
+<DIV style="position:absolute;top:715;left:200"><nobr><span class="ft12">– X*Y: Match all terms beginning with Y◘X</span></nobr></DIV>
+<DIV style="position:absolute;top:715;left:794"><nobr><span class="ft19">d*sled</span></nobr></DIV>
+<DIV style="position:absolute;top:715;left:902"><nobr><span class="ft19">sled◘d…</span></nobr></DIV>
+</DIV>
+<!-- Page 30 -->
+<a name="30"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">30</span></nobr></DIV>
+<DIV style="position:absolute;top:113;left:393"><nobr><span class="ft0"><b>Inverted List Indexes:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:159;left:361"><nobr><span class="ft0"><b>Access Methods Revisited</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:182"><nobr><span class="ft5"><b>Task:</b></span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:312"><nobr><span class="ft5"><b>Enable accurate and <i>efficient</i>document retrieval</b></span></nobr></DIV>
+<DIV style="position:absolute;top:336;left:182"><nobr><span class="ft5"><b>Solution:  Database of inverted lists, different access methods</b></span></nobr></DIV>
+<DIV style="position:absolute;top:500;left:399"><nobr><span class="ft11"><b>. . . .</b></span></nobr></DIV>
+<DIV style="position:absolute;top:500;left:559"><nobr><span class="ft11"><b>. . . .</b></span></nobr></DIV>
+<DIV style="position:absolute;top:453;left:473"><nobr><span class="ft11"><b>. . . .</b></span></nobr></DIV>
+<DIV style="position:absolute;top:517;left:326"><nobr><span class="ft12">apple</span></nobr></DIV>
+<DIV style="position:absolute;top:521;left:627"><nobr><span class="ft12">zebra</span></nobr></DIV>
+<DIV style="position:absolute;top:395;left:419"><nobr><span class="ft13"><b>B-Tree-style Access</b></span></nobr></DIV>
+<DIV style="position:absolute;top:395;left:119"><nobr><span class="ft13"><b>Hash Table Access</b></span></nobr></DIV>
+<DIV style="position:absolute;top:554;left:166"><nobr><span class="ft12">apple</span></nobr></DIV>
+<DIV style="position:absolute;top:465;left:166"><nobr><span class="ft12">zebra</span></nobr></DIV>
+<DIV style="position:absolute;top:491;left:175"><nobr><span class="ft14"><b>:   :</b><br><b>:   :</b></span></nobr></DIV>
+<DIV style="position:absolute;top:672;left:542"><nobr><span class="ft14"><b>. . . .</b><br><b>. . . .</b><br><b>. . . .</b></span></nobr></DIV>
+<DIV style="position:absolute;top:688;left:757"><nobr><span class="ft13"><b>Database of</b></span></nobr></DIV>
+<DIV style="position:absolute;top:724;left:743"><nobr><span class="ft13"><b>Inverted Lists</b></span></nobr></DIV>
+<DIV style="position:absolute;top:500;left:777"><nobr><span class="ft11"><b>. . . .</b></span></nobr></DIV>
+<DIV style="position:absolute;top:500;left:937"><nobr><span class="ft11"><b>. . . .</b></span></nobr></DIV>
+<DIV style="position:absolute;top:453;left:851"><nobr><span class="ft11"><b>. . . .</b></span></nobr></DIV>
+<DIV style="position:absolute;top:517;left:704"><nobr><span class="ft12">e<b>◘</b>appl</span></nobr></DIV>
+<DIV style="position:absolute;top:521;left:1005"><nobr><span class="ft12">ra<b>◘</b>zeb</span></nobr></DIV>
+<DIV style="position:absolute;top:395;left:797"><nobr><span class="ft13"><b>Permuterm Index</b></span></nobr></DIV>
+</DIV>
+<!-- Page 31 -->
+<a name="31"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">31</span></nobr></DIV>
+<DIV style="position:absolute;top:136;left:503"><nobr><span class="ft0"><b>Summary</b></span></nobr></DIV>
+<DIV style="position:absolute;top:294;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:293;left:216"><nobr><span class="ft5"><b>Inverted lists for term-based access</b></span></nobr></DIV>
+<DIV style="position:absolute;top:336;left:236"><nobr><span class="ft9">– Exact match lookup via hash table<br>– Range-based lookup via B-Tree<br>– Wildcard lookup via Permuterm</span></nobr></DIV>
+<DIV style="position:absolute;top:467;left:182"><nobr><span class="ft6">•</span></nobr></DIV>
+<DIV style="position:absolute;top:466;left:216"><nobr><span class="ft5"><b>Document term lists for access to parsed document</b></span></nobr></DIV>
+<DIV style="position:absolute;top:509;left:236"><nobr><span class="ft7">– Name varies…this is a relatively new feature in most systems</span></nobr></DIV>
+</DIV>
+<!-- Page 32 -->
+<a name="32"></a>
+<DIV style="position:relative;width:1188;height:918;">
+<STYLE type="text/css">
+<!--
+	.ft51{font-size:26px;font-family:Helvetica;color:#000000;}
+	.ft52{font-size:22px;line-height:26px;font-family:Times;color:#000000;}
+-->
+</STYLE>
+<DIV style="position:absolute;top:800;left:902"><nobr><span class="ft3">© 2006, Jamie Callan</span></nobr></DIV>
+<DIV style="position:absolute;top:808;left:507"><nobr><span class="ft4">32</span></nobr></DIV>
+<DIV style="position:absolute;top:136;left:390"><nobr><span class="ft0"><b>For More Information</b></span></nobr></DIV>
+<DIV style="position:absolute;top:267;left:119"><nobr><span class="ft51">•</span></nobr></DIV>
+<DIV style="position:absolute;top:266;left:153"><nobr><span class="ft41">I.H. Witten, A. Moffat, and T.C. Bell.  “Managing Gigabytes.” Morgan Kaufmann.  1999.</span></nobr></DIV>
+<DIV style="position:absolute;top:302;left:119"><nobr><span class="ft51">•</span></nobr></DIV>
+<DIV style="position:absolute;top:301;left:153"><nobr><span class="ft41">G. Salton.  “Automatic Text Processing.” Addison-Wesley.  1989.</span></nobr></DIV>
+<DIV style="position:absolute;top:336;left:119"><nobr><span class="ft51">•</span></nobr></DIV>
+<DIV style="position:absolute;top:335;left:153"><nobr><span class="ft52">E. Brown.  “Execution Performance Issues in Full-Text Information Retrieval.” Ph.D.<br>dissertation, University of Massachusetts.  1995.<br>Available as technical report IR-73 at http://ciir.cs.umass.edu/.</span></nobr></DIV>
+</DIV>
+</BODY>
+</HTML>

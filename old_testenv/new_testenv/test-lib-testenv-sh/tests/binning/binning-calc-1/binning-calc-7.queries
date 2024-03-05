@@ -1,0 +1,30 @@
+#query::collection::number_of_urls::compare_file::new_file
+#
+#   special codes in strings: (yes, I know it is screwy but it greatly
+#                              simplifies processing ...)
+#      <2eq> will become '=='
+#      <eq> will become '='
+#      <empty> will become ''
+#      <cr> will become '\n' (newline)
+#      <sp> will become ' '
+#
+#   To add more changes go in:
+#      $TEST_ROOT/lib/queryObj.py in set_other_opts()
+#
+##############################################
+#
+#   Basic queries
+#
+PA::binning-calc-7::0::calc7..US..PA::num=200&profile=true&output-score=true
+NY::binning-calc-7::0::calc7..US..NY::num=200&profile=true&output-score=true
+FL::binning-calc-7::0::calc7..US..FL::num=200&profile=true&output-score=true
+AK::binning-calc-7::0::calc7..US..AK::num=200&profile=true&output-score=true
+WA::binning-calc-7::0::calc7..US..WA::num=200&profile=true&output-score=true
+MD::binning-calc-7::0::calc7..US..MD::num=200&profile=true&output-score=true
+VA::binning-calc-7::0::calc7..US..VA::num=200&profile=true&output-score=true
+TX::binning-calc-7::0::calc7..US..TX::num=200&profile=true&output-score=true
+OR::binning-calc-7::0::calc7..US..OR::num=200&profile=true&output-score=true
+NM::binning-calc-7::0::calc7..US..NM::num=200&profile=true&output-score=true
+AZ::binning-calc-7::0::calc7..US..AZ::num=200&profile=true&output-score=true
+MT::binning-calc-7::0::calc7..US..MT::num=200&profile=true&output-score=true
+NV::binning-calc-7::0::calc7..US..NV::num=200&profile=true&output-score=true

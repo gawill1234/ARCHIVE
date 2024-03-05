@@ -1,0 +1,54 @@
+<project name="Velocity Web Service" basedir="." default="all">
+
+  <!-- Change this value to point to the local Velocity server -->
+  <!-- You can also download the WSDL and change the value to the local file -->
+  <property name="wsdl.uri" value="http://testbed6-8.test.vivisimo.com/vivisimo/cgi-bin/velocity?v.app=api-soap&amp;use-types=true&amp;wsdl=1"/>
+
+  <!-- Change this value to point to the jaxws-ri library directory -->
+  <!-- Can be downloaded from https://jax-ws.dev.java.net/ -->
+  <property name="jaxws.lib" value="jaxws-ri/lib"/>
+
+  <!-- Should not need to change these properties-->
+  <property name="source.dir" value="src"/>
+  <property name="build.dir" value="build"/>
+  <property name="doc.dir" value="doc"/>
+  <property name="target.jar" value="velocity.jar"/>
+
+  <!-- Define targets -->
+
+  <target name="compile">
+    <mkdir dir="${source.dir}"/>
+    <mkdir dir="${build.dir}"/>
+    <wsimport debug="true" verbose="true" keep="true" fork="false" sourcedestdir="${source.dir}" destdir="${build.dir}" wsdl="${wsdl.uri}"/>
+  </target>
+
+  <target name="javadoc">
+    <javadoc sourcepath="${source.dir}" destdir="${doc.dir}"/>
+  </target>
+
+  <target name="${target.jar}" depends="compile">
+    <jar destfile="${target.jar}" basedir="${build.dir}"/>
+  </target>
+  
+  <target name="all" depends="${target.jar}"/>
+
+  <target name="clean">
+    <delete dir="${build.dir}"/>
+    <delete dir="${source.dir}"/>
+    <delete dir="${doc.dir}"/>
+    <delete file="${target.jar}"/>
+  </target>
+
+  <!-- Define the tasks we need -->
+
+  <path id="jaxws.classpath">
+    <fileset dir="${jaxws.lib}">
+      <include name="*.jar"/>
+    </fileset>
+  </path>
+
+  <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+    <classpath refid="jaxws.classpath"/>
+  </taskdef>
+
+</project>

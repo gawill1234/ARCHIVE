@@ -1,0 +1,20 @@
+<test name="binning-3">
+   <collection name="binning-3" file="binning-3.xml">
+      <statuscheck name="a-name" from="xpath">
+         <status-item eValue="0" vAttr="n-errors">//crawler-status</status-item>
+         <status-item eValue="352" vAttr="n-docs">//vse-index-status</status-item>
+      </statuscheck>
+      <queries eDir="query_cmp_files">
+         <query eValue="62" eFile="qry1.xml">SHIP_TYPE:Battleship</query>
+         <query eValue="19" eFile="qry2.xml">NATION:Germany</query>
+         <query eValue="275" eFile="qry3.xml">ALIGNED:allied</query>
+         <query eValue="62" eFile="qry4.uri">ship==Battleship</query>
+         <query eValue="29" eFile="qry5.uri">ship==Cruiser</query>
+         <query eValue="1" eFile="qry6.uri">ship==Battlecruiser#nations==USA</query>
+         <query eValue="2" eFile="qry7.uri">ship==Frigate#nations==UK</query>
+         <query eValue="275" eFile="qry8.uri">algn==allied</query>
+      </queries>
+      <updates type="syntax" name="custom">ship_type.syntax.xml</updates>
+      <updates type="source" name="binning-3">binning-3.src.xml</updates>
+   </collection>
+</test>

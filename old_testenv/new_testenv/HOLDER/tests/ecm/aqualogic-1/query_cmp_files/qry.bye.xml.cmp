@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="2" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="total-results-with-duplicates" value="2" />
+<document filetypes="text "
+  url="http://testbed2.test.vivisimo.com:7087/publishedcontent/publish/publisheradminfolder01/random_text_file.txt"
+  vse-key="aqualogic://testbed2.test.vivisimo.com:11905/publisher_item/?id=8535c127-0c39-4e87-b157-0f70b4b33724"
+  input-at="1195144418" vertex="75" vse-base-score="1.5" ct="text/plain" i="1"
+  filetype="aqualogic" datasource="aqualogic" la-score="2.42037"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="97">Random text file.txt</content>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="102">Random text file.txt</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="28" v="34">This is a test file for Publisher.
+
+</pre>
+      <content type="text" name="snippet" u="27" v="35" />
+      <match u="35" v="35">Bye</match>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="64" v="70">This is a test file for Publisher.
+
+</pre>
+      <content type="text" name="snippet" u="63" v="71" />
+      <match u="71" v="71">Bye</match>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">This is a test file for Publisher.
+
+ByeThis is a test file for Publisher.
+
+Bye</content>
+</document>
+<document filetypes="text "
+  url="http://testbed2.test.vivisimo.com:7087/publishedcontent/preview/publisheradminfolder01/random_text_file_published.txt"
+  vse-key="aqualogic://testbed2.test.vivisimo.com:11905/publisher_item/?id=307dd6ad-2c0e-456b-8132-598411f13dd1"
+  input-at="1195144418" vertex="76" vse-base-score="1.5" ct="text/plain" i="1"
+  filetype="aqualogic" datasource="aqualogic" la-score="2.42037"
+>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="105">Random text file-published.txt</content>
+  <content name="title" action="cluster" weight="3" output-action="bold" u="111">Random text file-published.txt</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="28" v="38">This is a test file for Publisher.
+It should be published.
+
+</pre>
+      <content type="text" name="snippet" u="27" v="39" />
+      <match u="39" v="39">Bye</match>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="68" v="78">This is a test file for Publisher.
+It should be published.
+
+</pre>
+      <content type="text" name="snippet" u="67" v="79" />
+      <match u="79" v="79">Bye</match>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... test file for Publisher.
+It should be published.
+
+Bye ... test file for Publisher.
+It should be published.
+
+Bye</content>
+</document>
+</scope>

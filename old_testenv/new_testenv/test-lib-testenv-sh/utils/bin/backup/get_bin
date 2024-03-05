@@ -1,0 +1,103 @@
+#!/bin/bash
+#
+#   Pyed
+#
+
+###########################################################
+
+   VUSER="$VIVUSER"
+   VPW="$VIVPW"
+   VCOLLECTION=""
+   VWORKINGDIR=$TESTWORKINGDIR
+   VWWWUSER=""
+   SHOST="$VIVHOST"
+   TARGETOS="$VIVTARGETOS"
+   BINLIST=""
+   SHOWME=1000
+   PROJECT=$VIVPROJECT
+   if [ "$PROJECT" == "" ];then
+      PROJECT="query-meta"
+   fi
+
+   QMCMD="query-meta"
+   if [ "$TARGETOS" == "windows" ]; then
+      QMCMD="query-meta.exe"
+   fi
+
+   export PATH=$PATH:$TEST_ROOT/utils/bin:$TEST_ROOT/bin
+
+###########################################################
+
+getsetopts()
+{
+   OPTERR=0
+   OPTIND=1
+   while getopts "H:C:U:P:W:p:B:s:" flag; do
+     case "$flag" in
+        C) VCOLLECTION=$OPTARG;;
+        H) SHOST=$OPTARG;;
+        U) VUSER=$OPTARG;;
+        P) VPW=$OPTARG;;
+        p) PROJECT=$OPTARG;;
+        B) BINLIST=$OPTARG;;
+        s) SHOWME=$OPTARG;;
+        W) VWORKINGDIR=$OPTARG;;
+        *) echo "Usage: start_crawl -C <collection> -U <user> -P <password>"
+           exit 1;;
+     esac
+   done
+
+   if [ "$VWORKINGDIR" == "" ]; then
+      VWORKINGDIR="/tmp"
+   fi
+
+   if [ "$BINLIST" == "" ]; then
+      echo "No bin list.  Required.  Exiting."
+      exit 1
+   fi
+
+   if [ "$VCOLLECTION" == "" ]; then
+      echo "Collection name must be specified"
+      echo "Use the -C <collection> option"
+      exit 1
+   fi
+
+   if [ "$VUSER" == "" ]; then
+         echo "Vivisimo username is needed"
+         echo "Either set VIVUSER environment variable or"
+         echo "use the -U <vivuser> options"
+         exit 1
+   fi
+
+   if [ "$VPW" == "" ]; then
+         echo "Vivisimo password is needed"
+         echo "Either set VIVPW environment variable or"
+         echo "use the -P <vivpassword> options"
+         exit 1
+   fi
+
+   if [ "$SHOST" == "" ]; then
+      echo "Target host not specified.  Required.  Exiting."
+      echo "Either set VIVHOST environment variable or"
+      echo "use the -H <hostname> options"
+      exit 1
+   fi
+}
+
+usewget()
+{
+
+   rstring="wget 'http://$SHOST/vivisimo/cgi-bin/$QMCMD?v:project=$PROJECT&&v:sources=$VCOLLECTION&$BINSTRING&render.list-show=$SHOWME' -o $VCOLLECTION.$binfname.binlog -O $VCOLLECTION.$binfname.bin"
+}
+
+getsetopts $*
+
+BINSTRING=`mbinstr $BINLIST`
+binfname=`genbinfname $BINLIST`
+
+usewget
+
+#echo $rstring
+eval $rstring 2>/dev/null
+
+exit 0

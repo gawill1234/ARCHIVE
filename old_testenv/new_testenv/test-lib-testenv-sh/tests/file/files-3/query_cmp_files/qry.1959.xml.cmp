@@ -1,0 +1,2684 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="47" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="14" />
+<attribute name="total-results-with-duplicates" value="47" />
+<document filetypes="xml " vse-base-score="1.99805"
+  vse-key="file://:80/testenv/test_data/law/US/360/index.html/" priority="0"
+  vertex="13" graph-id-high-water="12" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/index.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">30369</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="15"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="17">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="27" v="46"><![CDATA[360&lt;/title>
+    &lt;link />
+    &lt;link />
+    &lt;link />
+  &lt;/head>
+  &lt;body >
+    &lt;p >Volume 360&lt;/p>
+    &lt;p >&lt;a >United States Reports&lt;/a>&lt;/p>
+    
+    &lt;p >June, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="19"
+        v="1061"
+      />
+      <match u="47" v="47"><![CDATA[1959&lt;/]]></match>
+      <post u="48" v="67"><![CDATA[p>
+
+    &lt;table >&lt;tbody >&lt;tr >&lt;th >Cite/Page&lt;/th>
+          &lt;th >Date&lt;/th>
+          &lt;th >Hash of Approval&lt;a >*&lt;/a>&lt;/th>
+        &lt;/tr>&lt;tr >&lt;]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="59" v="78"><![CDATA[th >Hash of Approval&lt;a >*&lt;/a>&lt;/th>
+        &lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 1&lt;/a>&lt;/td>&lt;td >&lt;a >June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="19"
+        v="1061"
+      />
+      <match u="79" v="79"><![CDATA[1959&lt;/]]></match>
+      <post u="80" v="99"><![CDATA[a>&lt;/td>&lt;td >&lt;a >9074c28afa88e467f14d39cb82c9397bc2d5c788&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 19&lt;/a>&lt;/td>&lt;td >&lt;a >June 8, ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="80" v="99"><![CDATA[a>&lt;/td>&lt;td >&lt;a >9074c28afa88e467f14d39cb82c9397bc2d5c788&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 19&lt;/a>&lt;/td>&lt;td >&lt;a >June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="19"
+        v="1061"
+      />
+      <match u="100" v="100"><![CDATA[1959&lt;/]]></match>
+      <post u="101" v="120"><![CDATA[a>&lt;/td>&lt;td >&lt;a >204431d73b14f13c3e945cbbe48302c94447bc96&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 25&lt;/a>&lt;/td>&lt;td >&lt;a >June 8, ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="101" v="120"><![CDATA[a>&lt;/td>&lt;td >&lt;a >204431d73b14f13c3e945cbbe48302c94447bc96&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 25&lt;/a>&lt;/td>&lt;td >&lt;a >June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="19"
+        v="1061"
+      />
+      <match u="121" v="121"><![CDATA[1959&lt;/]]></match>
+      <post u="122" v="141"><![CDATA[a>&lt;/td>&lt;td >&lt;a >402d5c7444dc7f41a9e02545f0b2549a9ee92110&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 45&lt;/a>&lt;/td>&lt;td >&lt;a >June 8, ]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="122" v="141"><![CDATA[a>&lt;/td>&lt;td >&lt;a >402d5c7444dc7f41a9e02545f0b2549a9ee92110&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 45&lt;/a>&lt;/td>&lt;td >&lt;a >June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="19"
+        v="1061"
+      />
+      <match u="142" v="142"><![CDATA[1959&lt;/]]></match>
+      <post u="143" v="162"><![CDATA[a>&lt;/td>&lt;td >&lt;a >cce645bf4c782bdfb65d816cddffbca564c2a7e7&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 55&lt;/a>&lt;/td>&lt;td >&lt;a >October 12, ]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="143" v="162"><![CDATA[a>&lt;/td>&lt;td >&lt;a >cce645bf4c782bdfb65d816cddffbca564c2a7e7&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 55&lt;/a>&lt;/td>&lt;td >&lt;a >October 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="19"
+        v="1061"
+      />
+      <match u="163" v="163"><![CDATA[1959&lt;/]]></match>
+      <post u="164" v="183"><![CDATA[a>&lt;/td>&lt;td >&lt;a >a0ea44f3cde27f79e89e99416ae1fc3a6ec0707b&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 72&lt;/a>&lt;/td>&lt;td >&lt;a >October 12, ]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="164" v="183"><![CDATA[a>&lt;/td>&lt;td >&lt;a >a0ea44f3cde27f79e89e99416ae1fc3a6ec0707b&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 72&lt;/a>&lt;/td>&lt;td >&lt;a >October 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="19"
+        v="1061"
+      />
+      <match u="184" v="184"><![CDATA[1959&lt;/]]></match>
+      <post u="185" v="204"><![CDATA[a>&lt;/td>&lt;td >&lt;a >3448e24afd710c7f9e2cbe39c7cb6600381caeca&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 109&lt;/a>&lt;/td>&lt;td >&lt;a >October 12, ]]></post>
+    </solution>
+    <solution rank="7" score="1">
+      <pre u="185" v="204"><![CDATA[a>&lt;/td>&lt;td >&lt;a >3448e24afd710c7f9e2cbe39c7cb6600381caeca&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 109&lt;/a>&lt;/td>&lt;td >&lt;a >October 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="19"
+        v="1061"
+      />
+      <match u="205" v="205"><![CDATA[1959&lt;/]]></match>
+      <post u="206" v="225"><![CDATA[a>&lt;/td>&lt;td >&lt;a >2629aeee1f75169107f14768c5feeb9a70cd80d5&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 167&lt;/a>&lt;/td>&lt;td >&lt;a >June 8, ]]></post>
+    </solution>
+    <solution rank="8" score="1">
+      <pre u="206" v="225"><![CDATA[a>&lt;/td>&lt;td >&lt;a >2629aeee1f75169107f14768c5feeb9a70cd80d5&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 167&lt;/a>&lt;/td>&lt;td >&lt;a >June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="19"
+        v="1061"
+      />
+      <match u="226" v="226"><![CDATA[1959&lt;/]]></match>
+      <post u="227" v="246"><![CDATA[a>&lt;/td>&lt;td >&lt;a >eb3bcbc55fee25824ed40fd79488bb0509095e33&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 185&lt;/a>&lt;/td>&lt;td >&lt;a >October 12, ]]></post>
+    </solution>
+    <solution rank="9" score="1">
+      <pre u="227" v="246"><![CDATA[a>&lt;/td>&lt;td >&lt;a >eb3bcbc55fee25824ed40fd79488bb0509095e33&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 185&lt;/a>&lt;/td>&lt;td >&lt;a >October 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="19"
+        v="1061"
+      />
+      <match u="247" v="247"><![CDATA[1959&lt;/]]></match>
+      <post u="248" v="267"><![CDATA[a>&lt;/td>&lt;td >&lt;a >5bac275c5a90d982274ab38609b666e6f15ce5aa&lt;/a>&lt;/td>&lt;/tr>&lt;tr >&lt;td >&lt;a >360 U.S. 203&lt;/a>&lt;/td>&lt;td >&lt;a >June 8, ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... a >United States Reports&lt;/a>&lt;/p>
+    
+    &lt;p >June, 1959&lt;/p>
+
+    &lt;table >&lt;tbody >&lt;tr >&lt;th >Cite/Page&lt;/th>
+          &lt; ... U.S. 1&lt;/a>&lt;/td>&lt;td >&lt;a >June 8, 1959&lt;/a>&lt;/td>&lt;td >&lt;a >9074c28afa88e467f14d39cb82c9397bc2d5c788&lt;/a>&lt;/td>&lt;/tr>&lt; ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.98438"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.109.35.html/"
+  priority="0" vertex="40" graph-id-high-water="39" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.109.35.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">141619</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="61" v="80"><![CDATA[br />UNITED STATES of America.&lt;/p>
+    &lt;p >No. 35.&lt;/p>
+    &lt;p >Argued Nov. 18, 1958.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="21237"
+      />
+      <match u="81" v="81"><![CDATA[1959.&lt;/]]></match>
+      <post u="82" v="101"><![CDATA[p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 40.&lt;/p>
+      &lt;p >[Syllabus from pages ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="68" v="87"><![CDATA[No. 35.&lt;/p>
+    &lt;p >Argued Nov. 18, 1958.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="21237"
+      />
+      <match u="88" v="88"><![CDATA[1959.&lt;/]]></match>
+      <post u="89" v="108"><![CDATA[p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 40.&lt;/p>
+      &lt;p >[Syllabus from pages 109-110 intentionally omitted]&lt;/p>
+      &lt;p >Mr. ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="14686" v="14705">24. The Rule remains current in the same form. H.Res. 7, 86th Cong., 1st Sess., Cong.Rec., Jan. 7, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="21237"
+      />
+      <match u="14706" v="14706">1959, </match>
+      <post u="14707" v="14726"><![CDATA[p. 13.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >7&lt;/a>
+        &lt;p > Had Watkins reached to the extent now claimed by petitioner a ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="15439" v="15458">2d Sess., 102 Cong.Rec. 1585, 1718—1719 (1956); H.Res. 137, 86th Cong., 1st Sess., Cong.Rec., Jan. 29, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="21237"
+      />
+      <match u="15459" v="15459">1959, </match>
+      <post u="15460" v="15479"><![CDATA[p. 1286.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >15&lt;/a>
+        &lt;p > H.Res. 5, 79th Cong., 1st Sess., 91 Cong.Rec. 10, ]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="15598" v="15617">5, 85th Cong., 1st Sess., 103 Cong.Rec. 47; H.Res. 7, 86th Cong., 1st Sess., Cong.Rec., Jan. 7, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="21237"
+      />
+      <match u="15618" v="15618">1959, </match>
+      <post u="15619" v="15638"><![CDATA[p. 13.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >16&lt;/a>
+        &lt;p > Hearings before House Special Committee on Un-American Activities on H.]]></post>
+    </solution>
+    <solution rank="5" score="1">
+      <pre u="17702" v="17721">Sess., 99 Cong.Rec. 15, 18, 24. See also H.Res. 7, 86th Cong., 1st Sess., Cong.Rec., Jan. 7, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="21237"
+      />
+      <match u="17722" v="17722">1959, </match>
+      <post u="17723" v="17742"><![CDATA[p. 13.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >7&lt;/a>
+        &lt;p > See, e.g., Panama Refining Co. v. Ryan, 293 U.S. 388, ]]></post>
+    </solution>
+    <solution rank="6" score="1">
+      <pre u="20038" v="20057"><![CDATA[252 (dissenting opinion).&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >31&lt;/a>
+        &lt;p > This evidence was given before the Committee on May 7, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="21237"
+      />
+      <match u="20058" v="20058">1959, </match>
+      <post u="20059" v="20078"><![CDATA[in Chicago, Ill. It has not yet been published.&lt;/p>
+        &lt;p >Even those the Committee does not wish to injure ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Nov. 18, 1958.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 40.&lt;/ ... 86th Cong., 1st Sess., Cong.Rec., Jan. 7, 1959, p. 13.&lt;/p>
+      &lt;/div>
+      &lt;div >
+        &lt;a >7&lt;/a>
+        &lt; ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.875"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.924.488.html/"
+  priority="0" vertex="4" graph-id-high-water="3" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.924.488.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">7046</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="63" v="82"><![CDATA[UNITED STATES of America.&lt;/p>
+    &lt;p >No. 488.&lt;/p>
+    &lt;p >Supreme Court of the United States&lt;/p>
+    &lt;p >June 29, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="910"
+      />
+      <match u="83" v="83"><![CDATA[1959&lt;/]]></match>
+      <post u="84" v="103"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Telford Taylor (Mr. McNeill Smith, on the brief), for petitioner.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >1&lt;/span>
+      &lt;]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="131" v="150"><![CDATA[States.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >2&lt;/span>
+      &lt;p >It is ordered that this case be set for reargument at the ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="910"
+      />
+      <match u="151" v="151">1959 </match>
+      <post u="152" v="171">Term to be heard on Thursday, November 19, 1959. Counsel are requested to address themselves to the following questions among </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="140" v="159">is ordered that this case be set for reargument at the 1959 Term to be heard on Thursday, November 19, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="910"
+      />
+      <match u="160" v="160">1959. </match>
+      <post u="161" v="180"><![CDATA[Counsel are requested to address themselves to the following questions among others:&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >3&lt;/span>
+      &lt;p >'(1) ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="672" v="691">we again granted certiorari, 358 U.S. 917, 79 S.Ct. 289, 3 L.Ed.2d 237, and on April 29, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="910"
+      />
+      <match u="692" v="692">1959, </match>
+      <post u="693" v="712"><![CDATA[heard oral argument for the second time.&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >10&lt;/span>
+      &lt;p >The Court poses some questions ostensibly ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... of the United States&lt;/p>
+    &lt;p >June 29, 1959&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Telford Taylor (Mr. McNeill  ... this case be set for reargument at the 1959 Term to be heard on Thursday, November 19,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.875"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.378.518.536.html/"
+  priority="0" vertex="32" graph-id-high-water="31" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.378.518.536.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">35875</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="19"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="21">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="104" v="123"><![CDATA[OF NEW YORK, Long  Island Lighting Co., et al.&lt;/p>
+    &lt;p >Nos. 518, 536.&lt;/p>
+    &lt;p >Argued May 20, 21, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="5325"
+      />
+      <match u="124" v="124"><![CDATA[1959.&lt;/]]></match>
+      <post u="125" v="144"><![CDATA[p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Motion to Amend Judgment Denied Oct. 12, 1959.&lt;/p>
+      &lt;p >[Syllabus ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="110" v="129"><![CDATA[Co., et al.&lt;/p>
+    &lt;p >Nos. 518, 536.&lt;/p>
+    &lt;p >Argued May 20, 21, 1959.&lt;/p>
+    &lt;p >Decided June 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="5325"
+      />
+      <match u="130" v="130"><![CDATA[1959.&lt;/]]></match>
+      <post u="131" v="150"><![CDATA[p>
+    &lt;div >
+      &lt;p >Motion to Amend Judgment Denied Oct. 12, 1959.&lt;/p>
+      &lt;p >[Syllabus from pages 378-379 intentionally omitted]&lt;/]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="121" v="140"><![CDATA[May 20, 21, 1959.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Motion to Amend Judgment Denied Oct. 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="5325"
+      />
+      <match u="141" v="141"><![CDATA[1959.&lt;/]]></match>
+      <post u="142" v="161"><![CDATA[p>
+      &lt;p >[Syllabus from pages 378-379 intentionally omitted]&lt;/p>
+      &lt;p >Mr. David T. Searls, Houston, Tex., for petitioners Atlantic ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="769" v="788">the Commission. The importance in the administration of the Act of the questions thus posed required the granting of certiorari, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="5325"
+      />
+      <match u="789" v="789">1959, </match>
+      <post u="790" v="809">358 U.S. 926, 79 S.Ct. 317, 3 L.Ed.2d 300. We have concluded that the Court of Appeals </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 518, 536.&lt;/p>
+    &lt;p >Argued May 20, 21, 1959.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Motion to Amend Judgment Denied Oct. 12, 1959.&lt;/p>
+      &lt;p >[Syllabus from pages 378-379 intentionally  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.875"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.55.406.447.html/"
+  priority="0" vertex="14" graph-id-high-water="13" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.55.406.447.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">41314</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432913"
+    u="19"
+  >Jun 25,
+  2008 22:28:33 GMT</content>
+  <content name="language" weight="0" action="none" u="21">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="67" v="86"><![CDATA[Inc.  SIMPLICITY PATTERN CO., Inc., Petitioner,  v.  FEDERAL TRADE COMMISSION.&lt;/p>
+    &lt;p >Nos. 406, 447.&lt;/p>
+    &lt;p >Argued April 21, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="5944"
+      />
+      <match u="87" v="87"><![CDATA[1959.&lt;/]]></match>
+      <post u="88" v="107"><![CDATA[p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="73" v="92"><![CDATA[v.  FEDERAL TRADE COMMISSION.&lt;/p>
+    &lt;p >Nos. 406, 447.&lt;/p>
+    &lt;p >Argued April 21, 1959.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="5944"
+      />
+      <match u="93" v="93"><![CDATA[1959.&lt;/]]></match>
+      <post u="94" v="113"><![CDATA[p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 41.&lt;/p>
+      &lt;p >Mr. Charles H. ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="80" v="99"><![CDATA[406, 447.&lt;/p>
+    &lt;p >Argued April 21, 1959.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="5944"
+      />
+      <match u="100" v="100"><![CDATA[1959.&lt;/]]></match>
+      <post u="101" v="120"><![CDATA[p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 41.&lt;/p>
+      &lt;p >Mr. Charles H. Weston, Washington, D.C., for Federal Trade commission.&lt;/]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="2658" v="2677">the policy of nipping potentially destructive practices before they reach full bloom. Cf. Klor's Inc., v. Broadway-Hale Stores, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="5944"
+      />
+      <match u="2678" v="2678">1959, </match>
+      <post u="2679" v="2698"><![CDATA[359 U.S. 207, 79 S.Ct. 705, 3 L.Ed.2d 741.&lt;a >13&lt;/a>&lt;/p>
+    &lt;/div>
+    &lt;div >
+      &lt;span >23&lt;/]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Nos. 406, 447.&lt;/p>
+    &lt;p >Argued April 21, 1959.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 41.&lt;/ ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.230.74.75.html/"
+  priority="0" vertex="8" graph-id-high-water="7" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.230.74.75.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">22904</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="19"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="21">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="70" v="89"><![CDATA[LOUISIANA.  August J. MILLS, Sr., Petitioner,  v.  STATE OF LOUISIANA.&lt;/p>
+    &lt;p >Nos. 74, 75.&lt;/p>
+    &lt;p >Argued April 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="3426"
+      />
+      <match u="90" v="90"><![CDATA[1959.&lt;/]]></match>
+      <post u="91" v="110"><![CDATA[p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="76" v="95"><![CDATA[v.  STATE OF LOUISIANA.&lt;/p>
+    &lt;p >Nos. 74, 75.&lt;/p>
+    &lt;p >Argued April 22, 1959.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="3426"
+      />
+      <match u="96" v="96"><![CDATA[1959.&lt;/]]></match>
+      <post u="97" v="116"><![CDATA[p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 40.&lt;/p>
+      &lt;p >Eugene Stanley, New ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="83" v="102"><![CDATA[74, 75.&lt;/p>
+    &lt;p >Argued April 22, 1959.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="3426"
+      />
+      <match u="103" v="103"><![CDATA[1959.&lt;/]]></match>
+      <post u="104" v="123"><![CDATA[p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 40.&lt;/p>
+      &lt;p >Eugene Stanley, New Orleans, La., for petitioners Henry J. Mills ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Nos. 74, 75.&lt;/p>
+    &lt;p >Argued April 22, 1959.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 40.&lt;/ ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.240.674.753.html/"
+  priority="0" vertex="21" graph-id-high-water="20" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.240.674.753.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">13298</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="19"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="21">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="88" v="107"><![CDATA[Chief Justice of the  Supreme Court of Alabama, etal.&lt;/p>
+    &lt;p >Nos. 753, 674, Misc.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="1833"
+      />
+      <match u="108" v="108"><![CDATA[1959.&lt;/]]></match>
+      <post u="109" v="128"><![CDATA[p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 43.&lt;/p>
+      &lt;p >Messrs.Rob ert ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="95" v="114"><![CDATA[Alabama, etal.&lt;/p>
+    &lt;p >Nos. 753, 674, Misc.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="1833"
+      />
+      <match u="115" v="115"><![CDATA[1959.&lt;/]]></match>
+      <post u="116" v="135"><![CDATA[p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 43.&lt;/p>
+      &lt;p >Messrs.Rob ert L. Carter, Thurgood Marshall, Arthur D. Shores, ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="360" v="379"><![CDATA[our decision. After the motion had been twice renewed&lt;a >1&lt;/a> the Supreme Court of Alabama on February 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="1833"
+      />
+      <match u="380" v="380">1959, '</match>
+      <post u="381" v="400"><![CDATA[again affirmed' the contempt adjudication and $100,000 fine which this Court had set aside.&lt;a >2&lt;/a> Finding that the ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 753, 674, Misc.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 43.&lt;/ ... the Supreme Court of Alabama on February 12, 1959, 'again affirmed' the contempt adjudication and $100,000 fine  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.343.471.html/"
+  priority="0" vertex="15" graph-id-high-water="14" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.343.471.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">53020</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="56" v="75"><![CDATA[Anthony M. PALERMO, Petitioner,&lt;br />v.&lt;br />UNITED STATES of America.&lt;/p>
+    &lt;p >No. 471.&lt;/p>
+    &lt;p >Argued April 28, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="7930"
+      />
+      <match u="76" v="76"><![CDATA[1959.&lt;/]]></match>
+      <post u="77" v="96"><![CDATA[p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="62" v="81"><![CDATA[br />UNITED STATES of America.&lt;/p>
+    &lt;p >No. 471.&lt;/p>
+    &lt;p >Argued April 28, 1959.&lt;/p>
+    &lt;p >Decided June 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="7930"
+      />
+      <match u="82" v="82"><![CDATA[1959.&lt;/]]></match>
+      <post u="83" v="102"><![CDATA[p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 41.&lt;/p>
+      &lt;p >Mr. Wyllys S. ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="69" v="88"><![CDATA[No. 471.&lt;/p>
+    &lt;p >Argued April 28, 1959.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="7930"
+      />
+      <match u="89" v="89"><![CDATA[1959.&lt;/]]></match>
+      <post u="90" v="109"><![CDATA[p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 41.&lt;/p>
+      &lt;p >Mr. Wyllys S. Newcomb, New York City, for petitioner.&lt;/p>
+      &lt;]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 471.&lt;/p>
+    &lt;p >Argued April 28, 1959.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 41.&lt;/ ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.474.180.html/"
+  priority="0" vertex="11" graph-id-high-water="10" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.474.180.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">120277</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="63" v="82"><![CDATA[Neil M. McELROY, Thomas S. Gates, Jr., and  Robert B. Anderson.&lt;/p>
+    &lt;p >No. 180.&lt;/p>
+    &lt;p >Argued April 1, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="17484"
+      />
+      <match u="83" v="83"><![CDATA[1959.&lt;/]]></match>
+      <post u="84" v="103"><![CDATA[p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >[Syllabus from pages 474-475 intentionally omitted]&lt;/p>
+      &lt;p >Mr. Carl ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="69" v="88"><![CDATA[Jr., and  Robert B. Anderson.&lt;/p>
+    &lt;p >No. 180.&lt;/p>
+    &lt;p >Argued April 1, 1959.&lt;/p>
+    &lt;p >Decided June 29, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="17484"
+      />
+      <match u="89" v="89"><![CDATA[1959.&lt;/]]></match>
+      <post u="90" v="109"><![CDATA[p>
+    &lt;div >
+      &lt;p >[Syllabus from pages 474-475 intentionally omitted]&lt;/p>
+      &lt;p >Mr. Carl W. Berueffy, Washington, D.C., for the ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="7499" v="7518">have the effect of by-passing that exemption since Greene will now claim, as has Vitarelli, see Vitarelli v. Seaton, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="17484"
+      />
+      <match u="7519" v="7519">1959, </match>
+      <post u="7520" v="7539">359 U.S. 535, 79 S.Ct. 968, reimbursement for his loss of wages. See Taylor v. McElroy, 360 U.S. 709, </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 180.&lt;/p>
+    &lt;p >Argued April 1, 1959.&lt;/p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >[Syllabus from pages 474-475  ... claim, as has Vitarelli, see Vitarelli v. Seaton, 1959, 359 U.S. 535, 79 S.Ct. 968, reimbursement  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.185.347.html/"
+  priority="0" vertex="30" graph-id-high-water="29" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.185.347.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">39271</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="63" v="82"><![CDATA[FRANK MASHUDA COMPANY, a Partnership, Frank Mashuda,  Stanley Mashuda, et al.&lt;/p>
+    &lt;p >No. 347.&lt;/p>
+    &lt;p >Argued April 2, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="6157"
+      />
+      <match u="83" v="83"><![CDATA[1959.&lt;/]]></match>
+      <post u="84" v="103"><![CDATA[p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="69" v="88"><![CDATA[Mashuda,  Stanley Mashuda, et al.&lt;/p>
+    &lt;p >No. 347.&lt;/p>
+    &lt;p >Argued April 2, 1959.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="6157"
+      />
+      <match u="89" v="89"><![CDATA[1959.&lt;/]]></match>
+      <post u="90" v="109"><![CDATA[p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 41.&lt;/p>
+      &lt;p >[Syllabus from pages ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="76" v="95"><![CDATA[No. 347.&lt;/p>
+    &lt;p >Argued April 2, 1959.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="6157"
+      />
+      <match u="96" v="96"><![CDATA[1959.&lt;/]]></match>
+      <post u="97" v="116"><![CDATA[p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 41.&lt;/p>
+      &lt;p >[Syllabus from pages 185-186 intentionally omitted]&lt;/p>
+      &lt;p >Mr. ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 347.&lt;/p>
+    &lt;p >Argued April 2, 1959.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 41.&lt;/ ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.593.57.html/"
+  priority="0" vertex="44" graph-id-high-water="43" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.593.57.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">16670</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="60" v="79"><![CDATA[br />v.&lt;br />Kenneth T. LYONS and Joseph S. McAteer.&lt;/p>
+    &lt;p >No. 57.&lt;/p>
+    &lt;p >Reargued April 20, 21, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="2293"
+      />
+      <match u="80" v="80"><![CDATA[1959.&lt;/]]></match>
+      <post u="81" v="100"><![CDATA[p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="66" v="85"><![CDATA[and Joseph S. McAteer.&lt;/p>
+    &lt;p >No. 57.&lt;/p>
+    &lt;p >Reargued April 20, 21, 1959.&lt;/p>
+    &lt;p >Decided June 29, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="2293"
+      />
+      <match u="86" v="86"><![CDATA[1959.&lt;/]]></match>
+      <post u="87" v="106"><![CDATA[p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 40.&lt;/p>
+      &lt;p >Mr. Daniel M. ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="73" v="92"><![CDATA[57.&lt;/p>
+    &lt;p >Reargued April 20, 21, 1959.&lt;/p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="2293"
+      />
+      <match u="93" v="93"><![CDATA[1959.&lt;/]]></match>
+      <post u="94" v="113"><![CDATA[p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 40.&lt;/p>
+      &lt;p >Mr. Daniel M. Friedman, Washington, D.C., for petitioner.&lt;/p>
+      &lt;p >]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... No. 57.&lt;/p>
+    &lt;p >Reargued April 20, 21, 1959.&lt;/p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 40.&lt;/ ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.709.504.html/"
+  priority="0" vertex="2" graph-id-high-water="1" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.709.504.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">7097</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="57" v="76"><![CDATA[Allen TAYLOR, Petitioner,&lt;br />v.&lt;br />Neil McELROY, A. Tyler Port.&lt;/p>
+    &lt;p >No. 504.&lt;/p>
+    &lt;p >Argued April 1, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="861"
+      />
+      <match u="77" v="77"><![CDATA[1959.&lt;/]]></match>
+      <post u="78" v="97"><![CDATA[p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Joseph L. Rauh, Jr., Washington, D.C., for the petitioner.&lt;/p>
+      &lt;]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="63" v="82"><![CDATA[Neil McELROY, A. Tyler Port.&lt;/p>
+    &lt;p >No. 504.&lt;/p>
+    &lt;p >Argued April 1, 1959.&lt;/p>
+    &lt;p >Decided June 29, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="861"
+      />
+      <match u="83" v="83"><![CDATA[1959.&lt;/]]></match>
+      <post u="84" v="103"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Joseph L. Rauh, Jr., Washington, D.C., for the petitioner.&lt;/p>
+      &lt;p >Solicitor General J. Lee Rankin, ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="392" v="411">clearance to Mr. Charles Allen Taylor for access to Secret defense information is in the national interest.' On January 9, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="861"
+      />
+      <match u="412" v="412">1959, </match>
+      <post u="413" v="432">respondents filed a suggestion of mootness. We postponed consideration of that question to the hearing of the case on the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 504.&lt;/p>
+    &lt;p >Argued April 1, 1959.&lt;/p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Joseph L. Rauh, Jr.,  ... is in the national interest.' On January 9, 1959, respondents filed a suggestion of mootness. We postponed  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.334.252.html/"
+  priority="0" vertex="17" graph-id-high-water="16" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.334.252.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">19648</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432913"
+    u="18"
+  >Jun 25,
+  2008 22:28:33 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="62" v="81"><![CDATA[br />OKLAHOMA RETAIL GROCERS ASSOCIATION, INC., and  Louie J. Speed, Inc.&lt;/p>
+    &lt;p >No. 252.&lt;/p>
+    &lt;p >Argued May 19, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="2819"
+      />
+      <match u="82" v="82"><![CDATA[1959.&lt;/]]></match>
+      <post u="83" v="102"><![CDATA[p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Ramsey Clark, Dallas, Tex., for appellant.&lt;/p>
+      &lt;p >Mr. Samuel ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="68" v="87"><![CDATA[and  Louie J. Speed, Inc.&lt;/p>
+    &lt;p >No. 252.&lt;/p>
+    &lt;p >Argued May 19, 1959.&lt;/p>
+    &lt;p >Decided June 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="2819"
+      />
+      <match u="88" v="88"><![CDATA[1959.&lt;/]]></match>
+      <post u="89" v="108"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Ramsey Clark, Dallas, Tex., for appellant.&lt;/p>
+      &lt;p >Mr. Samuel M. Lane, New York City, for ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="2439" v="2458"><![CDATA[a >2&lt;/a>
+        &lt;p > The latest chapter in trading stamp history was recounted in The (London) Economist for May 30, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="2819"
+      />
+      <match u="2459" v="2459">1959, </match>
+      <post u="2460" v="2479">at p. 850: 'In Colorado a proposal to tax the stamps brought battalions of housewives to the state capital. One </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 252.&lt;/p>
+    &lt;p >Argued May 19, 1959.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Ramsey Clark, Dallas, Tex.,  ... recounted in The (London) Economist for May 30, 1959, at p. 850: 'In Colorado a proposal to  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.246.699.html/"
+  priority="0" vertex="28" graph-id-high-water="27" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.246.699.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">10698</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="57" v="76"><![CDATA[ex rel. EATON, Appellant,&lt;br />v.&lt;br />PRICE, Chief of Police.&lt;/p>
+    &lt;p >No. 699.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="1483"
+      />
+      <match u="77" v="77"><![CDATA[1959.&lt;/]]></match>
+      <post u="78" v="97"><![CDATA[p>
+    &lt;div >
+      &lt;p >On Appeal from the Supreme Court of Ohio.&lt;/p>
+      &lt;p >Mr. J. Harvey Crow, for appellant.&lt;/p>
+      &lt;]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="845" v="864"><![CDATA[div>
+    &lt;div >
+      &lt;span >12&lt;/span>
+      &lt;p >This case cannot be considered in isolation. In his jurisdictional statement filed February 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="1483"
+      />
+      <match u="865" v="865">1959, </match>
+      <post u="866" v="885">appellant stated that No. 278, Frank v. Maryland, 'is similar to the facts in this case at bar and involves </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="903" v="922">this case awaiting the decision in Frank v. State of Maryland, 79 S.Ct. 804. It was decided May 4, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="1483"
+      />
+      <match u="923" v="923">1959, </match>
+      <post u="924" v="943">by a 5—4 vote. 359 U.S. 360, 79 S.Ct. 804. Thereafter this case was again considered and brother </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 699.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >On Appeal from the Supreme  ... isolation. In his jurisdictional statement filed February 12, 1959, appellant stated that No. 278, Frank v. Maryland, ' ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.395.489.491.html/"
+  priority="0" vertex="10" graph-id-high-water="9" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.395.489.491.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">35591</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="19"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="21">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="72" v="91"><![CDATA[Inc, et al., Petitioners,  v.  UNITED STATES of America.&lt;/p>
+    &lt;p >Nos. 489, 491.&lt;/p>
+    &lt;p >Argued April 28, 29, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="5421"
+      />
+      <match u="92" v="92"><![CDATA[1959.&lt;/]]></match>
+      <post u="93" v="112"><![CDATA[p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="78" v="97"><![CDATA[STATES of America.&lt;/p>
+    &lt;p >Nos. 489, 491.&lt;/p>
+    &lt;p >Argued April 28, 29, 1959.&lt;/p>
+    &lt;p >Decided June 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="5421"
+      />
+      <match u="98" v="98"><![CDATA[1959.&lt;/]]></match>
+      <post u="99" v="118"><![CDATA[p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 42.&lt;/p>
+      &lt;p >Mr. Leland Hazard, ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="85" v="104"><![CDATA[491.&lt;/p>
+    &lt;p >Argued April 28, 29, 1959.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="5421"
+      />
+      <match u="105" v="105"><![CDATA[1959.&lt;/]]></match>
+      <post u="106" v="125"><![CDATA[p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 42.&lt;/p>
+      &lt;p >Mr. Leland Hazard, Pittsburgh, Pa., for petitioner Pittsburgh Plate glass ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 489, 491.&lt;/p>
+    &lt;p >Argued April 28, 29, 1959.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 42.&lt;/ ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.75"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.684.394.html/"
+  priority="0" vertex="31" graph-id-high-water="30" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.684.394.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">60701</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="63" v="82"><![CDATA[br />REGENTS OF THE UNIVERSITY OF THE STATE OF NEW YORK.&lt;/p>
+    &lt;p >No. 394.&lt;/p>
+    &lt;p >Argued April 23, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="9227"
+      />
+      <match u="83" v="83"><![CDATA[1959.&lt;/]]></match>
+      <post u="84" v="103"><![CDATA[p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Ephraim London, New York City, for appellant.&lt;/p>
+      &lt;p >Mr. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="69" v="88"><![CDATA[THE STATE OF NEW YORK.&lt;/p>
+    &lt;p >No. 394.&lt;/p>
+    &lt;p >Argued April 23, 1959.&lt;/p>
+    &lt;p >Decided June 29, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="9227"
+      />
+      <match u="89" v="89"><![CDATA[1959.&lt;/]]></match>
+      <post u="90" v="109"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Ephraim London, New York City, for appellant.&lt;/p>
+      &lt;p >Mr. Charles A. Brind, Jr., Albany, for ]]></post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="2514" v="2533">No. 36 (Tuesday, December 16, 1958), cols. 992 et seq., and 216 Parliamentary Debates H.L., No. 77 (Tuesday, June 2, </pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="9227"
+      />
+      <match u="2534" v="2534">1959), </match>
+      <post u="2535" v="2554">cols. 489 et seq. Nor is there any reason to believe that on this side of the ocean there has </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 394.&lt;/p>
+    &lt;p >Argued April 23, 1959.&lt;/p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Ephraim London, New York  ... Parliamentary Debates H.L., No. 77 (Tuesday, June 2, 1959), cols. 489 et seq. Nor is there any  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.525.248.html/"
+  priority="0" vertex="6" graph-id-high-water="5" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.525.248.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">53541</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="63" v="82"><![CDATA[NORTH DAKOTA DIVISION, a Corporation, Petitioner,&lt;br />v.&lt;br />WDAY, INC.&lt;/p>
+    &lt;p >No. 248.&lt;/p>
+    &lt;p >Argued March 23, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="7633"
+      />
+      <match u="83" v="83"><![CDATA[1959.&lt;/]]></match>
+      <post u="84" v="103"><![CDATA[p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Edward S. Greenbaum and Mrs. Harriet F. Pilpel, New York ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="69" v="88"><![CDATA[br />v.&lt;br />WDAY, INC.&lt;/p>
+    &lt;p >No. 248.&lt;/p>
+    &lt;p >Argued March 23, 1959.&lt;/p>
+    &lt;p >Decided June 29, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="7633"
+      />
+      <match u="89" v="89"><![CDATA[1959.&lt;/]]></match>
+      <post u="90" v="109"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Edward S. Greenbaum and Mrs. Harriet F. Pilpel, New York City, for petitioner.&lt;/p>
+      &lt;p >Mr. ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 248.&lt;/p>
+    &lt;p >Argued March 23, 1959.&lt;/p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Edward S. Greenbaum and  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.203.329.html/"
+  priority="0" vertex="7" graph-id-high-water="6" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.203.329.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">37821</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="60" v="79"><![CDATA[Petitioner,&lt;br />v.&lt;br />CABOT CARBON COMPANY and Cabot Shops, Inc.&lt;/p>
+    &lt;p >No. 329.&lt;/p>
+    &lt;p >Argued March 24, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="5132"
+      />
+      <match u="80" v="80"><![CDATA[1959.&lt;/]]></match>
+      <post u="81" v="100"><![CDATA[p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >[Syllabus from 203-204 intentionally omitted]&lt;/p>
+      &lt;p >Mr. Thomas J. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="66" v="85"><![CDATA[COMPANY and Cabot Shops, Inc.&lt;/p>
+    &lt;p >No. 329.&lt;/p>
+    &lt;p >Argued March 24, 1959.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="5132"
+      />
+      <match u="86" v="86"><![CDATA[1959.&lt;/]]></match>
+      <post u="87" v="106"><![CDATA[p>
+    &lt;div >
+      &lt;p >[Syllabus from 203-204 intentionally omitted]&lt;/p>
+      &lt;p >Mr. Thomas J. McDermott, Washington, D.C., for petitioner.&lt;/p>
+      &lt;]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 329.&lt;/p>
+    &lt;p >Argued March 24, 1959.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >[Syllabus from 203-204 intentionally  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.167.127.html/"
+  priority="0" vertex="9" graph-id-high-water="8" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.167.127.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">39598</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="78" v="97"><![CDATA[a Corporation, and NAACP Legal Defense and  Educational Fund, Incorporated.&lt;/p>
+    &lt;p >No. 127.&lt;/p>
+    &lt;p >Arged  March 23, 24, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="5876"
+      />
+      <match u="98" v="98"><![CDATA[1959.&lt;/]]></match>
+      <post u="99" v="118"><![CDATA[p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Messrs. J. Segar Gravatt, Blackstone, Va., and David J. Mays, Richmond, ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="84" v="103"><![CDATA[and  Educational Fund, Incorporated.&lt;/p>
+    &lt;p >No. 127.&lt;/p>
+    &lt;p >Arged  March 23, 24, 1959.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="5876"
+      />
+      <match u="104" v="104"><![CDATA[1959.&lt;/]]></match>
+      <post u="105" v="124"><![CDATA[p>
+    &lt;div >
+      &lt;p >Messrs. J. Segar Gravatt, Blackstone, Va., and David J. Mays, Richmond, Va., for appellants.&lt;/p>
+      &lt;p >Mr. ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... No. 127.&lt;/p>
+    &lt;p >Arged  March 23, 24, 1959.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Messrs. J. Segar Gravatt, Blackstone,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.310.383.html/"
+  priority="0" vertex="1" graph-id-high-water="0" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.310.383.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">8051</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="57" v="76"><![CDATA[R. MARSHALL, Petitioner,&lt;br />v.&lt;br />UNITED STATES of America.&lt;/p>
+    &lt;p >No. 383.&lt;/p>
+    &lt;p >Argued March 25, 26, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="1082"
+      />
+      <match u="77" v="77"><![CDATA[1959.&lt;/]]></match>
+      <post u="78" v="97"><![CDATA[p>
+    &lt;p >Decided June 15, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Messrs. George J. Francis, Frances De Lost, Omer Griffin, Denver, Colo., ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="63" v="82"><![CDATA[UNITED STATES of America.&lt;/p>
+    &lt;p >No. 383.&lt;/p>
+    &lt;p >Argued March 25, 26, 1959.&lt;/p>
+    &lt;p >Decided June 15, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="1082"
+      />
+      <match u="83" v="83"><![CDATA[1959.&lt;/]]></match>
+      <post u="84" v="103"><![CDATA[p>
+    &lt;div >
+      &lt;p >Messrs. George J. Francis, Frances De Lost, Omer Griffin, Denver, Colo., for petitioner.&lt;/p>
+      &lt;p >Mr. James ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... No. 383.&lt;/p>
+    &lt;p >Argued March 25, 26, 1959.&lt;/p>
+    &lt;p >Decided June 15, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Messrs. George J. Francis, Frances  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.301.482.html/"
+  priority="0" vertex="5" graph-id-high-water="4" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.301.482.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">21709</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="56" v="75"><![CDATA[NATIONAL LABOR RELATIONS BOARD, Petitioner,&lt;br />v.&lt;br />FANT MILLING COMPANY.&lt;/p>
+    &lt;p >No. 482.&lt;/p>
+    &lt;p >Argued May 20, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3169"
+      />
+      <match u="76" v="76"><![CDATA[1959.&lt;/]]></match>
+      <post u="77" v="96"><![CDATA[p>
+    &lt;p >Decided June 15, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Dominick L. Manoli, Washington, D.C., for petitioner.&lt;/p>
+      &lt;p >Mr. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="62" v="81"><![CDATA[v.&lt;br />FANT MILLING COMPANY.&lt;/p>
+    &lt;p >No. 482.&lt;/p>
+    &lt;p >Argued May 20, 1959.&lt;/p>
+    &lt;p >Decided June 15, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3169"
+      />
+      <match u="82" v="82"><![CDATA[1959.&lt;/]]></match>
+      <post u="83" v="102"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Dominick L. Manoli, Washington, D.C., for petitioner.&lt;/p>
+      &lt;p >Mr. O. B. Fisher, Paris, Tex., for respondent.&lt;/]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 482.&lt;/p>
+    &lt;p >Argued May 20, 1959.&lt;/p>
+    &lt;p >Decided June 15, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Dominick L. Manoli, Washington,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.273.439.html/"
+  priority="0" vertex="3" graph-id-high-water="2" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.273.439.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">32129</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="65" v="84"><![CDATA[Ormsbee, Jr., Deceased, Petitioner,&lt;br />v.&lt;br />AETNA FREIGHT LINES, INC.&lt;/p>
+    &lt;p >No. 439.&lt;/p>
+    &lt;p >Argued May 18, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="4863"
+      />
+      <match u="85" v="85"><![CDATA[1959.&lt;/]]></match>
+      <post u="86" v="105"><![CDATA[p>
+    &lt;p >Decided June 15, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Harry L. Shniderman, Washington, D.C., for petitioner.&lt;/p>
+      &lt;p >Mr. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="71" v="90"><![CDATA[br />AETNA FREIGHT LINES, INC.&lt;/p>
+    &lt;p >No. 439.&lt;/p>
+    &lt;p >Argued May 18, 1959.&lt;/p>
+    &lt;p >Decided June 15, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="4863"
+      />
+      <match u="91" v="91"><![CDATA[1959.&lt;/]]></match>
+      <post u="92" v="111"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Harry L. Shniderman, Washington, D.C., for petitioner.&lt;/p>
+      &lt;p >Mr. William F. Illig, Erie, Pa., for ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 439.&lt;/p>
+    &lt;p >Argued May 18, 1959.&lt;/p>
+    &lt;p >Decided June 15, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Harry L. Shniderman, Washington,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.25.398.html/"
+  priority="0" vertex="16" graph-id-high-water="15" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.25.398.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">46447</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="56" v="75"><![CDATA[LOUISIANA POWER &amp; LIGHT COMPANY, Petitioner,&lt;br />v.&lt;br />CITY OF THIBODAUX.&lt;/p>
+    &lt;p >No. 398.&lt;/p>
+    &lt;p >Argued April 2, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="7141"
+      />
+      <match u="76" v="76"><![CDATA[1959.&lt;/]]></match>
+      <post u="77" v="96"><![CDATA[p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. J. Raburn Monroe, New Orleans, La., for petitioner.&lt;/p>
+      &lt;p >]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="62" v="81"><![CDATA[v.&lt;br />CITY OF THIBODAUX.&lt;/p>
+    &lt;p >No. 398.&lt;/p>
+    &lt;p >Argued April 2, 1959.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="7141"
+      />
+      <match u="82" v="82"><![CDATA[1959.&lt;/]]></match>
+      <post u="83" v="102"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. J. Raburn Monroe, New Orleans, La., for petitioner.&lt;/p>
+      &lt;p >Mr. Louis Fenner Claiborne, New Orleans, ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 398.&lt;/p>
+    &lt;p >Argued April 2, 1959.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. J. Raburn Monroe, New  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.252.581.html/"
+  priority="0" vertex="22" graph-id-high-water="21" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.252.581.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">25927</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="55" v="74"><![CDATA[p >William W. BURNS, Petitioner,&lt;br />v.&lt;br />STATE OF OHIO.&lt;/p>
+    &lt;p >No. 581.&lt;/p>
+    &lt;p >Argued May 18, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3798"
+      />
+      <match u="75" v="75"><![CDATA[1959.&lt;/]]></match>
+      <post u="76" v="95"><![CDATA[p>
+    &lt;p >Decided June 15, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mrs. Helen G. Washington, Washington, D.C., for petitioner.&lt;/p>
+      &lt;p >Messrs. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="61" v="80"><![CDATA[v.&lt;br />STATE OF OHIO.&lt;/p>
+    &lt;p >No. 581.&lt;/p>
+    &lt;p >Argued May 18, 1959.&lt;/p>
+    &lt;p >Decided June 15, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3798"
+      />
+      <match u="81" v="81"><![CDATA[1959.&lt;/]]></match>
+      <post u="82" v="101"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mrs. Helen G. Washington, Washington, D.C., for petitioner.&lt;/p>
+      &lt;p >Messrs. William M. Vance, Columbus, Ohio, and ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 581.&lt;/p>
+    &lt;p >Argued May 18, 1959.&lt;/p>
+    &lt;p >Decided June 15, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mrs. Helen G. Washington, Washington,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.367.451.html/"
+  priority="0" vertex="25" graph-id-high-water="24" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.367.451.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">24158</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432913"
+    u="18"
+  >Jun 25,
+  2008 22:28:33 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="55" v="74"><![CDATA[p >Joel ROSENBERG, Petitioner,&lt;br />v.&lt;br />UNITED STATES of America.&lt;/p>
+    &lt;p >No. 451.&lt;/p>
+    &lt;p >Argued April 28, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3371"
+      />
+      <match u="75" v="75"><![CDATA[1959.&lt;/]]></match>
+      <post u="76" v="95"><![CDATA[p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Edward M. Dangel, Boston, Mass., for petitioner.&lt;/p>
+      &lt;p >Miss ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="61" v="80"><![CDATA[br />UNITED STATES of America.&lt;/p>
+    &lt;p >No. 451.&lt;/p>
+    &lt;p >Argued April 28, 1959.&lt;/p>
+    &lt;p >Decided June 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3371"
+      />
+      <match u="81" v="81"><![CDATA[1959.&lt;/]]></match>
+      <post u="82" v="101"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Edward M. Dangel, Boston, Mass., for petitioner.&lt;/p>
+      &lt;p >Miss Beatrice Rosenberg, Washington, D.C., for respondent.&lt;/]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 451.&lt;/p>
+    &lt;p >Argued April 28, 1959.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Edward M. Dangel, Boston,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.1.90.html/" priority="0"
+  vertex="23" graph-id-high-water="22" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.1.90.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">37990</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="56" v="75"><![CDATA[Johnny Ray SMITH, Petitioner,&lt;br />v.&lt;br />UNITED STATES of America.&lt;/p>
+    &lt;p >No. 90.&lt;/p>
+    &lt;p >Argued Jan. 21, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="5759"
+      />
+      <match u="76" v="76"><![CDATA[1959.&lt;/]]></match>
+      <post u="77" v="96"><![CDATA[p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. William B. Moore, Jr., Montgomery, Ala., for petitioner.&lt;/p>
+      &lt;p >]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="62" v="81"><![CDATA[br />UNITED STATES of America.&lt;/p>
+    &lt;p >No. 90.&lt;/p>
+    &lt;p >Argued Jan. 21, 1959.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="5759"
+      />
+      <match u="82" v="82"><![CDATA[1959.&lt;/]]></match>
+      <post u="83" v="102"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. William B. Moore, Jr., Montgomery, Ala., for petitioner.&lt;/p>
+      &lt;p >Mr. Leon Silverman, New York City, ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 90.&lt;/p>
+    &lt;p >Argued Jan. 21, 1959.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. William B. Moore, Jr.,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.72.34.html/" priority="0"
+  vertex="27" graph-id-high-water="26" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.72.34.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">81757</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="67" v="86"><![CDATA[State of New Hampshire.&lt;/p>
+    &lt;p >No. 34.&lt;/p>
+    &lt;p >Argued Nov. 17, 18, 1958.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="12592"
+      />
+      <match u="87" v="87"><![CDATA[1959.&lt;/]]></match>
+      <post u="88" v="107"><![CDATA[p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 40.&lt;/p>
+      &lt;p >Messrs. Royal W. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="74" v="93"><![CDATA[34.&lt;/p>
+    &lt;p >Argued Nov. 17, 18, 1958.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="12592"
+      />
+      <match u="94" v="94"><![CDATA[1959.&lt;/]]></match>
+      <post u="95" v="114"><![CDATA[p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 40.&lt;/p>
+      &lt;p >Messrs. Royal W. France and Leonard B. Boudin, New York ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 17, 18, 1958.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 40.&lt;/ ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.672.457.html/"
+  priority="0" vertex="20" graph-id-high-water="19" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.672.457.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">26990</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="61" v="80"><![CDATA[Law et al., Petitioners,&lt;br />v.&lt;br />UNITED STATES of America.&lt;/p>
+    &lt;p >No. 457.&lt;/p>
+    &lt;p >Argued April 30, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3966"
+      />
+      <match u="81" v="81"><![CDATA[1959.&lt;/]]></match>
+      <post u="82" v="101"><![CDATA[p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Rehearing Denied Oct. 12, 959 .&lt;/p>
+      &lt;p >See 80 S.Ct. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="67" v="86"><![CDATA[br />UNITED STATES of America.&lt;/p>
+    &lt;p >No. 457.&lt;/p>
+    &lt;p >Argued April 30, 1959.&lt;/p>
+    &lt;p >Decided June 29, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3966"
+      />
+      <match u="87" v="87"><![CDATA[1959.&lt;/]]></match>
+      <post u="88" v="107"><![CDATA[p>
+    &lt;div >
+      &lt;p >Rehearing Denied Oct. 12, 959 .&lt;/p>
+      &lt;p >See 80 S.Ct. 42.&lt;/p>
+      &lt;p >Mr. Wesley R. ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 457.&lt;/p>
+    &lt;p >Argued April 30, 1959.&lt;/p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Rehearing Denied Oct. 12, 959 .&lt;/ ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.219.157.html/"
+  priority="0" vertex="24" graph-id-high-water="23" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.219.157.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">23691</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="77" v="96"><![CDATA[br />J. K. CREASY, William W. McNamee, Jack C.  Marshell, et al.&lt;/p>
+    &lt;p >No. 157.&lt;/p>
+    &lt;p >Argued April 2, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3355"
+      />
+      <match u="97" v="97"><![CDATA[1959.&lt;/]]></match>
+      <post u="98" v="117"><![CDATA[p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Miss Anne X. Alpern, Pittsburgh, Pa., for appellants.&lt;/p>
+      &lt;p >Mr. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="83" v="102"><![CDATA[Jack C.  Marshell, et al.&lt;/p>
+    &lt;p >No. 157.&lt;/p>
+    &lt;p >Argued April 2, 1959.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3355"
+      />
+      <match u="103" v="103"><![CDATA[1959.&lt;/]]></match>
+      <post u="104" v="123"><![CDATA[p>
+    &lt;div >
+      &lt;p >Miss Anne X. Alpern, Pittsburgh, Pa., for appellants.&lt;/p>
+      &lt;p >Mr. Edward P. Good, Pittsburgh, Pa., for ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 157.&lt;/p>
+    &lt;p >Argued April 2, 1959.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Miss Anne X. Alpern, Pittsburgh,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.601.414.html/"
+  priority="0" vertex="19" graph-id-high-water="18" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.601.414.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">48869</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="55" v="74"><![CDATA[p >UNION PACIFIC RAILROAD COMPANY, Petitioner,&lt;br />v.&lt;br />L. L. PRICE.&lt;/p>
+    &lt;p >No. 414.&lt;/p>
+    &lt;p >Argued March 31, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="7483"
+      />
+      <match u="75" v="75"><![CDATA[1959.&lt;/]]></match>
+      <post u="76" v="95"><![CDATA[p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. James A. Wilcox, Omaha, Neb., for petitioner.&lt;/p>
+      &lt;p >Mr. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="61" v="80"><![CDATA[br />v.&lt;br />L. L. PRICE.&lt;/p>
+    &lt;p >No. 414.&lt;/p>
+    &lt;p >Argued March 31, 1959.&lt;/p>
+    &lt;p >Decided June 29, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="7483"
+      />
+      <match u="81" v="81"><![CDATA[1959.&lt;/]]></match>
+      <post u="82" v="101"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. James A. Wilcox, Omaha, Neb., for petitioner.&lt;/p>
+      &lt;p >Mr. Samuel S. Lionel, Las Vegas, Nev., ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 414.&lt;/p>
+    &lt;p >Argued March 31, 1959.&lt;/p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. James A. Wilcox, Omaha,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.411.155.html/"
+  priority="0" vertex="37" graph-id-high-water="36" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.411.155.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">27031</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="58" v="77"><![CDATA[AND MOLASSES CO., Inc., Petitioner,&lt;br />v.&lt;br />RIVER TERMINALS CORPORATION.&lt;/p>
+    &lt;p >No. 155.&lt;/p>
+    &lt;p >Argued March 3, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3964"
+      />
+      <match u="78" v="78"><![CDATA[1959.&lt;/]]></match>
+      <post u="79" v="98"><![CDATA[p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Amos L. Ponder, Jr., New Orleans, La., for petitioner.&lt;/p>
+      &lt;]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="64" v="83"><![CDATA[v.&lt;br />RIVER TERMINALS CORPORATION.&lt;/p>
+    &lt;p >No. 155.&lt;/p>
+    &lt;p >Argued March 3, 1959.&lt;/p>
+    &lt;p >Decided June 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3964"
+      />
+      <match u="84" v="84"><![CDATA[1959.&lt;/]]></match>
+      <post u="85" v="104"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Amos L. Ponder, Jr., New Orleans, La., for petitioner.&lt;/p>
+      &lt;p >Mr. Selim B. Lemle, New ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 155.&lt;/p>
+    &lt;p >Argued March 3, 1959.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Amos L. Ponder, Jr.,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.548.397.html/"
+  priority="0" vertex="29" graph-id-high-water="28" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.548.397.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">107068</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="65" v="84"><![CDATA[DAY, Administrator Ad Litem of the Estate of  Charles A. DePriest.&lt;/p>
+    &lt;p >No. 397.&lt;/p>
+    &lt;p >Argued March 26, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="15985"
+      />
+      <match u="85" v="85"><![CDATA[1959.&lt;/]]></match>
+      <post u="86" v="105"><![CDATA[p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Richard N. Clattenburg, Philadelphia, Pa., for the petitioner.&lt;/p>
+      &lt;p >]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="71" v="90"><![CDATA[Estate of  Charles A. DePriest.&lt;/p>
+    &lt;p >No. 397.&lt;/p>
+    &lt;p >Argued March 26, 1959.&lt;/p>
+    &lt;p >Decided June 29, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="15985"
+      />
+      <match u="91" v="91"><![CDATA[1959.&lt;/]]></match>
+      <post u="92" v="111"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Richard N. Clattenburg, Philadelphia, Pa., for the petitioner.&lt;/p>
+      &lt;p >Mr. James M. Davis, Jr. Mt. ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 397.&lt;/p>
+    &lt;p >Argued March 26, 1959.&lt;/p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Richard N. Clattenburg, Philadelphia,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.287.378.html/"
+  priority="0" vertex="34" graph-id-high-water="33" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.287.378.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">31221</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="71" v="90"><![CDATA[Justice of the Supreme Court  of the State of New York.&lt;/p>
+    &lt;p >No. 378.&lt;/p>
+    &lt;p >Argued March 25, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="4588"
+      />
+      <match u="91" v="91"><![CDATA[1959.&lt;/]]></match>
+      <post u="92" v="111"><![CDATA[p>
+    &lt;p >Decided June 15, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Raphael H. Weissman, Brooklyn, N.Y., for appellants.&lt;/p>
+      &lt;p >Mr. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="77" v="96"><![CDATA[the State of New York.&lt;/p>
+    &lt;p >No. 378.&lt;/p>
+    &lt;p >Argued March 25, 1959.&lt;/p>
+    &lt;p >Decided June 15, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="4588"
+      />
+      <match u="97" v="97"><![CDATA[1959.&lt;/]]></match>
+      <post u="98" v="117"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Raphael H. Weissman, Brooklyn, N.Y., for appellants.&lt;/p>
+      &lt;p >Mr. Denis M. Hurley, Brooklyn, N.Y., for ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 378.&lt;/p>
+    &lt;p >Argued March 25, 1959.&lt;/p>
+    &lt;p >Decided June 15, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Raphael H. Weissman, Brooklyn,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.622.326.html/"
+  priority="0" vertex="36" graph-id-high-water="35" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.622.326.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">110344</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="55" v="74"><![CDATA[p >Matter of Disciplinary Proceedings against Harriet  Bouslog SAWYER, Petitioner.&lt;/p>
+    &lt;p >No. 326.&lt;/p>
+    &lt;p >Arued  May 19, 20, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="17324"
+      />
+      <match u="75" v="75"><![CDATA[1959.&lt;/]]></match>
+      <post u="76" v="95"><![CDATA[p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. John T. McTernan, Los Angeles, Cal., for petitioner.&lt;/p>
+      &lt;p >]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="61" v="80"><![CDATA[Harriet  Bouslog SAWYER, Petitioner.&lt;/p>
+    &lt;p >No. 326.&lt;/p>
+    &lt;p >Arued  May 19, 20, 1959.&lt;/p>
+    &lt;p >Decided June 29, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="17324"
+      />
+      <match u="81" v="81"><![CDATA[1959.&lt;/]]></match>
+      <post u="82" v="101"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. John T. McTernan, Los Angeles, Cal., for petitioner.&lt;/p>
+      &lt;p >Mr. A. William Barlow, Honolulu, Hawaii, ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... No. 326.&lt;/p>
+    &lt;p >Arued  May 19, 20, 1959.&lt;/p>
+    &lt;p >Decided June 29, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. John T. McTernan, Los  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.19.210.html/"
+  priority="0" vertex="42" graph-id-high-water="41" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.19.210.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">11260</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="58" v="77"><![CDATA[of America, Appellant,&lt;br />v.&lt;br />ATLANTIC REFINING COMPANY et al.&lt;/p>
+    &lt;p >No. 210.&lt;/p>
+    &lt;p >Argued April 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="1530"
+      />
+      <match u="78" v="78"><![CDATA[1959.&lt;/]]></match>
+      <post u="79" v="98"><![CDATA[p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Robert A. Bicks, Washington, D.C., for the appellant.&lt;/p>
+      &lt;p >]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="64" v="83"><![CDATA[ATLANTIC REFINING COMPANY et al.&lt;/p>
+    &lt;p >No. 210.&lt;/p>
+    &lt;p >Argued April 22, 1959.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="1530"
+      />
+      <match u="84" v="84"><![CDATA[1959.&lt;/]]></match>
+      <post u="85" v="104"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Robert A. Bicks, Washington, D.C., for the appellant.&lt;/p>
+      &lt;p >Messrs. David W. Peck, New York ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 210.&lt;/p>
+    &lt;p >Argued April 22, 1959.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Robert A. Bicks, Washington,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.470.435.436.437.html/"
+  priority="0" vertex="46" graph-id-high-water="45" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.470.435.436.437.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">2486</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="20"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="22">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="82" v="101"><![CDATA[RUBIN&lt;/p>
+      &lt;p >v.&lt;/p>
+      &lt;p >UNITED STATES.&lt;/p>
+      &lt;p >Supreme Court of the United States&lt;/p>
+      &lt;p >June 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="24"
+        v="256"
+      />
+      <match u="102" v="102"><![CDATA[1959&lt;/]]></match>
+      <post u="103" v="122"><![CDATA[p>
+      &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+      &lt;p >See 80 S.Ct. 41.&lt;/p>
+      &lt;p >Mr. Anthony Bradley Eben, ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="89" v="108"><![CDATA[STATES.&lt;/p>
+      &lt;p >Supreme Court of the United States&lt;/p>
+      &lt;p >June 22, 1959&lt;/p>
+      &lt;p >Rehearing Denied Oct. 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="24"
+        v="256"
+      />
+      <match u="109" v="109"><![CDATA[1959.&lt;/]]></match>
+      <post u="110" v="129"><![CDATA[p>
+      &lt;p >See 80 S.Ct. 41.&lt;/p>
+      &lt;p >Mr. Anthony Bradley Eben, for petitioner Lev.&lt;/p>
+      &lt;p >Mr. Albert ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... of the United States&lt;/p>
+      &lt;p >June 22, 1959&lt;/p>
+      &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+      &lt;p >See 80 S.Ct. 41.&lt;/p>
+      &lt; ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.446.380.381.512.html/"
+  priority="0" vertex="43" graph-id-high-water="42" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.446.380.381.512.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">53753</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="20"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="22">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="87" v="106"><![CDATA[L. Baird, Petitioners,  v.  COMMISSIONER OF INTERNAL REVENUE.&lt;/p>
+    &lt;p >Nos. 380, 381, 512.&lt;/p>
+    &lt;p >Argued April 29, 30, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="24"
+        v="8137"
+      />
+      <match u="107" v="107"><![CDATA[1959.&lt;/]]></match>
+      <post u="108" v="127"><![CDATA[p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Meyer Rothwacks, Washington, D.C., for Commissioner of Internal revenue.&lt;/p>
+      &lt;]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="93" v="112"><![CDATA[INTERNAL REVENUE.&lt;/p>
+    &lt;p >Nos. 380, 381, 512.&lt;/p>
+    &lt;p >Argued April 29, 30, 1959.&lt;/p>
+    &lt;p >Decided June 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="24"
+        v="8137"
+      />
+      <match u="113" v="113"><![CDATA[1959.&lt;/]]></match>
+      <post u="114" v="133"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Meyer Rothwacks, Washington, D.C., for Commissioner of Internal revenue.&lt;/p>
+      &lt;p >Mr. Emmett E. McInnis, Jr., ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 381, 512.&lt;/p>
+    &lt;p >Argued April 29, 30, 1959.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Meyer Rothwacks, Washington, D.C.,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.315.582.html/"
+  priority="0" vertex="18" graph-id-high-water="17" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.315.582.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">31951</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="59" v="78"><![CDATA[Petitioner,&lt;br />v.&lt;br />PEOPLE OF THE STATE OF NEW YORK.&lt;/p>
+    &lt;p >No. 582.&lt;/p>
+    &lt;p >Argued April 27, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="4951"
+      />
+      <match u="79" v="79"><![CDATA[1959.&lt;/]]></match>
+      <post u="80" v="99"><![CDATA[p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Herbert S. Siegal, New York City, for the petitioner.&lt;/p>
+      &lt;]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="65" v="84"><![CDATA[THE STATE OF NEW YORK.&lt;/p>
+    &lt;p >No. 582.&lt;/p>
+    &lt;p >Argued April 27, 1959.&lt;/p>
+    &lt;p >Decided June 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="4951"
+      />
+      <match u="85" v="85"><![CDATA[1959.&lt;/]]></match>
+      <post u="86" v="105"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Herbert S. Siegal, New York City, for the petitioner.&lt;/p>
+      &lt;p >Mr. Irving Anolik, New York ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 582.&lt;/p>
+    &lt;p >Argued April 27, 1959.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Herbert S. Siegal, New  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.264.583.html/"
+  priority="0" vertex="38" graph-id-high-water="37" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.264.583.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">21035</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="57" v="76"><![CDATA[NAPUE, Petitioner,&lt;br />v.&lt;br />PEOPLE OF THE STATE OF ILLINOIS.&lt;/p>
+    &lt;p >No. 583.&lt;/p>
+    &lt;p >Argued April 30, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3290"
+      />
+      <match u="77" v="77"><![CDATA[1959.&lt;/]]></match>
+      <post u="78" v="97"><![CDATA[p>
+    &lt;p >Decided June 15, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. George N. Leighton, Chicago, Ill., for petitioner.&lt;/p>
+      &lt;p >Mr. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="63" v="82"><![CDATA[OF THE STATE OF ILLINOIS.&lt;/p>
+    &lt;p >No. 583.&lt;/p>
+    &lt;p >Argued April 30, 1959.&lt;/p>
+    &lt;p >Decided June 15, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3290"
+      />
+      <match u="83" v="83"><![CDATA[1959.&lt;/]]></match>
+      <post u="84" v="103"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. George N. Leighton, Chicago, Ill., for petitioner.&lt;/p>
+      &lt;p >Mr. William C. Wines, Chicago, Ill., for ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 583.&lt;/p>
+    &lt;p >Argued April 30, 1959.&lt;/p>
+    &lt;p >Decided June 15, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. George N. Leighton, Chicago,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.715.561.html/"
+  priority="0" vertex="26" graph-id-high-water="25" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.715.561.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">2875</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="63" v="82"><![CDATA[HINE PONTIAC et al.&lt;/p>
+    &lt;p >No. 561.&lt;/p>
+    &lt;p >Supreme Court of the United States&lt;/p>
+    &lt;p >June 29, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="276"
+      />
+      <match u="83" v="83"><![CDATA[1959&lt;/]]></match>
+      <post u="84" v="103"><![CDATA[p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 43.&lt;/p>
+      &lt;p >Solicitor General Rankin, ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="70" v="89"><![CDATA[561.&lt;/p>
+    &lt;p >Supreme Court of the United States&lt;/p>
+    &lt;p >June 29, 1959&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="276"
+      />
+      <match u="90" v="90"><![CDATA[1959.&lt;/]]></match>
+      <post u="91" v="110"><![CDATA[p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 43.&lt;/p>
+      &lt;p >Solicitor General Rankin, Assistant Attorney General Rice, Mr. Joseph F. ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... of the United States&lt;/p>
+    &lt;p >June 29, 1959&lt;/p>
+    &lt;p >Rehearing Denied Oct. 12, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >See 80 S.Ct. 43.&lt;/ ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.423.175.463.html/"
+  priority="0" vertex="47" graph-id-high-water="46" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.423.175.463.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">52192</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="19"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="21">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="71" v="90"><![CDATA[OHIO.  Anna H. MORGAN, Appellant,  v.  STATE OF OHIO.&lt;/p>
+    &lt;p >Nos. 175, 463.&lt;/p>
+    &lt;p >Argued April 22, 23, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="8175"
+      />
+      <match u="91" v="91"><![CDATA[1959.&lt;/]]></match>
+      <post u="92" v="111"><![CDATA[p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Morse Johnson, Cincinnati, Ohio, for appellants Raley and others.&lt;/p>
+      &lt;]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="77" v="96"><![CDATA[STATE OF OHIO.&lt;/p>
+    &lt;p >Nos. 175, 463.&lt;/p>
+    &lt;p >Argued April 22, 23, 1959.&lt;/p>
+    &lt;p >Decided June 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="23"
+        v="8175"
+      />
+      <match u="97" v="97"><![CDATA[1959.&lt;/]]></match>
+      <post u="98" v="117"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Morse Johnson, Cincinnati, Ohio, for appellants Raley and others.&lt;/p>
+      &lt;p >Mrs. Thelma C. Furry, Akron, ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 175, 463.&lt;/p>
+    &lt;p >Argued April 22, 23, 1959.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Morse Johnson, Cincinnati, Ohio,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.45.584.html/"
+  priority="0" vertex="45" graph-id-high-water="44" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.45.584.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">22503</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="57" v="76"><![CDATA[LASSITER, Appellant,&lt;br />v.&lt;br />NORTHAMPTON COUNTY BOARD OF ELECTIONS.&lt;/p>
+    &lt;p >No. 584.&lt;/p>
+    &lt;p >Argued May 18, 19, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3332"
+      />
+      <match u="77" v="77"><![CDATA[1959.&lt;/]]></match>
+      <post u="78" v="97"><![CDATA[p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Samuel S. Mitchell, Raleigh, N.C., for appellant.&lt;/p>
+      &lt;p >Mr. ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="63" v="82"><![CDATA[COUNTY BOARD OF ELECTIONS.&lt;/p>
+    &lt;p >No. 584.&lt;/p>
+    &lt;p >Argued May 18, 19, 1959.&lt;/p>
+    &lt;p >Decided June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="3332"
+      />
+      <match u="83" v="83"><![CDATA[1959.&lt;/]]></match>
+      <post u="84" v="103"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Samuel S. Mitchell, Raleigh, N.C., for appellant.&lt;/p>
+      &lt;p >Mr. I. Beverly Lake, Raleigh, N.C., for ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... No. 584.&lt;/p>
+    &lt;p >Argued May 18, 19, 1959.&lt;/p>
+    &lt;p >Decided June 8, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Samuel S. Mitchell, Raleigh,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1.5"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.328.573.html/"
+  priority="0" vertex="39" graph-id-high-water="38" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.328.573.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">12906</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="57" v="76"><![CDATA[STATES, Petitioner,&lt;br />v.&lt;br />93.970 ACRES OF LAND et al.&lt;/p>
+    &lt;p >No. 573.&lt;/p>
+    &lt;p >Argued May 21, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="1833"
+      />
+      <match u="77" v="77"><![CDATA[1959.&lt;/]]></match>
+      <post u="78" v="97"><![CDATA[p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Ralph S. Spritzer, Washington, D.C., for the petitioner.&lt;/p>
+      &lt;p >]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="63" v="82"><![CDATA[ACRES OF LAND et al.&lt;/p>
+    &lt;p >No. 573.&lt;/p>
+    &lt;p >Argued May 21, 1959.&lt;/p>
+    &lt;p >Decided June 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="1833"
+      />
+      <match u="83" v="83"><![CDATA[1959.&lt;/]]></match>
+      <post u="84" v="103"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr. Ralph S. Spritzer, Washington, D.C., for the petitioner.&lt;/p>
+      &lt;p >Mr. Leonard R. Hartenfeld, for the ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 573.&lt;/p>
+    &lt;p >Argued May 21, 1959.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Mr. Ralph S. Spritzer, Washington,  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.251.831.html/"
+  priority="0" vertex="12" graph-id-high-water="11" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.251.831.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">2055</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="62" v="81"><![CDATA[Alexander PARK et al.&lt;/p>
+    &lt;p >No. 831.&lt;/p>
+    &lt;p >Supreme Court of the United States&lt;/p>
+    &lt;p >June 8, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="187"
+      />
+      <match u="82" v="82"><![CDATA[1959&lt;/]]></match>
+      <post u="83" v="102"><![CDATA[p>
+    &lt;div >
+      &lt;p >Messrs. William T. Gossett and L. Homer Surbeck, for appellant.&lt;/p>
+      &lt;p >Messrs. Abraham L. Zwerdling and ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... of the United States&lt;/p>
+    &lt;p >June 8, 1959&lt;/p>
+    &lt;div >
+      &lt;p >Messrs. William T. Gossett and  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.472.677.html/"
+  priority="0" vertex="35" graph-id-high-water="34" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.472.677.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">2418</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432913"
+    u="18"
+  >Jun 25,
+  2008 22:28:33 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="62" v="81"><![CDATA[br />UNITED STATES.&lt;/p>
+    &lt;p >No. 677, Misc.&lt;/p>
+    &lt;p >Supreme Court of the United States&lt;/p>
+    &lt;p >June 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="231"
+      />
+      <match u="82" v="82"><![CDATA[1959&lt;/]]></match>
+      <post u="83" v="102"><![CDATA[p>
+    &lt;div >
+      &lt;p >Mr.&lt;/p>
+      &lt;p >William F. McKenna, for petitioner.&lt;/p>
+      &lt;p >Solicitor General Rankin, Assistant Attorney General Wilkey, ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... of the United States&lt;/p>
+    &lt;p >June 22, 1959&lt;/p>
+    &lt;div >
+      &lt;p >Mr.&lt;/p>
+      &lt;p >William F.  ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.712.2.3.4.15.html/"
+  priority="0" vertex="33" graph-id-high-water="32" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.712.2.3.4.15.html"
+  la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">5215</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="21"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="23">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="84" v="103"><![CDATA[p>
+    &lt;p >Nos. 2, 3, 4, 15, Original.&lt;/p>
+    &lt;p >Supreme Court of the United States&lt;/p>
+    &lt;p >June 29, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="25"
+        v="680"
+      />
+      <match u="104" v="104"><![CDATA[1959&lt;/]]></match>
+      <post u="105" v="124"><![CDATA[p>
+    &lt;div >
+      &lt;p >[Syllabus intentionally omitted]&lt;/p>
+      &lt;p >Messrs. William C. Wines, Asst.Atty.Gen., and Charles A. Bane (Messrs. ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... of the United States&lt;/p>
+    &lt;p >June 29, 1959&lt;/p>
+    &lt;div >
+      &lt;p >[Syllabus intentionally omitted]&lt;/p>
+      &lt;p > ... ]]></content>
+</document>
+<document filetypes="xml " vse-base-score="1"
+  vse-key="file://:80/testenv/test_data/law/US/360/360.US.471.757.html/"
+  priority="0" vertex="41" graph-id-high-water="40" ct="text/xml"
+  url="file:///testenv/test_data/law/US/360/360.US.471.757.html" la-score="3.89182"
+>
+  <content name="filetype" action="none" u="1">xml</content>
+  <content name="size" weight="-1" u="3">2867</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1214432912"
+    u="18"
+  >Jun 25,
+  2008 22:28:32 GMT</content>
+  <content name="language" weight="0" action="none" u="20">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="66" v="85"><![CDATA[v.&lt;br />Bruce BENNETT, Attorney General of the State of Arkansas.&lt;/p>
+    &lt;p >No. 757.&lt;/p>
+    &lt;p >Decided June 22, ]]></pre>
+      <content name="snippet" output-action="summarize" type="TEXT" u="22"
+        v="296"
+      />
+      <match u="86" v="86"><![CDATA[1959.&lt;/]]></match>
+      <post u="87" v="106"><![CDATA[p>
+    &lt;div >
+      &lt;p >Messrs.&lt;/p>
+      &lt;p >Robert O. Carter and Herbert O. Reid, for appellant.&lt;/p>
+      &lt;p >PER CURIAM.&lt;/p>
+    &lt;/]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... p >No. 757.&lt;/p>
+    &lt;p >Decided June 22, 1959.&lt;/p>
+    &lt;div >
+      &lt;p >Messrs.&lt;/p>
+      &lt;p >Robert O.  ... ]]></content>
+</document>
+<retrieval-performance n-tau="415" n-rho="94" n-uat="0" n-ohr="0"
+  occr-reads="142883" block-reads="330" seeks="6" cache-hits="330" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="90" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="511" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="90" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="511" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-tau="90" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="511" block-reads="1" seeks="1" cache-hits="1" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="3" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="134737" block-reads="318" seeks="0" cache-hits="318" cache-misses="0"
+  >
+    <query-performance what="3:" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="134737" block-reads="318" seeks="0" cache-hits="318" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="231" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="4151" block-reads="6" seeks="3" cache-hits="6" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="231" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="4151" block-reads="6" seeks="3" cache-hits="6"
+      cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="231" n-rho="231" n-uat="0"
+        n-ohr="0" occr-reads="4151" block-reads="5" seeks="3" cache-hits="5"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-tau="231" n-rho="325" n-uat="0" n-ohr="0"
+          occr-reads="3091" block-reads="1" seeks="1" cache-hits="1" cache-misses="0"
+        />
+        <query-performance what="or" n-tau="136" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="1060" block-reads="4" seeks="2" cache-hits="4" cache-misses="0"
+        >
+          <query-performance what="0:url" n-tau="90" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="531" block-reads="1" seeks="1" cache-hits="1"
+            cache-misses="0"
+          />
+          <query-performance what="0:host" n-tau="3" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-tau="3" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+            cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-tau="89" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="529" block-reads="1" seeks="1" cache-hits="1"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-tau="0" n-rho="3" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="47" n-rho="47" n-uat="0" n-ohr="0"
+    occr-reads="512" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="47" n-rho="47" n-uat="0"
+      n-ohr="0" occr-reads="512" block-reads="2" seeks="1" cache-hits="2"
+      cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-tau="47" n-rho="47" n-uat="0"
+        n-ohr="0" occr-reads="512" block-reads="1" seeks="1" cache-hits="1"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="3" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="47" n-rho="47" n-uat="0"
+    n-ohr="0" occr-reads="2972" block-reads="2" seeks="1" cache-hits="2"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="47" n-rho="47" n-uat="0"
+      n-ohr="0" occr-reads="2972" block-reads="2" seeks="1" cache-hits="2"
+      cache-misses="0"
+    >
+      <query-performance what="0:" n-tau="47" n-rho="47" n-uat="0" n-ohr="0"
+        occr-reads="2972" block-reads="1" seeks="1" cache-hits="1" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="3" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="157" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="158" block-reads="2" seeks="1" cache-hits="1" cache-misses="1"
+>
+  <query-performance what="1:1959" n-tau="157" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="158" block-reads="1" seeks="1" cache-hits="0" cache-misses="1"
+  />
+  <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+  />
+</query-performance>
+</scope>

@@ -1,0 +1,67 @@
+<testset>
+   <test>
+      <name>
+         vivMatch07
+      </name>
+      <description>
+         vivMatch():  variable substring match of regex string, ignore case
+      </description>
+      <funcname argcnt="3" codetemplate="match" tbltemplate="1">
+         viv:match
+      </funcname>
+      <variable>
+         <name>
+            matchString
+         </name>
+         <value>
+            The quick brown fox jumps over the lazy dog
+         </value>
+         <type>
+            string
+         </type>
+      </variable>
+      <variable>
+         <name>
+            regexStr
+         </name>
+         <value>
+            L[ABC].Y
+         </value>
+         <type>
+            string
+         </type>
+      </variable>
+      <argument>
+         <value>
+            matchString
+         </value>
+         <type>
+            variable
+         </type>
+      </argument>
+      <argument>
+         <value>
+            regexStr
+         </value>
+         <type>
+            variable
+         </type>
+      </argument>
+      <argument>
+         <value>
+            i
+         </value>
+         <type>
+            string
+         </type>
+      </argument>
+      <result>
+         <value>
+            lazy
+         </value>
+         <type>
+            string
+         </type>
+      </result>
+   </test>
+</testset>

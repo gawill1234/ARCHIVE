@@ -1,0 +1,2236 @@
+.... initial configuration ....
+<crawler
+  log-file="/usr/local/vivisimo-bielski-head//data/collections/CompatBrowse/log0/crawler.log"
+>
+  <crawl-urls>
+    <crawl-url url="http://www.firstgov.gov" />
+  </crawl-urls>
+  <crawl-condition-when field="protocol">
+    <crawl-pattern>http
+https</crawl-pattern>
+    <crawl-condition-when field="host">
+      <crawl-pattern>firstgov.gov
+*.firstgov.gov</crawl-pattern>
+      <curl-options>
+        <curl-option name="default-allow">allow</curl-option>
+        <curl-option name="max-hops">15</curl-option>
+      </curl-options>
+    </crawl-condition-when>
+  </crawl-condition-when>
+  <crawl-options>
+    <crawl-option name="max-running-time">18000</crawl-option>
+    <curl-option name="max-hops">15</curl-option>
+    <curl-option name="max-data-size">20000000</curl-option>
+    <curl-option name="default-allow">disallow</curl-option>
+    <curl-option name="error-expires">604800</curl-option>
+    <curl-option name="delay">100</curl-option>
+    <curl-option name="n-concurrent-requests">10</curl-option>
+    <crawl-option name="n-fetch-threads">10</crawl-option>
+    <curl-option name="user-agent" value="VSE/1.0 (bielski@vivisimo.com)" />
+    <curl-option name="connect-timeout">5</curl-option>
+    <curl-option name="timeout">5</curl-option>
+    <crawl-option name="output-minimum-size">1000000000</crawl-option>
+    <crawl-option name="log-dir"
+      value="/usr/local/vivisimo-bielski-head//data/collections/CompatBrowse/log0/hosts/"
+    />
+    <crawl-option name="output-dir" value="." />
+    <crawl-option name="status-final"
+      value="/usr/local/vivisimo-bielski-head//data/collections/CompatBrowse//crawler-final.xml"
+    />
+    <crawl-option name="hosts-status-final"
+      value="/usr/local/vivisimo-bielski-head//data/collections/CompatBrowse/log0/crawler-hosts.xml"
+    />
+  </crawl-options>
+  <crawl-condition-when field="query" how="wc-set">
+    <crawl-pattern>N=A
+N=D
+M=A
+M=D
+S=A
+S=D
+D=A
+D=D</crawl-pattern>
+    <curl-options>
+      <curl-option name="remove-cgi-parameters">N M S D</curl-option>
+    </curl-options>
+  </crawl-condition-when>
+  <crawl-may-not-have field="path">
+    <crawl-pattern>*.aif
+*.arc
+*.aiff
+*.asf
+*.au
+*.avi
+*.bin
+*.bmp
+*.cab
+*.class
+*.dbx
+*.dll
+*.exe
+*.fpt
+*.gif
+*.img
+*.iso
+*.jar
+*.jpeg
+*.jpg
+*.kpg
+*.lib
+*.max
+*.mdb
+*.mp3
+*.mp4
+*.mpa
+*.mpg
+*.mpeg
+*.mov
+*.moov
+*.msi
+*.ns2
+*.ns3
+*.ns4
+*.ocx
+*.ogg
+*.p65
+*.pfc
+*.png
+*.psd
+*.qt
+*.qxd
+*.ra
+*.ram
+*.rpm
+*.rm
+*.sea
+*.so
+*.smi
+*.smil
+*.swp
+*.sys
+*.tif
+*.tiff
+*.tmb
+*.vsd
+*.wav
+*.wma
+*.wmv
+*.ymg
+*.yps
+~$*.doc
+*/~$*.doc
+</crawl-pattern>
+  </crawl-may-not-have>
+  <crawl-condition-when field="path">
+    <crawl-pattern>*/bugzilla/*.cgi</crawl-pattern>
+    <curl-options>
+      <curl-option name="remove-cgi-parameters">bug_status email1 emailtype1 emailassigned_to1 emailreporter1 order</curl-option>
+    </curl-options>
+    <crawl-may-not-have field="path">
+      <crawl-pattern>*/bugzilla/showdependencytree.cgi
+*/bugzilla/long_list.cgi
+*/bugzilla/show_activity.cgi
+*/bugzilla/showdependencygraph.cgi</crawl-pattern>
+    </crawl-may-not-have>
+  </crawl-condition-when>
+  <crawl-may-not-have field="path">
+    <crawl-pattern>/d[0-9][0-9]/[0-9][0-9]/[0-9][0-9][0-9][0-9](/[^/]*)?</crawl-pattern>
+  </crawl-may-not-have>
+  <crawl-may-not-have>
+    <crawl-pattern>*/webcalendar/view.asp*
+*/webcalendar/seclogin.asp*
+*/webcalendar/reg.asp*</crawl-pattern>
+  </crawl-may-not-have>
+  <crawl-may-not-have>
+    <crawl-pattern>*/webevent.cgi?*cmd=*cal=*
+*/webevent.cgi?*cal=*cmd=* </crawl-pattern>
+  </crawl-may-not-have>
+  <crawl-condition-when field="protocol" how="wc-set">
+    <crawl-pattern>file
+exec
+smb</crawl-pattern>
+    <crawl-condition-when field="host" how="wc">
+      <crawl-pattern>?*</crawl-pattern>
+      <curl-options>
+        <curl-option name="delay">0</curl-option>
+      </curl-options>
+    </crawl-condition-when>
+    <crawl-condition-except field="host" how="wc">
+      <crawl-pattern>?*</crawl-pattern>
+      <curl-options>
+        <curl-option name="delay">0</curl-option>
+      </curl-options>
+    </crawl-condition-except>
+  </crawl-condition-when>
+  <crawl-condition-when field="url" how="cregex">
+    <crawl-pattern>\.nsf(/[^/]*)?\?Open(View|Database)(&amp;.*)?$</crawl-pattern>
+    <curl-options>
+      <curl-option name="case-normalize">url</curl-option>
+      <curl-option name="remove-cgi-parameters">Collapse Expand Count ExpandView Start</curl-option>
+    </curl-options>
+    <crawl-replace this="&amp;*$" that="&amp;start=1&amp;Count=10000&amp;ExpandView" />
+  </crawl-condition-when>
+  <crawl-condition-when field="path" how="cregex">
+    <crawl-pattern>\.nsf(/[^/]*)*/[a-f0-9]{32}?$</crawl-pattern>
+    <crawl-condition-when field="path" how="wc-set">
+      <crawl-pattern>*/$file/*</crawl-pattern>
+      <curl-options>
+        <curl-option name="case-normalize">url</curl-option>
+      </curl-options>
+      <crawl-replace this="\.[nN][Ss][Ff]/[a-fA-F0-9]{32}" that=".nsf/0" />
+    </crawl-condition-when>
+    <crawl-condition-when field="query" how="wc-set">
+      <crawl-pattern>OpenDocument
+OpenDocument&amp;*
+</crawl-pattern>
+      <curl-options>
+        <curl-option name="case-normalize">url</curl-option>
+      </curl-options>
+      <crawl-replace this="\.[nN][Ss][Ff]/[a-fA-F0-9]{32}" that=".nsf/0" />
+    </crawl-condition-when>
+    <curl-options>
+      <curl-option name="remove-cgi-parameters">Collapse Expand Count ExpandView Start ExpandSection</curl-option>
+    </curl-options>
+  </crawl-condition-when>
+  <crawl-condition-when field="query">
+    <crawl-pattern><![CDATA[*&sid=*]]></crawl-pattern>
+    <crawl-replace this="&amp;sid=[^&amp;]*" that="&amp;sid=0" />
+  </crawl-condition-when>
+  <crawl-condition-when field="query">
+    <crawl-pattern>sid=*</crawl-pattern>
+    <crawl-replace this="\?sid=[^&amp;]*" that="?sid=0" />
+  </crawl-condition-when>
+  <crawl-condition-when field="query">
+    <crawl-pattern><![CDATA[*&PHPSESSID=*]]></crawl-pattern>
+    <crawl-replace this="&amp;PHPSESSID=[^&amp;]*" that="&amp;PHPSESSID=0" />
+  </crawl-condition-when>
+  <crawl-condition-when field="query">
+    <crawl-pattern>PHPSESSID=*</crawl-pattern>
+    <crawl-replace this="\?PHPSESSID=[^&amp;]*" that="?PHPSESSID=0" />
+  </crawl-condition-when>
+  <crawl-condition-when field="path">
+    <crawl-pattern>*;jsessionid=*</crawl-pattern>
+    <crawl-replace this="%3[bB]jsessionid%3[dD].*$" that="%3Bjsessionid%3D0" />
+  </crawl-condition-when>
+  <crawl-condition-when field="query">
+    <crawl-pattern>*__VIEWSTATE=*</crawl-pattern>
+    <curl-options>
+      <curl-option name="remove-cgi-parameters">__VIEWSTATE</curl-option>
+    </curl-options>
+  </crawl-condition-when>
+  <crawl-may-not-have field="query">
+    <crawl-pattern>*&amp;MSCSProfile=*
+MSCSProfile=*</crawl-pattern>
+  </crawl-may-not-have>
+  <crawl-condition-when field="port">
+    <crawl-pattern>8765</crawl-pattern>
+    <curl-options />
+    <crawl-may-not-have field="path">
+      <crawl-pattern>query.html</crawl-pattern>
+    </crawl-may-not-have>
+  </crawl-condition-when>
+  <crawl-condition-when field="path">
+    <crawl-pattern>*/wiki/*</crawl-pattern>
+    <curl-options>
+      <curl-option name="remove-cgi-parameters">action previous version</curl-option>
+    </curl-options>
+  </crawl-condition-when>
+  <crawl-condition-when field="path">
+    <crawl-pattern>*/bugzilla/*.cgi</crawl-pattern>
+    <curl-options>
+      <curl-option name="remove-cgi-parameters">bug_status email1 emailtype1 emailassigned_to1 emailreporter1 order</curl-option>
+    </curl-options>
+    <crawl-may-not-have field="path">
+      <crawl-pattern>*/bugzilla/showdependencytree.cgi
+*/bugzilla/long_list.cgi
+*/bugzilla/show_activity.cgi
+*/bugzilla/showdependencygraph.cgi</crawl-pattern>
+    </crawl-may-not-have>
+  </crawl-condition-when>
+  <converters
+    java-classpath="/usr/local/vivisimo-bielski-head/lib/java/libmisc.jar:/usr/local/vivisimo-bielski-head/lib/java/db2jcc.jar:/usr/local/vivisimo-bielski-head/lib/java/ojdbc14.jar:/usr/local/vivisimo-bielski-head/lib/java/imap.jar:/usr/local/vivisimo-bielski-head/lib/java/smtp.jar:/usr/local/vivisimo-bielski-head/lib/java/converters.jar:/usr/local/vivisimo-bielski-head/lib/java/ncacn_np.jar:/usr/local/vivisimo-bielski-head/lib/java/jcifs.jar:/usr/local/vivisimo-bielski-head/lib/java/db2jcc_license_cu.jar:/usr/local/vivisimo-bielski-head/lib/java/activation.jar:/usr/local/vivisimo-bielski-head/lib/java/dsn.jar:/usr/local/vivisimo-bielski-head/lib/java/pop3.jar:/usr/local/vivisimo-bielski-head/lib/java/postgresql-8.0-312.jdbc3.jar:/usr/local/vivisimo-bielski-head/lib/java/ntlm-security.jar:/usr/local/vivisimo-bielski-head/lib/java/mailapi.jar:/usr/local/vivisimo-bielski-head/lib/java/mysql-connector-java-3.1.10-bin.jar:/usr/local/vivisimo-bielski-head/lib/java/mail.jar:/usr/local/vivisimo-bielski-head/lib/java/jtds-1.1.jar:/usr/local/vivisimo-bielski-head/lib/java/jarapac.jar"
+    collection="CompatBrowse"
+    binpath="/usr/local/vivisimo-bielski-head/bin/converters"
+    java-bin="'/usr/local/vivisimo-bielski-head/jre/bin/java' '-Djava.library.path=/usr/local/vivisimo-bielski-head/lib'"
+  >
+    <converter type-in="unknown" type-out="dead"
+      timing-name="Binary file extensions (filter)"
+    >
+      <converter-test what="url" how="wc-set">*#*.aif
+*#*.arc
+*#*.aiff
+*#*.asf
+*#*.au
+*#*.avi
+*#*.bin
+*#*.bmp
+*#*.cab
+*#*.class
+*#*.dbx
+*#*.dll
+*#*.exe
+*#*.fpt
+*#*.gif
+*#*.img
+*#*.iso
+*#*.jar
+*#*.jpeg
+*#*.jpg
+*#*.kpg
+*#*.lib
+*#*.max
+*#*.mdb
+*#*.mp3
+*#*.mp4
+*#*.mpa
+*#*.mpg
+*#*.mpeg
+*#*.mov
+*#*.moov
+*#*.msi
+*#*.ns2
+*#*.ns3
+*#*.ns4
+*#*.ocx
+*#*.ogg
+*#*.p65
+*#*.pfc
+*#*.png
+*#*.psd
+*#*.qt
+*#*.qxd
+*#*.ra
+*#*.ram
+*#*.rpm
+*#*.rm
+*#*.sea
+*#*.so
+*#*.smi
+*#*.smil
+*#*.swp
+*#*.sys
+*#*.tif
+*#*.tiff
+*#*.tmb
+*#*.vsd
+*#*.wav
+*#*.wma
+*#*.wmv
+*#*.ymg
+*#*.yps
+*#~$*.doc
+*#*/~$*.doc
+</converter-test>
+    </converter>
+    <converter type-in="unknown" program="%bin/guess-content %source_file" />
+    <converter type-in="application/ms-office"
+      program="%bin/ms-guess %source_file"
+    />
+    <converter type-in="unknown" type-out="text/plain">
+      <converter-test how="wc-set" what="path">*.txt</converter-test>
+    </converter>
+    <converter type-in="message/rfc822" type-out="text/mail"
+      timing-name="Type normalization"
+    />
+    <converter type-in="application/vnd.sun.xml.writer"
+      type-out="application/openoffice" timing-name="Type normalization"
+    />
+    <converter type-in="application/vnd.sun.xml.calc"
+      type-out="application/openoffice" timing-name="Type normalization"
+    />
+    <converter type-in="application/vnd.sun.xml.impress"
+      type-out="application/openoffice" timing-name="Type normalization"
+    />
+    <converter type-in="application/vnd.sun.xml.draw"
+      type-out="application/openoffice" timing-name="Type normalization"
+    />
+    <converter type-in="application/vnd.sun.xml.math"
+      type-out="application/openoffice" timing-name="Type normalization"
+    />
+    <converter type-in="application/octet-stream" type-out="unknown"
+      timing-name="Type normalization"
+    />
+    <converter type-in="application/postscript" type-out="application/ps"
+      timing-name="Type normalization"
+    />
+    <converter type-in="application/msword" type-out="application/word"
+      timing-name="Type normalization"
+    />
+    <converter type-in="application/vnd.ms-powerpoint"
+      type-out="application/powerpoint" timing-name="Type normalization"
+    />
+    <converter type-in="application/vnd.ms-excel" type-out="application/excel"
+      timing-name="Type normalization"
+    />
+    <converter type-in="application/vnd.ms-word" type-out="application/word"
+      timing-name="Type normalization"
+    />
+    <converter type-in="application/wordperfect5.1"
+      type-out="application/wordperfect" timing-name="Type normalization"
+    />
+    <converter type-in="application/wordperfect6.1"
+      type-out="application/wordperfect" timing-name="Type normalization"
+    />
+    <converter type-in="application/wordperfectd"
+      type-out="application/wordperfect" timing-name="Type normalization"
+    />
+    <converter type-in="application/x-tar" type-out="application/tar"
+      timing-name="Type normalization"
+    />
+    <converter type-in="application/x-zip" type-out="application/zip"
+      timing-name="Type normalization"
+    />
+    <converter type-in="application/x-zip-compressed" type-out="application/zip"
+      timing-name="Type normalization"
+    />
+    <converter type-in="application/x-shockwave-flash"
+      type-out="application/flash" timing-name="Type normalization"
+    />
+    <converter type-in="application/shockwave-flash" type-out="application/flash"
+      timing-name="Type normalization"
+    />
+    <converter type-in="unknown" type-out="application/temp"
+      timing-name="Type normalization"
+    >
+      <converter-test what="path" how="wc-set">
+*~
+*.tmp
+  </converter-test>
+    </converter>
+    <converter type-in="application/word" type-out="application/rtf"
+      timing-name="Type normalization"
+    >
+      <converter-test how="wc-set" what="body">{\rtf*</converter-test>
+    </converter>
+    <converter type-in="application/word" type-out="application/vxml" fork="fork"
+      timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">doc&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="application/excel" type-out="application/vxml"
+      fork="fork" timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">xls&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="application/powerpoint" type-out="application/vxml"
+      fork="fork" timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">ppt&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="application/ps" type-out="application/vxml" fork="fork"
+      timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">ps&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="application/pdf" type-out="application/vxml" fork="fork"
+      timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">pdf&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="application/rtf" type-out="application/vxml" fork="fork"
+      timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">rtf&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="application/vnd.lotus-1-2-3" type-out="application/vxml"
+      fork="fork" timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">lotus123&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="application/vnd.ms-project" type-out="application/vxml"
+      fork="fork" timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">msproject&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="application/outlook-msg" type-out="application/vxml"
+      fork="fork" timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">email&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="application/vnd.sun.xml.writer"
+      type-out="application/vxml" fork="fork" timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">sxw&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="application/vnd.sun.xml.calc" type-out="application/vxml"
+      fork="fork" timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">sxc&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="application/vnd.sun.xml.impress"
+      type-out="application/vxml" fork="fork" timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">sxi&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="application/vnd.sun.xml.draw" type-out="application/vxml"
+      fork="fork" timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">sxd&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="application/vnd.sun.xml.math" type-out="application/vxml"
+      fork="fork" timing-name="Filetype generator"
+    >
+      <converter-execute>echo '&lt;content name="filetype" action="none">sxm&lt;/content>'</converter-execute>
+    </converter>
+    <converter type-in="outlook/mail" type-out="text/mailbox"
+      timing-name="Email - PST to mailbox"
+    >
+      <converter-execute>%bin/readpst -w -r -o %target_dir %source_file > /dev/null</converter-execute>
+    </converter>
+    <converter type-in="text/mailbox" type-out="text/mail"
+      timing-name="Email - split mailbox"
+    >
+      <converter-execute>%bin/split-mail %target_dir</converter-execute>
+    </converter>
+    <converter type-in="text/mail" type-out="vivisimo/crawl-data"
+      timing-name="Email message"
+    >
+      <converter-execute>%bin/mail2vxml --parser vse-cache-parser-email --anchor %anchor 'snippet' 'subject=title' '*date' '*from' '*to' '*cc' '*bcc'</converter-execute>
+    </converter>
+    <converter type-in="application/vxml-db"
+      type-out="application/vxml-unnormalized" timing-name="Database seeds support"
+    >
+      <parser type="xsl" name="#anonymous#0"><![CDATA[
+  <xsl:variable name="title"><![CDATA[false()]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="action"><![CDATA[false()]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="weight"><![CDATA[false()]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="output-action"><![CDATA[false()]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="abstract"><![CDATA[false()]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="urlparam"><![CDATA[false()]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="mapping"><![CDATA[false()]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="key"><![CDATA[false()]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="key-normalize"><![CDATA[]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="url-table"><![CDATA[true()]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="value-mapping"><![CDATA[false()]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="urlproto"><![CDATA[false()]]]><![CDATA[]></xsl:variable>
+ 
+<xsl:template match="/">
+  <vce>
+  <xsl:variable name="errors" select="//error" />
+  <xsl:if test="$errors">
+    <xsl:message>
+      <xsl:value-of select="viv:concat($errors//text(), ' ')" />
+    </xsl:message>
+  </xsl:if>
+  <xsl:for-each select="//more-results[viv:test(@start, '^[0-9]*$', 'regex')]">
+    <xsl:choose>
+      <xsl:when test="contains($crawl-url-url, '%java -classpath')">
+        <xsl:variable name="url" select="concat(viv:replace($crawl-url-url, '--start [0-9]*$', ''), ' --start ', @start)" />
+        <xsl:value-of select="viv:crawl-enqueue-url($url)" />
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="url" select="concat(viv:replace($crawl-url-url, '-s [0-9]*$', ''), ' -s ', @start)" />
+        <xsl:value-of select="viv:crawl-enqueue-url($url)" />
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:for-each>
+  <xsl:apply-templates select="//document" />
+  </vce>
+</xsl:template>
+
+<xsl:template match="*">
+  <xsl:copy>
+    <xsl:apply-templates select="*|text()|comment()|@*"/>
+  </xsl:copy>
+</xsl:template>
+
+<xsl:template match="text()|comment()|@*">
+  <xsl:copy-of select="."/>
+</xsl:template>
+
+<xsl:template match="content|text()" mode="title">
+  <xsl:param name="key"/>
+  <xsl:param name="key-normalized"/>
+  <xsl:param name="pos"/>
+
+  <xsl:value-of select="viv:set(concat('title', $pos), .)"/> 
+  <content>
+    <xsl:apply-templates select="@*" />
+    <xsl:if test="string-length($key-normalized) > 0 and $key">
+      <xsl:attribute name="vse-add-to-normalized">
+        <xsl:value-of select="'vse-add-to-normalized'"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:if test="$key">
+      <xsl:attribute name="add-to"><xsl:value-of select="$key"/></xsl:attribute>
+    </xsl:if>
+    <xsl:attribute name="name">title</xsl:attribute>
+    <xsl:if test="dyn:evaluate($action)">
+      <xsl:attribute name="action"><xsl:value-of select="dyn:evaluate($action)"/></xsl:attribute>
+    </xsl:if>
+
+    <xsl:if test="dyn:evaluate($weight)">
+      <xsl:variable name="weight-val">
+        <xsl:value-of select="dyn:evaluate($weight)"/>
+      </xsl:variable>
+
+      <xsl:if test="viv:test($weight-val, '^[0-9.]+$', 'regex')">
+        <xsl:attribute name="weight"><xsl:value-of select="dyn:evaluate($weight)"/></xsl:attribute>
+      </xsl:if>
+    </xsl:if>
+
+    <xsl:if test="dyn:evaluate($output-action)">
+      <xsl:attribute name="output-action"><xsl:value-of select="dyn:evaluate($output-action)"/></xsl:attribute>
+    </xsl:if>
+    <xsl:choose>
+      <xsl:when test="dyn:evaluate($value-mapping)"><xsl:value-of select="dyn:evaluate($value-mapping)"/></xsl:when>
+      <xsl:otherwise><xsl:apply-templates select="*|text()"/></xsl:otherwise>
+    </xsl:choose>
+  </content>
+</xsl:template>
+
+<xsl:template match="content|text()" mode="abstract">
+  <xsl:param name="key"/>
+  <xsl:param name="key-normalized"/>
+  <xsl:param name="pos"/>
+
+  <xsl:value-of select="viv:set(concat('abstract', $pos), .)"/>
+
+  <content>
+    <xsl:apply-templates select="@*[not(name)]" />
+    <xsl:if test="string-length($key-normalized) > 0 and $key">
+      <xsl:attribute name="vse-add-to-normalized">
+        <xsl:value-of select="'vse-add-to-normalized'"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:if test="$key">
+      <xsl:attribute name="add-to"><xsl:value-of select="$key"/></xsl:attribute>
+    </xsl:if>
+    <xsl:attribute name="name">abstract</xsl:attribute>
+    <xsl:if test="dyn:evaluate($action)">
+      <xsl:attribute name="action"><xsl:value-of select="dyn:evaluate($action)"/></xsl:attribute>
+    </xsl:if>
+    <xsl:if test="dyn:evaluate($weight)">
+      <xsl:variable name="weight-val">
+        <xsl:value-of select="dyn:evaluate($weight)"/>
+      </xsl:variable>
+
+      <xsl:if test="viv:test($weight-val, '^[0-9.]+$', 'regex')">
+        <xsl:attribute name="weight"><xsl:value-of select="dyn:evaluate($weight)"/></xsl:attribute>
+      </xsl:if>
+    </xsl:if>
+    <xsl:if test="dyn:evaluate($output-action)">
+      <xsl:attribute name="output-action"><xsl:value-of select="dyn:evaluate($output-action)"/></xsl:attribute>
+    </xsl:if>
+    <xsl:choose>
+      <xsl:when test="dyn:evaluate($value-mapping)"><xsl:value-of select="dyn:evaluate($value-mapping)"/></xsl:when>
+      <xsl:otherwise><xsl:apply-templates select="*|text()"/></xsl:otherwise>
+    </xsl:choose>
+  </content>
+</xsl:template>
+
+<xsl:template match="content">
+  <xsl:param name="key"/>
+  <xsl:param name="key-normalized"/>
+  <xsl:param name="pos"/>
+
+  <xsl:if test="not(. = viv:get(concat('title', $pos))) and not(. = viv:get(concat('abstract', $pos)))">
+  <content>
+    <xsl:apply-templates select="@*"/>
+    <xsl:if test="string-length($key-normalized) > 0 and $key">
+      <xsl:attribute name="vse-add-to-normalized">
+        <xsl:value-of select="'vse-add-to-normalized'"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:if test="$key">
+      <xsl:attribute name="add-to"><xsl:value-of select="$key"/></xsl:attribute>
+    </xsl:if>
+    <xsl:if test="dyn:evaluate($mapping)">
+      <xsl:attribute name="name"><xsl:value-of select="dyn:evaluate($mapping)"/></xsl:attribute>
+    </xsl:if>
+    <xsl:if test="dyn:evaluate($action)">
+      <xsl:attribute name="action"><xsl:value-of select="dyn:evaluate($action)"/></xsl:attribute>
+    </xsl:if>
+    <xsl:if test="dyn:evaluate($weight)">
+      <xsl:variable name="weight-val">
+        <xsl:value-of select="dyn:evaluate($weight)"/>
+      </xsl:variable>
+
+      <xsl:if test="viv:test($weight-val, '^[0-9.]+$', 'regex')">
+        <xsl:attribute name="weight"><xsl:value-of select="dyn:evaluate($weight)"/></xsl:attribute>
+      </xsl:if>
+    </xsl:if>
+    <xsl:if test="dyn:evaluate($output-action)">
+      <xsl:attribute name="output-action"><xsl:value-of select="dyn:evaluate($output-action)"/></xsl:attribute>
+    </xsl:if>
+    <xsl:choose>
+      <xsl:when test="dyn:evaluate($value-mapping)"><xsl:value-of select="dyn:evaluate($value-mapping)"/></xsl:when>
+      <xsl:otherwise><xsl:apply-templates select="*|text()"/></xsl:otherwise>
+    </xsl:choose>
+  </content>
+  </xsl:if>
+</xsl:template>
+
+<xsl:template match="document">
+  <xsl:variable name="keyval" select="dyn:evaluate($key)"/>
+  <xsl:variable name="url" select="dyn:evaluate($urlparam)"/>
+  <xsl:variable name="urltable" select="dyn:evaluate($url-table)"/>
+
+  <xsl:choose>
+    <xsl:when test="dyn:evaluate($url-table)">
+      <document>
+        <xsl:copy-of select="@*"/>
+        <xsl:if test="string-length($key-normalize) > 0">
+          <xsl:attribute name="vse-key-normalized">
+            <xsl:value-of select="'vse-key-normalized'"/>
+          </xsl:attribute>
+        </xsl:if>
+        <xsl:if test="dyn:evaluate($key)">
+          <xsl:attribute name="vse-key"><xsl:value-of select="$keyval"/></xsl:attribute>
+        </xsl:if>
+        <xsl:if test="dyn:evaluate($urlparam)">
+          <xsl:attribute name="url">
+            <xsl:value-of select="viv:if-else(dyn:evaluate($urlproto), dyn:evaluate($urlproto), $url)"/>
+          </xsl:attribute>
+        </xsl:if>
+        <xsl:apply-templates select="dyn:evaluate($title)" mode="title">
+          <xsl:with-param name="pos" select="position()"/>
+        </xsl:apply-templates>
+        <xsl:apply-templates select="dyn:evaluate($abstract)" mode="abstract">
+          <xsl:with-param name="pos" select="position()"/>
+        </xsl:apply-templates>
+        <xsl:apply-templates select="*">
+          <xsl:with-param name="pos" select="position()"/>
+        </xsl:apply-templates>
+      </document>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:apply-templates select="dyn:evaluate($title)" mode="title">
+        <xsl:with-param name="key" select="$keyval"/>
+        <xsl:with-param name="key-normalized" select="$key-normalize"/>
+        <xsl:with-param name="pos" select="position()"/>
+      </xsl:apply-templates>
+      <xsl:apply-templates select="dyn:evaluate($abstract)" mode="abstract">
+        <xsl:with-param name="key" select="$keyval"/>
+        <xsl:with-param name="key-normalized" select="$key-normalize"/>
+        <xsl:with-param name="pos" select="position()"/>
+      </xsl:apply-templates>
+      <xsl:apply-templates select="*">
+        <xsl:with-param name="key" select="$keyval"/>
+        <xsl:with-param name="key-normalized" select="$key-normalize"/>
+        <xsl:with-param name="pos" select="position()"/>
+      </xsl:apply-templates>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+]]></parser>
+    </converter>
+    <converter type-in="application/documentum"
+      type-out="application/vxml-unnormalized" timing-name="Documentum documents"
+    >
+      <parser type="xsl" name="#anonymous#1"><![CDATA[
+  <xsl:variable name="action"><![CDATA[viv:choose($name = 'title' or $name = 'description','cluster', 'none')]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="weight"><![CDATA[viv:choose($name = 'title',3,1)]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="output-action"><![CDATA[false()]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="mapping"><![CDATA[viv:choose(@name = 'title', 'title', @name = 'subject', 'description', @name = 'r_modified_date', 'last-modified', @name = 'r_modifier', 'author')]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="value-mapping"><![CDATA[viv:choose($name = 'last-modified', concat(date:month-name(.), ' ',date:day-in-month(.),', ',date:year(.)))]]]><![CDATA[]></xsl:variable>
+
+
+<xsl:template match="/">
+  <vce>
+    <xsl:apply-templates/>
+  </vce>
+</xsl:template>
+
+<xsl:template match="vce">
+  <xsl:apply-templates/>
+</xsl:template>
+
+<xsl:template match="*">
+  <xsl:copy>
+    <xsl:apply-templates select="*"/>
+  </xsl:copy>
+</xsl:template>
+
+
+<xsl:template match="document">
+  <xsl:variable name="urlroot" select="content[@name='url_root']"/>
+  <xsl:variable name="objectid" select="content[@name='r_object_id']"/>
+  <xsl:copy>
+    <xsl:copy-of select="@*[name(.)!='id']"/>
+    <xsl:if test="$urlroot and $objectid">
+      <xsl:attribute name="url">
+        <xsl:value-of select="concat($urlroot,$objectid)"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:apply-templates select="content"/>
+  </xsl:copy>
+</xsl:template>
+
+<xsl:template match="content">
+  <xsl:variable name="name" select="dyn:evaluate($mapping)"/>
+  <xsl:variable name="a" select="dyn:evaluate($action)"/>
+  <xsl:variable name="w" select="dyn:evaluate($weight)"/>
+  <xsl:variable name="oa" select="dyn:evaluate($output-action)"/>
+  <xsl:variable name="vm" select="dyn:evaluate($value-mapping)"/> 
+  <xsl:if test="$name">
+  <content>
+    <xsl:copy-of select="@*"/>
+    <xsl:attribute name="name"><xsl:value-of select="$name"/></xsl:attribute>
+    <xsl:if test="$a">
+      <xsl:attribute name="action"><xsl:value-of select="$a"/></xsl:attribute>
+    </xsl:if>
+    <xsl:if test="$w">
+      <xsl:attribute name="weight"><xsl:value-of select="$w"/></xsl:attribute>
+    </xsl:if>
+    <xsl:if test="$oa">
+      <xsl:attribute name="output-action"><xsl:value-of select="$oa"/></xsl:attribute>
+    </xsl:if>
+    <xsl:choose>
+      <xsl:when test="$vm"><xsl:value-of select="$vm"/></xsl:when>
+      <xsl:otherwise><xsl:apply-templates select="*|text()"/></xsl:otherwise>
+    </xsl:choose>
+  </content>
+  </xsl:if>
+</xsl:template>
+
+
+
+]]></parser>
+    </converter>
+    <converter type-out="application/vxml-unnormalized"
+      type-in="application/lotus" timing-name="Lotus documents"
+    >
+      <parser type="xsl" name="#anonymous#2"><![CDATA[
+  <xsl:variable name="action"><![CDATA[viv:choose($name = 'title','cluster', 'none')]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="weight"><![CDATA[viv:choose($name = 'title',3,1)]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="output-action"><![CDATA[viv:choose($name = 'snippet', 'summarize', '')]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="mapping"><![CDATA[viv:choose(@name = 'Subject', 'title', @name = 'Body', 'snippet')]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="value-mapping"><![CDATA[viv:choose($name = 'last-modified', concat(date:month-name(.), ' ',date:day-in-month(.),', ',date:year(.)))]]]><![CDATA[]></xsl:variable>
+
+
+<xsl:template match="/">
+  <vce>
+    <xsl:apply-templates/>
+  </vce>
+</xsl:template>
+
+<xsl:template match="vce">
+  <xsl:apply-templates/>
+</xsl:template>
+
+<xsl:template match="*">
+  <xsl:copy>
+    <xsl:apply-templates select="*"/>
+  </xsl:copy>
+</xsl:template>
+
+
+<xsl:template match="document">
+  <xsl:variable name="urlroot" select="content[@name='url_root']"/>
+  <xsl:variable name="objectid" select="content[@name='r_object_id']"/>
+  <xsl:copy>
+    <xsl:copy-of select="@*[name(.)!='id']"/>
+    <xsl:if test="$urlroot and $objectid">
+      <xsl:attribute name="url">
+        <xsl:value-of select="concat($urlroot,$objectid)"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:apply-templates select="content"/>
+  </xsl:copy>
+</xsl:template>
+
+<xsl:template match="content">
+  <xsl:variable name="name" select="dyn:evaluate($mapping)"/>
+  <xsl:variable name="a" select="dyn:evaluate($action)"/>
+  <xsl:variable name="w" select="dyn:evaluate($weight)"/>
+  <xsl:variable name="oa" select="dyn:evaluate($output-action)"/>
+  <xsl:variable name="vm" select="dyn:evaluate($value-mapping)"/> 
+
+  <content>
+    <xsl:copy-of select="@*"/>
+    <xsl:if test="$name">
+      <xsl:attribute name="name"><xsl:value-of select="$name"/></xsl:attribute>
+    </xsl:if>
+    <xsl:if test="$a">
+      <xsl:attribute name="action"><xsl:value-of select="$a"/></xsl:attribute>
+    </xsl:if>
+    <xsl:if test="$w">
+      <xsl:attribute name="weight"><xsl:value-of select="$w"/></xsl:attribute>
+    </xsl:if>
+    <xsl:if test="$oa">
+      <xsl:attribute name="output-action"><xsl:value-of select="$oa"/></xsl:attribute>
+    </xsl:if>
+    <xsl:choose>
+      <xsl:when test="$vm"><xsl:value-of select="$vm"/></xsl:when>
+      <xsl:otherwise><xsl:apply-templates select="*|text()"/></xsl:otherwise>
+    </xsl:choose>
+  </content>
+</xsl:template>
+
+
+
+]]></parser>
+    </converter>
+    <converter type-in="application/powerpoint"
+      type-out="application/powerpoint-xml" timing-name="PPT to XML"
+    >
+      <converter-execute>%bin/pptxml %source_file
+</converter-execute>
+    </converter>
+    <converter type-in="application/powerpoint-xml" type-out="text/html"
+      timing-name="PPT XML to HTML"
+    >
+      <parser type="xsl" name="#anonymous#3"><![CDATA[<!-- -->
+
+<xsl:template match="/">
+  <xsl:variable name="presentation" select="/*/presentation"/>
+  <xsl:variable name="meta" select="/top/summary/property" />
+
+  <html>
+    <head>
+      <xsl:if test="$meta[@name='title']">
+        <title><xsl:value-of select="$meta[@name='title']/@value" /></title>
+      </xsl:if>
+      <xsl:apply-templates select="$meta" mode="meta" />
+    </head>
+    <body>
+      <xsl:choose>
+        <xsl:when test="not($presentation/@version)">
+          <xsl:call-template name="version-1"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:call-template name="version-2"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </body>
+  </html>
+</xsl:template>
+
+<xsl:template mode="meta" match="*">
+  <xsl:if test="@name">
+    <meta name="{@name}" value="{@value}" />
+  </xsl:if>
+</xsl:template>
+
+<xsl:template mode="text" match="TextCharsAtom|TextBytesAtom|CString">
+  <xsl:variable name="header" select="(preceding-sibling::TextHeaderAtom[1])|(parent::TextHeaderAtom)" />
+  <xsl:variable name="size">
+    <xsl:choose>
+      <xsl:when test="$header/@header = 0"><![CDATA[18]]]><![CDATA[]></xsl:when>
+      <xsl:when test="$header/@header = 5"><![CDATA[24]]]><![CDATA[]></xsl:when>
+      <xsl:when test="$header/@header = 6"><![CDATA[20]]]><![CDATA[]></xsl:when>
+      <xsl:otherwise><![CDATA[0]]]><![CDATA[]></xsl:otherwise>
+    </xsl:choose>
+  </xsl:variable>
+  <xsl:apply-templates select="str:tokenize(., '&#10;')" mode="nl">
+    <xsl:with-param name="size" select="$size" />
+  </xsl:apply-templates>
+  <xsl:if test="$header/@header = '0'"><p /></xsl:if>
+</xsl:template>
+
+<xsl:template match="*" mode="nl">
+  <xsl:param name="size" />
+
+  <span>
+    <xsl:if test="$size > 0">
+      <xsl:attribute name="style">
+        <xsl:text><![CDATA[font-size: ]]]><![CDATA[]></xsl:text>
+        <xsl:value-of select="$size" />
+        <xsl:text><![CDATA[pt;]]]><![CDATA[]></xsl:text>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:value-of select="." />
+  </span>
+  <br />
+</xsl:template>
+
+
+<!-- VERSION 2 -->
+
+<xsl:variable name="slides" select="//Slide"/>
+<xsl:variable name="persist-refs" select="//persist-ref"/>
+
+<xsl:template name="version-2">
+  <xsl:variable name="lists" select="//Document/SlideListWithText[@instance=0]"/>
+  <xsl:apply-templates mode="v2-body" select="$lists[position() = last()]"/>
+</xsl:template>
+
+<xsl:template mode="v2-body" match="SlidePersistAtom">
+  <xsl:variable name="persist" select="."/>
+  <xsl:variable name="id" select="@psrReference"/>
+  <xsl:variable name="pr" select="$persist-refs[@id = $id]"/>
+  <xsl:variable name="slide" select="$slides[@start = $pr/@offset]"/>
+
+  <xsl:for-each select="$slide//msofbtClientTextbox">
+    <xsl:apply-templates select="." mode="text"/>
+    <xsl:for-each select=".//OutlineTextRefAtom">
+      <xsl:variable name="instance" select="@ref"/>
+      <xsl:apply-templates select="$persist//TextHeaderAtom[@instance = $instance]/*" mode="text"/>
+    </xsl:for-each>
+  </xsl:for-each>
+  <hr/>
+</xsl:template>
+    
+
+<!-- VERSION 1 -->
+
+<xsl:template name="version-1">
+  <xsl:variable name="slides" select="//Document//SlideListWithText[TextHeaderAtom]" />
+  <xsl:variable name="slide" select="$slides[position() = last()]" />
+  <xsl:apply-templates mode="v1-body" select="$slide" />
+</xsl:template>
+
+<xsl:template mode="v1-body" match="TextCharsAtom|TextBytesAtom|CString">
+  <xsl:apply-templates mode="text" select="."/>
+</xsl:template>
+
+<xsl:template mode="v1-body" match="*">
+  <xsl:apply-templates mode="v1-body" select="*" />
+</xsl:template>
+
+<xsl:template mode="v1-body" match="SlidePersistAtom">
+  <hr />
+</xsl:template>
+]]></parser>
+    </converter>
+    <converter type-in="application/vnd.lotus-1-2-3"
+      type-out="application/vnd.lotus-1-2-3-text" timing-name="Lotus 1-2-3"
+    >
+      <converter-execute>vstrings --window 4 --min-char-pct 1 --min-space-pct 0 %source_file</converter-execute>
+    </converter>
+    <converter type-in="application/vnd.lotus-1-2-3-text" type-out="text/plain"
+      timing-name="Lotus 1-2-3"
+    >
+      <parser type="regex-text" name="#anonymous#4">
+        <match token="^[8DP\\]?['\^&quot;]" goto="keep" />
+        <state name="keep">
+          <match token="$[8DP\\]?['\^&quot;]" goto="keep">
+            <add-string>; </add-string>
+          </match>
+          <match token="$" goto="discard" />
+          <add-string />
+        </state>
+        <state name="discard">
+          <match token="^[8DP\\]?['\^&quot;]" goto="keep">
+            <add-string>; </add-string>
+          </match>
+        </state>
+      </parser>
+    </converter>
+    <converter type-in="application/sharepoint"
+      type-out="application/vxml-unnormalized" timing-name="Sharepoint Documents"
+    >
+      <parser type="xsl" name="#anonymous#5"><![CDATA[
+  <xsl:variable name="action"><![CDATA[viv:choose($name = 'title' or $name = 'description','cluster', 'none')]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="weight"><![CDATA[viv:choose($name = 'title',3,1)]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="output-action"><![CDATA[viv:choose($name  = 'description' or $name = 'title' or @name = 'author', 'bold')]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="mapping"><![CDATA[viv:choose(@name = 'Title' or @name = 'Description' or @name = 'Author', viv:str-to-lower(@name), @name = 'ows_Title' or @name = 'ows_Author', viv:str-to-lower(substring-after(@name, 'ows_')), @name = 'ows_Body', 'snippet',  @name = 'LastModified' or @name = 'ows_Modified', 'last-modified')]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="value-mapping"><![CDATA[viv:choose($name = 'last-modified', concat(date:month-name(.), ' ',date:day-in-month(.),', ',date:year(.)))]]]><![CDATA[]></xsl:variable>
+
+
+<xsl:template match="/">
+  <xsl:variable name="v" select="viv:vivisimo-alloc()"/>
+  <xsl:variable name="cn" select="viv:current-node(true())"/>
+  <xsl:variable name="up" select="$cn/curl-options/curl-option[@name='user-password']"/>
+  <xsl:variable name="xml">
+    <declare name="no-recurse" initial-value="{viv:current-node()/@no-recurse}"/>
+    <declare name="default-acl" initial-value="{viv:current-node()/@default-acl}"/>
+    <call-function name="sharepoint-crawl">
+      <with name="site-url"><xsl:value-of select="viv:replace($cn/@url,'\/*default.aspx$','')"/></with>
+      <xsl:if test="$up">
+        <with name="username"><xsl:value-of select="substring-before($up,':')"/></with>
+        <with name="password"><xsl:value-of select="substring-after($up,':')"/></with>
+      </xsl:if>
+    </call-function>  
+    <fetch timeout="300000" finish="finish"/>
+  </xsl:variable>
+  <xsl:value-of select="viv:vivisimo-input-xml($v, $xml)"/>
+  <vce>
+    <xsl:variable name="oxml" select="viv:vivisimo-xml($v)"/>
+    <xsl:apply-templates select="$oxml//document"/>
+    <xsl:for-each select="$oxml//crawl-url">
+      <xsl:value-of select="viv:crawl-enqueue-url(false(),.)"/>
+    </xsl:for-each>
+  </vce>
+</xsl:template>
+<xsl:template match="document">
+  <xsl:copy>
+    <xsl:copy-of select="@*[name(.)!='id']"/>
+    <xsl:apply-templates select="content"/>
+  </xsl:copy>
+</xsl:template>
+
+<xsl:template match="content">
+  <xsl:variable name="name" select="dyn:evaluate($mapping)"/>
+  <xsl:variable name="a" select="dyn:evaluate($action)"/>
+  <xsl:variable name="w" select="dyn:evaluate($weight)"/>
+  <xsl:variable name="oa" select="dyn:evaluate($output-action)"/>
+  <xsl:variable name="vm" select="dyn:evaluate($value-mapping)"/> 
+  <xsl:if test="$name">
+  <content>
+    <xsl:copy-of select="@*"/>
+    <xsl:attribute name="name"><xsl:value-of select="$name"/></xsl:attribute>
+    <xsl:if test="$a">
+      <xsl:attribute name="action"><xsl:value-of select="$a"/></xsl:attribute>
+    </xsl:if>
+    <xsl:if test="$w">
+      <xsl:attribute name="weight"><xsl:value-of select="$w"/></xsl:attribute>
+    </xsl:if>
+    <xsl:if test="$oa">
+      <xsl:attribute name="output-action"><xsl:value-of select="$oa"/></xsl:attribute>
+    </xsl:if>
+    <xsl:choose>
+      <xsl:when test="$vm"><xsl:value-of select="$vm"/></xsl:when>
+      <xsl:otherwise><xsl:apply-templates select="*|text()"/></xsl:otherwise>
+    </xsl:choose>
+  </content>
+  </xsl:if>
+</xsl:template>
+
+
+
+]]></parser>
+    </converter>
+    <converter type-in="application/word" type-out="text/html"
+      timing-name="Microsoft Word to HTML"
+    >
+      <converter-execute>%bin/wvWare -1 -x %bin/wvHtml.xml %source_file
+</converter-execute>
+    </converter>
+    <converter type-in="application/excel" type-out="text/html"
+      timing-name="Microsoft Excel"
+    >
+      <converter-execute>%bin/xlhtml -te %source_file</converter-execute>
+    </converter>
+    <converter type-in="application/wordperfect" type-out="text/html"
+      timing-name="WordPerfect to HTML"
+    >
+      <converter-execute>%bin/wpd2html %source_file > %target_file</converter-execute>
+    </converter>
+    <converter type-in="application/openoffice" type-out="text/html"
+      timing-name="Open Office to HTML"
+    >
+      <converter-execute>unzip -pq %source_file content.xml meta.xml | o3tohtml</converter-execute>
+    </converter>
+    <converter type-in="application/vnd.ms-project"
+      type-out="application/vxml-unnormalized" timing-name="Microsoft Project"
+    >
+      <converter-execute>mpp2vxml --content-name snippet  %source_file</converter-execute>
+    </converter>
+    <converter type-in="application/ps" type-out="text/plain"
+      timing-name="Postscript (ps) to text"
+    >
+      <converter-execute>%bin/ghostscript/gs -q -dNODISPLAY -dSAFER -dDELAYBIND -dWRITESYSTEMDICT -dSIMPLE -I%bin/ghostscript -c save -f %bin/ghostscript/ps2ascii.ps %source_file -c quit > %target_file</converter-execute>
+    </converter>
+    <converter type-in="application/pdf" type-out="text/html"
+      timing-name="PDF to HTML"
+    >
+      <converter-execute>%bin/pdftohtml -enc UTF-8 -i -noframes -c -stdout  %source_file | %bin/check-and-fix-utf8  | %bin/fix-pdf</converter-execute>
+    </converter>
+    <converter type-in="application/rtf" type-out="text/html"
+      timing-name="RTF to HTML"
+    >
+      <converter-execute>%bin/rtf2html %source_file</converter-execute>
+    </converter>
+    <converter type-in="application/outlook-msg" type-out="vivisimo/crawl-data"
+      timing-name="Email: Outlook (MSG) "
+    >
+      <converter-execute>%bin/msg2vxml --cache-parser vse-cache-parser-email %source_file</converter-execute>
+    </converter>
+    <converter type-in="application/flash" type-out="text/html"
+      timing-name="Flash to HTML"
+    >
+      <converter-execute>swf2html - &lt; %source_file > %target_file</converter-execute>
+    </converter>
+    <converter type-in="application/tar" type-out="unknown"
+      timing-name="TAR archive extractor"
+    >
+      <converter-execute>
+tar xf %source_file --no-same-owner --force-local --no-same-permissions --directory=%target_dir  > /dev/null &amp;&amp; chmod -R +rwx %target_dir</converter-execute>
+    </converter>
+    <converter type-in="application/x-gzip" type-out="unknown"
+      timing-name="Uncompress gzip (.gz)"
+    >
+      <converter-execute>gunzip -f &lt; %source_file > %target_file</converter-execute>
+    </converter>
+    <converter type-in="application/zip" type-out="unknown"
+      timing-name="Uncompress ZIP files"
+    >
+      <converter-execute>unzip -o %source_file -d %target_dir &amp;&amp; chmod -R +rwx %target_dir</converter-execute>
+    </converter>
+    <converter type-in="application/x-compress" type-out="unknown"
+      timing-name="Uncompress compress (.Z) files"
+    >
+      <converter-execute>%bin/compress -d -c %source_file > %target_file &amp;&amp; chmod +rwx %target_file</converter-execute>
+    </converter>
+    <converter type-in="text/html" type-out="application/vxml-unnormalized"
+      timing-name="HTML to XML"
+    >
+      <parser type="html-xsl" name="#anonymous#6"><![CDATA[
+  <xsl:variable name="meta-names"><![CDATA[]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="meta-action"><![CDATA[cluster-bold]]]><![CDATA[]></xsl:variable>
+
+
+<!--
+
+Convert HTML to Vivisimo XML.
+
+This XSL stylesheet does two things.  First it selects a title for the
+page.  If the page is a PDF, Word, Powerpoint or Excel document, we will
+consider replacing the title in the document.  The title selection is
+based on looking for large fonts near the start of the document.  You
+can explore this transformation and customize it as you see fit.
+
+The second thing that this XSLT does is to take a subset of the HTML and
+put it into a content named snippet.  Near the end of this parser, there
+are a series of template matches that decide which tags will be placed
+into the content, which will be discard and which will be discarded along
+with their sub-nodes.
+
+-->
+
+<xsl:output method="xml" encoding="utf-8" />
+<xsl:strip-space elements="*" />
+
+<xsl:variable name="include-alts">
+</xsl:variable>
+
+<!-- useful short-cuts -->
+
+<xsl:variable name="is-pdf" select="viv:test($url, '\.pdf$|\.pdf#', 'cregex')" />
+<xsl:variable name="is-doc" select="viv:test($url, '\.doc$|\.doc#', 'cregex')" />
+<xsl:variable name="is-ppt" select="viv:test($url, '\.pp[st]$|\.pp[st]#', 'cregex')" />
+<xsl:variable name="is-excel" select="/html/head/meta[@name = 'GENERATOR']/@content = 'xlhtml'" />
+<xsl:variable name="bad-title" select="$is-pdf or $is-doc or $is-ppt" />
+
+<!-- main match -->
+
+<xsl:template match="/">
+  <document>
+    <xsl:call-template name="select-title" />
+    <xsl:call-template name="process-meta" />
+    <xsl:variable name="body" select="/*"/>
+    <xsl:variable name="keep-mode" select="not($is-pdf or $is-doc or $is-ppt or $is-excel) and /*/*[@before-keep or @after-keep][1]"/>
+
+    <xsl:if test="$keep-mode">
+      <content name="pre-snippet" weight="0.1" output-action="summarize">
+        <xsl:apply-templates select="viv:if-else($body, $body, /*)" 
+         mode="x"
+        >
+          <xsl:with-param name="keep" select="1"/>
+        </xsl:apply-templates>
+      </content>
+    </xsl:if>
+
+    <content name="snippet" weight="1" output-action="summarize">
+      <xsl:apply-templates select="viv:if-else($body, $body, *|text())" mode="x" >
+        <xsl:with-param name="keep" select="viv:if-else($keep-mode, 2, 0)"/>
+      </xsl:apply-templates>
+    </content>
+
+    <xsl:if test="$keep-mode">
+      <content name="post-snippet" weight="0.1" output-action="summarize">
+        <xsl:apply-templates select="viv:if-else($body, $body, *|text())" 
+         mode="x"
+        >
+          <xsl:with-param name="keep" select="3"/>
+        </xsl:apply-templates>
+      </content>
+    </xsl:if>
+
+  </document>
+</xsl:template>
+
+<xsl:template match="text()" />
+
+<!-- Meta tag handling -->
+
+<xsl:template name="process-meta">
+  <xsl:if test="$meta-names">
+    <xsl:apply-templates select="/*/head//meta" mode="metas"/>
+  </xsl:if>
+</xsl:template>
+
+<xsl:template match="meta" mode="metas">
+  <xsl:variable name="n" select="viv:str-to-lowercase(normalize-space(@name))"/>
+  <xsl:variable name="t" select="normalize-space(@content)" />
+
+  <xsl:if test=
+   "$t and $t != '' and $n and viv:test($n, $meta-names, 'wc-set')"
+  >
+    <content name="{$n}" action="{$meta-action}"
+      weight="{1}"
+    >
+      <xsl:value-of select="$t" />
+    </content>
+  </xsl:if>
+</xsl:template>
+
+<!-- Title extraction -->
+
+<xsl:template name="select-title">
+  <xsl:variable name="t" select="//title[normalize-space(.) != '']" />
+
+  <xsl:choose>
+    <xsl:when test="$is-excel">
+      <xsl:variable name="title"
+        select="normalize-space(viv:concat(//h1[1]//text(), ' '))"
+      />
+      <xsl:if test="not(viv:test($title, '^Sheet[1-9][0-9]*$', 'regex'))">
+        <content name="title" output-action="bold" weight="3">
+          <xsl:value-of select="$title"/>
+        </content>
+      </xsl:if>
+    </xsl:when>
+    <xsl:when test="$bad-title">
+      <xsl:call-template name="conditional-title-extractor" />
+    </xsl:when>
+    <xsl:when test="$t">
+      <content name="title" output-action="bold" weight="3">
+        <xsl:apply-templates select="$t[1]" mode="strip-tags" />
+      </content>
+    </xsl:when>
+  </xsl:choose>
+</xsl:template>
+
+<xsl:template name="conditional-title-extractor">
+
+  <xsl:variable name="spans" select="//span" />
+  <xsl:variable name="title" select="//title" />
+  <xsl:variable name="t-title" select="str:tokenize($title)" />
+
+  <xsl:choose>
+    <xsl:when test="string-length(normalize-space($title)) > 3">
+      <xsl:call-template name="find-title-words">
+        <xsl:with-param name="spans" select="$spans[position() &lt;= 100]" />
+        <xsl:with-param name="title" select="$title" />
+        <xsl:with-param name="t-title" select="$t-title" />
+        <xsl:with-param name="pos" select="1" />
+        <xsl:with-param name="may-miss" select="floor(count($t-title) div 4)" />
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:when test="$spans">
+      <xsl:call-template name="generate-title">
+        <xsl:with-param name="spans" select="$spans[position() &lt;= 100]" />
+      </xsl:call-template>
+    </xsl:when>
+  </xsl:choose>
+</xsl:template>
+
+<xsl:template name="find-title-words">
+  <xsl:param name="spans" />
+  <xsl:param name="title" />
+  <xsl:param name="t-title" />
+  <xsl:param name="pos" />
+  <xsl:param name="may-miss" />
+
+  <xsl:choose>
+    <xsl:when test="$pos > 0 and $pos > count($t-title)">
+      <!-- found all title words, keep this title -->
+      <content name="title" output-action="bold" weight="3">
+        <xsl:apply-templates select="$title" mode="strip-tags" />
+      </content>
+    </xsl:when>
+    <xsl:when test="$pos &lt;= count($t-title) and $spans[viv:test(., concat('*', viv:replace($t-title[position() = $pos], '[[:punct:]]', '', 'g'), '*'), 'wc')]">
+      <!-- found this title word, look for the next one -->
+      <xsl:call-template name="find-title-words">
+        <xsl:with-param name="spans" select="$spans" />
+        <xsl:with-param name="title" select="$title" />
+        <xsl:with-param name="t-title" select="$t-title" />
+        <xsl:with-param name="pos" select="$pos + 1" />
+        <xsl:with-param name="may-miss" select="$may-miss" />
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:when test="$may-miss > 0">
+      <xsl:call-template name="find-title-words">
+        <xsl:with-param name="spans" select="$spans" />
+        <xsl:with-param name="title" select="$title" />
+        <xsl:with-param name="t-title" select="$t-title" />
+        <xsl:with-param name="pos" select="$pos + 1" />
+        <xsl:with-param name="may-miss" select="$may-miss - 1" />
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:otherwise>
+      <!-- no match for this word, generate a title -->
+      <xsl:call-template name="generate-title">
+        <xsl:with-param name="spans" select="$spans" />
+      </xsl:call-template>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+
+<xsl:template name="generate-title">
+  <xsl:param name="spans" />
+
+  <content name="title" output-action="bold" weight="3">
+    <xsl:choose>
+      <xsl:when test="$is-pdf">
+        <xsl:call-template name="pdf-title-extractor">
+          <xsl:with-param name="spans" select="$spans" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$is-doc">
+        <xsl:call-template name="doc-title-extractor">
+          <xsl:with-param name="spans" select="$spans" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="$is-ppt">
+        <xsl:call-template name="doc-title-extractor">
+          <xsl:with-param name="spans" select="$spans[position() &lt;= 10]" />
+        </xsl:call-template>
+      </xsl:when>
+    </xsl:choose>
+  </content>
+</xsl:template>
+
+<!-- DOC/PPT title extractor -->
+
+<xsl:template name="doc-title-extractor">
+  <xsl:param name="spans" />
+
+  <xsl:variable name="sizes-str">
+    <xsl:apply-templates select="$spans" mode="doc-emit-sizes">
+      <xsl:sort select="number(substring-before(substring-after(@style, 'font-size: '), 'pt'))" data-type="number" order="descending" />
+    </xsl:apply-templates>
+  </xsl:variable>
+
+  <xsl:variable name="sizes" select="str:tokenize($sizes-str)" />
+
+  <xsl:call-template name="doc-title-size">
+    <xsl:with-param name="spans" select="$spans" />
+    <xsl:with-param name="sizes" select="$sizes" />
+    <xsl:with-param name="pos" select="1" />
+  </xsl:call-template>
+</xsl:template>
+
+<xsl:template name="doc-title-size">
+  <xsl:param name="spans" />
+  <xsl:param name="sizes" />
+  <xsl:param name="pos" />
+
+  <xsl:variable name="pt" select="$sizes[position() = $pos]" />
+  <xsl:if test="$pos &lt;= count($sizes)">
+    <xsl:choose>
+      <xsl:when test="$pos = 1 or $pt != $sizes[position() = $pos - 1]">
+
+        <xsl:variable name="positions-str">
+          <xsl:apply-templates select="$spans" mode="doc-positions">
+            <xsl:with-param name="pt" select="$pt" />
+          </xsl:apply-templates>
+        </xsl:variable>
+        <xsl:variable name="positions" select="str:tokenize($positions-str)" />
+        <xsl:variable name="position0" select="$positions[1]" />
+        <xsl:variable name="s" select="$spans[substring-before(substring-after(@style, 'font-size: '), 'pt') = $pt and position() &lt;= $position0 + 10]" />
+
+        <xsl:choose>
+          <xsl:when test="$s//text()[string-length(normalize-space(.)) >= 5]">
+            <xsl:call-template name="output-title-strings">
+              <xsl:with-param name="text" select="$s" />
+              <xsl:with-param name="pos" select="1" />
+            </xsl:call-template>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:call-template name="doc-title-size">
+              <xsl:with-param name="spans" select="$spans" />
+              <xsl:with-param name="sizes" select="$sizes" />
+              <xsl:with-param name="pos" select="$pos + 1" />
+            </xsl:call-template>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:call-template name="doc-title-size">
+          <xsl:with-param name="spans" select="$spans" />
+          <xsl:with-param name="sizes" select="$sizes" />
+          <xsl:with-param name="pos" select="$pos + 1" />
+        </xsl:call-template>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:if>
+</xsl:template>
+
+<xsl:template match="*" mode="doc-positions">
+  <xsl:param name="pt" />
+  <xsl:if test="substring-before(substring-after(@style, 'font-size: '), 'pt') = $pt">
+    <xsl:value-of select="position()" />
+    <xsl:text> </xsl:text>
+  </xsl:if>
+</xsl:template>
+
+<xsl:template mode="doc-emit-sizes" match="*">
+  <xsl:value-of select="substring-before(substring-after(@style, 'font-size: '), 'pt')" /><xsl:text> </xsl:text>
+</xsl:template>
+
+<!-- PDF title extractor -->
+
+<xsl:template name="pdf-title-extractor">
+  <xsl:param name="spans" />
+
+  <!-- make sure we don't try to extract a title from a blank page,
+       look for pages that have at least one div on them.
+    -->
+  <xsl:variable name="pages" select="/*/*/div[div]" />
+  <xsl:if test="$pages">
+    <xsl:variable name="css" select="str:tokenize(viv:replace(viv:replace($pages[1]/style/comment(),'\{[^}]*font-size: *', ',', 'g'),'px[^}]*} *', '', 'g'), '&#10;')" />
+
+    <xsl:variable name="biggest-str">
+      <xsl:apply-templates select="$css" mode="strip-tags">
+        <xsl:sort select="number(substring-after(text(), ','))" data-type="number" order="descending" />
+      </xsl:apply-templates>
+    </xsl:variable>
+
+    <xsl:variable name="biggest" select="str:tokenize($biggest-str, ' ')" />
+    <xsl:call-template name="pdf-title-size">
+      <xsl:with-param name="sizes" select="$biggest" />
+      <xsl:with-param name="pos" select="1" />
+      <xsl:with-param name="spans" select="$spans" />
+    </xsl:call-template>
+  </xsl:if>
+</xsl:template>
+
+<xsl:template name="pdf-title-size">
+  <xsl:param name="sizes" />
+  <xsl:param name="pos" />
+  <xsl:param name="spans" />
+
+  <xsl:variable name="this" select="$sizes[position() = $pos]" />
+  <xsl:variable name="size" select="substring-after($this, ',')" />
+  <xsl:variable name="classes" select="$sizes[substring-after(., ',') = $size]" />
+
+  <xsl:variable name="class-condition">
+    false()
+    <xsl:for-each select="$classes">
+      or @class = '<xsl:value-of select="substring-after(substring-before(., ','), '.')" />'
+    </xsl:for-each>
+  </xsl:variable>
+
+  <xsl:variable name="positions-str">
+    <xsl:apply-templates select="$spans" mode="pdf-positions">
+      <xsl:with-param name="class-condition" select="$class-condition" />
+    </xsl:apply-templates>
+  </xsl:variable>
+  <xsl:variable name="positions" select="str:tokenize($positions-str)" />
+  <xsl:variable name="position0" select="$positions[1]" />
+  <xsl:variable name="s" select="dyn:evaluate(concat('$spans[position() &lt;= $position0 + 10 and (', $class-condition, ')]'))" />
+
+  <xsl:choose>
+    <xsl:when test="count($classes) = 0">
+      <!-- will go into an infinite loop doing nothing -->
+    </xsl:when>
+    <xsl:when test="not(str:split(viv:concat($s//text()))[string-length(text())
+> 1])">
+      <xsl:call-template name="pdf-title-size">
+        <xsl:with-param name="sizes" select="$sizes" />
+        <xsl:with-param name="pos" select="$pos + count($classes)" />
+        <xsl:with-param name="spans" select="$spans" />
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:when test="$s//text()[string-length(normalize-space(.)) >= 5]">
+      <xsl:call-template name="output-title-strings">
+        <xsl:with-param name="text" select="$s" />
+        <xsl:with-param name="pos" select="1" />
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:when test="$classes">
+      <xsl:call-template name="pdf-title-size">
+        <xsl:with-param name="sizes" select="$sizes" />
+        <xsl:with-param name="pos" select="$pos + count($classes)" />
+        <xsl:with-param name="spans" select="$spans" />
+      </xsl:call-template>
+    </xsl:when>
+  </xsl:choose>
+</xsl:template>
+
+<xsl:template match="*" mode="pdf-positions">
+  <xsl:param name="class-condition" />
+  <xsl:if test="dyn:evaluate($class-condition)">
+    <xsl:value-of select="position()" />
+    <xsl:text> </xsl:text>
+  </xsl:if>
+</xsl:template>
+
+<xsl:template name="output-title-strings">
+  <xsl:param name="text" />
+  <xsl:param name="pos" />
+  <xsl:param name="limit" select="viv:if-else($is-ppt, 1, 100)" />
+  <xsl:param name="bytes-output" select="0" />
+  <xsl:param name="last-s" select="''" />
+
+  <xsl:variable name="s">
+    <xsl:for-each select="$text[position() = $pos]//text()">
+      <xsl:value-of select="normalize-space(.)" />
+      <xsl:text> </xsl:text>
+    </xsl:for-each>
+  </xsl:variable>
+
+  <xsl:if test="string-length($s) &lt;= $limit or  5*$bytes-output &lt; $limit">
+
+    <xsl:variable name="display-s">
+      <xsl:if test="$s != $last-s">
+        <xsl:value-of select="$s" />
+      </xsl:if>
+    </xsl:variable>
+
+    <xsl:value-of select="$display-s" />
+
+    <xsl:if test="$pos &lt; count($text)">
+      <xsl:call-template name="output-title-strings">
+        <xsl:with-param name="text" select="$text" />
+        <xsl:with-param name="pos" select="$pos + 1" />
+        <xsl:with-param name="limit" select="$limit - string-length($display-s)" />
+        <xsl:with-param name="bytes-output" select="$bytes-output + string-length($display-s)" />
+        <xsl:with-param name="last-s" select="$s" />
+      </xsl:call-template>
+    </xsl:if>
+  </xsl:if>
+</xsl:template>
+
+<xsl:template match="text()" mode="strip-tags">
+  <xsl:value-of select="." /><xsl:text> </xsl:text>
+</xsl:template>
+
+<xsl:template mode="x" match="*">
+  <xsl:param name="keep"/>
+  <xsl:if test="@alt">
+    <xsl:apply-templates select="." mode="check-alt">
+      <xsl:with-param name="keep" select="$keep"/>
+    </xsl:apply-templates>
+  </xsl:if>
+  <xsl:text> </xsl:text>
+  <xsl:apply-templates mode="x">
+    <xsl:with-param name="keep" select="$keep"/>
+  </xsl:apply-templates>
+  <xsl:text> </xsl:text>
+</xsl:template>
+
+<xsl:template mode="x" match="font|span|div|td|a|h1|h2|h3|h4|h5|b|p|br|hr|li|option">
+  <xsl:param name="keep"/>
+  <xsl:if test="$keep = 0 or ($keep = 1 and @before-keep) or ($keep = 2 and @keep) or ($keep = 3 and @after-keep)">
+    <xsl:if test="@alt">
+      <xsl:apply-templates select="." mode="check-alt"/>
+    </xsl:if>
+    <xsl:choose>
+      <xsl:when test="(name() = 'br' and not($is-pdf)) or name() = 'hr' or name() = 'p'">
+        <xsl:apply-templates mode="show-tag" select=".">
+          <xsl:with-param name="keep" select="$keep"/>
+        </xsl:apply-templates>
+      </xsl:when>
+      <xsl:when test="true() or text()[string-length(.) > 10 or normalize-space(.) != '']">
+        <xsl:apply-templates mode="show-tag" select=".">
+          <xsl:with-param name="keep" select="$keep"/>
+        </xsl:apply-templates>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates mode="x">
+          <xsl:with-param name="keep" select="$keep"/>
+        </xsl:apply-templates>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:if>
+</xsl:template>
+
+<xsl:template mode="x" match="title|head|meta|script|style">
+  <xsl:text> </xsl:text>
+</xsl:template>
+
+
+<xsl:template mode="show-tag" match="*">
+  <xsl:param name="keep"/>
+
+  <xsl:variable name="keeping" select="
+      $keep = 0 or 
+      (
+        ( $keep = 1 and @before-keep ) or
+        ( $keep = 3 and @after-keep   ) or
+        ( $keep = 2 and not(@before-keep or @after-keep) )
+      )
+  "/>
+
+    <xsl:if test="@alt and $keeping">
+      <xsl:apply-templates select="." mode="check-alt"/>
+    </xsl:if>
+    <xsl:choose>
+      <xsl:when test="node()">
+        <xsl:if test="$keeping">
+          <xsl:value-of select="concat('&lt;', name(), '>')"/>
+        </xsl:if>
+        <xsl:apply-templates mode="x">
+          <xsl:with-param name="keep" select="$keep"/>
+        </xsl:apply-templates>
+        <xsl:if test="$keeping">
+          <xsl:value-of select="concat('&lt;/', name(), '>')"/>
+        </xsl:if>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:if test="$keeping">
+          <xsl:value-of select="concat('&lt;', name(), '/>')"/>
+        </xsl:if>
+      </xsl:otherwise>
+    </xsl:choose>
+
+</xsl:template>
+
+<xsl:template mode="x" match="@*"/>
+
+<!-- Otherwise, print the text.  Remove extra white space to make it
+     easier to read.
+  -->
+
+<xsl:template mode="x" match="text()">
+  <xsl:param name="keep"/>
+
+  <xsl:if test="
+      $keep = 0 or 
+      (
+        ( $keep = 1 and ../@before-keep ) or
+        ( $keep = 3 and ../@after-keep   ) or
+        ( $keep = 2 and not(../@before-keep or ../@after-keep) )
+      )
+  ">
+    <xsl:value-of select="." />
+  </xsl:if>
+</xsl:template>
+
+<xsl:template mode="check-alt" match="a|img">
+  <xsl:if test="$include-alts and @alt and normalize-space(@alt) != ''">
+    <xsl:text> </xsl:text>
+    <xsl:value-of select="@alt"/>
+    <xsl:text> </xsl:text>
+  </xsl:if>
+</xsl:template>
+
+
+]]></parser>
+    </converter>
+    <converter type-in="text/plain" type-out="application/vxml-unnormalized"
+      timing-name="Text to XML"
+    >
+      <parser name="text2vxml">
+        <match token="^" goto="main">
+          <add-document />
+        </match>
+        <state name="main">
+          <match token=".*" goto="#end">
+            <add-content type="text" name="snippet" />
+          </match>
+        </state>
+      </parser>
+    </converter>
+    <converter type-in="unknown" type-out="application/dbf">
+      <converter-test how="wc-set" what="path">*.dbf</converter-test>
+    </converter>
+    <converter type-in="application/dbf" type-out="text/csv"
+      timing-name="DBF to CSV"
+    >
+      <converter-execute>dbf --csv - %source_file | %bin/../iso2utf</converter-execute>
+    </converter>
+    <converter type-in="text/csv" type-out="application/vxml-unnormalized"
+      timing-name="CSV to XML"
+    >
+      <converter-execute>%bin/csv2vxml %source_file</converter-execute>
+    </converter>
+    <converter type-in="text/xml" type-out="application/vxml-unnormalized"
+      timing-name="XML to Vivisimo XML"
+    >
+      <parser type="xsl" name="#anonymous#7"><![CDATA[<xsl:template match="/">
+  <document>
+    <content name="snippet" output-action="summarize">
+      <xsl:apply-templates select="*" mode="xml-to-plain-text" />
+    </content>
+  </document>
+</xsl:template>
+
+<xsl:template match="*" mode="xml-to-plain-text">
+  <xsl:text><![CDATA[<]]]><![CDATA[]></xsl:text>
+  <xsl:value-of select="name()" />
+  <xsl:text> </xsl:text>
+  <xsl:choose>
+    <xsl:when test="text()|*|comment()">
+      <xsl:text><![CDATA[>]]]><![CDATA[]></xsl:text>
+      <xsl:apply-templates select="text()|*|comment()" mode="xml-to-plain-text" />
+      <xsl:text><![CDATA[</]]]><![CDATA[]></xsl:text>
+      <xsl:value-of select="name()" />
+      <xsl:text><![CDATA[>]]]><![CDATA[]></xsl:text>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:text><![CDATA[/>]]]><![CDATA[]></xsl:text>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>]]></parser>
+    </converter>
+    <converter type-in="application/vxml-unnormalized"
+      type-out="application/vxml-unnormalized" timing-name="Normalization"
+    >
+      <parser type="xsl" name="#anonymous#8"><![CDATA[
+  <xsl:variable name="max-title-length"><![CDATA[120]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="date-bias-what"><![CDATA[]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="date-bias-xpath"><![CDATA[]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="last-modified"><![CDATA[true]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="last-modified-weight"><![CDATA[-1]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="crawled-date"><![CDATA[true]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="crawled-date-weight"><![CDATA[-1]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="language-detection"><![CDATA[true]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="language-contents"><![CDATA[title|snippet]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="language-content"><![CDATA[language]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="language-bytes"><![CDATA[50000]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="static-summary-names"><![CDATA[]]]><![CDATA[]></xsl:variable>
+
+  <xsl:variable name="static-summary-bytes"><![CDATA[]]]><![CDATA[]></xsl:variable>
+
+
+<xsl:template match="/">
+  <vce>
+    <xsl:apply-templates/>
+  </vce>
+</xsl:template>
+
+<xsl:template match="vce">
+  <xsl:apply-templates/>
+</xsl:template>
+
+<xsl:template match="*">
+  <xsl:copy>
+    <xsl:apply-templates select="*"/>
+  </xsl:copy>
+</xsl:template>
+
+<xsl:template match="document">
+  <xsl:copy>
+    <xsl:apply-templates select="@*[not(name() = $date-bias-what)]" />
+    <xsl:call-template name="handle-date-bias" />
+    <xsl:call-template name="output-dates" />
+    <xsl:if test="$language-detection and $language-detection = 'true' and function-available('viv:classify-language')">
+      <xsl:apply-templates mode="language" select="."/>
+    </xsl:if>
+    <xsl:apply-templates select="*"/>
+  </xsl:copy>
+</xsl:template>
+
+<xsl:template match="content">
+  <xsl:choose>
+    <xsl:when test="$static-summary-names and viv:test(@name, $static-summary-names, 'wc-set')">
+      <xsl:copy>
+        <xsl:copy-of select="@*"/>
+        <xsl:attribute name="action">index-only</xsl:attribute>
+        <xsl:copy-of select="text()"/>
+      </xsl:copy>
+      <xsl:copy>
+        <xsl:copy-of select="@*"/>
+        <xsl:attribute name="weight">-1</xsl:attribute>
+        <xsl:call-template name="chop">
+          <xsl:with-param name="text" select="viv:if-else(@type = 'text', ., viv:replace(., '&lt;[^>]*>', ' ', 'g'))"/>
+          <xsl:with-param name="max-length" select="viv:evaluate($static-summary-bytes)"/>
+        </xsl:call-template>
+      </xsl:copy>
+    </xsl:when>
+<!--<xsl:when test="$normalize-spaces and $normalize-spaces = 'true'">
+      <xsl:copy>
+        <xsl:copy-of select="@*"/>
+        <xsl:copy-of select="normalize-space(.)"/>
+      </xsl:copy>
+    </xsl:when>
+-->
+    <xsl:otherwise>
+      <xsl:copy-of select="."/>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+
+<xsl:template match="text()|comment()|@*">
+  <xsl:copy />
+</xsl:template>
+
+<!-- *******************************************
+               Language detection
+     ******************************************* -->
+
+<xsl:template mode="language" match="document">
+  <xsl:variable name="c" select="content[viv:test(@name, $language-contents, 'wc-set')]"/>
+  <xsl:variable name="html">
+    <xsl:call-template name="language-text">
+      <xsl:with-param name="c" select="$c[not(@type) or @type != 'text']"/>
+    </xsl:call-template>
+  </xsl:variable>
+  <xsl:variable name="text">
+    <xsl:call-template name="language-text">
+      <xsl:with-param name="c" select="$c[@type = 'text']"/>
+      <xsl:with-param name="len" select="string-length($html)"/>
+    </xsl:call-template>
+  </xsl:variable>
+  <xsl:variable name="l" select="viv:classify-language($html, 'html', $text, 'text')"/>
+  <content name="{$language-content}" weight="0" action="none">
+    <xsl:value-of select="viv:if-else($l and $l != '', $l, 'unknown')"/>
+  </content>
+</xsl:template>
+
+<xsl:template name="language-text">
+  <xsl:param name="c" />
+  <xsl:param name="i" select="1" />
+  <xsl:param name="len" select="0" />
+
+  <xsl:choose>
+    <xsl:when test="$i > count($c)"/>
+    <xsl:when test="$language-bytes &lt; 0">
+      <xsl:value-of select="$c[$i]"/>
+      <xsl:call-template name="language-text">
+        <xsl:with-param name="c" select="$c"/>
+        <xsl:with-param name="i" select="$i + 1"/>
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:when test="$len >= $language-bytes"/>
+    <xsl:otherwise>
+      <xsl:variable name="l" select="string-length($c[$i])"/>
+      <xsl:value-of select="substring($c[$i], 1, $language-bytes - $len)"/>
+      <xsl:call-template name="language-text">
+        <xsl:with-param name="c" select="$c"/>
+        <xsl:with-param name="i" select="$i + 1"/>
+        <xsl:with-param name="len" select="$len + $l"/>
+      </xsl:call-template>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+
+<!-- *******************************************
+               Date bias
+     ******************************************* -->
+
+<xsl:template name="handle-date-bias">
+  <xsl:variable name="at">
+    <xsl:choose>
+      <xsl:when test="$date-bias-xpath and number(dyn:evaluate($date-bias-xpath)) > 0">
+        <xsl:value-of select="dyn:evaluate($date-bias-xpath)"/>
+      </xsl:when>
+      <xsl:when test="$crawl-url-last-modified and number($crawl-url-last-modified) > 0">
+        <xsl:value-of select="$crawl-url-last-modified" />
+      </xsl:when>
+      <xsl:when test="$crawl-url-at and number($crawl-url-at) > 0">
+        <xsl:value-of select="$crawl-url-at" />
+      </xsl:when>
+    </xsl:choose>
+  </xsl:variable>
+
+  <xsl:if test="$date-bias-what != '' and $at and number($at) > 0">
+    <xsl:attribute name="{$date-bias-what}">
+      <xsl:value-of select="viv:if-else($date-bias-what != 'la-score', 1, 0) + (1 div ((date:seconds() - $at) div (60*60*24) + 1.5) * viv:if-else(@*[name() = $date-bias-what], @*[name() = $date-bias-what], 1))" />
+    </xsl:attribute>
+  </xsl:if>
+</xsl:template>
+
+<!-- *******************************************
+               Output dates
+     ******************************************* -->
+
+<xsl:template name="output-dates">
+  <xsl:if test="$crawl-url-last-modified and number($crawl-url-last-modified) > 0 and $last-modified and $last-modified = 'true'">
+    <content name="last-modified" action="none" weight="{$last-modified-weight}">
+      <xsl:call-template name="print-date">
+        <xsl:with-param name="secs" select="$crawl-url-last-modified" />
+      </xsl:call-template>
+    </content>
+  </xsl:if>
+  <xsl:if test="$crawled-date and $crawled-date = 'true' and $crawl-url-at and $crawl-url-at != '' and number($crawl-url-at) > 0">
+    <content name="crawled-date" action="none" weight="{$crawled-date-weight}">
+      <xsl:call-template name="print-date">
+        <xsl:with-param name="secs" select="$crawl-url-at" />
+      </xsl:call-template>
+    </content>
+  </xsl:if>
+</xsl:template>
+
+<xsl:template name="print-date">
+  <xsl:param name="secs" />
+  <xsl:param name="secs" />
+  <xsl:param name="duration" select="concat('P0Y0M0DT0H0M', $secs, 'S')" />
+  <xsl:variable name="d" select="date:add('1970-01-01T00:00:00-04:00', $duration)" />
+
+  <xsl:value-of select="substring(date:month-name($d), 1, 3)" />
+  <xsl:text> </xsl:text>
+  <xsl:value-of select="date:day-in-month($d)" />,
+  <xsl:value-of select="date:year($d)" />
+  <xsl:text> </xsl:text>
+  <xsl:value-of select="format-number(date:hour-in-day($d), '00')" />
+  <xsl:text>:</xsl:text>
+  <xsl:value-of select="format-number(date:minute-in-hour($d), '00')" />
+  <xsl:text>:</xsl:text>
+  <xsl:value-of select="format-number(date:second-in-minute($d), '00')" />
+</xsl:template>
+
+<!-- *******************************************
+               Truncate long titles
+     ******************************************* -->
+
+<xsl:template match="content[@name='title' and $max-title-length > 0]">
+  <xsl:copy>
+    <xsl:apply-templates select="@*|comment()|*" />
+    <xsl:call-template name="chop">
+      <xsl:with-param name="text" select="." />
+      <xsl:with-param name="max-length" select="$max-title-length" />
+    </xsl:call-template>
+  </xsl:copy>
+</xsl:template>
+
+
+<!-- Truncate strings -->
+
+<xsl:template name="chop">
+  <xsl:param name="text" />
+  <xsl:param name="max-length" />
+
+  <xsl:variable name="t" select="normalize-space($text)" />
+
+  <xsl:choose>
+    <xsl:when test="string-length($t) > $max-length">
+      <xsl:variable name="t-hacked" select="substring($t, 1, $max-length)" />
+      <xsl:value-of select="viv:replace($t-hacked, '[^[:space:],\.;:>]*$', '')" />
+      <xsl:text>...</xsl:text>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="$t" />
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+
+
+]]></parser>
+    </converter>
+    <converter type-in="application/vxml-unnormalized"
+      type-out="application/vxml"
+    />
+  </converters>
+</crawler>
+
+msg (37 ms) - The crawl has been started. (ID: CRAWLER_STARTING)
+
+msg (186 ms) -  <crawl-url url="http://www.firstgov.gov/" verbose="verbose" hops="0" orig-url="http://www.firstgov.gov" vertex="0" ><curl-options ><curl-option name="default-allow" >allow</curl-option><curl-option name="max-hops" >15</curl-option></curl-options></crawl-url> is input. (ID: CRAWLER_INPUT)
+
+msg (333 ms) -  [http://www.firstgov.gov/robots.txt] complete, status [complete] (cache code [] ). (ID: CRAWLER_FINISHED)
+
+msg (743 ms) -  [http://www.firstgov.gov/] complete, status [complete] (cache code [] ). (ID: CRAWLER_FINISHED)
+
+error (959 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/index.shtml] : [duplicate of 0]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (8128 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/index.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+msg (9445 ms) - Converters failed to convert [http://www.firstgov.gov/rss/updates.xml] : [No converter available (type-in=[application/xml])] . (ID: CRAWLER_CONVERSION)
+
+error (9448 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/rss/updates.xml] : [No converter available (type-in=[application/xml])]  (ID: CRAWLER_CRAWL_ERROR)
+
+msg (9806 ms) - Converters failed to convert [http://www.firstgov.gov/rss/FAQs.xml] : [No converter available (type-in=[application/xml])] . (ID: CRAWLER_CONVERSION)
+
+error (9808 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/rss/FAQs.xml] : [No converter available (type-in=[application/xml])]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (13090 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Government/Tribal_Sites/L.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (14824 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Business/All_Audiences.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (16315 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Temas/Agric_Ambiente.shtml?toggleTo=en_Environment_Energy_and_Agriculture] : [duplicate of 108]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (16616 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Temas/Consumidores.shtml?toggleTo=en_Consumer_Protection_and_Safety] : [duplicate of 117]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (16877 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Temas/Empleo.shtml?toggleTo=en_Education_Jobs_and_Volunteerism] : [duplicate of 115]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (17320 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Temas/Ciencia.shtml?toggleTo=en_Science_and_Technology] : [duplicate of 110]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (17636 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Site_Index/M.shtml] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (19459 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/shopping/realestate/realestate.shtml] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (21479 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Citizen/Topics/Internet_Fraud.shtml] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (25683 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Citizen/Defense/Citizenship.shtml?toggleTo=es_Inmigraci%3fn_y_Ciudadan%3fa_%28Immigration_and_Citizenship%29] : [duplicate of 991]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (25874 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Citizen/Topics/Consumer_Safety.shtml?toggleTo=es_Proteccion_al_Consumidor_%28Consumer_Protection%29] : [duplicate of 42]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (26000 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Citizen/Topics/Travel.shtml?toggleTo=es_Viajes_Turismo_y_Recreaci%3fn_%28Travel_Tourism_and_Recreation%29] : [duplicate of 52]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (26106 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/visitors/visit.shtml] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (27111 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/feedback/EmailFriendForm.jsp?lts=http%3a%2f%2fwww.firstgov.gov%2fAbout%2fFirstGov_Logos.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (27931 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Government/State_Local/Services.shtml?toggleTo=es_Servicios_por_Internet_Page] : [duplicate of 1480]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (27968 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/About_Us_English.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (29568 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Topics/Ninos.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (32685 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/G.shtml?toggleTo=en_AZ_Index_of_Agencies%3a_G] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (37687 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/feedback/EmailFriendForm.jsp?lts=http%3a%2f%2fwww.firstgov.gov%2fAbout%2fAmericans_Minds.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (38560 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Topics/Reference_Shelf/Libraries/RSS_Library/Science.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (41263 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Temas/Inmigracion.shtml?toggleTo=en_Immigration_and_Citizenship_] : [duplicate of 116]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (41856 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Temas/Educacion.shtml?toggleTo=en_Education_and_Training_] : [duplicate of 114]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (42923 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Temas/Desastres.shtml?toggleTo=en_Disasters_and_Emergencies] : [duplicate of 112]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (47128 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/feedback/EmailFriendForm.jsp?lts=http%3a%2f%2fwww.firstgov.gov%2fCitizen%2fServices%2fEnvironment.shtml] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (47494 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/feedback/EmailFriendForm.jsp?lts=http%3a%2f%2fwww.firstgov.gov%2fCitizen%2fServices%2fScience.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (50979 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/B.shtml] : [duplicate of 2090]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (51550 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/E.shtml] : [duplicate of 2112]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (51813 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/F.shtml] : [duplicate of 2184]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (51841 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/feedback/EmailFriendForm.jsp?lts=http%3a%2f%2fwww.firstgov.gov%2fTopics%2fPast_Features%2f2000.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (52454 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/feedback/EmailFriendForm.jsp?lts=http%3a%2f%2fwww.firstgov.gov%2fTopics%2fIndependence_Day.shtml] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (52464 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/R.shtml] : [duplicate of 2407]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (52678 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/T.shtml] : [duplicate of 2461]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (52685 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/P.shtml] : [duplicate of 2421]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (52845 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/U.shtml] : [duplicate of 2495]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (53458 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/veteransinfo_letter.pdf] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (53552 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/feedback/EmailFriendForm.jsp?lts=http%3a%2f%2fwww.firstgov.gov%2fTopics%2fSeniors%2fLaws.shtml] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (54156 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/C.shtml] : [duplicate of 2135]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (55169 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Temas/Servicios.shtml?toggleTo=en_Online_Services] : [duplicate of 104]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (55271 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/J.shtml] : [duplicate of 2263]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (57689 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/Recursos_Salud.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (59633 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/feedback/EmailFriendForm.jsp?lts=http%3a%2f%2fwww.firstgov.gov%2fGovernment%2fState_Local%2fEconomic_Dev.shtml] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (61181 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/Valores.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (64562 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Espanol/Agencias/Representantes.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (66724 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/dotgovbuzz] : [duplicate of 723]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (70763 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/shopping/realestate/federalbystate/Includes/New_York_VA.html] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (73688 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/usability/accessibility/common_access.shtml] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (75049 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/managing_content/organizing/common_content/faq_pages.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (78710 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Federal_Employees/FG_Buzz/Newsletter_1105.html] : [duplicate of 7490]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (78736 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/Federal_Employees/FG_Buzz/Newsletter_0805.html] : [duplicate of 7491]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (83388 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/long.pdf] : [duplicate of 8199]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (85455 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/improving/marketing/awards/bios_of_judges.shtml] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (85933 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/September2005dc/Trefzger.ppt] : [Operation timed out with 888567 out of 921600 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (87454 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/FSIS_Styleguide.pdf] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (88499 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/spanish_guide/health_care_terms.shtml] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (89805 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/resources/training/university/seminars/spring2007/socialmedia.shtml] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (94022 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/improving/evaluating/personas/english_hank.pdf] : [Operation timed out with 1516495 out of 43689087 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (94111 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/improving/evaluating/personas/english_sue.pdf] : [Operation timed out with 1474848 out of 34967277 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (94143 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/improving/evaluating/personas/english_zig.pdf] : [Operation timed out with 542767 out of 41345152 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (94189 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/improving/evaluating/personas/english_ken.pdf] : [Operation timed out with 1280951 out of 38354252 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (94621 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/improving/evaluating/personas/spanish_english_natalia.pdf] : [Operation timed out with 995143 out of 33423769 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (94908 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/September2005dc/ginapearson.ppt] : [Operation timed out with 977895 out of 2215936 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (97157 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/improving/marketing/awards/specialized_audience/finalist5.shtml] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (99301 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/Fall%20Conf.v3CD.ppt] : [Operation timed out with 788359 out of 2601984 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (100046 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/WebMetricspanelSept2006.ppt] : [Operation timed out with 1412519 out of 1523200 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (100095 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/WebmetricsPresentation.ppt] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (101660 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/resources/training/university/seminars/intro_to_cms.shtml] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (104476 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/audience_lifeline.doc] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (104740 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/design_loc.doc] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (105584 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/audience_tricare.doc] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (106406 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/September2005dc/bevgodwin.ppt] : [Operation timed out with 1331705 out of 1488384 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (106489 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/September2005dc/LeeRainie.ppt] : [Operation timed out with 945903 out of 2867712 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (106832 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/September2005dc/janetstevens1.ppt] : [Operation timed out with 974087 out of 3153408 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (107163 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/September2005dc/kitfuller.ppt] : [Operation timed out with 1515175 out of 2412032 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (107485 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/September2005dc/danahallman.ppt] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (109899 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/September2005dc/BarbaraGoodno.ppt] : [Operation timed out with 1033198 out of 10749952 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (110295 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/September2005dc/MaryLevy.ppt] : [Operation timed out with 1112271 out of 17811456 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (111454 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/September2005dc/phyllispreston.ppt] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (111638 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/September2005dc/kimtaylor.ppt] : [Operation timed out with 734287 out of 906240 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (112165 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/September2005dc/NancyAllard.ppt] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (112595 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/September2005dc/patboyd.ppt] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (114459 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/Candi%20Harrison%20Denver%20Presentation.ppt] : [Operation timed out]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (114922 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/JaniceNallpresent.ppt] : [Operation timed out with 1362794 out of 4708352 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (115235 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/Best%20Practices.pdf] : [Operation timed out with 869303 out of 2202518 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (117068 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/OMB%20policies%20-%20Denver%202.ppt] : [Operation timed out with 1363911 out of 1469440 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (117292 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/usability_denver.ppt] : [Operation timed out with 1438794 out of 3902464 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (117346 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/OMB%20policies%20-%20Denver%202.pdf] : [Operation timed out with 639497 out of 1452655 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (117387 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/usability_denver.pdf] : [Operation timed out with 1152199 out of 3052319 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (120580 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/www.militaryhomefront.dod.mil] : [HTTP error 404]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (120621 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/www.fbi.gov] : [HTTP error 404]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (120926 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/www.epa.gov/newsroom] : [HTTP error 404]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (122514 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/usability.pdf] : [Operation timed out with 1528279 out of 2193819 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (122515 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/epa_governance.ppt] : [connect() timed out!]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (122532 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/usability.ppt] : [Operation timed out with 1014503 out of 3886080 bytes received]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (123758 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/www.defenselink.mil/ra] : [HTTP error 404]  (ID: CRAWLER_CRAWL_ERROR)
+
+error (123778 ms) - An error occurred attempting to crawl [http://www.firstgov.gov/webcontent/documents/webmetrics.pdf] : [Operation timed out with 773527 out of 1341813 bytes received]  (ID: CRAWLER_CRAWL_ERROR)

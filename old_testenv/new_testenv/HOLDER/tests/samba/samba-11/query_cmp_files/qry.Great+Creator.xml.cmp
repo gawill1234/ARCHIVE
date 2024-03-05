@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="1" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="2" />
+<attribute name="cache-hits-content-retrieval" value="0" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="14" />
+<attribute name="cache-misses-text" value="6" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document
+  url="file://///testbed2.test.vivisimo.com/exported/samba_test_data/samba-3/doc/weird_names/%25iroquois.txt"
+  vse-key="smb://testbed2.test.vivisimo.com:80/exported/samba_test_data/samba-3/doc/weird_names/%iroquois.txt/"
+  status="complete" vse-base-score="1.94732" conversion-time="50"
+  la-score="3.29584"
+>
+  <cache
+    url="smb://testbed2.test.vivisimo.com/exported/samba_test_data/samba-3/doc/weird_names/%25iroquois.txt"
+    ct="text/plain" acl="+everyone" u="0"
+  />
+  <content name="last-modified" action="none" weight="-1" u="1">Feb 21,
+  2007 21:18:29</content>
+  <content name="crawled-date" action="none" weight="-1" u="3">Mar 20,
+  2007 20:07:24</content>
+  <content name="language" weight="0" action="none" u="5">english</content>
+  <content action="none" name="url" weight="1" u="12617">file://///testbed2.test.vivisimo.com/exported/samba_test_data/samba-3/doc/weird_names/%iroquois.txt</content>
+  <content action="none" name="host" weight="1" u="12634"></content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content type="text" name="snippet" u="7" v="12616" />
+      <pre u="940" v="959">Sun, the mighty warrior, to the moon, to 
+the messengers of the Creator who reveal his wishes and to the 
+</pre>
+      <match u="960" v="961">Great Creator </match>
+      <post u="962" v="981">who dwells in the heavens above, who gives all 
+the things useful to men, and who is the source and </post>
+    </solution>
+    <solution rank="1" score="1">
+      <content type="text" name="snippet" u="7" v="12616" />
+      <pre u="3201" v="3220">and words.  They shall say:
+
+     "Hearken, that peace may continue unto future days!
+     "Always listen to the words of the </pre>
+      <match u="3221" v="3222">Great Creator, </match>
+      <post u="3223" v="3242">for he 
+has spoken.
+     "United people, let not evil find lodging in your minds.
+     "For the Great Creator has spoken </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content type="text" name="snippet" u="7" v="12616" />
+      <pre u="3219" v="3238">of the Great Creator, for he 
+has spoken.
+     "United people, let not evil find lodging in your minds.
+     "For the </pre>
+      <match u="3239" v="3240">Great Creator </match>
+      <post u="3241" v="3260">has spoken and the cause of Peace 
+shall not become old.
+     "The cause of peace shall not die if you </post>
+    </solution>
+    <solution rank="3" score="1">
+      <content type="text" name="snippet" u="7" v="12616" />
+      <pre u="3243" v="3262">and the cause of Peace 
+shall not become old.
+     "The cause of peace shall not die if you remember the 
+</pre>
+      <match u="3263" v="3264">Great Creator."
+
+     </match>
+      <post u="3265" v="3284">Every Confederate Lord shall speak words such as these to 
+promote peace.
+
+27.  All Lords of the Five Nations Confederacy </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content type="text" name="snippet" u="7" v="12616" />
+      <pre u="8702" v="8721">own and occupy and none other may hold 
+it.  The same law has been held from the oldest times.
+     The </pre>
+      <match u="8722" v="8723">Great Creator </match>
+      <post u="8724" v="8743">has made us of the one blood and of the 
+same soil he made us and as only different tongues </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... Creator who reveal his wishes and to the 
+Great Creator who dwells in the heavens above, who gives  ... days!
+     "Always listen to the words of the Great Creator, for he 
+has spoken.
+     "United people, let not  ... </content>
+</document>
+</scope>

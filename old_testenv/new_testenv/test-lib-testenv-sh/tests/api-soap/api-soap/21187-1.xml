@@ -1,0 +1,13 @@
+﻿<macro internal="7.x" products="all" name="test" max-elt-id="8">
+  <add-parse-uri>
+    <attribute name="parser">
+      <value-of name="URL_PARSE_PARSER" />
+    </attribute>
+    <attribute name="max-size">
+      <value-of name="URL_PARSE_MAX_SIZE" />
+    </attribute>
+    <attribute name="per">
+      <value-of name="URL_PARSE_PER" />
+    </attribute>
+  </add-parse-uri>
+</macro>

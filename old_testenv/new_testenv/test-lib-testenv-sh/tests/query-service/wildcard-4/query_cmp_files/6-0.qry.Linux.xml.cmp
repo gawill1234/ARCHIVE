@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="6" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="3" />
+<attribute name="total-results-with-duplicates" value="6" />
+<document filetypes="pdf " vse-base-score="4.40625"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba-1/doc/SuSE-Linux-Userguide-9.2.pdf/"
+  vertex="36"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba-1/doc/SuSE-Linux-Userguide-9.2.pdf"
+  ct="text/html" la-score="2.63906"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">4413406</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="28"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="language" weight="0" action="none" u="30">english</content>
+  <content name="title" output-action="bold" weight="3" u="32">SUSE LINUX</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <pre u="33" v="33">SUSE </pre>
+      <content name="title" output-action="bold" weight="3" u="32" v="34" />
+      <match u="34" v="34">LINUX</match>
+      <post u="36" v="54"><![CDATA[   <a/><div> <div> <span>SUSE LINUX</span> </div><div> <span>USER</span> </div><div> <span>GUIDE</span> </div></div><a/><div> <div> <span>10. Edition 2004</span> </div><div> <span>Copyright ©</span> </div><div> <span>This publication is intellectual property of Novell Inc.</span> </div><div> <span>Its contents can ]]></post>
+    </solution>
+    <solution rank="1" score="1.5">
+      <pre u="1310" v="1329"><![CDATA[168</span> </div><div> <span>14.2.2</span> </div><div> <span>Fax Operation . . . . . . . . . . . . . . . . . . . . . . . . . . . 169</span> </div><div> <span>14.2.3</span> </div><div> <span>Operation of the Answering Machine . . . . . . . . . . . . . 171</span> </div><div> <span>x</span> </div><div> <span>Contents</span> </div></div><a/><div> <div> <span><b>IV</b></span> </div><div> <span><b>Multimedia</b></span> </div><div> <span><b>173</b></span> </div><div> <span><b>15 Sound in ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="77299"
+      />
+      <match u="1330" v="1330"><![CDATA[Linux</b></span> </div><div> <span><b>]]></match>
+      <post u="1331" v="1350"><![CDATA[175</b></span> </div><div> <span>15.1</span> </div><div> <span>The ALSA PCM Types . . . . . . . . . . . . . . . . . . . . . . . . . . 176</span> </div><div> <span>15.2</span> </div><div> <span>Mixers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 176</span> </div><div> <span>15.2.1</span> </div><div> <span>gamix . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 177</span> </div><div> <span>15.2.2</span> </div><div> <span>qamix . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 177</span> </div><div> <span>15.2.3</span> </div><div> <span>KMix . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 178</span> </div><div> <span>15.2.4</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="2" score="1.5">
+      <pre u="1697" v="1716"><![CDATA[218</span> </div><div> <span>17.4</span> </div><div> <span>Copying a CD . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 219</span> </div><div> <span>17.5</span> </div><div> <span>Writing ISO Images . . . . . . . . . . . . . . . . . . . . . . . . . . . . 220</span> </div><div> <span>17.6</span> </div><div> <span>For More Information . . . . . . . . . . . . . . . . . . . . . . . . . . . 220</span> </div><div> <span><b>18 Digital Cameras and ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="77299"
+      />
+      <match u="1717" v="1717"><![CDATA[Linux</b></span> </div><div> <span><b>]]></match>
+      <post u="1718" v="1737"><![CDATA[221</b></span> </div><div> <span>18.1</span> </div><div> <span>Connecting to the Camera . . . . . . . . . . . . . . . . . . . . . . . . 222</span> </div><div> <span>18.2</span> </div><div> <span>Installating the Programs . . . . . . . . . . . . . . . . . . . . . . . . . 222</span> </div><div> <span>18.3</span> </div><div> <span>Using Konqueror . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 222</span> </div><div> <span>18.4</span> </div><div> <span>Using gtKam . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 223</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="3" score="1.5">
+      <pre u="2072" v="2091"><![CDATA[and the Wrists . . . . . . . . . . . . . . . . . . 289</span> </div><div> <span>22.2.4</span> </div><div> <span>The Mouse . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 290</span> </div><div> <span>22.3</span> </div><div> <span>Links and Literature . . . . . . . . . . . . . . . . . . . . . . . . . . . . 291</span> </div><div> <span><b>A Help and Documentation</b></span> </div><div> <span><b>293</b></span> </div><div> <span><b>B SUSE ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="77299"
+      />
+      <match u="2092" v="2092">LINUX </match>
+      <post u="2093" v="2112"><![CDATA[FAQ</b></span> </div><div> <span><b>297</b></span> </div><div> <span>xv</span> </div><div> <span>SUSE LINUX</span> </div></div><a/><div> </div><a/><div> <div> <span>Welcome</span> </div><div> <span>Congratulations for selecting SUSE LINUX. A few clicks are all that is needed to<br/>]]></post>
+    </solution>
+    <solution rank="4" score="1.5">
+      <pre u="61472" v="61491"><![CDATA[various documentation ﬁles</span> </div><div> <span><b>/usr/share/man</b></span> </div><div> <span>system manual pages (man pages)</span> </div><div> <span><b>/usr/src</b></span> </div><div> <span>source code of system software</span> </div><div> <span><b>/usr/src/]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="77299"
+      />
+      <match u="61492" v="61492"><![CDATA[linux</b></span> </div><div> <span>]]></match>
+      <post u="61493" v="61512"><![CDATA[kernel source code</span> </div><div> <span><b>/tmp</b></span> </div><div> <span><b>,</b></span> </div><div> <span><b>/var/tmp</b></span> </div><div> <span>temporary ﬁles</span> </div><div> <span><b>/usr</b></span> </div><div> <span>all application programs</span> </div><div> <span><b>/var</b></span> </div><div> <span>conﬁguration ﬁles (e.g., those linked from</span> </div><div> <span>/]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... x</span> </div><div> <span>Contents</span> </div></div><a/><div> <div> <span><b>IV</b></span> </div><div> <span><b>Multimedia</b></span> </div><div> <span><b>173</b></span> </div><div> <span><b>15 Sound in Linux</b></span> </div><div> <span><b>175</b></span> </div><div> <span>15.1</span> </div><div> <span>The ALSA PCM Types . . . . . . . . . . . . . . . . . . . . . . . . . . 176</span> </div><div> <span>15.2</span> </div><div> <span> ... For More Information . . . . . . . . . . . . . . . . . . . . . . . . . . . 220</span> </div><div> <span><b>18 Digital Cameras and Linux</b></span> </div><div> <span><b>221</b></span> </div><div> <span>18.1</span> </div><div> <span>Connecting to the Camera . . . . . . . . . . . . . . . . . . . . . . . . 222</span> </div><div> <span>18.2</span> </div><div> <span> ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="4.40625"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba-1/doc/SuSE-Linux-Adminguide-9.2.pdf/"
+  vertex="24"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba-1/doc/SuSE-Linux-Adminguide-9.2.pdf"
+  ct="text/html" la-score="2.63906"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">6935191</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="28"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="language" weight="0" action="none" u="30">english</content>
+  <content name="title" output-action="bold" weight="3" u="32">SUSE LINUX</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="3">
+      <pre u="33" v="33">SUSE </pre>
+      <content name="title" output-action="bold" weight="3" u="32" v="34" />
+      <match u="34" v="34">LINUX</match>
+      <post u="36" v="54"><![CDATA[   <a/><div> <div> <span>SUSE LINUX</span> </div><div> <span>ADMINISTRATION</span> </div><div> <span>GUIDE</span> </div></div><a/><div> <div> <span>10. Edition 2004</span> </div><div> <span>Copyright ©</span> </div><div> <span>This publication is intellectual property of Novell Inc.</span> </div><div> <span>Its contents can ]]></post>
+    </solution>
+    <solution rank="1" score="1.5">
+      <pre u="1365" v="1384"><![CDATA[Kernel . . . . . . . . . . . . . . . . . . . . . . . . . . . 211</span> </div><div> <span>8.7</span> </div><div> <span>Installing the Kernel . . . . . . . . . . . . . . . . . . . . . . . . . . . . 212</span> </div><div> <span>8.8</span> </div><div> <span>Cleaning Your Hard Disk after Compilation . . . . . . . . . . . . . . 213</span> </div><div> <span><b>9</b></span> </div><div> <span><b>Special Features of SUSE ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="193386"
+      />
+      <match u="1385" v="1385"><![CDATA[LINUX</b></span> </div><div> <span><b>]]></match>
+      <post u="1386" v="1405"><![CDATA[215</b></span> </div><div> <span>9.1</span> </div><div> <span>Hints for Special Software Packages . . . . . . . . . . . . . . . . . . . 216<br/>9.1.1</span> </div><div> <span>The Package bash and /etc/proﬁle . . . . . . . . . . . . . . . 216</span> </div><div> <span>9.1.2</span> </div><div> <span>The cron Package . . . . . . . . . . . . . . . . . . . . . . . . . ]]></post>
+    </solution>
+    <solution rank="2" score="1.5">
+      <pre u="1461" v="1480"><![CDATA[and Country-Speciﬁc Settings . . . . . . . . . . . . . . . . 225<br/>9.4.1</span> </div><div> <span>Some Examples . . . . . . . . . . . . . . . . . . . . . . . . . . 226</span> </div><div> <span>9.4.2</span> </div><div> <span>Settings for Language Support . . . . . . . . . . . . . . . . . 227</span> </div><div> <span>x</span> </div><div> <span>Contents</span> </div></div><a/><div> <div> <span><b>10 The SUSE ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="193386"
+      />
+      <match u="1481" v="1481">LINUX </match>
+      <post u="1482" v="1501"><![CDATA[Boot Concept</b></span> </div><div> <span><b>229</b></span> </div><div> <span>10.1</span> </div><div> <span>Booting with the Initial RAM Disk . . . . . . . . . . . . . . . . . . . . 230<br/>10.1.1</span> </div><div> <span>Concept of the Initial RAM Disk . . . . . . . . . . . . . . . . 230</span> </div><div> <span>10.1.2</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="3" score="1.5">
+      <pre u="1779" v="1798"><![CDATA[12.6.8</span> </div><div> <span>Defective Print Jobs and Data Transfer Errors . . . . . . . . . 282</span> </div><div> <span>12.6.9</span> </div><div> <span>Debugging the CUPS Print System . . . . . . . . . . . . . . . 282</span> </div><div> <span><b>13 Mobile Computing with ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="193386"
+      />
+      <match u="1799" v="1799"><![CDATA[Linux</b></span> </div><div> <span><b>]]></match>
+      <post u="1800" v="1819"><![CDATA[285</b></span> </div><div> <span>13.1</span> </div><div> <span>Laptops . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 286<br/>13.1.1</span> </div><div> <span>Special Properties of Laptop Hardware . . . . . . . . . . . . 286</span> </div><div> <span>13.1.2</span> </div><div> <span>Power Conservation . . . . . . . . . . . . . . . . . . . . . . . 286</span> </div><div> <span>13.1.3</span> </div><div> <span>Integration in Changing Operating ]]></post>
+    </solution>
+    <solution rank="4" score="1.5">
+      <pre u="2236" v="2255"><![CDATA[371</span> </div><div> <span>19.4</span> </div><div> <span>Key Selection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 372</span> </div><div> <span>19.5</span> </div><div> <span>Consistent Names for Mass Storage Devices . . . . . . . . . . . . . . 373</span> </div><div> <span>xv</span> </div><div> <span>SUSE LINUX</span> </div></div><a/><div> <div> <span><b>20 File Systems in ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="193386"
+      />
+      <match u="2256" v="2256"><![CDATA[Linux</b></span> </div><div> <span><b>]]></match>
+      <post u="2257" v="2276"><![CDATA[375</b></span> </div><div> <span>20.1</span> </div><div> <span>Terminology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 376</span> </div><div> <span>20.2</span> </div><div> <span>Major File Systems in Linux . . . . . . . . . . . . . . . . . . . . . . . 376</span> </div><div> <span>20.2.1</span> </div><div> <span>Ext2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 377</span> </div><div> <span>20.2.2</span> </div><div> <span>Ext3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 378</span> </div><div> <span>20.2.3</span> </div><div> <span>Converting an ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... after Compilation . . . . . . . . . . . . . . 213</span> </div><div> <span><b>9</b></span> </div><div> <span><b>Special Features of SUSE LINUX</b></span> </div><div> <span><b>215</b></span> </div><div> <span>9.1</span> </div><div> <span>Hints for Special Software Packages . . . . . . . . . . . . . . . . . . . 216<br/> ... Language Support . . . . . . . . . . . . . . . . . 227</span> </div><div> <span>x</span> </div><div> <span>Contents</span> </div></div><a/><div> <div> <span><b>10 The SUSE LINUX Boot Concept</b></span> </div><div> <span><b>229</b></span> </div><div> <span>10.1</span> </div><div> <span>Booting with the Initial  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="2.90625"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba-1/doc/oracle10g-quick-install-linux.pdf/"
+  vertex="38"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba-1/doc/oracle10g-quick-install-linux.pdf"
+  ct="text/html" la-score="2.63906"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">372211</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="28"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="language" weight="0" action="none" u="30">english</content>
+  <content name="title" output-action="bold" weight="3" u="32">Oracle® Database</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.5">
+      <pre u="1958" v="1977"><![CDATA[14</b></span> </div><div> <span>Oracle Database Quick Installation Guide</span> </div><div> <span>■</span> </div><div> <span>The system must be running the following (or later) kernel<br/>version:</span> </div><div> <span><b>–</b></span> </div><div> <span><b>Red Hat Enterprise ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="6332"
+      />
+      <match u="1978" v="1978">Linux </match>
+      <post u="1979" v="1998"><![CDATA[3.0</b></span> </div><div> <span>2.4.21-27.EL</span> </div><div> <span><b>–</b></span> </div><div> <span><b>Red Hat Enterprise Linux 4.0</b></span> </div><div> <span>2.6.9-11.EL</span> </div><div> <span><b>–</b></span> </div><div> <span><b>SUSE Linux Enterprise Server 9.0</b></span> </div><div> <span>2.6.5-7.201</span> </div><div> <span>■</span> </div><div> <span>The ]]></post>
+    </solution>
+    <solution rank="1" score="1.5">
+      <pre u="1966" v="1985"><![CDATA[must be running the following (or later) kernel<br/>version:</span> </div><div> <span><b>–</b></span> </div><div> <span><b>Red Hat Enterprise Linux 3.0</b></span> </div><div> <span>2.4.21-27.EL</span> </div><div> <span><b>–</b></span> </div><div> <span><b>Red Hat Enterprise ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="6332"
+      />
+      <match u="1986" v="1986">Linux </match>
+      <post u="1987" v="2006"><![CDATA[4.0</b></span> </div><div> <span>2.6.9-11.EL</span> </div><div> <span><b>–</b></span> </div><div> <span><b>SUSE Linux Enterprise Server 9.0</b></span> </div><div> <span>2.6.5-7.201</span> </div><div> <span>■</span> </div><div> <span>The following packages (or later versions) must be installed:</span> </div><div> <span><b>–</b></span> </div><div> <span><b>]]></post>
+    </solution>
+    <solution rank="2" score="1.5">
+      <pre u="1972" v="1991"><![CDATA[later) kernel<br/>version:</span> </div><div> <span><b>–</b></span> </div><div> <span><b>Red Hat Enterprise Linux 3.0</b></span> </div><div> <span>2.4.21-27.EL</span> </div><div> <span><b>–</b></span> </div><div> <span><b>Red Hat Enterprise Linux 4.0</b></span> </div><div> <span>2.6.9-11.EL</span> </div><div> <span><b>–</b></span> </div><div> <span><b>SUSE ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="6332"
+      />
+      <match u="1992" v="1992">Linux </match>
+      <post u="1993" v="2012"><![CDATA[Enterprise Server 9.0</b></span> </div><div> <span>2.6.5-7.201</span> </div><div> <span>■</span> </div><div> <span>The following packages (or later versions) must be installed:</span> </div><div> <span><b>–</b></span> </div><div> <span><b>Red Hat Enterprise Linux 3.0:</b></span> </div><div> <span>make-]]></post>
+    </solution>
+    <solution rank="3" score="1.5">
+      <pre u="1990" v="2009"><![CDATA[EL</span> </div><div> <span><b>–</b></span> </div><div> <span><b>SUSE Linux Enterprise Server 9.0</b></span> </div><div> <span>2.6.5-7.201</span> </div><div> <span>■</span> </div><div> <span>The following packages (or later versions) must be installed:</span> </div><div> <span><b>–</b></span> </div><div> <span><b>Red Hat Enterprise ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="6332"
+      />
+      <match u="2010" v="2010">Linux </match>
+      <post u="2011" v="2030"><![CDATA[3.0:</b></span> </div><div> <span>make-3.79.1-17</span> </div><div> <span>compat-db 4.0.14-5.1</span> </div><div> <span>control-center-2.2.0.1-13</span> </div><div> <span>gcc-3.2.3-47</span> </div><div> <span>gcc-c++-3.2.3-47</span> </div><div> <span>gdb-]]></post>
+    </solution>
+    <solution rank="4" score="1.5">
+      <pre u="2097" v="2116"><![CDATA[5.0.5-5.rhel3</span> </div><div> <span>setarch-1.3-1</span> </div><div> <span>libaio-0.3.96-3</span> </div><div> <span>libaio-devel-0.3.96-3</span> </div><div> <span><b>–</b></span> </div><div> <span><b>Red Hat Enterprise ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="35"
+        v="6332"
+      />
+      <match u="2117" v="2117">Linux </match>
+      <post u="2118" v="2137"><![CDATA[4.0:</b></span> </div><div> <span>binutils-2.15.92.0.2-10.EL4</span> </div><div> <span>compat-db-4.1.25-9</span> </div><div> <span>control-center-2.8.0-12</span> </div><div> <span>gcc-3.4.3-9.EL4</span> </div><div> <span>gcc-c++-3.4.3-]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... following (or later) kernel<br/>version:</span> </div><div> <span><b>–</b></span> </div><div> <span><b>Red Hat Enterprise Linux 3.0</b></span> </div><div> <span>2.4.21-27.EL</span> </div><div> <span><b>–</b></span> </div><div> <span><b>Red Hat Enterprise Linux 4.0</b></span> </div><div> <span>2.6.9-11.EL</span> </div><div> <span><b>–</b></span> </div><div> <span><b>SUSE Linux Enterprise Server 9.0</b></span> </div><div> <span>2.6.5-7.201</span> </div><div> <span>■</span> </div><div> <span>The following packages ( ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="2.90625"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba-1/doc/edaoob.pdf/"
+  vertex="16"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba-1/doc/edaoob.pdf"
+  ct="text/html" la-score="2.63906"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">2497149</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="25"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="language" weight="0" action="none" u="27">english</content>
+  <content name="title" output-action="bold" weight="3" u="29">Easysoft Data Access</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1.5">
+      <pre u="749" v="768"><![CDATA[Client for Mac OS X Installer Welcome</b><br/><b>Screen. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96</b></span> </div></div><a/><div> <div> <span><b>LIST OF FIGURES</b><br/> Easysoft ODBC-ODBCBridge </span> </div><div> <span><b>8</b></span> </div><div> <span><b>Figure 29: Linking a ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="33"
+        v="51292"
+      />
+      <match u="769" v="769">Linux </match>
+      <post u="770" v="789">client to an NT server . . . . . . . . . . . . . . . . . . . . . . . . . . 104&lt;/b>&lt;br/>&lt;b>Figure 30: The Easysoft ODBC-ODBC Bridge Server Logon dialog box. . . . . . . . 108&lt;/b>&lt;br/>&lt;b>Figure 31: </post>
+    </solution>
+    <solution rank="1" score="1.5">
+      <pre u="1003" v="1022">Select Data Source dialog box Machine Data Source tab . . . . . . . 158&lt;/b>&lt;br/>&lt;b>Figure 49: The demo.exe program. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160&lt;/b>&lt;br/>&lt;b>Figure 50: A </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="33"
+        v="51292"
+      />
+      <match u="1023" v="1023">Linux </match>
+      <post u="1024" v="1043">client connected to an NT server. . . . . . . . . . . . . . . . . . . . . . . . 167&lt;/b>&lt;br/>&lt;b>Figure 51: A blank Easysoft ODBC-ODBC Bridge DSN dialog box . . . . . . . . . . . . 169&lt;/b>&lt;br/>&lt;b>Figure </post>
+    </solution>
+    <solution rank="2" score="1.5">
+      <pre u="1803" v="1822"><![CDATA[when using a particular feature.</span> </div><div> <span><b>REF</b></span> </div><div> <span>For more manuals that use this convention, see the rest of<br/>the Easysoft documentation.</span> </div><div> <span><b>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="33"
+        v="51292"
+      />
+      <match u="1823" v="1823"><![CDATA[Linux</b></span> </div><div> <span>]]></match>
+      <post u="1824" v="1843"><![CDATA[In Linux you must log on as the</span> </div><div> <span>root</span> </div><div> <span>user in order to make many</span> </div><div> <span>important changes.</span> </div><div> <span><b>Caution!</b></span> </div><div> <span>Be sure ]]></post>
+    </solution>
+    <solution rank="3" score="1.5">
+      <pre u="17500" v="17519"><![CDATA[ODBC Bridge driver, so that the<br/>application on this machine can access the database on</span> </div><div> <span>ntbox</span> </div><div> <span>.</span> </div><div> <span><b>Figure 29: Linking a ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="33"
+        v="51292"
+      />
+      <match u="17520" v="17520">Linux </match>
+      <post u="17521" v="17540"><![CDATA[client to an NT server</b></span> </div><div> <span>On the</span> </div><div> <span>ntbox</span> </div><div> <span>server machine the data source description for the</span> </div><div> <span>Microsoft Access database might ]]></post>
+    </solution>
+    <solution rank="4" score="1.5">
+      <pre u="27042" v="27061"><![CDATA[local machine.</span> </div></div><a/><div> <div> <span><b>167</b></span> </div><div> <span><b>C O N N E C T I O N</b></span> </div><div> <span> Easysoft ODBC-ODBC Bridge </span> </div><div> <span><b>Figure 50: A ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="33"
+        v="51292"
+      />
+      <match u="27062" v="27062">Linux </match>
+      <post u="27063" v="27082"><![CDATA[client connected to an NT server</b></span> </div><div> <span>The Linux box</span> </div><div> <span>odbc.ini</span> </div><div> <span>file would contain a section of the format:</span> </div><div> <span>[localdsn]</span> </div><div> <span>]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Easysoft ODBC-ODBCBridge </span> </div><div> <span><b>8</b></span> </div><div> <span><b>Figure 29: Linking a Linux client to an NT server . . . . . . . . . . . . . . . . . . . . . . . . . . 104</b><br/><b>Figure 30:  ... The demo.exe program. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160</b><br/><b>Figure 50: A Linux client connected to an NT server. . . . . . . . . . . . . . . . . . . . . . . . 167</b><br/><b>Figure  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1.9375"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba-1/doc/Worldwide_Content_Access_Tools_Search_and_Retrieval_2005-2009_Forecast_and_2004_Vendor_Shares_IDC_.pdf/"
+  vertex="51"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba-1/doc/Worldwide_Content_Access_Tools_Search_and_Retrieval_2005-2009_Forecast_and_2004_Vendor_Shares_IDC_.pdf"
+  ct="text/html" la-score="2.63906"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">208199</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067665"
+    u="39"
+  >Feb 21,
+  2007 14:21:05 GMT</content>
+  <content name="language" weight="0" action="none" u="41">english</content>
+  <content name="title" output-action="bold" weight="3" u="43">MARKET ANALYSIS Worldwide Content Access Tools (Search and Retrieval) 2005–2009 Forecast and 2004 Vendor Shares</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="3577" v="3596"><![CDATA[26.67</span> </div><div> <span>Total</span> </div><div> <span>759.8</span> </div><div> <span>956.4</span> </div><div> <span>1,194.3</span> </div><div> <span>1,475.9</span> </div><div> <span>1,657.2</span> </div><div> <span>1,784.4</span> </div><div> <span><b>Operating environment</b></span> </div><div> <span>Mainframe</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>OS/400</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>Unix</span> </div><div> <span>342.6</span> </div><div> <span>411.0</span> </div><div> <span>486.1</span> </div><div> <span>563.8</span> </div><div> <span>587.6</span> </div><div> <span>582.3</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="6540"
+      />
+      <match u="3597" v="3597">Linux/</match>
+      <post u="3598" v="3617"><![CDATA[other open source</span> </div><div> <span>64.7</span> </div><div> <span>98.2</span> </div><div> <span>147.3</span> </div><div> <span>220.3</span> </div><div> <span>295.9</span> </div><div> <span>378.4</span> </div><div> <span>Other host/server</span> </div><div> <span>33.8</span> </div><div> <span>40.9</span> </div><div> <span>48.8</span> </div><div> <span>57.1</span> </div><div> <span>60.1</span> </div><div> <span>60.2</span> </div><div> <span>Windows 32 ]]></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="4220" v="4239"><![CDATA[of 2004.</span> </div><div> <span>↑</span> </div><div> <span>$$$$$</span> </div><div> <span><b>Technology/service</b><br/><b>developments</b></span> </div><div> <span>Software complexity </span> </div><div> <span>Complexity will increase.</span> </div><div> <span><b>High.</b> The complexity crisis will<br/>require new investment to<br/>cope.</span> </div><div> <span>↑</span> </div><div> <span>$$$$$</span> </div><div> <span>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="6540"
+      />
+      <match u="4240" v="4240"><![CDATA[Linux</span> </div><div> <span>]]></match>
+      <post u="4241" v="4260">Open source will gain share at&lt;br/>the low end of the market.&lt;br/>However, in the midmarket,&lt;br/>prospects that intend to </post>
+    </solution>
+    <solution rank="2" score="1">
+      <pre u="4281" v="4300">downward impact on price&lt;br/>pressures, but it will drive some&lt;br/>new spending in proprietary&lt;br/>software to manage and&lt;br/>interoperate with </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="6540"
+      />
+      <match u="4301" v="4301">Linux </match>
+      <post u="4302" v="4321"><![CDATA[OSS.</span> </div><div> <span>↓</span> </div><div> <span>$$$%%</span> </div><div> <span>Mobility</span> </div><div> <span>The need for more devices with<br/>useful applications will<br/>continue.</span> </div><div> <span><b>High.</b> This need will begin to<br/>affect the ]]></post>
+    </solution>
+    <solution rank="3" score="1">
+      <pre u="5064" v="5083">access&lt;br/>implementations. Servers and&lt;br/>storage purchased for Y2K are&lt;br/>nearing the end of useful life.&lt;br/>There will be incursions of&lt;br/></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="6540"
+      />
+      <match u="5084" v="5084">Linux </match>
+      <post u="5085" v="5104"><![CDATA[into the migrating<br/>RISC/Unix base. Converged<br/>devices with creative content<br/>and interfaces will drive high<br/>growth in niches.</span> </div><div> <span>↑</span> </div><div> <span>$$$$%</span> </div><div> <span>Services</span> </div><div> <span>]]></post>
+    </solution>
+    <solution rank="4" score="1">
+      <pre u="5505" v="5524">engines are&lt;br/>moving toward a standards-based environment, although Windows implementations&lt;br/>are still popular. We see growth of J2EE and </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="60"
+        v="6540"
+      />
+      <match u="5525" v="5525">Linux </match>
+      <post u="5526" v="5545"><![CDATA[as platforms. Most vendors are<br/>moving toward a service oriented architecture that is XML enabled.  </span> </div></div><a/><div> <div> <span>©2005 IDC</span> </div><div> <span>#33102</span> </div><div> <span>17</span> </div><div> <span><b>FIGURE ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... 400</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>–</span> </div><div> <span>Unix</span> </div><div> <span>342.6</span> </div><div> <span>411.0</span> </div><div> <span>486.1</span> </div><div> <span>563.8</span> </div><div> <span>587.6</span> </div><div> <span>582.3</span> </div><div> <span>Linux/other open source</span> </div><div> <span>64.7</span> </div><div> <span>98.2</span> </div><div> <span>147.3</span> </div><div> <span>220.3</span> </div><div> <span>295.9</span> </div><div> <span> ... complexity crisis will<br/>require new investment to<br/>cope.</span> </div><div> <span>↑</span> </div><div> <span>$$$$$</span> </div><div> <span>Linux</span> </div><div> <span>Open source will gain share at<br/>the low  ... ]]></content>
+</document>
+<document filetypes="pdf " vse-base-score="1.5"
+  vse-key="smb://VIV_SAMBA_LINUX_SERVER:80/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba-1/doc/An Introduction to Heritrix.pdf/"
+  vertex="41"
+  url="file://///VIV_SAMBA_LINUX_SERVER/VIV_SAMBA_LINUX_SHARE/samba_test_data/samba-1/doc/An%20Introduction%20to%20Heritrix.pdf"
+  ct="text/html" la-score="2.63906"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">273245</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="28"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="language" weight="0" action="none" u="30">english</content>
+  <content name="title" output-action="bold" weight="3" u="32">An Introduction to Heritrix An open source archival quality web crawler Abstract</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="3273" v="3292">RFC 2617 (BASIC and DIGEST&lt;br/>Authentication) and HTML form-based login authentication systems.&lt;br/>Written in portable Java, so works under </pre>
+      <content name="snippet" weight="1" output-action="summarize" u="45"
+        v="4683"
+      />
+      <match u="3293" v="3293">Linux, </match>
+      <post u="3294" v="3313">Windows, Macintosh OS X, and other&lt;br/>systems.&lt;br/>All source code available under an open source license (Library/Lesser Gnu Public&lt;br/></post>
+    </solution>
+    <solution rank="1" score="1">
+      <pre u="3376" v="3395"><![CDATA[multiple machines.</span> </div><div> <span>•  Requires sophisticated operator tuning to run large crawls within machine</span> </div><div> <span>resource limits.</span> </div><div> <span>•  Only officially supported and tested on ]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="45"
+        v="4683"
+      />
+      <match u="3396" v="3396"><![CDATA[Linux<br/>•  ]]></match>
+      <post u="3397" v="3416">Each crawl run is independent, without support for scheduled revisits to areas of&lt;/span> &lt;/div>&lt;div> &lt;span>interest or incremental archival of changed material.&lt;/span> &lt;/div>&lt;div> &lt;span>•  </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"> ... systems.&lt;br/>Written in portable Java, so works under Linux, Windows, Macintosh OS X, and other&lt;br/>systems.&lt;br/>All  ... resource limits.&lt;/span> &lt;/div>&lt;div> &lt;span>•  Only officially supported and tested on Linux&lt;br/>•  Each crawl run is independent, without support for  ... </content>
+</document>
+</scope>

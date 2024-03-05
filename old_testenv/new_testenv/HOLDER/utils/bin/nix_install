@@ -1,0 +1,136 @@
+#!/bin/bash
+
+target=$1
+installer=$2			# Needs to be a valid path on the target.
+installRoot=$3
+apacheGroup=$4
+apacheUser=$5
+embedded=$6
+
+function cmd {
+    echo $(date +%T) "$@"
+    ${SSH:-ssh} root@$target "$@"
+}
+
+# Use my knowledge of target machines to figure out OS and bits.
+ostype=linux64
+if  [ $target ==  testbed7.test.vivisimo.com ] || \
+    [ $target == testbed12.test.vivisimo.com ]; then
+    ostype=sun
+elif [ $target == testbed10.test.vivisimo.com ]; then
+    ostype=linux32
+fi
+
+# If there is an existing installation, stop and remove it.
+retry=0
+while cmd ls "$installRoot" > /dev/null 2>&1; do
+    if [ $retry -gt 0 ]; then
+	sleep $retry
+	echo "Retry number $retry :"
+    fi
+
+    # Don't specifically worry about these commands failing.
+    cmd "$installRoot/bin/velocity-shutdown" --force --yes
+    cmd rm -rf "$installRoot"
+
+    retry=$(($retry+1))
+done
+
+# Starting with 8.0-beta1-build17, "--user" is required.
+# Prior to that build, "--user" is illegal. Nice!
+# Now that 8.0 is out the door, this is a simpler 7.0/7.5 check.
+if echo $installer | grep 'velocity-7\.[05]-'; then
+    userGroup="--group $apacheGroup"
+else
+    userGroup="--user $apacheUser --group $apacheGroup"
+    add_db2_driver=true
+fi
+
+cmd rm -rf '/var/tmp/vivisimo-velocity-*'
+iter=0
+
+tar=/bin/tar
+# Special case (different 'tar') for SUN/Solaris machines:
+if  [ $ostype == sun ]; then
+    tar=/usr/sfw/bin/gtar
+fi
+
+while ! cmd cd /var/tmp ';' $tar xzf $installer ; do
+    iter=$(($iter+1))
+    if [ $iter -gt 100 ]; then
+	echo "Couldn't unpack installer in $iter tries. Punt."
+	exit 3
+    fi
+    sleep $iter
+done
+
+cmd cd '/var/tmp/vivisimo-velocity-*' ';' ./install.sh \
+    --install-dir "$installRoot" \
+    --virtual-dir /vivisimo \
+    $userGroup		|| exit
+cmd rm -rf '/var/tmp/vivisimo-velocity-*'
+
+cmd chgrp $apacheGroup $installRoot/vivisimo.conf
+cmd chmod g+w          $installRoot/vivisimo.conf
+
+if ! cmd cp -p /testenv/gronk.$ostype $installRoot/www/cgi-bin/gronk; then
+    echo "Adding 'gronk' to the installation failed. Continuing ..."
+else
+    cmd chown $apacheUser:$apacheGroup $installRoot/www/cgi-bin/gronk
+    cmd chmod ug+s $installRoot/www/cgi-bin/gronk
+    cmd chmod 777 $installRoot/lib/java
+fi
+
+if [ "$add_db2_driver" ]; then
+    if ! cmd cp -p /testenv/lib/db2/*.jar $installRoot/lib/java; then
+	echo "Adding DB2 JDBC driver to the installation failed. Continuing ..."
+    fi
+fi
+
+function enable_dump() {
+    if cmd touch "$installRoot/data/$1.fatal-error.enable-dump" ; then
+	echo "Enabled $1 dump."
+    else
+	echo "Enabling $1 dump failed. Continuing ..."
+    fi
+}
+
+enable_dump collection-broker
+enable_dump collection-service-dispatch
+enable_dump query-service
+
+if [ "$embedded" ]; then
+    base=$target:9080
+    cmd $installRoot/bin/velocity-config webserver/is-enabled=True
+    cmd $installRoot/bin/velocity-webserver start
+else
+    base=$target
+fi
+
+echo $(date +%T) "Copying license key, ISYS license and default users file"
+cmd cp /testenv/tools/key $installRoot/data/static/.
+cmd chown $apacheUser:$apacheGroup $installRoot/data/static/key
+cmd cp /testenv/tools/ISYS-license $installRoot/data/.
+cmd chown $apacheUser:$apacheGroup $installRoot/data/ISYS-license
+cmd cp /testenv/tools/users.xml $installRoot/data/.
+cmd chown $apacheUser:$apacheGroup $installRoot/data/users.xml
+
+echo $(date +%T) "Installation complete; initializing configuration files (a.k.a. bootstrap"
+bootstrap="http://$base/vivisimo/cgi-bin/admin?id=bootstrap.check&force-unpack=true"
+if ! curl --silent --show-error $bootstrap | grep 'Initialize Configuration Files'; then
+    echo $(date +%T) "'Setup failed! Retry, noisy:"
+    curl $bootstrap
+fi
+
+echo $(date +%T) 'Attempting to import additional users"'
+cookie_jar=/tmp/cookie_jar_$$.txt
+rm -f $cookie_jar
+curl --cookie-jar $cookie_jar --silent --show-error "http://$base/vivisimo/cgi-bin/admin?id=login.logged&username=data-explorer-admin&password=TH1nk1710" | grep '^  [VY]'
+curl --cookie $cookie_jar --silent --show-error "http://$base/vivisimo/cgi-bin/admin?id=users.add&project=query-meta&per=10&start=0&action=Import&import.url=file%3A%2F%2F%2Ftestenv%2Ftools%2Fusersadd.xml" | grep added | sed -e 's/<[^>]*>/ /g' -e 's/  */ /g'
+rm -f $cookie_jar
+
+echo $(date +%T) "Attempting to start the query service."
+curl --silent "http://$base/vivisimo/cgi-bin/velocity?v.app=api-rest&v.function=search-service-start&v.password=mustang5&v.username=gary_testing"
+echo
+
+echo $(date +%T) "All done."

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="2" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="18" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="cache-hits-content-search" value="1" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="0" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="4" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="6" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="2" />
+<document vse-key="document://1:80/" vse-base-score="1" url="document://1/"
+  la-score="0.1"
+>
+  <content name="title" u="1">document1</content>
+  <content name="title" u="3">document1middle</content>
+  <content action="none" name="url" weight="1" u="5">document://1/</content>
+  <content action="none" name="host" weight="1" u="8">1</content>
+  <content name="title" u="10">document1last</content>
+  <content name="title" u="12">document2</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="1" v="2" />
+      <pre u="4294967278" v="1"></pre>
+      <match u="2" v="2">document1</match>
+      <post u="3" v="2"></post>
+    </solution>
+  </content>
+</document>
+<document vse-key="document://2:80/" vse-base-score="1" url="document://1/"
+  la-score="0.1"
+>
+  <content name="title" u="1">document1</content>
+  <content name="title" u="3">document2</content>
+  <content action="none" name="url" weight="1" u="5">document://1/</content>
+  <content action="none" name="host" weight="1" u="8">1</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="1" v="2" />
+      <pre u="2" v="1"></pre>
+      <match u="2" v="2">document1</match>
+      <post u="3" v="2"></post>
+    </solution>
+  </content>
+</document>
+</scope>

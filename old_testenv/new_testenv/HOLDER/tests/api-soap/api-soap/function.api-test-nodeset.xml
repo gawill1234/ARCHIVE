@@ -1,0 +1,8 @@
+<function name="api-test-nodeset" type="public-api">
+  <prototype>
+    <declare name="value" type="nodeset" required="required" />
+    <returns type="nodeset" />
+  </prototype>
+
+  <copy-of select="$value" />
+</function>

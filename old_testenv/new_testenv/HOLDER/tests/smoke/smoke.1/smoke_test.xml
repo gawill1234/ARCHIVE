@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><vse-collection id="RN0ASwZO1QQM" elt-id="2185" max-elt-id="2185">
+<vse-meta name="smoke_test" creator="gary_testing" create-time="1155926248" elt-id="2" max-elt-id="2">
+  <vse-meta-info name="maintainers" elt-id="1"><![CDATA[
+             gary_testing
+          ]]></vse-meta-info>
+</vse-meta>
+
+<vse-run elt-id="2169">
+  
+  
+<vse-remote-service /><crawler /><vse-index /></vse-run>
+<vse-config elt-id="2035" max-elt-id="2526">
+  <crawler elt-id="2298"><call-function name="vse-crawler-seed-smb" elt-id="2520"><with name="host" elt-id="2521"><![CDATA[testbed5.test.vivisimo.com]]></with><with name="shares" elt-id="2522"><![CDATA[/testfiles/doc]]></with><with name="username" elt-id="2523"><![CDATA[gaw]]></with><with name="password" elt-id="2524"><![CDATA[{vcrypt}TMWiymi8UsQ9QvtqWkxuhw==]]></with></call-function><call-function name="vse-crawler-seed-urls" elt-id="2514"><with name="urls" elt-id="2515"><![CDATA[http://vivisimo.com/]]></with><with name="how" elt-id="2516"><![CDATA[domain]]></with><with name="hops" elt-id="2517"><![CDATA[2]]></with></call-function><call-function name="vse-crawler-seed-sharepoint" elt-id="2510"><with name="site-urls" elt-id="2511"><![CDATA[http://testbed3-2]]></with><with name="username" elt-id="2512"><![CDATA[Administrator]]></with><with name="password" elt-id="2513"><![CDATA[{vcrypt}TMWiymi8UsQ9QvtqWkxuhw==]]></with></call-function><call-function name="vse-crawler-seed-lotus" elt-id="2502"><with name="username" elt-id="2503"><![CDATA[vivisimo]]></with><with name="password" elt-id="2504"><![CDATA[{vcrypt}Ri1j1jOhZhY9QvtqWkxuhw==]]></with><with name="host" elt-id="2505"><![CDATA[192.168.0.37]]></with><with name="database" elt-id="2506"><![CDATA[mail/vivisimo]]></with><with name="email-database" elt-id="2507"><![CDATA[email-database]]></with><with name="view" elt-id="2508"><![CDATA[test]]></with><with name="jar-dir" elt-id="2509"><![CDATA[/techies/gillin/lotusjars]]></with></call-function><call-function name="vse-crawler-seed-database-java" elt-id="2486"><with name="database-system" elt-id="2487"><![CDATA[sybase]]></with><with name="server" elt-id="2488"><![CDATA[testbed5-6.test.vivisimo.com]]></with><with name="database" elt-id="2489"><![CDATA[Does_Not_Exist]]></with><with name="username" elt-id="2490"><![CDATA[none]]></with><with name="password" elt-id="2491"><![CDATA[{vcrypt}j0ojWVI/dqE9QvtqWkxuhw==]]></with><with name="tables" elt-id="2492"><![CDATA[what_table]]></with></call-function><call-function name="vse-crawler-seed-database-java" elt-id="2478"><with name="database-system" elt-id="2479"><![CDATA[mysql]]></with><with name="server" elt-id="2480"><![CDATA[172.16.10.152]]></with><with name="port" elt-id="2481"><![CDATA[3306]]></with><with name="database" elt-id="2482"><![CDATA[WWII_Navy]]></with><with name="username" elt-id="2483"><![CDATA[gaw]]></with><with name="password" elt-id="2484"><![CDATA[{vcrypt}TMWiymi8UsQ9QvtqWkxuhw==]]></with><with name="tables" elt-id="2485"><![CDATA[table_does_not_exist]]></with></call-function><call-function name="vse-crawler-seed-files" elt-id="2476"><with name="files" elt-id="2477"><![CDATA[/home/testing/smoke_test/dirs_of_type/unreadable_content]]></with></call-function><call-function name="vse-crawler-seed-files" elt-id="2474"><with name="files" elt-id="2475"><![CDATA[/home/testing/smoke_test/dirs_of_type/unexecutable]]></with></call-function><call-function name="vse-crawler-seed-files" elt-id="2472"><with name="files" elt-id="2473"><![CDATA[/home/testing/smoke_test/dirs_of_type/unreadable]]></with></call-function><call-function name="vse-crawler-seed-files" elt-id="2470"><with name="files" elt-id="2471"><![CDATA[/home/testing/smoke_test/emptydir]]></with></call-function><call-function name="vse-crawler-seed-files" elt-id="2468"><with name="files" elt-id="2469"><![CDATA[/home/testing/smoke_test/searchdocs]]></with></call-function><call-function name="vse-crawler-seed-imap" elt-id="2442"><with name="username" elt-id="2443"><![CDATA[skilling-j]]></with><with name="password" elt-id="2444"><![CDATA[{vcrypt}Ctf3p48jE36OcjiBMfXaKA==]]></with><with name="host" elt-id="2445"><![CDATA[testbed1-1.test.vivisimo.com]]></with><with name="port" elt-id="2446"><![CDATA[993]]></with><with name="secure" elt-id="2447"><![CDATA[secure]]></with></call-function><call-function name="vse-crawler-seed-imap" elt-id="2437"><with name="username" elt-id="2438"><![CDATA[lay-k]]></with><with name="password" elt-id="2439"><![CDATA[{vcrypt}Ctf3p48jE36OcjiBMfXaKA==]]></with><with name="host" elt-id="2440"><![CDATA[testbed1-1.test.vivisimo.com]]></with><with name="port" elt-id="2448"><![CDATA[993]]></with><with name="secure" elt-id="2441"><![CDATA[secure]]></with></call-function><call-function name="vse-crawler-seed-database-java" elt-id="2385"><with name="database-system" elt-id="2386"><![CDATA[postgresql]]></with><with name="server" elt-id="2387"><![CDATA[172.16.10.151]]></with><with name="port" elt-id="2388"><![CDATA[5432]]></with><with name="database" elt-id="2389"><![CDATA[WWII_Navy]]></with><with name="username" elt-id="2390"><![CDATA[gaw]]></with><with name="password" elt-id="2391"><![CDATA[{vcrypt}TMWiymi8UsQ9QvtqWkxuhw==]]></with><with name="tables" elt-id="2392"><![CDATA[vessel_view]]></with></call-function><call-function name="vse-crawler-seed-database-java" elt-id="2370"><with name="database-system" elt-id="2371"><![CDATA[db2]]></with><with name="server" elt-id="2372"><![CDATA[172.16.10.153]]></with><with name="port" elt-id="2373"><![CDATA[50001]]></with><with name="database" elt-id="2374"><![CDATA[WWII_Nav]]></with><with name="username" elt-id="2375"><![CDATA[testdb]]></with><with name="password" elt-id="2376"><![CDATA[{vcrypt}TMWiymi8UsQ9QvtqWkxuhw==]]></with><with name="tables" elt-id="2377"><![CDATA[vessel_view]]></with></call-function>
+    <call-function name="vse-crawler-seed-database-java" elt-id="2301">
+      <with name="database-system" elt-id="2135"><![CDATA[oracle]]></with>
+      <with name="server" elt-id="2136"><![CDATA[172.16.10.150]]></with>
+      <with name="port" elt-id="2137"><![CDATA[1521]]></with>
+      <with name="database" elt-id="2138"><![CDATA[orcl]]></with>
+      <with name="username" elt-id="2139"><![CDATA[gaw]]></with>
+      <with name="password" elt-id="2140"><![CDATA[MOBCJJBHONDLHBCKJCBOFFPDODJFDCINJIIEAMCPNBMFCCPDHIEAFOMEGCEKPLMGABLCFKPLMGABMKPLMGABIMKMPBEGEMBNLAFCFKKBJMFLMK]]></with>
+      <with name="tables" elt-id="2141"><![CDATA[vessel_view]]></with>
+    </call-function>
+    <crawl-options elt-id="2037">
+      
+      <curl-option name="max-data-size" elt-id="2039"><![CDATA[20000000]]></curl-option>
+      <curl-option name="default-allow" elt-id="2040"><![CDATA[disallow]]></curl-option>
+      <curl-option name="error-expires" elt-id="2041"><![CDATA[604800]]></curl-option>
+      
+      <crawl-option name="n-fetch-threads" elt-id="2043"><![CDATA[50]]></crawl-option>
+      <curl-option name="user-agent" elt-id="2044"><![CDATA[VSE/1.0]]></curl-option>
+      <curl-option name="connect-timeout" elt-id="2045"><![CDATA[30]]></curl-option>
+      <curl-option name="timeout" elt-id="2046"><![CDATA[600]]></curl-option><curl-option name="enable-acl" elt-id="2450"><![CDATA[false]]></curl-option>
+      <crawl-option name="output-minimum-size" elt-id="2047"><![CDATA[1000000000]]></crawl-option>
+    </crawl-options>
+    <call-function name="vse-crawler-apache-directory-browsing" elt-id="2048" />
+    <call-function name="vse-crawler-binary-file-extensions" elt-id="2049" />
+    <call-function name="vse-crawler-bugzilla" elt-id="2050" />
+    <call-function name="vse-crawler-calendars-forums" elt-id="2051" />
+    <call-function name="vse-crawler-no-delay-for-files" elt-id="2052" />
+    <call-function name="vse-crawler-lotus-domino-site" elt-id="2053" />
+    <call-function name="vse-crawler-session-ids" elt-id="2054" />
+    <call-function name="vse-crawler-verity-query-service" elt-id="2055" />
+    <call-function name="vse-crawler-wiki" elt-id="2056" />
+  </crawler>
+  <vse-index elt-id="2193"><vse-index-option name="output-contents" elt-id="2525"><![CDATA[-last-modified -crawled-date]]></vse-index-option><vse-index-option name="summarize-contents" elt-id="2526"><![CDATA[snippet]]></vse-index-option>
+    
+    <vse-index-option name="stem" elt-id="2058"><![CDATA[depluralize]]></vse-index-option>
+    <vse-index-option name="stoplist" elt-id="2059"><![CDATA[none]]></vse-index-option>
+    <vse-index-option name="url-weight" elt-id="2060"><![CDATA[1.0]]></vse-index-option>
+    <vse-index-option name="host-weight" elt-id="2061"><![CDATA[1.0]]></vse-index-option>
+    <vse-index-option name="link-analysis-reps" elt-id="2062"><![CDATA[100]]></vse-index-option>
+    <vse-index-option name="summary-context-words" elt-id="2065"><![CDATA[16]]></vse-index-option>
+    <vse-index-option name="summary-bytes" elt-id="2066"><![CDATA[150]]></vse-index-option>
+    <vse-index-option name="max-content-size" elt-id="2067"><![CDATA[1000000]]></vse-index-option>
+    <vse-url-equivs name="vse-url-equivs" elt-id="2068"><vse-url-equiv old-prefix="smb://" new-prefix="file://///" elt-id="2315" /></vse-url-equivs>
+  </vse-index>
+  <converters elt-id="2070"><converter elt-id="2464" type-in="text/mailbox" type-out="application/vxml-unnormalized"><call-function name="vse-converter-mail-message" elt-id="2463"><with name="body-content-name" elt-id="2465"><![CDATA[snippet]]></with><with name="cache-parser" elt-id="2466"><![CDATA[vse-cache-parser-email]]></with></call-function></converter><converter elt-id="2378" type-in="application/vxml-db" type-out="application/vxml-unnormalized"><converter-test how="regex" what="url" elt-id="2381"><![CDATA[db2:]]></converter-test><parser type="html-xsl" elt-id="2382"><![CDATA[<xsl:template match="/">
+ <xsl:apply-templates select="." mode="copy" />
+</xsl:template>
+
+<xsl:template match="document" mode="copy">
+ <xsl:copy>
+   <xsl:apply-templates select="@*" mode="copy" />
+
+<xsl:attribute name="url">
+ <xsl:value-of select="content[@name='URL_LOCATER']" />
+</xsl:attribute>
+
+
+   <xsl:apply-templates select="*" mode="copy" />
+ </xsl:copy>
+</xsl:template>
+
+<!-- Specialty nodes go here -->
+<xsl:template match="content[@name='NAME']" mode="copy">
+<xsl:copy> 
+   <xsl:attribute name="name"><![CDATA[title]]]><![CDATA[]></xsl:attribute>
+   <xsl:attribute name="weight"><![CDATA[3]]]><![CDATA[]></xsl:attribute>
+   <xsl:attribute name="action"><![CDATA[cluster]]]><![CDATA[]></xsl:attribute>
+   <xsl:apply-templates select="@* | * | text() | comment()" mode="copy" />
+</xsl:copy>
+</xsl:template>
+
+<!-- End specialty nodes -->
+
+<xsl:template match="@* | text() | comment()" mode="copy">
+ <xsl:copy />
+</xsl:template>
+
+<!-- Default action, keep recursing and copying -->
+<xsl:template match="*" mode="copy">
+ <xsl:copy>
+   <xsl:apply-templates select="@* | * | text() | comment()" mode="copy" />
+ </xsl:copy>
+</xsl:template>
+
+]]></parser></converter><converter elt-id="2325" type-in="application/vxml-db" type-out="application/vxml-unnormalized"><converter-test how="regex" what="url" elt-id="2383"><![CDATA[postgresql:]]></converter-test><parser type="html-xsl" elt-id="2384"><![CDATA[<xsl:template match="/">
+ <xsl:apply-templates select="." mode="copy" />
+</xsl:template>
+
+<xsl:template match="document" mode="copy">
+ <xsl:copy>
+   <xsl:apply-templates select="@*" mode="copy" />
+
+
+
+<xsl:attribute name="url">
+ <xsl:value-of select="content[@name='url_locater']" />
+</xsl:attribute>
+
+
+   <xsl:apply-templates select="*" mode="copy" />
+ </xsl:copy>
+</xsl:template>
+
+<!-- Specialty nodes go here -->
+<xsl:template match="content[@name='name']" mode="copy">
+<xsl:copy> 
+   <xsl:attribute name="name"><![CDATA[title]]]><![CDATA[]></xsl:attribute>
+   <xsl:attribute name="weight"><![CDATA[3]]]><![CDATA[]></xsl:attribute>
+   <xsl:attribute name="action"><![CDATA[cluster]]]><![CDATA[]></xsl:attribute>
+   <xsl:apply-templates select="@* | * | text() | comment()" mode="copy" />
+</xsl:copy>
+</xsl:template>
+
+<!-- End specialty nodes -->
+
+<xsl:template match="@* | text() | comment()" mode="copy">
+ <xsl:copy />
+</xsl:template>
+
+<!-- Default action, keep recursing and copying -->
+<xsl:template match="*" mode="copy">
+ <xsl:copy>
+   <xsl:apply-templates select="@* | * | text() | comment()" mode="copy" />
+ </xsl:copy>
+</xsl:template>
+
+]]></parser></converter>
+    <call-function name="vse-converter-database" elt-id="2191">
+      <with name="title" elt-id="2180"><![CDATA[content[@name="NAME"]]]></with>
+      <with name="url" elt-id="2181"><![CDATA[content[@name="URL_LOCATER"]]]></with>
+      <with name="action" elt-id="2189"><![CDATA[viv:choose(@name='ship_type', 'cluster', none)]]></with>
+      <with name="output-action" elt-id="2190"><![CDATA[viv:choose(@name='ship_type', 'cluster', none)]]></with>
+    </call-function>
+    <converter type-in="unknown" type-out="dead" elt-id="2071">
+      <call-function name="vse-converter-binary-files-in-archives" elt-id="2072" />
+    </converter>
+    <converter type-in="unknown" program="%bin/guess-content %source_file" elt-id="2073" />
+    <converter type-in="application/ms-office" program="%bin/ms-guess %source_file" elt-id="2074" />
+    <converter type-in="unknown" type-out="text/plain" elt-id="2075">
+      <converter-test how="wc-set" what="path" elt-id="2076"><![CDATA[*.txt]]></converter-test>
+    </converter>
+    <call-function name="vse-converter-type-normalization" elt-id="2077" />
+    <call-function name="vse-converter-filetypes" elt-id="2078" />
+    <call-function name="vse-converter-email" elt-id="2079"><with name="body-content-name" elt-id="2462"><![CDATA[message]]></with>
+      <with name="cache-parser" elt-id="2080"><![CDATA[vse-cache-parser-email]]></with>
+    </call-function>
+    <call-function name="vse-converter-database" elt-id="2081" />
+    <converter type-in="application/documentum" type-out="application/vxml-unnormalized" elt-id="2082">
+      <call-function name="vse-converter-documentum-to-xml" elt-id="2083" />
+    </converter>
+    <converter type-out="application/vxml-unnormalized" type-in="application/lotus" elt-id="2084">
+      <call-function name="vse-converter-lotus-to-xml" elt-id="2085" />
+    </converter>
+    <call-function name="vse-converter-powerpoint" elt-id="2086" />
+    <call-function name="vse-converter-1-2-3" elt-id="2087" />
+    <converter type-in="application/sharepoint" type-out="application/vxml-unnormalized" elt-id="2088">
+      <call-function name="vse-converter-sharepoint-to-xml" elt-id="2089" />
+    </converter>
+    <converter type-in="application/word" type-out="text/html" elt-id="2090">
+      <call-function name="vse-converter-msword" elt-id="2091" />
+    </converter>
+    <converter type-in="application/excel" type-out="text/html" elt-id="2092">
+      <call-function name="vse-converter-excel" elt-id="2093" />
+    </converter>
+    <converter type-in="application/wordperfect" type-out="text/html" elt-id="2094">
+      <call-function name="vse-converter-wordperfect" elt-id="2095" />
+    </converter>
+    <converter type-in="application/openoffice" type-out="text/html" elt-id="2096">
+      <call-function name="vse-converter-openoffice" elt-id="2097" />
+    </converter>
+    <converter type-in="application/vnd.ms-project" type-out="application/vxml-unnormalized" elt-id="2098">
+      <call-function name="vse-converter-ms-project" elt-id="2099" />
+    </converter>
+    <converter type-in="application/ps" type-out="text/plain" elt-id="2100">
+      <call-function name="vse-converter-postscript" elt-id="2101" />
+    </converter>
+    <converter type-in="application/pdf" type-out="text/html" elt-id="2102">
+      <call-function name="vse-converter-pdf" elt-id="2103" />
+    </converter>
+    <converter type-in="application/rtf" type-out="text/html" elt-id="2104">
+      <call-function name="vse-converter-rtf" elt-id="2105" />
+    </converter>
+    <converter type-in="application/outlook-msg" type-out="vivisimo/crawl-data" elt-id="2106">
+      <call-function name="vse-converter-outlook-msg" elt-id="2107" />
+    </converter>
+    <converter type-in="application/flash" type-out="text/html" elt-id="2108">
+      <call-function name="vse-converter-flash" elt-id="2109" />
+    </converter>
+    <converter type-in="application/tar" type-out="unknown" elt-id="2110">
+      <call-function name="vse-converter-tar" elt-id="2111" />
+    </converter>
+    <converter type-in="application/x-gzip" type-out="unknown" elt-id="2112">
+      <call-function name="vse-converter-gunzip" elt-id="2113" />
+    </converter>
+    <converter type-in="application/zip" type-out="unknown" elt-id="2114">
+      <call-function name="vse-converter-unzip" elt-id="2115" />
+    </converter>
+    <converter type-in="application/x-compress" type-out="unknown" elt-id="2116">
+      <call-function name="vse-converter-uncompress" elt-id="2117" />
+    </converter>
+    <converter type-in="text/html" type-out="application/vxml-unnormalized" elt-id="2118">
+      <call-function name="vse-converter-html" elt-id="2119" />
+    </converter>
+    <converter type-in="text/plain" type-out="application/vxml-unnormalized" elt-id="2120">
+      <call-function name="vse-converter-text" elt-id="2121" />
+    </converter>
+    <converter type-in="unknown" type-out="application/dbf" elt-id="2122">
+      <converter-test how="wc-set" what="path" elt-id="2123"><![CDATA[*.dbf]]></converter-test>
+    </converter>
+    <converter type-in="application/dbf" type-out="text/csv" elt-id="2124">
+      <call-function name="vse-converter-dbf-to-csv" elt-id="2125" />
+    </converter>
+    <converter type-in="text/csv" type-out="application/vxml-unnormalized" elt-id="2126">
+      <call-function name="vse-converter-csv-to-vxml" elt-id="2127" />
+    </converter>
+    <converter type-in="text/xml" type-out="application/vxml-unnormalized" elt-id="2128">
+      <call-function name="vse-converter-xml-to-vxml" elt-id="2129" />
+    </converter>
+    <converter type-in="application/vxml-unnormalized" type-out="application/vxml-unnormalized" elt-id="2130">
+      <call-function name="vse-converter-normalize" elt-id="2131" />
+    </converter>
+    <converter type-in="application/vxml-unnormalized" type-out="application/vxml" elt-id="2132" />
+  </converters>
+</vse-config>
+</vse-collection>

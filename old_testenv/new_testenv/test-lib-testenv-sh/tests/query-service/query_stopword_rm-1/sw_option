@@ -1,0 +1,6 @@
+<options name="query-meta" no-override="no-override" elt-id="2" max-elt-id="6"
+  modified="1247497147" modified-by="gary_testing"
+>
+  <load-options name="core" elt-id="1" />
+  <set-var name="language.stopword-removal-enabled" elt-id="6">true</set-var>
+</options>   

@@ -1,0 +1,8 @@
+<function name="api-test-int" type="public-api">
+  <prototype>
+    <declare name="value" type="int" required="required" />
+    <returns type="int" />
+  </prototype>
+
+  <value-of-var name="value" />
+</function>

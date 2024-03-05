@@ -1,0 +1,3404 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML Transitional//EN"
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="xlhtml">
+<TITLE>/tmp/NorthCent_2006Bud.xls</TITLE>
+</HEAD>
+
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF"><br>
+<!-- starting sheet 0: 32 x 7 -->
+<CENTER><H1>Cashflow</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>Mkt &amp; LDP</TD>
+<TD>Direct</TD>
+<TD><B>Enter</B></TD>
+<TD>Revenue x</TD>
+<TD>Dir. Costs x</TD>
+<TD>Total</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD>CROP</TD>
+<TD>Revenue</TD>
+<TD>Costs</TD>
+<TD><B>Acres</B></TD>
+<TD>Acres</TD>
+<TD>Acres</TD>
+<TD>RODC</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">HRSW</TD>
+<TD>** 103.20</TD>
+<TD>** 74.08</TD>
+<TD><FONT COLOR="blue">800</FONT></TD>
+<TD>** 82,560</TD>
+<TD>** 59,264</TD>
+<TD>** 23,296</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Durum</TD>
+<TD>** 99.18</TD>
+<TD>** 74.54</TD>
+<TD><FONT COLOR="blue">0</FONT></TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Barley</TD>
+<TD>** 121.55</TD>
+<TD>** 73.90</TD>
+<TD><FONT COLOR="blue">400</FONT></TD>
+<TD>** 48,620</TD>
+<TD>** 29,560</TD>
+<TD>** 19,060</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Corn</TD>
+<TD>** 140.25</TD>
+<TD>** 117.35</TD>
+<TD><FONT COLOR="blue">0</FONT></TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Soybeans</TD>
+<TD>** 130.75</TD>
+<TD>** 71.86</TD>
+<TD><FONT COLOR="blue">0</FONT></TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Drybeans</TD>
+<TD>** 217.00</TD>
+<TD>** 117.39</TD>
+<TD><FONT COLOR="blue">0</FONT></TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Oil_SF</TD>
+<TD>** 152.32</TD>
+<TD>** 90.09</TD>
+<TD><FONT COLOR="blue">0</FONT></TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Conf. SF</TD>
+<TD>** 190.72</TD>
+<TD>** 107.86</TD>
+<TD><FONT COLOR="blue">200</FONT></TD>
+<TD>** 38,144</TD>
+<TD>** 21,572</TD>
+<TD>** 16,572</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Canola</TD>
+<TD>** 138.72</TD>
+<TD>** 109.75</TD>
+<TD><FONT COLOR="blue">0</FONT></TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Flax</TD>
+<TD>** 107.00</TD>
+<TD>** 61.71</TD>
+<TD><FONT COLOR="blue">400</FONT></TD>
+<TD>** 42,800</TD>
+<TD>** 24,684</TD>
+<TD>** 18,116</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Peas</TD>
+<TD>** 119.00</TD>
+<TD>** 71.06</TD>
+<TD><FONT COLOR="blue">400</FONT></TD>
+<TD>** 47,600</TD>
+<TD>** 28,424</TD>
+<TD>** 19,176</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Oats</TD>
+<TD>** 82.60</TD>
+<TD>** 64.06</TD>
+<TD><FONT COLOR="blue">0</FONT></TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Lentils</TD>
+<TD>** 140.40</TD>
+<TD>** 80.79</TD>
+<TD><FONT COLOR="blue">0</FONT></TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Mustard</TD>
+<TD>** 122.55</TD>
+<TD>** 61.35</TD>
+<TD><FONT COLOR="blue">0</FONT></TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Buckwht</TD>
+<TD>** 101.70</TD>
+<TD>** 44.63</TD>
+<TD><FONT COLOR="blue">0</FONT></TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Millet</TD>
+<TD>** 84.50</TD>
+<TD>** 39.29</TD>
+<TD><FONT COLOR="blue">0</FONT></TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Wint.Wht</TD>
+<TD>** 128.10</TD>
+<TD>** 75.36</TD>
+<TD><FONT COLOR="blue">0</FONT></TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Rye</TD>
+<TD>** 72.72</TD>
+<TD>** 64.46</TD>
+<TD><FONT COLOR="blue">0</FONT></TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>** 0</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Totals</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>** 2,200</TD>
+<TD>** 259,724</TD>
+<TD>** 163,504</TD>
+<TD>** 96,220</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="3"><B>CASHFLOW SUMMARY</B></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INFLOWS, Total for Farm</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>OUTFLOWS, Total for Farm</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market &amp; LDP Rev.</TD>
+<TD>&nbsp;</TD>
+<TD>** 259,724</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left">Direct Costs</TD>
+<TD>&nbsp;</TD>
+<TD>** 163504</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>Decoupled Gov't Pmts</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="right"><FONT COLOR="blue">23,800</FONT></TD>
+<TD>&lt;-enter</TD>
+<TD>Mach. Princ. &amp; Int. Pmts</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="right"><FONT COLOR="blue">28000</FONT></TD>
+<TD>&lt;-enter</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>Other Cash Inflow</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="right"><FONT COLOR="blue">0</FONT></TD>
+<TD>&lt;-enter</TD>
+<TD>Land Rent</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="right"><FONT COLOR="blue">75500</FONT></TD>
+<TD>&lt;-enter</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>Total</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="right">** 283,524</TD>
+<TD>&nbsp;</TD>
+<TD>Land Princ. &amp; Int. Pmts</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="right"><FONT COLOR="blue">0</FONT></TD>
+<TD>&lt;-enter</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>Land Taxes</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="right"><FONT COLOR="blue">0</FONT></TD>
+<TD>&lt;-enter</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>Other Cash Outflow</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="right"><FONT COLOR="blue">7000</FONT></TD>
+<TD>&lt;-enter</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="left">Total</TD>
+<TD>&nbsp;</TD>
+<TD>** 274004</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Est. cash available for family living, SE &amp; income taxes and investment</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>** 9520</TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD><FONT SIZE="2">&lt;select crops from menu below&gt;</FONT></TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 1: 33 x 6 -->
+<CENTER><H1>HRSW</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>HARD RED SPRING WHEAT</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price + LDP:</TD>
+<TD><FONT COLOR="blue">3.44</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 103.20</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">8.70</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">12.10</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">1.50</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">23.20</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">4.70</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">10.36</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">9.79</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">2.73</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 74.08</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">3.49</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">12.32</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">7.48</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 57.59</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 131.67</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** -28.47</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(bu) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>** 2.47</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>** 1.92</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>** 4.39</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 2: 33 x 6 -->
+<CENTER><H1>Durum</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>DURUM</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">29</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price + LDP:</TD>
+<TD><FONT COLOR="blue">3.42</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 99.18</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">12.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">12.10</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">1.50</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">21.95</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">3.10</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">10.33</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">9.78</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">2.78</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 74.54</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">3.47</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">12.29</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">7.46</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 57.52</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 132.06</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** -32.88</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(bu) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>** 2.57</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>** 1.98</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>** 4.55</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 3: 33 x 6 -->
+<CENTER><H1>Barley</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>BARLEY</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">55</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price + LDP:</TD>
+<TD><FONT COLOR="blue">2.21</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 121.55</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">6.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">10.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">1.25</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">28.08</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">2.70</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">11.21</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">10.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">2.76</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 73.90</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">3.85</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">13.27</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">8.01</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 59.43</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 133.33</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** -11.78</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(bu) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>** 1.34</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>** 1.08</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>** 2.42</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 4: 33 x 6 -->
+<CENTER><H1>Corn</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>CORN</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">75</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price + LDP:</TD>
+<TD><FONT COLOR="blue">1.87</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 140.25</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">31.46</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">7.75</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">32.90</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">15.84</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">13.89</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">10.13</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">4.38</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 117.35</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">5.17</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">20.31</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">12.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 71.78</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 189.13</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** -48.88</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(bu) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>** 1.56</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>** 0.96</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>** 2.52</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 5: 33 x 6 -->
+<CENTER><H1>Soyb</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>SOYBEANS</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">25</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price + LDP:</TD>
+<TD><FONT COLOR="blue">5.23</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 130.75</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">32.01</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">7.75</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">3.49</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">5.90</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">9.23</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">9.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.50</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">2.68</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 71.86</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">3.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">12.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">7.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 56.60</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 128.46</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** 2.29</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(bu) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>** 2.87</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>** 2.26</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>** 5.14</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 6: 33 x 6 -->
+<CENTER><H1>Drybean</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>DRYBEANS</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">1400</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price:</TD>
+<TD><FONT COLOR="blue">0.155</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 217.00</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">31.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">23.25</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">19.01</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">14.20</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">12.74</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">11.81</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">4.38</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 117.39</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">4.21</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">15.65</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">10.06</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 64.22</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 181.61</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** 35.39</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(lb) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>0.08385</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>0.0458714285714286</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>0.129721428571429</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 7: 33 x 6 -->
+<CENTER><H1>Oil_SF</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>OIL SUNFLOWER</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">1360</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price + LDP:</TD>
+<TD><FONT COLOR="blue">0.112</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 152.32</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">13.86</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">15.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">5.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">19.98</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">5.80</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">12.39</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">10.98</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">2.72</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">3.36</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 90.09</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">4.13</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">14.84</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">9.28</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 62.55</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 152.64</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** -0.32</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(lb) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>0.0662426470588235</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>0.0459926470588235</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>0.112235294117647</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 8: 33 x 6 -->
+<CENTER><H1>Conf_SF</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>CONFECTIONERY SUNFLOWERS</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">1280</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price + LDP:</TD>
+<TD><FONT COLOR="blue">0.149</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 190.72</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">19.80</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">15.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">11.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">17.97</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">8.50</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">12.32</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">10.94</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">2.56</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">5.75</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">4.02</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 107.86</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">4.10</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">14.77</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">9.25</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 62.42</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 170.28</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** 20.44</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(lb) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>0.084265625</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>0.048765625</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>0.13303125</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 9: 33 x 6 -->
+<CENTER><H1>Canola</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>CANOLA</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">1360</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price + LDP:</TD>
+<TD><FONT COLOR="blue">0.102</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 138.72</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">17.60</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">17.50</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">6.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">37.17</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">4.20</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">11.69</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">10.50</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">4.09</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 109.75</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">3.59</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">12.96</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">7.95</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 58.80</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 168.55</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** -29.83</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(lb) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>0.0806985294117647</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>0.0432352941176471</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>0.123933823529412</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 10: 33 x 6 -->
+<CENTER><H1>Flax</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>FLAX</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">20</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price + LDP:</TD>
+<TD><FONT COLOR="blue">5.35</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 107.00</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">6.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">17.08</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">11.55</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">5.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">9.07</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">9.11</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">2.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 61.71</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">3.16</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">11.46</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">6.65</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 55.57</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 117.28</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** -10.28</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(bu) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>** 3.09</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>** 2.78</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>** 5.86</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 11: 33 x 6 -->
+<CENTER><H1>Peas</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>FIELD PEAS</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">34</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price + LDP:</TD>
+<TD><FONT COLOR="blue">3.50</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 119.00</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">17.25</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">16.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">5.50</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">6.90</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">10.47</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">10.29</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">2.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">2.65</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 71.06</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">3.54</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">13.35</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">7.53</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 58.72</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 129.78</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** -10.78</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(bu) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>** 2.09</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>** 1.73</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>** 3.82</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 12: 33 x 6 -->
+<CENTER><H1>Oats</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>OATS</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">59</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price + LDP:</TD>
+<TD><FONT COLOR="blue">1.40</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 82.60</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">6.50</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">1.88</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">24.77</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">3.80</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">12.74</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">10.98</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">2.39</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 64.06</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">4.04</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">14.08</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">8.54</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 60.96</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 125.02</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** -42.42</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(bu) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>** 1.09</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>** 1.03</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>** 2.12</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 13: 33 x 6 -->
+<CENTER><H1>Lentil</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>LENTILS</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">1200</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price + LDP:</TD>
+<TD><FONT COLOR="blue">0.117</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 140.40</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">13.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">20.14</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">3.24</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">14.90</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">11.10</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">11.10</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">4.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">3.01</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 80.79</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">3.70</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">14.06</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">8.13</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 60.19</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 140.98</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** -0.58</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(lb) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>0.067325</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>0.0501583333333333</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>0.117483333333333</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 14: 33 x 6 -->
+<CENTER><H1>Mustard</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>YELLOW MUSTARD</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">950</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price + LDP:</TD>
+<TD><FONT COLOR="blue">0.129</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 122.55</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">7.80</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">5.95</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">6.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">17.98</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">10.64</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">9.69</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">2.29</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 61.35</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">3.28</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">11.94</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">7.15</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 56.67</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 118.02</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** 4.53</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(lb) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>0.0645789473684211</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>0.0596526315789474</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>0.124231578947368</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 15: 33 x 6 -->
+<CENTER><H1>Buckwht</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>BUCKWHEAT</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">900</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price:</TD>
+<TD><FONT COLOR="blue">0.113</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 101.70</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">14.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">7.50</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">10.73</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">9.73</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">1.67</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 44.63</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">3.32</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">12.03</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">7.19</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 56.84</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 101.47</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** 0.23</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(lb) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>0.0495888888888889</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>0.0631555555555555</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>0.112744444444444</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 16: 33 x 6 -->
+<CENTER><H1>Millet</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>MILLET</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">1300</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price:</TD>
+<TD><FONT COLOR="blue">0.065</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 84.50</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">4.25</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">1.50</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">8.84</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">11.72</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">10.51</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">1.47</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 39.29</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">3.63</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">13.10</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">8.05</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 59.08</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 98.37</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** -13.87</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(bu) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>0.0302230769230769</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>0.0454461538461538</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>0.0756692307692308</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 17: 33 x 6 -->
+<CENTER><H1>Wint.Wht</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>WINTER WHEAT</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">42</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price LDP:</TD>
+<TD><FONT COLOR="blue">3.05</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 128.10</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">4.75</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">5.38</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">38.16</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">3.50</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">10.24</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">9.42</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.10</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">2.81</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 75.36</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">3.44</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">12.08</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">6.98</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 56.80</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 132.16</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** -4.06</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(bu) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>** 1.79</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>** 1.35</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>** 3.15</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+<!-- starting sheet 18: 33 x 6 -->
+<CENTER><H1>Rye</H1></CENTER><br>
+<FONT FACE="Arial">
+<TABLE BORDER="1" CELLSPACING="2">
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left"><B>RYE</B></TD>
+<TD ALIGN="right">Per Acre</TD>
+<TD COLSPAN="5">Notes:</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Yield</TD>
+<TD><FONT COLOR="blue">36</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">  Market Price:</TD>
+<TD><FONT COLOR="blue">2.02</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">Market Revenue</TD>
+<TD>** 72.72</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>DIRECT COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Seed</TD>
+<TD><FONT COLOR="blue">4.80</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Herbicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fungicides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Insecticides</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fertilizer</TD>
+<TD><FONT COLOR="blue">30.68</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Crop Insurance</TD>
+<TD><FONT COLOR="blue">3.60</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Fuel &amp; Lubrication</TD>
+<TD><FONT COLOR="blue">11.78</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Repairs</TD>
+<TD><FONT COLOR="blue">10.20</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Drying</TD>
+<TD><FONT COLOR="blue">0.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Miscellaneous</TD>
+<TD><FONT COLOR="blue">1.00</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Operating Interest</TD>
+<TD><FONT COLOR="blue">2.40</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED DIRECT COSTS</TD>
+<TD>** 64.46</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR VALIGN="bottom">
+<TD>INDIRECT (FIXED) COSTS</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Misc. Overhead</TD>
+<TD><FONT COLOR="blue">3.62</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Depreciation</TD>
+<TD><FONT COLOR="blue">12.83</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Machinery Investment</TD>
+<TD><FONT COLOR="blue">7.75</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Land Charge</TD>
+<TD><FONT COLOR="blue">34.30</FONT></TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF LISTED INDIRECT COSTS</TD>
+<TD>** 58.50</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">SUM OF ALL LISTED COSTS</TD>
+<TD>** 122.96</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left">RETURN TO LABOR &amp; MGMT</TD>
+<TD>** -50.24</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR><TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="center" VALIGN="bottom">
+<TD ALIGN="left">LISTED COSTS PER BUDGET UNIT</TD>
+<TD>(bu) :</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Direct Costs</TD>
+<TD>** 1.79</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Indirect Costs</TD>
+<TD>** 1.62</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+<TR ALIGN="right" VALIGN="bottom">
+<TD ALIGN="left"> -Total Listed Costs</TD>
+<TD>** 3.42</TD>
+<TD COLSPAN="5">&nbsp;</TD>
+</TR>
+</TABLE></FONT><HR>
+</BODY></HTML>

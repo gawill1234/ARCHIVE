@@ -1,0 +1,586 @@
+<?xml version="1.0" ?>
+<vse-collection name="thai-1">
+<vse-meta/>
+<vse-config>
+<crawler>
+  <crawl-urls>
+    <crawl-url url="thai:///1" status="complete">
+      <crawl-data encoding="xml" content-type="text/xml">
+        <document>
+          <msgid>แอร์พอร์ตลิงค์เตรียมเปิดทดลองให้บริการฟรี 5 ธ ค นี้.msg</msgid>
+          <anum>0</anum>
+          <location>D:\CDCData\THA\แอร์พอร์ตลิงค์เตรียมเปิดทดลองให้บริการฟรี 5 ธ ค นี้.msg</location>
+          <created>2008-07-02T04:23:09</created>
+          <modified>2008-07-02T11:38:11</modified>
+          <size>0</size>
+          <dtyp>msg</dtyp>
+          <importance>1</importance>
+          <sensitivity>0</sensitivity>
+          <flags>2</flags>
+          <text>
+            <subj>แอร์พอร์ตลิงค์เตรียมเปิดทดลองให้บริการฟรี 5 ธ ค นี้</subj>
+            <cont><![CDATA[]]>&#160;<![CDATA[ทำเนียบรัฐบาล 3 มิ.ย.-นายถวัลรัฐ อ่อนศิระ ประธานกรรมการการรถไฟแห่งประเทศไทย (รฟท.) กล่าวว่า กระทรวงคมนาคมได้รายงานให้ที่ประชุมคณะรัฐมนตรีรับทราบความคืบหน้าการก่อ สร้างรถไฟฟ้าแอร์พอร์ตลิงค์ โดยขณะนี้การก่อสร้างคืบหน้าไปแล้วร่อยละ 98 คาดว่า ผู้รับเหมาจะส่งมอบงานได้ประมาณเดือนกันยายนนี้ จากนั้น จะให้บริษัท ผู้รับผิดชอบตรวจระบบความปลอดภัยทั้งหมด และเริ่มทดลองวิ่งให้บริการเหมือนจริง โดยคณะรัฐมนตรีกำชับให้ทดลองวิ่งเหมือนจริงให้ได้ในวันที่ 5 ธันวาคมนี้ ซึ่งจะเป็นการให้บริการฟรีประมาณ 1 เดือน ก่อนที่ต้นปีหน้า จะประเมินผลและเริ่มให้บริการอย่างเป็นทางการ โดยหลังจากคณะรัฐมนตรีรับทราบความคืบหน้าของโครงการแล้ว
+
+ช่วงบ่าย วันนี้ (3 มิ.ย.) จะมีการประชุมหน่วยงานที่เกี่ยวข้องและผู้ประกอบการที่รับผิดชอบเพื่อ ประเมินแผนก่อสร้างและกำชับให้เร่งดำเนินการ สำหรับการก่อสร้างส่วนที่เหลือ จะมีความสำคัญ เนื่องจากจะเกี่ยวข้องกับระบบรักษาความปลอดภัยในการเดินรถ จึงต้องให้ทุกฝ่ายให้ความสำคัญ.- สำนักข่าวไทยอัพเดตเมื่อ 2009-06-03 13:17:49
+
+ 
+
+]]></cont>
+          </text>
+          <name>
+            <auth>
+              <dn>Guadalupe Gee</dn>
+            </auth>
+            <recp>
+              <reto>
+                <dn>Guadalupe Gee</dn>
+              </reto>
+              <recc />
+              <rbcc />
+            </recp>
+          </name>
+          <natc>0</natc>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="thai:///2" status="complete">
+      <crawl-data encoding="xml" content-type="text/xml">
+        <document>
+          <msgid>ambition.msg</msgid>
+          <anum>0</anum>
+          <location>D:\CDCData\THA\ambition.msg</location>
+          <created>2009-06-04T07:57:00</created>
+          <modified>2009-06-04T07:57:23</modified>
+          <size>0</size>
+          <dtyp>msg</dtyp>
+          <importance>1</importance>
+          <sensitivity>0</sensitivity>
+          <flags>2</flags>
+          <text>
+            <subj>ambition</subj>
+            <cont>
+สธ.4 มิ.ย.- ก.สาธารณสุข เผยการฝังเข็มเป็นวิธีรักษาโรคที่กำลังได้รับความนิยมในปัจจุบัน และมีแนวโน้มเพิ่มขึ้น เร่งควบคุมมาตรฐานความปลอดภัยของการฝังเข็ม จัดอบรมหลักสูตรการฝังเข็มและกำหนดมาตรฐานสถานที่ให้บริการ องค์การอนามัยโลกรับรองว่าสามารถใช้รักษาโรคต่าง ๆ ได้ 28 กลุ่มอาการ ａｍｂｉｔｉｏｎ
+
+ 
+&#160;
+</cont>
+          </text>
+          <name>
+            <auth>
+              <dn>Vault Admin</dn>
+            </auth>
+            <recp>
+              <reto>
+                <dn>Guadalupe Gee</dn>
+              </reto>
+              <recc />
+              <rbcc />
+            </recp>
+          </name>
+          <natc>0</natc>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="thai:///3" status="complete">
+      <crawl-data encoding="xml" content-type="text/xml">
+        <document>
+          <msgid>พันธกิจของ Google คือการจัดระเบียบข้อมูลของโลกให้สามารถเข้าถึงได้และมีประโยชน์ต่อทุกคน.msg</msgid>
+          <anum>0</anum>
+          <location>D:\CDCData\THA\พันธกิจของ Google คือการจัดระเบียบข้อมูลของโลกให้สามารถเข้าถึงได้และมีประโยชน์ต่อทุกคน.msg</location>
+          <created>2008-07-02T04:27:24</created>
+          <modified>2008-07-02T11:38:12</modified>
+          <size>0</size>
+          <dtyp>msg</dtyp>
+          <importance>1</importance>
+          <sensitivity>0</sensitivity>
+          <flags>2</flags>
+          <text>
+            <subj>พันธกิจของ Google คือการจัดระเบียบข้อมูลของโลกให้สามารถเข้าถึงได้และมีประโยชน์ต่อทุกคน</subj>
+            <cont>สำหรับขั้นแรกในการปฏิบัติตามพันธกิจนี้ ผู้ก่อตั้ง Google คือ Larry Page และ Sergey Brin ได้พัฒนาแนวทางใหม่ในการค้นหาออนไลน์จากห้องพักใน Stanford University และแพร่หลายไปสู่ผู้แสวงหาข้อมูลทั่วโลกอย่างรวดเร็ว ปัจจุบัน Google ได้รับการยอมรับว่าเป็นเครื่องมือค้นหาที่ใหญ่ที่สุดในเว็บ เป็นบริการฟรีที่ใช้งานง่าย และมักจะให้ผลลัพธ์ที่เกี่ยวข้องในเวลาเพียงเสี้ยววินาที
+</cont>
+          </text>
+          <name>
+            <auth>
+              <dn>Zhi Ci Wu</dn>
+            </auth>
+            <recp>
+              <reto>
+                <dn>Zhi Ci Wu</dn>
+              </reto>
+              <recc />
+              <rbcc />
+            </recp>
+          </name>
+          <natc>0</natc>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="thai:///4" status="complete">
+      <crawl-data encoding="xml" content-type="text/xml">
+        <document>
+          <msgid>Google คืออะไร.msg</msgid>
+          <anum>0</anum>
+          <location>D:\CDCData\THA\Google คืออะไร.msg</location>
+          <created>2008-07-02T04:24:29</created>
+          <modified>2008-07-02T11:38:11</modified>
+          <size>0</size>
+          <dtyp>msg</dtyp>
+          <importance>1</importance>
+          <sensitivity>0</sensitivity>
+          <flags>2</flags>
+          <text>
+            <subj>Google คืออะไร</subj>
+            <cont>Googol เป็นศัพท์คณิตศาสตร์ หมายถึง 1 ตามด้วยศูนย์ 100 ตัว คำนี้บัญญัติขึ้นโดย Milton Sirotta หลานของนักคณิตศาสตร์ชาวอเมริกา Edward Kasner และได้รับการยอมรับในหนังสือ "Mathematics and the Imagination" โดย Kasner และ James Newman Google แปลงมาจากคำนี้ เพื่อสะท้อนถึงพันธกิจของบริษัทที่จะจัดระเบียบข้อมูลซึ่งสามารถใช้ได้บน เว็บที่มีปริมาณมหาศาลและดูเหมือนจะไม่มีที่สิ้นสุด
+</cont>
+          </text>
+          <name>
+            <auth>
+              <dn>Vault Admin</dn>
+            </auth>
+            <recp>
+              <reto>
+                <dn>Zhi Ci Wu</dn>
+              </reto>
+              <recc />
+              <rbcc />
+            </recp>
+          </name>
+          <natc>0</natc>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="thai:///5" status="complete">
+      <crawl-data encoding="xml" content-type="text/xml">
+        <document>
+          <msgid>google toolbar.msg</msgid>
+          <anum>0</anum>
+          <location>D:\CDCData\THA\google toolbar.msg</location>
+          <created>2008-07-02T04:27:56</created>
+          <modified>2008-07-02T11:38:11</modified>
+          <size>0</size>
+          <dtyp>msg</dtyp>
+          <importance>1</importance>
+          <sensitivity>0</sensitivity>
+          <flags>2</flags>
+          <text>
+            <subj>google toolbar</subj>
+            <cont><![CDATA[]]>&#160;<![CDATA[
+เมื่อคุณเข้าสู่ www.google.com หรือโดเมนอื่นๆ ของ Google คุณจะสามารถค้นหาข้อมูลในภาษาต่างๆ มากมาย ตรวจสอบราคาหุ้น แผนที่ และพาดหัวข่าว ค้นหารายชื่อในสมุดโทรศัพท์สำหรับทุกเมืองในสหรัฐอเมริกา ค้นหา รูปภาพ นับพันล้านรูป และพิจารณาคลังข้อความ Usenet ที่ใหญ่ที่สุดในโลก คือมากกว่า 1 พันล้านบทความนับตั้งแต่ปี 1981
+
+เรายังมีวิธีการเข้าถึงข้อมูลเหล่านี้ทั้งหมด โดยไม่ต้องเสียเวลาไปที่หน้าแรกของ Google Google Toolbar ช่วยให้คุณค้นหากับ Google จากที่ใดก็ได้ในเว็บ และสำหรับกรณีที่คุณไม่อยู่ใกล้คอมพิวเตอร์ คุณยังสามารถใช้ Google จากแพลตฟอร์มไร้สาย รวมถึงโทรศัพท์ WAP และ i-mode
+
+
+]]></cont>
+          </text>
+          <name>
+            <auth>
+              <dn>Vault Admin</dn>
+            </auth>
+            <recp>
+              <reto>
+                <dn>Zhi Ci Wu</dn>
+              </reto>
+              <recc />
+              <rbcc />
+            </recp>
+          </name>
+          <natc>0</natc>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="thai:///6" status="complete">
+      <crawl-data encoding="xml" content-type="text/xml">
+        <document>
+          <msgid>１-０.msg</msgid>
+          <anum>0</anum>
+          <location>D:\CDCData\THA\１-０.msg</location>
+          <created>2009-06-04T08:29:00</created>
+          <modified>2009-04-06T08:29:09</modified>
+          <size>0</size>
+          <dtyp>msg</dtyp>
+          <importance>1</importance>
+          <sensitivity>0</sensitivity>
+          <flags>0</flags>
+          <text>
+            <subj>１-０</subj>
+            <cont><![CDATA[อีกคู่ที่สนามการท่าเรือ คลองเตย การท่าเรือไทย เอฟซี อันดับ 6 เสื้อลายส้มน้ำเงิน พบกับ นครปฐม เอฟซี อันดับ 7 นาทีที่ 63 ไมเคิ่ล เบิร์น ยิงให้นครปฐม ขึ้นนำ 1 ประตูต่อ 0 แต่ท้ายเกม ท่าเรือ มาตามตีเสมอได้ จบเกม แบ่งกันไปทีมละ 1 แต้ม 
+
+วอลเลย์บอลหญิงชิงแชมป์สโมสรเอเชีย ที่โรงเรียนเทศบาล 5 จังหวัดนครปฐม รอบแรก นัดที่ 3 สายเอ ทีมเฟเดอร์บอยของไทย ชนะทีมสคิฟ จากอุซเบกิสถาน 3 เซตรวด 25 – 11 , 25 – 14 และ 25 – 9 เก็บชัยชนะ 3 นัดรวด พรุ่งนี้ไทย พบโซแบ็คซุจากเกาหลีเหนือ เวลา 16.00 น.-สำนักข่าวไทยอัพเดตเมื่อ ２００９-０６-０３ ２０: ０５:０２
+
+ 
+]]></cont>
+          </text>
+          <name>
+            <auth>
+              <dn>Vault Admin</dn>
+            </auth>
+            <recp>
+              <reto>
+                <dn>Guadalupe Gee</dn>
+              </reto>
+              <recc />
+              <rbcc />
+            </recp>
+          </name>
+          <natc>0</natc>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="thai:///7" status="complete">
+      <crawl-data encoding="xml" content-type="text/xml">
+        <document>
+          <msgid>ｎａｎｏ.msg</msgid>
+          <anum>0</anum>
+          <location>D:\CDCData\THA\ｎａｎｏ.msg</location>
+          <created>2008-07-02T04:23:16</created>
+          <modified>2008-07-02T11:38:23</modified>
+          <size>0</size>
+          <dtyp>msg</dtyp>
+          <importance>1</importance>
+          <sensitivity>0</sensitivity>
+          <flags>2</flags>
+          <text>
+            <subj>ｎａｎｏ</subj>
+            <cont><![CDATA[รมว.อุตฯ ชวนทาทา มอเตอร์ส ลงทุนรถขนาดเล็กในไทย
+
+มุม ไบ 4 มิ.ย.-นายชาญชัย ชัยรุ่งเรือง รัฐมนตรีว่าการกระทรวงอุตสาหกรรม และนางอรรชกา สีบุญเรือง บริมเบิล เลขาธิการสำนักงานคณะกรรมการส่งเสริมการลงทุน หรือบีโอไอ พร้อมเอกชน เดินทางมาชักจูงการลงทุน หรือโรดโชว์ ที่เมืองมุมไบ ประเทศอินเดีย ตามคำเชิญของนักลงทุนอินเดีย โดยได้มีการหารือกับนาย 
+
+rakash M Teleng กรรมการผู้จัดการ (Managing Director ) บริษัท ทาทา มอเตอร์ จำกัด เพื่อเชิญชวนให้บริษัท ทาทา มอเตอร์ส มาลงทุนตั้งฐานการผลิตรถยนต์เล็ก ขนาด 650 ซีซี ในประเทศไทย
+
+นายชาญชัย กล่าวว่า การเดินทางมาโรดโชว์ และหารือกับผู้บริหารบริษัท ทาทา มอเตอร์ส ในครั้งนี้ ได้มีโอกาสเยี่ยมชมกระบวนการผลิตรถยนต์แบบครบวงจร และเชิญชวนให้บริษัท ทาทา มอเตอร์ส ไปลงทุนตั้งโรงงานผลิตรถยนต์ขนาดเล็ก ขนาด 650 ซีซี ในประเทศไทย เพราะรถยนต์ขนาดดังกล่าว ทางบริษัท ทาทา มีการผลิตในประเทศอินเดีย แล้ว คือ รุ่นทาทานาโน ซึ่งเป็นที่นิยมมากในประเทศอินเดีย และจะจำหน่ายเชิงพาณิชย์ในเดือนกรกฎาคมนี้ เนื่องจากราคาจำหน่ายเพียง 80,000-150,000 บาท เท่านั้น ซึ่งหากสามารถผลิตในประเทศไทยได้ ก็จะเป็นการเพิ่มโอกาสให้คนไทยซื้อรถราคาถูก ซึ่งจากการทดลองขับด้วยตนเองก็พบว่า ประสิทธิภาพเป็นที่น่าพอใจ อย่างไรก็ตาม ในเบื้องต้นจะให้มีการนำเข้ารถยนต์ขนาดเล็กเข้ามาก่อน ซึ่งคาดว่าจะนำเข้ามาเร็ว ๆ นี้
+
+"รถทาทานาโน ประหยัดและน่าสนใจ จะชวนไปลงทุนที่ประเทศไทย ส่วนเรื่องราคาขายจะเสนอกันอีกครั้ง แต่ราคาขายไม่สูงมาก เพราะจะเปิดโอกาสให้คนอีกระดับหนึ่งที่มีเงินไม่มากได้ซื้อใช้กัน แต่เรื่องรถยนต์ขนาดเล็กเป็นคนละเรื่องกับโครงการรถยนต์ประหยัดพลังงานขนาด มาตรฐานสากล หรือ อีโคคาร์" นายชาญชัย กล่าว
+
+นอกจากนี้ ทางผู้บริหารของบริษัท ทาทา มอเตอร์ส ยังขอให้อนุโลมกฎระเบียบจัดซื้อรถกระบะ 1 ตัน ของส่วนราชการ ที่กำหนดว่าจะต้องขนาดเครื่องยนต์ 2500 ซีซี เป็น 2200 ซีซี เพราะบริษัทไม่มีรถยนต์กระบะในสเปกดังกล่าว จึงไม่สามารถเข้าร่วมประมูลได้ แม้ว่ารถยนต์กระบะของทาทา มอเตอร์ส จะมีเทอร์โบ ซึ่งทำให้มีแรงม้าสูงกว่า หากมีการอนุโลมในกฎระเบียบดังกล่าว บริษัทก็จะสามารถเข้าร่วมประมูลและขยายฐานการขายรถยนต์กระบะในประเทศไทยได้ มากขึ้น ซึ่งทางกระทรวงอุตสาหกรรมรับข้อเสนอดังกล่าว และจะนำไปหารือกับสำนักงบประมาณ กระทรวงการคลัง และในที่ประชุมคณะรัฐมนตรีเศรษฐกิจต่อไป
+
+ด้านนายอาจิด เวนคาทารามัน ประธานเจ้าหน้าที่บริหาร บริษัท ทาทา มอเตอร์ส (ประเทศไทย) กล่าวว่า มั่นใจว่ารถยนต์ทาทานาโน ที่จะนำเข้ามาขายในประเทศไทย จะได้รับความนิยม เพราะเป็นทางเลือกให้กับครอบครัวที่เพิ่งมีรถคันแรก และกลุ่มลูกค้าที่จะเปลี่ยนจากการขับมอเตอร์ไซด์ มาใช้รถยนต์ขนาดเล็กแทน เพราะสามารถใช้ความเร็วได้ 85 กิโลเมตร
+
+ชั่วโมง อัตราการใช้น้ำมัน 22 กิโลเมตร
+
+ลิตร และราคาประหยัด 130,000-180,000 รูปี และจะสามารถพัฒนาเครื่องยนต์ตามมาตรฐานยูโร 4 และ ยูโร 5 ได้ในอนาคต
+
+ส่วน โครงการรถยนต์ประหยัดพลังงานขนาดมาตรฐานสากล หรืออีโคคาร์ ที่บริษัท ทาทา มอเตอร์ส เข้าร่วมโครงการนั้น ขณะนี้จะต้องมีการทบทวนรายละเอียดอีกครั้งหนึ่ง เนื่องจากสภาพเศรษฐกิจโลกที่ถดถอยลง กระทบต่ออุตสาหกรรมยานยนต์ ซึ่งยอดขายของบริษัทในอินเดีย ลดลงร้อยละ 60 จนประสบปัญหาขาดสภาพคล่อง ดังนั้น ต้องมีการหาแหล่งเงินทุน ซึ่งธนาคารพาณิชย์ส่วนใหญ่ ชะลอการให้สินเชื่อ ดังนั้น จึงขอให้รัฐบาลไทยช่วยหาแหล่งเงินกู้ในอัตราดอกเบี้ยต่ำ เพราะโครงการอีโคคาร์ใช้เงินลงทุนสูงกว่า 7,000 ล้านบาท และไม่มั่นใจว่ายอดการผลิตที่กำหนดไว้ที่ 100,000 คัน ต่อรายต่อปี จะเป็นปริมาณที่มากเกินไปหรือไม่ เพราะตลาดรถยนต์ซบเซาลง ดังนั้น จึงขอทบทวนรายละเอียดอีกครั้งหนึ่ง.-สำนักข่าวไทยอัพเดตเมื่อ 2009-06-04 15:01:17
+
+ 
+
+]]></cont>
+          </text>
+          <name>
+            <auth>
+              <dn>Zhi Ci Wu</dn>
+            </auth>
+            <recp>
+              <reto>
+                <dn>Zhi Ci Wu</dn>
+              </reto>
+              <recc />
+              <rbcc />
+            </recp>
+          </name>
+          <natc>0</natc>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="thai:///8" status="complete">
+      <crawl-data encoding="xml" content-type="text/xml">
+        <document>
+          <msgid>ＣＨＩＬＬ.msg</msgid>
+          <anum>0</anum>
+          <location>D:\CDCData\THA\ＣＨＩＬＬ.msg</location>
+          <created>2008-07-02T04:30:27</created>
+          <modified>2008-07-02T11:38:23</modified>
+          <size>0</size>
+          <dtyp>msg</dtyp>
+          <importance>1</importance>
+          <sensitivity>0</sensitivity>
+          <flags>2</flags>
+          <text>
+            <subj>ＣＨＩＬＬ</subj>
+            <cont>&#160;
+เตรียมตัวให้พร้อมสำหรับเกมส์ Twisties Ｂｏｍｂ Jeed ให้น้องๆได้ลุ้นรับรางวัล iPOD Nano ทุกสัปดาห์ รับรองสนุกแน่นอน 
+
+เริ่มมันส์กับเราได้แล้ววันนี้ถึงวันที่ ３１ กรกฎาคม 2552 ประกาศผลผู้ชนะเลิศทุกสัปดาห์ ตั้งแต่ 22 มิถุนายน – 27 กรกฎาคม 2552 ที่ www.ilovetwisties.net/bombjeed 
+
+พร้อมแล้วลุยกันเลย! 
+
+</cont>
+          </text>
+          <name>
+            <auth>
+              <dn>Zhi Ci Wu</dn>
+            </auth>
+            <recp>
+              <reto>
+                <dn>Vault Admin</dn>
+              </reto>
+              <recc />
+              <rbcc />
+            </recp>
+          </name>
+          <natc>0</natc>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="thai:///9" status="complete">
+      <crawl-data encoding="xml" content-type="text/xml">
+        <document>
+          <msgid>ภาพรวมของบริษัท.msg</msgid>
+          <anum>0</anum>
+          <location>D:\CDCData\THA\ภาพรวมของบริษัท.msg</location>
+          <created>2008-07-02T04:34:44</created>
+          <modified>2008-07-02T11:38:12</modified>
+          <size>0</size>
+          <dtyp>msg</dtyp>
+          <importance>1</importance>
+          <sensitivity>0</sensitivity>
+          <flags>2</flags>
+          <text>
+            <subj>ภาพรวมของบริษัท</subj>
+            <cont><![CDATA[พันธกิจของ Google คือการจัดระเบียบข้อมูลของโลกให้สามารถเข้าถึงได้และมีประโยชน์ต่อทุกคน
+
+สำหรับขั้นแรกในการปฏิบัติตามพันธกิจนี้ ผู้ก่อตั้ง Google คือ Larry Page และ Sergey Brin ได้พัฒนาแนวทางใหม่ในการค้นหาออนไลน์จากห้องพักใน Stanford University และแพร่หลายไปสู่ผู้แสวงหาข้อมูลทั่วโลกอย่างรวดเร็ว ปัจจุบัน Google ได้รับการยอมรับว่าเป็นเครื่องมือค้นหาที่ใหญ่ที่สุดในเว็บ เป็นบริการฟรีที่ใช้งานง่าย และมักจะให้ผลลัพธ์ที่เกี่ยวข้องในเวลาเพียงเสี้ยววินาที
+
+เมื่อคุณเข้าสู่ www.google.com หรือโดเมนอื่นๆ ของ Google คุณจะสามารถค้นหาข้อมูลในภาษาต่างๆ มากมาย ตรวจสอบราคาหุ้น แผนที่ และพาดหัวข่าว ค้นหารายชื่อในสมุดโทรศัพท์สำหรับทุกเมืองในสหรัฐอเมริกา ค้นหา รูปภาพ นับพันล้านรูป และพิจารณาคลังข้อความ Usenet ที่ใหญ่ที่สุดในโลก คือมากกว่า 1 พันล้านบทความนับตั้งแต่ปี 1981
+
+เรายังมีวิธีการเข้าถึงข้อมูลเหล่านี้ทั้งหมด โดยไม่ต้องเสียเวลาไปที่หน้าแรกของ Google Google Toolbar ช่วยให้คุณค้นหากับ Google จากที่ใดก็ได้ในเว็บ และสำหรับกรณีที่คุณไม่อยู่ใกล้คอมพิวเตอร์ คุณยังสามารถใช้ Google จากแพลตฟอร์มไร้สาย รวมถึงโทรศัพท์ WAP และ i-mode
+
+เครื่องมือของ Google และการใช้งานที่แสนสะดวกทำให้ชื่อนี้ที่เป็นที่รู้จักมากที่สุดในโลก ผ่านทางคำแนะนำจากผู้ใช้ที่พึงพอใจ ในฐานะที่เป็นธุรกิจ Google สร้างรายได้จากการให้โฆษณาพร้อมด้วยโอกาสในการแสดงโฆษณาออนไลน์ที่วัดผลได้ และมีความเกี่ยวข้องกับข้อมูลที่แสดงอยู่บนหน้าเว็บต่างๆ ทำให้โฆษณามีประโยชน์ต่อคุณ และผู้โฆษณาที่แสดงโฆษณานั้น เราเชื่อว่าคุณคงทราบเมื่อมีคนจ่ายเงินเพื่อแสดงข้อความต่อหน้าคุณ เราจึงแยกความแตกต่างของโฆษณาจากผลลัพธ์การค้นหา หรือเนื้อหาอื่นๆ บนหน้าเว็บ เราไม่ขายตำแหน่งการโฆษณาในผลลัพธ์การค้นหา หรือยอมให้มีการจ่ายเงินเพื่อให้ได้อันดับที่ดีกว่า
+
+ผู้โฆษณานับพันๆ รายใช้โปรแกรม Google AdWords ของเราเพื่อส่งเสริมการขายผลิตภัณฑ์ของตน เราเชื่อมั่นว่า AdWords เป็นโปรแกรมที่ใหญ่ที่สุดในประเภทเดียวกัน นอกจากนี้ ผู้จัดการเว็บไซต์นับพันๆ รายใช้ประโยชน์จากโปรแกรม Google AdSense ของเราเพื่อแสดงโฆษณาที่เกี่ยวข้องกับเนื้อหาบนเว็บไซต์ของตน ทำให้สามารถสร้างรายได้และปรับปรุงประสบการณ์ในการใช้งานของผู้ใช้ได้ดียิ่ง ขึ้น
+
+Google คืออะไร 
+
+Googol เป็นศัพท์คณิตศาสตร์ หมายถึง 1 ตามด้วยศูนย์ 100 ตัว คำนี้บัญญัติขึ้นโดย Milton Sirotta หลานของนักคณิตศาสตร์ชาวอเมริกา Edward Kasner และได้รับการยอมรับในหนังสือ "Mathematics and the Imagination" โดย Kasner และ James Newman Google แปลงมาจากคำนี้ เพื่อสะท้อนถึงพันธกิจของบริษัทที่จะจัดระเบียบข้อมูลซึ่งสามารถใช้ได้บน เว็บที่มีปริมาณมหาศาลและดูเหมือนจะไม่มีที่สิ้นสุด
+
+ 
+]]></cont>
+          </text>
+          <name>
+            <auth>
+              <dn>Vault Admin</dn>
+            </auth>
+            <recp>
+              <reto>
+                <dn>Zhi Ci Wu</dn>
+              </reto>
+              <recc />
+              <rbcc />
+            </recp>
+          </name>
+          <natc>0</natc>
+        </document>
+      </crawl-data>
+    </crawl-url>
+    <crawl-url url="thai:///10" status="complete">
+      <crawl-data encoding="xml" content-type="text/xml">
+        <document>
+          <msgid>พัทลุงจับนักค้ายาบ้ายึดไม้เถื่อนได้อีกมูลค่านับล้านบาท.msg</msgid>
+          <anum>0</anum>
+          <location>D:\CDCData\THA\พัทลุงจับนักค้ายาบ้ายึดไม้เถื่อนได้อีกมูลค่านับล้านบาท.msg</location>
+          <created>2008-07-02T04:34:07</created>
+          <modified>2008-07-02T11:38:11</modified>
+          <size>0</size>
+          <dtyp>msg</dtyp>
+          <importance>1</importance>
+          <sensitivity>0</sensitivity>
+          <flags>2</flags>
+          <text>
+            <subj>พัทลุงจับนักค้ายาบ้ายึดไม้เถื่อนได้อีกมูลค่านับล้านบาท</subj>
+            <cont><![CDATA[พัทลุง 4 มิ.ย.- เมื่อเวลา 12.00 น. วันนี้ (4 มิ.ย.) ร.ต.อ.ศรัญภัทธ์ สุทธินุ่น หน.ชุด ปส.สภ.ควนขนุน จ.พัทลุง พร้อมชุดสืบสวนจับกุมนายสุมล แดงทองใส อายุ 49 ปี ภายในสถานที่ก่อสร้างบ้านหลังใหม่มูลค่าประมาณ 3 ล้านบาท พร้อมยึดของกลางยาบ้าบรรจุถุงพลาสติกฝังไว้บริเวณหลังบ้าน 19 ถุง จำนวน 3,700 เม็ด รถกระบะ 1 คัน สมุดธนาคาร 3 เล่ม เบื้องต้นนายสุมล สารภาพว่าชื้อยาบ้ามาจากนายชัยวัฒน์ จะนุ อายุ 36 ปี ที่ จ.เชียงราย โดยโอนเงินผ่านบัญชีธนาคาร และนำมาขายทั้งในพื้นที่พัทลุง ตรัง สงขลา และนครศรีธรรมราช ก่อนหน้านี้ ขายไปแล้ว 19 ถุง เงินที่ได้จะนำมาปลูกบ้านและใช้จ่ายในครอบครัว นอกจากนี้ เจ้าหน้าที่ยังยึดไม้เถื่อนไม้จำปาทอง และไม้เนื้อแข็งอีกหลายสิบท่อนมูลค่า 2 ล้านบาท ภายในบริเวณบ้านของนายสุมล ที่นำมาทำเฟอร์นิเจอร์ส่งขาย เจ้าหน้าที่จึงดำเนินคดีข้อหามียาเสพติดให้โทษประเภท 1 ไว้ครอบครองเพื่อจำหน่าย และมีไม้เถื่อนไว้ในครอบครองโดยมิชอบ.-สำนักข่าวไทยอัพเดตเมื่อ
+
+]]></cont>
+          </text>
+          <name>
+            <auth>
+              <dn>Zhi Ci Wu</dn>
+            </auth>
+            <recp>
+              <reto>
+                <dn>Zhi Ci Wu</dn>
+              </reto>
+              <recc />
+              <rbcc />
+            </recp>
+          </name>
+          <natc>0</natc>
+        </document>
+      </crawl-data>
+    </crawl-url>
+  </crawl-urls>
+  <crawl-options>
+    <crawl-option name="idle-running-time">-1</crawl-option>
+    <curl-option name="default-allow">allow</curl-option>
+    <crawl-option name="cache-types" />
+    <curl-option name="delay">0</curl-option>
+    <crawl-option name="n-fetch-threads">10</crawl-option>
+    <curl-option name="max-hops">0</curl-option>
+    <curl-option name="max-data-size">200000000</curl-option>
+    <curl-option name="gen-deletes">false</curl-option>
+    <crawl-option name="disable-url-normalization">true</crawl-option>
+    <curl-option name="purge-input-xml">true</curl-option>
+  </crawl-options>
+  <call-function name="vse-crawler-light-crawler" />
+</crawler>
+<vse-index>
+  <vse-index-option name="fast-index" />
+  <vse-index-option name="merger-sizes">100
+1000
+50000</vse-index-option>
+  <vse-index-option name="duplicate-elimination">false</vse-index-option>
+  <vse-index-option name="stem">case</vse-index-option>
+  <vse-index-option name="n-build-threads">2</vse-index-option>
+</vse-index>
+<converters>
+  <converter type-out="application/vxml-unnormalized" type-in="text/xml">
+    <parser type="xsl"><![CDATA[<xsl:template match="/">
+  <vce>
+    <xsl:for-each select="//document">
+      <document>
+        <xsl:for-each select="*">
+          <content name="{name()}" type="text">
+            <xsl:value-of select="." />
+          </content>
+        </xsl:for-each>
+      </document>
+    </xsl:for-each>
+  </vce>
+</xsl:template>
+]]></parser>
+  </converter>
+  <converter type-in="vivisimo/fallback" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-unknown-to-vxml">
+      <with name="extract-strings">no, output XML</with>
+    </call-function>
+  </converter>
+  <converter program="guess-content --type-override text/html text/html-to-utf8 %source_file" timing-name="Guess content" type-in="unknown" />
+  <converter program="ms-guess %source_file" timing-name="Guess MS Office" type-in="application/ms-office" />
+  <converter program="unzip -l %source_file | ms-container-guess" timing-name="Guess MS Office 2007" type-in="application/ms-office-container" />
+  <converter program="guess-office-2007 %source_file" timing-name="Check MS Office version" type-in="application/word|application/excel|application/powerpoint" />
+  <converter type-in="unknown" type-out="text/plain">
+    <converter-test how="wc-set" what="path">*.txt</converter-test>
+  </converter>
+  <converter type-in="unknown" type-out="application/excel">
+    <converter-test how="wc-set" what="path">*.xls</converter-test>
+  </converter>
+  <call-function name="vse-converter-filetypes" />
+  <call-function name="vse-converter-type-normalization" />
+  <converter type-in="application/vxml-db" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-database-tng" />
+  </converter>
+  <call-function name="vse-converter-powerpoint" />
+  <call-function name="vse-converter-1-2-3" />
+  <converter type-in="outlook/mail" type-out="text/mailbox">
+    <call-function name="vse-converter-pst-to-mailbox" />
+  </converter>
+  <converter type-in="text/mailbox" type-out="text/mail">
+    <call-function name="vse-converter-split-mailbox" />
+  </converter>
+  <converter type-in="text/mail" type-out="vivisimo/crawl-data">
+    <call-function name="vse-converter-mail-message">
+      <with name="cache-parser">vse-cache-parser-email</with>
+    </call-function>
+  </converter>
+  <converter type-in="application/documentum" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-documentum-to-xml" />
+  </converter>
+  <call-function name="vse-converter-enterprise-vault" />
+  <converter type-in="application/eroom" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-eroom-to-xml" />
+  </converter>
+  <converter type-in="application/lotus" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-lotus-to-xml" />
+  </converter>
+  <converter type-in="application/sharepoint" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-sharepoint-to-xml" />
+  </converter>
+  <converter type-in="application/word2" type-out="text/html">
+    <call-function name="vse-converter-msword2" />
+  </converter>
+  <converter type-in="application/word" type-out="text/html">
+    <call-function name="vse-converter-msword" />
+  </converter>
+  <converter type-in="application/excel" type-out="text/html">
+    <call-function name="vse-converter-excel" />
+  </converter>
+  <converter type-in="application/wordperfect" type-out="text/html">
+    <call-function name="vse-converter-wordperfect" />
+  </converter>
+  <converter type-in="application/openoffice" type-out="text/html">
+    <call-function name="vse-converter-openoffice" />
+  </converter>
+  <converter type-in="application/ms-ooxml-word" type-out="text/html">
+    <call-function name="vse-converter-ooxml-word" />
+  </converter>
+  <converter type-in="application/ms-ooxml-excel" type-out="text/html">
+    <call-function name="vse-converter-ooxml-excel" />
+  </converter>
+  <converter type-in="application/ms-ooxml-powerpoint" type-out="text/html">
+    <call-function name="vse-converter-ooxml-powerpoint" />
+  </converter>
+  <converter type-in="application/vnd.ms-project" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-ms-project" />
+  </converter>
+  <converter type-in="application/ps" type-out="text/plain">
+    <call-function name="vse-converter-postscript" />
+  </converter>
+  <converter type-in="application/pdf" type-out="text/html">
+    <call-function name="vse-converter-pdf" />
+  </converter>
+  <converter type-in="application/rtf" type-out="text/html">
+    <call-function name="vse-converter-rtf" />
+  </converter>
+  <converter type-in="application/outlook-msg" type-out="vivisimo/crawl-data">
+    <call-function name="vse-converter-outlook-msg" />
+  </converter>
+  <converter type-in="application/flash" type-out="text/html">
+    <call-function name="vse-converter-flash" />
+  </converter>
+  <converter type-in="image/jpeg" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-jpg-metadata" />
+  </converter>
+  <converter timing-name="MP3 to metadata" type-in="audio/mpeg" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-mp3-metadata" />
+  </converter>
+  <converter type-in="application/tar" type-out="unknown">
+    <call-function name="vse-converter-tar" />
+  </converter>
+  <converter type-in="application/x-gzip" type-out="unknown">
+    <call-function name="vse-converter-gunzip" />
+  </converter>
+  <converter type-in="application/zip" type-out="unknown">
+    <call-function name="vse-converter-unzip" />
+  </converter>
+  <converter type-in="application/x-compress" type-out="unknown">
+    <call-function name="vse-converter-uncompress" />
+  </converter>
+  <converter type-in="text/html-to-utf8" type-out="text/html">
+    <call-function name="vse-converter-html-to-utf8" />
+  </converter>
+  <converter type-in="text/html" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-html" />
+  </converter>
+  <converter type-in="text/plain" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-text" />
+  </converter>
+  <converter type-in="unknown" type-out="application/dbf">
+    <converter-test how="wc-set" what="path">*.dbf</converter-test>
+  </converter>
+  <converter type-in="application/dbf" type-out="text/csv">
+    <call-function name="vse-converter-dbf-to-csv" />
+  </converter>
+  <converter type-in="text/csv" type-out="text/html">
+    <call-function name="vse-converter-csv-to-html" />
+  </converter>
+  <converter type-in="text/xml" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-xml-to-vxml" />
+  </converter>
+  <converter fallback="application/vxml" type-in="application/vxml-unnormalized" type-out="application/vxml-unnormalized">
+    <call-function name="vse-converter-normalize">
+      <with name="language-index-stream-enabled">true</with>
+      <with name="language-index-stream-min-bytes">1</with>
+    </call-function>
+  </converter>
+  <converter type-in="application/vxml-unnormalized" type-out="application/vxml" />
+</converters>
+</vse-config>
+</vse-collection>

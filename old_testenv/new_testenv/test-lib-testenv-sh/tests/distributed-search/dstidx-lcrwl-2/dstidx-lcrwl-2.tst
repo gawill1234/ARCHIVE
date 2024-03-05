@@ -1,0 +1,317 @@
+#!/usr/bin/python
+
+#
+#   Test of Distributed Indexing with the light crawler
+#   Server A serves collection A' to server B.
+#   Server B serves collection B' to server A.
+#   Both A and B should have indentical data.
+#
+import os, sys, time, host_environ
+import getopt, subprocess
+from lxml import etree
+
+#
+#   Cheesy, but it works here.
+#
+def isfqdn(name=None):
+
+   domain_tail = ['com', 'net', 'org', 'xxx']
+
+   justthename = name.split(':')
+   tail = justthename[0].split('.')
+
+   z = len(tail)
+   z = z - 1
+
+   for item in domain_tail:
+      if ( tail[z] == item ):
+         return True
+
+   return False
+
+def fullsysname(name=None):
+
+   if ( isfqdn(name) ):
+      return name
+   else:
+      name = name + '.test.vivisimo.com'
+
+   return name
+
+
+def isInList(checkfor, thelist):
+
+   for item in thelist:
+      if ( item == checkfor ):
+         return 1
+
+   return 0
+
+def usage():
+
+   print "dstidx-lcrwl-2.tst -S <server> -C <client>"
+   print "   <server> = server side machine, example: testbed14"
+   print "   <client> = client side machine, example: testbed15"
+   print "   Example cmd:  dstidx-basic-1.tst -S testbed14 -C testbed15"
+
+   return
+
+
+if __name__ == "__main__":
+
+   opts, args = getopt.getopt(sys.argv[1:], "S:C:vk", ["server=", "client=", "verbose", "keepit"])
+
+   keepit = False
+   my_server = None
+   my_client = None
+   verbose = 0
+
+   for o, a in opts:
+      if o in ("-S", "--server"):
+         my_server = a
+      if o in ("-C", "--client"):
+         my_client = a
+      if o in ("-v", "--verbose"):
+         verbose = 1
+      if o in ("-k", "--keepit"):
+         keepit = True
+
+   if ( my_server is None ):
+      my_server = os.getenv('VIVHOST', None)
+      if ( my_server is None ):
+         print "Exiting:  No server set"
+         usage()
+         sys.exit(1)
+
+   if ( my_client is None ):
+      my_client = os.getenv('VIVHOST', None)
+      if ( my_client is None ):
+         print "Exiting:  No client set"
+         usage()
+         sys.exit(1)
+
+   try:
+      os.remove('orclgetsmb.xml')
+      os.remove('smbgetorcl.xml')
+   except:
+      print "Nothing to remove, oh well."
+
+   fsn = fullsysname(my_server)
+   fsn2 = fullsysname(my_client)
+
+   cmdstring = "cat ogsbasexml | sed -e \'s;REPLACE__ME;" + fsn2 + ";g\' > orclgetsmb.xml"
+   subprocess.Popen(cmdstring, shell=True)
+
+   f = open( "sgobasexml", 'r' )
+   config = f.read()
+   f.close()
+   config = config.replace( 'VIV_SAMBA_LINUX_SERVER',
+     os.getenv( 'VIV_SAMBA_LINUX_SERVER' ) )
+   config = config.replace( 'VIV_SAMBA_LINUX_USER',
+     os.getenv( 'VIV_SAMBA_LINUX_USER' ) )
+   config = config.replace( 'VIV_SAMBA_LINUX_PASSWORD',
+     os.getenv( 'VIV_SAMBA_LINUX_PASSWORD' ) )
+   config = config.replace( 'VIV_SAMBA_LINUX_SHARE',
+     os.getenv( 'VIV_SAMBA_LINUX_SHARE' ) )
+   config = config.replace( 'REPLACE__ME', fsn )
+   f = open( "smbgetorcl.xml", 'w' )
+   f.write( config )
+   f.close()
+
+   fail = 0
+
+   tname = "dstidx-lcrwl-2"
+   server_collection = "orclgetsmb"
+   client_collection = "smbgetorcl"
+
+   server_file = server_collection + '.xml'
+   client_file = client_collection + '.xml'
+
+   ##############################################################
+
+   print tname, ":  ##################"
+   print tname, ":  INITIALIZE"
+   print tname, ":  distributed indexing basic test 28"
+   print tname, ":  using light crawler"
+   print tname, ":  1 to 1"
+   print tname, ":  client is a server and"
+   print tname, ":  server is a client"
+
+   srvr = host_environ.HOSTENVIRON(hostname=my_server)
+   srvr.cgi.version_check(8.0)
+   clnt = host_environ.HOSTENVIRON(hostname=my_client)
+
+   print tname, ":  PERFORM CRAWLS"
+   print tname, ":     Create empty collection", server_collection
+   #
+   #   Empty collections 
+   #
+   try:
+      print tname, ":  ##################"
+      print tname, ":  Creating empty server collection"
+      cex = srvr.cgi.collection_exists(collection=server_collection)
+      if ( cex == 1 ):
+         srvr.cgi.delete_collection(collection=server_collection)
+      srvr.vapi.api_sc_create(collection=server_collection, based_on='default')
+
+      print tname, ":  ##################"
+      print tname, ":  Setting up server collection"
+      srvr.vapi.api_repository_update(xmlfile=server_file)
+   except:
+      print "Could not create collection from", server_file
+      print "Failed host is", my_server
+      sys.exit(1)
+
+   try:
+      print tname, ":  ##################"
+      print tname, ":  Creating empty client collection"
+      cex = clnt.cgi.collection_exists(collection=client_collection)
+      if ( cex == 1 ):
+         clnt.cgi.delete_collection(collection=client_collection)
+      clnt.vapi.api_sc_create(collection=client_collection, based_on='default')
+
+      print tname, ":  ##################"
+      print tname, ":  Setting up client collection"
+      clnt.vapi.api_repository_update(xmlfile=client_file)
+   except:
+      print "Could not create collection from", client_file
+      print "Failed host is", my_client
+      sys.exit(1)
+
+   print tname, ":  ##################"
+   print tname, ":  Start server crawl"
+   srvr.vapi.api_sc_crawler_start(collection=server_collection)
+
+   print tname, ":  ##################"
+   print tname, ":  Start client crawl"
+   clnt.vapi.api_sc_crawler_start(collection=client_collection)
+
+   print tname, ":  ##################"
+   print tname, ":  Wait for server crawl to go idle"
+   srvr.cgi.wait_for_idle(collection=server_collection)
+
+   print tname, ":  ##################"
+   print tname, ":  Wait for client crawl to go idle"
+   clnt.cgi.wait_for_idle(collection=client_collection)
+
+   print tname, ":  ##################"
+   print tname, ":  Sleep for 60 seconds so any pending collection"
+   print tname, ":  I/O can complete"
+
+   time.sleep(60)
+
+   print tname, ":  ##################"
+   print tname, ":  Wait for server crawl to go idle, possible update"
+   srvr.cgi.wait_for_idle(collection=server_collection)
+
+   print tname, ":  ##################"
+   print tname, ":  Wait for client crawl to go idle, possible update"
+   clnt.cgi.wait_for_idle(collection=client_collection)
+
+
+   ##############################################################
+   print tname, ":  ##################"
+   print tname, ":  TEST CASES BEGIN"
+
+   srvrresp = srvr.vapi.api_qsearch(source=server_collection, num=500,
+                                    query='', filename='srvr_search',
+                                    odup='true')
+   clntresp = clnt.vapi.api_qsearch(source=client_collection, num=500,
+                                    query='', filename='clnt_search',
+                                    odup='true')
+
+   #
+   #   Check that recorded values are identical
+   #
+   expectedcnt = 406
+   srvridxcnt = srvr.vapi.getTotalResults(resptree=srvrresp,
+                                          filename='srvr_search')
+   clntidxcnt = clnt.vapi.getTotalResults(resptree=clntresp,
+                                          filename='clnt_search')
+
+   print tname, ":  ##################"
+
+
+   if ( srvridxcnt != clntidxcnt or srvridxcnt != expectedcnt or
+        clntidxcnt != expectedcnt ):
+      print tname, ":  total results differ between client and server"
+      print tname, ":  client results = ", clntidxcnt
+      print tname, ":  server results = ", srvridxcnt
+      print tname, ":  expected results = ", expectedcnt
+      fail = 1
+   else:
+      print tname, ":  total results are correct at ", srvridxcnt
+
+   #
+   #   Check that url counts are identical
+   #
+   srvrurlcnt = srvr.vapi.getResultUrlCount(resptree=srvrresp,
+                                            filename='srvr_search')
+   clnturlcnt = clnt.vapi.getResultUrlCount(resptree=clntresp,
+                                            filename='clnt_search')
+
+   print tname, ":  ##################"
+
+
+   if ( srvrurlcnt != clnturlcnt ):
+      print tname, ":  total url results differ between client and server"
+      print tname, ":  client results = ", clnturlcnt
+      print tname, ":  server results = ", srvrurlcnt
+      fail = 1
+   else:
+      print tname, ":  total url results are correct at ", srvrurlcnt
+
+   #
+   #   Check the urls are as identical as they should be
+   #
+   srvrurllst = srvr.vapi.getResultUrls(resptree=srvrresp,
+                                        filename='srvr_search')
+   clnturllst = clnt.vapi.getResultUrls(resptree=clntresp,
+                                        filename='clnt_search')
+
+   print tname, ":  ##################"
+
+   for item in srvrurllst:
+      x = isInList(item, clnturllst)
+      if ( x != 1 ):
+         print "ARRGHH!!!: ", item
+         fail = 1
+      else:
+         if ( verbose == 1 ):
+            print "found(srvr): ", item
+
+   for item in clnturllst:
+      x = isInList(item, srvrurllst)
+      if ( x != 1 ):
+         print "again, ARRGHH!!!: ", item
+         fail = 1
+      else:
+         if ( verbose == 1 ):
+            print "found(clnt): ", item
+
+
+   ##############################################################
+
+   #xx.kill_all_services()
+   #
+   #   Due to possible port confusion, these tests ALWAYS delete
+   #   the existing collection unless the -k option is specified
+   #   as part of the test.  This way subsequent tests will run
+   #   correctly.
+   #
+   if ( not keepit ):
+      print tname, ":  Deleting all collections to prevent port confusion"
+      srvr.cgi.delete_collection(collection=server_collection)
+      clnt.cgi.delete_collection(collection=client_collection)
+   else:
+      print tname, ":  WARNING, the collections still exist.  It is"
+      print tname, ":           possible that other tests may have issues"
+      print tname, ":           due to the ports these collections use"
+
+   if ( fail == 0 ):
+      print tname, ":  Test Passed"
+      sys.exit(0)
+
+   print tname, ":  Test Failed"
+
+   sys.exit(1)

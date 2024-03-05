@@ -1,0 +1,47 @@
+#query::collection::number_of_urls::compare_file::new_file
+#
+#   special codes in strings: (yes, I know it is screwy but it greatly
+#                              simplifies processing ...)
+#      <2eq> will become '=='
+#      <eq> will become '='
+#      <empty> will become ''
+#      <cr> will become '\n' (newline)
+#      <sp> will become ' '
+#
+#   To add more changes go in:
+#      $TEST_ROOT/lib/queryObj.py in set_other_opts()
+#
+##############################################
+#
+#   Basic queries
+#
+arizona AND egypt::qs-samba::314::8.0arizonaandeqypt::num=400&output-score=true&profile=true
+arizona and egypt::qs-samba::314::8.0arizonaandeqypt2::num=400&output-score=true&profile=true
+arizona AND (egypt OR syria)::qs-samba::336::8.0arizonaand_egyptorsyria_::num=1000&output-score=true&profile=true
+(arizona AND egypt) OR syria::qs-samba::384::8.0_arizonaandegypt_orsyria::num=1000&output-score=true&profile=true
+egypt OR syria::qs-samba::477::8.0egyptorsyria::num=1000&output-score=true
+CONTENT title CONTAINING Thomas::qs-samba::1::8.0content_containing::num=100&output-score=true&profile=true
+title:basic::qs-samba::1::8.0field::num=100&output-score=true&profile=true
+basic + linux::qs-samba::547::8.0basicplus::num=3000&output-score=true&profile=true
+basic -linux::qs-samba::827::8.0basicnot::num=3000&output-score=true&profile=true
+basic NEAR programming::qs-samba::93::8.0basicnear::num=200&output-score=true&profile=true
+syria NOT egypt::qs-samba::35::8.0syrianot::num=100&output-score=true&profile=true
+CONTENT title NOTCONTAINING xml::qs-samba::26::8.0titlenotcontaining::num=100&output-score=true&profile=true
+basic WITHIN 10 WORDS linux::qs-samba::547::8.0withinwords::num=2000&output-score=true&profile=true
+basic NOTWITHIN 10 WORDS linux::qs-samba::0::8.0notwithinwords::num=2000&output-score=true&profile=true
+(basic AND linux) WITHIN 10 WORDS::qs-samba::23::8.0andwithinwords::num=2000&output-score=true&profile=true
+(basic AND linux) NOTWITHIN 10 WORDS::qs-samba::546::8.0andnotwithinwords::num=2000&output-score=true&profile=true
+"basic programming"::qs-samba::23::8.0quotes::num=100&output-score=true&profile=true
+m/navajo/::qs-samba::128::8.0regex::num=200&output-score=true&profile=true
+egypt THRU syria::qs-samba::104::8.0thru::num=200&output-score=true&profile=true
+egypt BEFORE syria::qs-samba::104::8.0before::num=200&output-score=true&profile=true
+syria FOLLOWEDBY egypt::qs-samba::100::8.0followedby::num=200&output-score=true&profile=true
+"bas*c programming"::qs-samba::23::8.0wildcard::num=200&output-score=true&profile=true
+scuba^2 egypt::qs-samba::105::8.0weight::num=155&output-score=true&profile=true
+site:testbed5.test.vivisimo.com::qs-samba::2138::8.0site::num=2500&output-score=true&profile=true
+year: ==1997::example-metadata::2::8.3equal::num=50&output-score=true&profile=true
+year: <1988::example-metadata::7::8.3lessthan::num=50&output-score=true&profile=true
+year: >2004::example-metadata::3::8.3greaterthan::num=10&output-score=true&profile=true
+year: >=2004::example-metadata::5::8.3greaterthanequal::num=20&output-score=true
+year: <=1995::example-metadata::17::8.3lessthanequal::num=100&output-score=true
+year: [1994..2000]::example-metadata::11::8.3range::num=50&output-score=true

@@ -1,0 +1,16 @@
+<crawl-url url="oracle://testbed6-4.bigdatalab.ibm.com:1521/orcl/vessel_view?key-val=294" enqueue-type="reenqueued" status="complete">
+  <crawl-data content-type="application/vxml" encoding="xml">
+    <document url="oracle://testbed6-4.bigdatalab.ibm.com:1521/orcl/vessel_view?key-val=294">
+      <content name="GOOBER2" fast-index="set" type="token">FIDGET</content>
+      <content name="GOOBER" fast-index="set" type="text">FIDGET</content>
+      <content name="GOOBER" fast-index="set" type="text">GermanBattle</content>
+      <content name="GOOBER2" fast-index="set" type="text">FIDGET</content>
+      <content name="GOOBER" fast-index="set" type="token">FIDGET</content>
+      <content name="GOOBER" fast-index="set" type="html">GermanBattle</content>
+    </document>
+  </crawl-data>
+  <curl-options>
+    <curl-option name="default-allow" added="added">allow</curl-option>
+    <curl-option name="max-hops" added="added">1</curl-option>
+  </curl-options>
+</crawl-url>

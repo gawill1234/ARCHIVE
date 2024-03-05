@@ -1,0 +1,12 @@
+<vce>
+  <document url="http://vivisimo.com?nq_c_10">
+    <content name="no-query-10" indexed="false">
+        spanish I never thought Bo Derek was a ten
+        espanol Nunca pense que Bo Derek era diez
+    </content>
+    <content name="cluster-10" indexed="false">
+        dutch this is number ten
+        nederlands dit is nummer tien
+    </content>
+  </document>
+</vce>

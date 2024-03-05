@@ -1,0 +1,345 @@
+11-741: Information Retrieval
+
+Data Structures, Algorithms and Implementation Issues
+Jamie Callan Carnegie Mellon University callan@cs.cmu.edu
+
+Inverted List Indexes: Access Methods
+How is a file of inverted lists accessed? • B-Tree (B+ Tree, B* Tree, etc) – Supports exact-match and range-based lookup » “apple”, “apple – apples”, “appl*” – O(log n) lookups to find a list – Usually easy to expand • Hash table – Supports exact-match lookup » “apple” – O(1) lookups to find a list – May be complex to expand
+2
+© 2006, Jamie Callan
+
+Inverted List Indexes: Access Methods
+Task: Enable accurate and efficient document retrieval Solution: Database of inverted lists, different access methods Hash Table Access
+zebra : : : : apple
+
+B-Tree-style Access
+.... apple .... .... zebra
+
+.... .... ....
+3
+
+Database of Inverted Lists
+© 2006, Jamie Callan
+
+Document Retrieval Revisited
+
+Task: Determine a score for each document (quickly) Solution: • Depth-first evaluation of query tree • Each internal node represents query operators • Each leaf node represents a database access (lookup inverted list) OR Query (Exxon AND Valdiz) OR AND PHRASE “major oil spill” Exxon Valdiz Database of Inverted Lists
+4
+
+major oil spill
+
+© 2006, Jamie Callan
+
+Optimizations
+
+What happens when databases get large? • Boolean query processing • Term-at-a-time vs. Document-at-a-time • Skip lists • Top-docs lists • Separating data
+
+5
+
+© 2006, Jamie Callan
+
+Implementation Details: Boolean Query Optimization
+Goal: Lower average cost of evaluating query
+AND (2.2%, 9.30) OR (34.7%, 8.26)
+COMPUTER (6.4%, 3) DISEASE (14.7%, 3)
+
+AND (2.2%, 3.47)
+COMPUTER (6.4%, 3)
+
+OR (34.7%,7.30)
+
+DIAGNOSIS MEDICINE (1.1%, 3) (22.6%, 3)
+
+MEDICINE (22.6%, 3)
+
+DISEASE DIAGNOSIS (14.7%, 3) (1.1%, 3)
+
+Probability this node evaluates to True
+
+Expected cost of evaluating this node
+
+• For “intersection” query operators such as AND nodes the optimal strategy is “fail early”. • For “union” query operators such as OR nodes the optimal strategy is “succeed early”.
+6
+© 2006, Jamie Callan
+
+Implementation Details: Boolean Query Optimization
+• AND probability: p1 p2 p3 ... pn •
+AND cost: c1 + p1 (c2 + p2 (c3 + p3 (...(cn + pn )...))) OR probability: 1 − (1 − p1 )(1 − p2 )(1 − p3 )...(1 − pn ) c1 + (1 − p1 )(c2 + (1 − p2 )(c3 + (1 − p3 )(...(cn + (1 − pn ))...))) OR cost:
+
+Minimize cost by reordering nodes, such that: c c1 c • AND satisfies: < 2 < ... < n
+1 − p1 1 − p2 1 − pn
+
+• OR satisfies:
+
+c1 c2 c < < ... < n p1 p2 pn
+
+7
+
+© 2006, Jamie Callan
+
+Ranking Documents: Term-at-a-Time Evaluation
+2 4 5 5. OR How should this query be evaluated? • Term-at-a-time – Read inverted list for “like” – Read inverted list for “hot” – Merge them – Read the inverted list for “pot” – Merge it • This strategy is simple & popular for small systems – It is not practical in big systems
+
+4 3. 4 5 1. like 4 5
+
+2 5 4. pot
+
+AND 1 4 2. hot 1 4
+
+2 5
+8
+
+Inverted List Database
+
+© 2006, Jamie Callan
+
+Ranking Documents: Term-at-a-Time Evaluation
+Problems for the term-at-a-time approach • Inverted lists too big to fit in memory • Deeply nested queries – Worst case is D+1 inverted lists kept in memory simultaneously • Systems that process queries in parallel – In some studies 3-4 query parallelism is optimal » Some processes wait for I/O » Some processes use the CPU – But…the complexity of one query affects the amount of memory available to other queries
+9
+2 4 5 5. OR
+
+4 3. 4 5 1. like 4 5
+
+2 5 4. pot
+
+AND 1 4 2. hot 1 4
+
+2 5
+
+Inverted List Database
+
+© 2006, Jamie Callan
+
+Ranking Documents: Document-at-a-Time Evaluation
+• An alternative is to evaluate the query repeatedly
+2 4 5 5. OR
+
+•
+
+2 – Ask the tree what the next document is 4 5 3. » “like” returns 4, “hot” returns 1 AND 4. pot 4 1 » “AND” returns 4 5 4 » “pot” returns 2 1. like 2. hot » “OR” returns 2 4 1 2 – Now ask the tree to: 5 4 5 » Evaluate the query only for document 2, and Inverted List Database » Return the next document id This probably looks foolish, but – It’s faster than you think (because it allows some optimizations) – Now we don’t need to keep entire inverted lists in memory
+© 2006, Jamie Callan
+
+10
+
+Ranking Documents: Document-at-a-Time Evaluation
+Document-at-a-time optimizations • Next-doc processing allows large parts of inverted lists to be skipped – E.g., AND operators apply a MAX function to the next-doc ids of their children • Typically processing isn’t actually one document at a time – More likely several thousand documents at a time – The chunk size depends on the memory available right now » If the system is busy, process smaller chunks of documents » If the system is idle and the query small, may default to term-at-a-time
+© 2006, Jamie Callan
+
+11
+
+Ranking Documents: Term-at-a-Time vs Doc-at-a-Time
+
+OR AND
+Exxon Valdiz
+
+OR PHRASE
+major oil spill
+
+....
+
+AND
+Exxon Valdiz
+
+....
+
+PHRASE
+major oil spill
+
+Inverted List Buffer
+
+12
+
+© 2006, Jamie Callan
+
+Ranking Documents: Term at a Time vs. Document at a Time
+Term at a Time: • Minimizes I/O – 1 lookup per query term • Bookkeeping: – List of candidate documents – A partial score per candidate document • Unpredictable memory usage – Grows with query size Both strategies are used Hybrids are also used
+13
+
+Document at a Time: • Unpredictable I/O – Grows with query length – Grows with query term df • Bookkeeping: – Matched documents – A complete score matched document – Partial score for current document – Inverted list fragments • Constant memory usage
+© 2006, Jamie Callan
+
+Inverted List Optimizations: Skip Lists
+• Pointers that allow parts • •
+of the list to be skipped Gives no improvement unless tuned carefully Common problems – No I/O improvement, because each block is examined anyway – Interferes with compression
+Embedded Pointers Table of Contents
+
+: : :
+
+: : :
+
+14
+
+© 2006, Jamie Callan
+
+Inverted List Optimizations: Top-Docs List
+• Most inverted lists point to • • •
+many documents Most queries need to return 100 documents or less Why rank 500,000 documents if only 100 are needed? Top-docs lists: – Points to only the best docs – Sorted by doc score Much faster on long queries Lower recall – Maybe lower precision Can’t use with some queries
+15
+
+“apple” Inverted List
+Doc 1 0.42 Doc 2 0.572 : : : Doc 258392 0.44 Doc 258393 0.73 : : : Doc 1025429 0.75 Doc 1025430 0.571
+
+“apple” Top-Docs List
+Doc 1025429 0.75 Doc 258393 0.73 : : : Doc 2 0.572 Doc 1025430 0.571
+
+• • •
+
+1,000 documents 1,025,430 documents
+© 2006, Jamie Callan
+
+Inverted List Optimizations: Separating Data
+Separating presence information from location information • Many operators only need presence information • Location information takes substantial space (I/O) • If split, – reduced I/O for presence operators – increased I/O for location operators (or larger index) • Common in CD-ROM implementations
+
+16
+
+© 2006, Jamie Callan
+
+Inverted List Access: Strengths and Weaknesses
+Strengths: • Simple to create • Space efficient • Given a term, very efficient access to postings Weaknesses: • It’s not necessarily easy to update a document – Many lists affected – Changes in the middle of lists means rewriting the entire list • Nearly impossible to find adjacent terms in a document – “apple” is a location 12…what’s at location 13?
+
+17
+
+© 2006, Jamie Callan
+
+Storing Structure
+
+• Many documents have internal structure • • •
+– Title, date, author, … – Chapter, section, subsection, paragraph, sentence, references, … Research systems have tended to ignore structure – Some studies suggest that people don’t use it much Commercial systems have tended to support some structure – Especially title, date, author, sentence Some current trends suggest the document structure will be increasingly important in the future – XML – Use of IR systems as “back-ends” for other language processing tasks – Document markup such as POS, named-entity, syntax, …
+18
+© 2006, Jamie Callan
+
+Document Markup
+
+• XML markup
+<newsitem itemid="100000" id="root" date="1996-10-07" xml:lang="en"> <title>USA: NYCE cotton closes up on Tropical Storm Josephine.</title> <headline>NYCE cotton closes up on Tropical Storm Josephine.</headline> <dateline>NEW YORK 1996-10-07</dateline> <text> <p>Light speculative buying buoyed NYCE cotton futures to a higher close as Tropical Storm Josephine was poised to deluge an already soaked … <p>--Suzanne Rostler, New York Commodities 212-859-1646</p> </text> <copyright>(c) Reuters Limited 1996</copyright>
+19
+© 2006, Jamie Callan
+
+Document Markup
+
+• Part of speech markup •
+– “The/AT chief/NN of/PRF these/DT spies/NN is/VBZ the/AT celebrated/AJ0 Belle/NP Boyd/NP ./.” Named-entity markup – “The chief of these spies is the celebrated <ENAMEX TYPE=PERSON>Belle Boyd</ENAMEX>”
+
+20
+
+© 2006, Jamie Callan
+
+Document Markup
+S VP V’ V’ NP V’ PP NP
+
+• Syntactic markup
+
+DET N AUX V ADV P DET N The pumpkin is moving horizontally with the man
+(Carolyn Penstein Rose)
+21
+© 2006, Jamie Callan
+
+Storing Term Properties
+
+• One of the simplest approaches is to store meta-terms
+– <Apple, Doc 23, Location 18> – <Property:Organization, Doc 23, Location 18> The meta-term is stored just like any other indexing term – Usual inverted list indexing Query operators associate terms with properties – The query operator “Property (Apple, Organization)” is implemented as “Apple Near/0 Property:Organization” – Seems crude, but very effective for single-term properties For multi-term properties, use Begin/End tags and slightly more sophisticated query operator – E.g., Property:Organization:Begin, Property:Organization:End
+22
+© 2006, Jamie Callan
+
+• •
+
+•
+
+Storing Fields and Structure
+
+• Very easy to do for shallow, “hard-wired” fields •
+– E.g., treat Title:Apple and Text:Apple as different index terms More “interesting” for deep, dynamic fields – E.g., XML documents – Terms in “Subsection” should also appear in “Section” » But, don’t want to store them twice – Solution: Include additional data structures to store document structure explicitly » Essentially store the parse tree… …perhaps with additional information
+• E.g., the length of the field • E.g., pointers to its parent or children
+23
+© 2006, Jamie Callan
+
+Storing Fields and Structure
+Traditional inverted list Inverted list with Doc support for structure Doc: 28 Doc: 28 Title Sections References Struct: TF: 3 <1, 7> <112, 5104> <5104, 5508> TF: 3 Loc: 6 Author Loc: 6 Loc: 27 Section <8, 9> Loc: 27 Loc: 5442 <897, 1403> Loc: 5442 Doc: 92 Abstract Subsection Doc: 92 : <10, 111> <992, 1104> : : : Paragraph This looks messy, but it gives query-time <1012, 1104> control over which term locations are used for matching and scoring
+24
+© 2006, Jamie Callan
+
+Storing Fields and Structure: Issues
+This is an active area of research • How to do it efficiently • How to provide effective retrieval • How to make it easy for people to use – Or, maybe not primarily intended for use by people • What is necessary/useful to support other language tasks? • How to support complex user models
+
+25
+
+© 2006, Jamie Callan
+
+Document Term Lists
+
+• Sometimes the IR system needs to know what terms are in the •
+document – E.g., for query expansion, relevance feedback, … How does it find out? – Parse the document again? » A little slow (although not as bad as you would think) » Done when disk space is expensive » But it’s very hard to guarantee the exact same parse – Store the parsed document? » Guaranteed to be accurate, but it takes a lot of space » Done when disk space is cheap
+26
+
+© 2006, Jamie Callan
+
+Document Term Lists
+Doc: 21 Length: 433 Postings: 492 <1, 41318> <2, 39122> <4, 55823> <4, 28> <5, 9975> : :
+
+• Length: Number of words in the surface text • Postings: Number of elements in the document • •
+term list – Includes annotations, e.g., named-entity, POS Term 3 is missing…it was a stopword Term 4 was annotated – Use small term ids for common terms » Because they compress more effectively A big data structure – But locations compress very well
+
+•
+
+27
+
+© 2006, Jamie Callan
+
+Other Indexes: Wildcard Matching
+• Historically wildcard matching was important
+– Partly as a substitute for good morphological processing » computer* matched “computer”, “computers” – As better morphological processing was introduced, wildcard matching mostly disappeared from text search systems Wildcard matching remains important in some applications – Names with inconsistent spellings » Qaddafi, Kaddafi, … – Languages with very flexible morphology » E.g., Arabic – Domains where spelling is still in flux » E.g., bioinformatics
+28
+© 2006, Jamie Callan
+
+•
+
+Other Indexes: Wildcard Matching
+• X* is easy, but *X, *X*, and X*Y are hard (why?) • “Permuterm” Index on Inverted Lists:
+– Prefix each term X with a “B” – Rotate each augmented term cyclically (with wraparound) by one character, to produce n new terms – Insert all forms into the dictionary » Any data structure supporting lexically-adjacent lookup, e.g., B+ Tree Lookup: Term Key – X: Match ◘X exactly sled ◘sled – X*: Match all terms beginning with ◘X sled* ◘sled… – *X: Match all terms beginning with X◘ *sled sled◘ … – *X*: Match all terms beginning with X *sled* sled… – X*Y: Match all terms beginning with Y◘X d*sled sled◘d…
+29
+© 2006, Jamie Callan
+
+•
+
+Inverted List Indexes: Access Methods Revisited
+Task: Enable accurate and efficient document retrieval Solution: Database of inverted lists, different access methods Hash Table Access
+zebra : : : : apple
+
+B-Tree-style Access
+.... .... ....
+
+Permuterm Index
+.... ....
+
+apple
+
+.... zebra e◘appl
+
+ra◘zeb
+
+.... .... ....
+30
+
+Database of Inverted Lists
+© 2006, Jamie Callan
+
+Summary
+
+• Inverted lists for term-based access
+– Exact match lookup via hash table – Range-based lookup via B-Tree – Wildcard lookup via Permuterm Document term lists for access to parsed document – Name varies…this is a relatively new feature in most systems
+
+•
+
+31
+
+© 2006, Jamie Callan
+
+For More Information
+• I.H. Witten, A. Moffat, and T.C. Bell. “Managing Gigabytes.” Morgan Kaufmann. 1999. • G. Salton. “Automatic Text Processing.” Addison-Wesley. 1989. • E. Brown. “Execution Performance Issues in Full-Text Information Retrieval.” Ph.D.
+dissertation, University of Massachusetts. 1995. Available as technical report IR-73 at http://ciir.cs.umass.edu/.
+
+32
+
+© 2006, Jamie Callan
+
+

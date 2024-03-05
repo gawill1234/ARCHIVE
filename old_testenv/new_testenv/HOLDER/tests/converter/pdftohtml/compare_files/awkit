@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+   awk 'BEGIN      {skip = 0} \
+           {if (NF == 0)           
+               {skip = 1}  \
+            else           
+               {print};  \
+            next}'
+

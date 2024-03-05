@@ -1,0 +1,2789 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="39" />
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="4" />
+<attribute name="cache-hits-content-search" value="0" />
+<attribute name="cache-misses-content-search" value="0" />
+<attribute name="cache-hits-word" value="3" />
+<attribute name="cache-misses-word" value="0" />
+<attribute name="cache-hits-content-retrieval" value="79" />
+<attribute name="cache-misses-content-retrieval" value="0" />
+<attribute name="cache-hits-text" value="419" />
+<attribute name="cache-misses-text" value="0" />
+<attribute name="total-results-with-duplicates" value="39" />
+<document
+  vse-key="420000000000000~200611291658360000~0~6585751B17224613B7D91E51A06820F"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=420000000000000~200611291658360000~0~6585751B17224613B7D91E51A06820F"
+  vse-base-score="1.97282" la-score="3.28487"
+>
+  <content name="title" u="10">Re: Version Control</content>
+  <content name="title" u="603">holtje.vcf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="10" v="13" />
+      <pre u="11" v="11">Re: </pre>
+      <match u="12" v="13">Version Control</match>
+      <post u="14" v="13"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="abstract" u="22" v="579" />
+      <pre u="23" v="33">
+  
+
+
+
+Re: Version ControlJake Goulding wrote:
+
+> 1/ What benefits would distributed / disconnected </pre>
+      <match u="34" v="35">version control
+
+> </match>
+      <post u="36" v="55">offer us?
+
+It allows easier and more natural branching via cloning.
+
+
+You can commit your work, even if it isn'</post>
+    </solution>
+    <solution rank="2" score="1">
+      <content name="abstract" u="22" v="579" />
+      <pre u="277" v="296">of course, CVS).
+
+
+Ever since Linus Torvalds switched from BitKeeper to git, there has been
+
+a lot of interest in </pre>
+      <match u="297" v="298">version control </match>
+      <post u="299" v="318">systems.
+
+
+Git is actually a pretty exciting rethinking of the way version control
+
+works.&#160; This improved mental model has made </post>
+    </solution>
+    <solution rank="3" score="1">
+      <content name="abstract" u="22" v="579" />
+      <pre u="290" v="309">has been
+
+a lot of interest in version control systems.
+
+
+Git is actually a pretty exciting rethinking of the way </pre>
+      <match u="310" v="311">version control
+
+</match>
+      <post u="312" v="331">works.&#160; This improved mental model has made development and testing much
+
+easier and has allowed Mercurial and Bazaar to have </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content name="abstract" u="22" v="579" />
+      <pre u="320" v="339">and testing much
+
+easier and has allowed Mercurial and Bazaar to have more support and to
+
+improve quicker than previous </pre>
+      <match u="340" v="341">version control </match>
+      <post u="342" v="361">projects.
+
+
+Bazaar is funded by Canonical, which is the Mark Shuttleworth company
+
+that develops Ubuntu.&#160; Bazaar isn't going away </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="420000000000000~200611301421130000~0~E91A35025BEB493890C264519AEAD08"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=420000000000000~200611301421130000~0~E91A35025BEB493890C264519AEAD08"
+  vse-base-score="1.94612" la-score="3.28487"
+>
+  <content name="title" u="10">Re: Version Control</content>
+  <content name="title" u="1491">holtje.vcf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="10" v="13" />
+      <pre u="11" v="11">Re: </pre>
+      <match u="12" v="13">Version Control</match>
+      <post u="14" v="13"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="abstract" u="22" v="1467" />
+      <pre u="44" v="63">hope it reads the way I mean it. :-)
+
+
+Christopher R. Palmer wrote:
+
+> I seriously doubt that we will be changing </pre>
+      <match u="64" v="65">version control </match>
+      <post u="66" v="85">systems any
+
+> time soon.&#160; CVS has its annoyances, but every system does as well.&#160; I
+
+> seem to recall that SVN </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content name="abstract" u="22" v="1467" />
+      <pre u="932" v="951">clusty and I start
+
+checking files in at the same time, CVS will happily roll-out broken
+
+half-changes.&#160; A </pre>
+      <match u="952" v="953">version control </match>
+      <post u="954" v="973">system with atomic commits will prevent
+
+this.
+
+
+Newer VCS have other tools and features to help with change control.
+
+
+> - we </post>
+    </solution>
+    <solution rank="3" score="1">
+      <content name="abstract" u="22" v="1467" />
+      <pre u="1212" v="1231">developers and code, it is
+
+important that we have high quality tools that let us work efficiently
+
+and flexibly.
+
+
+Other </pre>
+      <match u="1232" v="1233">version control </match>
+      <post u="1234" v="1253">systems:
+
+* allow for read-only access
+
+* have atomic commits
+
+* don't have known corruption bug with multiple users
+
+* easier to </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content name="abstract" u="22" v="1467" />
+      <pre u="1299" v="1318">allow for change control
+
+* store file attributes and permissions.
+
+* normalize newlines and linefeeds across windows and Linux.
+
+
+In addition, some </pre>
+      <match u="1319" v="1320">version control </match>
+      <post u="1321" v="1340">systems:
+
+* can handle very large repositories (ours is big)
+
+* have the ability to share changes between checkouts without
+
+contaminating the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="420000000000000~200611291906170000~0~DFA84256D6944DDC966BF365B570C6C"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=420000000000000~200611291906170000~0~DFA84256D6944DDC966BF365B570C6C"
+  vse-base-score="1.7744" la-score="3.28487"
+>
+  <content name="title" u="10">Re: Version Control</content>
+  <content name="title" u="129">holtje.vcf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="10" v="13" />
+      <pre u="11" v="11">Re: </pre>
+      <match u="12" v="13">Version Control</match>
+      <post u="14" v="13"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="abstract" u="22" v="105" />
+      <pre u="23" v="37">
+  
+
+
+
+Re: Version ControlJake Goulding wrote:
+
+> Another big problem is that we cannot lose our existing </pre>
+      <match u="38" v="39">version
+
+> control </match>
+      <post u="40" v="59">data. SVN offers a fairly straightforward migration tool. How
+
+> do these stack up?
+
+
+The tools for migration into mercurial and </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content name="abstract" u="22" v="105" />
+      <pre u="53" v="72">The tools for migration into mercurial and bazaar work pretty well. 
+
+They aren't user friendly, but RCS (the underlying </pre>
+      <match u="73" v="74">version control </match>
+      <post u="75" v="94">for
+
+CVS) is pretty straightforward to read.
+
+
+The commonly used one is tailor.
+
+
+Ciao!
+
+
+-- 
+
+Idleness is not doing nothing. Idleness </post>
+    </solution>
+    <solution rank="3" score="0.166667">
+      <pre u="11" v="12">Re: Version </pre>
+      <match u="13" v="24">Control&lt;content name="date" />11/29/2006 2:06:19 PM&lt;content name="abstract" />
+  
+
+
+
+Re: Version </match>
+      <post u="25" v="13"></post>
+    </solution>
+    <solution rank="4" score="0.0571429">
+      <content name="abstract" u="22" v="105" />
+      <pre u="23" v="38">
+  
+
+
+
+Re: Version ControlJake Goulding wrote:
+
+> Another big problem is that we cannot lose our existing version
+
+> </pre>
+      <match u="39" v="73">control data. SVN offers a fairly straightforward migration tool. How
+
+> do these stack up?
+
+
+The tools for migration into mercurial and bazaar work pretty well. 
+
+They aren't user friendly, but RCS (the underlying version </match>
+      <post u="74" v="93">control for
+
+CVS) is pretty straightforward to read.
+
+
+The commonly used one is tailor.
+
+
+Ciao!
+
+
+-- 
+
+Idleness is not doing nothing. </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="346000000000000~200611291544510000~0~2AF608EE11C74DA28918A21712CE312"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=346000000000000~200611291544510000~0~2AF608EE11C74DA28918A21712CE312"
+  vse-base-score="1.54545" la-score="3.28487"
+>
+  <content name="title" u="10">Version Control</content>
+  <content name="title" u="171">holtje.vcf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="10" v="12" />
+      <pre u="11" v="10"></pre>
+      <match u="11" v="12">Version Control</match>
+      <post u="13" v="12"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="abstract" u="21" v="147" />
+      <pre u="22" v="31">
+  
+
+
+
+Version ControlI have heard talk about switching to a new </pre>
+      <match u="32" v="33">version control </match>
+      <post u="34" v="53">system.
+
+
+What VCS are being considered?
+
+
+I've been playing with mercurial and bazaar. They both are distributed
+
+disconnected systems </post>
+    </solution>
+    <solution rank="2" score="0.181818">
+      <pre u="11" v="11">Version </pre>
+      <match u="12" v="22">Control&lt;content name="date" />11/29/2006 10:44:54 AM&lt;content name="abstract" />
+  
+
+
+
+Version </match>
+      <post u="23" v="12"></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="420000000000000~200611291930290000~0~4E30FAE04A25474BBCEAC898AAE3688"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=420000000000000~200611291930290000~0~4E30FAE04A25474BBCEAC898AAE3688"
+  vse-base-score="1.54167" la-score="3.28487"
+>
+  <content name="title" u="10">Re: Version Control</content>
+  <content name="title" u="246">holtje.vcf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="10" v="13" />
+      <pre u="11" v="11">Re: </pre>
+      <match u="12" v="13">Version Control</match>
+      <post u="14" v="13"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="abstract" u="22" v="222" />
+      <pre u="162" v="181">4)&#160; The new thing is hopefully easier to use ...
+
+>&#160;&#160; 
+
+On the plus side, tailor makes switching between most of the </pre>
+      <match u="182" v="183">version
+
+control </match>
+      <post u="184" v="203">systems pretty easy.&#160; If we really don't like something, we can
+
+switch without loosing history.
+
+
+Ciao!
+
+
+-- 
+
+C is rarely </post>
+    </solution>
+    <solution rank="2" score="0.166667">
+      <pre u="11" v="12">Re: Version </pre>
+      <match u="13" v="24">Control&lt;content name="date" />11/29/2006 2:30:30 PM&lt;content name="abstract" />
+  
+
+
+
+Re: Version </match>
+      <post u="25" v="13"></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="420000000000000~200611291719560000~0~AD273C304C6A4111B644A73C74675C9"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=420000000000000~200611291719560000~0~AD273C304C6A4111B644A73C74675C9"
+  vse-base-score="1.98642" la-score="2.16428"
+>
+  <content name="title" u="12">Re: Version Control</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="12" v="15" />
+      <pre u="13" v="13">Re: </pre>
+      <match u="14" v="15">Version Control</match>
+      <post u="16" v="15"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="abstract" u="24" v="615" />
+      <pre u="25" v="36">
+  
+
+
+
+Re: Version ControlAnother big problem is that we cannot lose our existing </pre>
+      <match u="37" v="38">version control 
+
+</match>
+      <post u="39" v="58">data. SVN offers a fairly straightforward migration tool. How do these 
+
+stack up?
+
+
+Christian Holtje wrote:
+
+> Jake Goulding wrote:
+
+>&#160;&#160; 
+
+>> 1/ </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content name="abstract" u="24" v="615" />
+      <pre u="44" v="63">straightforward migration tool. How do these 
+
+stack up?
+
+
+Christian Holtje wrote:
+
+> Jake Goulding wrote:
+
+>&#160;&#160; 
+
+>> 1/ What benefits would distributed / disconnected </pre>
+      <match u="64" v="65">version control
+
+>> </match>
+      <post u="66" v="85">offer us?
+
+>>&#160;&#160;&#160;&#160; 
+
+> It allows easier and more natural branching via cloning.
+
+>
+
+> You can commit your work, even if it isn'</post>
+    </solution>
+    <solution rank="3" score="1">
+      <content name="abstract" u="24" v="615" />
+      <pre u="308" v="327">of course, CVS).
+
+>
+
+> Ever since Linus Torvalds switched from BitKeeper to git, there has been
+
+> a lot of interest in </pre>
+      <match u="328" v="329">version control </match>
+      <post u="330" v="349">systems.
+
+>
+
+> Git is actually a pretty exciting rethinking of the way version control
+
+> works.&#160; This improved mental model has made </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content name="abstract" u="24" v="615" />
+      <pre u="321" v="340">has been
+
+> a lot of interest in version control systems.
+
+>
+
+> Git is actually a pretty exciting rethinking of the way </pre>
+      <match u="341" v="342">version control
+
+> </match>
+      <post u="343" v="362">works.&#160; This improved mental model has made development and testing much
+
+> easier and has allowed Mercurial and Bazaar to have </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="420000000000000~200611301441500000~0~099B1661BB644192BE7C5B5C76B3283"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=420000000000000~200611301441500000~0~099B1661BB644192BE7C5B5C76B3283"
+  vse-base-score="1.94612" la-score="2.16428"
+>
+  <content name="title" u="13">Re: Version Control</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="13" v="16" />
+      <pre u="14" v="14">Re: </pre>
+      <match u="15" v="16">Version Control</match>
+      <post u="17" v="16"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="abstract" u="25" v="1548" />
+      <pre u="126" v="145">hope it reads the way I mean it. :-)
+
+> 
+
+> Christopher R. Palmer wrote:
+
+>> I seriously doubt that we will be changing </pre>
+      <match u="146" v="147">version control </match>
+      <post u="148" v="167">systems any
+
+>> time soon.&#160; CVS has its annoyances, but every system does as well.&#160; I
+
+>> seem to recall that SVN </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content name="abstract" u="25" v="1548" />
+      <pre u="1014" v="1033">clusty and I start
+
+> checking files in at the same time, CVS will happily roll-out broken
+
+> half-changes.&#160; A </pre>
+      <match u="1034" v="1035">version control </match>
+      <post u="1036" v="1055">system with atomic commits will prevent
+
+> this.
+
+> 
+
+> Newer VCS have other tools and features to help with change control.
+
+> 
+
+>> - we </post>
+    </solution>
+    <solution rank="3" score="1">
+      <content name="abstract" u="25" v="1548" />
+      <pre u="1294" v="1313">developers and code, it is
+
+> important that we have high quality tools that let us work efficiently
+
+> and flexibly.
+
+> 
+
+> Other </pre>
+      <match u="1314" v="1315">version control </match>
+      <post u="1316" v="1335">systems:
+
+> * allow for read-only access
+
+> * have atomic commits
+
+> * don't have known corruption bug with multiple users
+
+> * easier to </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content name="abstract" u="25" v="1548" />
+      <pre u="1381" v="1400">allow for change control
+
+> * store file attributes and permissions.
+
+> * normalize newlines and linefeeds across windows and Linux.
+
+> 
+
+> In addition, some </pre>
+      <match u="1401" v="1402">version control </match>
+      <post u="1403" v="1422">systems:
+
+> * can handle very large repositories (ours is big)
+
+> * have the ability to share changes between checkouts without
+
+> contaminating the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="420000000000000~200611301529470000~0~9211D01101CC4E348CCD638FAEBB8AF"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=420000000000000~200611301529470000~0~9211D01101CC4E348CCD638FAEBB8AF"
+  vse-base-score="1.94612" la-score="2.16428"
+>
+  <content name="title" u="15">Re: Version Control</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="15" v="18" />
+      <pre u="16" v="16">Re: </pre>
+      <match u="17" v="18">Version Control</match>
+      <post u="19" v="18"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="abstract" u="27" v="1671" />
+      <pre u="241" v="260">hope it reads the way I mean it. :-)
+
+>>
+
+>> Christopher R. Palmer wrote:
+
+>>> I seriously doubt that we will be changing </pre>
+      <match u="261" v="262">version control </match>
+      <post u="263" v="282">systems any
+
+>>> time soon.&#160; CVS has its annoyances, but every system does as well.&#160; I
+
+>>> seem to recall that SVN </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content name="abstract" u="27" v="1671" />
+      <pre u="1129" v="1148">clusty and I start
+
+>> checking files in at the same time, CVS will happily roll-out broken
+
+>> half-changes.&#160; A </pre>
+      <match u="1149" v="1150">version control </match>
+      <post u="1151" v="1170">system with atomic commits will prevent
+
+>> this.
+
+>>
+
+>> Newer VCS have other tools and features to help with change control.
+
+>>
+
+>>> - we </post>
+    </solution>
+    <solution rank="3" score="1">
+      <content name="abstract" u="27" v="1671" />
+      <pre u="1409" v="1428">developers and code, it is
+
+>> important that we have high quality tools that let us work efficiently
+
+>> and flexibly.
+
+>>
+
+>> Other </pre>
+      <match u="1429" v="1430">version control </match>
+      <post u="1431" v="1450">systems:
+
+>> * allow for read-only access
+
+>> * have atomic commits
+
+>> * don't have known corruption bug with multiple users
+
+>> * easier to </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content name="abstract" u="27" v="1671" />
+      <pre u="1496" v="1515">allow for change control
+
+>> * store file attributes and permissions.
+
+>> * normalize newlines and linefeeds across windows and Linux.
+
+>>
+
+>> In addition, some </pre>
+      <match u="1516" v="1517">version control </match>
+      <post u="1518" v="1537">systems:
+
+>> * can handle very large repositories (ours is big)
+
+>> * have the ability to share changes between checkouts without
+
+>> contaminating the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="420000000000000~200611301542160000~0~1CAA52108F1446868CCEF23A77BB834"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=420000000000000~200611301542160000~0~1CAA52108F1446868CCEF23A77BB834"
+  vse-base-score="1.94398" la-score="2.16428"
+>
+  <content name="title" u="12">Re: Version Control</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="12" v="15" />
+      <pre u="13" v="13">Re: </pre>
+      <match u="14" v="15">Version Control</match>
+      <post u="16" v="15"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="abstract" u="24" v="1760" />
+      <pre u="279" v="298">hope it reads the way I mean it. :-)
+      
+Christopher R. Palmer wrote:
+      I seriously doubt that we will be
+changing </pre>
+      <match u="299" v="300">version control </match>
+      <post u="301" v="320">systems any
+        
+time soon.Â&#160; CVS has its annoyances, but every system does as well.Â&#160; I
+        
+seem to recall </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content name="abstract" u="24" v="1760" />
+      <pre u="1200" v="1219">and I start
+      
+checking files in at the same time, CVS will happily roll-out broken
+      
+half-changes.Â&#160; A </pre>
+      <match u="1220" v="1221">version control </match>
+      <post u="1222" v="1241">system with atomic commits will
+prevent
+      
+this.
+      
+Newer VCS have other tools and features to help with change control.
+      - we </post>
+    </solution>
+    <solution rank="3" score="1">
+      <content name="abstract" u="24" v="1760" />
+      <pre u="1490" v="1509">developers and code, it is
+      
+important that we have high quality tools that let us work efficiently
+      
+and flexibly.
+      
+Other </pre>
+      <match u="1510" v="1511">version control </match>
+      <post u="1512" v="1531">systems:
+      
+* allow for read-only access
+      
+* have atomic commits
+      
+* don't have known corruption bug with multiple users
+      
+* easier to </post>
+    </solution>
+    <solution rank="4" score="1">
+      <content name="abstract" u="24" v="1760" />
+      <pre u="1577" v="1596">allow for change control
+      
+* store file attributes and permissions.
+      
+* normalize newlines and linefeeds across windows and Linux.
+      
+In addition, some </pre>
+      <match u="1597" v="1598">version control </match>
+      <post u="1599" v="1618">systems:
+      
+* can handle very large repositories (ours is big)
+      
+* have the ability to share changes between checkouts without
+      
+contaminating the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="420000000000000~200611300316220000~0~B18E88992F934D99A346FEE5C9334C3"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=420000000000000~200611300316220000~0~B18E88992F934D99A346FEE5C9334C3"
+  vse-base-score="1.79395" la-score="2.16428"
+>
+  <content name="title" u="13">Re: Version Control</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="13" v="16" />
+      <pre u="14" v="14">Re: </pre>
+      <match u="15" v="16">Version Control</match>
+      <post u="17" v="16"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="abstract" u="25" v="568" />
+      <pre u="26" v="35">
+  
+
+
+
+Re: Version ControlI seriously doubt that we will be changing </pre>
+      <match u="36" v="37">version control </match>
+      <post u="38" v="57">systems any time 
+
+soon.&#160; CVS has its annoyances, but every system does as well.&#160; I seem to 
+
+recall that SVN </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content name="abstract" u="25" v="568" />
+      <pre u="436" v="455">what code is in every release.
+
+
+Cheers,
+
+Chris.
+
+Christian Holtje wrote:
+
+> I have heard talk about switching to a new </pre>
+      <match u="456" v="457">version control </match>
+      <post u="458" v="477">system.
+
+> 
+
+> What VCS are being considered?
+
+> 
+
+> I've been playing with mercurial and bazaar. They both are distributed
+
+> disconnected systems </post>
+    </solution>
+    <solution rank="3" score="0.222222">
+      <content name="abstract" u="25" v="568" />
+      <pre u="166" v="185">makes use of cvs to identify versions, repository 
+
+versions, etc.&#160; This would need to be rewritten for the new revision 
+
+</pre>
+      <match u="186" v="194">control software.
+
+
+- we have procedures for dealing with versions </match>
+      <post u="195" v="214">that work and that we 
+
+understand, developing new procedures and getting them to work would take 
+
+time and effort and </post>
+    </solution>
+    <solution rank="4" score="0.166667">
+      <pre u="14" v="15">Re: Version </pre>
+      <match u="16" v="27">Control&lt;content name="date" />11/29/2006 10:16:25 PM&lt;content name="abstract" />
+  
+
+
+
+Re: Version </match>
+      <post u="28" v="16"></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="420000000000000~200611291552040000~0~6BA8C1D3AE71420F8E37E93744D017F"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=420000000000000~200611291552040000~0~6BA8C1D3AE71420F8E37E93744D017F"
+  vse-base-score="1.77374" la-score="2.16428"
+>
+  <content name="title" u="12">Re: Version Control</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="12" v="15" />
+      <pre u="13" v="13">Re: </pre>
+      <match u="14" v="15">Version Control</match>
+      <post u="16" v="15"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="abstract" u="24" v="197" />
+      <pre u="25" v="32">
+  
+
+
+
+Re: Version Control1/ What benefits would distributed / disconnected </pre>
+      <match u="33" v="34">version control </match>
+      <post u="35" v="54">offer us?
+
+2/ What kind of community support do these have over more traditional 
+
+systems.
+
+3/ Are there web-based </post>
+    </solution>
+    <solution rank="2" score="1">
+      <content name="abstract" u="24" v="197" />
+      <pre u="56" v="75">for them?
+
+4/ Is there a 'blame' command?
+
+
+Christian Holtje wrote:
+
+> I have heard talk about switching to a new </pre>
+      <match u="76" v="77">version control </match>
+      <post u="78" v="97">system.
+
+>
+
+> What VCS are being considered?
+
+>
+
+> I've been playing with mercurial and bazaar. They both are distributed
+
+> disconnected systems </post>
+    </solution>
+    <solution rank="3" score="0.166667">
+      <pre u="13" v="14">Re: Version </pre>
+      <match u="15" v="26">Control&lt;content name="date" />11/29/2006 10:52:05 AM&lt;content name="abstract" />
+  
+
+
+
+Re: Version </match>
+      <post u="27" v="15"></post>
+    </solution>
+    <solution rank="4" score="0.0465116">
+      <content name="abstract" u="24" v="197" />
+      <pre u="25" v="33">
+  
+
+
+
+Re: Version Control1/ What benefits would distributed / disconnected version </pre>
+      <match u="34" v="76">control offer us?
+
+2/ What kind of community support do these have over more traditional 
+
+systems.
+
+3/ Are there web-based frontends for them?
+
+4/ Is there a 'blame' command?
+
+
+Christian Holtje wrote:
+
+> I have heard talk about switching to a new version </match>
+      <post u="77" v="96">control system.
+
+>
+
+> What VCS are being considered?
+
+>
+
+> I've been playing with mercurial and bazaar. They both are distributed
+
+> disconnected </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="420000000000000~200611291748120000~0~51D538AA83DD4E5A89ED0BB7AE2B97B"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=420000000000000~200611291748120000~0~51D538AA83DD4E5A89ED0BB7AE2B97B"
+  vse-base-score="1.54167" la-score="2.16428"
+>
+  <content name="title" u="12">Re: Version Control</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="12" v="15" />
+      <pre u="13" v="13">Re: </pre>
+      <match u="14" v="15">Version Control</match>
+      <post u="16" v="15"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="abstract" u="24" v="200" />
+      <pre u="87" v="106">not sure how comfortable I 
+
+am with that!
+
+Christian Holtje wrote:
+
+> I have heard talk about switching to a new </pre>
+      <match u="107" v="108">version control </match>
+      <post u="109" v="128">system.
+
+> 
+
+> What VCS are being considered?
+
+> 
+
+> I've been playing with mercurial and bazaar. They both are distributed
+
+> disconnected systems </post>
+    </solution>
+    <solution rank="2" score="0.166667">
+      <pre u="13" v="14">Re: Version </pre>
+      <match u="15" v="26">Control&lt;content name="date" />11/29/2006 12:48:18 PM&lt;content name="abstract" />
+  
+
+
+
+Re: Version </match>
+      <post u="27" v="15"></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="420000000000000~200611291916040000~0~CC5A3BDE26EF4D4C9187A04D8030A94"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=420000000000000~200611291916040000~0~CC5A3BDE26EF4D4C9187A04D8030A94"
+  vse-base-score="1.54167" la-score="2.16428"
+>
+  <content name="title" u="14">Re: Version Control</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="14" v="17" />
+      <pre u="15" v="15">Re: </pre>
+      <match u="16" v="17">Version Control</match>
+      <post u="18" v="17"></post>
+    </solution>
+    <solution rank="1" score="1">
+      <content name="abstract" u="26" v="357" />
+      <pre u="244" v="263">not sure how comfortable I 
+
+> am with that!
+
+> 
+
+> 
+
+> Christian Holtje wrote:
+
+> > I have heard talk about switching to a new </pre>
+      <match u="264" v="265">version control </match>
+      <post u="266" v="285">system.
+
+> > 
+
+> > What VCS are being considered?
+
+> > 
+
+> > I've been playing with mercurial and bazaar. They both are distributed
+
+> > disconnected systems </post>
+    </solution>
+    <solution rank="2" score="0.166667">
+      <pre u="15" v="16">Re: Version </pre>
+      <match u="17" v="28">Control&lt;content name="date" />11/29/2006 2:16:18 PM&lt;content name="abstract" />
+  
+
+
+
+Re: Version </match>
+      <post u="29" v="17"></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="420000000000000~200611291928410000~0~A9C94ACF3F3F49AA9D7556939C87E64"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=420000000000000~200611291928410000~0~A9C94ACF3F3F49AA9D7556939C87E64"
+  vse-base-score="1.08333" la-score="3.28487"
+>
+  <content name="title" u="10">Re: Version Control</content>
+  <content name="title" u="288">holtje.vcf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="title" u="10" v="13" />
+      <pre u="11" v="11">Re: </pre>
+      <match u="12" v="13">Version Control</match>
+      <post u="14" v="13"></post>
+    </solution>
+    <solution rank="1" score="0.166667">
+      <pre u="11" v="12">Re: Version </pre>
+      <match u="13" v="24">Control&lt;content name="date" />11/29/2006 2:28:44 PM&lt;content name="abstract" />
+  
+
+
+
+Re: Version </match>
+      <post u="25" v="13"></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="357000000000000~200704100057180000~0~662D3C807676437C9D37D0211815B9F"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=357000000000000~200704100057180000~0~662D3C807676437C9D37D0211815B9F"
+  vse-base-score="1.14286" la-score="2.16428"
+>
+  <content name="title" u="12">new sysadmin repository</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <content name="abstract" u="24" v="1012" />
+      <pre u="57" v="76">on servers that is not part of a package of&#160; 
+
+some sort should really be put here, so we have </pre>
+      <match u="77" v="78">version control </match>
+      <post u="79" v="98">for&#160; 
+
+it and an authoritative version.
+
+
+If you are someone who does any administration on a server (I would&#160; 
+
+say </post>
+    </solution>
+    <solution rank="1" score="0.285714">
+      <content name="abstract" u="24" v="1012" />
+      <pre u="58" v="77">servers that is not part of a package of&#160; 
+
+some sort should really be put here, so we have version </pre>
+      <match u="78" v="84">control for&#160; 
+
+it and an authoritative version.
+
+
+</match>
+      <post u="85" v="104">If you are someone who does any administration on a server (I would&#160; 
+
+say anyone who has root access to </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="424000000000000~200610121325080000~0~96A58595E79D4C69BF3971EE1018CD2"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=424000000000000~200610121325080000~0~96A58595E79D4C69BF3971EE1018CD2"
+  vse-base-score="0.25" la-score="4.27314"
+>
+  <content name="title" u="12">[Fwd: Vivisimo demonstration for British Telecom]</content>
+  <content name="title" u="115">Karen Hogan</content>
+  <content name="title" u="641">Karen Hogan</content>
+  <content name="title" u="915">image001.jpg</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.25">
+      <content name="abstract" u="644" v="910" />
+      <pre u="872" v="891">vivisimo.com&#160;&#160;&#160;&#160;&#160; clusty.comBEST ENTERPRISE SEARCH SOLUTION 2006 by INFOWORLD"Vivísimo Velocity races ahead of the search pack Souped-up </pre>
+      <match u="892" v="899">Version 5, combines high speed with killer control"</match>
+      <post u="900" v="910">http://www.infoworld.com/article/06/09/08/37TCvelocity_1.html&#160;&#160;&#160;</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="300000000000000~200702221927450000~0~CD0E115811B74343835263622B3267E"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=300000000000000~200702221927450000~0~CD0E115811B74343835263622B3267E"
+  vse-base-score="0.0952381" la-score="3.28487"
+>
+  <content name="title" u="16">Re: Word/Excel/Outlook plugins</content>
+  <content name="title" u="646">holtje.vcf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0952381">
+      <content name="abstract" u="30" v="622" />
+      <pre u="145" v="164">rather they become an office suite company than remain a search company. :-D
+
+
+Ciao!
+
+Andre Lessa wrote:
+
+>
+
+> Developing all the </pre>
+      <match u="165" v="185">controls from scratch would be a pain ... it's
+
+> tricky and just to get the core hooks compatible across multiple
+
+> versions </match>
+      <post u="186" v="205">of Office would take time and a lot of debugging from our part.
+
+>
+
+> The best solution is to rely on </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="300000000000000~200702222026000000~0~D34698B57CA34A498848A3A6AF9E660"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=300000000000000~200702222026000000~0~D34698B57CA34A498848A3A6AF9E660"
+  vse-base-score="0.0952381" la-score="3.28487"
+>
+  <content name="title" u="16">Re: Word/Excel/Outlook plugins</content>
+  <content name="title" u="835">holtje.vcf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0952381">
+      <content name="abstract" u="30" v="811" />
+      <pre u="398" v="417">rather they become an office suite company than remain a search
+
+>> company. :-D
+
+>>
+
+>> Ciao!
+
+>>
+
+>>
+
+>> Andre Lessa wrote:
+
+>>> Developing all the </pre>
+      <match u="418" v="438">controls from scratch would be a pain ... it's
+
+>>> tricky and just to get the core hooks compatible across multiple
+
+>>> versions </match>
+      <post u="439" v="458">of Office would take time and a lot of debugging from our
+
+>>> part.
+
+>>>
+
+>>> The best solution is to rely on </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="373000000000000~200704051549160000~0~93C22660DA4743D8878D9527B3E8DCA"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=373000000000000~200704051549160000~0~93C22660DA4743D8878D9527B3E8DCA"
+  vse-base-score="0.1" la-score="2.16428"
+>
+  <content name="title" u="16">Re: Can we put the following offline configuration file on the FTP site for customer download?</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.1">
+      <content name="abstract" u="41" v="28381" />
+      <pre u="79" v="98">tool, but they are insisting on
+this method.&#160; We can remove it as soon as they've downloaded.
+  
+Thanks,
+  
+
+&lt;?xml </pre>
+      <match u="99" v="118"><![CDATA[version="1.0" encoding="UTF-8" standalone="yes" ?><vce><key><license><![CDATA[KKBJFHJMOHJMAMIGFBECNIHGMPHEBJPJHDHKHDBICLJFMEDOCJAODNLPOMPFIMEOECPDBDNFIMEOECCKHDLBLNIFIMEOECPGGEGIECCBDIDLIJAMLGGEGIECFJJLJHLNIJPGGOCGENDBBLFIGBCLPIJLMLGDFHBNDBBLFIMCMOOEKHBCKDBNDMBLDBHCMPFLDBHCMPOEMOINDAFECBHCMPLJJKCHDDLGBFIGNGIONCKJJKCHDDCGGFNIMMJIJKCHDDJAANBJNLIONPBAANBJNLEPPCOGCELAANBJNLGEEAICOGPHAEFBJEEAICOGKLLPHNBJFAGEHCOGAKKIMMFFIDJOLMMOPLNFNKKIMMFFJFFHDDKKJFFHDDKKKNJJAALBKLCFDCGFODCNJJAALBGNJJAALBJKAPGHCHMKAPNGEHPNPDCKJLIPEJOMLJCLFDCKJLIPKCCKJLIPFFNMLMMIDFANGNIIGBFMLMNIGFPMINGJLDIMDNCJOK]]]><![CDATA[]></license></key><users><vce><user name="default" do-not-delete="do-not-delete"><user-identity><set-var name="user.name"><![CDATA[default]]]><![CDATA[]></set-var></user-identity><user-globals /><user-permissions>
+  </user-permissions><user-options /><user-admin-options /><user-query-history /><user-admin-history /><user-customer /><user-customer-log /></user><user name="northrop-grumman"><user-identity><set-var name="user.encrypted-password" project="vivisimo"><![CDATA[FBDODFKMJHONPPNDNNGOHHMNPAIDMHGPOCPDHEAIMBIFJANNMEAFIJJPPDOODOAMLFELNNECKCALMAIODOAMLFBODOAMLFINNNDKPBEKFMJLBBIOLAICDLDG]]]><![CDATA[]></set-var><set-var name="user.email" project="vivisimo"><![CDATA[james.teaff@ngc.com]]]><![CDATA[]></set-var><set-var name="user.organization" project="vivisimo"><![CDATA[Northrop Grumman Mission Systems, Command Control ]]></match>
+      <post u="119" v="138"><![CDATA[and Intel Div]]]><![CDATA[]></set-var><set-var name="user.name"><![CDATA[northrop-grumman]]]><![CDATA[]></set-var></user-identity><user-permissions><permission name="administrator"><![CDA
+TA[true]]]><![CDATA[]></permission><permission name="admin-user"><![CDATA[true]]]><![CDATA[]></permission><permission name="customer"><![CDATA[true]]]><![CDATA[]></permission><permission name="partner"><![CDATA[true]]]><![CDATA[]></permission><permission name="view-permissions"><![CDATA[true]]]><![CDATA[]></permission><permission name="options-modify"><![CDATA[true]]]><![CDATA[]></permission><permission name="repository-modify"><![CDATA[true]]]><![CDATA[]></permission><permission name="vse-modify"><![CDATA[true]]]><![CDATA[]></permission><permission name="xml-mode"><![CDATA[true]]]><![CDATA[]></permission><permission name="run-source-tests"><![CDATA[true]]]><![CDATA[]></permission><permission name="vnet"><![CDATA[true]]]><![CDATA[]></permission></user-permissions><user-admin-options>
+  </user-admin-options><user-source-variables>
+  </user-source-variables><user-customer>
+  </user-customer><user-customer-log /></user></vce></users><repository><vce version="4.0"><source max-elt-id="21389" elt-id="21075" modified-by="lessa" display-name="USA Today" logo="/images/logos/usatoday.gif" source-type="news" modified="1165964664" name="USAToday">
+
+  <submit elt-id="21069">
+    <form elt-id="21065">
+      <call-function name="standard-form" elt-id="21062">
+        <with name="action-value" elt-id="21058"><![CDATA[http://asp.usatoday.com/search/]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="300000000000000~200702221940000000~0~9B7EC31C39FF4FFFBF7915531471906"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=300000000000000~200702221940000000~0~9B7EC31C39FF4FFFBF7915531471906"
+  vse-base-score="0.0952381" la-score="2.16428"
+>
+  <content name="title" u="16">Re: Word/Excel/Outlook plugins</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0952381">
+      <content name="abstract" u="30" v="590" />
+      <pre u="184" v="203">rather they become an office suite company than remain a search company. :-D
+
+> 
+
+> Ciao!
+
+> 
+
+> 
+
+> Andre Lessa wrote:
+
+>> Developing all the </pre>
+      <match u="204" v="224">controls from scratch would be a pain ... it's
+
+>> tricky and just to get the core hooks compatible across multiple
+
+>> versions </match>
+      <post u="225" v="244">of Office would take time and a lot of debugging from our part.
+
+>>
+
+>> The best solution is to rely on </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="300000000000000~200702222015200000~0~486996213757464AB98020C2F30C4DF"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=300000000000000~200702222015200000~0~486996213757464AB98020C2F30C4DF"
+  vse-base-score="0.0952381" la-score="2.16428"
+>
+  <content name="title" u="16">Re: Word/Excel/Outlook plugins</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0952381">
+      <content name="abstract" u="30" v="662" />
+      <pre u="283" v="302">rather they become an office suite company than remain a search
+company. :-D 
+Ciao! 
+Andre Lessa wrote: Developing all the </pre>
+      <match u="303" v="323">controls from scratch
+would be a pain ... it's 
+tricky and just to get the core hooks compatible across multiple 
+versions </match>
+      <post u="324" v="343">of Office would take time and a lot of debugging from our
+part. 
+The best solution is to rely on </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="300000000000000~200702221725000000~0~9E1FBA2BF7454529BC2069681832F9E"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=300000000000000~200702221725000000~0~9E1FBA2BF7454529BC2069681832F9E"
+  vse-base-score="0.0952381" la-score="2.16428"
+>
+  <content name="title" u="14">Re: Word/Excel/Outlook plugins</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0952381">
+      <content name="abstract" u="28" v="395" />
+      <pre u="29" v="35">
+  
+
+
+
+Re: Word/Excel/Outlook pluginsDeveloping all the </pre>
+      <match u="36" v="56">controls from scratch would be a pain ... it's tricky 
+
+and just to get the core hooks compatible across multiple versions </match>
+      <post u="57" v="76">of 
+
+Office would take time and a lot of debugging from our part.
+
+
+The best solution is to rely on </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="986000000000000~200702091854490000~0~B99620E365A341C98FC980EFD739955"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=986000000000000~200702091854490000~0~B99620E365A341C98FC980EFD739955"
+  vse-base-score="0.0225788" la-score="3.28487"
+>
+  <content name="title" u="12">Velocity 5.5 Press Release</content>
+  <content name="title" u="931">Velocity 5.5 Final.doc</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="25" v="907" />
+      <pre u="190" v="209">a peripheral end-user tool for business to an enterprise-strength
+application for the knowledge worker to harness and take </pre>
+      <match u="210" v="210">control </match>
+      <post u="211" v="230">of business
+information.
+
+&#160;
+
+Built for scalability, Velocity 5.5 is a milestone in the
+evolution of enterprise search technology, empowering customers </post>
+    </solution>
+    <solution rank="1" score="0.0113397">
+      <content name="abstract" u="25" v="907" />
+      <pre u="745" v="764">extract and manipulate all available content, regardless of
+location. By combining the simplicity of consumer search with the flexibility
+and </pre>
+      <match u="765" v="765">control </match>
+      <post u="766" v="785">of enterprise software, organizations can reap the benefits of
+increased user adoption and satisfaction without compromising on performance,
+scalability, security </post>
+    </solution>
+    <solution rank="2" score="0.0113397">
+      <content name="abstract" u="25" v="907" />
+      <pre u="818" v="837">About Vivisimo, Inc.
+
+Vivisimo does search right by combining the simplicity
+and innovation of consumer search with the flexibility and </pre>
+      <match u="838" v="838">control </match>
+      <post u="839" v="858">of
+enterprise software. The company works with customers to understand their goals
+and quickly deploy solutions that maximize the business </post>
+    </solution>
+    <solution rank="3" score="0.0113397">
+      <content name="abstract" u="936" v="1766" />
+      <pre u="1050" v="1069">a peripheral end-user tool for business to an enterprise-strength application for the knowledge worker to harness and take </pre>
+      <match u="1070" v="1070">control </match>
+      <post u="1071" v="1090">of business information.Built for scalability, Velocity 5.5 is a milestone in the evolution of enterprise search technology, empowering customers </post>
+    </solution>
+    <solution rank="4" score="0.0113397">
+      <content name="abstract" u="936" v="1766" />
+      <pre u="1604" v="1623">extract and manipulate all available content, regardless of location. By combining the simplicity of consumer search with the flexibility and </pre>
+      <match u="1624" v="1624">control </match>
+      <post u="1625" v="1644">of enterprise software, organizations can reap the benefits of increased user adoption and satisfaction without compromising on performance, scalability, security </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="700000000000000~200612151453170000~0~C946409C768B49AFA00E0DA0B652F57"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=700000000000000~200612151453170000~0~C946409C768B49AFA00E0DA0B652F57"
+  vse-base-score="0.0199831" la-score="3.7957"
+>
+  <content name="title" u="10">It's All Text version 0.1.2</content>
+  <content name="title" u="155">itsalltext.xpi</content>
+  <content name="title" u="4751">holtje.vcf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="158" v="4746" />
+      <pre u="1225" v="1244">to claim rights or contestyour rights to work written entirely by you; rather, the intent is toexercise the right to </pre>
+      <match u="1245" v="1245">control </match>
+      <post u="1246" v="1265">the distribution of derivative orcollective works based on the Program.In addition, mere aggregation of another work not based on </post>
+    </solution>
+    <solution rank="1" score="0.00866025">
+      <content name="title" u="10" v="18" />
+      <pre u="11" v="14">It's All Text </pre>
+      <match u="15" v="15">version </match>
+      <post u="16" v="18">0.1.2</post>
+    </solution>
+    <solution rank="2" score="0.00866025">
+      <content name="abstract" u="27" v="131" />
+      <pre u="28" v="31">
+  
+
+
+
+It's All Text </pre>
+      <match u="32" v="32">version </match>
+      <post u="33" v="52">0.1.2Attached is a new version of It's All Text.
+
+
+It should behave better now in MS Windows </post>
+    </solution>
+    <solution rank="3" score="0.00866025">
+      <content name="abstract" u="27" v="131" />
+      <pre u="28" v="38">
+  
+
+
+
+It's All Text version 0.1.2Attached is a new </pre>
+      <match u="39" v="39">version </match>
+      <post u="40" v="59">of It's All Text.
+
+
+It should behave better now in MS Windows and it fixed a
+
+couple minor problems.
+
+
+</post>
+    </solution>
+    <solution rank="4" score="0.00866025">
+      <content name="abstract" u="158" v="4746" />
+      <pre u="184" v="203">itsalltext chrome/content/overlay chrome://browser/content/browser.xul chrome://itsalltext/content/itsalltext.xul
+
+
+ gpl.txt
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;GNU GENERAL PUBLIC LICENSE&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</pre>
+      <match u="204" v="204">Version </match>
+      <post u="205" v="224">2, June 1991Copyright (C) 1989, 1991 Free Software Foundation, Inc.,51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USAEveryone </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="701000000000000~200612181412310000~0~0AC12AF5CF14479C95C115E24F2774B"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=701000000000000~200612181412310000~0~0AC12AF5CF14479C95C115E24F2774B"
+  vse-base-score="0.0199831" la-score="3.7957"
+>
+  <content name="title" u="10">It's All Text 0.2</content>
+  <content name="title" u="195">itsalltext-0.2.xpi</content>
+  <content name="title" u="5500">holtje.vcf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="200" v="5495" />
+      <pre u="1341" v="1360">to claim rights or contestyour rights to work written entirely by you; rather, the intent is toexercise the right to </pre>
+      <match u="1361" v="1361">control </match>
+      <post u="1362" v="1381">the distribution of derivative orcollective works based on the Program.In addition, mere aggregation of another work not based on </post>
+    </solution>
+    <solution rank="1" score="0.00866025">
+      <content name="abstract" u="24" v="171" />
+      <pre u="25" v="43">
+  
+
+
+
+It's All Text 0.2This has the gumdrops I've been promising.
+
+
+This should also be the last </pre>
+      <match u="44" v="44">version </match>
+      <post u="45" v="64">I send the actual .xpi to techies,
+
+since I have submitted it to addons.&#160; Any current versions should
+
+automagically update </post>
+    </solution>
+    <solution rank="2" score="0.00866025">
+      <content name="abstract" u="24" v="171" />
+      <pre u="41" v="60">be the last version I send the actual .xpi to techies,
+
+since I have submitted it to addons.&#160; Any current </pre>
+      <match u="61" v="61">versions </match>
+      <post u="62" v="81">should
+
+automagically update when addons is updated.
+
+
+ToDo List:
+
+&#160;* The cache should periodically be cleaned up.
+
+&#160;* The prefereces dialog should </post>
+    </solution>
+    <solution rank="3" score="0.00866025">
+      <content name="abstract" u="200" v="5495" />
+      <pre u="213" v="232">itsalltext.js
+
+  
+  
+  itsalltext.js
+
+  
+  
+  itsalltext.xul
+
+  
+  
+  options.js
+
+  
+  
+  options.xul
+ about.xul
+ changelog.txt
+****** 0.2 ******First release to addons.This </pre>
+      <match u="233" v="233">version </match>
+      <post u="234" v="253">is very beta.&#160;Upon installation, go to Tools->Addons andselect It's All Text and set the Preferences.&#160;Specifically, you'</post>
+    </solution>
+    <solution rank="4" score="0.00866025">
+      <content name="abstract" u="200" v="5495" />
+      <pre u="300" v="319">itsalltext chrome/content/overlay chrome://browser/content/browser.xul chrome://itsalltext/content/itsalltext.xul
+
+
+ gpl.txt
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;GNU GENERAL PUBLIC LICENSE&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</pre>
+      <match u="320" v="320">Version </match>
+      <post u="321" v="340">2, June 1991Copyright (C) 1989, 1991 Free Software Foundation, Inc.,51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USAEveryone </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="193000000000000~200612111516500000~0~805D69A6B45547568B4B2E11B45BD3E"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=193000000000000~200612111516500000~0~805D69A6B45547568B4B2E11B45BD3E"
+  vse-base-score="0.0199831" la-score="3.7957"
+>
+  <content name="title" u="10">Very Beta FireFox Extension: It's All Text</content>
+  <content name="title" u="249">itsalltext.xpi</content>
+  <content name="title" u="4637">holtje.vcf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="252" v="4632" />
+      <pre u="1319" v="1338">to claim rights or contestyour rights to work written entirely by you; rather, the intent is toexercise the right to </pre>
+      <match u="1339" v="1339">control </match>
+      <post u="1340" v="1359">the distribution of derivative orcollective works based on the Program.In addition, mere aggregation of another work not based on </post>
+    </solution>
+    <solution rank="1" score="0.00866025">
+      <content name="abstract" u="252" v="4632" />
+      <pre u="278" v="297">itsalltext chrome/content/overlay chrome://browser/content/browser.xul chrome://itsalltext/content/itsalltext.xul
+
+
+ gpl.txt
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;GNU GENERAL PUBLIC LICENSE&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</pre>
+      <match u="298" v="298">Version </match>
+      <post u="299" v="318">2, June 1991Copyright (C) 1989, 1991 Free Software Foundation, Inc.,51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USAEveryone </post>
+    </solution>
+    <solution rank="2" score="0.00866025">
+      <content name="abstract" u="252" v="4632" />
+      <pre u="2249" v="2268">Free Software Foundation may publish revised and/or new versionsof the General Public License from time to time.&#160;Such new </pre>
+      <match u="2269" v="2269">versions </match>
+      <post u="2270" v="2289">willbe similar in spirit to the present version, but may differ in detail toaddress new problems or concerns.Each version </post>
+    </solution>
+    <solution rank="3" score="0.00866025">
+      <content name="abstract" u="252" v="4632" />
+      <pre u="2257" v="2276">new versionsof the General Public License from time to time.&#160;Such new versions willbe similar in spirit to the present </pre>
+      <match u="2277" v="2277">version, </match>
+      <post u="2278" v="2297">but may differ in detail toaddress new problems or concerns.Each version is given a distinguishing version number.&#160;If the </post>
+    </solution>
+    <solution rank="4" score="0.00866025">
+      <content name="abstract" u="252" v="4632" />
+      <pre u="2269" v="2288">versions willbe similar in spirit to the present version, but may differ in detail toaddress new problems or concerns.Each </pre>
+      <match u="2289" v="2289">version </match>
+      <post u="2290" v="2309">is given a distinguishing version number.&#160;If the Programspecifies a version number of this License which applies to it and "</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="433000000000000~200612111611070000~0~D3A210BA6F914412B3ECF766243AB9F"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=433000000000000~200612111611070000~0~D3A210BA6F914412B3ECF766243AB9F"
+  vse-base-score="0.0199831" la-score="3.7957"
+>
+  <content name="title" u="10">Re: Very Beta FireFox Extension: It's All Text</content>
+  <content name="title" u="145">itsalltext.xpi</content>
+  <content name="title" u="4513">holtje.vcf</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="148" v="4508" />
+      <pre u="1215" v="1234">to claim rights or contestyour rights to work written entirely by you; rather, the intent is toexercise the right to </pre>
+      <match u="1235" v="1235">control </match>
+      <post u="1236" v="1255">the distribution of derivative orcollective works based on the Program.In addition, mere aggregation of another work not based on </post>
+    </solution>
+    <solution rank="1" score="0.00866025">
+      <content name="abstract" u="148" v="4508" />
+      <pre u="174" v="193">itsalltext chrome/content/overlay chrome://browser/content/browser.xul chrome://itsalltext/content/itsalltext.xul
+
+
+ gpl.txt
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;GNU GENERAL PUBLIC LICENSE&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</pre>
+      <match u="194" v="194">Version </match>
+      <post u="195" v="214">2, June 1991Copyright (C) 1989, 1991 Free Software Foundation, Inc.,51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USAEveryone </post>
+    </solution>
+    <solution rank="2" score="0.00866025">
+      <content name="abstract" u="148" v="4508" />
+      <pre u="2145" v="2164">Free Software Foundation may publish revised and/or new versionsof the General Public License from time to time.&#160;Such new </pre>
+      <match u="2165" v="2165">versions </match>
+      <post u="2166" v="2185">willbe similar in spirit to the present version, but may differ in detail toaddress new problems or concerns.Each version </post>
+    </solution>
+    <solution rank="3" score="0.00866025">
+      <content name="abstract" u="148" v="4508" />
+      <pre u="2153" v="2172">new versionsof the General Public License from time to time.&#160;Such new versions willbe similar in spirit to the present </pre>
+      <match u="2173" v="2173">version, </match>
+      <post u="2174" v="2193">but may differ in detail toaddress new problems or concerns.Each version is given a distinguishing version number.&#160;If the </post>
+    </solution>
+    <solution rank="4" score="0.00866025">
+      <content name="abstract" u="148" v="4508" />
+      <pre u="2165" v="2184">versions willbe similar in spirit to the present version, but may differ in detail toaddress new problems or concerns.Each </pre>
+      <match u="2185" v="2185">version </match>
+      <post u="2186" v="2205">is given a distinguishing version number.&#160;If the Programspecifies a version number of this License which applies to it and "</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="469000000000000~200702162237050000~0~10F7448FE9E043D089B7579406DEBB2"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=469000000000000~200702162237050000~0~10F7448FE9E043D089B7579406DEBB2"
+  vse-base-score="0.0189175" la-score="3.28487"
+>
+  <content name="title" u="14">[Fwd: Fwd: Bhangra Night! (html version)]</content>
+  <content name="title" u="186">NetIP Pittsburgh</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="189" v="460" />
+      <pre u="319" v="338">our Event Sponsors!&#160;&#160;&#160;&#160;Vivisimo does search right by combining the simplicity and innovation of consumer search with the flexibility and </pre>
+      <match u="339" v="339">control </match>
+      <post u="340" v="359">of enterprise software. The company works with customers to understand their goals and quickly deploy solutions that maximize the business </post>
+    </solution>
+    <solution rank="1" score="0.00866025">
+      <content name="title" u="14" v="20" />
+      <pre u="15" v="19">[Fwd: Fwd: Bhangra Night! (html </pre>
+      <match u="20" v="20">version)]</match>
+      <post u="21" v="20"></post>
+    </solution>
+    <solution rank="2" score="0.00866025">
+      <content name="abstract" u="29" v="162" />
+      <pre u="30" v="34">
+  
+
+
+
+[Fwd: Fwd: Bhangra Night! (html </pre>
+      <match u="35" v="35">version)]</match>
+      <post u="36" v="55">Hey,
+
+
+NetIP Pittsburgh, the organization I'm a part of this year, is holding a 
+
+Bhangra event for young professionals </post>
+    </solution>
+    <solution rank="3" score="0.00866025">
+      <content name="abstract" u="29" v="162" />
+      <pre u="78" v="97">professionals in the Pittsburgh Area.
+
+
+Our Website: http://netip-pittsburgh.org
+
+
+Thanks,
+
+Santosh
+
+
+-------- Original Message --------
+
+Subject: &#160;&#160;&#160;&#160;&#160;&#160; Fwd: Bhangra Night! (html </pre>
+      <match u="98" v="98">version)
+
+</match>
+      <post u="99" v="118">Date: &#160; Wed, 7 Feb 2007 09:25:07 -0800 (PST)
+
+From: &#160; Santosh Perla &lt;tosh_perla@yahoo.com>
+
+To: &#160;&#160;&#160; perla@vivisimo.com
+
+Note: forwarded message </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="370000000000000~200604281407210000~0~041D3E42076448A7A9658B083A42E6F"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=370000000000000~200604281407210000~0~041D3E42076448A7A9658B083A42E6F"
+  vse-base-score="0.0222414" la-score="2.16428"
+>
+  <content name="title" u="17">Re: The meta-data bonanza of dreams!!!</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="33" v="1330" />
+      <pre u="524" v="543">distinction could be made by
+border color and header.
+  It would be nice to be able to minimize metadata attribute
+</pre>
+      <match u="544" v="544">controls </match>
+      <post u="545" v="564">that the user was not interested in.&#160; They could keep their
+place in the lh column, but just collapse to </post>
+    </solution>
+    <solution rank="1" score="0.0113397">
+      <content name="abstract" u="33" v="1330" />
+      <pre u="961" v="980">prominent border&#160; there
+now implies to me that these are static images, and I don't&#160; even
+notice the slider </pre>
+      <match u="981" v="981">controls - </match>
+      <post u="982" v="1001">because sliders never, ever look&#160; like
+that.&#160; The only prominent line in a slider control should be the&#160;
+slider bar - </post>
+    </solution>
+    <solution rank="2" score="0.0113397">
+      <content name="abstract" u="33" v="1330" />
+      <pre u="976" v="995">t&#160; even
+notice the slider controls - because sliders never, ever look&#160; like
+that.&#160; The only prominent line in a slider </pre>
+      <match u="996" v="996">control </match>
+      <post u="997" v="1016">should be the&#160;
+slider bar - in our case, the bottom edge of the graph.
+    
+-Marco
+    
+On Apr 26, 2006, at </post>
+    </solution>
+    <solution rank="3" score="0.0113397">
+      <content name="abstract" u="33" v="1330" />
+      <pre u="1164" v="1183">By default, an empty search shows a summary of all the results
+      
+&#160;&#160;&#160;&#160; found in the database.
+      
+&#160; 2. Each dual slider </pre>
+      <match u="1184" v="1184">control </match>
+      <post u="1185" v="1204">allows numeric ranges to be selected. As
+      
+&#160;&#160;&#160;&#160; the ranges change, the control dynamically updates the result&#160;
+set.
+      
+&#160; 3. The graphs </post>
+    </solution>
+    <solution rank="4" score="0.0113397">
+      <content name="abstract" u="33" v="1330" />
+      <pre u="1176" v="1195">found in the database.
+      
+&#160; 2. Each dual slider control allows numeric ranges to be selected. As
+      
+&#160;&#160;&#160;&#160; the ranges change, the </pre>
+      <match u="1196" v="1196">control </match>
+      <post u="1197" v="1216">dynamically updates the result&#160;
+set.
+      
+&#160; 3. The graphs visually demonstrate in what ranges most of the&#160;
+results
+      
+&#160;&#160;&#160;&#160; can be found.
+      
+&#160; </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="370000000000000~200604262131550000~0~3FD5366D4818411595DC0C647F819B9"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=370000000000000~200604262131550000~0~3FD5366D4818411595DC0C647F819B9"
+  vse-base-score="0.0218033" la-score="2.16428"
+>
+  <content name="title" u="13">Re: The meta-data bonanza of dreams!!!</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="29" v="521" />
+      <pre u="152" v="171">prominent border&#160; 
+
+there now implies to me that these are static images, and I don't&#160; 
+
+even notice the slider </pre>
+      <match u="172" v="172">controls - </match>
+      <post u="173" v="192">because sliders never, ever look&#160; 
+
+like that.&#160; The only prominent line in a slider control should be the&#160; 
+
+slider bar - </post>
+    </solution>
+    <solution rank="1" score="0.0113397">
+      <content name="abstract" u="29" v="521" />
+      <pre u="167" v="186">t&#160; 
+
+even notice the slider controls - because sliders never, ever look&#160; 
+
+like that.&#160; The only prominent line in a slider </pre>
+      <match u="187" v="187">control </match>
+      <post u="188" v="207">should be the&#160; 
+
+slider bar - in our case, the bottom edge of the graph.
+
+
+-Marco
+
+On Apr 26, 2006, at </post>
+    </solution>
+    <solution rank="2" score="0.0113397">
+      <content name="abstract" u="29" v="521" />
+      <pre u="355" v="374">By default, an empty search shows a summary of all the results
+
+>&#160;&#160;&#160;&#160;&#160; found in the database.
+
+>&#160;&#160; 2. Each dual slider </pre>
+      <match u="375" v="375">control </match>
+      <post u="376" v="395">allows numeric ranges to be selected. As
+
+>&#160;&#160;&#160;&#160;&#160; the ranges change, the control dynamically updates the result&#160; 
+
+> set.
+
+>&#160;&#160; 3. The graphs </post>
+    </solution>
+    <solution rank="3" score="0.0113397">
+      <content name="abstract" u="29" v="521" />
+      <pre u="367" v="386">found in the database.
+
+>&#160;&#160; 2. Each dual slider control allows numeric ranges to be selected. As
+
+>&#160;&#160;&#160;&#160;&#160; the ranges change, the </pre>
+      <match u="387" v="387">control </match>
+      <post u="388" v="407">dynamically updates the result&#160; 
+
+> set.
+
+>&#160;&#160; 3. The graphs visually demonstrate in what ranges most of the&#160; 
+
+> results
+
+>&#160;&#160;&#160;&#160;&#160; can be found.
+
+>&#160;&#160; </post>
+    </solution>
+    <solution rank="4" score="0.00866025">
+      <content name="abstract" u="29" v="521" />
+      <pre u="279" v="298">interesting (the dataset provided by Homestore/Move.com was very&#160; 
+
+> small) &amp;
+
+> we are certainly going to create an "intranet" flavored </pre>
+      <match u="299" v="299">version </match>
+      <post u="300" v="319">of&#160; 
+
+> it. The
+
+> slider &amp; result distribution could be extremely valuable when based on
+
+> date information.
+
+>
+
+> This was a combined effort </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="370000000000000~200604271356230000~0~B85F1EC9C84F430AB0776DA8000DDA4"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=370000000000000~200604271356230000~0~B85F1EC9C84F430AB0776DA8000DDA4"
+  vse-base-score="0.0218033" la-score="2.16428"
+>
+  <content name="title" u="15">Re: The meta-data bonanza of dreams!!!</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="31" v="787" />
+      <pre u="393" v="412">prominent border&#160; there now 
+
+> implies to me that these are static images, and I don't&#160; even notice the 
+
+> slider </pre>
+      <match u="413" v="413">controls - </match>
+      <post u="414" v="433">because sliders never, ever look&#160; like that.&#160; The only 
+
+> prominent line in a slider control should be the&#160; slider bar - </post>
+    </solution>
+    <solution rank="1" score="0.0113397">
+      <content name="abstract" u="31" v="787" />
+      <pre u="408" v="427">t&#160; even notice the 
+
+> slider controls - because sliders never, ever look&#160; like that.&#160; The only 
+
+> prominent line in a slider </pre>
+      <match u="428" v="428">control </match>
+      <post u="429" v="448">should be the&#160; slider bar - in our 
+
+> case, the bottom edge of the graph.
+
+> 
+
+> -Marco
+
+> 
+
+> 
+
+> On Apr 26, 2006, at </post>
+    </solution>
+    <solution rank="2" score="0.0113397">
+      <content name="abstract" u="31" v="787" />
+      <pre u="596" v="615">By default, an empty search shows a summary of all the results
+
+>>&#160;&#160;&#160;&#160;&#160; found in the database.
+
+>>&#160;&#160; 2. Each dual slider </pre>
+      <match u="616" v="616">control </match>
+      <post u="617" v="636">allows numeric ranges to be selected. As
+
+>>&#160;&#160;&#160;&#160;&#160; the ranges change, the control dynamically updates the result&#160; set.
+
+>>&#160;&#160; 3. The graphs </post>
+    </solution>
+    <solution rank="3" score="0.0113397">
+      <content name="abstract" u="31" v="787" />
+      <pre u="608" v="627">found in the database.
+
+>>&#160;&#160; 2. Each dual slider control allows numeric ranges to be selected. As
+
+>>&#160;&#160;&#160;&#160;&#160; the ranges change, the </pre>
+      <match u="628" v="628">control </match>
+      <post u="629" v="648">dynamically updates the result&#160; set.
+
+>>&#160;&#160; 3. The graphs visually demonstrate in what ranges most of the&#160; results
+
+>>&#160;&#160;&#160;&#160;&#160; can be found.
+
+>>&#160;&#160; </post>
+    </solution>
+    <solution rank="4" score="0.00866025">
+      <content name="abstract" u="31" v="787" />
+      <pre u="520" v="539">interesting (the dataset provided by Homestore/Move.com was very&#160; 
+
+>> small) &amp;
+
+>> we are certainly going to create an "intranet" flavored </pre>
+      <match u="540" v="540">version </match>
+      <post u="541" v="560">of&#160; 
+
+>> it. The
+
+>> slider &amp; result distribution could be extremely valuable when based on
+
+>> date information.
+
+>>
+
+>> This was a combined effort </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="370000000000000~200604262133380000~0~A2EC30DCD02E4ED58028AD84A270C37"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=370000000000000~200604262133380000~0~A2EC30DCD02E4ED58028AD84A270C37"
+  vse-base-score="0.0218033" la-score="2.16428"
+>
+  <content name="title" u="10">Re: The meta-data bonanza of dreams!!!</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="26" v="561" />
+      <pre u="192" v="211">prominent border&#160; 
+
+> there now implies to me that these are static images, and I don't&#160; 
+
+> even notice the slider </pre>
+      <match u="212" v="212">controls - </match>
+      <post u="213" v="232">because sliders never, ever look&#160; 
+
+> like that.&#160; The only prominent line in a slider control should be&#160; 
+
+> the slider bar - </post>
+    </solution>
+    <solution rank="1" score="0.0113397">
+      <content name="abstract" u="26" v="561" />
+      <pre u="207" v="226">t&#160; 
+
+> even notice the slider controls - because sliders never, ever look&#160; 
+
+> like that.&#160; The only prominent line in a slider </pre>
+      <match u="227" v="227">control </match>
+      <post u="228" v="247">should be&#160; 
+
+> the slider bar - in our case, the bottom edge of the graph.
+
+>
+
+> -Marco
+
+>
+
+>
+
+> On Apr 26, 2006, at </post>
+    </solution>
+    <solution rank="2" score="0.0113397">
+      <content name="abstract" u="26" v="561" />
+      <pre u="395" v="414">By default, an empty search shows a summary of all the results
+
+>>&#160;&#160;&#160;&#160;&#160; found in the database.
+
+>>&#160;&#160; 2. Each dual slider </pre>
+      <match u="415" v="415">control </match>
+      <post u="416" v="435">allows numeric ranges to be&#160; 
+
+>> selected. As
+
+>>&#160;&#160;&#160;&#160;&#160; the ranges change, the control dynamically updates the result&#160; 
+
+>> set.
+
+>>&#160;&#160; 3. The graphs </post>
+    </solution>
+    <solution rank="3" score="0.0113397">
+      <content name="abstract" u="26" v="561" />
+      <pre u="407" v="426">found in the database.
+
+>>&#160;&#160; 2. Each dual slider control allows numeric ranges to be&#160; 
+
+>> selected. As
+
+>>&#160;&#160;&#160;&#160;&#160; the ranges change, the </pre>
+      <match u="427" v="427">control </match>
+      <post u="428" v="447">dynamically updates the result&#160; 
+
+>> set.
+
+>>&#160;&#160; 3. The graphs visually demonstrate in what ranges most of the&#160; 
+
+>> results
+
+>>&#160;&#160;&#160;&#160;&#160; can be found.
+
+>>&#160;&#160; </post>
+    </solution>
+    <solution rank="4" score="0.00866025">
+      <content name="abstract" u="26" v="561" />
+      <pre u="319" v="338">interesting (the dataset provided by Homestore/Move.com was very&#160; 
+
+>> small) &amp;
+
+>> we are certainly going to create an "intranet" flavored </pre>
+      <match u="339" v="339">version </match>
+      <post u="340" v="359">of&#160; 
+
+>> it. The
+
+>> slider &amp; result distribution could be extremely valuable when&#160; 
+
+>> based on
+
+>> date information.
+
+>>
+
+>> This was a combined effort </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="370000000000000~200604271356230000~0~357DD5E979214AAC8B0BF08395894B3"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=370000000000000~200604271356230000~0~357DD5E979214AAC8B0BF08395894B3"
+  vse-base-score="0.0218033" la-score="2.16428"
+>
+  <content name="title" u="15">Re: The meta-data bonanza of dreams!!!</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="31" v="787" />
+      <pre u="393" v="412">prominent border&#160; there now 
+
+> implies to me that these are static images, and I don't&#160; even notice the 
+
+> slider </pre>
+      <match u="413" v="413">controls - </match>
+      <post u="414" v="433">because sliders never, ever look&#160; like that.&#160; The only 
+
+> prominent line in a slider control should be the&#160; slider bar - </post>
+    </solution>
+    <solution rank="1" score="0.0113397">
+      <content name="abstract" u="31" v="787" />
+      <pre u="408" v="427">t&#160; even notice the 
+
+> slider controls - because sliders never, ever look&#160; like that.&#160; The only 
+
+> prominent line in a slider </pre>
+      <match u="428" v="428">control </match>
+      <post u="429" v="448">should be the&#160; slider bar - in our 
+
+> case, the bottom edge of the graph.
+
+> 
+
+> -Marco
+
+> 
+
+> 
+
+> On Apr 26, 2006, at </post>
+    </solution>
+    <solution rank="2" score="0.0113397">
+      <content name="abstract" u="31" v="787" />
+      <pre u="596" v="615">By default, an empty search shows a summary of all the results
+
+>>&#160;&#160;&#160;&#160;&#160; found in the database.
+
+>>&#160;&#160; 2. Each dual slider </pre>
+      <match u="616" v="616">control </match>
+      <post u="617" v="636">allows numeric ranges to be selected. As
+
+>>&#160;&#160;&#160;&#160;&#160; the ranges change, the control dynamically updates the result&#160; set.
+
+>>&#160;&#160; 3. The graphs </post>
+    </solution>
+    <solution rank="3" score="0.0113397">
+      <content name="abstract" u="31" v="787" />
+      <pre u="608" v="627">found in the database.
+
+>>&#160;&#160; 2. Each dual slider control allows numeric ranges to be selected. As
+
+>>&#160;&#160;&#160;&#160;&#160; the ranges change, the </pre>
+      <match u="628" v="628">control </match>
+      <post u="629" v="648">dynamically updates the result&#160; set.
+
+>>&#160;&#160; 3. The graphs visually demonstrate in what ranges most of the&#160; results
+
+>>&#160;&#160;&#160;&#160;&#160; can be found.
+
+>>&#160;&#160; </post>
+    </solution>
+    <solution rank="4" score="0.00866025">
+      <content name="abstract" u="31" v="787" />
+      <pre u="520" v="539">interesting (the dataset provided by Homestore/Move.com was very&#160; 
+
+>> small) &amp;
+
+>> we are certainly going to create an "intranet" flavored </pre>
+      <match u="540" v="540">version </match>
+      <post u="541" v="560">of&#160; 
+
+>> it. The
+
+>> slider &amp; result distribution could be extremely valuable when based on
+
+>> date information.
+
+>>
+
+>> This was a combined effort </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="464000000000000~200703061323040000~0~3F879E39F7334FCEBC50971C7E90A51"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=464000000000000~200703061323040000~0~3F879E39F7334FCEBC50971C7E90A51"
+  vse-base-score="0.0210691" la-score="2.16428"
+>
+  <content name="title" u="12">Re: Cool search demo ideas</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="26" v="13526" />
+      <pre u="9913" v="9932">manufacturing, the machinery and equipment industry specialises in precision and advanced technology products: machine tools, printing and photographic equipment, electronic </pre>
+      <match u="9933" v="9933">control </match>
+      <post u="9934" v="9953">and medical equipment. There is also a substantial chemical industry, employing 15 per cent of the workforce, which continues to </post>
+    </solution>
+    <solution rank="1" score="0.0113397">
+      <content name="abstract" u="26" v="13526" />
+      <pre u="12104" v="12123"><![CDATA[Yes</PassportRequired>
+
+> <VisaRequired>No</VisaRequired>
+
+> <ReturnTicketRequired>No</ReturnTicketRequired>
+
+> </PassportInfoCountry>
+
+> <PassportInfoCountry Name="Other EU">
+
+> <PassportRequired>1/2/3/4</PassportRequired>
+
+> <VisaRequired>No</VisaRequired>
+
+> <ReturnTicketRequired>No</ReturnTicketRequired>
+
+> </PassportInfoCountry>
+
+> </PassportInfo>
+
+> </OutputData>
+
+> <OutputData Name="PassportNote" ContentTypeID="">
+
+> <DataTitle>Passport Note</DataTitle>
+
+> <DataInfo>The regulations below also apply to Liechtenstein (no border ]]></pre>
+      <match u="12124" v="12124">control </match>
+      <post u="12125" v="12144">between the two countries);&lt;BR/>Passengers arriving at Basle or Geneva airports can enter either France or Switzerland, provided their documents </post>
+    </solution>
+    <solution rank="2" score="0.00866025">
+      <content name="abstract" u="26" v="13526" />
+      <pre u="163" v="182">attached).
+
+> 
+
+> Any suggestion as to what cool things we could do with that data (for 
+
+> the demo)?
+
+> Thanks!
+
+> Jerome
+
+> 
+
+> &lt;?xml </pre>
+      <match u="183" v="183">version="</match>
+      <post u="184" v="203">1.0" encoding="iso-8859-1"?>
+
+> &lt;!DOCTYPE WTG SYSTEM "WTGData.dtd">
+
+> &lt;WTG>
+
+> &lt;Region Name="Tasmania" ColCode="tas" ParentName="Australia" 
+
+> ParentColCode="aus" RootName="Australia" RootColCode="aus" 
+
+> TimaticCode="bc" FederalCode="AUS" LocationCode="aus" 
+
+> LocationName="Australia and </post>
+    </solution>
+    <solution rank="3" score="0.00866025">
+      <content name="abstract" u="26" v="13526" />
+      <pre u="2637" v="2656">20 national parks with one of the world's 
+
+> last temperate-climate rainforests, to beautiful falls and soaring 
+
+> peaks. &lt;/DataInfo>
+
+> &lt;/OutputData>
+
+> &lt;/Section>
+
+> &lt;/Region>
+
+> &lt;/WTG>
+
+> 
+
+> 
+
+> ------------------------------------------------------------------------
+
+> 
+
+> &lt;?xml </pre>
+      <match u="2657" v="2657">version="</match>
+      <post u="2658" v="2677"><![CDATA[1.0" encoding="iso-8859-1"?>
+
+> <!DOCTYPE WTG SYSTEM "WTGData.dtd">
+
+> <WTG>
+
+> <Region Name="Hawaii" ColCode="haw" ParentName="United States of America" ParentColCode="usa" RootName="United States of America" RootColCode="usa" TimaticCode="hi" FederalCode="USA" LocationCode="nam" LocationName="North America" RegionLevel="1">
+
+> <RegionTitle>Hawaii</RegionTitle>
+
+> <Section Name="Climate">
+
+> <SectionTitle>Climate</SectionTitle>
+
+> <OutputData Name="Climate" ContentTypeID="">
+
+> <DataTitle></DataTitle>
+
+> <DataInfo>Warm throughout the year, with an average temperature of 24-29&deg;C (]]></post>
+    </solution>
+    <solution rank="4" score="0.00866025">
+      <content name="abstract" u="26" v="13526" />
+      <pre u="4670" v="4689">the volume of Honolulu&amp;rsquo;s commercial traffic increased and the US Navy acquire
+
+d rights to Pearl Harbor. &lt;/DataInfo>
+
+> &lt;/OutputData>
+
+> &lt;/Section>
+
+> &lt;/Region>
+
+> &lt;/WTG>
+
+> 
+
+> 
+
+> ------------------------------------------------------------------------
+
+> 
+
+> &lt;?xml </pre>
+      <match u="4690" v="4690">version="</match>
+      <post u="4691" v="4710"><![CDATA[1.0" encoding="iso-8859-1"?>
+
+> <!DOCTYPE WTG SYSTEM "WTGData.dtd">
+
+> <WTG>
+
+> <Region Name="Switzerland" ColCode="che" ParentName="" ParentColCode="" RootName="" RootColCode="" TimaticCode="ch" FederalCode="" LocationCode="eur" LocationName="Europe" RegionLevel="0">
+
+> <RegionTitle>Switzerland</RegionTitle>
+
+> <Section Name="Climate">
+
+> <SectionTitle>Climate</SectionTitle>
+
+> <OutputData Name="Climate" ContentTypeID="">
+
+> <DataTitle></DataTitle>
+
+> <DataInfo>The Alps cause many climatic variations throughout Switzerland. In the higher Alpine regions ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="464000000000000~200703061352520000~0~5185460385D549C4BC38B89D6027893"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=464000000000000~200703061352520000~0~5185460385D549C4BC38B89D6027893"
+  vse-base-score="0.0210691" la-score="2.16428"
+>
+  <content name="title" u="12">Re: Cool search demo ideas</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="26" v="13403" />
+      <pre u="9787" v="9806">manufacturing, the machinery and equipment industry specialises in precision and advanced technology products: machine tools, printing and photographic equipment, electronic </pre>
+      <match u="9807" v="9807">control </match>
+      <post u="9808" v="9827">and medical equipment. There is also a substantial chemical industry, employing 15 per cent of the workforce, which continues to </post>
+    </solution>
+    <solution rank="1" score="0.0113397">
+      <content name="abstract" u="26" v="13403" />
+      <pre u="11980" v="11999"><![CDATA[Yes</PassportRequired>
+<VisaRequired>No</VisaRequired>
+<ReturnTicketRequired>No</ReturnTicketRequired>
+</PassportInfoCountry>
+<PassportInfoCountry Name="Other EU">
+<PassportRequired>1/2/3/4</PassportRequired>
+<VisaRequired>No</VisaRequired>
+<ReturnTicketRequired>No</ReturnTicketRequired>
+</PassportInfoCountry>
+</PassportInfo>
+</OutputData>
+<OutputData Name="PassportNote" ContentTypeID="">
+<DataTitle>Passport Note</DataTitle>
+<DataInfo>The regulations below also apply to Liechtenstein (no border ]]></pre>
+      <match u="12000" v="12000">control </match>
+      <post u="12001" v="12020">between the two countries);&lt;BR/>Passengers arriving at Basle or Geneva airports can enter either France or Switzerland, provided their documents </post>
+    </solution>
+    <solution rank="2" score="0.00866025">
+      <content name="abstract" u="26" v="13403" />
+      <pre u="98" v="117">attached).
+  
+Any suggestion as to what cool things we could do with that data (for
+the demo)?
+  
+Thanks!
+  
+Jerome
+  
+&lt;?xml </pre>
+      <match u="118" v="118">version="</match>
+      <post u="119" v="138"><![CDATA[1.0" encoding="iso-8859-1"?>
+  
+<!DOCTYPE WTG SYSTEM "WTGData.dtd">
+  
+<WTG>
+  
+<Region Name="Tasmania" ColCode="tas" ParentName="Australia"
+ParentColCode="aus" RootName="Australia" RootColCode="aus"
+TimaticCode="bc" FederalCode="AUS" LocationCode="aus"
+LocationName="Australia and South Pacific" RegionLevel="1">
+  
+<RegionTitle>Tasmania</RegionTitle>
+  
+<Section Name="Climate">
+  
+<SectionTitle>Climate</SectionTitle>
+  
+<OutputData Name="Climate" ContentTypeID="">
+  
+<DataTitle></DataTitle>
+  
+<DataInfo>Similar climate to southern Australia, with warm, dry
+summers and cool, wet winters. ]]></post>
+    </solution>
+    <solution rank="3" score="0.00866025">
+      <content name="abstract" u="26" v="13403" />
+      <pre u="2514" v="2533">20 national parks with one of the
+world's last temperate-climate rainforests, to beautiful falls and
+soaring peaks. &lt;/DataInfo>
+  
+&lt;/OutputData>
+  
+&lt;/Section>
+  
+&lt;/Region>
+  
+&lt;/WTG>
+  
+
+&lt;?xml </pre>
+      <match u="2534" v="2534">version="</match>
+      <post u="2535" v="2554"><![CDATA[1.0" encoding="iso-8859-1"?>
+<!DOCTYPE WTG SYSTEM "WTGData.dtd">
+<WTG>
+<Region Name="Hawaii" ColCode="haw" ParentName="United States of America" ParentColCode="usa" RootName="United States of America" RootColCode="usa" TimaticCode="hi" FederalCode="USA" LocationCode="nam" LocationName="North America" RegionLevel="1">
+<RegionTitle>Hawaii</RegionTitle>
+<Section Name="Climate">
+<SectionTitle>Climate</SectionTitle>
+<OutputData Name="Climate" ContentTypeID="">
+<DataTitle></DataTitle>
+<DataInfo>Warm throughout the year, with an average temperature of 24-29&deg;C (]]></post>
+    </solution>
+    <solution rank="4" score="0.00866025">
+      <content name="abstract" u="26" v="13403" />
+      <pre u="4552" v="4571">the volume of Honolulu&amp;rsquo;s commercial traf
+fic increased and the US Navy acquired rights to Pearl Harbor. &lt;/DataInfo>
+&lt;/OutputData>
+&lt;/Section>
+&lt;/Region>
+&lt;/WTG>
+  
+
+&lt;?xml </pre>
+      <match u="4572" v="4572">version="</match>
+      <post u="4573" v="4592"><![CDATA[1.0" encoding="iso-8859-1"?>
+<!DOCTYPE WTG SYSTEM "WTGData.dtd">
+<WTG>
+<Region Name="Switzerland" ColCode="che" ParentName="" ParentColCode="" RootName="" RootColCode="" TimaticCode="ch" FederalCode="" LocationCode="eur" LocationName="Europe" RegionLevel="0">
+<RegionTitle>Switzerland</RegionTitle>
+<Section Name="Climate">
+<SectionTitle>Climate</SectionTitle>
+<OutputData Name="Climate" ContentTypeID="">
+<DataTitle></DataTitle>
+<DataInfo>The Alps cause many climatic variations throughout Switzerland. In the higher Alpine regions ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="464000000000000~200703062138280000~0~0E2D28383B6246BA8D72B0D25F14032"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=464000000000000~200703062138280000~0~0E2D28383B6246BA8D72B0D25F14032"
+  vse-base-score="0.0210691" la-score="2.16428"
+>
+  <content name="title" u="12">Re: Cool search demo ideas</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="26" v="13532" />
+      <pre u="9925" v="9944">manufacturing, the machinery and equipment industry specialises in precision and advanced technology products: machine tools, printing and photographic equipment, electronic </pre>
+      <match u="9945" v="9945">control </match>
+      <post u="9946" v="9965">and medical equipment. There is also a substantial chemical industry, employing 15 per cent of the workforce, which continues to </post>
+    </solution>
+    <solution rank="1" score="0.0113397">
+      <content name="abstract" u="26" v="13532" />
+      <pre u="12112" v="12131"><![CDATA[Yes</PassportRequired>
+
+><VisaRequired>No</VisaRequired>
+
+><ReturnTicketRequired>No</ReturnTicketRequired>
+
+></PassportInfoCountry>
+
+><PassportInfoCountry Name="Other EU">
+
+><PassportRequired>1/2/3/4</PassportRequired>
+
+><VisaRequired>No</VisaRequired>
+
+><ReturnTicketRequired>No</ReturnTicketRequired>
+
+></PassportInfoCountry>
+
+></PassportInfo>
+
+></OutputData>
+
+><OutputData Name="PassportNote" ContentTypeID="">
+
+><DataTitle>Passport Note</DataTitle>
+
+><DataInfo>The regulations below also apply to Liechtenstein (no border ]]></pre>
+      <match u="12132" v="12132">control </match>
+      <post u="12133" v="12152">between the two countries);&lt;BR/>Passengers arriving at Basle or Geneva airports can enter either France or Switzerland, provided their documents </post>
+    </solution>
+    <solution rank="2" score="0.00866025">
+      <content name="abstract" u="26" v="13532" />
+      <pre u="190" v="209">attached).
+
+>
+
+> Any suggestion as to what cool things we could do with that data (for 
+
+> the demo)?
+
+> Thanks!
+
+> Jerome
+
+>
+
+> &lt;?xml </pre>
+      <match u="210" v="210">version="</match>
+      <post u="211" v="230">1.0" encoding="iso-8859-1"?>
+
+> &lt;!DOCTYPE WTG SYSTEM "WTGData.dtd">
+
+> &lt;WTG>
+
+> &lt;Region Name="Tasmania" ColCode="tas" ParentName="Australia" 
+
+> ParentColCode="aus" RootName="Australia" RootColCode="aus" 
+
+> TimaticCode="bc" FederalCode="AUS" LocationCode="aus" 
+
+> LocationName="Australia and </post>
+    </solution>
+    <solution rank="3" score="0.00866025">
+      <content name="abstract" u="26" v="13532" />
+      <pre u="2664" v="2683">20 national parks with one of the world's last temperate-climate 
+
+> rainforests, to beautiful falls and soaring peaks. &lt;/DataInfo>
+
+> &lt;/OutputData>
+
+> &lt;/Section>
+
+> &lt;/Region>
+
+> &lt;/WTG>
+
+>
+
+>------------------------------------------------------------------------
+
+>
+
+>&lt;?xml </pre>
+      <match u="2684" v="2684">version="</match>
+      <post u="2685" v="2704"><![CDATA[1.0" encoding="iso-8859-1"?>
+
+><!DOCTYPE WTG SYSTEM "WTGData.dtd">
+
+><WTG>
+
+><Region Name="Hawaii" ColCode="haw" ParentName="United States of America" ParentColCode="usa" RootName="United States of America" RootColCode="usa" TimaticCode="hi" FederalCode="USA" LocationCode="nam" LocationName="North America" RegionLevel="1">
+
+><RegionTitle>Hawaii</RegionTitle>
+
+><Section Name="Climate">
+
+><SectionTitle>Climate</SectionTitle>
+
+><OutputData Name="Climate" ContentTypeID="">
+
+><DataTitle></DataTitle>
+
+><DataInfo>Warm throughout the year, with an average temperature of 24-29&deg;C (]]></post>
+    </solution>
+    <solution rank="4" score="0.00866025">
+      <content name="abstract" u="26" v="13532" />
+      <pre u="4693" v="4712">when the volume of Honolulu&amp;rsquo;s commercial traffic increased and the US Navy acquired rights to Pearl Harbor. &lt;/DataInfo>
+
+>&lt;/OutputData>
+
+>&lt;/Section>
+
+>&lt;/Region>
+
+>&lt;/WTG>
+
+>
+
+>------------------------------------------------------------------------
+
+>
+
+>&lt;?xml </pre>
+      <match u="4713" v="4713">version="</match>
+      <post u="4714" v="4733"><![CDATA[1.0" encoding="iso-8859-1"?>
+
+><!DOCTYPE WTG SYSTEM "WTGData.dtd">
+
+><WTG>
+
+><Region Name="Switzerland" ColCode="che" ParentName="" ParentColCode="" RootName="" RootColCode="" TimaticCode="ch" FederalCode="" LocationCode="eur" LocationName="Europe" RegionLevel="0">
+
+><RegionTitle>Switzerland</RegionTitle>
+
+><Section Name="Climate">
+
+><SectionTitle>Climate</SectionTitle>
+
+><OutputData Name="Climate" ContentTypeID="">
+
+><DataTitle></DataTitle>
+
+><DataInfo>The Alps cause many climatic variations throughout Switzerland. In the higher Alpine regions ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="168000000000000~200607261229490000~0~BB3B2969BE254B1A8A789D2B21A38DA"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=168000000000000~200607261229490000~0~BB3B2969BE254B1A8A789D2B21A38DA"
+  vse-base-score="0.0189175" la-score="2.16428"
+>
+  <content name="title" u="12">Re: JavaScript library</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="24" v="671" />
+      <pre u="389" v="408">advantages are:1/ Worry much less about cross-browser support2/ Make JavaScript much more usable3/ Use/reuse already made standard </pre>
+      <match u="409" v="409">controls/</match>
+      <post u="410" v="429">classesAs an example of 1/ &amp; 2/, YUI lets you do getStyle(elt, "width"), which gives you the *computed* width of </post>
+    </solution>
+    <solution rank="1" score="0.00866025">
+      <content name="abstract" u="24" v="671" />
+      <pre u="25" v="30">
+  
+Yahoo actually offers the full, commented </pre>
+      <match u="31" v="31">versions </match>
+      <post u="32" v="51">and the compressed versions, so the sizes that Jerome quoted were the compressed versions.AndrewOn Jul 26, 2006, at 8:</post>
+    </solution>
+    <solution rank="2" score="0.00866025">
+      <content name="abstract" u="24" v="671" />
+      <pre u="25" v="34">
+  
+Yahoo actually offers the full, commented versions and the compressed </pre>
+      <match u="35" v="35">versions, </match>
+      <post u="36" v="55">so the sizes that Jerome quoted were the compressed versions.AndrewOn Jul 26, 2006, at 8:00 AM, Jake Goulding </post>
+    </solution>
+    <solution rank="3" score="0.00866025">
+      <content name="abstract" u="24" v="671" />
+      <pre u="25" v="44">
+  
+Yahoo actually offers the full, commented versions and the compressed versions, so the sizes that Jerome quoted were the compressed </pre>
+      <match u="45" v="45">versions.</match>
+      <post u="46" v="65">AndrewOn Jul 26, 2006, at 8:00 AM, Jake Goulding wrote:Is there any chance of using one of the </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="425000000000000~200704021331280000~0~DEED4AF9D8BD4F2DBEBA502D47B2AF4"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=425000000000000~200704021331280000~0~DEED4AF9D8BD4F2DBEBA502D47B2AF4"
+  vse-base-score="0.0156699" la-score="2.16428"
+>
+  <content name="title" u="19">RE: getting rid of old zimonet</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="34" v="618" />
+      <pre u="520" v="539">Brian: there are instructions on setting up email clients on
+
+> Zimonet, but I'm figuring you probably have that under </pre>
+      <match u="540" v="540">control </match>
+      <post u="541" v="560">now? I
+
+> mean, external people would have to have VPN set up to view this page
+
+> anyway, and it seems </post>
+    </solution>
+    <solution rank="1" score="0.00866025">
+      <content name="abstract" u="34" v="618" />
+      <pre u="315" v="334">people-who-make-things-
+
+> pretty into working their magic.
+
+> 
+
+> Some details:
+
+> 
+
+> / The employee directory is now available in Shawn's </pre>
+      <match u="335" v="335">version (</match>
+      <post u="336" v="355">much
+
+> nicer!) so the old one is gone.
+
+> 
+
+> / There were a bunch of links into the office share with interesting
+
+> </post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+<document
+  vse-key="153000000000000~200703310122190000~0~8F3439FC18214930855ABC5EB84C5C3"
+  vse-key-normalized="vse-key-normalized"
+  url="http://192.168.0.58/enterprisevault/properties.asp?VaultID=117012CB537353D43BE95F57272C5C9451110000ev60.vivisimo2003.vmserver.vivisimo.com&amp;SavesetID=153000000000000~200703310122190000~0~8F3439FC18214930855ABC5EB84C5C3"
+  vse-base-score="0.0156699" la-score="2.16428"
+>
+  <content name="title" u="21">getting rid of old zimonet</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="0.0113397">
+      <content name="abstract" u="35" v="495" />
+      <pre u="397" v="416">Brian: there are instructions on setting up email clients on&#160; 
+
+Zimonet, but I'm figuring you probably have that under </pre>
+      <match u="417" v="417">control </match>
+      <post u="418" v="437">now? I&#160; 
+
+mean, external people would have to have VPN set up to view this page&#160; 
+
+anyway, and it seems </post>
+    </solution>
+    <solution rank="1" score="0.00866025">
+      <content name="abstract" u="35" v="495" />
+      <pre u="192" v="211">people-who-make-things- 
+
+pretty into working their magic.
+
+
+Some details:
+
+
+/ The employee directory is now available in Shawn's </pre>
+      <match u="212" v="212">version (</match>
+      <post u="213" v="232">much&#160; 
+
+nicer!) so the old one is gone.
+
+
+/ There were a bunch of links into the office share with interesting&#160; 
+
+</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"></content>
+</document>
+</scope>

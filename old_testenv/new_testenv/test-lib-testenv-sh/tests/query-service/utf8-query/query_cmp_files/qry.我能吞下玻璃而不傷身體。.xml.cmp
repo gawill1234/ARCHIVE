@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="2" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="2" />
+<attribute name="retrieval-ms" value="0" />
+<attribute name="total-results-with-duplicates" value="2" />
+<document vse-key="document://19:80/" encoding="xml" input-at="1195666002"
+  ct="application/vxml" vertex="17" url="document://19/" vse-base-score="1"
+  la-score="0.1"
+>
+  <content name="title" u="1">Chinese, I can eat glass in snippet</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="10" v="9"></pre>
+      <content name="snippet" u="9" v="10" />
+      <match u="10" v="10">我能吞下玻璃而不傷身體。</match>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">我能吞下玻璃而不傷身體。</content>
+</document>
+<document vse-key="document://20:80/" encoding="xml" input-at="1195666002"
+  ct="application/vxml" vertex="18" url="document://20/" vse-base-score="1"
+  la-score="0.1"
+>
+  <content name="title" u="1">我能吞下玻璃而不傷身體。</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="2" v="1"></pre>
+      <content name="title" u="1" v="2" />
+      <match u="2" v="2">我能吞下玻璃而不傷身體。</match>
+      <post u="4" v="10">Chinese, I can eat glass in title</post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold">Chinese, I can eat glass in title</content>
+</document>
+</scope>

@@ -1,0 +1,11 @@
+Basic crawl of an Oracle table/view.
+Collection and source set up a mixed bag
+using both binning and metadata.
+
+binning-2, 2C and 2D vary only in the queries
+added to the test.
+
+Binning-2B first does the binning crawl and 
+makes sure the unconfigured metadata does not
+help the query.  The metadata is configured after
+the crawl to assure the changes take effect.

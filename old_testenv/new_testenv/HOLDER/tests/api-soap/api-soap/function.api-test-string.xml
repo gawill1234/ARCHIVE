@@ -1,0 +1,8 @@
+<function name="api-test-string" type="public-api">
+  <prototype>
+    <declare name="value" type="string" required="required" />
+    <returns type="string" />
+  </prototype>
+
+  <value-of-var name="value" />
+</function>

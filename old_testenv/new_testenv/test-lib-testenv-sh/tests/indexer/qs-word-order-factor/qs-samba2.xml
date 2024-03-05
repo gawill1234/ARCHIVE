@@ -1,0 +1,143 @@
+<vse-collection modified="1275503472" modified-by="test-all" name="qs-samba" id="RdJoKAF2uQ88" max-elt-id="2215">
+<vse-config max-elt-id="2212">
+<crawler>
+<crawl-options>
+<crawl-option name="n-fetch-threads">10</crawl-option>
+<curl-option name="filter-exact-duplicates">false</curl-option>
+</crawl-options>
+<call-function name="vse-crawler-seed-smb">
+<with name="host">testbed5.test.vivisimo.com</with>
+<with name="shares">/testfiles/samba_test_data/samba-2/doc</with>
+<with name="username">root</with>
+<with name="password">[[vcrypt]]TMWiymi8UsQ9QvtqWkxuhw==</with>
+</call-function>
+<call-function name="vse-crawler-apache-directory-browsing" />
+<call-function name="vse-crawler-binary-file-extensions" />
+<call-function name="vse-crawler-bugzilla" />
+<call-function name="vse-crawler-calendars-forums" />
+<call-function name="vse-crawler-no-delay-for-files" />
+<call-function name="vse-crawler-lotus-domino-site" />
+<call-function name="vse-crawler-session-ids" />
+<call-function name="vse-crawler-verity-query-service" />
+<call-function name="vse-crawler-wiki" />
+</crawler>
+<vse-index>
+<vse-index-option name="summarize-contents">snippet</vse-index-option>
+<vse-index-option name="fast-index">last-modified|date</vse-index-option>
+<vse-index-option name="word-order-factor">2</vse-index-option>
+<vse-index-option name="term-expand-dicts">true</vse-index-option>
+<vse-index-option name="term-expand-delanguage">true</vse-index-option>
+<vse-url-equivs name="vse-url-equivs">
+<vse-url-equiv old-prefix="smb://" new-prefix="file://///" />
+</vse-url-equivs>
+</vse-index>
+<converters>
+<converter type-in="unknown" type-out="dead">
+<call-function name="vse-converter-binary-files-in-archives" />
+</converter>
+<converter type-in="unknown" program="guess-content %source_file" timing-name="Guess content" />
+<converter type-in="application/ms-office" program="ms-guess %source_file" timing-name="Guess MS Office" />
+<converter type-in="unknown" type-out="text/plain">
+<converter-test how="wc-set" what="path">*.txt</converter-test>
+</converter>
+<call-function name="vse-converter-filetypes" />
+<call-function name="vse-converter-type-normalization" />
+<call-function name="vse-converter-database" />
+<call-function name="vse-converter-powerpoint" />
+<call-function name="vse-converter-1-2-3" />
+<converter type-in="outlook/mail" type-out="text/mailbox">
+<call-function name="vse-converter-pst-to-mailbox" />
+</converter>
+<converter type-in="text/mailbox" type-out="text/mail">
+<call-function name="vse-converter-split-mailbox" />
+</converter>
+<converter type-in="text/mail" type-out="vivisimo/crawl-data">
+<call-function name="vse-converter-mail-message">
+<with name="cache-parser">vse-cache-parser-email</with>
+</call-function>
+</converter>
+<converter type-in="application/documentum" type-out="application/vxml-unnormalized">
+<call-function name="vse-converter-documentum-to-xml" />
+</converter>
+<converter type-out="application/vxml-unnormalized" type-in="application/lotus">
+<call-function name="vse-converter-lotus-to-xml" />
+</converter>
+<converter type-in="application/sharepoint" type-out="application/vxml-unnormalized">
+<call-function name="vse-converter-sharepoint-to-xml" />
+</converter>
+<converter type-in="application/word" type-out="text/html">
+<call-function name="vse-converter-msword" />
+</converter>
+<converter type-in="application/excel" type-out="text/html">
+<call-function name="vse-converter-excel" />
+</converter>
+<converter type-in="application/wordperfect" type-out="text/html">
+<call-function name="vse-converter-wordperfect" />
+</converter>
+<converter type-in="application/openoffice" type-out="text/html">
+<call-function name="vse-converter-openoffice" />
+</converter>
+<converter type-in="application/vnd.ms-project" type-out="application/vxml-unnormalized">
+<call-function name="vse-converter-ms-project" />
+</converter>
+<converter type-in="application/ps" type-out="text/plain">
+<call-function name="vse-converter-postscript" />
+</converter>
+<converter type-in="application/pdf" type-out="text/html">
+<call-function name="vse-converter-pdf" />
+</converter>
+<converter type-in="application/rtf" type-out="text/html">
+<call-function name="vse-converter-rtf" />
+</converter>
+<converter type-in="application/outlook-msg" type-out="vivisimo/crawl-data">
+<call-function name="vse-converter-outlook-msg" />
+</converter>
+<converter type-in="application/flash" type-out="text/html">
+<call-function name="vse-converter-flash" />
+</converter>
+<converter type-out="application/vxml-unnormalized" type-in="image/jpeg">
+<call-function name="vse-converter-jpg-metadata" />
+</converter>
+<converter timing-name="MP3 to metadata" type-in="audio/mpeg" type-out="application/vxml-unnormalized">
+<call-function name="vse-converter-mp3-metadata" />
+</converter>
+<converter type-in="application/tar" type-out="unknown">
+<call-function name="vse-converter-tar" />
+</converter>
+<converter type-in="application/x-gzip" type-out="unknown">
+<call-function name="vse-converter-gunzip" />
+</converter>
+<converter type-in="application/zip" type-out="unknown">
+<call-function name="vse-converter-unzip" />
+</converter>
+<converter type-in="application/x-compress" type-out="unknown">
+<call-function name="vse-converter-uncompress" />
+</converter>
+<converter type-in="text/html" type-out="application/vxml-unnormalized">
+<call-function name="vse-converter-html" />
+</converter>
+<converter type-in="text/plain" type-out="application/vxml-unnormalized">
+<call-function name="vse-converter-text" />
+</converter>
+<converter type-in="unknown" type-out="application/dbf">
+<converter-test how="wc-set" what="path">*.dbf</converter-test>
+</converter>
+<converter type-in="application/dbf" type-out="text/csv">
+<call-function name="vse-converter-dbf-to-csv" />
+</converter>
+<converter type-in="text/csv" type-out="application/vxml-unnormalized">
+<call-function name="vse-converter-csv-to-vxml" />
+</converter>
+<converter type-in="text/xml" type-out="application/vxml-unnormalized">
+<call-function name="vse-converter-xml-to-vxml" />
+</converter>
+<converter type-in="application/vxml-unnormalized" type-out="application/vxml-unnormalized">
+<call-function name="vse-converter-normalize" />
+</converter>
+<converter type-in="application/vxml-unnormalized" type-out="application/vxml" />
+</converters>
+</vse-config>
+<vse-meta name="qs-samba" creator="erin_testing" create-time="1171493262" max-elt-id="2">
+<vse-meta-info name="maintainers">erin_testing</vse-meta-info>
+</vse-meta>
+</vse-collection>

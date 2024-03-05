@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testset>
+   <test>
+      <data>
+      Te invitamos a celebrar el Mes de la Hispanidad en Estados Unidos. Este año, dedicamos nuestra cobertura a los jóvenes. 
+      </data>
+      <stemmer>delanguage+spanish+spanish-depluralize</stemmer>
+      <kb>spanish</kb>
+   </test>
+   <test>
+      <data>
+      Clix informa sobre los últimos avances tecnológicos y brinda la orientación más actualizada para la compra de equipos electrónicos, cómo proteger a los niños en el espacio cibernético, los nuevos instrumentos para que los ejecutivos se mantengan en contacto con su oficina cuando están de viaje, los nuevos teléfonos móviles, videojuegos, las redes sociales, los blogs y mucho más.
+      </data>
+      <stemmer>delanguage+spanish+spanish-depluralize</stemmer>
+      <kb>spanish</kb>
+   </test>
+   <test>
+      <data>
+      CNN en Español ofrece la oportunidad de patrocinio de programas especiales y novedosos, así como una serie de segmentos y viñetas auspiciables. 
+      </data>
+      <stemmer>delanguage+spanish+spanish-depluralize</stemmer>
+      <kb>spanish</kb>
+   </test>
+   <test>
+      <data>
+      REGÍSTRATE. Es muy fácil. Sólo tienes que registrarte una vez y listo.
+      </data>
+      <stemmer>delanguage+spanish+spanish-depluralize</stemmer>
+      <kb>spanish</kb>
+   </test>
+   <test>
+      <data>
+      Las mejores jugadas del día, los encuentros más espectaculares, entrevistas con las figuras deportivas del momento y análisis de los principales partidos.
+      </data>
+      <stemmer>delanguage+spanish+spanish-depluralize</stemmer>
+      <kb>spanish</kb>
+   </test>
+   <test>
+      <data>
+      Leticia Iglesias presentará el programa desde Madrid y José Antonio Montenegro ofrecerá sus análisis desde la Bolsa de Nueva York, donde también entrevistará a actores clave de Wall Street.
+      </data>
+      <stemmer>delanguage+spanish+spanish-depluralize</stemmer>
+      <kb>spanish</kb>
+   </test>
+   <test>
+      <data>
+      Entre los segmentos regulares del programa están Monedas, que presenta la información cambiaria más actualizada, Resumen del Mercado, con la cobertura de los mercados bursátiles, el comentario diario de reconocidos analistas y un segmento semanal con Fortune sobre las últimas tendencias en administración de empresas.
+      </data>
+      <stemmer>delanguage+spanish+spanish-depluralize</stemmer>
+      <kb>spanish</kb>
+   </test>
+   <test>
+      <data>
+      Carmen Aristegui es presentadora de Aristegui, el programa de entrevistas de CNN en Español que brinda diálogos francos con prominentes figuras sobre la actualidad política, económica, cultural y del mundo de entretenimiento en México.
+      </data>
+      <stemmer>delanguage+spanish+spanish-depluralize</stemmer>
+      <kb>spanish</kb>
+   </test>
+   <test>
+      <data>
+      Además, Aristegui fue la co-conductora del programa: “Noticias Canal 52: Aristegui-Solórzano”.
+      </data>
+      <stemmer>delanguage+spanish+spanish-depluralize</stemmer>
+      <kb>spanish</kb>
+   </test>
+   <test>
+      <data>
+      Además, Aristegui recibió dos premios del “Club de Periodistas” en el 2002 y 2004; y el Premio de Imagen Pública como mejor comunicadora a nivel nacional en el 2003.
+      </data>
+      <stemmer>delanguage+spanish+spanish-depluralize</stemmer>
+      <kb>spanish</kb>
+   </test>
+   <test>
+      <data>
+      el programa semanal de viajes, lleva al espectador a los sitios más exóticos y emocionantes del globo, explorando no sólo los rincones turísticos y tesoros históricos más populares sino también los más remotos paraísos románticos.
+      </data>
+      <stemmer>delanguage+spanish+spanish-depluralize</stemmer>
+      <kb>spanish</kb>
+   </test>
+   <test>
+      <data>
+      Vuelve a la Escuela y Consigue un Trabajo Mejor Pagado.
+      </data>
+      <stemmer>delanguage+spanish+spanish-depluralize</stemmer>
+      <kb>spanish</kb>
+   </test>
+   <test>
+      <data>
+      en 1942 ó 1943, un joven de 12 años de Laventille en la isla caribeña Trinidad y Tobago llamado Winston "Spree" Simon prestó a un amigo su tambor metálico de grandes dimensiones. 
+      </data>
+      <stemmer>delanguage+spanish+spanish-depluralize</stemmer>
+      <kb>spanish</kb>
+   </test>
+</testset>

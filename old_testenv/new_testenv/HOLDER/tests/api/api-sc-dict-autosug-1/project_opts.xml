@@ -1,0 +1,6 @@
+<options name="query-meta" products="all" no-override="no-override" elt-id="2"
+  max-elt-id="3" modified="1281626611" modified-by="gary_testing@QA"
+>
+  <load-options name="core" elt-id="1" />
+  <set-var name="render.function" elt-id="3">asugdisplay</set-var>
+</options>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="1" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="1" />
+<attribute name="retrieval-ms" value="3" />
+<attribute name="total-results-with-duplicates" value="1" />
+<document filetypes="pdf " vse-base-score="1"
+  vse-key="file://:80/testenv/samba_test_data/samba-1/doc/SuSE-Linux-Adminguide-9.2.pdf/"
+  priority="0" vertex="24" graph-id-high-water="23" ct="text/html"
+  url="file:///testenv/samba_test_data/samba-1/doc/SuSE-Linux-Adminguide-9.2.pdf"
+  la-score="2.63906"
+>
+  <content name="filetype" action="none" u="1">pdf</content>
+  <content name="size" weight="-1" u="3">6935191</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1172067664"
+    u="19"
+  >Feb 21,
+  2007 14:21:04 GMT</content>
+  <content name="language" weight="0" action="none" u="21">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="23">SUSE LINUX</content>
+  <content action="none" output-action="none" name="vse-debug-content">
+    <solution rank="0" score="1">
+      <pre u="173" v="192"><![CDATA[restrictions.</span> </div><div> <span>Please direct suggestions and comments to</span> </div><div> <span>documentation@suse.de</span> </div><div> <span>.</span> </div><div> <span>Authors:</span> </div><div> <span>Stefan Behlert, Frank Bodammer, Stefan Dirsch, Olaf Donjak, Roman<br/>]]></pre>
+      <content name="snippet" weight="1" output-action="summarize" u="26"
+        v="193377"
+      />
+      <match u="193" v="193">Drahtmüller, </match>
+      <post u="194" v="213"><![CDATA[Torsten Duwe, Thorsten Dubiel, Thomas Fehr, Stefan Fent,<br/>Werner Fink, Kurt Garloff, Carsten Groß, Joachim Gleißner, Andreas<br/>Grünbacher, Franz Hassels, ]]></post>
+    </solution>
+  </content>
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[ ... Behlert, Frank Bodammer, Stefan Dirsch, Olaf Donjak, Roman<br/>Drahtmüller, Torsten Duwe, Thorsten Dubiel, Thomas Fehr, Stefan Fent,<br/> ... ]]></content>
+</document>
+<retrieval-performance n-tau="10" n-rho="2" n-uat="0" n-ohr="0" occr-reads="1882"
+  block-reads="3" seeks="0" cache-hits="3" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="11" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="11" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="11" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="1703" block-reads="3" seeks="0" cache-hits="3" cache-misses="0"
+  >
+    <query-performance what="3:" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="1703" block-reads="3" seeks="0" cache-hits="3" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="6" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="89" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="6" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="89" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="6" n-rho="6" n-uat="0"
+        n-ohr="0" occr-reads="89" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-tau="6" n-rho="8" n-uat="0" n-ohr="0"
+          occr-reads="69" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+        />
+        <query-performance what="or" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="20" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+        >
+          <query-performance what="0:url" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+            occr-reads="11" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+          />
+          <query-performance what="0:host" n-tau="0" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-tau="0" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-tau="1" n-rho="0" n-uat="0"
+            n-ohr="0" occr-reads="9" block-reads="0" seeks="0" cache-hits="0"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="1" n-rho="1" n-uat="0" n-ohr="0"
+    occr-reads="10" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="1" n-rho="1" n-uat="0" n-ohr="0"
+      occr-reads="10" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-tau="1" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="10" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="1" n-rho="1" n-uat="0"
+    n-ohr="0" occr-reads="69" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="1" n-rho="1" n-uat="0" n-ohr="0"
+      occr-reads="69" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:" n-tau="1" n-rho="1" n-uat="0" n-ohr="0"
+        occr-reads="69" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+      <query-performance what="0:del#" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+        occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="not-within" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="3" block-reads="2" seeks="1" cache-hits="1" cache-misses="1"
+>
+  <query-performance what="1:drahtmuller" n-tau="2" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="3" block-reads="1" seeks="1" cache-hits="0" cache-misses="1"
+  />
+  <query-performance what="0:del#" n-tau="0" n-rho="1" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="1" seeks="0" cache-hits="1" cache-misses="0"
+  />
+</query-performance>
+</scope>

@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<scope>
+<attribute name="vse-vse">vse-vse</attribute>
+<attribute name="total-results" value="26" />
+<attribute name="admin-url"
+  value="http://testbed4.test.vivisimo.com/vivisimo/cgi-bin/admin"
+/>
+<attribute name="stem" value="depluralize" />
+<attribute name="stem2" value="none" />
+<attribute name="stoplist" value="none" />
+<attribute name="search-ms" value="0" />
+<attribute name="retrieval-ms" value="5" />
+<attribute name="total-results-with-duplicates" value="26" />
+<document filetypes="openoffice " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/db_crawl_times.ods/"
+  graph-id-high-water="10" priority="0" vertex="11" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/db_crawl_times.ods"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">10344</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640271"
+    u="26"
+  >Jun 16,
+  2008 18:17:51 GMT</content>
+  <content name="language" weight="0" action="none" u="28">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="30">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <h1>Sheet1</h1>  <td><p>DB</p></td><td><p>Page Size</p></td><td><p>Error %</p></td><td><p>Run Time</p></td><td><p>Record Count</p></td><td/>  <td><p>Postgres</p></td><td><p>53</p></td><td><p>63</p></td><td><p>17:16:48</p></td><td><p>327523</p></td><td/>  <td><p>Postgres</p></td><td><p>1000</p></td><td><p>70</p></td><td><p>1:03:54</p></td><td><p>327523</p></td><td/>  <td><p>mysql</p></td><td><p>10</p></td><td><p>0</p></td><td><p>37:40:02</p></td><td><p>327523</p></td><td/>  <td><p>mysql</p></td><td><p>1000</p></td><td><p>0</p></td><td><p>35:15</p></td><td><p> ... ]]></content>
+</document>
+<document filetypes="openoffice " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.odp/"
+  graph-id-high-water="23" priority="0" vertex="24" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.odp"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">10525</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p>test</p><li><p>outline</p></li><li><p>efadfjla</p></li><li><p/></li>  ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.docx/"
+  graph-id-high-water="17" priority="0" vertex="18" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.docx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">9975</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Vivisimo!</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p>Microsoft word is so fun.</p><p/><p>2007 is here baby.</p><p/><p/><p>Vivisimo!</p>  ]]></content>
+</document>
+<document filetypes="openoffice " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.ods/"
+  graph-id-high-water="24" priority="0" vertex="25" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.ods"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">6121</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <h1>Sheet1</h1>  <td><p>a</p></td><td><p>1</p></td>  <td><p>b</p></td><td><p>2</p></td>  <h1>Sheet2</h1>  <td/>  <h1>Sheet3</h1>  <td/>    ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/test.docx/"
+  graph-id-high-water="21" priority="0" vertex="22" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/test.docx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">14513</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640098"
+    u="24"
+  >Jun 16,
+  2008 18:14:58 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">This is 48-point text.</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p>This is a table.</p>  <td><p>Row 1 column 1</p></td><td><p>Row 1 column 2</p></td><td><p>Row 1 column 3</p></td><td><p>Row 1 column 4</p></td><td><p>Row 1 column 5</p></td>  <td><p/></td><td><p/></td><td><p/></td><td><p/></td><td><p/></td>  <td><p/></td><td><p/></td><td><p>Row 3 column 3</p></td><td><p/></td><td><p/></td>  <td><p>Row 5 column 1</p></td><td><p/></td><td><p/></td><td><p>Row 5 column 4</p></td><td><p/></td>  <p/><p>This is a bulleted  ... ]]></content>
+</document>
+<document filetypes="openoffice " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.odt/"
+  graph-id-high-water="25" priority="0" vertex="26" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.odt"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">6647</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p>The quick brown fox jumped over the lazy something dog.</p>  ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.pptx/"
+  graph-id-high-water="18" priority="0" vertex="19" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.pptx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">34170</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640015"
+    u="24"
+  >Jun 16,
+  2008 18:13:35 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28"></content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/>  <td><p>Slide 1</p><p/><p>Test text 1</p><p/></td>  <p/>  <td><p/><p/><p>a</p><p/><p/><p/><p>b</p><p/><p/><p/></td>  <p/>  <td><p>title</p><p/><p>subtitle</p><p/></td>    ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.xlsx/"
+  graph-id-high-water="19" priority="0" vertex="20" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.xlsx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">8241</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640016"
+    u="24"
+  >Jun 16,
+  2008 18:13:36 GMT</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold">     </content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/simple.dbf/"
+  graph-id-high-water="22" priority="0" vertex="23" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/simple.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">13796</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640014"
+    u="24"
+  >Jun 16,
+  2008 18:13:34 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+CODE,C,4</td><td>EMPLS,N,5,0</td><td>FCTRY,N,5,0</td><td>DOMEST,N,8,3</td><td>XPORTS,N,8,3</td><td>PRODUCTS,C,10</td><td>ORD,N,3,0</td><td>STK,N,3,0</td><td>PLN,N,3,0</td><td>UTL,N,3,0</td><td>EQPMT,N,8,3</td><td>TRN,N,3,0</td><td>POSIT,C,5</td><td>FUNCT,C,5</td><td> ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/small.xlsx/"
+  graph-id-high-water="15" priority="0" vertex="16" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/small.xlsx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">8910</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640350"
+    u="24"
+  >Jun 16,
+  2008 18:19:10 GMT</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold">     </content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/8.dbf/"
+  graph-id-high-water="7" priority="0" vertex="8" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/8.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">788</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+AKTENZEICH,C,12</td><td>FIRMA1,C,7</td><td>FIRMA2,C,7</td><td>NACHNAME1,C,12</td><td>VORNAME1,C,11</td><td>NACHNAME2,C,12</td><td>VORNAME2,C,11</td><td>ANREDE,C,8</td><td>TITEL,C,5</td><td>ZUSATZ/NAM,C,12</td><td>GEBURTSDAT,C,13</td><td>STRASSE,C,9</td><td> ... ]]></content>
+</document>
+<document filetypes="openoffice " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/testbed_plans.ods/"
+  graph-id-high-water="13" priority="0" vertex="14" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/testbed_plans.ods"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">15538</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640271"
+    u="25"
+  >Jun 16,
+  2008 18:17:51 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="29">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <h1>Sheet1</h1>  <td><p>Base Machine</p></td><td><p>Virtual Machine</p></td><td><p>IP Address</p></td><td><p>OS</p></td><td><p>VM Software</p></td><td><p>Base Disk</p></td><td><p>Base Ram</p></td><td><p>Allocated Disk</p></td><td><p>Allocated Ram</p></td><td><p>Server Functions</p></td><td><p>File availability</p></td><td><p>Email</p></td><td><p>Web server</p></td><td><p> ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/10.dbf/"
+  graph-id-high-water="20" priority="0" vertex="21" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/10.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">47278</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+PFX,C,10</td><td>STM,C,40</td><td>LEX,C,80</td><td>ALT,C,80</td><td>POS,C,15</td><td>CLS,C,10</td><td>GLS,C,200</td><td>GFN,C,15</td><td>AFX,C,20</td><td>C1,C,2</td><td>V11,C,1</td><td>T11,C,2</td><td>V12,C,1</td><td>T12,C,2</td><td>C2,C,2</td><td>V21,C,1</td><td>T2,C,2</td><td>V22,C,1</td><td>C3, ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/table.docx/"
+  graph-id-high-water="14" priority="0" vertex="15" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/table.docx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">11699</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640098"
+    u="24"
+  >Jun 16,
+  2008 18:14:58 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p>This is a document with a table.</p><p/>  <td><p>Row 1 column 1</p></td><td><p>Row 1 column 2</p></td><td><p>Row 1 column 3</p></td><td><p>Row 1 column 4</p></td><td><p>Row 1 column 5</p></td>  <td><p/></td><td><p/></td><td><p/></td><td><p/></td><td><p/></td>  <td><p/></td><td><p/></td><td><p>Row 3 column 3</p></td><td><p/></td><td><p/></td>  <td><p>Row 5 column 1</p></td><td><p/></td><td><p/></td><td><p>Row 5 column 4</p></td><td><p/></td>  <p/><p>This  ... ]]></content>
+</document>
+<document filetypes="openoffice " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/quick_tests.odt/"
+  graph-id-high-water="11" priority="0" vertex="12" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/quick_tests.odt"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">openoffice</content>
+  <content name="size" weight="-1" u="3">24057</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640280"
+    u="25"
+  >Jun 16,
+  2008 18:18:00 GMT</content>
+  <content name="language" weight="0" action="none" u="27">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="29">Untitled Document</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <h1>Purpose</h1><p>The purpose of this document is to present the various field types which occur within the Vivisimo UI, and put forward a set of common test data which  ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/2.dbf/"
+  graph-id-high-water="1" priority="0" vertex="2" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/2.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">184</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+ID,N,15,0</td><td>NAME,C,70</td>  <td>612</td><td>Test</td>  <td/>    ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/Interwoven.pptx/"
+  graph-id-high-water="16" priority="0" vertex="17" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/Interwoven.pptx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">617487</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640321"
+    u="24"
+  >Jun 16,
+  2008 18:18:41 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Interwoven – PSIS Business Unit</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/>  <td><p><span>The Interwoven and Vivisimo Partnership</span></p><p/> <li><span>Interwoven – PSIS Business Unit</span></li><li><span>Phase I – Professional Services Industry (Legal and Accounting) – served by IWOV Sales and  ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/9.dbf/"
+  graph-id-high-water="8" priority="0" vertex="9" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/9.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">2894</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+ID,N,20,5</td><td>ORE_NAME,C,50</td><td>ORE_ADDR1,C,50</td><td>ORE_CITY,C,30</td><td>ORE_STATE,C,2</td><td>ORE_ZIP,C,10</td><td>SALES_AO,C,25</td><td>MKT_PRICE,N,20,5</td><td>PROP_TYPE,C,3</td><td>BRKR_NAME,C,50</td><td>BRKR_PHON,C, ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/7.dbf/"
+  graph-id-high-water="6" priority="0" vertex="7" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/7.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">10050</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+DESC,C,80</td><td>NAME,C,23</td><td>LEN,N,20,5</td>  <td>File Identification</td><td>FILEID</td><td>6.00000</td>  <td>State/US-Abbreviation (USPS)</td><td>STUSAB</td><td>2.00000</td>  <td>Summary Level</td><td>SUMLEV</td><td>3.00000</td>  <td>Geographic Component</td><td> ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/3.dbf/"
+  graph-id-high-water="2" priority="0" vertex="3" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/3.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">34252</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+WBS,C,23</td><td>TASK,C,26</td><td>DESCRIPTIO,M</td><td>BASIS_EST,M</td><td>DATE_EST,D</td><td>ESTIMATOR,C,10</td><td>SOURCE,C,6</td><td>SOURCE_TY,C,1</td><td>CATEGORY,C,1</td><td>INSTITUTE,C,6</td><td>LRATE_COL,C,1</td><td>LABOR_TYPE,C,4</td><td>UNIT, ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/ptcm.xlsx/"
+  graph-id-high-water="12" priority="0" vertex="13" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/ptcm.xlsx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">628191</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640350"
+    u="24"
+  >Jun 16,
+  2008 18:19:10 GMT</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold">     </content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/1.dbf/"
+  graph-id-high-water="0" priority="0" vertex="1" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/1.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">21628</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+QUESTION_N,N,20,5</td><td>REVISION_D,D</td><td>QUESTION_T,C,1</td><td>DATE_LOADE,D</td><td>DATE_REPLA,D</td><td>QUESTION,C,200</td>  <td>21.00000</td><td>20030113</td><td>H</td><td/><td/><td>Female Donors: Are you pregnant now, or have you been  ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/5.dbf/"
+  graph-id-high-water="4" vertex="5" priority="0" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/5.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="22"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td/>    ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/4.dbf/"
+  graph-id-high-water="3" priority="0" vertex="4" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/4.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">34252</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+WBS,C,23</td><td>TASK,C,26</td><td>DESCRIPTIO,M</td><td>BASIS_EST,M</td><td>DATE_EST,D</td><td>ESTIMATOR,C,10</td><td>SOURCE,C,6</td><td>SOURCE_TY,C,1</td><td>CATEGORY,C,1</td><td>INSTITUTE,C,6</td><td>LRATE_COL,C,1</td><td>LABOR_TYPE,C,4</td><td>UNIT, ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/ooxml1.docx/"
+  graph-id-high-water="9" priority="0" vertex="10" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/ooxml1.docx"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">396219</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640098"
+    u="24"
+  >Jun 16,
+  2008 18:14:58 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content type="text" name="title" output-action="bold" weight="3" u="28">Office Open XML</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[   <p/><p>Office Open XML File Formats</p><p/><p>ECMA-376</p><p>1st Edition / December 2006</p><p>
+<p>Office Open XML File Formats</p></p><p>Standard</p><p>ECMA-376</p><p>1st Edition / December 2006</p><p>Office Open XML</p><p>Part  ... ]]></content>
+</document>
+<document filetypes="html " vse-base-score="1"
+  vse-key="smb://testbed5.test.vivisimo.com:80/testfiles/samba_test_data/11601/doc/6.dbf/"
+  graph-id-high-water="5" vertex="6" priority="0" ct="text/html"
+  url="file://///testbed5.test.vivisimo.com/testfiles/samba_test_data/11601/doc/6.dbf"
+  la-score="3.3322"
+>
+  <content name="filetype" action="none" u="1">html</content>
+  <content name="size" weight="-1" u="3">1059020</content>
+  <content name="last-modified" action="none" weight="-1" seconds="1213640065"
+    u="24"
+  >Jun 16,
+  2008 18:14:25 GMT</content>
+  <content name="language" weight="0" action="none" u="26">unknown</content>
+  <content action="none" output-action="none" name="vse-debug-content" />
+  <content name="snippet" action="cluster" output-action="bold"><![CDATA[     <td>
+NAME,C,55</td><td>TYPE,C,9</td><td>FIPS,N,5,0</td>  <td>Antelope Grange Hall</td><td>building</td><td>56031</td>  <td>Enos Lake Patrol Cabin</td><td>building</td><td>56039</td>  <td>Lake Hotel</td><td>building</td><td>56039</td>  <td>State Capitol</td><td>building</td><td>56021</td>  <td> ... ]]></content>
+</document>
+<retrieval-performance n-tau="219" n-rho="0" n-uat="0" n-ohr="0"
+  occr-reads="6754" block-reads="62" seeks="24" cache-hits="62" cache-misses="0"
+>
+  <query-performance what="doc-text" n-tau="50" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="54" block-reads="8" seeks="4" cache-hits="8" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="50" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="54" block-reads="8" seeks="4" cache-hits="8" cache-misses="0"
+    >
+      <query-performance what="0:doc#" n-blocks="1" n-tau="50" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="54" block-reads="4" seeks="4" cache-hits="4"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="4" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="4" seeks="0" cache-hits="4"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="del" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="text" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="6069" block-reads="22" seeks="0" cache-hits="22" cache-misses="0"
+  >
+    <query-performance what="3:" n-blocks="220" n-tau="0" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="6069" block-reads="22" seeks="0" cache-hits="22"
+      cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="output" n-tau="134" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="576" block-reads="24" seeks="16" cache-hits="24" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="134" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="576" block-reads="24" seeks="16" cache-hits="24"
+      cache-misses="0"
+    >
+      <query-performance what="not-containing" n-tau="134" n-rho="134" n-uat="0"
+        n-ohr="0" occr-reads="576" block-reads="20" seeks="16" cache-hits="20"
+        cache-misses="0"
+      >
+        <query-performance what="0:" n-blocks="1" n-tau="134" n-rho="212"
+          n-uat="0" n-ohr="0" occr-reads="403" block-reads="4" seeks="4" cache-hits="4"
+          cache-misses="0"
+        />
+        <query-performance what="or" n-tau="101" n-rho="0" n-uat="0" n-ohr="0"
+          occr-reads="173" block-reads="16" seeks="12" cache-hits="16" cache-misses="0"
+        >
+          <query-performance what="0:url" n-blocks="1" n-tau="50" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="58" block-reads="4" seeks="4" cache-hits="4"
+            cache-misses="0"
+          />
+          <query-performance what="0:host" n-blocks="1" n-tau="50" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="58" block-reads="4" seeks="4" cache-hits="4"
+            cache-misses="0"
+          />
+          <query-performance what="0:crawled-date" n-blocks="1" n-tau="4"
+            n-rho="0" n-uat="0" n-ohr="0" occr-reads="0" block-reads="4" seeks="0"
+            cache-hits="4" cache-misses="0"
+          />
+          <query-performance what="0:snippet" n-blocks="1" n-tau="49" n-rho="0"
+            n-uat="0" n-ohr="0" occr-reads="57" block-reads="4" seeks="4" cache-hits="4"
+            cache-misses="0"
+          />
+        </query-performance>
+      </query-performance>
+      <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="4" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="4" seeks="0" cache-hits="4"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="summarize" n-tau="35" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="55" block-reads="8" seeks="4" cache-hits="8" cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="35" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="55" block-reads="8" seeks="4" cache-hits="8" cache-misses="0"
+    >
+      <query-performance what="0:snippet" n-blocks="1" n-tau="35" n-rho="0"
+        n-uat="0" n-ohr="0" occr-reads="55" block-reads="4" seeks="4" cache-hits="4"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="4" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="4" seeks="0" cache-hits="4"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+  <query-performance what="def-search" />
+  <query-performance what="content" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  >
+    <query-performance what="document" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    />
+  </query-performance>
+  <query-performance what="really-content" n-tau="0" n-rho="0" n-uat="0"
+    n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+    cache-misses="0"
+  >
+    <query-performance what="not-within" n-tau="0" n-rho="0" n-uat="0" n-ohr="0"
+      occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+    >
+      <query-performance what="0:" n-blocks="1" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+      <query-performance what="0:del#" n-blocks="1" n-tau="0" n-rho="0" n-uat="0"
+        n-ohr="0" occr-reads="0" block-reads="0" seeks="0" cache-hits="0"
+        cache-misses="0"
+      />
+    </query-performance>
+  </query-performance>
+</retrieval-performance>
+<query-performance what="containing" n-tau="27" n-rho="26" n-uat="0" n-ohr="0"
+  occr-reads="183" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+>
+  <query-performance what="document" n-tau="27" n-rho="26" n-uat="0" n-ohr="0"
+    occr-reads="0" block-reads="0" seeks="0" cache-hits="0" cache-misses="0"
+  />
+  <query-performance what="not-within" n-tau="26" n-rho="0" n-uat="0" n-ohr="0"
+    occr-reads="183" block-reads="2" seeks="1" cache-hits="2" cache-misses="0"
+  >
+    <query-performance what="0:" n-blocks="1" n-tau="26" n-rho="0" n-uat="0"
+      n-ohr="0" occr-reads="183" block-reads="1" seeks="1" cache-hits="1"
+      cache-misses="0"
+    />
+    <query-performance what="0:del#" n-blocks="0" n-tau="0" n-rho="1" n-uat="0"
+      n-ohr="0" occr-reads="0" block-reads="1" seeks="0" cache-hits="1"
+      cache-misses="0"
+    />
+  </query-performance>
+</query-performance>
+</scope>
