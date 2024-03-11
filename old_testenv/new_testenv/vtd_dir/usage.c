@@ -33,9 +33,8 @@
 void version_info()
 {
    printf("VTD:  Version 1.0\n");
-   printf("        *   Copyright (c) 2007 Vivisimo Corporation(R)\n");
-   printf("        *   1710 Murray Ave\n");
-   printf("        *   Pittsburgh, PA  15217\n");
+   printf("        *   Copyright (c) 2002 Gary Williams\n");
+   printf("        *   Lee, MA  01238\n");
    printf("\n\n");
    fflush(stdout);
    return;
