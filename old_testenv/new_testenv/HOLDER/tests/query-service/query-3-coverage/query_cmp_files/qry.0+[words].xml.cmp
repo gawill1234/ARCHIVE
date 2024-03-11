@@ -1,4 +1,0 @@
-
-<scope><attribute name="status"><![CDATA[
-
-error (1 ms) - vivisimo_query_convert	: Invalid operator [words] in query: [must specify a positive number of words] (ID: SEARCH_ENGINE_QUERY)]]></attribute></scope>
