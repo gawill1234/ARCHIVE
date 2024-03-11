@@ -1,8 +1,0 @@
-# This needs to be invoked from the root of the /testenv/ checkout, like this:
-#    source env.setup/testbed12
-
-source env.setup/common
-export VIVHOST=testbed12.bigdatalab.ibm.com
-export VIVTARGETARCH=solaris64
-export VIVTARGETOS=solaris
-export OSSTRING="Solaris 10"

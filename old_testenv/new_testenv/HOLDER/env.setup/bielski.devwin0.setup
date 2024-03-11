@@ -1,9 +1,0 @@
-source /home/bielski/testenv/env.setup/common
-export VIVTARGETARCH=windows64
-export VIVHOST=devwin0
-export VIVPORT=7171
-export VIVTARGETOS=windows
-export VIVUSER=bielski
-export VIVPW=t3stb3d
-export VIVVIRTUALDIR=vivisimo-bielski
-export VIVVERSION=7.5

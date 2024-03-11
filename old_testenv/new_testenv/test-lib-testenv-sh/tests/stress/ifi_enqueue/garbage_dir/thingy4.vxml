@@ -1,9 +1,0 @@
-<vce>
-              <document url="http://vivisimo.com?odd2">
-                <content name="title">character</content>
-                <content name="type">operator</content>
-                <content name="pseudo">number shift mix</content>
-                <content name="text">some chars ! @ # $ %</content>
-                <content name="type">odd characters</content>
-              </document>
-</vce>

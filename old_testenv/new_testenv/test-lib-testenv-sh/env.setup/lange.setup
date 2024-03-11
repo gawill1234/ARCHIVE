@@ -1,3 +1,0 @@
-source env.setup/common
-export VIVHOST=lange-8.2.turnip.devel.bigdatalab.ibm.com
-export VIVPORT=7264

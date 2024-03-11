@@ -1,2 +1,0 @@
-# Crank up indexer threading.
-export INDEX_OPTIONS='n-build-threads=10,n-reconstruct-threads=10'

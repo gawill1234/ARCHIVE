@@ -1,5 +1,0 @@
-<syntax name="custom" products="all" no-override="no-override" modified-by="lince" max-elt-id="4" modified="1277475842">
-  <load-syntax name="core" />
-  <operator middle-string="&amp;&amp;" name="&amp;&amp;" logic="and" />
-  <operator middle-string="||" name="||" logic="or" />
-</syntax>

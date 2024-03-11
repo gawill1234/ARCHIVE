@@ -1,3 +1,0 @@
-
-
-error (78 ms) - index-builder	: [oracle://testbed5.test.vivisimo.com:1521/orcl/vessel_view?per=1000] - Error [no documents/contents/deletes found] (ID: SEARCH_ENGINE_INDEXING)

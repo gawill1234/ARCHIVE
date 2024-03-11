@@ -1,6 +1,0 @@
-drop view vessel_view;
-drop table alignment;
-drop table designation;
-drop table vessel;
-drop table vessel_url;
-

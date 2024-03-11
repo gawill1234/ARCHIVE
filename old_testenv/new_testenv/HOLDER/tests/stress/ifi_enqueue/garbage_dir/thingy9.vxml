@@ -1,8 +1,0 @@
-<vce>
-              <document url="http://vivisimo.com?punctuation">
-                <content name="title">string</content>
-                <content name="type">sentence</content>
-                <content name="type">full sentence</content>
-                <content name="text">Hello.  What, I ask, are you up to?  No; wait:  WOW!'"</content>
-              </document>
-</vce>

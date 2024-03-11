@@ -1,9 +1,0 @@
-#try_loader -site http://testbed18-1.test.vivisimo.com:47401 -user administrator -pw Mustang5 -domain sptest -create listbunch -mountpoint / -itemname NCC-1701 -numitems 20
-
-try_loader -site 10.7.8.3 -connector filenetp8 -port 9443 -webport 9080 -store Store1 -user Administrator -pw admin -create tree -mountpoint /testenv/test_data/law/F2/545
-
-
-#try_loader -site 192.168.0.146 -user Admin -pw livelink -create folder -mountpoint /Enterprise/test_data -itemname garbage_folder
-
-#try_loader -site 10.7.8.3 -user Administrator -pw admin -showall
-

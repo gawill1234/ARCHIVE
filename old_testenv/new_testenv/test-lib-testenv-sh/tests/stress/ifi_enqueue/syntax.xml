@@ -1,9 +1,0 @@
-<syntax name="custom" products="all" no-override="no-override" elt-id="2"
-        max-elt-id="3" modified="1316018325" modified-by="gary_testing@QA">
-  <load-syntax name="core" elt-id="1" />
-  <field elt-id="3" name="type" processing="optional" />
-  <field elt-id="3" name="pseudo" processing="optional" />
-  <field elt-id="3" name="NATION" processing="optional" />
-  <field elt-id="3" name="ALIGNED" processing="optional" />
-  <field elt-id="3" name="SHIP_TYPE" processing="optional" />
-</syntax>

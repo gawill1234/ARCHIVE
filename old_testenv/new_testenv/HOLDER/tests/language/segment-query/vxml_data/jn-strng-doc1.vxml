@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<vce>
-        <document vse-key="document://JN1/doc1">
-           <vse-index-stream segmenter="japanese" stem="depluralize" kb="japanese-indexing"/>
-           <content name="title">オムロンヘルスケア、通信機能付き体重計や血圧計</content>
-           <content name="qid-list">JN1-2::JN1-3::ALL</content>
-        </document>
-</vce>

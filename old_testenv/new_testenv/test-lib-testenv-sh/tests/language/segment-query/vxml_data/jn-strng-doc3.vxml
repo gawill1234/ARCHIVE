@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<vce>
-        <document vse-key="document://JN1/doc3">
-           <vse-index-stream segmenter="japanese" stem="depluralize" kb="japanese-indexing"/>
-           <content name="title">オムロン、就寝前の目標表示する体重体組成計</content>
-           <content name="qid-list">ALL</content>
-        </document>
-</vce>

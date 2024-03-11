@@ -1,4 +1,0 @@
-wcc-continuous-1, Test Passed, death(Normal), time(M:28800, A:2206), exit(E:0, A:0), pid(31572)
-ucm-updates-1, Test Passed, death(Normal), time(M:28800, A:886), exit(E:0, A:0), pid(10924)
-wcc-continuous-2, Test Passed, death(Normal), time(M:28800, A:3100), exit(E:0, A:0), pid(8455)
-ucm-basic-1, Test Failed, death(Normal), time(M:28800, A:23320), exit(E:0, A:1), pid(14148)

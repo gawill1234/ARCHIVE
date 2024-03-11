@@ -1,4 +1,0 @@
-x=`cat addrlist`
-for i in $x; do
-   grep "^$i=" language_data_summary >> bad_word_list
-done

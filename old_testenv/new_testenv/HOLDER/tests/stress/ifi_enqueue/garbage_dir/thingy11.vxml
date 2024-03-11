@@ -1,8 +1,0 @@
-<vce>
-              <document url="http://vivisimo.com?set">
-                <content name="title">string</content>
-                <content name="type">set</content>
-                <content name="pseudo">look alike</content>
-                <content name="text">[set string]</content>
-              </document>
-</vce>

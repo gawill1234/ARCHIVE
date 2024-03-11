@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<vce>
-        <document vse-key="document://JN1/doc42">
-           <vse-index-stream segmenter="japanese" stem="depluralize" kb="japanese-indexing"/>
-           <content name="title">ABC様よりのご質問で「フルオリド」で検索するとクラスタリング結果では、「酢酸フル」、「表されるぺルフルオロカルボン酸フル」といったようにフルオリド　→　フル　と省略されてしまうとのご連絡を頂いております。</content>
-           <content name="qid-list">ALL</content>
-        </document>
-</vce>

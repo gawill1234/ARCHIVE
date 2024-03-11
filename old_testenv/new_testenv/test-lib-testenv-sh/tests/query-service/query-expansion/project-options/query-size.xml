@@ -1,7 +1,0 @@
-<options name="query-meta" no-override="no-override" elt-id="2" max-elt-id="4"
-  modified="1228943806" modified-by="test-all"
->
-  <load-options name="core" elt-id="1" />
-  <set-var name="query.num-total" elt-id="4">100000</set-var>
-</options>
-

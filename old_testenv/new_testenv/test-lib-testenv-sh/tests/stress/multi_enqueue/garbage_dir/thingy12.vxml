@@ -1,6 +1,0 @@
-<vce>
-              <document url="http://vivisimo.com?atomset">
-                <content name="text">9([^0-9a-z][A-Z])$</content>
-                <content name="type">atom/set mix look alike</content>
-              </document>
-</vce>

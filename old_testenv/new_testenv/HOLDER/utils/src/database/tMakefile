@@ -1,7 +1,0 @@
-
-SUBDIRS = `ls */tMakefile | sed "s/tMakefile//g"`
-
-all:
-	for i in $(SUBDIRS); do \
-		$(MAKE) -C $$i -f tMakefile all TEST_ROOT=$(TEST_ROOT); \
-	done

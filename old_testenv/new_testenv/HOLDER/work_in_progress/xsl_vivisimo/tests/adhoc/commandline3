@@ -1,1 +1,0 @@
-wget --user=williams --password=mustang5 --output-document=xmlOut3 "http://williams.dev2.vivisimo.com/vivisimo/cgi-bin/query-meta?input-form=simple&v%3Asources=vivisimo&v%3Aproject=query-meta&query=xml&content-type=text/xml&render.function=xml-feed"

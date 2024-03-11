@@ -1,1 +1,0 @@
-<scope><attribute name="admin-url" value="http://testbed6-8.test.vivisimo.com/vivisimo/cgi-bin/admin" /><contextual-msg><msg time="3" date="1374081503" id="SEARCH_ENGINE_EMPTY_INDEX"><![CDATA[The index for the ]]><string name="collection"><![CDATA[content-size-5]]></string><![CDATA[ collection is empty so there is nothing to search. ]]></msg></contextual-msg></scope>

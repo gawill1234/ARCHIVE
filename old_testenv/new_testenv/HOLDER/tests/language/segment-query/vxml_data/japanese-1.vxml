@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<vce>
-        <document vse-key="document://JN1/query">
-           <vse-index-stream segmenter="japanese" stem="depluralize" kb="japanese-indexing"/>
-           <content name="title">xxxx-query-data-xxxx</content>
-           <content name="query-data">query=::count=50::qid=ALL||query=創業::count=1::qid=JN1-1||query=通信::count=1::qid=JN1-2||query=機能::count=1::qid=JN1-3||query=日::count=2::qid=JN1-4||query=薬::count=4::qid=JN1-5||query=にあたっては観察を十分に行い::count=1::qid=JN1-6||query=にあたっては観察を十分に行::count=0::qid=JN1-7||query=抗::count=3::qid=JN1-8</content>
-        </document>
-</vce>

@@ -1,3 +1,0 @@
-#!/bin/bash
-
-grep -iv http es_lang_data | grep -iv vivisim | grep -iv com | grep -iv  --regexp=": \+[0123]\+.*"

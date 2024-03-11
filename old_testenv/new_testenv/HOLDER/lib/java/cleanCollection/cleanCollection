@@ -1,7 +1,0 @@
-#!/bin/bash
-
-export CLASSPATH=$CLASSPATH:$TEST_ROOT/lib/java/cleanCollection
-
-java cleanCollection $*
-
-exit $?

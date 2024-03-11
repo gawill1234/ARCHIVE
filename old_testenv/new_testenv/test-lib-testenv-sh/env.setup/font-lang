@@ -1,8 +1,0 @@
-source env.setup/common
-export VIVHOST=font-lang.turnip.devel.bigdatalab.ibm.com
-export VIVTARGETARCH=linux64
-export VIVTARGETOS=linux
-export OSSTRING="CentOS"
-export VIVUSER=test-all
-export VIVPW=P@$$word#1?
-export VIVPORT=7222

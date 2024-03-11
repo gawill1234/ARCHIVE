@@ -1,9 +1,0 @@
-http://en.wikipedia.org/wiki/USS_Arizona_%28BB-39%29
-   MATCH:  Arizona<content name="RX" type="text" />32<content name="NATION" type="text" />USA<content name="ALIGNED" type="text" />allied<content name="SHIP_TYPE" type="text" />Battleship
-   MATCH:  Battleship<content name="URL_LOCATER" type="text" />http://en.wikipedia.org/wiki/USS_Arizona_%
-http://www.history.navy.mil/photos/sh-usn/usnsh-a/bb39.htm
-   MATCH:  Arizona<content name="RX" type="text" />33<content name="NATION" type="text" />USA<content name="ALIGNED" type="text" />allied<content name="SHIP_TYPE" type="text" />Battleship
-http://www.nps.gov/usar/
-   MATCH:  Arizona<content name="RX" type="text" />34<content name="NATION" type="text" />USA<content name="ALIGNED" type="text" />allied<content name="SHIP_TYPE" type="text" />Battleship
-
-

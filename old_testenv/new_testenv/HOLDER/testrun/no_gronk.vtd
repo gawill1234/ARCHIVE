@@ -1,8 +1,0 @@
-(run=1800)./numeric_not.tst
-(run=1800)./numeric_range.tst
-(run=1800)./numeric_comparisons.tst
-(run=1800)./wrong_types.tst
-(run=1800)./string_equality.tst
-(run=1800)./string_not.tst
-(run=1800)./arena-atomic-1.tst
-(run=1800)./parse-ldap.tst

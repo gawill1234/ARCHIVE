@@ -1,3 +1,0 @@
-For db2, postgres and mysql you will have to create a database
-to put the data into.  Oracle usually has this created at install
-and uses the default name orcl (set ORACLE_SID to orcl).
