@@ -5,4 +5,7 @@ still be useful with minor modifications.  They have all be released to the publ
 company where they were written.  Many were written my me.  If you want them, feel free to "borrow"
 them.
 
+vtd_dir contains a test driver.  Need to build the make file, but the code was complete last I use
+it.
+
 If you have questions, gawill1234@gmail.com.  Put "CRI tests" in the subject line.
